@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>uknight &#8211; mattwhite.me</title>
+	<atom:link href="/tag/uknight/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>The Lotusphere party invites begin&#8230;</title>
+		<link>/2009-12-10-the-lotusphere-party-invites-begin-html/</link>
+					<comments>/2009-12-10-the-lotusphere-party-invites-begin-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 10 Dec 2009 13:14:03 +0000</pubDate>
+				<category><![CDATA[Lotusphere2010]]></category>
+		<category><![CDATA[ldc]]></category>
+		<category><![CDATA[ls10]]></category>
+		<category><![CDATA[uknight]]></category>
+		<guid isPermaLink="false">/2009-12-10-the-lotusphere-party-invites-begin-html/</guid>
+
+					<description><![CDATA[If you&#8217;re going to Lotusphere in January, then you&#8217;ll know that there are *lots* of parties to try and get invites for. Well this is another one to add to your list. The details of the UK Night can be found over on Warren&#8217;s blog. Come find myself or one of the other LDC members [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>If you&#8217;re going to Lotusphere in January, then you&#8217;ll know that there are *lots* of parties to try and get invites for. Well this is another one to add to your list. The details of the <a href="http://www.elsmore.net/warren/blog.nsf/d6plinks/WELE-7YLGRR">UK Night can be found over on Warren&#8217;s blog</a>. Come find myself or one of the other LDC members or other sponsors for a sticker to get in. It is a free beer after all, so worth the effort!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-12-10-the-lotusphere-party-invites-begin-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

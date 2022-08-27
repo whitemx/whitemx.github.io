@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: How to migrate Blogsphere data into a Squarespace Blog	</title>
+	<atom:link href="/2009-5-30-how-to-migrate-blogsphere-data-into-a-squarespace-blog-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2009-5-30-how-to-migrate-blogsphere-data-into-a-squarespace-blog-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:41 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2009-5-30-how-to-migrate-blogsphere-data-into-a-squarespace-blog-html/#comment-159</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Tue, 30 Jun 2009 23:01:30 +0000</pubDate>
+		<guid isPermaLink="false">/2009-5-30-how-to-migrate-blogsphere-data-into-a-squarespace-blog-html/#comment-159</guid>
+
+					<description><![CDATA[&lt;p&gt;Now you go to your squarespace site -&#062; Website Management -&#062; Blog Importer and then choose the wordpress format and import the file you created. In theory, you should have your entire site in your new squarespace blog without issues after that.&lt;/p&gt;&lt;p&gt;Once you are happy you can switch over your blog URL using DNS and noone will be any the wiser that you used to run a Domino blog ;-)&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Now you go to your squarespace site -&gt; Website Management -&gt; Blog Importer and then choose the wordpress format and import the file you created. In theory, you should have your entire site in your new squarespace blog without issues after that.</p>
+<p>Once you are happy you can switch over your blog URL using DNS and noone will be any the wiser that you used to run a Domino blog 😉</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Ben Poole		</title>
+		<link>/2009-5-30-how-to-migrate-blogsphere-data-into-a-squarespace-blog-html/#comment-158</link>
+
+		<dc:creator><![CDATA[Ben Poole]]></dc:creator>
+		<pubDate>Tue, 30 Jun 2009 13:40:48 +0000</pubDate>
+		<guid isPermaLink="false">/2009-5-30-how-to-migrate-blogsphere-data-into-a-squarespace-blog-html/#comment-158</guid>
+
+					<description><![CDATA[&lt;p&gt;Splendid! Thought you might be interested: I adapted your code to run against my hand-rolled Domino site, and it exported 1,320 weblog entries (with around 4,000 comments) in less than a minute. The resulting XML file is 6.3MB.&lt;/p&gt;&lt;p&gt;Now what?&lt;/p&gt;&lt;p&gt;:-)&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Splendid! Thought you might be interested: I adapted your code to run against my hand-rolled Domino site, and it exported 1,320 weblog entries (with around 4,000 comments) in less than a minute. The resulting XML file is 6.3MB.</p>
+<p>Now what?</p>
+<p>🙂</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

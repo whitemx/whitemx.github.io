@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: On synchronization in XPages	</title>
+	<atom:link href="/2009-9-14-on-synchronization-in-xpages-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2009-9-14-on-synchronization-in-xpages-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Horatiu Agarbiceanu		</title>
+		<link>/2009-9-14-on-synchronization-in-xpages-html/#comment-1402</link>
+
+		<dc:creator><![CDATA[Horatiu Agarbiceanu]]></dc:creator>
+		<pubDate>Mon, 11 Apr 2011 13:26:57 +0000</pubDate>
+		<guid isPermaLink="false">/2009-9-14-on-synchronization-in-xpages-html/#comment-1402</guid>
+
+					<description><![CDATA[&lt;p&gt;Am I late to the party? :) seams so....&lt;/p&gt;&lt;p&gt;regarding the isCacheInvalid function, why not use the last modified date/time of the settings/control panel document? and keep the cache as long as the document is not changed.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Am I late to the party? 🙂 seams so&#8230;.</p>
+<p>regarding the isCacheInvalid function, why not use the last modified date/time of the settings/control panel document? and keep the cache as long as the document is not changed.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Tommy Valand		</title>
+		<link>/2009-9-14-on-synchronization-in-xpages-html/#comment-1401</link>
+
+		<dc:creator><![CDATA[Tommy Valand]]></dc:creator>
+		<pubDate>Tue, 16 Mar 2010 15:11:18 +0000</pubDate>
+		<guid isPermaLink="false">/2009-9-14-on-synchronization-in-xpages-html/#comment-1401</guid>
+
+					<description><![CDATA[&lt;p&gt;Thanks for posting this. I finally got around to testing out this technique, and it work great!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thanks for posting this. I finally got around to testing out this technique, and it work great!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Tibor Koch		</title>
+		<link>/2009-9-14-on-synchronization-in-xpages-html/#comment-1400</link>
+
+		<dc:creator><![CDATA[Tibor Koch]]></dc:creator>
+		<pubDate>Wed, 28 Oct 2009 09:43:29 +0000</pubDate>
+		<guid isPermaLink="false">/2009-9-14-on-synchronization-in-xpages-html/#comment-1400</guid>
+
+					<description><![CDATA[&lt;p&gt;Quick update on myself:&lt;br/&gt;I didn&#039;t know but it&#039;s a bad practice to use a synchronized block inside a for loop (my knowledge about threads is far from desirable :) ).&lt;br/&gt;Another thing is that though the applicationScope object seems like a singleton it&#039;s still doesn&#039;t block correctly, so if I use a simple singleton object then it works fine:&lt;/p&gt;&lt;p&gt;var viewSeq:NotesView = database.getView(&#034;seq&#034;);&lt;br/&gt;var docSeq:NotesDocument = viewSeq.getFirstDocument();&lt;br/&gt;								&lt;br/&gt;synchronized(util.TestSingleton.getInstance()) {								&lt;br/&gt;	viewSeq.refresh();&lt;br/&gt;	for (i = 0; i &#060; 100; i++) {	&lt;br/&gt;		newId = @Right(&#034;00000&#034; + @Text((@TextToNumber(docSeq.getItemValueString(&#034;seqNumber&#034;)) + 1)), 5);		 		&lt;br/&gt;		docSeq.replaceItemValue(&#034;seqNumber&#034;, newId);&lt;br/&gt;		docSeq.save();&lt;br/&gt;	}	&lt;br/&gt;}&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Quick update on myself:<br />I didn&#8217;t know but it&#8217;s a bad practice to use a synchronized block inside a for loop (my knowledge about threads is far from desirable 🙂 ).<br />Another thing is that though the applicationScope object seems like a singleton it&#8217;s still doesn&#8217;t block correctly, so if I use a simple singleton object then it works fine:</p>
+<p>var viewSeq:NotesView = database.getView(&quot;seq&quot;);<br />var docSeq:NotesDocument = viewSeq.getFirstDocument();</p>
+<p>synchronized(util.TestSingleton.getInstance()) {								<br />	viewSeq.refresh();<br />	for (i = 0; i &lt; 100; i++) {	<br />		newId = @Right(&quot;00000&quot; + @Text((@TextToNumber(docSeq.getItemValueString(&quot;seqNumber&quot;)) + 1)), 5);		 		<br />		docSeq.replaceItemValue(&quot;seqNumber&quot;, newId);<br />		docSeq.save();<br />	}	<br />}</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Tibor Koch		</title>
+		<link>/2009-9-14-on-synchronization-in-xpages-html/#comment-1399</link>
+
+		<dc:creator><![CDATA[Tibor Koch]]></dc:creator>
+		<pubDate>Mon, 19 Oct 2009 13:46:33 +0000</pubDate>
+		<guid isPermaLink="false">/2009-9-14-on-synchronization-in-xpages-html/#comment-1399</guid>
+
+					<description><![CDATA[&lt;p&gt;Hi Matt,&lt;/p&gt;&lt;p&gt;I tried to create a simple sequence number generator but no matter what object I synch on it seems a synchronize block cannot handle multiple threads properly.&lt;br/&gt;I tested it with the following code:&lt;/p&gt;&lt;p&gt;var viewSeq:NotesView = database.getView(&#034;seq&#034;);&lt;br/&gt;var docSeq:NotesDocument = viewSeq.getFirstDocument();&lt;/p&gt;&lt;p&gt;for (i = 0; i &#060; 100; i++) {								&lt;br/&gt;	synchronized(applicationScope) {&lt;br/&gt;		viewSeq.refresh();&lt;br/&gt;		newId = @Right(&#034;00000&#034; + @Text((@TextToNumber(docSeq.getItemValueString(&#034;seqNumber&#034;)) + 1)), 5);		 		&lt;br/&gt;		docSeq.replaceItemValue(&#034;seqNumber&#034;, newId);	&lt;br/&gt;		docSeq.save();&lt;br/&gt;	}	&lt;br/&gt;}&lt;/p&gt;&lt;p&gt;I use applicationScope as the lock, because in theory there is only one applicationScope object in any app.&lt;br/&gt;I expected this code to generate sequential numbers correctly, but when we tried to test it with 2 users who clicked on a button at the same time the last generated number was between 100 and 200.&lt;br/&gt;I tried it with a synchronized java function and it works as expected.&lt;/p&gt;&lt;p&gt;Did I miss something here?&lt;br/&gt;Is it possible to define synchronized functions?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Thanks,&lt;br/&gt;Tibor&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hi Matt,</p>
+<p>I tried to create a simple sequence number generator but no matter what object I synch on it seems a synchronize block cannot handle multiple threads properly.<br />I tested it with the following code:</p>
+<p>var viewSeq:NotesView = database.getView(&quot;seq&quot;);<br />var docSeq:NotesDocument = viewSeq.getFirstDocument();</p>
+<p>for (i = 0; i &lt; 100; i++) {								<br />	synchronized(applicationScope) {<br />		viewSeq.refresh();<br />		newId = @Right(&quot;00000&quot; + @Text((@TextToNumber(docSeq.getItemValueString(&quot;seqNumber&quot;)) + 1)), 5);		 		<br />		docSeq.replaceItemValue(&quot;seqNumber&quot;, newId);	<br />		docSeq.save();<br />	}	<br />}</p>
+<p>I use applicationScope as the lock, because in theory there is only one applicationScope object in any app.<br />I expected this code to generate sequential numbers correctly, but when we tried to test it with 2 users who clicked on a button at the same time the last generated number was between 100 and 200.<br />I tried it with a synchronized java function and it works as expected.</p>
+<p>Did I miss something here?<br />Is it possible to define synchronized functions?</p>
+<p>Thanks,<br />Tibor</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Notes 8 Beta 2 &#8211; First Impressions	</title>
+	<atom:link href="/2007-3-12-notes-8-beta-2-first-impressions-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2007-3-12-notes-8-beta-2-first-impressions-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:29:46 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2007-3-12-notes-8-beta-2-first-impressions-html/#comment-1095</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Thu, 15 Mar 2007 08:03:49 +0000</pubDate>
+		<guid isPermaLink="false">/2007-3-12-notes-8-beta-2-first-impressions-html/#comment-1095</guid>
+
+					<description><![CDATA[&lt;p&gt;Thanks for the tip Bruce. As Robin pointed out, I hadn&#039;t read the documentation, I need to be accessing either a local replica or a Domino 8 server for the twistie to work. &lt;br  /&gt;&lt;br  /&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thanks for the tip Bruce. As Robin pointed out, I hadn&#8217;t read the documentation, I need to be accessing either a local replica or a Domino 8 server for the twistie to work. </p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Bruce Elgort		</title>
+		<link>/2007-3-12-notes-8-beta-2-first-impressions-html/#comment-1094</link>
+
+		<dc:creator><![CDATA[Bruce Elgort]]></dc:creator>
+		<pubDate>Thu, 15 Mar 2007 04:09:41 +0000</pubDate>
+		<guid isPermaLink="false">/2007-3-12-notes-8-beta-2-first-impressions-html/#comment-1094</guid>
+
+					<description><![CDATA[&lt;p&gt;Matt,&lt;br  /&gt;&lt;br  /&gt;For the mail threads it seems you have to hover over a message.  You will then see a twistie appear next to the subject (I think).  Once you hover away from it then it will dissapear.&lt;br  /&gt;&lt;br  /&gt;Let me know if that works for you.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Matt,</p>
+<p>For the mail threads it seems you have to hover over a message.  You will then see a twistie appear next to the subject (I think).  Once you hover away from it then it will dissapear.</p>
+<p>Let me know if that works for you.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2007-3-12-notes-8-beta-2-first-impressions-html/#comment-1092</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Tue, 13 Mar 2007 07:53:09 +0000</pubDate>
+		<guid isPermaLink="false">/2007-3-12-notes-8-beta-2-first-impressions-html/#comment-1092</guid>
+
+					<description><![CDATA[&lt;p&gt;Aha, thanks Rob I guess I should just RTFM!&lt;br  /&gt;&lt;br  /&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Aha, thanks Rob I guess I should just RTFM!</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Robin Wills		</title>
+		<link>/2007-3-12-notes-8-beta-2-first-impressions-html/#comment-1093</link>
+
+		<dc:creator><![CDATA[Robin Wills]]></dc:creator>
+		<pubDate>Mon, 12 Mar 2007 21:03:50 +0000</pubDate>
+		<guid isPermaLink="false">/2007-3-12-notes-8-beta-2-first-impressions-html/#comment-1093</guid>
+
+					<description><![CDATA[&lt;p&gt;Hi Matt,&lt;br/&gt;&lt;br  /&gt;From the readme file that came with the download:&lt;br/&gt;&lt;br  /&gt;&quot;The display of mail threads at the view level works for local replicas, but requires a Domino 8 server for server-based replicas.&quot;&lt;br/&gt;&lt;br  /&gt;HTH, Rob.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hi Matt,</p>
+<p>From the readme file that came with the download:</p>
+<p>&#8220;The display of mail threads at the view level works for local replicas, but requires a Domino 8 server for server-based replicas.&#8221;</p>
+<p>HTH, Rob.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

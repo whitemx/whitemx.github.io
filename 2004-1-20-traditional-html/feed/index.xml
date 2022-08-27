@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: traditional	</title>
+	<atom:link href="/2004-1-20-traditional-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2004-1-20-traditional-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:41:12 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Fi		</title>
+		<link>/2004-1-20-traditional-html/#comment-873</link>
+
+		<dc:creator><![CDATA[Fi]]></dc:creator>
+		<pubDate>Wed, 21 Jan 2004 08:45:58 +0000</pubDate>
+		<guid isPermaLink="false">/2004-1-20-traditional-html/#comment-873</guid>
+
+					<description><![CDATA[&lt;p&gt;I hope that the champagne had a positive effect on you cold Matthew. I would certainly recommend it as a remedy! If you don&#039;t recover soon I&#039;m sure the Florida sunshine will help (jealous!)&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I hope that the champagne had a positive effect on you cold Matthew. I would certainly recommend it as a remedy! If you don&#8217;t recover soon I&#8217;m sure the Florida sunshine will help (jealous!)</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

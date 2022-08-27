@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>lotusbeer &#8211; mattwhite.me</title>
+	<atom:link href="/tag/lotusbeer/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Just eight days to go&#8230;</title>
+		<link>/2010-2-1-just-eight-days-to-go-html/</link>
+					<comments>/2010-2-1-just-eight-days-to-go-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 01 Feb 2010 08:10:30 +0000</pubDate>
+				<category><![CDATA[Domino Community]]></category>
+		<category><![CDATA[lotusbeer]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2010-2-1-just-eight-days-to-go-html/</guid>
+
+					<description><![CDATA[Next week I am running (with the able assistance of my LDC colleagues) the first iteration of my new XPages101 course. Interest has been gratifyingly high, but we do still have a very few places left. If you wanted to come along and either the news got lost in amongst all of the #LS10 craziness, [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Next week I am running (with the able assistance of my <a href="http://londondevelopercoop.com/">LDC colleagues</a>) the first iteration of my new <a href="http://xpages101.net/">XPages101 course</a>. Interest has been gratifyingly high, but we do still have a very few places left. If you wanted to come along and either the news got lost in amongst all of the #LS10 craziness, or you&#8217;re worried about training costs generally, then I&#8217;d encourage you to check out the <a href="http://xpages101.net/">course page</a>.&nbsp;</p>
+<p>I designed the course to cover as much as possible in a day and the price to be low enough that independent consultants and contractors (my background) can afford to send themselves on it.</p>
+<p>So I hope to see you in London next week. If you can&#8217;t make it during the day for some reason then we are also having a LotusBeer gathering in the evening of the 9th February at the <a href="http://www.foundersarms.co.uk/">Founders Arms</a> from around 6pm. You&#8217;re more than welcome to come along if you&#8217;re in the area.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-2-1-just-eight-days-to-go-html/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

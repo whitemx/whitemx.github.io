@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Cross Domain Ajax Requests	</title>
+	<atom:link href="/2013-11-28-cross-domain-ajax-requests/feed/" rel="self" type="application/rss+xml" />
+	<link>/2013-11-28-cross-domain-ajax-requests/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:19:12 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Dimitar Ivanov		</title>
+		<link>/2013-11-28-cross-domain-ajax-requests/#comment-66</link>
+
+		<dc:creator><![CDATA[Dimitar Ivanov]]></dc:creator>
+		<pubDate>Wed, 24 Aug 2016 17:54:20 +0000</pubDate>
+		<guid isPermaLink="false">/2013-11-28-cross-domain-ajax-requests/#comment-66</guid>
+
+					<description><![CDATA[&lt;p&gt;JSONP is XSS vulnerable. You should always avoid it. CORS is much more reliable.&lt;br/&gt;https://zinoui.com/blog/cross-domain-ajax-request&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>JSONP is XSS vulnerable. You should always avoid it. CORS is much more reliable.<br /><a href="https://zinoui.com/blog/cross-domain-ajax-request" rel="nofollow ugc">https://zinoui.com/blog/cross-domain-ajax-request</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mark Barton		</title>
+		<link>/2013-11-28-cross-domain-ajax-requests/#comment-65</link>
+
+		<dc:creator><![CDATA[Mark Barton]]></dc:creator>
+		<pubDate>Thu, 28 Nov 2013 10:47:56 +0000</pubDate>
+		<guid isPermaLink="false">/2013-11-28-cross-domain-ajax-requests/#comment-65</guid>
+
+					<description><![CDATA[&lt;p&gt;Matt,&lt;/p&gt;
+
+&lt;p&gt;Its worth mentioning that you should check the internet site document - specifically the Allowed Methods - I don&#039;t think by default OPTIONS is enabled.  This is required for preflight requests for CORS requests.&lt;/p&gt;
+
+&lt;p&gt;Looking at your example I would assume you have OPTIONS enabled as it would need to be preflighted.  From what I understand if its a POST Request and the content type is not application/x-www-form-urlencoded, multipart/form-data, or text/plain then its preflighted.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Matt,</p>
+<p>Its worth mentioning that you should check the internet site document &#8211; specifically the Allowed Methods &#8211; I don&#8217;t think by default OPTIONS is enabled.  This is required for preflight requests for CORS requests.</p>
+<p>Looking at your example I would assume you have OPTIONS enabled as it would need to be preflighted.  From what I understand if its a POST Request and the content type is not application/x-www-form-urlencoded, multipart/form-data, or text/plain then its preflighted.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

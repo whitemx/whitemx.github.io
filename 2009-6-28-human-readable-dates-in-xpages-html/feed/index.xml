@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Human Readable Dates in XPages	</title>
+	<atom:link href="/2009-6-28-human-readable-dates-in-xpages-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2009-6-28-human-readable-dates-in-xpages-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:40 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Patrick Kwinten		</title>
+		<link>/2009-6-28-human-readable-dates-in-xpages-html/#comment-1431</link>
+
+		<dc:creator><![CDATA[Patrick Kwinten]]></dc:creator>
+		<pubDate>Fri, 14 Jan 2011 07:51:19 +0000</pubDate>
+		<guid isPermaLink="false">/2009-6-28-human-readable-dates-in-xpages-html/#comment-1431</guid>
+
+					<description><![CDATA[&lt;p&gt;Thank you for sharing!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thank you for sharing!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2009-6-28-human-readable-dates-in-xpages-html/#comment-1430</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Wed, 01 Jul 2009 07:51:13 +0000</pubDate>
+		<guid isPermaLink="false">/2009-6-28-human-readable-dates-in-xpages-html/#comment-1430</guid>
+
+					<description><![CDATA[&lt;p&gt;Good stuff Dec, that&#039;s probably an easier way of using the code.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Good stuff Dec, that&#8217;s probably an easier way of using the code.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Declan Lynch		</title>
+		<link>/2009-6-28-human-readable-dates-in-xpages-html/#comment-1429</link>
+
+		<dc:creator><![CDATA[Declan Lynch]]></dc:creator>
+		<pubDate>Tue, 30 Jun 2009 20:59:16 +0000</pubDate>
+		<guid isPermaLink="false">/2009-6-28-human-readable-dates-in-xpages-html/#comment-1429</guid>
+
+					<description><![CDATA[&lt;p&gt;Actually very easy... &lt;/p&gt;&lt;p&gt;Removed the function prototyping so that is it just a plain script and set the dt_then as follows :&lt;/p&gt;&lt;p&gt;dt_then = session.createDateTime(value);&lt;/p&gt;&lt;p&gt;&#039;value&#039; is what is passed into the converter. I set the include Seconds as true directly in the script. and bingo, works great.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Actually very easy&#8230; </p>
+<p>Removed the function prototyping so that is it just a plain script and set the dt_then as follows :</p>
+<p>dt_then = session.createDateTime(value);</p>
+<p>&#8216;value&#8217; is what is passed into the converter. I set the include Seconds as true directly in the script. and bingo, works great.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Declan Lynch		</title>
+		<link>/2009-6-28-human-readable-dates-in-xpages-html/#comment-1428</link>
+
+		<dc:creator><![CDATA[Declan Lynch]]></dc:creator>
+		<pubDate>Tue, 30 Jun 2009 20:39:37 +0000</pubDate>
+		<guid isPermaLink="false">/2009-6-28-human-readable-dates-in-xpages-html/#comment-1428</guid>
+
+					<description><![CDATA[&lt;p&gt;I wonder how easy it would be to turn this into a &#039;converter&#039; for field values rather then a function to call.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I wonder how easy it would be to turn this into a &#8216;converter&#8217; for field values rather then a function to call.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Jake Howlett		</title>
+		<link>/2009-6-28-human-readable-dates-in-xpages-html/#comment-1427</link>
+
+		<dc:creator><![CDATA[Jake Howlett]]></dc:creator>
+		<pubDate>Mon, 29 Jun 2009 08:24:15 +0000</pubDate>
+		<guid isPermaLink="false">/2009-6-28-human-readable-dates-in-xpages-html/#comment-1427</guid>
+
+					<description><![CDATA[&lt;p&gt;Nice work Matt. Thanks for the nod. &lt;br/&gt;This all makes me realise how backwards I am right now. Must start using XPages....&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Nice work Matt. Thanks for the nod. <br />This all makes me realise how backwards I am right now. Must start using XPages&#8230;.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

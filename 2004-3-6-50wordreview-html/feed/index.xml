@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: 50wordreview	</title>
+	<atom:link href="/2004-3-6-50wordreview-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2004-3-6-50wordreview-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:41:11 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: matt		</title>
+		<link>/2004-3-6-50wordreview-html/#comment-858</link>
+
+		<dc:creator><![CDATA[matt]]></dc:creator>
+		<pubDate>Sun, 07 Mar 2004 11:04:47 +0000</pubDate>
+		<guid isPermaLink="false">/2004-3-6-50wordreview-html/#comment-858</guid>
+
+					<description><![CDATA[&lt;p&gt;i have located the error in my style sheet and it is working now.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>i have located the error in my style sheet and it is working now.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Ben Poole		</title>
+		<link>/2004-3-6-50wordreview-html/#comment-857</link>
+
+		<dc:creator><![CDATA[Ben Poole]]></dc:creator>
+		<pubDate>Sat, 06 Mar 2004 14:41:16 +0000</pubDate>
+		<guid isPermaLink="false">/2004-3-6-50wordreview-html/#comment-857</guid>
+
+					<description><![CDATA[&lt;p&gt;Looks just fine in Safari bar one minor thing: when hovering over / clicking the tabs at the top, the text goes white (as well as the tab itself) in Safari. HTH!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Looks just fine in Safari bar one minor thing: when hovering over / clicking the tabs at the top, the text goes white (as well as the tab itself) in Safari. HTH!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: progress	</title>
+	<atom:link href="/2002-4-15-progress-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2002-4-15-progress-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:46:37 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Simon		</title>
+		<link>/2002-4-15-progress-html/#comment-1040</link>
+
+		<dc:creator><![CDATA[Simon]]></dc:creator>
+		<pubDate>Mon, 28 Oct 2002 11:38:39 +0000</pubDate>
+		<guid isPermaLink="false">/2002-4-15-progress-html/#comment-1040</guid>
+
+					<description><![CDATA[&lt;p&gt;It&#039;s taking shape in a messy kinda way, Matthew!! Are they building you a Temple at the end there? You definately need a TV stand and a sofa down there for the World Cup!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>It&#8217;s taking shape in a messy kinda way, Matthew!! Are they building you a Temple at the end there? You definately need a TV stand and a sofa down there for the World Cup!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: matt		</title>
+		<link>/2002-4-15-progress-html/#comment-1041</link>
+
+		<dc:creator><![CDATA[matt]]></dc:creator>
+		<pubDate>Mon, 28 Oct 2002 11:38:39 +0000</pubDate>
+		<guid isPermaLink="false">/2002-4-15-progress-html/#comment-1041</guid>
+
+					<description><![CDATA[&lt;p&gt;it&#039;s a temple to the itfc god as the end of the garden faces towards portman road.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>it&#8217;s a temple to the itfc god as the end of the garden faces towards portman road.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>uklug11 &#8211; mattwhite.me</title>
+	<atom:link href="/tag/uklug11/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>UKLUG 2011 Development Track</title>
+		<link>/2011-1-10-uklug-2011-development-track-html/</link>
+					<comments>/2011-1-10-uklug-2011-development-track-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 10 Jan 2011 14:12:53 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[development]]></category>
+		<category><![CDATA[uklug11]]></category>
+		<guid isPermaLink="false">/2011-1-10-uklug-2011-development-track-html/</guid>
+
+					<description><![CDATA[Last week Warren announced that registration for UKLUG 2011 is open. This year we&#8217;re doing two days of great technical content, for free as ever, in Manchester at the end of May. It will be a lot of fun and you&#8217;ll learn a lot. But of course to make sure the days are worthwhile for [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Last week <a href="http://www.elsmore.net/warren/blog.nsf/d6plinks/WELE-8CVM5X">Warren announced that registration for UKLUG 2011 is open</a>. This year we&#8217;re doing two days of great technical content, for free as ever, in Manchester at the end of May. It will be a lot of fun and you&#8217;ll learn a lot.</p>
+<p>But of course to make sure the days are worthwhile for everyone we need great content and great speakers, and this is where you come in. If you&#8217;re a developer involved with Lotus technologies (not just Notes and Domino, but Sametime, Connections, Quickr etc etc) and you want to speak then now is the time to throw your hat into the ring.</p>
+<p>As ever with the User Groups there&#8217;s likely to be lots of competition for speaking slots, so when you&#8217;re writing your abstract make sure you try and sell the session as much as possible&#8230; what will you be talking about, why should someone come to your session?</p>
+<p>We&#8217;re also going to try something new this year with some sessions set aside as introductions to Lotus technologies. So in the dev track this will be walking the audience through the basics. For example, I&#8217;m a Domino developer who knows nothing about Connections. What are my development options on that platform?</p>
+<p>So if you want to get into public speaking, or maybe want some practice before trying to speak at some of the bigger conferences like Lotusphere then this is the perfect place to start. We are always looking for new people to come along to our events.</p>
+<p>If you&#8217;ve not registered already then go to <a href="http://uklug.info/">uklug.info</a> and fill in the registration form. If you are already registered and want to submit a session abstract then you can log into the site, go to your profile and click the &#8220;Propose Session&#8221; button.</p>
+<p>Either way I&#8217;m looking forward to seeing you in Manchester in May.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011-1-10-uklug-2011-development-track-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: upgrade	</title>
+	<atom:link href="/2003-11-9-upgrade-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2003-11-9-upgrade-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:43:28 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: matt		</title>
+		<link>/2003-11-9-upgrade-html/#comment-897</link>
+
+		<dc:creator><![CDATA[matt]]></dc:creator>
+		<pubDate>Thu, 13 Nov 2003 15:01:13 +0000</pubDate>
+		<guid isPermaLink="false">/2003-11-9-upgrade-html/#comment-897</guid>
+
+					<description><![CDATA[&lt;p&gt;the solution for the snail-link networking was a bit odd. i had to remove the xp drivers (which as the most recent i had assumed would be best) and put on the old nt4.0 drivers for my 3com network card.&lt;br/&gt; &lt;br/&gt; a bit odd but at least it seems to work. in fact it seems to be faster than when it was running under win2k.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>the solution for the snail-link networking was a bit odd. i had to remove the xp drivers (which as the most recent i had assumed would be best) and put on the old nt4.0 drivers for my 3com network card.</p>
+<p> a bit odd but at least it seems to work. in fact it seems to be faster than when it was running under win2k.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: matt		</title>
+		<link>/2003-11-9-upgrade-html/#comment-896</link>
+
+		<dc:creator><![CDATA[matt]]></dc:creator>
+		<pubDate>Mon, 10 Nov 2003 22:14:31 +0000</pubDate>
+		<guid isPermaLink="false">/2003-11-9-upgrade-html/#comment-896</guid>
+
+					<description><![CDATA[&lt;p&gt;the christmas site should be up and going again. let me know if there are any problems.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>the christmas site should be up and going again. let me know if there are any problems.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mum		</title>
+		<link>/2003-11-9-upgrade-html/#comment-895</link>
+
+		<dc:creator><![CDATA[Mum]]></dc:creator>
+		<pubDate>Mon, 10 Nov 2003 08:37:42 +0000</pubDate>
+		<guid isPermaLink="false">/2003-11-9-upgrade-html/#comment-895</guid>
+
+					<description><![CDATA[&lt;p&gt;The site is down so I await with anticipation the section on eating out!! Thanks for the info on flights.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>The site is down so I await with anticipation the section on eating out!! Thanks for the info on flights.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

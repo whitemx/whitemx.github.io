@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Upgraded to Blogsphere V3 Beta	</title>
+	<atom:link href="/2007-1-11-upgraded-to-blogsphere-v3-beta-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2007-1-11-upgraded-to-blogsphere-v3-beta-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:30:41 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2007-1-11-upgraded-to-blogsphere-v3-beta-html/#comment-216</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Fri, 19 Jan 2007 10:54:27 +0000</pubDate>
+		<guid isPermaLink="false">/2007-1-11-upgraded-to-blogsphere-v3-beta-html/#comment-216</guid>
+
+					<description><![CDATA[&lt;p&gt;Good call Jerry, I&#039;ve updated the margin on all images to use a 3px margin.&lt;br  /&gt;&lt;br  /&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Good call Jerry, I&#8217;ve updated the margin on all images to use a 3px margin.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Jerry Carter		</title>
+		<link>/2007-1-11-upgraded-to-blogsphere-v3-beta-html/#comment-217</link>
+
+		<dc:creator><![CDATA[Jerry Carter]]></dc:creator>
+		<pubDate>Thu, 18 Jan 2007 21:59:58 +0000</pubDate>
+		<guid isPermaLink="false">/2007-1-11-upgraded-to-blogsphere-v3-beta-html/#comment-217</guid>
+
+					<description><![CDATA[&lt;p&gt;Very clean look.  Only thing I would adjust in the CSS is the padding / margin on images.  It&#039;s looking like 0px - would be more readable when text wraps at 2px+.&lt;br  /&gt;&lt;br  /&gt;Is it just me or is the JS for the live preview really slow?  Could be my doggy work desktop. :-&#124;&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Very clean look.  Only thing I would adjust in the CSS is the padding / margin on images.  It&#8217;s looking like 0px &#8211; would be more readable when text wraps at 2px+.</p>
+<p>Is it just me or is the JS for the live preview really slow?  Could be my doggy work desktop. 😐</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Kevin Pettitt		</title>
+		<link>/2007-1-11-upgraded-to-blogsphere-v3-beta-html/#comment-218</link>
+
+		<dc:creator><![CDATA[Kevin Pettitt]]></dc:creator>
+		<pubDate>Thu, 11 Jan 2007 16:16:16 +0000</pubDate>
+		<guid isPermaLink="false">/2007-1-11-upgraded-to-blogsphere-v3-beta-html/#comment-218</guid>
+
+					<description><![CDATA[&lt;p&gt;Pretty cool, and nice to know the upgrade went smoothly. I did notice that comments look a little odd in terms of line spacing, separation between comments, etc.  Not very readable...probably just a simple CSS issue.&lt;br  /&gt;&lt;br  /&gt;BTW - my &quot;five&quot; are posted now &lt;img alt=&quot;Emoticon&quot; src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLU/$File/wink.gif&quot;&lt;/a&gt; /&gt;&lt;br  /&gt;&lt;br  /&gt;{ &lt;a href=&quot;&lt;a rel=&quot;nofollow&quot; href=&quot;http://www.lotusguru.com/lotusguru/LGBlog.nsf/d6plinks/JDOZ-6XCBW4&quot;&quot; rel=&quot;nofollow ugc&quot;&gt;http://www.lotusguru.com/lotusguru/LGBlog.nsf/d6plinks/JDOZ-6XCBW4&quot;&lt;/a&gt; rel=&quot;nofollow&quot; target =&quot;blank&quot;&gt;Link&lt;/a&gt; }&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Pretty cool, and nice to know the upgrade went smoothly. I did notice that comments look a little odd in terms of line spacing, separation between comments, etc.  Not very readable&#8230;probably just a simple CSS issue.</p>
+<p>BTW &#8211; my &#8220;five&#8221; are posted now <img alt="Emoticon" src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLU/$File/wink.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLU/$File/wink.gif</a>&#8220; /></p>
+<p>{ <a href="<a rel="nofollow" href="http://www.lotusguru.com/lotusguru/LGBlog.nsf/d6plinks/JDOZ-6XCBW4"" rel="nofollow ugc"></a><a href="http://www.lotusguru.com/lotusguru/LGBlog.nsf/d6plinks/JDOZ-6XCBW4" rel="nofollow ugc">http://www.lotusguru.com/lotusguru/LGBlog.nsf/d6plinks/JDOZ-6XCBW4</a>&#8220; rel=&#8221;nofollow&#8221; target =&#8221;blank&#8221;>Link }</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

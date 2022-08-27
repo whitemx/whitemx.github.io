@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: DominoWiki 1.1 released	</title>
+	<atom:link href="/2006-11-2-dominowiki-11-released-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2006-11-2-dominowiki-11-released-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:33:06 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Bruce Elgort		</title>
+		<link>/2006-11-2-dominowiki-11-released-html/#comment-306</link>
+
+		<dc:creator><![CDATA[Bruce Elgort]]></dc:creator>
+		<pubDate>Sat, 04 Nov 2006 04:29:29 +0000</pubDate>
+		<guid isPermaLink="false">/2006-11-2-dominowiki-11-released-html/#comment-306</guid>
+
+					<description><![CDATA[&lt;p&gt;Great release Matt.  I heard you had a lot to do with 1.1.  Congrats!  I look forward to uprading my wiki this weekend.&lt;/p&gt;&lt;p&gt;Bruce&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Great release Matt.  I heard you had a lot to do with 1.1.  Congrats!  I look forward to uprading my wiki this weekend.</p>
+<p>Bruce</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

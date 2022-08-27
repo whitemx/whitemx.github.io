@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Hijacked Domain	</title>
+	<atom:link href="/2004-11-30-hijacked-domain-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2004-11-30-hijacked-domain-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:37:18 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Mum		</title>
+		<link>/2004-11-30-hijacked-domain-html/#comment-775</link>
+
+		<dc:creator><![CDATA[Mum]]></dc:creator>
+		<pubDate>Fri, 03 Dec 2004 17:15:28 +0000</pubDate>
+		<guid isPermaLink="false">/2004-11-30-hijacked-domain-html/#comment-775</guid>
+
+					<description><![CDATA[&lt;p&gt;11tmr has been ok all week but tonight I have had to come via fcl - still some problems.  Have a good weekend&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>11tmr has been ok all week but tonight I have had to come via fcl &#8211; still some problems.  Have a good weekend</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt		</title>
+		<link>/2004-11-30-hijacked-domain-html/#comment-774</link>
+
+		<dc:creator><![CDATA[Matt]]></dc:creator>
+		<pubDate>Tue, 30 Nov 2004 17:02:41 +0000</pubDate>
+		<guid isPermaLink="false">/2004-11-30-hijacked-domain-html/#comment-774</guid>
+
+					<description><![CDATA[&lt;p&gt;Rich,&lt;/p&gt;&lt;p&gt;Thanks for that, not sure what happened there but after talking to the webmaster at the ISP of the people sitting on my domain it seems to have been sorted pretty quickly.&lt;/p&gt;&lt;p&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Rich,</p>
+<p>Thanks for that, not sure what happened there but after talking to the webmaster at the ISP of the people sitting on my domain it seems to have been sorted pretty quickly.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Richard Schwartz		</title>
+		<link>/2004-11-30-hijacked-domain-html/#comment-773</link>
+
+		<dc:creator><![CDATA[Richard Schwartz]]></dc:creator>
+		<pubDate>Tue, 30 Nov 2004 12:23:27 +0000</pubDate>
+		<guid isPermaLink="false">/2004-11-30-hijacked-domain-html/#comment-773</guid>
+
+					<description><![CDATA[&lt;p&gt;11tmr.com seems to be working fine now.&lt;/p&gt;&lt;p&gt;-rich&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>11tmr.com seems to be working fine now.</p>
+<p>-rich</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

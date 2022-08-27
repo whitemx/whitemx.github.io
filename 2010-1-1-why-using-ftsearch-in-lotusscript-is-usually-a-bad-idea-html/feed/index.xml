@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Why using FTSearch in LotusScript is usually a bad idea	</title>
+	<atom:link href="/2010-1-1-why-using-ftsearch-in-lotusscript-is-usually-a-bad-idea-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2010-1-1-why-using-ftsearch-in-lotusscript-is-usually-a-bad-idea-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Kevin Pettitt		</title>
+		<link>/2010-1-1-why-using-ftsearch-in-lotusscript-is-usually-a-bad-idea-html/#comment-1051</link>
+
+		<dc:creator><![CDATA[Kevin Pettitt]]></dc:creator>
+		<pubDate>Sat, 07 Feb 2015 03:24:09 +0000</pubDate>
+		<guid isPermaLink="false">/2010-1-1-why-using-ftsearch-in-lotusscript-is-usually-a-bad-idea-html/#comment-1051</guid>
+
+					<description><![CDATA[&lt;p&gt;Hey Daddy Matt! Found this when I googled &#034;NotesViewEntryCollection FTSearch&#034; because I had just made a bit of a breakthrough using FTSearch to perform complex queries like this:&lt;/p&gt;
+
+&lt;p&gt;[Market] = (&#034;EAST&#034;) AND [SalesArea] = (&#034;SOUTHEAST&#034;, &#034;NORTHEAST&#034;) AND [SalesRep] CONTAINS (&#034;Mary Jones&#034;, &#034;Bill Smith&#034;) AND [RenewType] = (&#034;AutoRenew&#034;, &#034;One Time&#034;)&lt;/p&gt;
+
+&lt;p&gt;The problem I found is that the results were highly inaccurate for some reason, with many more documents being returned than expected. Still not 100% sure why but I suspect the CONTAINS calls (necessary because the SalesRep field is canonical) get treated as some kind of OR call, thus expanding the results in weird ways. Rather than address that though I hit on another solution. &lt;/p&gt;
+
+&lt;p&gt;The trick is to use multiple, simpler FTSearch calls against a NotesViewEntryCollection, starting with full set of docs and reducing the collection with each iteration. By keeping each FTSearch call as simple as possible, the accuracy is more assured, and it&#039;s still pretty fast.&lt;/p&gt;
+
+&lt;p&gt;The use case here is a filtering tool much like you might see when searching on Amazon or Ebay. We happen to be running this on local replicas in the Notes client, so we have to factor in creation and updates to the FT Index. Right now, we have it set that upon DB Open we update the  FTIndex (and auto create it if it doesn&#039;t exist), or right after using a special flag action that exists in the results folder into which we throw our resultant view entry collections. Aside from that flag most if not all of the other fields available to filter on are not user-modifiable, so even if users do make modifications to documents it generally doesn&#039;t invalidate the search results.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hey Daddy Matt! Found this when I googled &quot;NotesViewEntryCollection FTSearch&quot; because I had just made a bit of a breakthrough using FTSearch to perform complex queries like this:</p>
+<p>[Market] = (&quot;EAST&quot;) AND [SalesArea] = (&quot;SOUTHEAST&quot;, &quot;NORTHEAST&quot;) AND [SalesRep] CONTAINS (&quot;Mary Jones&quot;, &quot;Bill Smith&quot;) AND [RenewType] = (&quot;AutoRenew&quot;, &quot;One Time&quot;)</p>
+<p>The problem I found is that the results were highly inaccurate for some reason, with many more documents being returned than expected. Still not 100% sure why but I suspect the CONTAINS calls (necessary because the SalesRep field is canonical) get treated as some kind of OR call, thus expanding the results in weird ways. Rather than address that though I hit on another solution. </p>
+<p>The trick is to use multiple, simpler FTSearch calls against a NotesViewEntryCollection, starting with full set of docs and reducing the collection with each iteration. By keeping each FTSearch call as simple as possible, the accuracy is more assured, and it&#8217;s still pretty fast.</p>
+<p>The use case here is a filtering tool much like you might see when searching on Amazon or Ebay. We happen to be running this on local replicas in the Notes client, so we have to factor in creation and updates to the FT Index. Right now, we have it set that upon DB Open we update the  FTIndex (and auto create it if it doesn&#8217;t exist), or right after using a special flag action that exists in the results folder into which we throw our resultant view entry collections. Aside from that flag most if not all of the other fields available to filter on are not user-modifiable, so even if users do make modifications to documents it generally doesn&#8217;t invalidate the search results.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Brian Benson		</title>
+		<link>/2010-1-1-why-using-ftsearch-in-lotusscript-is-usually-a-bad-idea-html/#comment-1050</link>
+
+		<dc:creator><![CDATA[Brian Benson]]></dc:creator>
+		<pubDate>Sat, 02 Jan 2010 02:48:14 +0000</pubDate>
+		<guid isPermaLink="false">/2010-1-1-why-using-ftsearch-in-lotusscript-is-usually-a-bad-idea-html/#comment-1050</guid>
+
+					<description><![CDATA[&lt;p&gt;I&#039;ve used FTSearch before and still do when searching across multiple dbs that may or may not be FT indexed.  As I&#039;m sure you know,  FTSearch will build a temporary FT index if one does not already exist.  My biggest problem with FTSearch is that if you exceed the maximum number of results (5000 by default), no documents are returned and you may never know.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;ve used FTSearch before and still do when searching across multiple dbs that may or may not be FT indexed.  As I&#8217;m sure you know,  FTSearch will build a temporary FT index if one does not already exist.  My biggest problem with FTSearch is that if you exceed the maximum number of results (5000 by default), no documents are returned and you may never know.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Ray Bilyk		</title>
+		<link>/2010-1-1-why-using-ftsearch-in-lotusscript-is-usually-a-bad-idea-html/#comment-1049</link>
+
+		<dc:creator><![CDATA[Ray Bilyk]]></dc:creator>
+		<pubDate>Fri, 01 Jan 2010 22:10:51 +0000</pubDate>
+		<guid isPermaLink="false">/2010-1-1-why-using-ftsearch-in-lotusscript-is-usually-a-bad-idea-html/#comment-1049</guid>
+
+					<description><![CDATA[&lt;p&gt;Thank you!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thank you!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

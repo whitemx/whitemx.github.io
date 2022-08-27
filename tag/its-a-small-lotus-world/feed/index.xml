@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>it&#8217;s a small lotus world &#8211; mattwhite.me</title>
+	<atom:link href="/tag/its-a-small-lotus-world/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>It&#8217;s a small Lotus world (part 2)</title>
+		<link>/2010-12-14-its-a-small-lotus-world-part-2-html/</link>
+					<comments>/2010-12-14-its-a-small-lotus-world-part-2-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 14 Dec 2010 08:23:00 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[it's a small lotus world]]></category>
+		<category><![CDATA[ls11]]></category>
+		<guid isPermaLink="false">/2010-12-14-its-a-small-lotus-world-part-2-html/</guid>
+
+					<description><![CDATA[As you may have seen over the last week, there are several of us in the Lotus community who are gathering together to organise a fund raising event at Lotusphere 2011. The inspiration came from Mark Myers and Ben Poole, who, in a rare moment of non bickering, specified and arranged the creation of the [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>As you may have <a href="http://www.bruceelgort.com/blogs/be.nsf/plinks/BELT-8BXQDL">seen over the last week</a>, there are <a href="http://stickfight.co.uk/">several</a> <a href="http://benpoole.com/">of</a> <a href="http://dominoyesmaybe.blogspot.com/">us</a> in the Lotus community who are gathering together to organise a fund raising event at <a href="http://lotusphere.com/">Lotusphere 2011</a>.</p>
+<p>The inspiration came from <a href="http://stickfight.co.uk/">Mark Myers</a> and <a href="http://benpoole.com/">Ben Poole</a>, who, in a rare moment of non bickering, specified and arranged the creation of the &#8220;It&#8217;s a small Lotus world&#8221; pixel art. <a href="http://bruceelgort.com/">Bruce</a> then came up with the idea of raffling a very nicely framed version of the art (complete with key of all of the &#8220;inside baseball&#8221; references hidden away).Then <a href="http://dominoyesmaybe.blogspot.com/">Steve McDonagh</a> very kindly decided to enter the fray with his <a href="http://dominoyesmaybe.blogspot.com/2010/12/extra-items-for-its-small-lotus-world.html">Map of the Lands of Lotii</a>.</p>
+<p>So what&#8217;s the deal? Well, over the next few weeks, and at Lotusphere itself, we are selling raffle tickets. They are $10 each. Then at <a href="http://www.elsmore.net/warren/blog.nsf/d6plinks/WELE-8BPD72">UK Night at Lotusphere</a> (on the Monday night) we will be holding the grand prize draw for the framed pixel art, and Mr McD&#8217;s art work.&nbsp;</p>
+<p>You can either click this button to pay online:</p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post"> <input name="cmd" type="hidden" value="_s-xclick" /> <input name="encrypted" type="hidden" value="-----BEGIN PKCS7-----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-----END PKCS7----- " /> <input alt="PayPal - The safer, easier way to pay online!" name="submit" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" type="image" /> <img loading="lazy" src="https://www.paypal.com/en_US/i/scr/pixel.gif" border="0" alt="" width="1" height="1" /> </form>
+<p>or you can collar Bruce, Gayle, Mark, Julian Woodward or myself at Lotusphere to buy a ticket from us direct.</p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">The aim of all of this, apart from being fun, is that we raise as much money as possible for the <a href="http://www.joyrx.org/">Children&#8217;s Cancer Association</a>, which is a great charity that provides support to seriously ill children and their families.</p>
+<p>&nbsp;</p>
+<p>So, dig deep, buy as many tickets as you can afford and you may well be walking away from Lotusphere with some amazing artwork to hang on your office wall. (If you&#8217;re not going to Lotusphere then of course we&#8217;ll ship the prize to you.)</p>
+<p>One of the things we&#8217;re doing over the next few weeks is gradually revealing different sections of the pixel art image, so here is this week&#8217;s image in which we see the iEd&#8217;s store.</p>
+<p><span class="full-image-block ssNonEditable"><span><img src="/static/500fb502e4b0b0a178712c5d/500fb669e4b00f3716e9af9d/500fb669e4b00f3716e9b00a/1292317775045/1000w" alt="" /></span></span></form>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-12-14-its-a-small-lotus-world-part-2-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Continuing XPages Development	</title>
+	<atom:link href="/2008-9-28-continuing-xpages-development-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2008-9-28-continuing-xpages-development-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:25:21 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Philippe Riand		</title>
+		<link>/2008-9-28-continuing-xpages-development-html/#comment-377</link>
+
+		<dc:creator><![CDATA[Philippe Riand]]></dc:creator>
+		<pubDate>Mon, 29 Sep 2008 16:52:35 +0000</pubDate>
+		<guid isPermaLink="false">/2008-9-28-continuing-xpages-development-html/#comment-377</guid>
+
+					<description><![CDATA[&lt;p&gt;Have you tried the built-in localization capabilities of XPages?&lt;br/&gt;&lt;br  /&gt;It should be simplier to use and will properly scale. It avoids any runtime lookup in a hashtable, and makes localized apps as fast as non localized one.&lt;br/&gt;&lt;br  /&gt;Having a javascript expression per property value works, although it leads to a lot of formula evaluation, thus decreasing the overall performance. Moreover, it makes the WYSIWYG experience worse, as formulas appear all over the place.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Have you tried the built-in localization capabilities of XPages?</p>
+<p>It should be simplier to use and will properly scale. It avoids any runtime lookup in a hashtable, and makes localized apps as fast as non localized one.</p>
+<p>Having a javascript expression per property value works, although it leads to a lot of formula evaluation, thus decreasing the overall performance. Moreover, it makes the WYSIWYG experience worse, as formulas appear all over the place.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Patrick Kwinten		</title>
+		<link>/2008-9-28-continuing-xpages-development-html/#comment-378</link>
+
+		<dc:creator><![CDATA[Patrick Kwinten]]></dc:creator>
+		<pubDate>Mon, 29 Sep 2008 09:09:15 +0000</pubDate>
+		<guid isPermaLink="false">/2008-9-28-continuing-xpages-development-html/#comment-378</guid>
+
+					<description><![CDATA[&lt;p&gt;yes give me as much as (good) (advanced) XPage sessions as possible. &lt;br/&gt;&lt;br  /&gt;&lt;br/&gt;&lt;br  /&gt;Let me forget this Domino nightmare that we have experienced the last 5 years as quickly as possible. &lt;br/&gt;&lt;br  /&gt;&lt;br/&gt;&lt;br  /&gt;Thanks in advance! &lt;img alt=&quot;Emoticon&quot; src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLS/$File/biggrin.gif&quot;&lt;/a&gt; /&gt; &lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>yes give me as much as (good) (advanced) XPage sessions as possible. </p>
+<p>Let me forget this Domino nightmare that we have experienced the last 5 years as quickly as possible. </p>
+<p>Thanks in advance! <img alt="Emoticon" src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLS/$File/biggrin.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLS/$File/biggrin.gif</a>&#8220; /> </p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

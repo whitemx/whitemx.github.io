@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: trains	</title>
+	<atom:link href="/2003-3-12-trains-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2003-3-12-trains-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:45:54 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Jake		</title>
+		<link>/2003-3-12-trains-html/#comment-954</link>
+
+		<dc:creator><![CDATA[Jake]]></dc:creator>
+		<pubDate>Thu, 13 Mar 2003 18:05:02 +0000</pubDate>
+		<guid isPermaLink="false">/2003-3-12-trains-html/#comment-954</guid>
+
+					<description><![CDATA[&lt;p&gt;&quot;there is no prospect of it re-opening&quot; Maybe you should add &quot;within the near future&quot; to the end of this sentence. I&#039;m pretty sure things aren&#039;t that bad ;o) Jake&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>&#8220;there is no prospect of it re-opening&#8221; Maybe you should add &#8220;within the near future&#8221; to the end of this sentence. I&#8217;m pretty sure things aren&#8217;t that bad ;o) Jake</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

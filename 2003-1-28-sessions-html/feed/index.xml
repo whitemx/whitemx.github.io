@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: sessions	</title>
+	<atom:link href="/2003-1-28-sessions-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2003-1-28-sessions-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:46:05 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: matt		</title>
+		<link>/2003-1-28-sessions-html/#comment-995</link>
+
+		<dc:creator><![CDATA[matt]]></dc:creator>
+		<pubDate>Wed, 29 Jan 2003 15:06:18 +0000</pubDate>
+		<guid isPermaLink="false">/2003-1-28-sessions-html/#comment-995</guid>
+
+					<description><![CDATA[&lt;p&gt;the weather here is very nice, 70 degrees at the moment and predicted mid 70s tomorrow. it is a genuine shame about the weather there, of course i don&#039;t think i&#039;ll be getting snow in la or new zealand next week!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>the weather here is very nice, 70 degrees at the moment and predicted mid 70s tomorrow. it is a genuine shame about the weather there, of course i don&#8217;t think i&#8217;ll be getting snow in la or new zealand next week!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mum		</title>
+		<link>/2003-1-28-sessions-html/#comment-994</link>
+
+		<dc:creator><![CDATA[Mum]]></dc:creator>
+		<pubDate>Wed, 29 Jan 2003 07:47:00 +0000</pubDate>
+		<guid isPermaLink="false">/2003-1-28-sessions-html/#comment-994</guid>
+
+					<description><![CDATA[&lt;p&gt;I don&#039;t even understand the words!! Has the weather improved? They are forecasting heavy snow here in E England tonight/tomorrow!!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I don&#8217;t even understand the words!! Has the weather improved? They are forecasting heavy snow here in E England tonight/tomorrow!!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

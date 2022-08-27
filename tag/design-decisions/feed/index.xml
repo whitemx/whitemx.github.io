@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>design decisions &#8211; mattwhite.me</title>
+	<atom:link href="/tag/design-decisions/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Why using FTSearch in LotusScript is usually a bad idea</title>
+		<link>/2010-1-1-why-using-ftsearch-in-lotusscript-is-usually-a-bad-idea-html/</link>
+					<comments>/2010-1-1-why-using-ftsearch-in-lotusscript-is-usually-a-bad-idea-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 01 Jan 2010 09:17:52 +0000</pubDate>
+				<category><![CDATA[Notes and Domino]]></category>
+		<category><![CDATA[design decisions]]></category>
+		<category><![CDATA[document collections]]></category>
+		<category><![CDATA[ftsearch]]></category>
+		<guid isPermaLink="false">/2010-1-1-why-using-ftsearch-in-lotusscript-is-usually-a-bad-idea-html/</guid>
+
+					<description><![CDATA[Well it&#8217;s New Year&#8217;s Day so the obvious subject that is on everyone&#8217;s lips is database full text searching. Isn&#8217;t it? Yesterday I tweeted about having to remove a load (and I mean a load) of database.FTSearch calls from an application I&#8217;ve inherited recently. Several people asked why I would want to do that, so [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Well it&#8217;s New Year&#8217;s Day so the obvious subject that is on everyone&#8217;s lips is database full text searching. Isn&#8217;t it?</p>
+<p>Yesterday I <a href="http://twitter.com/mattwhite/status/7235875861">tweeted</a> about having to remove a load (and I mean a load) of database.FTSearch calls from an application I&#8217;ve inherited recently. Several people asked why I would want to do that, so I thought I&#8217;d explain.</p>
+<p>On the face of it using the Full Text Index to find a collection of documents is an ideal way of working, it saves you having to create a suite of views that will only be used by your LotusScript and we all know that less views is a good thing. But, in my view, there is almost no situation when you should use an FTSearch unless you are looking for a word or phrase across *all fields* in *all documents* in your database. If you find you are writing query syntax that uses the FIELD or CONTAINS keywords then you should probably be thinking again about your code design.</p>
+<p>The main issue with relying on the Full Text Index is that it is normally out of date. As a rule of thumb you can&#8217;t rely on any changes that have happened in the last 30 minutes to show up in your search results. So in my case yesterday, the agents were being run almost immediately after a new document is added to the database and then expecting to find that document and ones related to it. When you&#8217;re relying on luck rather than judgement then you know you have a problem.</p>
+<p>So, what to do? Generally the answer is to design your database views carefully. You can build a suite of views that can be used across the database that will allow you to build collections of documents that match your requirements. Remember, you can have multiple sorted columns if needed and pass an array as the key parameter in you getAllDocumentsByKey call, or build composite keys in the first column of your views.</p>
+<p>In fact I&#8217;d go as far as saying that if your document collection isn&#8217;t too big that it may be better to build a larger collection than you need and loop through it to find the exact documents you need, rather than performing an FTSearch. The other benefit of using views, of course, is that you can build a NotesViewEntryCollection which will perform a lot better than a document collection and you get the added benefit of being able to use the sorting from the view design rather than having to apply your own quick sort after you&#8217;ve built whatever output array you&#8217;re trying to get to.</p>
+<p>As with all of these types of general design principals, your mileage may vary, if you have a good reason to use the Full Text Index then go ahead and use it. But please make sure you understand what limitations you face when using the index rather than views.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-1-1-why-using-ftsearch-in-lotusscript-is-usually-a-bad-idea-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>IQJam Beta is live</title>
+		<link>/2009-9-16-iqjam-beta-is-live-html/</link>
+					<comments>/2009-9-16-iqjam-beta-is-live-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 16 Sep 2009 08:24:51 +0000</pubDate>
+				<category><![CDATA[IQJam]]></category>
+		<category><![CDATA[browsers]]></category>
+		<category><![CDATA[design decisions]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2009-9-16-iqjam-beta-is-live-html/</guid>
+
+					<description><![CDATA[As you may have seen, Bruce announced the beta release of IQJam overnight. We&#8217;ve been bashing on about IQJam for a couple of months now, so I thought I&#8217;d give a little background on what it is and where it came from. The original genesis of the application came, as these things do, from several [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>As you may have seen, <a href="http://www.bruceelgort.com/blogs/be.nsf/plinks/BELT-7VWUZS">Bruce announced the beta release of IQJam overnight</a>. We&#8217;ve been bashing on about <a href="http://iqjam.net/">IQJam</a> for a couple of months now, so I thought I&#8217;d give a little background on what it is and where it came from.</p>
+<p>The original genesis of the application came, as these things do, from several different places at once. Within two weeks, three of our IdeaJam customers spoke to us and said they were looking for ways of building up databases of solutions to problems. Of course, each of them had a slightly different take, one wanted to enhance their Help Desk, another is rolling out a new methodology and needs support in that process for people new to the way of working being introduced.</p>
+<p>As is normal on this blog, I don&#8217;t really concentrate on the business side of things, more the technical as that&#8217;s my day job. It got us thinking anyway, and taking the experiences we had from rolling out IdeaJam and the characteristics of our existing customers into account we made several technical decisions up front.</p>
+<p><strong>Run on XPages, </strong>which in turn lead us to make the choice to only run on Domino 8.5.1. This was actually a very easy decision. I have been hugely surprised over the last year at how willing companies are to take their servers right up to the latest version of the Domino server. 8.5.1 will be coming out sometime soon (as we have learned from Ed&#8217;s blog) and our expectation is that most of the 8.5.0 servers will be quickly upgraded and that those people not wanting to go with a &#8220;.0&#8221; release will also follow on soon behind. In terms of the XPages side of things, the changes that we have been given in 8.5.1 make XPages so much faster, more stable and usable that I have really loved the last 4 months of coding even on the beta releases.</p>
+<p>Just to give you an idea of the performance. The live IQJam server has an old Pentium 4 processor and a single hard drive. My impression is that with the release of 8.5.1, XPages will actually overtake classic HTTP in terms of performance.</p>
+<p><strong>Support &#8220;modern&#8221; browsers, that is &#8211; IE6 can take a back seat</strong>. This, I suspect will be our most controversial decision. Not amongst developers of course as we all know that IE6 needs to die, and die quickly. But it is still a corporate standard in many companies. What we have learned with IdeaJam, though, is that the companies most interested in &#8220;social software&#8221; also seem to be the companies that keep most up to date with their software, including web browsers. I can honestly say that I have not even looked at IQJam in IE6 and have no plans to. That being said, everything should work fine, there may be some UI discrepancies where we are using funky CSS etc, but life is too short to support IE6 so we have no plans to. At all. Was that definitive enough? <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p><strong>Administer everything from the web</strong>. This was a relatively easy decision, one of the surprises about IdeaJam is the number of people that we host the application for on our server (witness the recent Lotus Knows IdeaJam event). In IdeaJam we have put as many administration function into the browser as possible, but for IQJam we wanted to make everything available for the hosted customer. So from the browser it is possible to control the look and feel of the application, messages that get displayed to the user, graphics, emails, and every single other configuration option.</p>
+<p>Over the next few weeks and months, I plan to dig a little deeper into the XPages side of things, how we do certain things and why we did them that way. But for the moment, head on over to <a href="http://iqjam.net/">iqjam.net</a> and have a dig around. You can log in with your existing IdeaJam user name and password, or register if you&#8217;ve not used IdeaJam before.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-9-16-iqjam-beta-is-live-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

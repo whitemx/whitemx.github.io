@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ideajam &#8211; mattwhite.me</title>
+	<atom:link href="/tag/ideajam/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Be very careful with your content type for Chrome Ajax requests</title>
+		<link>/2010-2-25-be-very-careful-with-your-content-type-for-chrome-ajax-reque-html/</link>
+					<comments>/2010-2-25-be-very-careful-with-your-content-type-for-chrome-ajax-reque-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 25 Feb 2010 15:10:44 +0000</pubDate>
+				<category><![CDATA[Show-n-Tell Thursday]]></category>
+		<category><![CDATA[ajax]]></category>
+		<category><![CDATA[chrome]]></category>
+		<category><![CDATA[ideajam]]></category>
+		<guid isPermaLink="false">/2010-2-25-be-very-careful-with-your-content-type-for-chrome-ajax-reque-html/</guid>
+
+					<description><![CDATA[We released the first beta for IdeaJam 1.7 today. There are *tons* of changes under the covers including the new MooTools 1.2 framework, on which you can expect more later this week. But for the moment, I thought I&#8217;d pass along one little tip which we ran into. Inevitably during our own testing we had [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>We released the first beta for <a href="http://ideajam.net/">IdeaJam 1.7</a> today. There are *tons* of changes under the covers including the new MooTools 1.2 framework, on which you can expect more later this week.</p>
+<p>But for the moment, I thought I&#8217;d pass along one little tip which we ran into. Inevitably during our own testing we had missed this bug. When you&#8217;re in an idea you can &#8220;Click to show votes&#8221; and what happens behind the scenes is that an Ajax request is fired off to our votes database, an agent runs and send back a list of the votes related to that idea, when they were cast, who by and so on. That agent had been set up with the following code at the start:</p>
+<blockquote>
+<div id="_mcePaste">Print |Content-Type:text/javascript; charset=utf-8|</div>
+<div id="_mcePaste"><span> </span>Print |Cache-Control: no-cache|</div>
+</blockquote>
+<div>But what we are actually doing is pre-building some HTML and then just inserting it into a div, it saves a little bit of browser processing time this way. But in Chrome we were getting an error:</div>
+<blockquote>
+<div>Uncaught SyntaxError: Unexpected token &lt;</div>
+</blockquote>
+<div>It took a while to track down the problem, but now I found it, it&#8217;s obvious. The content-type of the agent needs to actually be set to text/html, not text/javascript. All of the other browsers worked fine with this oversight, even Safari which is a fellow Webkit browser, but Chrome seems to be a lot more picky. So this is just a reminder to make sure you&#8217;re very precise with what is being sent to Chrome from your server.</div>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-2-25-be-very-careful-with-your-content-type-for-chrome-ajax-reque-html/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>LotusKnows IdeaJam is OPEN!</title>
+		<link>/2009-8-19-lotusknows-ideajam-is-open-html/</link>
+					<comments>/2009-8-19-lotusknows-ideajam-is-open-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 19 Aug 2009 09:36:37 +0000</pubDate>
+				<category><![CDATA[Domino Community]]></category>
+		<category><![CDATA[ideajam]]></category>
+		<category><![CDATA[lotusknows]]></category>
+		<guid isPermaLink="false">/2009-8-19-lotusknows-ideajam-is-open-html/</guid>
+
+					<description><![CDATA[Ever since IamLUG a couple of weeks ago, we&#8217;ve been looking forward to the LotusKnows IdeaJam. For as long as I can remember the Lotus community has been asking for more marketing from Lotus generally, well this seems to be the chance we&#8217;ve been waiting for. If you have a great idea or simply want [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Ever since IamLUG a couple of weeks ago, we&#8217;ve been looking forward to the <a href="http://lotusknows.ideajam.net/">LotusKnows IdeaJam</a>. For as long as I can remember the Lotus community has been asking for more marketing from Lotus generally, well this seems to be the chance we&#8217;ve been waiting for. If you have a great idea or simply want to go and comment and vote on other people&#8217;s thoughts then head on over to the site.</p>
+<p>If you already have an IdeaJam username and password then you don&#8217;t need to register again, but it&#8217;s only a three day event <a href="http://lotusknows.ideajam.net/">so get in there</a> quick and make the most of the opportunity.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-8-19-lotusknows-ideajam-is-open-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>IdeaJam wins 2009 Beacon Award</title>
+		<link>/2009-6-9-ideajam-wins-2009-beacon-award-html/</link>
+					<comments>/2009-6-9-ideajam-wins-2009-beacon-award-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 09 Jun 2009 15:51:00 +0000</pubDate>
+				<category><![CDATA[IdeaJam]]></category>
+		<category><![CDATA[awards]]></category>
+		<category><![CDATA[ideajam]]></category>
+		<guid isPermaLink="false">/2009-6-9-ideajam-wins-2009-beacon-award-html/</guid>
+
+					<description><![CDATA[We were just watching the &#8220;Business Partner Leadership Agenda&#8221; webcast with Sam Palmisano&#160;where he announced the 2009 Beacon Awards winners. Like the Lotus Awards that we did so well in earlier in the year, these are given to leading IBM Business Partners and as Sam said the Beacon Awards are IBM&#8217;s &#8220;most prestigious award&#8221; so [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><span class="full-image-float-right ssNonEditable"><span><img src="/static/500fb502e4b0b0a178712c5d/500fb669e4b00f3716e9af9d/500fb669e4b00f3716e9b14f/1244562781049/1000w" alt="" /></span></span>We were just watching the &#8220;Business Partner Leadership Agenda&#8221; webcast with <a href="http://en.wikipedia.org/wiki/Samuel_J._Palmisano">Sam Palmisano</a>&nbsp;where he announced the 2009 <a href="http://www-200.ibm.com/partnerworld/pwhome.nsf/weblook/2009_awards.html">Beacon Awards</a> winners.</p>
+<p>Like the Lotus Awards that we did so well in earlier in the year, these are given to leading IBM Business Partners and as Sam said the Beacon Awards are IBM&#8217;s &#8220;most prestigious award&#8221; so we&#8217;re completely blown away that <a href="http://ideajam.net/">IdeaJam</a>&nbsp;and <a href="http://elguji.com/">Elguji</a> has won again.</p>
+<p>This time we won the&nbsp;<a href="http://www-200.ibm.com/partnerworld/pwhome.nsf/weblook/2009_awards_awards_soft.html#collab">Innovative Collaboration Solution with Lotus Software</a>&nbsp;award. There were 22 different awards given to solutions from over 340 nominations so we really couldn&#8217;t be happier.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-6-9-ideajam-wins-2009-beacon-award-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

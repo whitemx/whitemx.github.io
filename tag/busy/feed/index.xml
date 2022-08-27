@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>busy &#8211; mattwhite.me</title>
+	<atom:link href="/tag/busy/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:38 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Back online</title>
+		<link>/2009-8-16-back-online-html/</link>
+					<comments>/2009-8-16-back-online-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sun, 16 Aug 2009 14:00:34 +0000</pubDate>
+				<category><![CDATA[My Life]]></category>
+		<category><![CDATA[busy]]></category>
+		<guid isPermaLink="false">/2009-8-16-back-online-html/</guid>
+
+					<description><![CDATA[Well after a couple of truly relaxing weeks on IamLUG, visiting Bruce and Gayle, driving down to San Francisco from Vancouver, WA and finally having my brother and his family visit for the weekend, (phew!) it&#8217;s time to get back to the real world. Over the next couple of weeks we have the Lotus Knows [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Well after a couple of truly relaxing weeks on IamLUG, visiting Bruce and Gayle, driving down to San Francisco from Vancouver, WA and finally having my brother and his family visit for the weekend, (phew!) it&#8217;s time to get back to the real world.</p>
+<p>Over the next couple of weeks we have the Lotus Knows IdeaJam kicking off, more work on IQJam, finishing off the development for the next version of IdeaJam and plenty of other fun projects to fill in the gaps in between.&nbsp;The build up to UKLUG is also about to start in earnest as well.</p>
+<p>Life is busy, but life is good. Now if only I could shake off this damn jetlag then all would be perfect.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-8-16-back-online-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

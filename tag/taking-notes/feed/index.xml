@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>taking notes &#8211; mattwhite.me</title>
+	<atom:link href="/tag/taking-notes/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Taking Notes Podcast Episode 100</title>
+		<link>/2009-10-26-taking-notes-podcast-episode-100-html/</link>
+					<comments>/2009-10-26-taking-notes-podcast-episode-100-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 26 Oct 2009 08:51:36 +0000</pubDate>
+				<category><![CDATA[Lotus Community]]></category>
+		<category><![CDATA[taking notes]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2009-10-26-taking-notes-podcast-episode-100-html/</guid>
+
+					<description><![CDATA[Yesterday, Bruce and Julian were kind enough to invite Peter Presnell, Declan Lynch and myself to have a bit of a chat about XPages on the land mark 100th episode of the Taking Notes Podcast. The chat itself seemed to go OK, but even if you&#8217;re not interested, you should listen to the podcast for [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Yesterday, <a href="http://bruceelgort.com/">Bruce</a> and <a href="http://nsftools.com/">Julian</a> were kind enough to invite <a href="http://www.bleedyellow.com/blogs/dotdomino/">Peter Presnell</a>, <a href="http://qtzar.com/">Declan Lynch</a> and myself to have a bit of a chat about XPages on the land mark 100th episode of the <a href="http://www.takingnotespodcast.com/">Taking Notes Podcast</a>. The chat itself seemed to go OK, but even if you&#8217;re not interested, you should listen to the podcast for the first 4 minutes if nothing else.&nbsp;</p>
+<p><a href="http://lotusrockstar.com/">Rob Novak</a> managed to organise the Lotus Community (like herding cats at the best of times) to record their own individual congratulations for Bruce and Julian. We get to enjoy the fruits of his work at the start of the podcast.</p>
+<p>So go and <a href="http://www.takingnotespodcast.com/blogs/takingnotes.nsf/dx/TakingNotesEpisode100.htm">take a listen</a>. And here&#8217;s to another 100 episodes of a great Lotus tradition.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-10-26-taking-notes-podcast-episode-100-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

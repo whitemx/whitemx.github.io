@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: mentioned	</title>
+	<atom:link href="/2003-8-29-mentioned-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2003-8-29-mentioned-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:43:29 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Andy "Dementia" Harris		</title>
+		<link>/2003-8-29-mentioned-html/#comment-912</link>
+
+		<dc:creator><![CDATA[Andy "Dementia" Harris]]></dc:creator>
+		<pubDate>Fri, 05 Sep 2003 16:44:29 +0000</pubDate>
+		<guid isPermaLink="false">/2003-8-29-mentioned-html/#comment-912</guid>
+
+					<description><![CDATA[&lt;p&gt;Microsoft have been doing that for years. Remember the big thing they made of Win95 and its &quot;multitasking&quot; capability. OS2 had been doing that for years. The irony there of course is that Microsoft co-developed OS2 with IBM in the beginning (that is a story for another time) so you would think they would know that.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Microsoft have been doing that for years. Remember the big thing they made of Win95 and its &#8220;multitasking&#8221; capability. OS2 had been doing that for years. The irony there of course is that Microsoft co-developed OS2 with IBM in the beginning (that is a story for another time) so you would think they would know that.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

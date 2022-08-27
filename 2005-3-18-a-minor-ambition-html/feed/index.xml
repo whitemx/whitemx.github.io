@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: A minor ambition	</title>
+	<atom:link href="/2005-3-18-a-minor-ambition-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2005-3-18-a-minor-ambition-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:35:50 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Simon		</title>
+		<link>/2005-3-18-a-minor-ambition-html/#comment-483</link>
+
+		<dc:creator><![CDATA[Simon]]></dc:creator>
+		<pubDate>Sun, 20 Mar 2005 17:11:39 +0000</pubDate>
+		<guid isPermaLink="false">/2005-3-18-a-minor-ambition-html/#comment-483</guid>
+
+					<description><![CDATA[&lt;p&gt;Ohh...suits you sir, suits you...&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Ohh&#8230;suits you sir, suits you&#8230;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mum		</title>
+		<link>/2005-3-18-a-minor-ambition-html/#comment-482</link>
+
+		<dc:creator><![CDATA[Mum]]></dc:creator>
+		<pubDate>Sat, 19 Mar 2005 14:51:22 +0000</pubDate>
+		<guid isPermaLink="false">/2005-3-18-a-minor-ambition-html/#comment-482</guid>
+
+					<description><![CDATA[&lt;p&gt;Just beware - the only suit your Father had like this was an absolute disaster.  Even the tailors agreed and sent it to someone else to alter it but it was never right.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Just beware &#8211; the only suit your Father had like this was an absolute disaster.  Even the tailors agreed and sent it to someone else to alter it but it was never right.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

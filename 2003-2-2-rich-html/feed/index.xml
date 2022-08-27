@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: rich	</title>
+	<atom:link href="/2003-2-2-rich-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2003-2-2-rich-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:46:05 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Ed Brill		</title>
+		<link>/2003-2-2-rich-html/#comment-987</link>
+
+		<dc:creator><![CDATA[Ed Brill]]></dc:creator>
+		<pubDate>Sun, 16 Feb 2003 14:02:53 +0000</pubDate>
+		<guid isPermaLink="false">/2003-2-2-rich-html/#comment-987</guid>
+
+					<description><![CDATA[&lt;p&gt;with no offense to my friends who live there, I agree with your observation. Just isn&#039;t much &quot;there&quot; there. You didn&#039;t really miss it.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>with no offense to my friends who live there, I agree with your observation. Just isn&#8217;t much &#8220;there&#8221; there. You didn&#8217;t really miss it.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mum		</title>
+		<link>/2003-2-2-rich-html/#comment-986</link>
+
+		<dc:creator><![CDATA[Mum]]></dc:creator>
+		<pubDate>Mon, 03 Feb 2003 07:58:46 +0000</pubDate>
+		<guid isPermaLink="false">/2003-2-2-rich-html/#comment-986</guid>
+
+					<description><![CDATA[&lt;p&gt;I feel the same about LA - in the couple of times there have never found a &quot;centre&quot; Hope the journey goes well - Dad says it is a very strange feeling to lose that day! We are off on Thursday, so hopefully will catch one more episode....&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I feel the same about LA &#8211; in the couple of times there have never found a &#8220;centre&#8221; Hope the journey goes well &#8211; Dad says it is a very strange feeling to lose that day! We are off on Thursday, so hopefully will catch one more episode&#8230;.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

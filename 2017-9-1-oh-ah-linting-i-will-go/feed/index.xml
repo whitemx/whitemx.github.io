@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Oh, ah-linting I will go	</title>
+	<atom:link href="/2017-9-1-oh-ah-linting-i-will-go/feed/" rel="self" type="application/rss+xml" />
+	<link>/2017-9-1-oh-ah-linting-i-will-go/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:18:49 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: essay corrector		</title>
+		<link>/2017-9-1-oh-ah-linting-i-will-go/#comment-11</link>
+
+		<dc:creator><![CDATA[essay corrector]]></dc:creator>
+		<pubDate>Sat, 18 Aug 2018 22:31:26 +0000</pubDate>
+		<guid isPermaLink="false">/2017-9-1-oh-ah-linting-i-will-go/#comment-11</guid>
+
+					<description><![CDATA[&lt;p&gt;This is a really significant step to be made by someone to become a successful programmer. Hope you will read http://essaycorrector.org/blog/page/16 and find it fascinating!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>This is a really significant step to be made by someone to become a successful programmer. Hope you will read <a href="http://essaycorrector.org/blog/page/16" rel="nofollow ugc">http://essaycorrector.org/blog/page/16</a> and find it fascinating!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Keith Strickland		</title>
+		<link>/2017-9-1-oh-ah-linting-i-will-go/#comment-10</link>
+
+		<dc:creator><![CDATA[Keith Strickland]]></dc:creator>
+		<pubDate>Fri, 01 Sep 2017 20:04:13 +0000</pubDate>
+		<guid isPermaLink="false">/2017-9-1-oh-ah-linting-i-will-go/#comment-10</guid>
+
+					<description><![CDATA[&lt;p&gt;As far as JavaScript isn&#039;t strongly typed, you can always go down the TypeScript road. This does provide stronger typing to your JavaScript and brings JavaScript more inline with Java/C#. The great thing about it is, once implemented you don&#039;t really have to change anything about your existing codebase because TypeScript IS JavaScript, it just adds typings to it. I&#039;ve been using it for about 6 months now and I love it. You&#039;re able to define abstract classes, classes, inheritance, interfaces, enums, etc. which really helps on a large project.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>As far as JavaScript isn&#8217;t strongly typed, you can always go down the TypeScript road. This does provide stronger typing to your JavaScript and brings JavaScript more inline with Java/C#. The great thing about it is, once implemented you don&#8217;t really have to change anything about your existing codebase because TypeScript IS JavaScript, it just adds typings to it. I&#8217;ve been using it for about 6 months now and I love it. You&#8217;re able to define abstract classes, classes, inheritance, interfaces, enums, etc. which really helps on a large project.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

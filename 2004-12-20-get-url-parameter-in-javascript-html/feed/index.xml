@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Get URL Parameter in Javascript	</title>
+	<atom:link href="/2004-12-20-get-url-parameter-in-javascript-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2004-12-20-get-url-parameter-in-javascript-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:37:18 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: vamsi		</title>
+		<link>/2004-12-20-get-url-parameter-in-javascript-html/#comment-1357</link>
+
+		<dc:creator><![CDATA[vamsi]]></dc:creator>
+		<pubDate>Mon, 14 Dec 2009 05:49:15 +0000</pubDate>
+		<guid isPermaLink="false">/2004-12-20-get-url-parameter-in-javascript-html/#comment-1357</guid>
+
+					<description><![CDATA[&lt;p&gt;HI,&lt;/p&gt;&lt;p&gt;thank you for the piece it helped me a lot.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>HI,</p>
+<p>thank you for the piece it helped me a lot.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Rich		</title>
+		<link>/2004-12-20-get-url-parameter-in-javascript-html/#comment-1356</link>
+
+		<dc:creator><![CDATA[Rich]]></dc:creator>
+		<pubDate>Tue, 06 Oct 2009 02:12:43 +0000</pubDate>
+		<guid isPermaLink="false">/2004-12-20-get-url-parameter-in-javascript-html/#comment-1356</guid>
+
+					<description><![CDATA[&lt;p&gt;Very nice....&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Very nice&#8230;.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: sujie		</title>
+		<link>/2004-12-20-get-url-parameter-in-javascript-html/#comment-1355</link>
+
+		<dc:creator><![CDATA[sujie]]></dc:creator>
+		<pubDate>Thu, 27 Aug 2009 12:58:36 +0000</pubDate>
+		<guid isPermaLink="false">/2004-12-20-get-url-parameter-in-javascript-html/#comment-1355</guid>
+
+					<description><![CDATA[&lt;p&gt;hey thanks a lot for the great code..it works like a charm :)...you saved me so much time :)&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>hey thanks a lot for the great code..it works like a charm :)&#8230;you saved me so much time 🙂</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Jordan Arentsen		</title>
+		<link>/2004-12-20-get-url-parameter-in-javascript-html/#comment-1354</link>
+
+		<dc:creator><![CDATA[Jordan Arentsen]]></dc:creator>
+		<pubDate>Tue, 30 Jun 2009 11:47:55 +0000</pubDate>
+		<guid isPermaLink="false">/2004-12-20-get-url-parameter-in-javascript-html/#comment-1354</guid>
+
+					<description><![CDATA[&lt;p&gt;Thank you, this came very much in handy.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thank you, this came very much in handy.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Edwin		</title>
+		<link>/2004-12-20-get-url-parameter-in-javascript-html/#comment-1323</link>
+
+		<dc:creator><![CDATA[Edwin]]></dc:creator>
+		<pubDate>Sun, 17 May 2009 07:52:18 +0000</pubDate>
+		<guid isPermaLink="false">/2004-12-20-get-url-parameter-in-javascript-html/#comment-1323</guid>
+
+					<description><![CDATA[&lt;p&gt;XPages is making life easier by using XSPContext and getUrlParameter.&lt;br/&gt;&lt;br  /&gt;&lt;br/&gt;&lt;br  /&gt;Anyhow thanks.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>XPages is making life easier by using XSPContext and getUrlParameter.</p>
+<p>Anyhow thanks.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Helmut		</title>
+		<link>/2004-12-20-get-url-parameter-in-javascript-html/#comment-1333</link>
+
+		<dc:creator><![CDATA[Helmut]]></dc:creator>
+		<pubDate>Thu, 14 May 2009 02:10:40 +0000</pubDate>
+		<guid isPermaLink="false">/2004-12-20-get-url-parameter-in-javascript-html/#comment-1333</guid>
+
+					<description><![CDATA[&lt;p&gt;I need to pass a filename on to a viewer page: &lt;br  /&gt;&#060;a href=&quot;view.html?/x/pix1.jpg&quot;&#062;pix1&#060;/a&#062;&lt;br  /&gt;&lt;br  /&gt;and then read the value into a variable, for example ppp, that I can use to display that picture, for example&lt;br  /&gt;&#060;img src=&quot;&#060;!--#echo var=&quot;ppp&quot; --&#062;&quot;&#062;&lt;br  /&gt;&lt;br  /&gt;What code do I need to read the value and stuff it into ppp ?&lt;br  /&gt;Thanks&lt;br  /&gt;Helmut&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I need to pass a filename on to a viewer page: <br />&lt;a href=&#8221;view.html?/x/pix1.jpg&#8221;&gt;pix1&lt;/a&gt;</p>
+<p>and then read the value into a variable, for example ppp, that I can use to display that picture, for example<br />&lt;img src=&#8221;&lt;!&#8211;#echo var=&#8221;ppp&#8221; &#8211;&gt;&#8221;&gt;</p>
+<p>What code do I need to read the value and stuff it into ppp ?<br />Thanks<br />Helmut</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Leonard		</title>
+		<link>/2004-12-20-get-url-parameter-in-javascript-html/#comment-1350</link>
+
+		<dc:creator><![CDATA[Leonard]]></dc:creator>
+		<pubDate>Sat, 07 Mar 2009 18:15:20 +0000</pubDate>
+		<guid isPermaLink="false">/2004-12-20-get-url-parameter-in-javascript-html/#comment-1350</guid>
+
+					<description><![CDATA[&lt;p&gt;&#060;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;&#062;&lt;br  /&gt;&lt;br  /&gt;&#060;html&#062;&lt;br  /&gt;&#060;head&#062;&lt;br  /&gt;&#060;title&#062;Untitled&#060;/title&#062;&lt;br  /&gt;&#060;/head&#062;&lt;br  /&gt;&#060;body&#062;&lt;br  /&gt;&#060;script language=&quot;javascript&quot;&#062;&lt;br  /&gt;function getURLParam(strParamName){&lt;br  /&gt;  var strReturn = &quot;&quot;;&lt;br  /&gt;  var strHref = window.location.href;&lt;br  /&gt;  if ( strHref.indexOf(&quot;?&quot;) &#062; -1 ){&lt;br  /&gt;    var strQueryString = strHref.substr(strHref.indexOf(&quot;?&quot;)).toLowerCase();&lt;br  /&gt;    var aQueryString = strQueryString.split(&quot;&#038;&quot;);&lt;br  /&gt;    for ( var iParam = 0; iParam &#060; aQueryString.length; iParam++ ){&lt;br  /&gt;      if (&lt;br  /&gt;aQueryString[iParam].indexOf(strParamName.toLowerCase() + &quot;=&quot;) &#062; -1 ){&lt;br  /&gt;        var aParam = aQueryString[iParam].split(&quot;=&quot;);&lt;br  /&gt;        strReturn = aParam[1];&lt;br  /&gt;        break;&lt;br  /&gt;      }&lt;br  /&gt;    }&lt;br  /&gt;  }&lt;br  /&gt;  return unescape(strReturn);&lt;br  /&gt;} &lt;br  /&gt;&#060;/script&#062;&lt;br  /&gt;&#060;/body&#062;&lt;br  /&gt;&#060;/html&#062;&lt;br  /&gt;&lt;br  /&gt;&lt;br  /&gt;{ &lt;a href=&quot;&lt;a rel=&quot;nofollow&quot; href=&quot;http://localhost/test.php?id=testid&quot;&quot; rel=&quot;nofollow ugc&quot;&gt;http://localhost/test.php?id=testid&quot;&lt;/a&gt; rel=&quot;nofollow&quot; target =&quot;blank&quot;&gt;Link&lt;/a&gt; }&lt;br  /&gt;&lt;br  /&gt;...why doesn&#039;t this work?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>&lt;!DOCTYPE HTML PUBLIC &#8220;-//W3C//DTD HTML 4.01 Transitional//EN&#8221;&gt;</p>
+<p>&lt;html&gt;<br />&lt;head&gt;<br />&lt;title&gt;Untitled&lt;/title&gt;<br />&lt;/head&gt;<br />&lt;body&gt;<br />&lt;script language=&#8221;javascript&#8221;&gt;<br />function getURLParam(strParamName){<br />  var strReturn = &#8220;&#8221;;<br />  var strHref = window.location.href;<br />  if ( strHref.indexOf(&#8220;?&#8221;) &gt; -1 ){<br />    var strQueryString = strHref.substr(strHref.indexOf(&#8220;?&#8221;)).toLowerCase();<br />    var aQueryString = strQueryString.split(&#8220;&amp;&#8221;);<br />    for ( var iParam = 0; iParam &lt; aQueryString.length; iParam++ ){<br />      if (<br />aQueryString[iParam].indexOf(strParamName.toLowerCase() + &#8220;=&#8221;) &gt; -1 ){<br />        var aParam = aQueryString[iParam].split(&#8220;=&#8221;);<br />        strReturn = aParam[1];<br />        break;<br />      }<br />    }<br />  }<br />  return unescape(strReturn);<br />} <br />&lt;/script&gt;<br />&lt;/body&gt;<br />&lt;/html&gt;</p>
+<p>{ <a href="<a rel="nofollow" href="http://localhost/test.php?id=testid"" rel="nofollow ugc"></a><a href="http://localhost/test.php?id=testid" rel="nofollow ugc">http://localhost/test.php?id=testid</a>&#8220; rel=&#8221;nofollow&#8221; target =&#8221;blank&#8221;>Link }</p>
+<p>&#8230;why doesn&#8217;t this work?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: caro		</title>
+		<link>/2004-12-20-get-url-parameter-in-javascript-html/#comment-1312</link>
+
+		<dc:creator><![CDATA[caro]]></dc:creator>
+		<pubDate>Sun, 04 Jan 2009 04:17:34 +0000</pubDate>
+		<guid isPermaLink="false">/2004-12-20-get-url-parameter-in-javascript-html/#comment-1312</guid>
+
+					<description><![CDATA[&lt;p&gt;Nice code!&lt;br  /&gt;thank you!{ &lt;a href=&quot;&lt;a rel=&quot;nofollow&quot; href=&quot;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLS/$File/biggrin.gif&quot;&quot; rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLS/$File/biggrin.gif&quot;&lt;/a&gt; rel=&quot;nofollow&quot; target =&quot;blank&quot;&gt;Link&lt;/a&gt; }&lt;br  /&gt;&lt;img alt=&quot;Emoticon&quot; src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLS/$File/biggrin.gif&quot;&lt;/a&gt; /&gt;&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Nice code!<br />thank you!{ <a href="<a rel="nofollow" href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLS/$File/biggrin.gif"" rel="nofollow ugc"></a><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLS/$File/biggrin.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLS/$File/biggrin.gif</a>&#8220; rel=&#8221;nofollow&#8221; target =&#8221;blank&#8221;>Link }<br /><img alt="Emoticon" src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLS/$File/biggrin.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLS/$File/biggrin.gif</a>&#8220; /></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Kaliraja		</title>
+		<link>/2004-12-20-get-url-parameter-in-javascript-html/#comment-1341</link>
+
+		<dc:creator><![CDATA[Kaliraja]]></dc:creator>
+		<pubDate>Fri, 28 Nov 2008 05:54:19 +0000</pubDate>
+		<guid isPermaLink="false">/2004-12-20-get-url-parameter-in-javascript-html/#comment-1341</guid>
+
+					<description><![CDATA[&lt;p&gt;How to transfer data from one html document form to another html document form.What is the procedure?&lt;img alt=&quot;Emoticon&quot; src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif&quot;&lt;/a&gt; /&gt; &lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>How to transfer data from one html document form to another html document form.What is the procedure?<img alt="Emoticon" src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif</a>&#8220; /> </p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Rik Arends		</title>
+		<link>/2004-12-20-get-url-parameter-in-javascript-html/#comment-1344</link>
+
+		<dc:creator><![CDATA[Rik Arends]]></dc:creator>
+		<pubDate>Fri, 07 Nov 2008 18:14:38 +0000</pubDate>
+		<guid isPermaLink="false">/2004-12-20-get-url-parameter-in-javascript-html/#comment-1344</guid>
+
+					<description><![CDATA[&lt;p&gt;Note to moderator: Sorry, made a codetypo in the previous post please remove it and this line&lt;br/&gt;&lt;br  /&gt;&lt;br/&gt;&lt;br  /&gt;Alright, i added support for [] style PHP arrays and objects. &lt;br/&gt;&lt;br  /&gt;It autodetects if it needs to create an object or an array, depending on the type of the index. String creates an object, number creates an array. &lt;br/&gt;&lt;br  /&gt;Due to a special case in the code [-1] is treated as []. Besides, negative array indices are evil. &lt;br/&gt;&lt;br  /&gt;examples: &lt;br/&gt;&lt;br  /&gt;&lt;br/&gt;&lt;br  /&gt;http : //ur/page?val[]=1&#038;val[]=2&#038;val[]=3; &lt;br/&gt;&lt;br  /&gt;Will be accessible as an array: &lt;br/&gt;&lt;br  /&gt;_GET.val[0] to _GET.val[2] &lt;br/&gt;&lt;br  /&gt;&lt;br/&gt;&lt;br  /&gt;http : //ur/page?val[v1]=1&#038;val.v2=2; &lt;br/&gt;&lt;br  /&gt;Will be accessible as an object: &lt;br/&gt;&lt;br  /&gt;_GET.val.v1 and _GET.val.v2 &lt;br/&gt;&lt;br  /&gt;&lt;br/&gt;&lt;br  /&gt;The code supports n-levels. &lt;br/&gt;&lt;br  /&gt;http : //ur/page?val[v1][0]=1; &lt;br/&gt;&lt;br  /&gt;Which will be stored as an array in &lt;br/&gt;&lt;br  /&gt;_GET.val.v1[0] &lt;br/&gt;&lt;br  /&gt;&lt;br/&gt;&lt;br  /&gt;You can put quotes around names to force &#039;object&#039; as type &lt;br/&gt;&lt;br  /&gt;http : //ur/page?val[v1][&#039;1&#039;]=1; &lt;br/&gt;&lt;br  /&gt;Which will be stored properly stripped as an object: &lt;br/&gt;&lt;br  /&gt;_GET.val.v1[&#039;1&#039;] &lt;br/&gt;&lt;br  /&gt;&lt;br/&gt;&lt;br  /&gt;The code is below, formatting is a bit off on this post, make it nicer if that makes you feel better :) &lt;br/&gt;&lt;br  /&gt;&lt;br/&gt;&lt;br  /&gt;&lt;br/&gt;&lt;br  /&gt;var _GET = {};&lt;br/&gt;&lt;br  /&gt;for(var i,a,m,n,o,v,p=location.href.split(/[?&#038;]/),l=p.length,k=1;k&#060;l;k++)&lt;br/&gt;&lt;br  /&gt;    if( (m=p[k].match(/(.*?)(\..*?&#124;\[.*?\])?=([^#]*)/))&#038;&#038;m.length==4){&lt;br/&gt;&lt;br  /&gt;        n=decodeURI(m[1]).toLowerCase(),o=_GET,v=decodeURI(m[3]);&lt;br/&gt;&lt;br  /&gt;        if(m[2])for(a=decodeURI(m[2]).replace(/\[\s*\]/g,&quot;[-1]&quot;).split(/[\.\[\]]/),i=0;i&#060;a.length;i++)&lt;br/&gt;&lt;br  /&gt;            o=o[n]?o[n]:o[n]=(parseInt(a&lt;i&gt;)==a&lt;i&gt;)?[]:{}, n=a&lt;i&gt;.replace(/^[&quot;\&#039;](.*)[&quot;\&#039;]$/,&quot;$1&quot;);&lt;br/&gt;&lt;br  /&gt;        n!=&#039;-1&#039;?o[n]=v:o[o.length]=v;&lt;br/&gt;&lt;br  /&gt;}&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Note to moderator: Sorry, made a codetypo in the previous post please remove it and this line</p>
+<p>Alright, i added support for [] style PHP arrays and objects. </p>
+<p>It autodetects if it needs to create an object or an array, depending on the type of the index. String creates an object, number creates an array. </p>
+<p>Due to a special case in the code [-1] is treated as []. Besides, negative array indices are evil. </p>
+<p>examples: </p>
+<p>http : //ur/page?val[]=1&amp;val[]=2&amp;val[]=3; </p>
+<p>Will be accessible as an array: </p>
+<p>_GET.val[0] to _GET.val[2] </p>
+<p>http : //ur/page?val[v1]=1&amp;val.v2=2; </p>
+<p>Will be accessible as an object: </p>
+<p>_GET.val.v1 and _GET.val.v2 </p>
+<p>The code supports n-levels. </p>
+<p>http : //ur/page?val[v1][0]=1; </p>
+<p>Which will be stored as an array in </p>
+<p>_GET.val.v1[0] </p>
+<p>You can put quotes around names to force &#8216;object&#8217; as type </p>
+<p>http : //ur/page?val[v1][&#8216;1&#8217;]=1; </p>
+<p>Which will be stored properly stripped as an object: </p>
+<p>_GET.val.v1[&#8216;1&#8217;] </p>
+<p>The code is below, formatting is a bit off on this post, make it nicer if that makes you feel better 🙂 </p>
+<p>var _GET = {};</p>
+<p>for(var i,a,m,n,o,v,p=location.href.split(/[?&amp;]/),l=p.length,k=1;k&lt;l;k++)</p>
+<p>    if( (m=p[k].match(/(.*?)(\..*?|\[.*?\])?=([^#]*)/))&amp;&amp;m.length==4){</p>
+<p>        n=decodeURI(m[1]).toLowerCase(),o=_GET,v=decodeURI(m[3]);</p>
+<p>        if(m[2])for(a=decodeURI(m[2]).replace(/\[\s*\]/g,&#8221;[-1]&#8221;).split(/[\.\[\]]/),i=0;i&lt;a.length;i++)</p>
+<p>            o=o[n]?o[n]:o[n]=(parseInt(a<i>)==a</i><i>)?[]:{}, n=a</i><i>.replace(/^[&#8220;\&#8217;](.*)[&#8220;\&#8217;]$/,&#8221;$1&#8221;);</p>
+<p>        n!=&#8217;-1&#8242;?o[n]=v:o[o.length]=v;</p>
+<p>}</i></p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

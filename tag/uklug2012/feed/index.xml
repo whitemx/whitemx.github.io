@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>uklug2012 &#8211; mattwhite.me</title>
+	<atom:link href="/tag/uklug2012/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:03 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>UKLUG 2012 &#8211; Call for abstracts</title>
+		<link>/2012-5-29-uklug-2012-call-for-abstracts-html/</link>
+					<comments>/2012-5-29-uklug-2012-call-for-abstracts-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 29 May 2012 11:15:26 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[speaking]]></category>
+		<category><![CDATA[uklug2012]]></category>
+		<guid isPermaLink="false">/2012-5-29-uklug-2012-call-for-abstracts-html/</guid>
+
+					<description><![CDATA[Warren announced that UKLUG is happening again this year, in Cardiff in September. Hopefully you&#8217;ve registered already, but have you thought about presenting? You&#8217;ll often hear Lotusphere speakers mention that their first taste of speaking was at a User Group like UKLUG, indeed it was mine four years ago when I presented with Bruce Elgort [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p id="_mcePaste"><a href="http://www.elsmore.net/warren/blog.nsf/d6plinks/WELE-8UREVH">Warren announced</a> that <a href="http://uklug.info/">UKLUG</a> is happening again this year, in Cardiff in September. Hopefully you&#8217;ve registered already, but have you thought about presenting?</p>
+<p id="_mcePaste">You&#8217;ll often hear Lotusphere speakers mention that their first taste of speaking was at a User Group like UKLUG, indeed it was mine four years ago when I presented with <a href="http://bruceelgort.com/">Bruce Elgort</a> and <a href="http://phigsaidwhat.com/">Sean Burgess</a>. A truly terrifying experience, but so worthwhile.</p>
+<p id="_mcePaste">This year, as ever, we have three tracks of sessions; Admin, Management and Development. But what are we looking for? Well the high level response is that we want interesting sessions about anything to do with Lotus technologies (Notes, Domino, Connections, Sametime etc). Your session will need to last for just under and hour (55 minutes or so) and it can be aimed at any level of audience. The key thing is to write a clear and concise abstract.</p>
+<p id="_mcePaste">The nice thing about LUGs vs Lotusphere is that we have somewhat more leeway in what we can run sessions on. So if your session is tangential to Lotus technologies but still relevant then it&#8217;s worth putting it in. If you have a &#8220;real world&#8221; session which uses technologies which maybe IBM wouldn&#8217;t want to highlight on the Lotusphere stage, then maybe the LUG format will suit you better. The key thing is to write the abstract (and title) to attract people to your session. Remember, when you&#8217;re speaking there will be at least two other sessions going on, you have to sell yourself.</p>
+<p id="_mcePaste">Myself and <a href="http://dominoyesmaybe.blogspot.com/">Steve McDonagh</a> are running the Dev track this year, and I just thought it would be useful to run through the process of how we choose the sessions.</p>
+<p id="_mcePaste">Firstly I move all of the session titles and abstracts into a spreadsheet and remove any names from the list to try and avoid falling into the trap of automatically selecting &#8220;the old dependables&#8221;. Just to give an idea, last year we had three times as many abstracts as we had sessions, so this next bit of the process is very hard. We go through the abstracts and we rate each one so that there is a league table.&nbsp;</p>
+<p id="_mcePaste">Next we add in the speaker names. We try our best to get as many speakers in as possible, so if someone has played a blinder and submitted multiple abstracts which we like we&#8217;ll either pick the best one and remove the others, or contact them to see if maybe they could speak with someone else, ideally someone new to the speaking circuit.</p>
+<p id="_mcePaste">After much arguing and horse trading with the other tracks (sometimes we can stretch the definition of Admin or Dev or Management!) we end up with a list and we&#8217;ll send out the notification emails.</p>
+<p id="_mcePaste">And that&#8217;s where the real fun starts for you!</p>
+<p id="_mcePaste">So please do have a think about whether you want to try out presenting in a smaller, less terrifying setting than Lotusphere. The Call For Abstracts closes on Friday 29th June and we&#8217;ll aim to let people know as soon after that as possible.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012-5-29-uklug-2012-call-for-abstracts-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

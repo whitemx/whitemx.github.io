@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>fun &#8211; mattwhite.me</title>
+	<atom:link href="/tag/fun/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>The Settlers of Catan</title>
+		<link>/2010-3-21-the-settlers-of-catan-html/</link>
+					<comments>/2010-3-21-the-settlers-of-catan-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sun, 21 Mar 2010 19:59:33 +0000</pubDate>
+				<category><![CDATA[My Life]]></category>
+		<category><![CDATA[fun]]></category>
+		<guid isPermaLink="false">/2010-3-21-the-settlers-of-catan-html/</guid>
+
+					<description><![CDATA[It&#8217;s been one of those really great weekends where everything is very chilled out and goes right. One of those things was an evening last night playing a board game that had completely passed me by until now. The Settlers of Catan is like a cross between Monopoly, Risk and Civilisation. Our single game lasted [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>It&#8217;s been one of those really great weekends where everything is very chilled out and goes right. One of those things was an evening last night playing a board game that had completely passed me by until now.</p>
+<p><a href="http://en.wikipedia.org/wiki/The_Settlers_of_Catan">The Settlers of Catan</a> is like a cross between Monopoly, Risk and Civilisation. Our single game lasted around three hours and generated a huge amount of bargaining, nastiness and laughter. If you&#8217;re looking for a game which will while away several hours, requires a lot of strategy and is actually quite challenging then this is the game for you.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-3-21-the-settlers-of-catan-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>It&#8217;s Movember, get those wallets out</title>
+		<link>/2009-11-2-its-movember-get-those-wallets-out-html/</link>
+					<comments>/2009-11-2-its-movember-get-those-wallets-out-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 02 Nov 2009 17:10:05 +0000</pubDate>
+				<category><![CDATA[Charity]]></category>
+		<category><![CDATA[fun]]></category>
+		<category><![CDATA[movember]]></category>
+		<guid isPermaLink="false">/2009-11-2-its-movember-get-those-wallets-out-html/</guid>
+
+					<description><![CDATA[Those of you who know me in person (as opposed to some disembodied Twitterer or blog poster) will know that growing hair isn&#8217;t one of my strong areas. Why then, would I sign up for Movember? Well, apart from it being an excellent cause to which we should all give generously and be more aware, [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Those of you who know me in person (as opposed to some disembodied Twitterer or blog poster) will know that growing hair isn&#8217;t one of my strong areas.</p>
+<p>Why then, would I sign up for <a href="http://uk.movember.com/">Movember</a>? Well, apart from it being an <a href="http://www.prostate-cancer.org.uk/">excellent cause</a> to which we should all give generously and be more aware, it&#8217;s also an experiment to see whether it&#8217;s just the top of my head that&#8217;s follically challenged or if my top lip will also betray me.</p>
+<p>So what do you need to do? Well two things. Number one, and most importantly, is to visit <a href="http://uk.movember.com/mospace/294156">this page</a> and pledge a little bit of cash to the Prostate Cancer Charity. Second, just sit back and see just how grand a &#8220;Mo&#8221; I can grow in 30 days. Very exciting isn&#8217;t it?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-11-2-its-movember-get-those-wallets-out-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

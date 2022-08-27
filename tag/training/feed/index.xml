@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>training &#8211; mattwhite.me</title>
+	<atom:link href="/tag/training/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>XPages101 comes to America</title>
+		<link>/2010-5-4-xpages101-comes-to-america-html/</link>
+					<comments>/2010-5-4-xpages101-comes-to-america-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 04 May 2010 14:29:52 +0000</pubDate>
+				<category><![CDATA[Domino Community]]></category>
+		<category><![CDATA[training]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2010-5-4-xpages101-comes-to-america-html/</guid>
+
+					<description><![CDATA[I&#8217;ve been working with Chris Miller and Rob Novak over the last few weeks to put together a great extra day after IamLUG this August in St Louis.&#160; Basically the plan is that I&#8217;ll run my XPages101 classroom course, Chris will be running a new &#8220;Domino Optimization Tour&#8221; and Rob and the SNAPPS team will [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;ve been working with <a href="http://idonotes.com/">Chris Miller</a> and <a href="http://lotusrockstar.com/">Rob Novak</a> over the last few weeks to put together a great extra day after <a href="http://iamlug.org/">IamLUG</a> this August in St Louis.&nbsp;</p>
+<p>Basically the plan is that I&#8217;ll run my <a href="http://xpages101.net/classroom">XPages101 classroom course</a>, Chris will be running a new &#8220;Domino Optimization Tour&#8221; and Rob and the SNAPPS team will be running their iPhone Development class. Each of the courses will be running concurrently in the same rooms that IamLUG will have been in for the previous couple of days. And because we&#8217;re able to get some economies of scale by operating together, the prices for the extra training day, or &#8220;<a href="http://tackiton.com/iamlug">Tack It On</a>&#8221; day can be kept as low as possible.</p>
+<p>So if you&#8217;re interested in learning XPages, iPhone development or taking a deep dive into Domino server optimisation then <a href="http://tackiton.com/iamlug">visit the information site for more details</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-5-4-xpages101-comes-to-america-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>XPages101 Online is here</title>
+		<link>/2010-2-12-xpages101-online-is-here-html/</link>
+					<comments>/2010-2-12-xpages101-online-is-here-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 12 Feb 2010 13:32:29 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[training]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2010-2-12-xpages101-online-is-here-html/</guid>
+
+					<description><![CDATA[One of my big takeaways from Lotusphere this year was that there is a huge appetite for XPages training material. I had already got my classroom based XPages101 course lined up, but now that that&#8217;s done, it&#8217;s time to turn attention to the rest of the world and the online format. So what I&#8217;ve come [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>One of my big takeaways from Lotusphere this year was that there is a huge appetite for XPages training material. I had already got my classroom based XPages101 course lined up, but now that that&#8217;s done, it&#8217;s time to turn attention to the rest of the world and the online format.</p>
+<p>So what I&#8217;ve come up with is a new website (same URL as before though) at <a href="http://xpages101.net/">xpages101.net</a>. From here you can see the details of the classroom based course but there&#8217;s a whole other section of the site devoted to online material. Now to make this work for me (I run a small business on my own and this stuff takes a *lot* of time to put together) there is a charge for the content. But I&#8217;ve tried to make it as appealing as possible.</p>
+<p>You have two choices, either a single user account or a five user account. In both cases you&#8217;ll get full access to the site, all of the videos and support content for a full 12 months. The aim from my side is to keep on adding new videos every week or two for as long as there are interesting things to talk about. I just worked out what I have to create lessons on and it will take me well into May just from my initial list!</p>
+<p>Also, to thank you for your early interest in the site, you can use the coupon code &#8220;earlybird&#8221; at check out and get a 33% discount until February 26th.</p>
+<p>So please, go and <a href="http://xpages101.net/">check out the site</a>, let me know what you think and if you have any areas that you&#8217;d like covered the please either comment here or use the <a href="http://xpages101.net/contact-us/">contact us form</a> on the site.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-2-12-xpages101-online-is-here-html/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>XPages101 done. (for now)</title>
+		<link>/2010-2-10-xpages101-done-for-now-html/</link>
+					<comments>/2010-2-10-xpages101-done-for-now-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 10 Feb 2010 08:19:06 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[training]]></category>
+		<category><![CDATA[xpages]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2010-2-10-xpages101-done-for-now-html/</guid>
+
+					<description><![CDATA[Yesterday, Ben Poole and myself presented the XPages101 course which I have designed over the last couple of months to be an introduction to developing with XPages. Overall it seemed to go pretty well, the timings need some work, I went a little fast at some points which may have left a few people overwhelmed [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Yesterday, <a href="http://benpoole.com/">Ben Poole</a> and myself presented the <a href="http://xpages101.net/">XPages101</a> course which I have designed over the last couple of months to be an introduction to developing with XPages.</p>
+<p>Overall it seemed to go pretty well, the timings need some work, I went a little fast at some points which may have left a few people overwhelmed at the&nbsp;fire hose&nbsp;of information we got through in a short period of time! That will not happen again now that I understand how it all hangs together a bit more.</p>
+<p>The feedback from the attendees was really gratifying&#8230;</p>
+<table>
+<tbody>
+<tr>
+<td>Question</td>
+<td>Score</td>
+</tr>
+<tr>
+<td>Overall, how would you rate the course?</td>
+<td>95% (between Excellent and Good)</td>
+</tr>
+<tr>
+<td>How was the course material?</td>
+<td>86.67% (between Excellent and Good)</td>
+</tr>
+<tr>
+<td>How was the presentation style?</td>
+<td>86.67% (between Excellent and Good)</td>
+</tr>
+<tr>
+<td>Would you recommend the course to your colleagues / nerdy friends?</td>
+<td>Yes: 100%</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>Obviously there&#8217;s always room for improvement and there were some great feedback comments as well&#8230;</p>
+<blockquote>
+<p>&#8220;A real eye opener for me as I&#8217;ve not looked XPages prior to the course.&#8221;</p>
+<p>&#8220;Excellent value for money. Pitched just right for the first steps into XPages.&#8221;</p>
+<p>&#8220;It gave me a very good understanding of XPages under the bonnet.&#8221;</p>
+<p>&#8220;It was great being here, great course, the XPages start I was looking for.&#8221;</p>
+</blockquote>
+<p>One of the things which I had&nbsp;consciously&nbsp;not done was provide lots of handout materials. The aim was to reduce the costs of the course as much as possible. From the feedback it seems people would have been happy to pay extra to get more paper based materials. So I think in future iterations of the course we&#8217;ll change that around.</p>
+<p>The other area where a couple of people expressed an interest was for an &#8220;intermediate&#8221; course. This leaves me in a bit of a quandary, as I&#8217;m not sure I know what intermediate is. So if you have any thoughts I&#8217;d love to hear them.</p>
+<p>Overall though, as I said earlier, it was a great day. Good fun for me, and hopefully useful to everyone else.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-2-10-xpages101-done-for-now-html/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Announcing XPages101 &#8211; An Introduction to XPages course</title>
+		<link>/2009-12-4-announcing-xpages101-an-introduction-to-xpages-course-html/</link>
+					<comments>/2009-12-4-announcing-xpages101-an-introduction-to-xpages-course-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 04 Dec 2009 09:32:28 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[london]]></category>
+		<category><![CDATA[training]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2009-12-4-announcing-xpages101-an-introduction-to-xpages-course-html/</guid>
+
+					<description><![CDATA[A few weeks ago I asked the twittersphere what people thought would be a reasonable cost for a one day long, introduction to XPages course. This was before I had investigated the cost of anything such as room hire etc, and also before I had thought about what the content for the course might be. [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>A few weeks ago I <a href="http://twitter.com/mattwhite/status/5040230767">asked the twittersphere</a> what people thought would be a reasonable cost for a one day long, introduction to XPages course. This was before I had investigated the cost of anything such as room hire etc, and also before I had thought about what the content for the course might be. But I liked the idea of running a single day bootcamp that will help you get started with XPages so, taking people&#8217;s advice and sourcing all of the elements for the course, I&#8217;m happy to be able to open up <a href="http://xpages101.net/">xpages101.net</a> today.</p>
+<p> I&#8217;ve managed to find a very reasonably priced training room, and more importantly, written a sample application which includes as much of the elements of a &#8220;real world&#8221; XPages app as I could squeeze into an eight hour course. The plan for the day is that you bring along your own laptop with Domino Designer 8.5.1 installed, I give you a starting point template and then together we go through the steps to build an XPages application. As we progress we&#8217;ll cover all of the major elements of XPages including the new design elements, server side Javascript, Dojo, OneUI and Themes, searching and so on. Then at the end of the day you&#8217;ll have a working application (in theory at least!) and be able to go back to your office and use it as a reference point for your first real world development when you deploy Domino 8.5.1.</p>
+<p> So please do head on over to <a href="http://xpages101.net/">xpages101.net</a>, have a look at the site and if you&#8217;ve got any questions <a href="http://xpages101.net/training/xpages101.nsf/contact.xsp">drop me a line</a>, otherwise I hope to see you in London in February 2010.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-12-4-announcing-xpages101-an-introduction-to-xpages-course-html/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

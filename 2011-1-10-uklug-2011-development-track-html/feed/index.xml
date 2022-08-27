@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: UKLUG 2011 Development Track	</title>
+	<atom:link href="/2011-1-10-uklug-2011-development-track-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2011-1-10-uklug-2011-development-track-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:05 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Joe Singer		</title>
+		<link>/2011-1-10-uklug-2011-development-track-html/#comment-145</link>
+
+		<dc:creator><![CDATA[Joe Singer]]></dc:creator>
+		<pubDate>Mon, 10 Jan 2011 19:39:01 +0000</pubDate>
+		<guid isPermaLink="false">/2011-1-10-uklug-2011-development-track-html/#comment-145</guid>
+
+					<description><![CDATA[&lt;p&gt;Hi MAtt,&lt;/p&gt;&lt;p&gt;I hope you are well.&lt;/p&gt;&lt;p&gt;I am an Owner at Vigilus LLC.  Eric Mack suggested I get in tough with you.&lt;/p&gt;&lt;p&gt;I have a mature Lotus Notes CRM application that I am looking to upgrade with Xpages.&lt;/p&gt;&lt;p&gt;Can you contact me via email?&lt;/p&gt;&lt;p&gt;Thanks in advance.&lt;/p&gt;&lt;p&gt;Best regards,&lt;br/&gt;Joe Singer&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hi MAtt,</p>
+<p>I hope you are well.</p>
+<p>I am an Owner at Vigilus LLC.  Eric Mack suggested I get in tough with you.</p>
+<p>I have a mature Lotus Notes CRM application that I am looking to upgrade with Xpages.</p>
+<p>Can you contact me via email?</p>
+<p>Thanks in advance.</p>
+<p>Best regards,<br />Joe Singer</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

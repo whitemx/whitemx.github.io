@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Google Now	</title>
+	<atom:link href="/2013-4-29-google-now/feed/" rel="self" type="application/rss+xml" />
+	<link>/2013-4-29-google-now/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:19:38 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Alan Head		</title>
+		<link>/2013-4-29-google-now/#comment-86</link>
+
+		<dc:creator><![CDATA[Alan Head]]></dc:creator>
+		<pubDate>Mon, 29 Apr 2013 17:37:01 +0000</pubDate>
+		<guid isPermaLink="false">/2013-4-29-google-now/#comment-86</guid>
+
+					<description><![CDATA[&lt;p&gt;I use it a lot, great for keeping up with how badly the Mariners and Cubs are doing (as usual). Also the integration with search history is useful, as is time to home/work for commuting and the usual stock tracking. I blogged about how to get your Notes calendar synced to GMail (one way only) so you can use it to remind you about meetings and provide travel times/maps/etc. here https://www.evernote.com/shard/s199/sh/01351fc7-7711-4f60-aab6-cbe65500672d/a7a0d4002242165d5b0fcadfbbbeea7d&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I use it a lot, great for keeping up with how badly the Mariners and Cubs are doing (as usual). Also the integration with search history is useful, as is time to home/work for commuting and the usual stock tracking. I blogged about how to get your Notes calendar synced to GMail (one way only) so you can use it to remind you about meetings and provide travel times/maps/etc. here <a href="https://www.evernote.com/shard/s199/sh/01351fc7-7711-4f60-aab6-cbe65500672d/a7a0d4002242165d5b0fcadfbbbeea7d" rel="nofollow ugc">https://www.evernote.com/shard/s199/sh/01351fc7-7711-4f60-aab6-cbe65500672d/a7a0d4002242165d5b0fcadfbbbeea7d</a></p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

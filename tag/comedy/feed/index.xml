@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>comedy &#8211; mattwhite.me</title>
+	<atom:link href="/tag/comedy/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>The Big Libel Gig</title>
+		<link>/2010-3-15-the-big-libel-gig-html/</link>
+					<comments>/2010-3-15-the-big-libel-gig-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 15 Mar 2010 09:09:13 +0000</pubDate>
+				<category><![CDATA[My Life]]></category>
+		<category><![CDATA[comedy]]></category>
+		<category><![CDATA[review]]></category>
+		<guid isPermaLink="false">/2010-3-15-the-big-libel-gig-html/</guid>
+
+					<description><![CDATA[Last night was the Libel Reform Big Libel Gig in central London. A benefit evening to raise money for Dr Simon Singh to continue the libel court battle he is currently defending (and has been fighting for two years now). The serious element of this is that the libel laws in the UK are ludicrous. [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Last night was the <a href="http://libelreform.org/the-big-libel-gig">Libel Reform Big Libel Gig</a> in central London. A benefit evening to raise money for <a href="http://en.wikipedia.org/wiki/Simon_Singh#Chiropractic_lawsuit_and_backlash">Dr Simon Singh</a> to continue the libel court battle he is currently defending (and has been fighting for two years now). The serious element of this is that the libel laws in the UK are ludicrous. It is very very easy to get sued (and not just by people from the UK, we are currently the home of <a href="http://en.wikipedia.org/wiki/Libel_tourism">libel tourism</a> for the rest of the world due to the inequities of our legal system), and very very difficult to win. Even if you do win, as in the case of <a href="http://en.wikipedia.org/wiki/Ben_Goldacre">Ben Goldacre</a>, then you are still likely to be massively out of pocket on costs.</p>
+<p><a href="http://en.wikipedia.org/wiki/Robin_Ince">Robin Ince</a> has a very nice sideline in setting up these benefit / multi performer evenings. By all accounts last night was quite similar to one of the Nine Lessons For Godless People evenings at Christmas. This is &#8220;a good thing&#8221;. When you&#8217;re able to get Marcus Brigstocke, Ed Byrne, Shappi Khorsandi, Brian Cox (yes he of Lotusphere 2010 fame), Simon Singh, Richard Wiseman, Ben Goldacre, Dara O Briain and Tim Minchin into less than four hours, you&#8217;re onto a winner!</p>
+<p>Of the evening, I thought Marcus Brigstocke, Brian Cox and Dara O Briain were just superb. Very funny, and inspiring.</p>
+<p>What&#8217;s more important is that the money raising continues for the legal battles that are currently going on. You can find out more at <a href="http://libelreform.org/">libelreform.org</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-3-15-the-big-libel-gig-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

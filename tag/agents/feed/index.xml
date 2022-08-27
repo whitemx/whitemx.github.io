@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>agents &#8211; mattwhite.me</title>
+	<atom:link href="/tag/agents/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:08 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Useful new preference in DDE 8.5.2 for Java Agents</title>
+		<link>/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/</link>
+					<comments>/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 26 Oct 2010 09:39:19 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Notes and Domino]]></category>
+		<category><![CDATA[8.5.2]]></category>
+		<category><![CDATA[agents]]></category>
+		<category><![CDATA[dde]]></category>
+		<guid isPermaLink="false">/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/</guid>
+
+					<description><![CDATA[Having the proper Eclipse Java editor instead of the old style editor was introduced in 8.5.1, but there was one huge annoyance. When you edited a Java file, you had to save that, but then also remember to save the agent as well. Cue plenty of swearing and head scratching when your change wasn&#8217;t showing [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Having the proper Eclipse Java editor instead of the old style editor was introduced in 8.5.1, but there was one huge annoyance. When you edited a Java file, you had to save that, but then also remember to save the agent as well. Cue plenty of swearing and head scratching when your change wasn&#8217;t showing up.</p>
+<p>Well in 8.5.2 there is a new preference setting which allows the agent to be automatically saved when you save the Java file:</p>
+<p><span class="full-image-block ssNonEditable"><span><img src="/static/500fb502e4b0b0a178712c5d/500fb669e4b00f3716e9af9d/500fb669e4b00f3716e9b012/1288086099167/1000w" alt="" /></span></span></p>
+<p>Just check the &#8220;Autosave Java design element on save of individual Java sources&#8221; box to make your Java coding a lot less annoying.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

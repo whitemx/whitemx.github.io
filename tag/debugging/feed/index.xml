@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>debugging &#8211; mattwhite.me</title>
+	<atom:link href="/tag/debugging/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>The debugging benchmark</title>
+		<link>/2011-11-11-the-debugging-benchmark-html/</link>
+					<comments>/2011-11-11-the-debugging-benchmark-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 11 Nov 2011 12:58:52 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[debugging]]></category>
+		<category><![CDATA[eclipse]]></category>
+		<category><![CDATA[flash]]></category>
+		<category><![CDATA[ide]]></category>
+		<guid isPermaLink="false">/2011-11-11-the-debugging-benchmark-html/</guid>
+
+					<description><![CDATA[The two Marks of Barton and Myers tweeted out a YouTube video which is really worth watching: What it shows is some of the new features which the debugger in the Flash development environment, which is built onto Eclipse, will offer. The headlines are being able to step backwards as well as forwards through code [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>The two Marks of <a href="http://www.markbarton.com/">Barton</a> and <a href="http://www.stickfight.co.uk/">Myers</a> tweeted out a YouTube video which is really worth watching:</p>
+<p><iframe loading="lazy" width="560" height="315" src="http://www.youtube.com/embed/5hyI8yKTOmQ" frameborder="0" allowfullscreen></iframe></p>
+<p>What it shows is some of the new features which the debugger in the Flash development environment, which is built onto Eclipse, will offer.</p>
+<p>The headlines are being able to step backwards as well as forwards through code and also to right click on a variable to see why it is set the way it is (ie a live stack trace) and how we got to the current line of code.</p>
+<p>In contract with SSJS in XPages we get to use print statements. I&#8217;m sure this is being looked at to improve, but Adobe has certainly set the benchmark in the IDE space.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011-11-11-the-debugging-benchmark-html/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Sessions, sessions, sessions</title>
+		<link>/2009-9-10-sessions-sessions-sessions-html/</link>
+					<comments>/2009-9-10-sessions-sessions-sessions-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 10 Sep 2009 15:21:46 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[debugging]]></category>
+		<category><![CDATA[sessions]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2009-9-10-sessions-sessions-sessions-html/</guid>
+
+					<description><![CDATA[When is a session not a session? Most Domino web sites these days will be running some form of session authentication which stores a cookie on the user&#8217;s browser and a tiny piece of memory with details about the user on the server. This has always worked fine, and of course these sessions can time [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>When is a session not a session?</p>
+<p>Most Domino web sites these days will be running some form of session authentication which stores a cookie on the user&#8217;s browser and a tiny piece of memory with details about the user on the server. This has always worked fine, and of course these sessions can time out (by default after 30 minutes).</p>
+<p>But with the advent of XPages we now also have the sessionScope variable container which allows us to store information about a user&#8217;s session (whether they are authenticated or not). This offers us huge opportunities for performance improvements as it means we don&#8217;t need to keep on doing @DbLookups to get user specific information for every page load. But it does introduce some potential issues if the authentication session timeouts are different to the sessionScope timeouts.</p>
+<p>Basically the server needs to be able to clear out sessionScope variables after an amount of time, otherwise the server would run out of memory very quickly indeed. But in a recent project we had users who would open a page and then come back to it 2 or 3 hours later and then wonder why everything had stopped working. This is because the default timeout for sessionScope variables is something around 30 minutes and our session timeouts were set to 2 hours. &nbsp;So once the page had been left inactive for half an hour it effectively lost all of the background information that drove how it should act when the user pressed the save button for example.</p>
+<p><span class="full-image-float-right ssNonEditable"><span><img src="/static/500fb502e4b0b0a178712c5d/500fb669e4b00f3716e9af9d/500fb669e4b00f3716e9b0ec/1252596582503/1000w" alt="" /></span></span></p>
+<p>The solution is very simple, but very important. In the application properties for your database (opened in Domino Designer these days remember), go to the XPages tab and make sure to set the Session timeout field to be more than the authentication Session Timeout (which you set in the server or website document). The rule of thumb that we have come to (in the absence of any official guidelines from IBM) is that if you have a 2 hour authentication timeout for your website, then set the XPages Session Timeout to 3 hours.</p>
+<p>Generally the application timeout is less important for this sort of thing, but we took the opportunity to also set that to 3 hours in this case as I knew it wouldn&#8217;t be too large.</p>
+<p>There are, of course, caveats here. If your server has memory issues then this is only going to exacerbate them as for each user (remember a user is just a visitor to the website, not necessarily someone who logs in) is going to take up some memory from the server for a minimum of 3 hours, but for us it solves more problems than it causes.</p>
+<p>Of course, if you are not using the sessionScope to store any page sensitive data then you can just ignore all of this, but once you start using the sessionScope, it does become rather addictive, so I suspect you will get some benefit from setting this variable. Either way if you start to see completely bizarre errors, this may be a good first port of call.</p>
+<p>Hopefully this article will save someone the pain of trying to debug seemingly un-reproducible errors in a dev environment where you don&#8217;t have the time to leave pages inactive for hours on end!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-9-10-sessions-sessions-sessions-html/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

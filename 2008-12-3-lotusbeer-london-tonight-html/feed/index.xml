@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: LotusBeer London Tonight	</title>
+	<atom:link href="/2008-12-3-lotusbeer-london-tonight-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2008-12-3-lotusbeer-london-tonight-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:25:19 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: mark		</title>
+		<link>/2008-12-3-lotusbeer-london-tonight-html/#comment-247</link>
+
+		<dc:creator><![CDATA[mark]]></dc:creator>
+		<pubDate>Wed, 03 Dec 2008 12:45:13 +0000</pubDate>
+		<guid isPermaLink="false">/2008-12-3-lotusbeer-london-tonight-html/#comment-247</guid>
+
+					<description><![CDATA[&lt;p&gt;will be there, ( but only on caffeen)&lt;br/&gt;&lt;br  /&gt;&lt;br/&gt;&lt;br  /&gt;&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>will be there, ( but only on caffeen)</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

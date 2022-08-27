@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>community &#8211; mattwhite.me</title>
+	<atom:link href="/tag/community/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Eight today</title>
+		<link>/2010-3-30-eight-today-html/</link>
+					<comments>/2010-3-30-eight-today-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 30 Mar 2010 05:00:38 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[blog]]></category>
+		<category><![CDATA[community]]></category>
+		<guid isPermaLink="false">/2010-3-30-eight-today-html/</guid>
+
+					<description><![CDATA[Today is the eighth anniversary of my blogging life. It seems fitting somehow that I&#8217;m at a community event for this as by far the best thing about the blog is all of the great people that I&#8217;ve met through it in some way over the years. So, here&#8217;s to another eight years, and here&#8217;s [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Today is the eighth anniversary of my blogging life. It seems fitting somehow that I&#8217;m at a community event for this as by far the best thing about the blog is all of the great people that I&#8217;ve met through it in some way over the years. So, here&#8217;s to another eight years, and here&#8217;s to the wonderful Lotus community.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-3-30-eight-today-html/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Review of the Year &#8211; 2009</title>
+		<link>/2009-12-28-review-of-the-year-2009-html/</link>
+					<comments>/2009-12-28-review-of-the-year-2009-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 28 Dec 2009 15:13:44 +0000</pubDate>
+				<category><![CDATA[My Life]]></category>
+		<category><![CDATA[community]]></category>
+		<category><![CDATA[life]]></category>
+		<category><![CDATA[review]]></category>
+		<guid isPermaLink="false">/2009-12-28-review-of-the-year-2009-html/</guid>
+
+					<description><![CDATA[Every year, for the last several, I&#8217;ve done a blog post sometime between Christmas and New Year that wraps up my life over the previous 12 months. Normally there has been some big change, but this year has been more evolutionary than revolutionary. As ever, the year started with Lotusphere, but it was a very [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Every year, for the last several, I&#8217;ve done a blog post sometime between Christmas and New Year that wraps up my life over the previous 12 months. Normally there has been some big change, but this year has been more evolutionary than revolutionary.</p>
+<p>As ever, the year started with Lotusphere, but it was a very different one for me for two reasons, I was speaking for the first time and it was a great (if pant wettingly scary) experience, one that I hope to continue for a few years to come. Indeed <a href="http://blog.tc-soft.com/">Tim Clark</a> and I will be presenting in less than three weeks at Lotusphere 2010. The other big change at Lotusphere 2009 was that <a href="http://elguji.com/">Elguji</a> had a stand on the Showcase floor. It gives a totally different view on the proceedings, still great fun of course, and also something that we&#8217;ll be repeating in a few weeks time.</p>
+<p>The public speaking continued on a couple of fronts throughout the year with sessions at The View Developer 2009, IamLUG and UKLUG. All great events in their own way. The user group scene continues to expand and get better every year. There are several European groups that I&#8217;m going to try and get to during 2010. The speaking is the biggest new thing for me this year. If you&#8217;re unsure about getting started, all I can say is that I highly recommend it. And this is coming from an introvert who was pathologically scared of public speaking until recently.</p>
+<p>In parallel to the conferences and user groups, I was lucky enough to continue to get invited along to various XPages courses run by IBM. XPages has been the constant technology throughout the year for me. From January when we released the XPages version of <a href="http://ideajam.net/">IdeaJam</a> through to later in the year and the release of <a href="http://iqjam.net/">IQJam</a>. And into 2010 with my new <a href="http://xpages101.net/">XPages101 course</a> that&#8217;s running in February.</p>
+<p>Elguji has been the main constant during the year. We&#8217;ve had some great success in sales of IdeaJam to more companies, government organisations and, more publicly with the Lotus Knows IdeaJam in August. It continues to be great fun, and to keep things moving along we added lots of new features to IdeaJam and a whole new product called IQJam. Launching in November we&#8217;ve already had encouraging sales to both existing IdeaJam customers and new customers for Elguji, in both cases people seem really excited about the possibilities with the tool that we have created. Working with <a href="http://bruceelgort.com/">Bruce</a> and <a href="http://gayleelgort.wordpress.com/">Gayle</a> has been the most rewarding thing I&#8217;ve done in my professional life, we&#8217;re building a really nice little company, but more importantly having fun as we go.</p>
+<p>While Elguji has taken up a large portion of my time, I&#8217;ve also been working on some cool consulting projects as well. <a href="http://www.mickmoignard.com/">Mick Moignard</a> and I created an XPages application which was both challenging and interesting (thank the Lord for the arrival of 8.5.1 is all I&#8217;ll say!), and the <a href="http://londondevelopercoop.com/">LDC</a> grouping of independent developers continues to offer some interesting opportunities. Even when we&#8217;re all off doing our own thing then it&#8217;s good to have people like <a href="http://benpoole.com/">Ben</a>, <a href="http://blog.woowar.com/">Julian</a>, <a href="http://stickfight.co.uk/">Mark</a> and <a href="http://www.inter-weavers.com/0/RobsBlog.nsf">Rob</a> around to run problems past (and maybe have the occasional beverage with as well).</p>
+<p>There was no ILUG 2009 which made UKLUG all the bigger. We all decamped up to Edinburgh, people flew in from all over the world and, for two days, everyone seemed to have an amazing time. Lots of new friendships were made, late nights were had, large Martinis drunk. Roll on all of the user groups next year is all I can say.</p>
+<p>The blurring of work and personal lives continue with more and more people using Twitter to keep in contact, the never ending Skype chats. To make things even more blurred, this year has also included a wonderful trip to Vancouver, WA to see Bruce, Gayle and family, walking weekends in Northern Ireland and Yorkshire. Hopefully the walking weekends will continue into next year.</p>
+<p>Other than that, a 2010 that is as good as 2009 would be fine with me, but why not be greedy? 2010 is looking very positive, hopefully it is for you as well.</p>
+<p>&lt;/2009&gt;</p>
+<p>&lt;/noughties&gt;</p>
+<p>&lt;teens&gt;</p>
+<p>&lt;2010&gt;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-12-28-review-of-the-year-2009-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Session Preferences	</title>
+	<atom:link href="/2006-11-9-session-preferences-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2006-11-9-session-preferences-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:30:42 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2006-11-9-session-preferences-html/#comment-529</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Thu, 09 Nov 2006 13:18:37 +0000</pubDate>
+		<guid isPermaLink="false">/2006-11-9-session-preferences-html/#comment-529</guid>
+
+					<description><![CDATA[&lt;p&gt;Thanks Mikkel,&lt;/p&gt;&lt;p&gt;That&#039;s what I had assumed was happening but just wanted to make sure I hadn&#039;t missed an email.&lt;/p&gt;&lt;p&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thanks Mikkel,</p>
+<p>That&#8217;s what I had assumed was happening but just wanted to make sure I hadn&#8217;t missed an email.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mikkel Heisterberg		</title>
+		<link>/2006-11-9-session-preferences-html/#comment-530</link>
+
+		<dc:creator><![CDATA[Mikkel Heisterberg]]></dc:creator>
+		<pubDate>Thu, 09 Nov 2006 13:09:12 +0000</pubDate>
+		<guid isPermaLink="false">/2006-11-9-session-preferences-html/#comment-530</guid>
+
+					<description><![CDATA[&lt;p&gt;You should hear either way, that is for both sessions having been accepted  and rejected, from IBM but I don&#039;t think any official e-mails has gone out yet. There are rumours about unofficial e-mails though... I think the official e-mails will be out late this week or early next week.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>You should hear either way, that is for both sessions having been accepted  and rejected, from IBM but I don&#8217;t think any official e-mails has gone out yet. There are rumours about unofficial e-mails though&#8230; I think the official e-mails will be out late this week or early next week.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

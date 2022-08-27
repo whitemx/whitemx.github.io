@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>lotusknows &#8211; mattwhite.me</title>
+	<atom:link href="/tag/lotusknows/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:38 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>LotusKnows IdeaJam is OPEN!</title>
+		<link>/2009-8-19-lotusknows-ideajam-is-open-html/</link>
+					<comments>/2009-8-19-lotusknows-ideajam-is-open-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 19 Aug 2009 09:36:37 +0000</pubDate>
+				<category><![CDATA[Domino Community]]></category>
+		<category><![CDATA[ideajam]]></category>
+		<category><![CDATA[lotusknows]]></category>
+		<guid isPermaLink="false">/2009-8-19-lotusknows-ideajam-is-open-html/</guid>
+
+					<description><![CDATA[Ever since IamLUG a couple of weeks ago, we&#8217;ve been looking forward to the LotusKnows IdeaJam. For as long as I can remember the Lotus community has been asking for more marketing from Lotus generally, well this seems to be the chance we&#8217;ve been waiting for. If you have a great idea or simply want [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Ever since IamLUG a couple of weeks ago, we&#8217;ve been looking forward to the <a href="http://lotusknows.ideajam.net/">LotusKnows IdeaJam</a>. For as long as I can remember the Lotus community has been asking for more marketing from Lotus generally, well this seems to be the chance we&#8217;ve been waiting for. If you have a great idea or simply want to go and comment and vote on other people&#8217;s thoughts then head on over to the site.</p>
+<p>If you already have an IdeaJam username and password then you don&#8217;t need to register again, but it&#8217;s only a three day event <a href="http://lotusknows.ideajam.net/">so get in there</a> quick and make the most of the opportunity.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-8-19-lotusknows-ideajam-is-open-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: New Application	</title>
+	<atom:link href="/2006-10-11-new-application-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2006-10-11-new-application-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:33:06 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Ed Brill		</title>
+		<link>/2006-10-11-new-application-html/#comment-1196</link>
+
+		<dc:creator><![CDATA[Ed Brill]]></dc:creator>
+		<pubDate>Mon, 16 Oct 2006 17:07:26 +0000</pubDate>
+		<guid isPermaLink="false">/2006-10-11-new-application-html/#comment-1196</guid>
+
+					<description><![CDATA[&lt;p&gt;I just think it&#039;s a cool app.  &lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I just think it&#8217;s a cool app.  </p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2006-10-11-new-application-html/#comment-1198</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Sun, 15 Oct 2006 15:11:29 +0000</pubDate>
+		<guid isPermaLink="false">/2006-10-11-new-application-html/#comment-1198</guid>
+
+					<description><![CDATA[&lt;p&gt;Right, preparing myself for contact from Ed here, but my company is a Business Partner and has purchased the Software Access Option &lt;a href=&quot;&lt;a rel=&quot;nofollow&quot; href=&quot;http://www-304.ibm.com/jct09002c/isv/welcome/guide/sao.html&quot;&quot; rel=&quot;nofollow ugc&quot;&gt;http://www-304.ibm.com/jct09002c/isv/welcome/guide/sao.html&quot;&lt;/a&gt; rel=&quot;nofollow&quot;&gt;&lt;a href=&quot;http://www-304.ibm.com/jct09002c/isv/welcome/guide/sao.html&quot; rel=&quot;nofollow ugc&quot;&gt;http://www-304.ibm.com/jct09002c/isv/welcome/guide/sao.html&lt;/a&gt;&lt;/a&gt; this allows me to run a Domino Utility Server which handles the authenticated access to the application. And because I am hosting the server myself at the moment, mail sending is handled outside Domino anyway. I guess if / when the application grows to a point where it needs dedicated hosting then I&#039;ll need to talk to my IBM rep to find out the best option for the future.&lt;/p&gt;&lt;p&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Right, preparing myself for contact from Ed here, but my company is a Business Partner and has purchased the Software Access Option <a href="<a rel="nofollow" href="http://www-304.ibm.com/jct09002c/isv/welcome/guide/sao.html"" rel="nofollow ugc"></a><a href="http://www-304.ibm.com/jct09002c/isv/welcome/guide/sao.html" rel="nofollow ugc">http://www-304.ibm.com/jct09002c/isv/welcome/guide/sao.html</a>&#8220; rel=&#8221;nofollow&#8221;><a href="http://www-304.ibm.com/jct09002c/isv/welcome/guide/sao.html" rel="nofollow ugc">http://www-304.ibm.com/jct09002c/isv/welcome/guide/sao.html</a> this allows me to run a Domino Utility Server which handles the authenticated access to the application. And because I am hosting the server myself at the moment, mail sending is handled outside Domino anyway. I guess if / when the application grows to a point where it needs dedicated hosting then I&#8217;ll need to talk to my IBM rep to find out the best option for the future.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Adeleida		</title>
+		<link>/2006-10-11-new-application-html/#comment-1197</link>
+
+		<dc:creator><![CDATA[Adeleida]]></dc:creator>
+		<pubDate>Sun, 15 Oct 2006 13:34:53 +0000</pubDate>
+		<guid isPermaLink="false">/2006-10-11-new-application-html/#comment-1197</guid>
+
+					<description><![CDATA[&lt;p&gt;VERY cool indeed. I&#039;m testing it a bit, b.t.w. How are you getting past licensing issues?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>VERY cool indeed. I&#8217;m testing it a bit, b.t.w. How are you getting past licensing issues?</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

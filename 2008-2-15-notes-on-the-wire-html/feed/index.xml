@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Notes on The Wire	</title>
+	<atom:link href="/2008-2-15-notes-on-the-wire-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2008-2-15-notes-on-the-wire-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:28:20 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Nathan T. Freeman		</title>
+		<link>/2008-2-15-notes-on-the-wire-html/#comment-1070</link>
+
+		<dc:creator><![CDATA[Nathan T. Freeman]]></dc:creator>
+		<pubDate>Fri, 15 Feb 2008 18:22:54 +0000</pubDate>
+		<guid isPermaLink="false">/2008-2-15-notes-on-the-wire-html/#comment-1070</guid>
+
+					<description><![CDATA[&lt;p&gt;I&#039;m pretty sure that&#039;s even Notes 8.  But the sidebar is in icon-only mode.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;m pretty sure that&#8217;s even Notes 8.  But the sidebar is in icon-only mode.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>tooltip &#8211; mattwhite.me</title>
+	<atom:link href="/tag/tooltip/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Dojo ToolTips</title>
+		<link>/2009-7-13-dojo-tooltips-html/</link>
+					<comments>/2009-7-13-dojo-tooltips-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 13 Jul 2009 08:00:23 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[dojo]]></category>
+		<category><![CDATA[tooltip]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2009-7-13-dojo-tooltips-html/</guid>
+
+					<description><![CDATA[Tooltips are one of those little features which you rarely have the time to add to your website (beyond the basic title settings of your HTML elements), but do add a surprising amount of polish to your application from your user&#8217;s point of view. In an application that I have been working on recently, we [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Tooltips are one of those little features which you rarely have the time to add to your website (beyond the basic title settings of your HTML elements), but do add a surprising amount of polish to your application from your user&#8217;s point of view.</p>
+<p>In an application that I have been working on recently, we added some tooltips to convey some specific information on how to use certain features and the extra help went over really well. But how do you add them in XPages?</p>
+<p>Well Dojo is your friend, and more specifically one of the &#8220;dijit&#8221; package of plugins called dijit.ToolTip. So in your XPage you add a computed field with the display type set to HTML. In the value of the field add the following:</p>
+<blockquote>
+<p>&#8220;&lt;div dojoType=\&#8221;dijit.Tooltip\&#8221;\n&#8221; +</p>
+<p>&#8220;connectId=\&#8221;&#8221; + getClientId(&#8220;hoverlabel&#8221;) + &#8220;\&#8221; style=\&#8221;display:none;\&#8221;&gt;\n&#8221; +</p>
+<p>&#8220;This is a tooltip\n&#8221; +</p>
+<p>&#8220;&lt;/div&gt;&#8221;;</p>
+</blockquote>
+<p>Basically what we&#8217;re doing is creating a div that will get written out to the browser, the important elements are the dojoType which tells Dojo that this is something it needs to look at when the page loads. The connectId links the div to the label which we want to add the tooltip to. So in this case, I have a label called &#8220;hoverlabel&#8221;. Set the div to be hidden using CSS so that while Dojo is processing it after the page load, it doesn&#8217;t appear and then disappear very quickly.</p>
+<p>Finally we just need to make sure that Dojo is enabled on our XPage, so:</p>
+<ol>
+<li>Go to the All Properties of your XPage and then Basics, make sure that dojoParseOnLoad is set to true</li>
+<li>I also set the dojoTheme to true as well.</li>
+<li>Then in the resources property (still in All Properties -&gt; Basics) click the Add button and choose xp:dojoModule)</li>
+<li>In the dojoModule -&gt; basics -&gt; name property which gets added, set the value to &#8220;dijit.Tooltip&#8221;</li>
+</ol>
+<p>&nbsp;It&#8217;s really very simple to get going and this is what you end up with:</p>
+<p><span class="full-image-inline ssNonEditable"><img src="/static/500fb502e4b0b0a178712c5d/500fb669e4b00f3716e9af9d/500fb669e4b00f3716e9b11a/1247472709853/1000w" alt="" /></span></p>
+<p><span class="full-image-inline ssNonEditable">A really nice looking tooltip with no coding on from out point of view that will be very helpful for your users.</span></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-7-13-dojo-tooltips-html/feed/</wfw:commentRss>
+			<slash:comments>15</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: XPages rendered fields issue	</title>
+	<atom:link href="/2014-1-6-xpages-rendered-fields-issue/feed/" rel="self" type="application/rss+xml" />
+	<link>/2014-1-6-xpages-rendered-fields-issue/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:19:03 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: mark roden		</title>
+		<link>/2014-1-6-xpages-rendered-fields-issue/#comment-58</link>
+
+		<dc:creator><![CDATA[mark roden]]></dc:creator>
+		<pubDate>Mon, 06 Jan 2014 12:12:08 +0000</pubDate>
+		<guid isPermaLink="false">/2014-1-6-xpages-rendered-fields-issue/#comment-58</guid>
+
+					<description><![CDATA[&lt;p&gt;Love this - had many a similar problem and unsatisfactorily hacked around it many a similar way.&lt;/p&gt;
+
+&lt;p&gt;Thank you!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Love this &#8211; had many a similar problem and unsatisfactorily hacked around it many a similar way.</p>
+<p>Thank you!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

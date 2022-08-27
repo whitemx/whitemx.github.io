@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>xpages &#8211; mattwhite.me</title>
+	<atom:link href="/tag/xpages/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>New XPages Mobile CRM Application Released</title>
+		<link>/2012-5-31-new-xpages-mobile-crm-application-released-html/</link>
+					<comments>/2012-5-31-new-xpages-mobile-crm-application-released-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 31 May 2012 14:54:38 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[mobile controls]]></category>
+		<category><![CDATA[vmobile]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2012-5-31-new-xpages-mobile-crm-application-released-html/</guid>
+
+					<description><![CDATA[Over the last few months I&#8217;ve been helping out Vigilus with a new XPages Mobile Web CRM application. ACT! For Notes is a long standing Notes client based application and what we&#8217;ve added in VMobile is a fairly significant subset of the features in the full client application designed to work in iPad, iPhone, Android [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Over the last few months I&#8217;ve been helping out <a href="http://vigilus.net/">Vigilus</a> with a new XPages Mobile Web CRM application. <a href="http://vigilus.net/website/act--for-notes.html">ACT! For Notes</a> is a long standing Notes client based application and what we&#8217;ve added in <a href="http://vigilus.net/website/vmobile.html">VMobile</a> is a fairly significant subset of the features in the full client application designed to work in iPad, iPhone, Android phone and Blackberry.&nbsp;</p>
+<p>Given the size of the application it&#8217;s taken a while and there have been some challenges, but overall I&#8217;d say it&#8217;s a very capable CRM application that will now work on every device you work with day to day.</p>
+<p>Well worth a look if your company is wanting a CRM application.</p>
+<p><a href="http://www.free-press-release.com/news-vigilus-announces-vmobile-best-of-breed-mobile-crm-tool-1338411386.html">Here is the press release</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012-5-31-new-xpages-mobile-crm-application-released-html/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Dojo 1.7.2 in XPages</title>
+		<link>/2012-4-3-dojo-172-in-xpages-html/</link>
+					<comments>/2012-4-3-dojo-172-in-xpages-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 03 Apr 2012 11:01:39 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[dojo]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2012-4-3-dojo-172-in-xpages-html/</guid>
+
+					<description><![CDATA[I had need to make use of some of the more advanced Dojo Mobile controls for a project last week which ship with Dojo 1.7.2. For various reasons I needed the Dojo files inside the nsf rather than on the file system, and if you&#8217;ve had to do that before you&#8217;ll know what a massive [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I had need to make use of some of the more advanced Dojo Mobile controls for a project last week which ship with Dojo 1.7.2. For various reasons I needed the Dojo files inside the nsf rather than on the file system, and if you&#8217;ve had to do that before you&#8217;ll know what a massive pain it is to get the files loaded. So I thought I&#8217;d share a simple nsf with the files loaded.</p>
+<p>You can either clone the database from Github here: <a href="https://github.com/whitemx/Dojo172XPages">https://github.com/whitemx/Dojo172XPages</a></p>
+<p>Or you can download the nsf here: <a href="http://fcldocs.s3.amazonaws.com/Dojo172.nsf.zip">Dojo172.nsf.zip</a>&nbsp;</p>
+<p>The other changes I&#8217;ve made to the database are to disable the standard Dojo libraries (1.6.1 in 8.5.3) in the xsp.properties file and also turned off the default theme settings as well so no CSS will be downloaded unless you manually specify it in the resources.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012-4-3-dojo-172-in-xpages-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Sixty not out</title>
+		<link>/2011-9-12-sixty-not-out-html/</link>
+					<comments>/2011-9-12-sixty-not-out-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 12 Sep 2011 11:29:03 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[xpages]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2011-9-12-sixty-not-out-html/</guid>
+
+					<description><![CDATA[Today I uploaded the 60th video to xpages101.net. It&#8217;s taken me over 18 months to get this far and there are no plans to stop adding more content. In fact with the announcement of the 8.5.3 release date, there are many more areas which need to be covered. Expect to see a rash of new [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Today I uploaded the 60th video to <a href="http://xpages101.net/">xpages101.net</a>. It&#8217;s taken me over 18 months to get this far and there are no plans to stop adding more content. In fact with the <a href="http://www.edbrill.com/ebrill/edbrill.nsf/dx/notesdomino-8.5.3-launch-dates-set">announcement of the 8.5.3 release date</a>, there are many more areas which need to be covered. Expect to see a rash of new videos over the next few weeks.</p>
+<p>I thought I&#8217;d post some of the stats for the site so far.</p>
+<p>&nbsp;</p>
+<ul>
+<li>First video posted: February 11th 2010</li>
+<li>Total length of videos uploaded: 11 hours 15 minutes</li>
+<li>Total size of videos uploaded: 3.17gb</li>
+<li>Shortest video: 2 minutes 7 seconds &#8211; <a href="http://xpages101.net/xpages101/XPages101.nsf/0/A3F3B5C9400A81A3802578EE0026F820">how to run a local HTTP console window</a></li>
+<li>Longest video: 25 minutes 12 seconds &#8211; <a href="http://xpages101.net/xpages101/XPages101.nsf/0/68CB7F693B3631A78025790900369898">Dojo Mobile Controls in 8.5.3</a></li>
+</ul>
+<p>&nbsp;</p>
+<p>In the last couple of months I&#8217;ve had the 250th subscriber sign up for the site, and more are joining weekly. Since the site was re-designed earlier this year it&#8217;s also easier to submit your own lesson ideas if there&#8217;s something which I&#8217;ve not covered yet and each of the lessons has a comments section to clarify points or add you&#8217;re own thoughts on the lesson.</p>
+<p>And finally, to celebrate the 60th lesson being uploaded, here&#8217;s an offer for you. If you use the coupon code &#8220;60notout&#8221; at checkout, you&#8217;ll get a &pound;60 discount on your purchase. Just head on over to <a href="http://xpages101.net/">xpages101.net</a> to get started.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011-9-12-sixty-not-out-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Dojo Charts and IE</title>
+		<link>/2011-8-30-dojo-charts-and-ie-html/</link>
+					<comments>/2011-8-30-dojo-charts-and-ie-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 30 Aug 2011 11:22:09 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[charts]]></category>
+		<category><![CDATA[dojo]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2011-8-30-dojo-charts-and-ie-html/</guid>
+
+					<description><![CDATA[I&#8217;ve just spent the better part of three days working on a suite of Dojo Charts for an application. They are usually pretty easy to get going and look as good, if not better than a lot of the flash charting tools out there. But, and there&#8217;s always a but isn&#8217;t there, getting the charts [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;ve just spent the better part of three days working on a suite of Dojo Charts for an application. They are usually pretty easy to get going and look as good, if not better than a lot of the flash charting tools out there. But, and there&#8217;s always a but isn&#8217;t there, getting the charts working in IE can be a real challenge with very little in the way of guidance.</p>
+<p>So here are three tips which I shall pass on learned through bitter experience over the last few days&#8230;</p>
+<p>It may well look as though you can initialise your charts using in line JavaScript and, indeed, it will work absolutely fine in Firefox, Safari, Chrome and other &#8220;modern&#8221; web browser. Not so much with IE. So break your initialisation code into a function and call it from the either the onClientLoad client side event in the XPage or using XSP.addOnLoad(init) depending on your preference.</p>
+<p>This was a weird one, and took me ages to find. But one of my charts requires the user to select some options and then I fire a partial refresh of the page to generate the JSON data which populates the chart. But if the data which is returned by the AJAX request (the partial update) begins with JavaScript which needs to be evaluated then you may find in IE that the code is not being evaluated. So the JSON objects I was generating were not available for use in the chart. The solution, and it still grates me that I had to do this, was to add an empty, hidden div at the top of the area which is being refreshed, then the JSON data will be processed correctly.</p>
+<p>Finally another thing which I had to do to make my code less efficient was re-write the way that I was generating some of the JSON data. One of the charts has multiple, variable numbers of series of data depending upon what the user selects. So I was generating each series of data to be a JSON object inside an array of JSON objects that I just looped through when building the chart. But no, it seems IE doesn&#8217;t like accessing multi dimensional arrays of JavaScript when building charts, so instead I had to create a different variable for each JSON data series and reference them using evaluates.</p>
+<p>So the lesson from all of this is that, a) do your initial development in Firefox or Chrome, b) never, ever under estimate the amount of time you&#8217;ll need to spend getting the bloody thing working in IE.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011-8-30-dojo-charts-and-ie-html/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>LUG Template available on OpenNTF</title>
+		<link>/2011-6-10-lug-template-available-on-openntf-html/</link>
+					<comments>/2011-6-10-lug-template-available-on-openntf-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 10 Jun 2011 08:16:10 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[lug template]]></category>
+		<category><![CDATA[openntf]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2011-6-10-lug-template-available-on-openntf-html/</guid>
+
+					<description><![CDATA[At UKLUG this year, Warren announced that we would be making the template which we use to run the online elements of the LUG available on OpenNTF. Well I finally got around to making the template and uploading the bits and pieces onto OpenNTF (actually a surprisingly easy process!). Anyway, if you&#8217;re interested then you [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>At UKLUG this year, <a href="http://elsmore.net/">Warren</a> announced that we would be making the template which we use to run the online elements of the LUG available on OpenNTF. Well I finally got around to making the template and uploading the bits and pieces onto OpenNTF (actually a surprisingly easy process!).</p>
+<p>Anyway, if you&#8217;re interested then you can download the template from here: <a href="http://www.openntf.org/internal/home.nsf/project.xsp?action=openDocument&amp;name=LUG%20Template">LUG Template</a></p>
+<p>As Warren mentioned, we&#8217;re looking for help. At the moment there is no documentation at all, so it can be a little painful to get set up, just ask <a href="http://idonotes.com/">Chris</a>, or <a href="http://curiousmitch.com/">Mitch</a> or <a href="http://collaborationmatters.com/">Stuart</a> or any of the other people who are already using it for their own LUGs! The app itself is simple enough, but it registers people in different DA databases, integrates into other elements on your server, sends email etc etc.</p>
+<p>So if you can help then please drop me a line and I will put together a list of elements that we need help with. Of course I&#8217;m also looking for help with bug fixing and improving various elements of the application as I&#8217;ve not been able to devote as much time as I would like to it this year.</p>
+<p>Finally, I&#8217;d just like to give a big hand to Warren. I suspect the amount of work that he puts in to UKLUG (and ILUG) goes rather underestimated and it was him who drove the original development of the application and then made the decision for it to be given back to the Lotus community.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011-6-10-lug-template-available-on-openntf-html/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>XPages Guru Webinar</title>
+		<link>/2011-5-17-xpages-guru-webinar-html/</link>
+					<comments>/2011-5-17-xpages-guru-webinar-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 17 May 2011 15:49:21 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[webinar]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2011-5-17-xpages-guru-webinar-html/</guid>
+
+					<description><![CDATA[I&#8217;m very honoured to have been asked by Chris Blatnick to be involved in a webinar running on 1st June where several of the &#8220;Gurus of XPages&#8221; from around the world (plus myself) will be talking about our favourite technology. You can sign up for the event here. The rough agenda for the hour long [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;m very honoured to have been asked by Chris Blatnick to be involved in a webinar running on 1st June where several of the &#8220;Gurus of XPages&#8221; from around the world (plus myself) will be talking about our favourite technology.</p>
+<p>You can sign up for the event <a href="https://events.webdialogs.com/portal/wipevents/register.php?id=6d9d5a6a35&amp;l=en-US">here</a>.</p>
+<p>The rough agenda for the hour long session looks like this:</p>
+<blockquote>
+<p>What is XPages? &#8211; Matt White<br />Case Studies &#8211; Discussion database, XTalk, etc. &#8211; Bruce Elgort&nbsp;<br />Benefits of XPages &#8211; Matt White<br />Why should I transition? &#8211; Tim Tripcony<br />Roadmap to XPages (How do I get from here to there?) &#8211; Chris Toohey<br />What resources are out there? &#8211; David Leedy<br />Q &amp; A</p>
+</blockquote>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011-5-17-xpages-guru-webinar-html/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>XPages101 LS11 discount</title>
+		<link>/2011-1-26-xpages101-ls11-discount-html/</link>
+					<comments>/2011-1-26-xpages101-ls11-discount-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 26 Jan 2011 09:00:23 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[ls11]]></category>
+		<category><![CDATA[xpages]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2011-1-26-xpages101-ls11-discount-html/</guid>
+
+					<description><![CDATA[As the annual pilgrimage to Florida for Lotusphere begins, I thought it would be worth mentioning a discount for XPages101 which I&#8217;ll be offering for the next 3 weeks. Use the coupon code &#8220;ls11&#8221; at checkout and get a 33% discount! It&#8217;s coming up to a year since I first launched the site and in [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>As the annual pilgrimage to Florida for Lotusphere begins, I thought it would be worth mentioning a discount for <a href="http://xpages101.net/">XPages101</a> which I&#8217;ll be offering for the next 3 weeks.</p>
+<p>Use the coupon code &#8220;ls11&#8221; at checkout and get a 33% discount!</p>
+<p>It&#8217;s coming up to a year since I first launched the site and in that time I&#8217;ve uploaded 37 lessons which run to more than 7 hours of content and well over 2gb of movies. There are many more lessons planned over the coming weeks and months.</p>
+<p>So if you feel like it&#8217;s time to get into XPages, or you&#8217;re just looking for a bit of a helping hand with some of the more complex tasks in Domino Designer then hopefully my videos will be able to help you. <a href="http://xpages101.net/videos">Check them out</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011-1-26-xpages101-ls11-discount-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to get SSO for Facebook working with XPages</title>
+		<link>/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/</link>
+					<comments>/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 20 Oct 2010 10:51:51 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[facebook]]></category>
+		<category><![CDATA[sso]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/</guid>
+
+					<description><![CDATA[So, earlier today I posted a short video about a new feature that I&#8217;ve written for IQJam (initially at least, it will be coming to IdeaJam at some point). It allows you to authenticate against a Domino server using Facebook Single Sign On (SSO). Overall this is not for the faint of heart (or the [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>So, <a href="http://mattwhite.me/blog/2010/10/20/facebook-sso-to-xpages.html">earlier today I posted a short video about a new feature that I&#8217;ve written for IQJam</a> (initially at least, it will be coming to IdeaJam at some point). It allows you to authenticate against a Domino server using Facebook Single Sign On (SSO).</p>
+<p>Overall this is not for the faint of heart (or the new XPages developer, hence me not going into detail about how what the code is doing etc), there are a lot of moving parts to get things working properly. That being said there is absolutely no reason exactly the same approach couldn&#8217;t be taken with a classic Domino application. All of the server Side Javascript would need to be converted to LotusScript and Java (for the network operations).</p>
+<p>1) Register your application with Facebook here: <a href="http://www.facebook.com/developers/apps.php">http://www.facebook.com/developers/apps.php</a></p>
+<p>2) In the app home page, add a facebook login graphic with some client side onClick code:</p>
+<pre style="font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; color: #000000; background-color: #eee; font-size: 12px; border: 1px dashed #999999; line-height: 14px; padding: 5px; overflow: auto; width: 100%;"><code>var returl = "http://[Your/ App Host Name][Your App DB Path]/fblogin.xsp";
+var url = "https://graph.facebook.com/oauth/authorize?client_id=[YOUR FACEBOOK APP ID]&amp;redirect_uri=" + returl;
+window.open (url, "mywindow","width=500,height=250");
+</code></pre>
+<p>3) Create a new XPage called fblogin</p>
+<p>4) In the afterPageLoad event put the following code:</p>
+<pre style="font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; color: #000000; background-color: #eee; font-size: 12px; border: 1px dashed #999999; line-height: 14px; padding: 5px; overflow: auto; width: 100%;"><code>try{
+    //Get these from Facebook App registration
+    var API_KEY = "YOUR FACEBOOK APP ID";
+    var SECRET = "YOUR FACEBOOK SECRET KEY";
+
+    //Get the auth code from url param returned by facebook
+    var code = context.getUrlParameter("code");
+    
+    //Now swap the auth code for the access_token key
+    var urltoken = "https://graph.facebook.com/oauth/access_token?client_id=" + API_KEY + 
+                    "&amp;redirect_uri=http://[yourhostname]/" + 
+                    "/" + @ReplaceSubstring(database.getFilePath(), "\\", "/") + "/fblogin.xsp" + 
+                    "&amp;client_secret=" + SECRET + 
+                    "&amp;code=" + code;
+    var urltoken:jav.net.URL = new java.net.URL(urltoken);
+    var urltokenconn = urltoken.openConnection();
+    var tokenreader = new java.io.BufferedReader(
+                            new java.io.InputStreamReader(
+                            urltokenconn.getInputStream())
+                        );
+    var inputLine;
+    var accesstoken = "";
+    while(    (inputLine = tokenreader.readLine()) != null){
+        accesstoken += inputLine;
+    }
+    tokenreader.close();
+    accesstoken = @Right(accesstoken, "=");
+
+    //Now get the user info using the access_token
+    var url = "https://graph.facebook.com/me?access_token=" + accesstoken + "&amp;client_id=" + API_KEY;
+    var url:java.net.URL = new java.net.URL(url);
+    var urlconn:java.net.URLConnection = url.openConnection();
+    var reader:java.io.BufferedReader = new java.io.BufferedReader(
+                                            new java.io.InputStreamReader(
+                                            urlconn.getInputStream())
+                                        );
+    var inputLine;
+    var userjson = "";
+    while ((inputLine = reader.readLine()) != null){
+        userjson += inputLine;
+    }
+    reader.close();
+    
+    //Now we've got a JSON object which contains the user data
+    userjson = eval("(" + userjson + ")");
+    var firstname = userjson.first_name;
+    var lastname = userjson.last_name;
+    var userId = userjson.id;
+    var fbname = getFBName(firstname, lastname, userId);
+    var password = getFBPassword(fbname, SECRET);
+    print("FBName = " + fbname);
+    var fbreg = new facebookReg();
+    if (fbreg.validateUser(fbname.getCanonical())){
+        //We need to go and register the user
+        fbreg.registerNewFBUser(firstname, lastname, fbname, password);
+    }
+    //Set the username and password fields so the Ajax login can happen    
+    viewScope.username = fbname.getCanonical();
+    viewScope.password = password;
+}catch(e){
+    _dump(e);
+}
+</code></pre>
+<p>5) In a supporting script library you&#8217;ll need the following functions:</p>
+<pre style="font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; color: #000000; background-color: #eee; font-size: 12px; border: 1px dashed #999999; line-height: 14px; padding: 5px; overflow: auto; width: 100%;"><code>/*
+An object which handles authentication / registration of Facebook users
+Created By: Matt White
+Date Created: October 2010
+Version: 1.0
+*/
+var facebookReg = function(){
+    var dbNab:NotesDatabase = null;
+    var dbMainNab:NotesDatabase = null;
+    var registerNewFBUser = function(firstname, lastname, fbname, password){
+        getDbs();    
+        if(validateUser(fbname.getCanonical())){
+            var registerNewUser = false;
+            
+            if (!addUserToGroup(fbname)){
+                print("Couldn't add " + fbname.getAbbreviated() + " to group");
+            }else{
+                dbNab.DelayUpdates = false
+                dbMainNab.DelayUpdates = false
+                
+                var docPerson = dbNab.createDocument();
+                
+                docPerson.replaceItemValue("form", "Person");
+                docPerson.replaceItemValue("Type", "Person");
+                docPerson.replaceItemValue("LastName", lastname);
+                docPerson.replaceItemValue("FirstName", firstname);
+                var item = docPerson.replaceItemValue("FullName","");
+                item.appendToTextList(fbname.getCanonical());
+                item.appendToTextList(firstname + " " + lastname);
+                docPerson.replaceItemValue("HTTPPassword", password);
+                docPerson.replaceItemValue("accountstatus", "Not Verified");
+                
+                docPerson.computeWithForm( false, false );
+                print("Saving new person doc: " + docPerson.getUniversalID() + " in " + dbNab.getTitle());
+                docPerson.save();
+                
+                var addviews = new Array();
+                addviews.push(dbNab.getView("($LDAPCN)"));
+                addviews.push(dbNab.getView("($Users)"));
+                addviews.push(dbNab.getView("($ServerAccess)"));
+                addviews.push(dbNab.getView("($VIMPeople)"));
+                addviews.push(dbMainNab.getView("($ServerAccess)"));
+                addviews.push(dbMainNab.getView("($VIMGroups)"));
+                addviews.push(dbMainNab.getView("($Users)"));
+                for(var i=0; i&lt;addviews.length; i++)
+                    addviews[i].refresh();
+                print("Refreshed views");
+                
+                //Finally create a profile document for the person
+                var dbCurrent = sessionAsSigner.getDatabase(database.getServer(), database.getFilePath());
+                var profile = dbCurrent.createDocument();
+                profile.replaceItemValue("Form", "person");
+                profile.replaceItemValue("Name", fbname.getCanonical());
+                profile.computeWithForm(false, false);
+                profile.save();
+                print("Created profile document");
+            }
+        }
+    }
+    
+    var validateUser = function(thisname){
+        getDbs();
+        var people = dbNab.getView("($Users)");
+        var collection = people.getAllDocumentsByKey(thisname, true);
+        print("Found " + collection.getCount() + " matching people for " + thisname);
+        if (collection.getCount() &gt; 0)
+            return false;
+        else
+            return true;
+    }
+    
+    var addUserToGroup = function(nname){
+        var group = "[Your Group Name Here]";
+        var groups = dbMainNab.getView("Groups");
+        var docGroup = groups.getDocumentByKey(group, true);
+        
+        if (docGroup == null){
+            docGroup = dbMainNab.createDocument();
+            docGroup.replaceItemValue("Form", "Group");
+            docGroup.replaceItemValue("ListName", group);
+            docGroup.replaceItemValue("Members",  group &amp; " 1");
+            docGroup.replaceItemValue("GroupType", "0");
+            docGroup.replaceItemValue("ListDescription", "Do NOT edit this group manually, it is updated via an agent!!!");
+            docGroup.computeWithForm( false, false );
+            docGroup.save();
+        }
+        
+        var groupMainMembers = docGroup.getFirstItem( "Members" );
+        var subGroup = "";
+        for (var x=groupMainMembers.getValues().length; i&gt;=0; i--){
+            if (@Left(groupMainMembers.getValues()[x], @Length( group  )) == group)
+                subGroup = groupMainMembers.getValues()[x];
+        }
+        
+        groupNum = 0;
+        
+        if (subGroup != "")
+            groupNum = @TextToNumber( @Right( subGroup, @Length( subGroup ) - @Length( group ) - 1 ) );
+        else{
+            groupNum = 1
+            subGroup = group + " 1";
+        }
+        
+        while(true){
+            var groupSubDoc = groups.getDocumentByKey( subGroup, true );
+            
+            if (groupSubDoc == null){
+                groupSubDoc = dbMainNab.createDocument();
+                groupSubDoc.replaceItemValue("Form", "Group");
+                groupSubDoc.replaceItemValue("ListName", subGroup);
+                groupSubDoc.replaceItemValue("GroupType", "0");
+                groupSubDoc.computeWithForm( false, false );
+                
+                if (!groupMainMembers.containsValue( subGroup )){
+                    try{
+                        groupMainMembers = docGroup.getFirstItem("Members");
+                        groupMainMembers.appendToTextList(subGroup);
+                        saveGroupMainDoc = true;
+                    }catch(e){
+                        _dump(e);
+                    }
+                }
+            }
+            var groupSubMembers = groupSubDoc.getFirstItem( "Members" );
+            
+            if (groupSubMembers.getValueLength() &lt; 10000)
+                break;
+            
+            groupNum = groupNum + 1;
+            subGroup = group + " " + groupNum;
+        }
+        
+        groupSubMembers.appendToTextList(nname.getCanonical());
+        groupSubDoc.save( false, true );
+        docGroup.save( false, true );
+        return true;
+    }
+    
+    var getDbs = function(){
+        if (dbNab == null || dbMainNab == null){
+            dbNab = sessionAsSigner.getDatabase(database.getServer(), "[NAB Where Users Are Stored]");
+            dbMainNab = sessionAsSigner.getDatabase(database.getServer(), "[Main NAB]");
+        }
+    }
+    
+    return {
+        // public methods
+        registerNewFBUser:        registerNewFBUser,
+        validateUser:            validateUser,
+        addUserToGroup:            addUserToGroup, 
+        getDbs:                    getDbs
+    }
+}
+/*
+Creates a new Notes Name using First Name, Last Name, Facebook User ID
+*/
+function getFBName(firstname, lastname, uid){
+    return session.createName(firstname + " " + lastname + "/" + uid + "/Facebook");
+}
+/*
+Generates a password using a Notes Name and a secret key as a salt
+*/
+function getFBPassword(fbname:NotesName, seed){
+    var result = session.evaluate("@Password(\"" + fbname.getCanonical() + seed + "\")");
+    return @ReplaceSubstring(result.elementAt(0), ["(",")"], "");
+}
+</code></pre>
+<p>6) Finally you&#8217;ll need some AJAX code which logs the user in assuming all of the previous code has worked properly</p>
+<pre style="font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; color: #000000; background-color: #eee; font-size: 12px; border: 1px dashed #999999; line-height: 14px; padding: 5px; overflow: auto; width: 100%;"><code>function doLogin(userNameId, passwordId, facebookmode){
+    dojo.xhrPost({
+        url: "/names.nsf?login",
+        content: {
+            username: dojo.byId(userNameId).value, 
+            password: dojo.byId(passwordId).value, 
+            redirectto: dbPath + "/username.txt?open&amp;rnd=" + Math.random()
+        },
+        load: function(data) {
+            try {
+                if( data.indexOf("Anonymous") == -1) { 
+                    dojo.byId("loginMsg").style.display = "block";
+                    dojo.byId("loginMsg").style.color = "green";
+                    dojo.byId("loginMsg").style.backgroundColor = "transparent"; 
+                    dojo.byId("loginMsg").innerHTML = "Please Wait";
+                    if(location.href.indexOf("register.xsp") &gt; -1){
+                        location.href = dbPath;
+                    }else{
+                        if (facebookmode == true){
+                            window.opener.location.href = window.opener.location.href;
+                            window.close(); 
+                        }else{
+                            if (window.location.href.indexOf("#") &gt; -1){
+                                window.location.replace( strLeft(window.location.href, "#") );
+                            }else{
+                                window.location.replace( window.location.href );
+                            }
+                        }
+                    }
+                } else { 
+                    dojo.byId("loginMsg").style.display = "block";
+                    dojo.byId("loginMsg").style.color = "red"; 
+                    dojo.byId("loginMsg").style.backgroundColor = "transparent";
+                    if ( dojo.cookie('DomAuthSessId') != null || dojo.cookie('LtpaToken') != null ) { 
+                        dojo.byId("loginMsg").innerHTML = "You do not have access to this database";
+                    } else { 
+                        dojo.byId("loginMsg").innerHTML = "Wrong username or password"; 
+                    } 
+                }
+            }catch(e){
+                alert(e);
+                console.error ('Error: ', error);
+            }
+        },
+        error: function(data) {
+            alert(e);
+            console.error ('Error: ', error); 
+        } 
+    });
+}
+</code></pre>
+<p>7) That code will need to be triggered by some Javascript which runs when the page loads (so this needs to go in the onClientLoad function)</p>
+<pre style="font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; color: #000000; background-color: #eee; font-size: 12px; border: 1px dashed #999999; line-height: 14px; padding: 5px; overflow: auto; width: 100%;"><code>if (gup("code") != ""){
+    doLogin("#{id:username}", "#{id:password}", true)
+}else{
+    window.close();
+}
+</code></pre>
+<p>For the gup function go here: <a href="http://www.netlobo.com/url_query_string_javascript.html">http://www.netlobo.com/url_query_string_javascript.html</a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/feed/</wfw:commentRss>
+			<slash:comments>8</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Facebook SSO to XPages</title>
+		<link>/2010-10-20-facebook-sso-to-xpages-html/</link>
+					<comments>/2010-10-20-facebook-sso-to-xpages-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 20 Oct 2010 07:46:54 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[facebook]]></category>
+		<category><![CDATA[iqjam]]></category>
+		<category><![CDATA[sso]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2010-10-20-facebook-sso-to-xpages-html/</guid>
+
+					<description><![CDATA[One of the things I&#8217;ve been playing with this week is getting Facebook SSO working with XPages. It&#8217;s not a true SSO implementation as Domino doesn&#8217;t support OAuth, but from the user&#8217;s point of view they are not having to enter a username and password to get authenticated against a Domino app. I think it&#8217;s [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>One of the things I&#8217;ve been playing with this week is getting Facebook SSO working with XPages. It&#8217;s not a true SSO implementation as Domino doesn&#8217;t support OAuth, but from the user&#8217;s point of view they are not having to enter a username and password to get authenticated against a Domino app. I think it&#8217;s pretty cool&#8230;</p>
+<p><iframe loading="lazy" src="http://player.vimeo.com/video/16016491?byline=0&amp;portrait=0" width="601" height="338" frameborder="0"></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-10-20-facebook-sso-to-xpages-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Forcing a file name when downloading a dynamically generated csv file</title>
+		<link>/2010-7-14-forcing-a-file-name-when-downloading-a-dynamically-generated-html/</link>
+					<comments>/2010-7-14-forcing-a-file-name-when-downloading-a-dynamically-generated-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 14 Jul 2010 14:47:41 +0000</pubDate>
+				<category><![CDATA[Show-n-Tell Thursday]]></category>
+		<category><![CDATA[excel]]></category>
+		<category><![CDATA[http]]></category>
+		<category><![CDATA[ssjs]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2010-7-14-forcing-a-file-name-when-downloading-a-dynamically-generated-html/</guid>
+
+					<description><![CDATA[Over the last couple of weeks I&#8217;ve been working on a customisation project using IQJam as a starting point and then making it better fit a particular customer&#8217;s requirements. It&#8217;s worth mentioning as I finally had the justification to spend a little time investigating a problem which has been bugging me. One of the features [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Over the last couple of weeks I&#8217;ve been working on a customisation project using IQJam as a starting point and then making it better fit a particular customer&#8217;s requirements. It&#8217;s worth mentioning as I finally had the justification to spend a little time investigating a problem which has been bugging me.</p>
+<p>One of the features I added to IQJam was the ability to export data to Excel, a common enough feature that you&#8217;ve been able to do in Domino for ever. Simply print data out to the browser in simple HTML format and change the content-type of the page to &#8220;application/vnd.ms-excel&#8221;. That&#8217;s not the point of this posting really.</p>
+<p>The problem I&#8217;ve been trying to work around is that if your user is using Excel 2007 or later (I&#8217;m only on the beta of Office 2010 but it still seems to be a problem for me anyway) and you use the printing HTML technique, Excel raises an error for the user when they load the page, something like:</p>
+<blockquote><p>The file you are trying to open, &#8216;name.ext&#8217;, is in a different format than specified by the file extension. Verify that the file is not corrupted and is from a trusted source before opening the file. Do you want to open the file now?</p></blockquote>
+<p>According to various <a href="http://support.microsoft.com/kb/948615">technotes</a> and <a href="http://blogs.msdn.com/b/vsofficedeveloper/archive/2008/03/11/excel-2007-extension-warning.aspx">blog posts</a> there is no work around for this, it is a deliberate security feature of Excel. Fair enough I can live with this, though it&#8217;s not acceptable to the end user, so instead of generating an Excel file I reverted to generated CSV formatted data.</p>
+<p>The thing I learned from my investigations into the Excel problem was that there is this header which you can add to the data being generated which tells the browser that the page being opened is actually a file attachment and what the name of the file you want to download should be. So in my example, I&#8217;m able to create a unique file name every time the page is generated and also specify that it should be saved as a CSV file, not .XSP which is what it would be thanks to the page being loaded being an XPage. See this example:</p>
+<blockquote><p>try{<br /> &nbsp;&nbsp;&nbsp;&nbsp;var exCon = facesContext.getExternalContext(); <br /> &nbsp;&nbsp;&nbsp;&nbsp;var writer = facesContext.getResponseWriter();<br /> &nbsp;&nbsp;&nbsp;&nbsp;var response = exCon.getResponse();<br /> &nbsp;&nbsp;&nbsp;&nbsp;response.setContentType(&#8220;text/csv&#8221;);<br /> &nbsp;&nbsp;&nbsp;&nbsp;response.setHeader(&#8220;Content-disposition&#8221;, &#8220;attachment; filename=export_&#8221; + DateConverter.dateToString(@Now(), &#8220;yyyyMMddhhmm&#8221;) + &#8220;.csv&#8221;);<br /> &nbsp;&nbsp;&nbsp;&nbsp;response.setHeader(&#8220;Cache-Control&#8221;, &#8220;no-cache&#8221;);<br /> &nbsp;&nbsp;&nbsp;&nbsp;writer.write(getCSVBody());<br /> &nbsp;&nbsp;&nbsp;&nbsp;writer.endDocument();<br /> &nbsp;&nbsp;&nbsp;&nbsp;facesContext.responseComplete();<br /> &nbsp;&nbsp;&nbsp;&nbsp;writer.close();<br /> }catch(e){<br /> &nbsp;&nbsp;&nbsp;&nbsp;_dump(e);<br /> }</p></blockquote>
+<p>So this server side javascript sits in the afterRenderResponse of my XPage and is using the &#8220;<a href="http://www.wissel.net/blog/d6plinks/SHWL-7MGFBN">web agents XPages style</a>&#8221; technique which Stephan first documented to generate non HTML content from an XPage. The key line for this blog post is where the &#8220;Content-disposition&#8221; header is set, hopefully you can see where the filename is being created (I&#8217;m also using <a href="http://dontpanic82.blogspot.com/2010/04/xpages-code-snippet-for-datestring.html">Tommy Valand&#8217;s DateConverter SSJS code</a> to get the current date / time formatted into a nice string).</p>
+<p>Anyway, not a new technique looking at the dates on some of the internet postings out there, but a new one on me and worth passing on I thought.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-7-14-forcing-a-file-name-when-downloading-a-dynamically-generated-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Disable automatic On Disk Project syncing	</title>
+	<atom:link href="/2013-5-15-disable-automatic-on-disk-project-syncing/feed/" rel="self" type="application/rss+xml" />
+	<link>/2013-5-15-disable-automatic-on-disk-project-syncing/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:19:34 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Kathy Brown		</title>
+		<link>/2013-5-15-disable-automatic-on-disk-project-syncing/#comment-80</link>
+
+		<dc:creator><![CDATA[Kathy Brown]]></dc:creator>
+		<pubDate>Wed, 05 Jun 2013 18:31:19 +0000</pubDate>
+		<guid isPermaLink="false">/2013-5-15-disable-automatic-on-disk-project-syncing/#comment-80</guid>
+
+					<description><![CDATA[&lt;p&gt;This is useful also because I have run into the scenario where automatic syncing was checked, but was not actually syncing.  At least if I know it is off and I manually sync it, I won&#039;t ASSUME it is being synched (sunc?) when it isn&#039;t.  If that made any sense at all.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>This is useful also because I have run into the scenario where automatic syncing was checked, but was not actually syncing.  At least if I know it is off and I manually sync it, I won&#8217;t ASSUME it is being synched (sunc?) when it isn&#8217;t.  If that made any sense at all.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Andrew Magerman		</title>
+		<link>/2013-5-15-disable-automatic-on-disk-project-syncing/#comment-79</link>
+
+		<dc:creator><![CDATA[Andrew Magerman]]></dc:creator>
+		<pubDate>Fri, 17 May 2013 08:55:45 +0000</pubDate>
+		<guid isPermaLink="false">/2013-5-15-disable-automatic-on-disk-project-syncing/#comment-79</guid>
+
+					<description><![CDATA[&lt;p&gt;Excellent tip matt. That dialog box had led me to disable source control, since it was driving me craaazy.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Excellent tip matt. That dialog box had led me to disable source control, since it was driving me craaazy.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Paul Withers		</title>
+		<link>/2013-5-15-disable-automatic-on-disk-project-syncing/#comment-78</link>
+
+		<dc:creator><![CDATA[Paul Withers]]></dc:creator>
+		<pubDate>Thu, 16 May 2013 11:08:34 +0000</pubDate>
+		<guid isPermaLink="false">/2013-5-15-disable-automatic-on-disk-project-syncing/#comment-78</guid>
+
+					<description><![CDATA[&lt;p&gt;That&#039;s a great tip, but one gotcha to be aware of (I fell into it myself). If you open a database in Designer, deselecting these options means it doesn&#039;t automatically open the referenced on-disk project. This really threw me, because I was sure I had set up source control, but the Team Development context menu only gave options to set up source control or associate with an on-disk project. But I was sure I already had an on-disk project, but couldn&#039;t remember the name.&lt;/p&gt;
+
+&lt;p&gt;Once I opened the relevant on-disk project, the Team Development (right-click) context menu gave the options I expected.&lt;/p&gt;
+
+&lt;p&gt;Again, not a huge pain because I can temporarily re-enable the settings if I really need to. But it threw me for a little while.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>That&#8217;s a great tip, but one gotcha to be aware of (I fell into it myself). If you open a database in Designer, deselecting these options means it doesn&#8217;t automatically open the referenced on-disk project. This really threw me, because I was sure I had set up source control, but the Team Development context menu only gave options to set up source control or associate with an on-disk project. But I was sure I already had an on-disk project, but couldn&#8217;t remember the name.</p>
+<p>Once I opened the relevant on-disk project, the Team Development (right-click) context menu gave the options I expected.</p>
+<p>Again, not a huge pain because I can temporarily re-enable the settings if I really need to. But it threw me for a little while.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

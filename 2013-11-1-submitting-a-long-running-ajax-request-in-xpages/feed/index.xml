@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Submitting a long running Ajax request in XPages	</title>
+	<atom:link href="/2013-11-1-submitting-a-long-running-ajax-request-in-xpages/feed/" rel="self" type="application/rss+xml" />
+	<link>/2013-11-1-submitting-a-long-running-ajax-request-in-xpages/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:19:12 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2013-11-1-submitting-a-long-running-ajax-request-in-xpages/#comment-74</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Sat, 02 Nov 2013 06:59:54 +0000</pubDate>
+		<guid isPermaLink="false">/2013-11-1-submitting-a-long-running-ajax-request-in-xpages/#comment-74</guid>
+
+					<description><![CDATA[&lt;p&gt;In this case, Keith, I need the user to stay on the page and wait, but yes that would be an alternative approach.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>In this case, Keith, I need the user to stay on the page and wait, but yes that would be an alternative approach.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Keith Strickland		</title>
+		<link>/2013-11-1-submitting-a-long-running-ajax-request-in-xpages/#comment-75</link>
+
+		<dc:creator><![CDATA[Keith Strickland]]></dc:creator>
+		<pubDate>Sat, 02 Nov 2013 02:23:54 +0000</pubDate>
+		<guid isPermaLink="false">/2013-11-1-submitting-a-long-running-ajax-request-in-xpages/#comment-75</guid>
+
+					<description><![CDATA[&lt;p&gt;I haven&#039;t had a chance to really investigate it yet, but I&#039;ve wanted to try web workers for this sort of scenario. From my very limited understanding it&#039;s like a separate thread that goes off and does it&#039;s own thing while the rest of the site continues to work and be functional without having to wait for the request to finish. Dunno if it&#039;s feasible or actually fits this scenario but might be worth investigating.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I haven&#8217;t had a chance to really investigate it yet, but I&#8217;ve wanted to try web workers for this sort of scenario. From my very limited understanding it&#8217;s like a separate thread that goes off and does it&#8217;s own thing while the rest of the site continues to work and be functional without having to wait for the request to finish. Dunno if it&#8217;s feasible or actually fits this scenario but might be worth investigating.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

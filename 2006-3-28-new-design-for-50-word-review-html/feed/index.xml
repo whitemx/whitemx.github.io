@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: New Design for 50 Word Review	</title>
+	<atom:link href="/2006-3-28-new-design-for-50-word-review-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2006-3-28-new-design-for-50-word-review-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:34:43 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: David Bailey		</title>
+		<link>/2006-3-28-new-design-for-50-word-review-html/#comment-1202</link>
+
+		<dc:creator><![CDATA[David Bailey]]></dc:creator>
+		<pubDate>Wed, 29 Mar 2006 20:47:57 +0000</pubDate>
+		<guid isPermaLink="false">/2006-3-28-new-design-for-50-word-review-html/#comment-1202</guid>
+
+					<description><![CDATA[&lt;p&gt;I like the 50WordReview site.  Great job.  I guess it&#039;s about time for me to learn how to do the AJAX.  Do you have any tips for getting started?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I like the 50WordReview site.  Great job.  I guess it&#8217;s about time for me to learn how to do the AJAX.  Do you have any tips for getting started?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Phillip Deftereos		</title>
+		<link>/2006-3-28-new-design-for-50-word-review-html/#comment-1203</link>
+
+		<dc:creator><![CDATA[Phillip Deftereos]]></dc:creator>
+		<pubDate>Tue, 28 Mar 2006 19:32:56 +0000</pubDate>
+		<guid isPermaLink="false">/2006-3-28-new-design-for-50-word-review-html/#comment-1203</guid>
+
+					<description><![CDATA[&lt;p&gt;Cool ! I like the look of it. Very compact and neat.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Cool ! I like the look of it. Very compact and neat.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

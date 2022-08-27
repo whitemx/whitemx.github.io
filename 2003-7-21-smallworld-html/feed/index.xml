@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: smallworld	</title>
+	<atom:link href="/2003-7-21-smallworld-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2003-7-21-smallworld-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:45:42 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Simon		</title>
+		<link>/2003-7-21-smallworld-html/#comment-918</link>
+
+		<dc:creator><![CDATA[Simon]]></dc:creator>
+		<pubDate>Wed, 23 Jul 2003 08:10:54 +0000</pubDate>
+		<guid isPermaLink="false">/2003-7-21-smallworld-html/#comment-918</guid>
+
+					<description><![CDATA[&lt;p&gt;Happy birthday Matthew!! I hope that you have a relaxed day and that work doesn&#039;t get in the way too much!! I&#039;ll give you a call tonight.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Happy birthday Matthew!! I hope that you have a relaxed day and that work doesn&#8217;t get in the way too much!! I&#8217;ll give you a call tonight.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mum		</title>
+		<link>/2003-7-21-smallworld-html/#comment-917</link>
+
+		<dc:creator><![CDATA[Mum]]></dc:creator>
+		<pubDate>Tue, 22 Jul 2003 17:21:33 +0000</pubDate>
+		<guid isPermaLink="false">/2003-7-21-smallworld-html/#comment-917</guid>
+
+					<description><![CDATA[&lt;p&gt;It looks interesting but will I be deluged if I take part? Changing the subject completely - as mums are allowed to do - HAPPY BIRTHDAY  for 23rd and have a good day!!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>It looks interesting but will I be deluged if I take part? Changing the subject completely &#8211; as mums are allowed to do &#8211; HAPPY BIRTHDAY  for 23rd and have a good day!!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

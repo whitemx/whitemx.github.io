@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Express web application framework	</title>
+	<atom:link href="/2014-5-27-express-web-application-framework/feed/" rel="self" type="application/rss+xml" />
+	<link>/2014-5-27-express-web-application-framework/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:18:55 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Cooking with Alex		</title>
+		<link>/2014-5-27-express-web-application-framework/#comment-29</link>
+
+		<dc:creator><![CDATA[Cooking with Alex]]></dc:creator>
+		<pubDate>Wed, 25 Aug 2021 10:12:14 +0000</pubDate>
+		<guid isPermaLink="false">/2014-5-27-express-web-application-framework/#comment-29</guid>
+
+					<description><![CDATA[&lt;p&gt;Good read&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Good read</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: gripes	</title>
+	<atom:link href="/2003-5-29-gripes-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2003-5-29-gripes-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:45:43 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: matt		</title>
+		<link>/2003-5-29-gripes-html/#comment-929</link>
+
+		<dc:creator><![CDATA[matt]]></dc:creator>
+		<pubDate>Fri, 30 May 2003 09:21:49 +0000</pubDate>
+		<guid isPermaLink="false">/2003-5-29-gripes-html/#comment-929</guid>
+
+					<description><![CDATA[&lt;p&gt;it was indeed, dom who sent this to me. i thought it was hilarious&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>it was indeed, dom who sent this to me. i thought it was hilarious</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Justin Knol		</title>
+		<link>/2003-5-29-gripes-html/#comment-928</link>
+
+		<dc:creator><![CDATA[Justin Knol]]></dc:creator>
+		<pubDate>Fri, 30 May 2003 00:34:47 +0000</pubDate>
+		<guid isPermaLink="false">/2003-5-29-gripes-html/#comment-928</guid>
+
+					<description><![CDATA[&lt;p&gt;If a big guy called Dom sent you this via email a day ago - say hi to him from me. I this makes no sense forget it.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>If a big guy called Dom sent you this via email a day ago &#8211; say hi to him from me. I this makes no sense forget it.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

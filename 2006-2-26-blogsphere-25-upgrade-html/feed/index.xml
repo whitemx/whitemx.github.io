@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Blogsphere 2.5 Upgrade	</title>
+	<atom:link href="/2006-2-26-blogsphere-25-upgrade-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2006-2-26-blogsphere-25-upgrade-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:34:43 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: jghj		</title>
+		<link>/2006-2-26-blogsphere-25-upgrade-html/#comment-1206</link>
+
+		<dc:creator><![CDATA[jghj]]></dc:creator>
+		<pubDate>Fri, 13 Oct 2006 19:21:33 +0000</pubDate>
+		<guid isPermaLink="false">/2006-2-26-blogsphere-25-upgrade-html/#comment-1206</guid>
+
+					<description><![CDATA[&lt;p&gt;fghjfgj&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>fghjfgj</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Declan Lynch		</title>
+		<link>/2006-2-26-blogsphere-25-upgrade-html/#comment-1205</link>
+
+		<dc:creator><![CDATA[Declan Lynch]]></dc:creator>
+		<pubDate>Sun, 26 Feb 2006 17:14:01 +0000</pubDate>
+		<guid isPermaLink="false">/2006-2-26-blogsphere-25-upgrade-html/#comment-1205</guid>
+
+					<description><![CDATA[&lt;p&gt;Thanks for upgrading. Hope you enjoy all the new functions and the new rich text conversion routines.&lt;br/&gt;&lt;br/&gt;&#060;br&#062;&#038;lt;br&#038;gt;&lt;br/&gt;&lt;br/&gt;&#060;br&#062;&#038;lt;br&#038;gt;The Technorati problem slipped in at the last minute.  Oops &lt;img src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$FILE/smile.gif&quot;&lt;/a&gt;&gt;&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thanks for upgrading. Hope you enjoy all the new functions and the new rich text conversion routines.</p>
+<p>&lt;br&gt;&amp;lt;br&amp;gt;</p>
+<p>&lt;br&gt;&amp;lt;br&amp;gt;The Technorati problem slipped in at the last minute.  Oops <img src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$FILE/smile.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$FILE/smile.gif</a>&#8220;></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Ben Poole		</title>
+		<link>/2006-2-26-blogsphere-25-upgrade-html/#comment-1207</link>
+
+		<dc:creator><![CDATA[Ben Poole]]></dc:creator>
+		<pubDate>Sun, 26 Feb 2006 11:51:22 +0000</pubDate>
+		<guid isPermaLink="false">/2006-2-26-blogsphere-25-upgrade-html/#comment-1207</guid>
+
+					<description><![CDATA[&lt;p&gt;I added Technorati support to my template too... if memory serves, I just URLEncode the tags I select when creating the actual links, so no need to remove spaces.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I added Technorati support to my template too&#8230; if memory serves, I just URLEncode the tags I select when creating the actual links, so no need to remove spaces.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2006-2-26-blogsphere-25-upgrade-html/#comment-1204</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Sun, 26 Feb 2006 09:45:47 +0000</pubDate>
+		<guid isPermaLink="false">/2006-2-26-blogsphere-25-upgrade-html/#comment-1204</guid>
+
+					<description><![CDATA[&lt;p&gt;Testing CoComment&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Testing CoComment</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

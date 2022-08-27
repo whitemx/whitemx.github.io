@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>chrome &#8211; mattwhite.me</title>
+	<atom:link href="/tag/chrome/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Be very careful with your content type for Chrome Ajax requests</title>
+		<link>/2010-2-25-be-very-careful-with-your-content-type-for-chrome-ajax-reque-html/</link>
+					<comments>/2010-2-25-be-very-careful-with-your-content-type-for-chrome-ajax-reque-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 25 Feb 2010 15:10:44 +0000</pubDate>
+				<category><![CDATA[Show-n-Tell Thursday]]></category>
+		<category><![CDATA[ajax]]></category>
+		<category><![CDATA[chrome]]></category>
+		<category><![CDATA[ideajam]]></category>
+		<guid isPermaLink="false">/2010-2-25-be-very-careful-with-your-content-type-for-chrome-ajax-reque-html/</guid>
+
+					<description><![CDATA[We released the first beta for IdeaJam 1.7 today. There are *tons* of changes under the covers including the new MooTools 1.2 framework, on which you can expect more later this week. But for the moment, I thought I&#8217;d pass along one little tip which we ran into. Inevitably during our own testing we had [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>We released the first beta for <a href="http://ideajam.net/">IdeaJam 1.7</a> today. There are *tons* of changes under the covers including the new MooTools 1.2 framework, on which you can expect more later this week.</p>
+<p>But for the moment, I thought I&#8217;d pass along one little tip which we ran into. Inevitably during our own testing we had missed this bug. When you&#8217;re in an idea you can &#8220;Click to show votes&#8221; and what happens behind the scenes is that an Ajax request is fired off to our votes database, an agent runs and send back a list of the votes related to that idea, when they were cast, who by and so on. That agent had been set up with the following code at the start:</p>
+<blockquote>
+<div id="_mcePaste">Print |Content-Type:text/javascript; charset=utf-8|</div>
+<div id="_mcePaste"><span> </span>Print |Cache-Control: no-cache|</div>
+</blockquote>
+<div>But what we are actually doing is pre-building some HTML and then just inserting it into a div, it saves a little bit of browser processing time this way. But in Chrome we were getting an error:</div>
+<blockquote>
+<div>Uncaught SyntaxError: Unexpected token &lt;</div>
+</blockquote>
+<div>It took a while to track down the problem, but now I found it, it&#8217;s obvious. The content-type of the agent needs to actually be set to text/html, not text/javascript. All of the other browsers worked fine with this oversight, even Safari which is a fellow Webkit browser, but Chrome seems to be a lot more picky. So this is just a reminder to make sure you&#8217;re very precise with what is being sent to Chrome from your server.</div>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-2-25-be-very-careful-with-your-content-type-for-chrome-ajax-reque-html/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

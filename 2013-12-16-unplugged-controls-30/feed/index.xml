@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Unplugged Controls 3.0	</title>
+	<atom:link href="/2013-12-16-unplugged-controls-30/feed/" rel="self" type="application/rss+xml" />
+	<link>/2013-12-16-unplugged-controls-30/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:19:04 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2013-12-16-unplugged-controls-30/#comment-63</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Mon, 16 Dec 2013 19:53:20 +0000</pubDate>
+		<guid isPermaLink="false">/2013-12-16-unplugged-controls-30/#comment-63</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2013-12-16-unplugged-controls-30/#comment-62&quot;&gt;Sean Cull&lt;/a&gt;.
+
+&lt;p&gt;We&#039;re definitely going to blog more, and we have a session a bout the controls at IBM Connect in January, but they are most definitely aimed at mobile devices and not optimised for the desktop. If that&#039;s what you were after?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2013-12-16-unplugged-controls-30/#comment-62">Sean Cull</a>.</p>
+<p>We&#8217;re definitely going to blog more, and we have a session a bout the controls at IBM Connect in January, but they are most definitely aimed at mobile devices and not optimised for the desktop. If that&#8217;s what you were after?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sean Cull		</title>
+		<link>/2013-12-16-unplugged-controls-30/#comment-62</link>
+
+		<dc:creator><![CDATA[Sean Cull]]></dc:creator>
+		<pubDate>Mon, 16 Dec 2013 19:32:38 +0000</pubDate>
+		<guid isPermaLink="false">/2013-12-16-unplugged-controls-30/#comment-62</guid>
+
+					<description><![CDATA[&lt;p&gt;Matt, have you ever blogged about the possible options to skip the &#034;standard&#034; Page Custom Controls and just use the Team Studio ones for everything =&#062; less to maintain - is this possible ?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Matt, have you ever blogged about the possible options to skip the &quot;standard&quot; Page Custom Controls and just use the Team Studio ones for everything =&gt; less to maintain &#8211; is this possible ?</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

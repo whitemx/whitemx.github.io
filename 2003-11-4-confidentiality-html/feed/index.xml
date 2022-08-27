@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: confidentiality	</title>
+	<atom:link href="/2003-11-4-confidentiality-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2003-11-4-confidentiality-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:43:28 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Simon		</title>
+		<link>/2003-11-4-confidentiality-html/#comment-898</link>
+
+		<dc:creator><![CDATA[Simon]]></dc:creator>
+		<pubDate>Tue, 04 Nov 2003 17:01:51 +0000</pubDate>
+		<guid isPermaLink="false">/2003-11-4-confidentiality-html/#comment-898</guid>
+
+					<description><![CDATA[&lt;p&gt;In general, the key form of intellectual property right which you will own in relation to code made by you will be copyright. This arises automatically provided that your work is original. Copyright will vest in the author and, unless specifically assigned to the company you are contracting for, will remain vested in you. If you apply this to the code you bring with you which you have written (and you have not signed up to a nasty &#039;assignment of furure copyright&#039; clause!), then you can use it on other jobs. However, if there is no formal assignment document relating to your code, the law will probably imply an irrocable, perpetual, world wide licence to the company you are contracting for to use that code. In general, it is not possible under English law to obtain a patent (ownership of an invention) for software, whereas you are able to do so in the US.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>In general, the key form of intellectual property right which you will own in relation to code made by you will be copyright. This arises automatically provided that your work is original. Copyright will vest in the author and, unless specifically assigned to the company you are contracting for, will remain vested in you. If you apply this to the code you bring with you which you have written (and you have not signed up to a nasty &#8216;assignment of furure copyright&#8217; clause!), then you can use it on other jobs. However, if there is no formal assignment document relating to your code, the law will probably imply an irrocable, perpetual, world wide licence to the company you are contracting for to use that code. In general, it is not possible under English law to obtain a patent (ownership of an invention) for software, whereas you are able to do so in the US.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

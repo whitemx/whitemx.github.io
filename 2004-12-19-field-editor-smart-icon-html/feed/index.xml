@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Field Editor Smart Icon	</title>
+	<atom:link href="/2004-12-19-field-editor-smart-icon-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2004-12-19-field-editor-smart-icon-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:37:18 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Chad		</title>
+		<link>/2004-12-19-field-editor-smart-icon-html/#comment-1358</link>
+
+		<dc:creator><![CDATA[Chad]]></dc:creator>
+		<pubDate>Tue, 28 Dec 2004 20:13:09 +0000</pubDate>
+		<guid isPermaLink="false">/2004-12-19-field-editor-smart-icon-html/#comment-1358</guid>
+
+					<description><![CDATA[&lt;p&gt;I started with something very similar to this but have made a handfull of improvements.  Take a look:&lt;br/&gt;&lt;a href=&quot;http://chadsmiley.dominodeveloper.net/chadsmiley/home.nsf/plinks/CHAY-66Z8T6&quot; rel=&quot;nofollow ugc&quot;&gt;http://chadsmiley.dominodeveloper.net/chadsmiley/home.nsf/plinks/CHAY-66Z8T6&lt;/a&gt;&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I started with something very similar to this but have made a handfull of improvements.  Take a look:<br /><a href="http://chadsmiley.dominodeveloper.net/chadsmiley/home.nsf/plinks/CHAY-66Z8T6" rel="nofollow ugc">http://chadsmiley.dominodeveloper.net/chadsmiley/home.nsf/plinks/CHAY-66Z8T6</a></p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

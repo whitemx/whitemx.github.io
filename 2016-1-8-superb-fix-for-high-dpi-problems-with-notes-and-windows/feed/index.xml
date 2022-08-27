@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Superb fix for high DPI problems with Notes and Windows	</title>
+	<atom:link href="/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/feed/" rel="self" type="application/rss+xml" />
+	<link>/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:18:52 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Mooz80		</title>
+		<link>/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-21</link>
+
+		<dc:creator><![CDATA[Mooz80]]></dc:creator>
+		<pubDate>Thu, 16 Jun 2016 01:51:18 +0000</pubDate>
+		<guid isPermaLink="false">/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-21</guid>
+
+					<description><![CDATA[&lt;p&gt;Hi,&lt;br/&gt;Just to let you know, this guy made my day:&lt;br/&gt;http://www.polymorph.co.uk/content/blog-posts/fix-for-lotus-notes-display-issues-on-surface-pro-high-dpi/&lt;br/&gt;This is the only thing that worked for me, I needed to share!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hi,<br />Just to let you know, this guy made my day:<br /><a href="http://www.polymorph.co.uk/content/blog-posts/fix-for-lotus-notes-display-issues-on-surface-pro-high-dpi/" rel="nofollow ugc">http://www.polymorph.co.uk/content/blog-posts/fix-for-lotus-notes-display-issues-on-surface-pro-high-dpi/</a><br />This is the only thing that worked for me, I needed to share!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mooz80		</title>
+		<link>/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-20</link>
+
+		<dc:creator><![CDATA[Mooz80]]></dc:creator>
+		<pubDate>Tue, 14 Jun 2016 20:33:45 +0000</pubDate>
+		<guid isPermaLink="false">/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-20</guid>
+
+					<description><![CDATA[&lt;p&gt;I installed the 9.0.1 FP5 and it is a little better, but the SameTime client is unusable.&lt;br/&gt;I&#039;m not able to make the manifest trick work... tried with multiple .exe files and not effects on Notes or Sametime. Did somebody came up with a trick that works?&lt;/p&gt;
+&lt;p&gt;Thanks&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I installed the 9.0.1 FP5 and it is a little better, but the SameTime client is unusable.<br />I&#8217;m not able to make the manifest trick work&#8230; tried with multiple .exe files and not effects on Notes or Sametime. Did somebody came up with a trick that works?</p>
+<p>Thanks</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Andrew Gr		</title>
+		<link>/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-19</link>
+
+		<dc:creator><![CDATA[Andrew Gr]]></dc:creator>
+		<pubDate>Tue, 07 Jun 2016 04:13:17 +0000</pubDate>
+		<guid isPermaLink="false">/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-19</guid>
+
+					<description><![CDATA[&lt;p&gt;IBM Notes/Des/Admin 9.0.1 FP6 - the solution didn&#039;t help. Tried everything possible, almost with all exe-files. No effect. Also tried to pass java param (sun.java2d.dpiaware=false) to JVM - didn&#039;t get any success (probably even with passing param to Notes JVM)...&lt;br/&gt;So Designer and Administrator still look ugly...&lt;br/&gt;Any ideas on this so far???&lt;br/&gt;Craig Wiseman, is it any from IBM on your ticket?&lt;br/&gt;Thanks!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>IBM Notes/Des/Admin 9.0.1 FP6 &#8211; the solution didn&#8217;t help. Tried everything possible, almost with all exe-files. No effect. Also tried to pass java param (sun.java2d.dpiaware=false) to JVM &#8211; didn&#8217;t get any success (probably even with passing param to Notes JVM)&#8230;<br />So Designer and Administrator still look ugly&#8230;<br />Any ideas on this so far???<br />Craig Wiseman, is it any from IBM on your ticket?<br />Thanks!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-23</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Thu, 14 Jan 2016 13:53:36 +0000</pubDate>
+		<guid isPermaLink="false">/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-23</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-18&quot;&gt;Fredrik Norling&lt;/a&gt;.
+
+&lt;p&gt;I added it to notes.exe&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-18">Fredrik Norling</a>.</p>
+<p>I added it to notes.exe</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Fredrik Norling		</title>
+		<link>/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-18</link>
+
+		<dc:creator><![CDATA[Fredrik Norling]]></dc:creator>
+		<pubDate>Thu, 14 Jan 2016 13:37:29 +0000</pubDate>
+		<guid isPermaLink="false">/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-18</guid>
+
+					<description><![CDATA[&lt;p&gt;What exe file should this be added to ?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>What exe file should this be added to ?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt Key		</title>
+		<link>/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-24</link>
+
+		<dc:creator><![CDATA[Matt Key]]></dc:creator>
+		<pubDate>Tue, 12 Jan 2016 10:28:47 +0000</pubDate>
+		<guid isPermaLink="false">/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-24</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-22&quot;&gt;Matt White&lt;/a&gt;.
+
+&lt;p&gt;Cheers Matt, I&#039;ll recheck what I&#039;ve done but i wonder if it doesn&#039;t work for sametime anyway&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-22">Matt White</a>.</p>
+<p>Cheers Matt, I&#8217;ll recheck what I&#8217;ve done but i wonder if it doesn&#8217;t work for sametime anyway</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-22</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Sat, 09 Jan 2016 10:53:06 +0000</pubDate>
+		<guid isPermaLink="false">/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-22</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-17&quot;&gt;Matt Key&lt;/a&gt;.
+
+&lt;p&gt;Hi it just worked for me. I don&#039;t use same time I&#039;m afraid.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-17">Matt Key</a>.</p>
+<p>Hi it just worked for me. I don&#8217;t use same time I&#8217;m afraid.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt Key		</title>
+		<link>/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-17</link>
+
+		<dc:creator><![CDATA[Matt Key]]></dc:creator>
+		<pubDate>Sat, 09 Jan 2016 10:45:57 +0000</pubDate>
+		<guid isPermaLink="false">/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-17</guid>
+
+					<description><![CDATA[&lt;p&gt;Hi Matt,&lt;/p&gt;
+
+&lt;p&gt;This didnt really make any difference for me, did you have any trouble getting it to work? I&#039;ve added/updated the manifest file to any notes related exe I could think of. Also I&#039;m mostly interested in the sametime chat window, do you use sametime?&lt;/p&gt;
+
+&lt;p&gt;Cheers&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hi Matt,</p>
+<p>This didnt really make any difference for me, did you have any trouble getting it to work? I&#8217;ve added/updated the manifest file to any notes related exe I could think of. Also I&#8217;m mostly interested in the sametime chat window, do you use sametime?</p>
+<p>Cheers</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Craig Wiseman		</title>
+		<link>/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-16</link>
+
+		<dc:creator><![CDATA[Craig Wiseman]]></dc:creator>
+		<pubDate>Fri, 08 Jan 2016 15:35:50 +0000</pubDate>
+		<guid isPermaLink="false">/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-16</guid>
+
+					<description><![CDATA[&lt;p&gt;This is excellent. I&#039;ve had a ticket open with IBM on this for 3 months, no progress.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>This is excellent. I&#8217;ve had a ticket open with IBM on this for 3 months, no progress.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Craig Wiseman		</title>
+		<link>/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-15</link>
+
+		<dc:creator><![CDATA[Craig Wiseman]]></dc:creator>
+		<pubDate>Fri, 08 Jan 2016 15:27:17 +0000</pubDate>
+		<guid isPermaLink="false">/2016-1-8-superb-fix-for-high-dpi-problems-with-notes-and-windows/#comment-15</guid>
+
+					<description><![CDATA[&lt;p&gt;This is excellent. I&#039;ve had a ticket open with IBM on this for 3 months, no progress.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>This is excellent. I&#8217;ve had a ticket open with IBM on this for 3 months, no progress.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

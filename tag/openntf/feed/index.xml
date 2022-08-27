@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>openntf &#8211; mattwhite.me</title>
+	<atom:link href="/tag/openntf/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:04 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>LUG Template available on OpenNTF</title>
+		<link>/2011-6-10-lug-template-available-on-openntf-html/</link>
+					<comments>/2011-6-10-lug-template-available-on-openntf-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 10 Jun 2011 08:16:10 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[lug template]]></category>
+		<category><![CDATA[openntf]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2011-6-10-lug-template-available-on-openntf-html/</guid>
+
+					<description><![CDATA[At UKLUG this year, Warren announced that we would be making the template which we use to run the online elements of the LUG available on OpenNTF. Well I finally got around to making the template and uploading the bits and pieces onto OpenNTF (actually a surprisingly easy process!). Anyway, if you&#8217;re interested then you [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>At UKLUG this year, <a href="http://elsmore.net/">Warren</a> announced that we would be making the template which we use to run the online elements of the LUG available on OpenNTF. Well I finally got around to making the template and uploading the bits and pieces onto OpenNTF (actually a surprisingly easy process!).</p>
+<p>Anyway, if you&#8217;re interested then you can download the template from here: <a href="http://www.openntf.org/internal/home.nsf/project.xsp?action=openDocument&amp;name=LUG%20Template">LUG Template</a></p>
+<p>As Warren mentioned, we&#8217;re looking for help. At the moment there is no documentation at all, so it can be a little painful to get set up, just ask <a href="http://idonotes.com/">Chris</a>, or <a href="http://curiousmitch.com/">Mitch</a> or <a href="http://collaborationmatters.com/">Stuart</a> or any of the other people who are already using it for their own LUGs! The app itself is simple enough, but it registers people in different DA databases, integrates into other elements on your server, sends email etc etc.</p>
+<p>So if you can help then please drop me a line and I will put together a list of elements that we need help with. Of course I&#8217;m also looking for help with bug fixing and improving various elements of the application as I&#8217;ve not been able to devote as much time as I would like to it this year.</p>
+<p>Finally, I&#8217;d just like to give a big hand to Warren. I suspect the amount of work that he puts in to UKLUG (and ILUG) goes rather underestimated and it was him who drove the original development of the application and then made the decision for it to be given back to the Lotus community.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011-6-10-lug-template-available-on-openntf-html/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

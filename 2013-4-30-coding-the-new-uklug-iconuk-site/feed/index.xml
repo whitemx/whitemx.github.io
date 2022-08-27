@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Coding the new UKLUG (ICONUK) site	</title>
+	<atom:link href="/2013-4-30-coding-the-new-uklug-iconuk-site/feed/" rel="self" type="application/rss+xml" />
+	<link>/2013-4-30-coding-the-new-uklug-iconuk-site/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:19:36 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2013-4-30-coding-the-new-uklug-iconuk-site/#comment-85</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Wed, 01 May 2013 08:42:49 +0000</pubDate>
+		<guid isPermaLink="false">/2013-4-30-coding-the-new-uklug-iconuk-site/#comment-85</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2013-4-30-coding-the-new-uklug-iconuk-site/#comment-83&quot;&gt;Philippe Riand&lt;/a&gt;.
+
+&lt;p&gt;I&#039;m doing a session at IamLUG about using external frameworks like Bootstrap, maybe I&#039;ll get to repeat it at ICON :-)&lt;/p&gt;
+
+&lt;p&gt;It&#039;s actually pretty easy to get Bootstrap working in XPages, the only areas which need work (IMHO) are around the HTML which is generated for pagers, views and other larger controls. It&#039;s all very table based, not great for making flexible. But I have some upcoming posts about hacking the HTML to make it work with Bootstrap.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2013-4-30-coding-the-new-uklug-iconuk-site/#comment-83">Philippe Riand</a>.</p>
+<p>I&#8217;m doing a session at IamLUG about using external frameworks like Bootstrap, maybe I&#8217;ll get to repeat it at ICON 🙂</p>
+<p>It&#8217;s actually pretty easy to get Bootstrap working in XPages, the only areas which need work (IMHO) are around the HTML which is generated for pagers, views and other larger controls. It&#8217;s all very table based, not great for making flexible. But I have some upcoming posts about hacking the HTML to make it work with Bootstrap.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Philippe Riand		</title>
+		<link>/2013-4-30-coding-the-new-uklug-iconuk-site/#comment-83</link>
+
+		<dc:creator><![CDATA[Philippe Riand]]></dc:creator>
+		<pubDate>Tue, 30 Apr 2013 22:40:32 +0000</pubDate>
+		<guid isPermaLink="false">/2013-4-30-coding-the-new-uklug-iconuk-site/#comment-83</guid>
+
+					<description><![CDATA[&lt;p&gt;Matt, this is a very nice looking app. You did a great job with bootstrap.css. Showing how to build it is a great subject for a session @UKLUG! I&#039;m also curious to understand if new components would have made your life easier and, if so, which ones? As bootstrap becomes more an more popular, this can be a great OpenNTF project.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Matt, this is a very nice looking app. You did a great job with bootstrap.css. Showing how to build it is a great subject for a session @UKLUG! I&#8217;m also curious to understand if new components would have made your life easier and, if so, which ones? As bootstrap becomes more an more popular, this can be a great OpenNTF project.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Richard Moy		</title>
+		<link>/2013-4-30-coding-the-new-uklug-iconuk-site/#comment-81</link>
+
+		<dc:creator><![CDATA[Richard Moy]]></dc:creator>
+		<pubDate>Tue, 30 Apr 2013 14:41:35 +0000</pubDate>
+		<guid isPermaLink="false">/2013-4-30-coding-the-new-uklug-iconuk-site/#comment-81</guid>
+
+					<description><![CDATA[&lt;p&gt;Matt,&lt;/p&gt;
+
+&lt;p&gt;Great job!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Matt,</p>
+<p>Great job!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2013-4-30-coding-the-new-uklug-iconuk-site/#comment-84</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Tue, 30 Apr 2013 12:52:47 +0000</pubDate>
+		<guid isPermaLink="false">/2013-4-30-coding-the-new-uklug-iconuk-site/#comment-84</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2013-4-30-coding-the-new-uklug-iconuk-site/#comment-82&quot;&gt;Nathan Freeman&lt;/a&gt;.
+
+&lt;p&gt;Ah good point, I always forget to add those files. The template is MIT license, and that&#039;s been updated on Github now.&lt;/p&gt;
+
+&lt;p&gt;Thanks&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2013-4-30-coding-the-new-uklug-iconuk-site/#comment-82">Nathan Freeman</a>.</p>
+<p>Ah good point, I always forget to add those files. The template is MIT license, and that&#8217;s been updated on Github now.</p>
+<p>Thanks</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nathan Freeman		</title>
+		<link>/2013-4-30-coding-the-new-uklug-iconuk-site/#comment-82</link>
+
+		<dc:creator><![CDATA[Nathan Freeman]]></dc:creator>
+		<pubDate>Tue, 30 Apr 2013 12:46:51 +0000</pubDate>
+		<guid isPermaLink="false">/2013-4-30-coding-the-new-uklug-iconuk-site/#comment-82</guid>
+
+					<description><![CDATA[&lt;p&gt;Matt, what&#039;s the licensing on that template? There&#039;s nothing provided in the repo that I can see.&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Matt, what&#8217;s the licensing on that template? There&#8217;s nothing provided in the repo that I can see.</p>
+<p>Thanks!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

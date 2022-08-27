@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>twitter &#8211; mattwhite.me</title>
+	<atom:link href="/tag/twitter/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>IamLUG Agenda Posted and maybe a baseball game?</title>
+		<link>/2009-7-22-iamlug-agenda-posted-and-maybe-a-baseball-game-html/</link>
+					<comments>/2009-7-22-iamlug-agenda-posted-and-maybe-a-baseball-game-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 22 Jul 2009 07:35:23 +0000</pubDate>
+				<category><![CDATA[Domino Community]]></category>
+		<category><![CDATA[baseball]]></category>
+		<category><![CDATA[iamlug]]></category>
+		<category><![CDATA[twitter]]></category>
+		<guid isPermaLink="false">/2009-7-22-iamlug-agenda-posted-and-maybe-a-baseball-game-html/</guid>
+
+					<description><![CDATA[There&#8217;s less than two weeks until IamLUG now and the Agenda has just been posted. If you&#8217;ve not registered yet and have a couple of spare days it&#8217;s looking like a great event. A lot of the stalwarts of the Lotus Community will be there presenting which is great as it gives me the chance [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>There&#8217;s less than two weeks until <a href="http://www.iamlug.org/">IamLUG</a> now and the <a href="http://www.iamlug.org/iamlug/IamLug2009a.nsf/agendas.xsp">Agenda has just been posted</a>. If you&#8217;ve not registered yet and have a couple of spare days it&#8217;s looking like a great event.</p>
+<p>A lot of the stalwarts of the Lotus Community will be there presenting which is great as it gives me the chance to catch several of the sessions I missed at Lotusphere this year!</p>
+<p>On the Twitters yesterday I <a href="http://twitter.com/mattwhite/status/2757223990">asked</a> if anyone fancied going to the b<a href="http://purchase.tickets.com/buy/MLBEventInfo?gameid=2009/08/02/houmlb-slnmlb-1">aseball on Sunday 2nd</a>. Several people replied so if you&#8217;re coming along to St Louis and want to come along with us just add a comment here and I&#8217;ll add you to the list. At the moment we have <a href="http://twitter.com/davidleedy">@davidleedy</a> <a href="http://twitter.com/kjbrown13">@kjbrown13</a> <a href="http://twitter.com/johnhead">@johnhead</a> <a href="http://twitter.com/mitchcohen">@mitchcohen</a> confirmed.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-7-22-iamlug-agenda-posted-and-maybe-a-baseball-game-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

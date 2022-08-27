@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>tips &#8211; mattwhite.me</title>
+	<atom:link href="/tag/tips/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:08 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>A small tip for upgrading your XPages apps from 8.5.1 to 8.5.2</title>
+		<link>/2010-9-2-a-small-tip-for-upgrading-your-xpages-apps-from-851-to-852-html/</link>
+					<comments>/2010-9-2-a-small-tip-for-upgrading-your-xpages-apps-from-851-to-852-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 02 Sep 2010 08:23:57 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[8.5.2]]></category>
+		<category><![CDATA[bugs]]></category>
+		<category><![CDATA[ssjs]]></category>
+		<category><![CDATA[tips]]></category>
+		<guid isPermaLink="false">/2010-9-2-a-small-tip-for-upgrading-your-xpages-apps-from-851-to-852-html/</guid>
+
+					<description><![CDATA[If you have been using Stephan Wissel&#8217;s &#8220;Web Agents, XPages Style&#8221; technique for outputting non-HTML content from your XPages, you may run into a problem when you upgrade your server to 8.5.2. In the original afterRenderResponse sample code, you would use something like&#8230; try{ var exCon = facesContext.getExternalContext(); var writer = facesContext.getResponseWriter(); var response = [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>If you have been using Stephan Wissel&#8217;s &#8220;<a href="http://www.wissel.net/blog/d6plinks/SHWL-7MGFBN">Web Agents, XPages Style</a>&#8221; technique for outputting non-HTML content from your XPages, you may run into a problem when you upgrade your server to 8.5.2.</p>
+<p>In the original afterRenderResponse sample code, you would use something like&#8230;</p>
+<pre style="font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; color: #000000; background-color: #eee; font-size: 12px; border: 1px dashed #999999; line-height: 14px; padding: 5px; overflow: auto; width: 100%;"><code>try{
+    var exCon = facesContext.getExternalContext(); 
+    var writer = facesContext.getResponseWriter();
+    var response = exCon.getResponse();
+    response.setContentType("text/plain");
+    writer.write("Hello World");
+    writer.close();
+}catch(e){
+    _dump(e);
+}
+</code></pre>
+<p>What you may find is running that code on your lovely new 8.5.2 server will result in an Error 500 with no detail of the error itself. To fix the problem, simple remove the</p>
+<pre style="font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; color: #000000; background-color: #eee; font-size: 12px; border: 1px dashed #999999; line-height: 14px; padding: 5px; overflow: auto; width: 100%;"><code>writer.close();
+</code></pre>
+<p>line from the source code and you should be good to go.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-9-2-a-small-tip-for-upgrading-your-xpages-apps-from-851-to-852-html/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

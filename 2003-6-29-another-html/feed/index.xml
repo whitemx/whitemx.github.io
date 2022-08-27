@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: another	</title>
+	<atom:link href="/2003-6-29-another-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2003-6-29-another-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:45:42 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Lee		</title>
+		<link>/2003-6-29-another-html/#comment-920</link>
+
+		<dc:creator><![CDATA[Lee]]></dc:creator>
+		<pubDate>Sat, 05 Jul 2003 22:36:16 +0000</pubDate>
+		<guid isPermaLink="false">/2003-6-29-another-html/#comment-920</guid>
+
+					<description><![CDATA[&lt;p&gt;Well, actually I&#039;d like to see RSS in the mix. I enjoy your site and perspective of IT &amp; Domino. At the moment I&#039;m playing with RSS readers and am surprised you don&#039;t do RSS; it never occured to me before; when I started cleaning my bookmarks I just assumed all the blogs did. Silly me. Still, thanks for the nice reading.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Well, actually I&#8217;d like to see RSS in the mix. I enjoy your site and perspective of IT &#038; Domino. At the moment I&#8217;m playing with RSS readers and am surprised you don&#8217;t do RSS; it never occured to me before; when I started cleaning my bookmarks I just assumed all the blogs did. Silly me. Still, thanks for the nice reading.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

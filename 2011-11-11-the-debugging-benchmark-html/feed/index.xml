@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: The debugging benchmark	</title>
+	<atom:link href="/2011-11-11-the-debugging-benchmark-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2011-11-11-the-debugging-benchmark-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:03 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Andrew Magerman		</title>
+		<link>/2011-11-11-the-debugging-benchmark-html/#comment-112</link>
+
+		<dc:creator><![CDATA[Andrew Magerman]]></dc:creator>
+		<pubDate>Wed, 14 Dec 2011 21:15:38 +0000</pubDate>
+		<guid isPermaLink="false">/2011-11-11-the-debugging-benchmark-html/#comment-112</guid>
+
+					<description><![CDATA[&lt;p&gt;Surely you mean &#039;In constrast to&#039; ?&lt;/p&gt;&lt;p&gt;Greetings from Switzerland&lt;/p&gt;&lt;p&gt;Andrew&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Surely you mean &#39;In constrast to&#39; ?</p>
+<p>Greetings from Switzerland</p>
+<p>Andrew</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mark Barton		</title>
+		<link>/2011-11-11-the-debugging-benchmark-html/#comment-111</link>
+
+		<dc:creator><![CDATA[Mark Barton]]></dc:creator>
+		<pubDate>Fri, 11 Nov 2011 13:20:59 +0000</pubDate>
+		<guid isPermaLink="false">/2011-11-11-the-debugging-benchmark-html/#comment-111</guid>
+
+					<description><![CDATA[&lt;p&gt;I also like the tester record function - everyone does testing right ;-)&lt;/p&gt;&lt;p&gt;Basically if a tester spots a bug they can hit an action and it will create a file which can then be emailed to the developer, the developer can load this file up and replay the testers steps through the debugger to see what they did before it went wrong.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I also like the tester record function &#8211; everyone does testing right 😉</p>
+<p>Basically if a tester spots a bug they can hit an action and it will create a file which can then be emailed to the developer, the developer can load this file up and replay the testers steps through the debugger to see what they did before it went wrong.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

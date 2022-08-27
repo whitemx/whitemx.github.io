@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: What does the Upgrade Pack 1 mean for me?	</title>
+	<atom:link href="/2011-12-15-what-does-the-upgrade-pack-1-mean-for-me-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2011-12-15-what-does-the-upgrade-pack-1-mean-for-me-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:03 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Warren Elsmore		</title>
+		<link>/2011-12-15-what-does-the-upgrade-pack-1-mean-for-me-html/#comment-109</link>
+
+		<dc:creator><![CDATA[Warren Elsmore]]></dc:creator>
+		<pubDate>Fri, 16 Dec 2011 09:51:28 +0000</pubDate>
+		<guid isPermaLink="false">/2011-12-15-what-does-the-upgrade-pack-1-mean-for-me-html/#comment-109</guid>
+
+					<description><![CDATA[&lt;p&gt;Dan,&lt;/p&gt;&lt;p&gt;The big issue for me is that the UP-1 installation doesn&#039;t change the version number of Notes or Domino at all. That means, as an enterprise administrator, I have no way of knowing who has - or who doesn&#039;t have - UP-1 installed. Server OR client.&lt;/p&gt;&lt;p&gt;MR&#039;s change the version number so we can use smart upgrade to roll it out and keep things in line. Even if I used Smart Upgrade to roll this out, in the future I&#039;d have no way of knowing who had it and who didn&#039;t. Checking the file system is a poor alternative.&lt;/p&gt;&lt;p&gt;You&#039;re correct about the updatesite.zip being extracted as part of the install (I had missed that) - but only for the client. There doesn&#039;t seem to be a server equivalent.&lt;/p&gt;&lt;p&gt;My main concern is that there seems to be some duality here in how this sort of thing should be deployed. My understanding was that update sites were &#039;the future&#039; - especially for Eclipse features. But now IBM are shipping eclipse features that are designed NOT to be installed via an update site. It seems a little disjointed and that there should be one preferred method of doing this, not two. Or if there are two, document the fact there are two ways of doing this.&lt;/p&gt;&lt;p&gt;Warren Elsmore&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Dan,</p>
+<p>The big issue for me is that the UP-1 installation doesn&#39;t change the version number of Notes or Domino at all. That means, as an enterprise administrator, I have no way of knowing who has &#8211; or who doesn&#39;t have &#8211; UP-1 installed. Server OR client.</p>
+<p>MR&#39;s change the version number so we can use smart upgrade to roll it out and keep things in line. Even if I used Smart Upgrade to roll this out, in the future I&#39;d have no way of knowing who had it and who didn&#39;t. Checking the file system is a poor alternative.</p>
+<p>You&#39;re correct about the updatesite.zip being extracted as part of the install (I had missed that) &#8211; but only for the client. There doesn&#39;t seem to be a server equivalent.</p>
+<p>My main concern is that there seems to be some duality here in how this sort of thing should be deployed. My understanding was that update sites were &#39;the future&#39; &#8211; especially for Eclipse features. But now IBM are shipping eclipse features that are designed NOT to be installed via an update site. It seems a little disjointed and that there should be one preferred method of doing this, not two. Or if there are two, document the fact there are two ways of doing this.</p>
+<p>Warren Elsmore</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Dan O'Connor		</title>
+		<link>/2011-12-15-what-does-the-upgrade-pack-1-mean-for-me-html/#comment-108</link>
+
+		<dc:creator><![CDATA[Dan O'Connor]]></dc:creator>
+		<pubDate>Thu, 15 Dec 2011 16:44:54 +0000</pubDate>
+		<guid isPermaLink="false">/2011-12-15-what-does-the-upgrade-pack-1-mean-for-me-html/#comment-108</guid>
+
+					<description><![CDATA[&lt;p&gt;Hi Matt.&lt;/p&gt;&lt;p&gt;I am not sure what you mean by it is more difficult to distribute the upgrade pack in a large organization as opposed to the ext lib? The opposite was the goal.. It &#039;should&#039; be easier to install the upgrade pack.&lt;/p&gt;&lt;p&gt;The upgrade pack installer is based on the Lotus/IBM fix pack installer platform, so administrators should be able to distribute and install the upgrade pack in the same manner as any fix pack they receive.&lt;br/&gt;The first dialog that appears when installing the upgrade pack gives you the option to &#039;leave the installation files on the system when I finish&#039; (or words to that effect :-) )... Choosing this option leaves the &#039;updatesite.zip&#039; file on your system, in which case you can use the update site installer just as you would from OpenNTF, in which case I believe you get the best of both worlds.&lt;br/&gt;I&#039;d be interested in hearing of specific issues which make the upgrade pack more difficult to install than the Ext lib, we went to a considerable amount of effort to make this not the case. &lt;/p&gt;&lt;p&gt;Thanks for taking the time to look into this.. &lt;/p&gt;&lt;p&gt;Enjoy :-)&lt;/p&gt;&lt;p&gt;Dan&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hi Matt.</p>
+<p>I am not sure what you mean by it is more difficult to distribute the upgrade pack in a large organization as opposed to the ext lib? The opposite was the goal.. It &#39;should&#39; be easier to install the upgrade pack.</p>
+<p>The upgrade pack installer is based on the Lotus/IBM fix pack installer platform, so administrators should be able to distribute and install the upgrade pack in the same manner as any fix pack they receive.<br />The first dialog that appears when installing the upgrade pack gives you the option to &#39;leave the installation files on the system when I finish&#39; (or words to that effect 🙂 )&#8230; Choosing this option leaves the &#39;updatesite.zip&#39; file on your system, in which case you can use the update site installer just as you would from OpenNTF, in which case I believe you get the best of both worlds.<br />I&#39;d be interested in hearing of specific issues which make the upgrade pack more difficult to install than the Ext lib, we went to a considerable amount of effort to make this not the case. </p>
+<p>Thanks for taking the time to look into this.. </p>
+<p>Enjoy 🙂</p>
+<p>Dan</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2011-12-15-what-does-the-upgrade-pack-1-mean-for-me-html/#comment-107</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Thu, 15 Dec 2011 15:55:47 +0000</pubDate>
+		<guid isPermaLink="false">/2011-12-15-what-does-the-upgrade-pack-1-mean-for-me-html/#comment-107</guid>
+
+					<description><![CDATA[&lt;p&gt;@Martin - My understanding is that you can mix and match the ExtLib with the UP, but you need to test on a case by case basis. I think in reality that shops which require supported software on their servers will use the UP, everyone else will continue to use the ExtLib.&lt;/p&gt;&lt;p&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>@Martin &#8211; My understanding is that you can mix and match the ExtLib with the UP, but you need to test on a case by case basis. I think in reality that shops which require supported software on their servers will use the UP, everyone else will continue to use the ExtLib.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Martin Meijer		</title>
+		<link>/2011-12-15-what-does-the-upgrade-pack-1-mean-for-me-html/#comment-106</link>
+
+		<dc:creator><![CDATA[Martin Meijer]]></dc:creator>
+		<pubDate>Thu, 15 Dec 2011 15:37:37 +0000</pubDate>
+		<guid isPermaLink="false">/2011-12-15-what-does-the-upgrade-pack-1-mean-for-me-html/#comment-106</guid>
+
+					<description><![CDATA[&lt;p&gt;Matt, as a Developer I like to add new functionality if this is available on OpenNTF. Can I install a new ExtLib version on top of the Upgrade Pack 1 or do I have to wait for Upgrade Pack 2 in this case?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Matt, as a Developer I like to add new functionality if this is available on OpenNTF. Can I install a new ExtLib version on top of the Upgrade Pack 1 or do I have to wait for Upgrade Pack 2 in this case?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2011-12-15-what-does-the-upgrade-pack-1-mean-for-me-html/#comment-105</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Thu, 15 Dec 2011 14:57:32 +0000</pubDate>
+		<guid isPermaLink="false">/2011-12-15-what-does-the-upgrade-pack-1-mean-for-me-html/#comment-105</guid>
+
+					<description><![CDATA[&lt;p&gt;@John,&lt;/p&gt;&lt;p&gt;I don&#039;t disagree, but from what Warren&#039;s said the management of the UP1 installation process is much harder in a large or complex environment than the ExtLib from OpenNTF, so it&#039;s going to be a decision of taking the unsupported code which can be easily managed vs the supported code which takes more effort to look after.&lt;/p&gt;&lt;p&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>@John,</p>
+<p>I don&#39;t disagree, but from what Warren&#39;s said the management of the UP1 installation process is much harder in a large or complex environment than the ExtLib from OpenNTF, so it&#39;s going to be a decision of taking the unsupported code which can be easily managed vs the supported code which takes more effort to look after.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: John Turnbow		</title>
+		<link>/2011-12-15-what-does-the-upgrade-pack-1-mean-for-me-html/#comment-104</link>
+
+		<dc:creator><![CDATA[John Turnbow]]></dc:creator>
+		<pubDate>Thu, 15 Dec 2011 14:55:05 +0000</pubDate>
+		<guid isPermaLink="false">/2011-12-15-what-does-the-upgrade-pack-1-mean-for-me-html/#comment-104</guid>
+
+					<description><![CDATA[&lt;p&gt;Matt,&lt;/p&gt;&lt;p&gt;For large companies with all the bureaucracy and requirements and the &#034;feel safe&#034; need by management the fact that the Upgrade Pack from IBM is a much easier sell to install.  At a LARGE company getting the rights to install Extension Libraries from OpenNTF is almost impossible because there is no vendor support there.  Large companies like to know there is support.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Matt,</p>
+<p>For large companies with all the bureaucracy and requirements and the &quot;feel safe&quot; need by management the fact that the Upgrade Pack from IBM is a much easier sell to install.  At a LARGE company getting the rights to install Extension Libraries from OpenNTF is almost impossible because there is no vendor support there.  Large companies like to know there is support.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

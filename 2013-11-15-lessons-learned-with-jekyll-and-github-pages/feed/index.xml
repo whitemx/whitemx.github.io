@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Lessons learned with Jekyll and Github Pages	</title>
+	<atom:link href="/2013-11-15-lessons-learned-with-jekyll-and-github-pages/feed/" rel="self" type="application/rss+xml" />
+	<link>/2013-11-15-lessons-learned-with-jekyll-and-github-pages/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:19:12 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: samyuktha		</title>
+		<link>/2013-11-15-lessons-learned-with-jekyll-and-github-pages/#comment-68</link>
+
+		<dc:creator><![CDATA[samyuktha]]></dc:creator>
+		<pubDate>Sat, 18 Jan 2020 10:41:45 +0000</pubDate>
+		<guid isPermaLink="false">/2013-11-15-lessons-learned-with-jekyll-and-github-pages/#comment-68</guid>
+
+					<description><![CDATA[&lt;p&gt;Goes without saying I am fond of the security static sites give you but I wish there were more tools specifically for static site generators. I’m ecstatic to have discovered the INK for ALL program, it has markdown export capability and gives suggestions on search engine optimization: http://bit.ly/2ECXoDa&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Goes without saying I am fond of the security static sites give you but I wish there were more tools specifically for static site generators. I’m ecstatic to have discovered the INK for ALL program, it has markdown export capability and gives suggestions on search engine optimization: <a href="http://bit.ly/2ECXoDa" rel="nofollow ugc">http://bit.ly/2ECXoDa</a></p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

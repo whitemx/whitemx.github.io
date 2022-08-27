@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Using profile documents in a web application	</title>
+	<atom:link href="/2006-9-20-using-profile-documents-in-a-web-application-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2006-9-20-using-profile-documents-in-a-web-application-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:33:07 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Jerry Shelley		</title>
+		<link>/2006-9-20-using-profile-documents-in-a-web-application-html/#comment-1162</link>
+
+		<dc:creator><![CDATA[Jerry Shelley]]></dc:creator>
+		<pubDate>Thu, 01 Jul 2010 15:52:05 +0000</pubDate>
+		<guid isPermaLink="false">/2006-9-20-using-profile-documents-in-a-web-application-html/#comment-1162</guid>
+
+					<description><![CDATA[&lt;p&gt;4 years on and this tip is still being found useful! Thanks Matt.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>4 years on and this tip is still being found useful! Thanks Matt.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Johann		</title>
+		<link>/2006-9-20-using-profile-documents-in-a-web-application-html/#comment-1161</link>
+
+		<dc:creator><![CDATA[Johann]]></dc:creator>
+		<pubDate>Thu, 24 Jun 2010 04:56:04 +0000</pubDate>
+		<guid isPermaLink="false">/2006-9-20-using-profile-documents-in-a-web-application-html/#comment-1161</guid>
+
+					<description><![CDATA[&lt;p&gt;Nice tip, thanks. I hate profile documents in web. I never used it because the caché problems. Cool stuff but I stil hate profile docs.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Nice tip, thanks. I hate profile documents in web. I never used it because the caché problems. Cool stuff but I stil hate profile docs.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Kevin Pettitt		</title>
+		<link>/2006-9-20-using-profile-documents-in-a-web-application-html/#comment-1159</link>
+
+		<dc:creator><![CDATA[Kevin Pettitt]]></dc:creator>
+		<pubDate>Fri, 22 Sep 2006 19:14:47 +0000</pubDate>
+		<guid isPermaLink="false">/2006-9-20-using-profile-documents-in-a-web-application-html/#comment-1159</guid>
+
+					<description><![CDATA[&lt;p&gt;&quot;...it&#039;s worked well for me over the years.&quot;&lt;/p&gt;&lt;p&gt;Something to be said for that.  Another advantage of keeping things &quot;mundane&quot; is that you never know who&#039;s going to work on the app next, and the more transparent the code the better.&lt;/p&gt;&lt;p&gt;I&#039;m actually wrestling with this question now in the context of planning how to design a relatively straightforward &quot;standard db architecture&quot; (a la Openslice) that would be readily grasped by a novice developer.  The question &quot;Should I use profile documents?&quot; depends on how problematic they might be given they are &quot;hidden&quot;, and potentially confusing for that reason.  If you say &quot;use them&quot;, then do you count on them to not get corrupted and use @Command([EditProfile]), or do you create &quot;real&quot; documents and then save values to profiles in the querysave?  I hear newbies asking &quot;the querywhat?&quot;.&lt;/p&gt;&lt;p&gt;Fun stuff &lt;img src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLU/$FILE/wink.gif&quot;&lt;/a&gt;&gt;&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>&#8220;&#8230;it&#8217;s worked well for me over the years.&#8221;</p>
+<p>Something to be said for that.  Another advantage of keeping things &#8220;mundane&#8221; is that you never know who&#8217;s going to work on the app next, and the more transparent the code the better.</p>
+<p>I&#8217;m actually wrestling with this question now in the context of planning how to design a relatively straightforward &#8220;standard db architecture&#8221; (a la Openslice) that would be readily grasped by a novice developer.  The question &#8220;Should I use profile documents?&#8221; depends on how problematic they might be given they are &#8220;hidden&#8221;, and potentially confusing for that reason.  If you say &#8220;use them&#8221;, then do you count on them to not get corrupted and use @Command([EditProfile]), or do you create &#8220;real&#8221; documents and then save values to profiles in the querysave?  I hear newbies asking &#8220;the querywhat?&#8221;.</p>
+<p>Fun stuff <img src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLU/$FILE/wink.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLU/$FILE/wink.gif</a>&#8220;></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2006-9-20-using-profile-documents-in-a-web-application-html/#comment-1157</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Fri, 22 Sep 2006 08:24:17 +0000</pubDate>
+		<guid isPermaLink="false">/2006-9-20-using-profile-documents-in-a-web-application-html/#comment-1157</guid>
+
+					<description><![CDATA[&lt;p&gt;Unfortunately nothing new to offer here. I just choose to take the performance hit of &quot;real&quot; documents for configuration because of the granularity of control and predictability they offer on the web. As a rule of thumb I will try and keep the number of lookups on a form down to three at an absolute maximum, so all of the configuration may be stored in multiple documents but will be accessed by a single lookup and then referenced internally from within the form from then on.&lt;/p&gt;&lt;p&gt;It&#039;s not something I get religious about and it may not be ground breaking but it&#039;s worked well for me over the years.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Unfortunately nothing new to offer here. I just choose to take the performance hit of &#8220;real&#8221; documents for configuration because of the granularity of control and predictability they offer on the web. As a rule of thumb I will try and keep the number of lookups on a form down to three at an absolute maximum, so all of the configuration may be stored in multiple documents but will be accessed by a single lookup and then referenced internally from within the form from then on.</p>
+<p>It&#8217;s not something I get religious about and it may not be ground breaking but it&#8217;s worked well for me over the years.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Kevin Pettitt		</title>
+		<link>/2006-9-20-using-profile-documents-in-a-web-application-html/#comment-1160</link>
+
+		<dc:creator><![CDATA[Kevin Pettitt]]></dc:creator>
+		<pubDate>Fri, 22 Sep 2006 03:23:03 +0000</pubDate>
+		<guid isPermaLink="false">/2006-9-20-using-profile-documents-in-a-web-application-html/#comment-1160</guid>
+
+					<description><![CDATA[&lt;p&gt;Hmmmm.  So, if you&#039;re not going to use profile documents for configuration lookups, are you just falling back on dblookups, or some other technique?&lt;/p&gt;&lt;p&gt;This all got me thinking anew about what the performance considerations were regarding profile docs, and a quick search came up with this compilation of general performance tips from Julian I hadn&#039;t seen before: &lt;a href=&quot;&lt;a rel=&quot;nofollow&quot; href=&quot;http://www.nsftools.com/tips/PerfTips.htm&quot;&quot; rel=&quot;nofollow ugc&quot;&gt;http://www.nsftools.com/tips/PerfTips.htm&quot;&lt;/a&gt; rel=&quot;nofollow&quot;&gt;&lt;a href=&quot;http://www.nsftools.com/tips/PerfTips.htm&quot; rel=&quot;nofollow ugc&quot;&gt;http://www.nsftools.com/tips/PerfTips.htm&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;So, either I&#039;ve turned you back onto profile docs, or you&#039;re going to tell me about some cool new technique I&#039;ve never tried &lt;img src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$FILE/smile.gif&quot;&lt;/a&gt;&gt;.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hmmmm.  So, if you&#8217;re not going to use profile documents for configuration lookups, are you just falling back on dblookups, or some other technique?</p>
+<p>This all got me thinking anew about what the performance considerations were regarding profile docs, and a quick search came up with this compilation of general performance tips from Julian I hadn&#8217;t seen before: <a href="<a rel="nofollow" href="http://www.nsftools.com/tips/PerfTips.htm"" rel="nofollow ugc"></a><a href="http://www.nsftools.com/tips/PerfTips.htm" rel="nofollow ugc">http://www.nsftools.com/tips/PerfTips.htm</a>&#8220; rel=&#8221;nofollow&#8221;><a href="http://www.nsftools.com/tips/PerfTips.htm" rel="nofollow ugc">http://www.nsftools.com/tips/PerfTips.htm</a></p>
+<p>So, either I&#8217;ve turned you back onto profile docs, or you&#8217;re going to tell me about some cool new technique I&#8217;ve never tried <img src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$FILE/smile.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$FILE/smile.gif</a>&#8220;>.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2006-9-20-using-profile-documents-in-a-web-application-html/#comment-1158</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Thu, 21 Sep 2006 20:15:13 +0000</pubDate>
+		<guid isPermaLink="false">/2006-9-20-using-profile-documents-in-a-web-application-html/#comment-1158</guid>
+
+					<description><![CDATA[&lt;p&gt;A good question. The app I am working on only has three profile documents (shortly to have none if I get my way!) and the refresh takes under a second but I guess if you had hundreds of documents for different users it may take a while. To be honest I am just using it in development and probably wouldn&#039;t bother in productions anyway.&lt;/p&gt;&lt;p&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>A good question. The app I am working on only has three profile documents (shortly to have none if I get my way!) and the refresh takes under a second but I guess if you had hundreds of documents for different users it may take a while. To be honest I am just using it in development and probably wouldn&#8217;t bother in productions anyway.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Kevin Pettitt		</title>
+		<link>/2006-9-20-using-profile-documents-in-a-web-application-html/#comment-1156</link>
+
+		<dc:creator><![CDATA[Kevin Pettitt]]></dc:creator>
+		<pubDate>Thu, 21 Sep 2006 18:39:20 +0000</pubDate>
+		<guid isPermaLink="false">/2006-9-20-using-profile-documents-in-a-web-application-html/#comment-1156</guid>
+
+					<description><![CDATA[&lt;p&gt;Bless You!  I was just thinking about this today actually, in the context of &quot;hey, I wonder if a Lotusphere session on Profile Documents would be useful&quot;.  I use them all the time, but mostly in Notes client applications, and mostly the values are set using Lotusscript.  I&#039;m a little fuzzy on why, but I seem to recall that inappropriate caching is less of a problem than if values are set with @functions.&lt;/p&gt;&lt;p&gt;This tip might be something to incorporate into a &quot;Configuration Management&quot; panel for a database, whereby certain changes made within that interface would automatically trigger the sending of this console command to the server.  You could even prompt the user (power user probably) as to whether the change is needed right away.&lt;/p&gt;&lt;p&gt;Any sense how big a performance hit you take if you had lots of profile docs that needed to be recached?  I would imagine it to be almost trivial - perhaps another second or two loading a web page the first time afterward.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Bless You!  I was just thinking about this today actually, in the context of &#8220;hey, I wonder if a Lotusphere session on Profile Documents would be useful&#8221;.  I use them all the time, but mostly in Notes client applications, and mostly the values are set using Lotusscript.  I&#8217;m a little fuzzy on why, but I seem to recall that inappropriate caching is less of a problem than if values are set with @functions.</p>
+<p>This tip might be something to incorporate into a &#8220;Configuration Management&#8221; panel for a database, whereby certain changes made within that interface would automatically trigger the sending of this console command to the server.  You could even prompt the user (power user probably) as to whether the change is needed right away.</p>
+<p>Any sense how big a performance hit you take if you had lots of profile docs that needed to be recached?  I would imagine it to be almost trivial &#8211; perhaps another second or two loading a web page the first time afterward.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Joche		</title>
+		<link>/2006-9-20-using-profile-documents-in-a-web-application-html/#comment-1155</link>
+
+		<dc:creator><![CDATA[Joche]]></dc:creator>
+		<pubDate>Thu, 21 Sep 2006 06:57:01 +0000</pubDate>
+		<guid isPermaLink="false">/2006-9-20-using-profile-documents-in-a-web-application-html/#comment-1155</guid>
+
+					<description><![CDATA[&lt;p&gt;Excellent research, could have saved me from numerous &quot;tell http restart&quot;. Thanks for sharing!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Excellent research, could have saved me from numerous &#8220;tell http restart&#8221;. Thanks for sharing!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

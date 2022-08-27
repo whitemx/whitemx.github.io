@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Composite Application Issues	</title>
+	<atom:link href="/2007-8-12-composite-application-issues-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2007-8-12-composite-application-issues-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:29:08 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Rob McDonagh		</title>
+		<link>/2007-8-12-composite-application-issues-html/#comment-1076</link>
+
+		<dc:creator><![CDATA[Rob McDonagh]]></dc:creator>
+		<pubDate>Mon, 13 Aug 2007 16:29:54 +0000</pubDate>
+		<guid isPermaLink="false">/2007-8-12-composite-application-issues-html/#comment-1076</guid>
+
+					<description><![CDATA[&lt;p&gt;Yeah, I hope the Gold release has dramatic improvement in the Composite App dev tools.  As it is, they&#039;re pretty lame.  And debugging them?  Good luck with that.   Maybe if it really was as simple as &quot;wiring&quot; things together, our issues would be moot.  But in my experience, as with yours, even the examples they published don&#039;t work reliably.  And FSM help you if you try to build one from scratch... &lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Yeah, I hope the Gold release has dramatic improvement in the Composite App dev tools.  As it is, they&#8217;re pretty lame.  And debugging them?  Good luck with that.   Maybe if it really was as simple as &#8220;wiring&#8221; things together, our issues would be moot.  But in my experience, as with yours, even the examples they published don&#8217;t work reliably.  And FSM help you if you try to build one from scratch&#8230; </p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2007-8-12-composite-application-issues-html/#comment-1074</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Mon, 13 Aug 2007 15:18:27 +0000</pubDate>
+		<guid isPermaLink="false">/2007-8-12-composite-application-issues-html/#comment-1074</guid>
+
+					<description><![CDATA[&lt;p&gt;Good to hear I&#039;m not alone. I was deliberately trying not to slag off the beta as I am quite aware that it&#039;s not complete. We&#039;ll see later this month I guess.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Good to hear I&#8217;m not alone. I was deliberately trying not to slag off the beta as I am quite aware that it&#8217;s not complete. We&#8217;ll see later this month I guess.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Charles Robinson		</title>
+		<link>/2007-8-12-composite-application-issues-html/#comment-1075</link>
+
+		<dc:creator><![CDATA[Charles Robinson]]></dc:creator>
+		<pubDate>Mon, 13 Aug 2007 14:00:51 +0000</pubDate>
+		<guid isPermaLink="false">/2007-8-12-composite-application-issues-html/#comment-1075</guid>
+
+					<description><![CDATA[&lt;p&gt;Your experience isn&#039;t so different from mine, and I&#039;m running a fairly recent install of Windows XP SP2.  I&#039;m going to wait until the gold release before I complain about it too much.  I&#039;ve been kneecapped one time too many for daring to comment on the state of Notes 8 beta.  &lt;img alt=&quot;Emoticon&quot; src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5N3GL7/$File/undecided.gif&quot;&lt;/a&gt; /&gt; &lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Your experience isn&#8217;t so different from mine, and I&#8217;m running a fairly recent install of Windows XP SP2.  I&#8217;m going to wait until the gold release before I complain about it too much.  I&#8217;ve been kneecapped one time too many for daring to comment on the state of Notes 8 beta.  <img alt="Emoticon" src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5N3GL7/$File/undecided.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5N3GL7/$File/undecided.gif</a>&#8220; /> </p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

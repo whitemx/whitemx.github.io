@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>2011 &#8211; mattwhite.me</title>
+	<atom:link href="/tag/2011/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:03 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Review of 2011</title>
+		<link>/2011-12-30-review-of-2011-html/</link>
+					<comments>/2011-12-30-review-of-2011-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 30 Dec 2011 18:27:53 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[2011]]></category>
+		<category><![CDATA[review]]></category>
+		<guid isPermaLink="false">/2011-12-30-review-of-2011-html/</guid>
+
+					<description><![CDATA[In many ways this year has been much the same as previous years, well on the work front anyway.&#160; In late January we had the annual trip to Florida for Lotusphere, Tim Clark and I presented a couple of sessions which I always enjoy. The Lotus world is lucky that Tim has stuck around now [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p class="p1">In many ways this year has been much the same as previous years, well on the work front anyway.&nbsp;</p>
+<p class="p1">In late January we had the annual trip to Florida for Lotusphere, <a href="http://blog.tc-soft.com/">Tim Clark</a> and I presented a couple of sessions which I always enjoy. The Lotus world is lucky that Tim has stuck around now that he&#8217;s left IBM, and I am lucky that he agreed to present with me again in a couple of weeks when we head back to Florida for Lotusphere 2012. This year I will also be doing a session with <a href="http://elsmore.net/">Warren Elsmore</a>, something we&#8217;ve been trying to do for a couple of years but only this year have we managed to get around to putting something together, it should be a fun session.</p>
+<p class="p1">But this is meant to be a review of 2011, not a sales pitch for my sessions in Florida!</p>
+<p class="p1">The other events of the year were UKLUG and IamLUG. I had to do slightly fewer LUGs this year due to work pressure elsewhere, on which more later. But the two I did go to were, as ever, well attended, informative and well organised. Despite all of the other things going on with the world economy, or maybe because of that the LUGs seem to be flourishing and long may that last.</p>
+<p class="p1">The other travel I&#8217;ve done this year has been related to speaking, after a fashion. 2011 seems to be the year that XPages reached the tipping point, lots of new people want to start creating XPages applications so my two offerings of video training at <a href="http://xpages101.net/">XPages101.net</a> and classroom based training have become increasingly popular over the year. So in the last few months I&#8217;ve flown all over Europe giving classes and meeting some interesting new people along the way.</p>
+<p class="p1">We had a great summer holiday in Canada exploring Montreal and Newfoundland and were lucky enough to see icebergs and many whales along the Atlantic coast.</p>
+<p class="p1">My year has been dramatically different for other reasons though. From silly things like finally going to <a href="http://mattwhite.me/blog/2011/6/29/glastonbury-2011.html">Glastonbury</a> for the first time right through to some of the best things which have ever happened to me. In just 5 weeks I will be getting married with many family and friends attending what we hope will be a wonderful weekend here in London. And then in April, our first child is due to be born. As you can imagine the first half of 2012 promises to be a fairly busy time so I expect to be doing a lot less travelling and a lot less sleeping!</p>
+<p class="p1">Times are so exciting right now that I can hardly wait for the next year to begin, but I will try and reflect for a while on a great year which is just finishing. 2011 was so amazing I can but hope that 2012 matches it.</p>
+<p class="p1">&lt;/2011&gt;&lt;2012&gt;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011-12-30-review-of-2011-html/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

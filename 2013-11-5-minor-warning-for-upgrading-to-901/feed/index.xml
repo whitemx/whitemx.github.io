@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Minor warning for upgrading to 9.0.1	</title>
+	<atom:link href="/2013-11-5-minor-warning-for-upgrading-to-901/feed/" rel="self" type="application/rss+xml" />
+	<link>/2013-11-5-minor-warning-for-upgrading-to-901/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:19:12 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Ben Poole		</title>
+		<link>/2013-11-5-minor-warning-for-upgrading-to-901/#comment-73</link>
+
+		<dc:creator><![CDATA[Ben Poole]]></dc:creator>
+		<pubDate>Mon, 18 Nov 2013 09:49:19 +0000</pubDate>
+		<guid isPermaLink="false">/2013-11-5-minor-warning-for-upgrading-to-901/#comment-73</guid>
+
+					<description><![CDATA[&lt;p&gt;Another gotcha :-) http://benpoole.com/weblog/201311180929&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Another gotcha 🙂 <a href="http://benpoole.com/weblog/201311180929" rel="nofollow ugc">http://benpoole.com/weblog/201311180929</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sean Cull		</title>
+		<link>/2013-11-5-minor-warning-for-upgrading-to-901/#comment-71</link>
+
+		<dc:creator><![CDATA[Sean Cull]]></dc:creator>
+		<pubDate>Tue, 05 Nov 2013 16:13:09 +0000</pubDate>
+		<guid isPermaLink="false">/2013-11-5-minor-warning-for-upgrading-to-901/#comment-71</guid>
+
+					<description><![CDATA[&lt;p&gt;See comment #11 on Stephan&#039;s blog here - http://www.wissel.net/blog/d6plinks/SHWL-97WPR9?Open&#038;utm&lt;em&gt;source=feedburner&#038;utm&lt;/em&gt;medium=feed&#038;utm_campaign=Feed%3A+Wisselnet+%28wissel.net%29&lt;/p&gt;
+
+&lt;p&gt;The java.pol flle should not get overwritten if i am understanding it orrectly.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>See comment #11 on Stephan&#8217;s blog here &#8211; <a href="http://www.wissel.net/blog/d6plinks/SHWL-97WPR9?Open&#038;utm" rel="nofollow ugc">http://www.wissel.net/blog/d6plinks/SHWL-97WPR9?Open&#038;utm</a><em>source=feedburner&amp;utm</em>medium=feed&amp;utm_campaign=Feed%3A+Wisselnet+%28wissel.net%29</p>
+<p>The java.pol flle should not get overwritten if i am understanding it orrectly.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Lars Berntrop-Bos		</title>
+		<link>/2013-11-5-minor-warning-for-upgrading-to-901/#comment-70</link>
+
+		<dc:creator><![CDATA[Lars Berntrop-Bos]]></dc:creator>
+		<pubDate>Tue, 05 Nov 2013 15:32:42 +0000</pubDate>
+		<guid isPermaLink="false">/2013-11-5-minor-warning-for-upgrading-to-901/#comment-70</guid>
+
+					<description><![CDATA[&lt;p&gt;Re: jvm.properties: &lt;br /&gt;If operating in a locked down environment, &#060;datadir&#062;/workspace/.config/rcpinstall.properties overrides jvm.properties and is modifiable by a user...&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Re: jvm.properties: <br />If operating in a locked down environment, &lt;datadir&gt;/workspace/.config/rcpinstall.properties overrides jvm.properties and is modifiable by a user&#8230;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Peter von Stöckel		</title>
+		<link>/2013-11-5-minor-warning-for-upgrading-to-901/#comment-72</link>
+
+		<dc:creator><![CDATA[Peter von Stöckel]]></dc:creator>
+		<pubDate>Tue, 05 Nov 2013 14:37:22 +0000</pubDate>
+		<guid isPermaLink="false">/2013-11-5-minor-warning-for-upgrading-to-901/#comment-72</guid>
+
+					<description><![CDATA[&lt;p&gt;This is basically true for any files that Domino has default versions of. When upgrading it usually doesn&#039;t care if a file has been modified since install or not. There was an example from R5 that was commented on notes.net way back, where the newly introduced favicon.ico just replaced custom favicon.ico files that people had placed there. As far as I know, there&#039;s no difference today.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>This is basically true for any files that Domino has default versions of. When upgrading it usually doesn&#8217;t care if a file has been modified since install or not. There was an example from R5 that was commented on notes.net way back, where the newly introduced favicon.ico just replaced custom favicon.ico files that people had placed there. As far as I know, there&#8217;s no difference today.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Martin Jinoch		</title>
+		<link>/2013-11-5-minor-warning-for-upgrading-to-901/#comment-69</link>
+
+		<dc:creator><![CDATA[Martin Jinoch]]></dc:creator>
+		<pubDate>Tue, 05 Nov 2013 14:24:40 +0000</pubDate>
+		<guid isPermaLink="false">/2013-11-5-minor-warning-for-upgrading-to-901/#comment-69</guid>
+
+					<description><![CDATA[&lt;p&gt;The same kind of problem is with Designer, if you have altered &#060;Notes-dir&#062;\framework\rcp\deploy\jvm.properties prior to upgrade, do it again :-)&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>The same kind of problem is with Designer, if you have altered &lt;Notes-dir&gt;\framework\rcp\deploy\jvm.properties prior to upgrade, do it again 🙂</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

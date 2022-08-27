@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>synchronise &#8211; mattwhite.me</title>
+	<atom:link href="/tag/synchronise/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>On synchronization in XPages</title>
+		<link>/2009-9-14-on-synchronization-in-xpages-html/</link>
+					<comments>/2009-9-14-on-synchronization-in-xpages-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 14 Sep 2009 08:44:53 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[8.5.1]]></category>
+		<category><![CDATA[synchronise]]></category>
+		<guid isPermaLink="false">/2009-9-14-on-synchronization-in-xpages-html/</guid>
+
+					<description><![CDATA[The biggest issue that we had with XPages in 8.5.0 was performance, every piece of code you wrote had to be optimised to get the best performance, something which us Notes developers have spent all too little time on in the past. With 8.5.1 everything is faster from DDE onwards, but there are some code [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>The biggest issue that we had with XPages in 8.5.0 was performance, every piece of code you wrote had to be optimised to get the best performance, something which us Notes developers have spent all too little time on in the past.</p>
+<p>With 8.5.1 everything is faster from DDE onwards, but there are some code changes that we can take advantage of to make things even better. Most important of these is synchronization. For those of you who know Java this will be a familiar concept that has just been implemented into Server Side JavaScript (SSJS). But for the LotusScript developer, here is my quick attempt at explaining it&#8230;</p>
+<p>If you have a commonly used piece of code, it will be called by multiple different areas of the system at the same time (or at least very close together) and return the same result. If you&#8217;re doing some expensive piece of work (such as a DbLookup) then all of the calls to that code will run and there will be an inevitable performance hit.</p>
+<p>By adding the synchronize wrapper around the &#8220;expensive&#8221; code what will happen is that all of the calls to that code will queue up behind each other, so that code can only run once at a time. We can then cache the results of the code so that all of the queued up calls can just get that result from memory (the applicationScope for example) rather than having to go off and calculate it again and again. A very simple concept but one which saves a huge amount of processing time.</p>
+<p>But what will our code look like? Well here is a sample function from the upcoming IQJam application that will be launching later this week.</p>
+<blockquote>
+<p><span>function</span> getControlPanelFieldString(fieldname){</p>
+<p><span style="white-space: pre;"> </span>synchronized<span>(</span>applicationScope<span>){</span></p>
+<div></div>
+<p><span><span style="white-space: pre;"><span style="white-space: pre;"> </span> </span>if</span>(isCacheInvalid(<span>&#8220;controlpanel_&#8221;</span> + fieldname, 600)){</p>
+<p><span><span style="white-space: pre;"><span style="white-space: pre;"> </span> </span>var</span> controlPanels = <span>database</span>.getView(<span>&#8220;lookupControlPanel&#8221;</span>);</p>
+<p><span><span style="white-space: pre;"><span style="white-space: pre;"> </span> </span>var</span> controlPanel = controlPanels.getFirstDocument();</p>
+<p><span><span style="white-space: pre;"><span style="white-space: pre;"> </span> </span>applicationScope</span>.put(<span>&#8220;controlpanel_&#8221;</span> + fieldname, controlPanel.getItemValueString(fieldname));</p>
+<p><span style="white-space: pre;"><span style="white-space: pre;"> </span> </span>controlPanel = <span>null</span>;</p>
+<p><span style="white-space: pre;"><span style="white-space: pre;"> </span> </span>controlPanels = <span>null</span>;</p>
+<p><span style="white-space: pre;"><span style="white-space: pre;"> </span> </span>}&nbsp;</p>
+<p><span style="white-space: pre;"><span style="white-space: pre;"> </span> </span>}</p>
+<p><span>&nbsp;</span><span style="white-space: pre;"><span style="white-space: pre;"> </span> </span>return<span> </span>applicationScope<span>.get(</span><span>&#8220;controlpanel_&#8221;</span><span> + fieldname);</span></p>
+<p><span>}</span></p>
+<p>/**</p>
+<p><span> </span>A generic caching mechanism for each key will check to see if it is &#8216;n&#8217; seconds</p>
+<p><span> </span>since it was last updated. Use for things that change relatively infrequently &nbsp;</p>
+<p>*/</p>
+<p><span>function</span> isCacheInvalid(key, cacheInterval){</p>
+<p><span><span style="white-space: pre;"> </span>var</span> currentTime<span> </span>= <span>new</span> Date().getTime();</p>
+<p><span><span style="white-space: pre;"> </span>if</span> (!<span>applicationScope</span>.containsKey(key + <span>&#8220;_time&#8221;</span>)){</p>
+<p><span><span style="white-space: pre;"> </span>applicationScope</span>.put(key + <span>&#8220;_time&#8221;</span>, currentTime);</p>
+<p><span>&nbsp;</span><span style="white-space: pre;"> </span>return<span> </span>true<span>;</span></p>
+<p><span style="white-space: pre;"> </span>}</p>
+<p><span><span style="white-space: pre;"> </span>var</span> diffInSecs<span> </span>= Math.ceil((currentTime &#8211; <span>applicationScope</span>.get(key + <span>&#8220;_time&#8221;</span>)) / 1000);</p>
+<p><span><span style="white-space: pre;"> </span>if</span> (diffInSecs &lt; cacheInterval) {</p>
+<p><span style="white-space: pre;"> </span>return<span> </span>false<span>;</span></p>
+<p><span style="white-space: pre;"> </span>} <span>else</span> {</p>
+<p><span><span style="white-space: pre;"> </span>applicationScope</span>.put(key + <span>&#8220;_time&#8221;</span>, currentTime);</p>
+<p><span style="white-space: pre;"> </span>return<span> </span>true<span>;</span></p>
+<p><span style="white-space: pre;"> </span>}</p>
+<p>}</p>
+</blockquote>
+<p>We store lots of tiny variables about the application in a &#8220;Control Panel&#8221; document and then read them as needed into the applicationScope. The nature of the variables is that they don&#8217;t change much so we can cache them for long periods of time (10 minutes in this case).</p>
+<p>As with lots of XPages code, the idea for this came from the Discussion template (which is quite dramatically different under the covers in 8.5.1), so I&#8217;d highly recommend digging through the code in there to get an idea of what you can do with XPages. And of course we have to offer thanks to Thomas Gumz and the other XPages developers in IBM who write the code that the rest of us can then re-use for our own dastardly ends.</p>
+<p>Disclaimer: Notes/Domino 8.5.1 is beta software and no features are guaranteed until release.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-9-14-on-synchronization-in-xpages-html/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

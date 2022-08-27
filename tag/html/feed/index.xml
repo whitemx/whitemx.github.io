@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>html &#8211; mattwhite.me</title>
+	<atom:link href="/tag/html/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>How to add non breaking spaces to your XPages</title>
+		<link>/2009-6-27-how-to-add-non-breaking-spaces-to-your-xpages-html/</link>
+					<comments>/2009-6-27-how-to-add-non-breaking-spaces-to-your-xpages-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sat, 27 Jun 2009 15:06:39 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[html]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2009-6-27-how-to-add-non-breaking-spaces-to-your-xpages-html/</guid>
+
+					<description><![CDATA[Often when you&#8217;re designing a web page, you&#8217;ll need a space between elements (such as two field labels for example). Most of the time you should solve your UI issues with CSS, but sometimes that is not the correct answer. Enter &#38;nbsp; this is a the classic non breaking space that you can use in [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Often when you&#8217;re designing a web page, you&#8217;ll need a space between elements (such as two field labels for example). Most of the time you should solve your UI issues with CSS, but sometimes that is not the correct answer. Enter &amp;nbsp; this is a the classic non breaking space that you can use in HTML.</p>
+<p>Unfortunately you cannot use that in your XPages source because it is not valid XML, so instead, we just have to use:</p>
+<blockquote>
+<p>&amp;#160;</p>
+</blockquote>
+<p>160 is the decimal character code for the non breaking space and use of character code markup like this is valid in XML.</p>
+<p>A very simple tip, but a useful one none the less.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-6-27-how-to-add-non-breaking-spaces-to-your-xpages-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Thing learned for the day</title>
+		<link>/2009-6-25-thing-learned-for-the-day-html/</link>
+					<comments>/2009-6-25-thing-learned-for-the-day-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 25 Jun 2009 14:26:11 +0000</pubDate>
+				<category><![CDATA[Internet]]></category>
+		<category><![CDATA[html]]></category>
+		<category><![CDATA[tagindex]]></category>
+		<guid isPermaLink="false">/2009-6-25-thing-learned-for-the-day-html/</guid>
+
+					<description><![CDATA[I&#8217;m sure this is well known already, but it was a new one on me. I have a web form that has a tabular layout of fields. But at the end of each row is a field that mustn&#8217;t ever get focus (for reasons that are to boring to go into), so I have an [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;m sure this is well known already, but it was a new one on me.</p>
+<p>I have a web form that has a tabular layout of fields. But at the end of each row is a field that mustn&#8217;t ever get focus (for reasons that are to boring to go into), so I have an onFocus Javascript event in those fields that immediately blurs the focus if the user tries to get into it. All fine and dandy until you try and tab your way around the table, when you reach the end of each row, we end up with no field having focus.</p>
+<p>The thing I learned (was told by an exasperated web designer) is that you can set the &#8220;tabindex&#8221; of a field to -1. If you do this then it is effectively excluded from the tab order of the form as you use the keyboard to navigate around.</p>
+<p>Cue much punching of the sky as we knock another bug off the list for the application I&#8217;m working on at the moment. It&#8217;s the little victories that count!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-6-25-thing-learned-for-the-day-html/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Eclipse / Javadoc tip of the day	</title>
+	<atom:link href="/2014-1-3-eclipse-javadoc-tip-of-the-day/feed/" rel="self" type="application/rss+xml" />
+	<link>/2014-1-3-eclipse-javadoc-tip-of-the-day/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:19:03 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Paul Withers		</title>
+		<link>/2014-1-3-eclipse-javadoc-tip-of-the-day/#comment-61</link>
+
+		<dc:creator><![CDATA[Paul Withers]]></dc:creator>
+		<pubDate>Fri, 03 Jan 2014 09:35:35 +0000</pubDate>
+		<guid isPermaLink="false">/2014-1-3-eclipse-javadoc-tip-of-the-day/#comment-61</guid>
+
+					<description><![CDATA[&lt;p&gt;It&#039;s here http://www.intec.co.uk/generating-javadocs-for-xpages-applications/&lt;br /&gt;You still have to create from the ODP rather than the NSF, but that&#039;s no huge problem.&lt;br /&gt;There are also slides covering it from a recent session at DanNotes on slideshare http://www.slideshare.net/mobile/paulswithers1/beyond-domino-designer&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>It&#8217;s here <a href="http://www.intec.co.uk/generating-javadocs-for-xpages-applications/" rel="nofollow ugc">http://www.intec.co.uk/generating-javadocs-for-xpages-applications/</a><br />You still have to create from the ODP rather than the NSF, but that&#8217;s no huge problem.<br />There are also slides covering it from a recent session at DanNotes on slideshare <a href="http://www.slideshare.net/mobile/paulswithers1/beyond-domino-designer" rel="nofollow ugc">http://www.slideshare.net/mobile/paulswithers1/beyond-domino-designer</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2014-1-3-eclipse-javadoc-tip-of-the-day/#comment-60</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Fri, 03 Jan 2014 09:05:16 +0000</pubDate>
+		<guid isPermaLink="false">/2014-1-3-eclipse-javadoc-tip-of-the-day/#comment-60</guid>
+
+					<description><![CDATA[&lt;p&gt;Ah if you can blog about how to generate the Javadoc from inside Designer that would be great. At the moment I generate them in Eclipse from the ODP which is a bit of a faff!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Ah if you can blog about how to generate the Javadoc from inside Designer that would be great. At the moment I generate them in Eclipse from the ODP which is a bit of a faff!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Paul Withers		</title>
+		<link>/2014-1-3-eclipse-javadoc-tip-of-the-day/#comment-59</link>
+
+		<dc:creator><![CDATA[Paul Withers]]></dc:creator>
+		<pubDate>Fri, 03 Jan 2014 09:02:53 +0000</pubDate>
+		<guid isPermaLink="false">/2014-1-3-eclipse-javadoc-tip-of-the-day/#comment-59</guid>
+
+					<description><![CDATA[&lt;p&gt;That&#039;s a great tip, thanks for finding that out. I&#039;m using JavaDocs more and more now I worked out how to easily build then from the NSF. With source control I can easily just build them directly to the documentation folder of my source control repository.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>That&#8217;s a great tip, thanks for finding that out. I&#8217;m using JavaDocs more and more now I worked out how to easily build then from the NSF. With source control I can easily just build them directly to the documentation folder of my source control repository.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

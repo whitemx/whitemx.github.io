@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Tracking down error 80020101 in Internet Exploder	</title>
+	<atom:link href="/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:26 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Alex		</title>
+		<link>/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comment-1233</link>
+
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+		<pubDate>Fri, 26 May 2017 10:01:40 +0000</pubDate>
+		<guid isPermaLink="false">/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comment-1233</guid>
+
+					<description><![CDATA[&lt;p&gt;To reveal the error reason, you could run your code in IE. E.g. create a simple html page with script tag inside, open it in IE and you&#039;ll get all the errors in readable format&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>To reveal the error reason, you could run your code in IE. E.g. create a simple html page with script tag inside, open it in IE and you&#8217;ll get all the errors in readable format</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Shilpa		</title>
+		<link>/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comment-1232</link>
+
+		<dc:creator><![CDATA[Shilpa]]></dc:creator>
+		<pubDate>Thu, 08 Oct 2015 06:05:12 +0000</pubDate>
+		<guid isPermaLink="false">/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comment-1232</guid>
+
+					<description><![CDATA[&lt;p&gt;I had missed to put &#039;var&#039; in front of variable declaration, putting that it solved the issue.&lt;br /&gt;&#060;script&#062;&lt;br /&gt;uploadDocument = &#034;Some message&#034;;&lt;br /&gt;&#060;/script&#062;&lt;br /&gt;I fixed it to &lt;br /&gt;var uploadDocument = &#034;Some message&#034;;&lt;/p&gt;
+
+&lt;p&gt;Root cause was that I had an element in the form with the same id &#034;uploadDocument&#034;, hence the above declaration was causing the html to be malformed&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I had missed to put &#8216;var&#8217; in front of variable declaration, putting that it solved the issue.<br />&lt;script&gt;<br />uploadDocument = &quot;Some message&quot;;<br />&lt;/script&gt;<br />I fixed it to <br />var uploadDocument = &quot;Some message&quot;;</p>
+<p>Root cause was that I had an element in the form with the same id &quot;uploadDocument&quot;, hence the above declaration was causing the html to be malformed</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Rudra Jha		</title>
+		<link>/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comment-1231</link>
+
+		<dc:creator><![CDATA[Rudra Jha]]></dc:creator>
+		<pubDate>Fri, 11 Sep 2015 07:49:46 +0000</pubDate>
+		<guid isPermaLink="false">/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comment-1231</guid>
+
+					<description><![CDATA[&lt;p&gt;Removed &#060;!-- !&#062; comment from script tag solved problem&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Removed &lt;!&#8211; !&gt; comment from script tag solved problem</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bigla		</title>
+		<link>/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comment-1230</link>
+
+		<dc:creator><![CDATA[bigla]]></dc:creator>
+		<pubDate>Mon, 07 Sep 2015 14:48:08 +0000</pubDate>
+		<guid isPermaLink="false">/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comment-1230</guid>
+
+					<description><![CDATA[&lt;p&gt;I tried to put an html-comment inside a script block, same error.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I tried to put an html-comment inside a script block, same error.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: nonto		</title>
+		<link>/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comment-1227</link>
+
+		<dc:creator><![CDATA[nonto]]></dc:creator>
+		<pubDate>Fri, 26 Jun 2015 09:52:31 +0000</pubDate>
+		<guid isPermaLink="false">/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comment-1227</guid>
+
+					<description><![CDATA[&lt;p&gt;How can I remove the email address that caurse error&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>How can I remove the email address that caurse error</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Dirk		</title>
+		<link>/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comment-1229</link>
+
+		<dc:creator><![CDATA[Dirk]]></dc:creator>
+		<pubDate>Fri, 08 Aug 2014 08:46:52 +0000</pubDate>
+		<guid isPermaLink="false">/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comment-1229</guid>
+
+					<description><![CDATA[&lt;p&gt;Nice work man. Forgto to close script block - IE was the only browser complaining...&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Nice work man. Forgto to close script block &#8211; IE was the only browser complaining&#8230;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Stan Smith		</title>
+		<link>/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comment-1228</link>
+
+		<dc:creator><![CDATA[Stan Smith]]></dc:creator>
+		<pubDate>Tue, 21 Jan 2014 22:32:18 +0000</pubDate>
+		<guid isPermaLink="false">/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comment-1228</guid>
+
+					<description><![CDATA[&lt;p&gt;Great job and thank you for sharing.&lt;/p&gt;
+
+&lt;p&gt;I&#039;m stunned about myself that after all the years MS&#039; incompetence still surprises me.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Great job and thank you for sharing.</p>
+<p>I&#8217;m stunned about myself that after all the years MS&#8217; incompetence still surprises me.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Floris		</title>
+		<link>/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comment-1226</link>
+
+		<dc:creator><![CDATA[Floris]]></dc:creator>
+		<pubDate>Wed, 10 Aug 2011 14:07:30 +0000</pubDate>
+		<guid isPermaLink="false">/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comment-1226</guid>
+
+					<description><![CDATA[&lt;p&gt;Thank you for posting this! Had the same problem, in my case Rails (3.0.9) rightfully added text/javascript as Content-Type header to my Ajax response (format &#034;js&#034;, as that is what the XHR requests with standard UJS driver). Nothing wrong there, except that the JavaScript response wasn&#039;t JS, but just a piece of HTML that needed to be inserted into a container. Of course my own fault, but never noticed any problems in Firefox and other browsers before... Hope some of the keywords in this response help other people find this post.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thank you for posting this! Had the same problem, in my case Rails (3.0.9) rightfully added text/javascript as Content-Type header to my Ajax response (format &quot;js&quot;, as that is what the XHR requests with standard UJS driver). Nothing wrong there, except that the JavaScript response wasn&#39;t JS, but just a piece of HTML that needed to be inserted into a container. Of course my own fault, but never noticed any problems in Firefox and other browsers before&#8230; Hope some of the keywords in this response help other people find this post.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: lexalab		</title>
+		<link>/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comment-1225</link>
+
+		<dc:creator><![CDATA[lexalab]]></dc:creator>
+		<pubDate>Mon, 13 Dec 2010 19:56:58 +0000</pubDate>
+		<guid isPermaLink="false">/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comment-1225</guid>
+
+					<description><![CDATA[&lt;p&gt;Sorry for my English. Thank you! Got rid of the error IE! Required to follow very closely the syntax of scripts...&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Sorry for my English. Thank you! Got rid of the error IE! Required to follow very closely the syntax of scripts&#8230;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Lars Olufsen		</title>
+		<link>/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comment-1224</link>
+
+		<dc:creator><![CDATA[Lars Olufsen]]></dc:creator>
+		<pubDate>Thu, 22 Apr 2010 09:54:36 +0000</pubDate>
+		<guid isPermaLink="false">/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comment-1224</guid>
+
+					<description><![CDATA[&lt;p&gt;So &#034;80020101&#034; = MS #Fail.&lt;/p&gt;&lt;p&gt;I want that on a T-shirt  :-)&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>So &quot;80020101&quot; = MS #Fail.</p>
+<p>I want that on a T-shirt  🙂</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

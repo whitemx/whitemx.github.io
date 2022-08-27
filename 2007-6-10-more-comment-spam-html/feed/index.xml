@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: More comment spam	</title>
+	<atom:link href="/2007-6-10-more-comment-spam-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2007-6-10-more-comment-spam-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:29:25 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2007-6-10-more-comment-spam-html/#comment-1188</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Mon, 11 Jun 2007 07:53:56 +0000</pubDate>
+		<guid isPermaLink="false">/2007-6-10-more-comment-spam-html/#comment-1188</guid>
+
+					<description><![CDATA[&lt;p&gt;It&#039;s not so much the links in the posts, but the website of the commenter that&#039;s the problem, I can&#039;t think of an easy way of automating the filtering for that short of just removing the field altogether which would be a pity.&lt;br  /&gt;&lt;br  /&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>It&#8217;s not so much the links in the posts, but the website of the commenter that&#8217;s the problem, I can&#8217;t think of an easy way of automating the filtering for that short of just removing the field altogether which would be a pity.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Vince Schuurman		</title>
+		<link>/2007-6-10-more-comment-spam-html/#comment-1187</link>
+
+		<dc:creator><![CDATA[Vince Schuurman]]></dc:creator>
+		<pubDate>Sun, 10 Jun 2007 20:41:09 +0000</pubDate>
+		<guid isPermaLink="false">/2007-6-10-more-comment-spam-html/#comment-1187</guid>
+
+					<description><![CDATA[&lt;p&gt;Tip: Block any post with more than ... links in it &lt;img alt=&quot;Emoticon&quot; src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5N3GKU/$File/tongue.gif&quot;&lt;/a&gt; /&gt; &lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Tip: Block any post with more than &#8230; links in it <img alt="Emoticon" src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5N3GKU/$File/tongue.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5N3GKU/$File/tongue.gif</a>&#8220; /> </p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

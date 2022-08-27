@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>vmobile &#8211; mattwhite.me</title>
+	<atom:link href="/tag/vmobile/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:03 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>New XPages Mobile CRM Application Released</title>
+		<link>/2012-5-31-new-xpages-mobile-crm-application-released-html/</link>
+					<comments>/2012-5-31-new-xpages-mobile-crm-application-released-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 31 May 2012 14:54:38 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[mobile controls]]></category>
+		<category><![CDATA[vmobile]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2012-5-31-new-xpages-mobile-crm-application-released-html/</guid>
+
+					<description><![CDATA[Over the last few months I&#8217;ve been helping out Vigilus with a new XPages Mobile Web CRM application. ACT! For Notes is a long standing Notes client based application and what we&#8217;ve added in VMobile is a fairly significant subset of the features in the full client application designed to work in iPad, iPhone, Android [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Over the last few months I&#8217;ve been helping out <a href="http://vigilus.net/">Vigilus</a> with a new XPages Mobile Web CRM application. <a href="http://vigilus.net/website/act--for-notes.html">ACT! For Notes</a> is a long standing Notes client based application and what we&#8217;ve added in <a href="http://vigilus.net/website/vmobile.html">VMobile</a> is a fairly significant subset of the features in the full client application designed to work in iPad, iPhone, Android phone and Blackberry.&nbsp;</p>
+<p>Given the size of the application it&#8217;s taken a while and there have been some challenges, but overall I&#8217;d say it&#8217;s a very capable CRM application that will now work on every device you work with day to day.</p>
+<p>Well worth a look if your company is wanting a CRM application.</p>
+<p><a href="http://www.free-press-release.com/news-vigilus-announces-vmobile-best-of-breed-mobile-crm-tool-1338411386.html">Here is the press release</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012-5-31-new-xpages-mobile-crm-application-released-html/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

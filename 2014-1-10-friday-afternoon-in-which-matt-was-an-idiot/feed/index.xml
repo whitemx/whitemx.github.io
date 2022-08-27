@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Friday afternoon, in which Matt was an idiot	</title>
+	<atom:link href="/2014-1-10-friday-afternoon-in-which-matt-was-an-idiot/feed/" rel="self" type="application/rss+xml" />
+	<link>/2014-1-10-friday-afternoon-in-which-matt-was-an-idiot/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:19:02 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Russell Maher		</title>
+		<link>/2014-1-10-friday-afternoon-in-which-matt-was-an-idiot/#comment-57</link>
+
+		<dc:creator><![CDATA[Russell Maher]]></dc:creator>
+		<pubDate>Sat, 11 Jan 2014 16:39:20 +0000</pubDate>
+		<guid isPermaLink="false">/2014-1-10-friday-afternoon-in-which-matt-was-an-idiot/#comment-57</guid>
+
+					<description><![CDATA[&lt;p&gt;Sadly I have seen SCM flip that setting very often so I check every time now before pushing changes into production.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Sadly I have seen SCM flip that setting very often so I check every time now before pushing changes into production.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2014-1-10-friday-afternoon-in-which-matt-was-an-idiot/#comment-54</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Fri, 10 Jan 2014 18:49:55 +0000</pubDate>
+		<guid isPermaLink="false">/2014-1-10-friday-afternoon-in-which-matt-was-an-idiot/#comment-54</guid>
+
+					<description><![CDATA[&lt;p&gt;At least 50%&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>At least 50%</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: flyboytyler		</title>
+		<link>/2014-1-10-friday-afternoon-in-which-matt-was-an-idiot/#comment-56</link>
+
+		<dc:creator><![CDATA[flyboytyler]]></dc:creator>
+		<pubDate>Fri, 10 Jan 2014 18:33:32 +0000</pubDate>
+		<guid isPermaLink="false">/2014-1-10-friday-afternoon-in-which-matt-was-an-idiot/#comment-56</guid>
+
+					<description><![CDATA[&lt;p&gt;So what you&#039;re are saying is that 50% of Fridays this year, Matt was an idiot.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>So what you&#8217;re are saying is that 50% of Fridays this year, Matt was an idiot.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Vitor Pereira		</title>
+		<link>/2014-1-10-friday-afternoon-in-which-matt-was-an-idiot/#comment-55</link>
+
+		<dc:creator><![CDATA[Vitor Pereira]]></dc:creator>
+		<pubDate>Fri, 10 Jan 2014 17:05:47 +0000</pubDate>
+		<guid isPermaLink="false">/2014-1-10-friday-afternoon-in-which-matt-was-an-idiot/#comment-55</guid>
+
+					<description><![CDATA[&lt;p&gt;Beer-o-clock! So it is...&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Beer-o-clock! So it is&#8230;</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

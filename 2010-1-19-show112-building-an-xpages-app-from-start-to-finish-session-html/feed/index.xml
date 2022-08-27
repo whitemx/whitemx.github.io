@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: SHOW112 Building an XPages App from Start to Finish Session Downloads	</title>
+	<atom:link href="/2010-1-19-show112-building-an-xpages-app-from-start-to-finish-session-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2010-1-19-show112-building-an-xpages-app-from-start-to-finish-session-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Jay Wetherald		</title>
+		<link>/2010-1-19-show112-building-an-xpages-app-from-start-to-finish-session-html/#comment-580</link>
+
+		<dc:creator><![CDATA[Jay Wetherald]]></dc:creator>
+		<pubDate>Thu, 28 Jan 2010 00:06:41 +0000</pubDate>
+		<guid isPermaLink="false">/2010-1-19-show112-building-an-xpages-app-from-start-to-finish-session-html/#comment-580</guid>
+
+					<description><![CDATA[&lt;p&gt;Hi Matt,&lt;br/&gt;Excellent resource, thanks.  I have one issue.  On slide 61, I can&#039;t seem to find the &#034;errortext&#034; class in the css file.  Am I missing something?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hi Matt,<br />Excellent resource, thanks.  I have one issue.  On slide 61, I can&#8217;t seem to find the &quot;errortext&quot; class in the css file.  Am I missing something?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Hector Pina		</title>
+		<link>/2010-1-19-show112-building-an-xpages-app-from-start-to-finish-session-html/#comment-579</link>
+
+		<dc:creator><![CDATA[Hector Pina]]></dc:creator>
+		<pubDate>Mon, 25 Jan 2010 04:30:07 +0000</pubDate>
+		<guid isPermaLink="false">/2010-1-19-show112-building-an-xpages-app-from-start-to-finish-session-html/#comment-579</guid>
+
+					<description><![CDATA[&lt;p&gt;Excellent learning activity !&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Excellent learning activity !</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Henning Heinz		</title>
+		<link>/2010-1-19-show112-building-an-xpages-app-from-start-to-finish-session-html/#comment-578</link>
+
+		<dc:creator><![CDATA[Henning Heinz]]></dc:creator>
+		<pubDate>Wed, 20 Jan 2010 11:45:58 +0000</pubDate>
+		<guid isPermaLink="false">/2010-1-19-show112-building-an-xpages-app-from-start-to-finish-session-html/#comment-578</guid>
+
+					<description><![CDATA[&lt;p&gt;No need to duck away. An answer I got was that you can also use Composite Applications and combine them with XPages.&lt;br/&gt;Not a satisfying answer to me but maybe for others.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>No need to duck away. An answer I got was that you can also use Composite Applications and combine them with XPages.<br />Not a satisfying answer to me but maybe for others.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Ben Poole		</title>
+		<link>/2010-1-19-show112-building-an-xpages-app-from-start-to-finish-session-html/#comment-577</link>
+
+		<dc:creator><![CDATA[Ben Poole]]></dc:creator>
+		<pubDate>Wed, 20 Jan 2010 03:30:49 +0000</pubDate>
+		<guid isPermaLink="false">/2010-1-19-show112-building-an-xpages-app-from-start-to-finish-session-html/#comment-577</guid>
+
+					<description><![CDATA[&lt;p&gt;&lt;blockquote&gt;what is going to differentiate the Notes client from a Browser&lt;/blockquote&gt;Well, Notes will take longer to launch.&lt;/p&gt;&lt;p&gt;* ducks *&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<blockquote><p>what is going to differentiate the Notes client from a Browser</p></blockquote>
+<p>Well, Notes will take longer to launch.</p>
+<p>* ducks *</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2010-1-19-show112-building-an-xpages-app-from-start-to-finish-session-html/#comment-576</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Tue, 19 Jan 2010 21:41:42 +0000</pubDate>
+		<guid isPermaLink="false">/2010-1-19-show112-building-an-xpages-app-from-start-to-finish-session-html/#comment-576</guid>
+
+					<description><![CDATA[&lt;p&gt;Wayne,&lt;/p&gt;&lt;p&gt;At the moment, Notes&#039; killer feature is still, after all these years, replication. You can run XPages in your Notes client, replicate your data and still be working on the plane. &lt;/p&gt;&lt;p&gt;In the medium to long term I tend to agree with you that the lines are all blurring, I suspect we&#039;ll see a lot more information as the vision of Project Vulcan begins to solidify.&lt;/p&gt;&lt;p&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Wayne,</p>
+<p>At the moment, Notes&#8217; killer feature is still, after all these years, replication. You can run XPages in your Notes client, replicate your data and still be working on the plane. </p>
+<p>In the medium to long term I tend to agree with you that the lines are all blurring, I suspect we&#8217;ll see a lot more information as the vision of Project Vulcan begins to solidify.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Wayne		</title>
+		<link>/2010-1-19-show112-building-an-xpages-app-from-start-to-finish-session-html/#comment-575</link>
+
+		<dc:creator><![CDATA[Wayne]]></dc:creator>
+		<pubDate>Tue, 19 Jan 2010 21:38:09 +0000</pubDate>
+		<guid isPermaLink="false">/2010-1-19-show112-building-an-xpages-app-from-start-to-finish-session-html/#comment-575</guid>
+
+					<description><![CDATA[&lt;p&gt;Another excellent xpage resource. &lt;br/&gt;I do have one question though, what is going to differentiate the Notes client from a Browser, or something like Chrome OS?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Another excellent xpage resource. <br />I do have one question though, what is going to differentiate the Notes client from a Browser, or something like Chrome OS?</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

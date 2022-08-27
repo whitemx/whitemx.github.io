@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>webinar &#8211; mattwhite.me</title>
+	<atom:link href="/tag/webinar/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:04 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>XPages Guru Webinar</title>
+		<link>/2011-5-17-xpages-guru-webinar-html/</link>
+					<comments>/2011-5-17-xpages-guru-webinar-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 17 May 2011 15:49:21 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[webinar]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2011-5-17-xpages-guru-webinar-html/</guid>
+
+					<description><![CDATA[I&#8217;m very honoured to have been asked by Chris Blatnick to be involved in a webinar running on 1st June where several of the &#8220;Gurus of XPages&#8221; from around the world (plus myself) will be talking about our favourite technology. You can sign up for the event here. The rough agenda for the hour long [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;m very honoured to have been asked by Chris Blatnick to be involved in a webinar running on 1st June where several of the &#8220;Gurus of XPages&#8221; from around the world (plus myself) will be talking about our favourite technology.</p>
+<p>You can sign up for the event <a href="https://events.webdialogs.com/portal/wipevents/register.php?id=6d9d5a6a35&amp;l=en-US">here</a>.</p>
+<p>The rough agenda for the hour long session looks like this:</p>
+<blockquote>
+<p>What is XPages? &#8211; Matt White<br />Case Studies &#8211; Discussion database, XTalk, etc. &#8211; Bruce Elgort&nbsp;<br />Benefits of XPages &#8211; Matt White<br />Why should I transition? &#8211; Tim Tripcony<br />Roadmap to XPages (How do I get from here to there?) &#8211; Chris Toohey<br />What resources are out there? &#8211; David Leedy<br />Q &amp; A</p>
+</blockquote>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011-5-17-xpages-guru-webinar-html/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

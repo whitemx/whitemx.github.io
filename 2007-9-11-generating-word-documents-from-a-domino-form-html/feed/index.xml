@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Generating Word Documents from a Domino Form	</title>
+	<atom:link href="/2007-9-11-generating-word-documents-from-a-domino-form-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2007-9-11-generating-word-documents-from-a-domino-form-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:29:07 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2007-9-11-generating-word-documents-from-a-domino-form-html/#comment-1073</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Tue, 11 Sep 2007 13:53:17 +0000</pubDate>
+		<guid isPermaLink="false">/2007-9-11-generating-word-documents-from-a-domino-form-html/#comment-1073</guid>
+
+					<description><![CDATA[&lt;p&gt;Indeed, it&#039;s just I had always done this sort of thing with agents, it had never occurred to me to use a form, which should be much more efficient.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Indeed, it&#8217;s just I had always done this sort of thing with agents, it had never occurred to me to use a form, which should be much more efficient.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Kerr		</title>
+		<link>/2007-9-11-generating-word-documents-from-a-domino-form-html/#comment-1072</link>
+
+		<dc:creator><![CDATA[Kerr]]></dc:creator>
+		<pubDate>Tue, 11 Sep 2007 13:20:52 +0000</pubDate>
+		<guid isPermaLink="false">/2007-9-11-generating-word-documents-from-a-domino-form-html/#comment-1072</guid>
+
+					<description><![CDATA[&lt;p&gt;As I&#039;m sure you are aware, you can do this with Excel as well.  Just make the content a table and the table cells become the cells in the spreadsheet.  It&#039;s a bit of a hack, but works, if you don&#039;t need too much control of the output formatting.&lt;br  /&gt;&lt;br  /&gt;I&#039;ve been thinking about playing with some ODF stuff for my doc gen stuff, should be very powerful.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>As I&#8217;m sure you are aware, you can do this with Excel as well.  Just make the content a table and the table cells become the cells in the spreadsheet.  It&#8217;s a bit of a hack, but works, if you don&#8217;t need too much control of the output formatting.</p>
+<p>I&#8217;ve been thinking about playing with some ODF stuff for my doc gen stuff, should be very powerful.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
