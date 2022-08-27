@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Dojo 1.7.2 in XPages	</title>
+	<atom:link href="/2012-4-3-dojo-172-in-xpages-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2012-4-3-dojo-172-in-xpages-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:03 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: sandeep kantimahanthi		</title>
+		<link>/2012-4-3-dojo-172-in-xpages-html/#comment-100</link>
+
+		<dc:creator><![CDATA[sandeep kantimahanthi]]></dc:creator>
+		<pubDate>Sat, 09 Feb 2013 18:07:09 +0000</pubDate>
+		<guid isPermaLink="false">/2012-4-3-dojo-172-in-xpages-html/#comment-100</guid>
+
+					<description><![CDATA[Hi Matt,
+
+I am just sailing the Ship which you were 10months ago, the XSPClientDojo.js doesnt support the Partial refresh at all, I couldnt think of anyother.
+
+I did tried to add condition along with the dojotype to data-dojo-type in the XSPClient.js&lt;br /&gt;and add the client.js on the headerTag, still missing something, but surely its this file which is doing the mischeif..
+
+Incase you get something on this, please let me know. Many thanks.
+
+Rgds,&lt;br /&gt;Sandeep.K]]></description>
+			<content:encoded><![CDATA[<p>Hi Matt,</p>
+<p>I am just sailing the Ship which you were 10months ago, the XSPClientDojo.js doesnt support the Partial refresh at all, I couldnt think of anyother.</p>
+<p>I did tried to add condition along with the dojotype to data-dojo-type in the XSPClient.js<br />and add the client.js on the headerTag, still missing something, but surely its this file which is doing the mischeif..</p>
+<p>Incase you get something on this, please let me know. Many thanks.</p>
+<p>Rgds,<br />Sandeep.K</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2012-4-3-dojo-172-in-xpages-html/#comment-99</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Thu, 05 Apr 2012 09:44:56 +0000</pubDate>
+		<guid isPermaLink="false">/2012-4-3-dojo-172-in-xpages-html/#comment-99</guid>
+
+					<description><![CDATA[&lt;p&gt;@Rob - it all depends on your use case. In this case to get the Dojo files inside the nsf working you pretty much have to do it. The downside being that any XSP... client side functionality will be missing so that will mean partial refreshes, paging in views, posting of data etc etc (ie anything that talks to the server) will not work and you will need to code it yourself.&lt;/p&gt;&lt;p&gt;It&#039;s why in the end for my project last week I ended up going with jQuery Mobile instead of Dojo. (See Lesson 76 on XPages101.net for more information).&lt;/p&gt;&lt;p&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>@Rob &#8211; it all depends on your use case. In this case to get the Dojo files inside the nsf working you pretty much have to do it. The downside being that any XSP&#8230; client side functionality will be missing so that will mean partial refreshes, paging in views, posting of data etc etc (ie anything that talks to the server) will not work and you will need to code it yourself.</p>
+<p>It&#39;s why in the end for my project last week I ended up going with jQuery Mobile instead of Dojo. (See Lesson 76 on XPages101.net for more information).</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Rob Novak		</title>
+		<link>/2012-4-3-dojo-172-in-xpages-html/#comment-98</link>
+
+		<dc:creator><![CDATA[Rob Novak]]></dc:creator>
+		<pubDate>Wed, 04 Apr 2012 22:04:05 +0000</pubDate>
+		<guid isPermaLink="false">/2012-4-3-dojo-172-in-xpages-html/#comment-98</guid>
+
+					<description><![CDATA[&lt;p&gt;Matt,&lt;br/&gt;Do you generally recommend the method you describe of disabling the shipping Dojo version? Have you found any side effects?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Matt,<br />Do you generally recommend the method you describe of disabling the shipping Dojo version? Have you found any side effects?</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

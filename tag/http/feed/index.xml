@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>http &#8211; mattwhite.me</title>
+	<atom:link href="/tag/http/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Forcing a file name when downloading a dynamically generated csv file</title>
+		<link>/2010-7-14-forcing-a-file-name-when-downloading-a-dynamically-generated-html/</link>
+					<comments>/2010-7-14-forcing-a-file-name-when-downloading-a-dynamically-generated-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 14 Jul 2010 14:47:41 +0000</pubDate>
+				<category><![CDATA[Show-n-Tell Thursday]]></category>
+		<category><![CDATA[excel]]></category>
+		<category><![CDATA[http]]></category>
+		<category><![CDATA[ssjs]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2010-7-14-forcing-a-file-name-when-downloading-a-dynamically-generated-html/</guid>
+
+					<description><![CDATA[Over the last couple of weeks I&#8217;ve been working on a customisation project using IQJam as a starting point and then making it better fit a particular customer&#8217;s requirements. It&#8217;s worth mentioning as I finally had the justification to spend a little time investigating a problem which has been bugging me. One of the features [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Over the last couple of weeks I&#8217;ve been working on a customisation project using IQJam as a starting point and then making it better fit a particular customer&#8217;s requirements. It&#8217;s worth mentioning as I finally had the justification to spend a little time investigating a problem which has been bugging me.</p>
+<p>One of the features I added to IQJam was the ability to export data to Excel, a common enough feature that you&#8217;ve been able to do in Domino for ever. Simply print data out to the browser in simple HTML format and change the content-type of the page to &#8220;application/vnd.ms-excel&#8221;. That&#8217;s not the point of this posting really.</p>
+<p>The problem I&#8217;ve been trying to work around is that if your user is using Excel 2007 or later (I&#8217;m only on the beta of Office 2010 but it still seems to be a problem for me anyway) and you use the printing HTML technique, Excel raises an error for the user when they load the page, something like:</p>
+<blockquote><p>The file you are trying to open, &#8216;name.ext&#8217;, is in a different format than specified by the file extension. Verify that the file is not corrupted and is from a trusted source before opening the file. Do you want to open the file now?</p></blockquote>
+<p>According to various <a href="http://support.microsoft.com/kb/948615">technotes</a> and <a href="http://blogs.msdn.com/b/vsofficedeveloper/archive/2008/03/11/excel-2007-extension-warning.aspx">blog posts</a> there is no work around for this, it is a deliberate security feature of Excel. Fair enough I can live with this, though it&#8217;s not acceptable to the end user, so instead of generating an Excel file I reverted to generated CSV formatted data.</p>
+<p>The thing I learned from my investigations into the Excel problem was that there is this header which you can add to the data being generated which tells the browser that the page being opened is actually a file attachment and what the name of the file you want to download should be. So in my example, I&#8217;m able to create a unique file name every time the page is generated and also specify that it should be saved as a CSV file, not .XSP which is what it would be thanks to the page being loaded being an XPage. See this example:</p>
+<blockquote><p>try{<br /> &nbsp;&nbsp;&nbsp;&nbsp;var exCon = facesContext.getExternalContext(); <br /> &nbsp;&nbsp;&nbsp;&nbsp;var writer = facesContext.getResponseWriter();<br /> &nbsp;&nbsp;&nbsp;&nbsp;var response = exCon.getResponse();<br /> &nbsp;&nbsp;&nbsp;&nbsp;response.setContentType(&#8220;text/csv&#8221;);<br /> &nbsp;&nbsp;&nbsp;&nbsp;response.setHeader(&#8220;Content-disposition&#8221;, &#8220;attachment; filename=export_&#8221; + DateConverter.dateToString(@Now(), &#8220;yyyyMMddhhmm&#8221;) + &#8220;.csv&#8221;);<br /> &nbsp;&nbsp;&nbsp;&nbsp;response.setHeader(&#8220;Cache-Control&#8221;, &#8220;no-cache&#8221;);<br /> &nbsp;&nbsp;&nbsp;&nbsp;writer.write(getCSVBody());<br /> &nbsp;&nbsp;&nbsp;&nbsp;writer.endDocument();<br /> &nbsp;&nbsp;&nbsp;&nbsp;facesContext.responseComplete();<br /> &nbsp;&nbsp;&nbsp;&nbsp;writer.close();<br /> }catch(e){<br /> &nbsp;&nbsp;&nbsp;&nbsp;_dump(e);<br /> }</p></blockquote>
+<p>So this server side javascript sits in the afterRenderResponse of my XPage and is using the &#8220;<a href="http://www.wissel.net/blog/d6plinks/SHWL-7MGFBN">web agents XPages style</a>&#8221; technique which Stephan first documented to generate non HTML content from an XPage. The key line for this blog post is where the &#8220;Content-disposition&#8221; header is set, hopefully you can see where the filename is being created (I&#8217;m also using <a href="http://dontpanic82.blogspot.com/2010/04/xpages-code-snippet-for-datestring.html">Tommy Valand&#8217;s DateConverter SSJS code</a> to get the current date / time formatted into a nice string).</p>
+<p>Anyway, not a new technique looking at the dates on some of the internet postings out there, but a new one on me and worth passing on I thought.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-7-14-forcing-a-file-name-when-downloading-a-dynamically-generated-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

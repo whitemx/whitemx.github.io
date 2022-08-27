@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: UKLUG Registration Open	</title>
+	<atom:link href="/2008-6-11-uklug-registration-open-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2008-6-11-uklug-registration-open-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:27:24 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2008-6-11-uklug-registration-open-html/#comment-1364</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Wed, 11 Jun 2008 21:41:02 +0000</pubDate>
+		<guid isPermaLink="false">/2008-6-11-uklug-registration-open-html/#comment-1364</guid>
+
+					<description><![CDATA[&lt;p&gt;Richard,&lt;br  /&gt;&lt;br  /&gt;Thanks for the heads up, bet you can&#039;t guess where we took the DB design from!&lt;br  /&gt;&lt;br  /&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Richard,</p>
+<p>Thanks for the heads up, bet you can&#8217;t guess where we took the DB design from!</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Richard Shergold		</title>
+		<link>/2008-6-11-uklug-registration-open-html/#comment-1365</link>
+
+		<dc:creator><![CDATA[Richard Shergold]]></dc:creator>
+		<pubDate>Wed, 11 Jun 2008 19:19:11 +0000</pubDate>
+		<guid isPermaLink="false">/2008-6-11-uklug-registration-open-html/#comment-1365</guid>
+
+					<description><![CDATA[&lt;p&gt;Warren, the page title on the registration form says &quot;Irish Lotus Notes User Group&quot; &lt;img alt=&quot;Emoticon&quot; src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif&quot;&lt;/a&gt; /&gt;&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Warren, the page title on the registration form says &#8220;Irish Lotus Notes User Group&#8221; <img alt="Emoticon" src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif</a>&#8220; /></p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

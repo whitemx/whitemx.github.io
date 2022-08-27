@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Digging into Dojo and Selecting Dom Nodes	</title>
+	<atom:link href="/2009-4-29-digging-into-dojo-and-selecting-dom-nodes-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2009-4-29-digging-into-dojo-and-selecting-dom-nodes-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:42 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2009-4-29-digging-into-dojo-and-selecting-dom-nodes-html/#comment-1446</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Thu, 30 Apr 2009 11:23:26 +0000</pubDate>
+		<guid isPermaLink="false">/2009-4-29-digging-into-dojo-and-selecting-dom-nodes-html/#comment-1446</guid>
+
+					<description><![CDATA[&lt;p&gt;Oops thanks Martijn, yet more proof that I shouldn&#039;t post when I come home from the pub of an evening &lt;img alt=&quot;Emoticon&quot; src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif&quot;&lt;/a&gt; /&gt;&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Oops thanks Martijn, yet more proof that I shouldn&#8217;t post when I come home from the pub of an evening <img alt="Emoticon" src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif</a>&#8220; /></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2009-4-29-digging-into-dojo-and-selecting-dom-nodes-html/#comment-1447</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Wed, 29 Apr 2009 22:13:04 +0000</pubDate>
+		<guid isPermaLink="false">/2009-4-29-digging-into-dojo-and-selecting-dom-nodes-html/#comment-1447</guid>
+
+					<description><![CDATA[&lt;p&gt;Hi Rob,&lt;br  /&gt;&lt;br  /&gt;Yes Dojo 1.1.1 is included with Domono 8.5 and XPages generates a large amount of code that uses Dojo behind the scenes. Depending on your requirements you can let Domino and Dojo do their thing and not get involved, but if you want to add extra functionality to your website then using Dojo is pretty much required.&lt;br  /&gt;&lt;br  /&gt;There isn&#039;t a huge amount of documentation... yet. As time goes on IBM and the blogging community will add more, but for the moment, your best bets for a starting point are dojonimo.com and the Domino Designer Wiki.&lt;br  /&gt;&lt;br  /&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hi Rob,</p>
+<p>Yes Dojo 1.1.1 is included with Domono 8.5 and XPages generates a large amount of code that uses Dojo behind the scenes. Depending on your requirements you can let Domino and Dojo do their thing and not get involved, but if you want to add extra functionality to your website then using Dojo is pretty much required.</p>
+<p>There isn&#8217;t a huge amount of documentation&#8230; yet. As time goes on IBM and the blogging community will add more, but for the moment, your best bets for a starting point are dojonimo.com and the Domino Designer Wiki.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Rob		</title>
+		<link>/2009-4-29-digging-into-dojo-and-selecting-dom-nodes-html/#comment-1448</link>
+
+		<dc:creator><![CDATA[Rob]]></dc:creator>
+		<pubDate>Wed, 29 Apr 2009 19:59:00 +0000</pubDate>
+		<guid isPermaLink="false">/2009-4-29-digging-into-dojo-and-selecting-dom-nodes-html/#comment-1448</guid>
+
+					<description><![CDATA[]]></description>
+			<content:encoded><![CDATA[]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

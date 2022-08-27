@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: UKLUG Hands On Labs	</title>
+	<atom:link href="/2007-8-14-uklug-hands-on-labs-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2007-8-14-uklug-hands-on-labs-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:29:08 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2007-8-14-uklug-hands-on-labs-html/#comment-1363</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Wed, 15 Aug 2007 14:37:13 +0000</pubDate>
+		<guid isPermaLink="false">/2007-8-14-uklug-hands-on-labs-html/#comment-1363</guid>
+
+					<description><![CDATA[&lt;p&gt;For the people who keep trying to leave comment spam, please know, if you don&#039;t leave a real name, or you leave a link to a site which I don&#039;t like I will remove your comment. This is not a democracy!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>For the people who keep trying to leave comment spam, please know, if you don&#8217;t leave a real name, or you leave a link to a site which I don&#8217;t like I will remove your comment. This is not a democracy!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

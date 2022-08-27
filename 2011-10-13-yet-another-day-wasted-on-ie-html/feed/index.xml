@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Yet another day wasted on IE	</title>
+	<atom:link href="/2011-10-13-yet-another-day-wasted-on-ie-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2011-10-13-yet-another-day-wasted-on-ie-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:03 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Richard Moy		</title>
+		<link>/2011-10-13-yet-another-day-wasted-on-ie-html/#comment-117</link>
+
+		<dc:creator><![CDATA[Richard Moy]]></dc:creator>
+		<pubDate>Thu, 13 Oct 2011 22:01:07 +0000</pubDate>
+		<guid isPermaLink="false">/2011-10-13-yet-another-day-wasted-on-ie-html/#comment-117</guid>
+
+					<description><![CDATA[&lt;p&gt;Matt,&lt;/p&gt;&lt;p&gt;I thought I saw a blog about this problem I believe about a year or two ago.  However, I can&#039;t remember how the other person resolved it or whether he did.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Matt,</p>
+<p>I thought I saw a blog about this problem I believe about a year or two ago.  However, I can&#39;t remember how the other person resolved it or whether he did.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Fredrik Norling		</title>
+		<link>/2011-10-13-yet-another-day-wasted-on-ie-html/#comment-116</link>
+
+		<dc:creator><![CDATA[Fredrik Norling]]></dc:creator>
+		<pubDate>Thu, 13 Oct 2011 14:47:46 +0000</pubDate>
+		<guid isPermaLink="false">/2011-10-13-yet-another-day-wasted-on-ie-html/#comment-116</guid>
+
+					<description><![CDATA[&lt;p&gt;I got a IE problem my self this week with javascript calculation problems so I know the feeling ;-)&lt;br/&gt;&lt;a href=&quot;http://www.xpagedeveloper.com/2011/strange-javascript-numbers-ie9&quot; title=&quot;strange js errors is IE9&quot; rel=&quot;nofollow ugc&quot;&gt;&lt;/a&gt;&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I got a IE problem my self this week with javascript calculation problems so I know the feeling 😉<br /><a href="http://www.xpagedeveloper.com/2011/strange-javascript-numbers-ie9" title="strange js errors is IE9" rel="nofollow ugc"></a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2011-10-13-yet-another-day-wasted-on-ie-html/#comment-115</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Thu, 13 Oct 2011 11:30:28 +0000</pubDate>
+		<guid isPermaLink="false">/2011-10-13-yet-another-day-wasted-on-ie-html/#comment-115</guid>
+
+					<description><![CDATA[&lt;p&gt;@Paul - Yes compatibility mode was the first thing I tried as it can be used to cover a multitude of sins, but in this case it offered no help at all.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>@Paul &#8211; Yes compatibility mode was the first thing I tried as it can be used to cover a multitude of sins, but in this case it offered no help at all.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Frederic Dehedin		</title>
+		<link>/2011-10-13-yet-another-day-wasted-on-ie-html/#comment-114</link>
+
+		<dc:creator><![CDATA[Frederic Dehedin]]></dc:creator>
+		<pubDate>Thu, 13 Oct 2011 11:23:30 +0000</pubDate>
+		<guid isPermaLink="false">/2011-10-13-yet-another-day-wasted-on-ie-html/#comment-114</guid>
+
+					<description><![CDATA[&lt;p&gt;thanks for the share.&lt;br/&gt;Absolutely agree with you, i always got no problems with FF, Chrome, Safari, and Opera, since they behave very similar.. The one who dances out of the row is always IE.. &lt;br/&gt;Got less problems in XPages webapps tough, but the generated html sourcecode of XPages is still kinda &#034;stability over beauty&#034; like, which is absolutely fine for webapps.. &lt;/p&gt;&lt;p&gt;regards,&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>thanks for the share.<br />Absolutely agree with you, i always got no problems with FF, Chrome, Safari, and Opera, since they behave very similar.. The one who dances out of the row is always IE.. <br />Got less problems in XPages webapps tough, but the generated html sourcecode of XPages is still kinda &quot;stability over beauty&quot; like, which is absolutely fine for webapps.. </p>
+<p>regards,</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Paul Withers		</title>
+		<link>/2011-10-13-yet-another-day-wasted-on-ie-html/#comment-113</link>
+
+		<dc:creator><![CDATA[Paul Withers]]></dc:creator>
+		<pubDate>Thu, 13 Oct 2011 11:22:40 +0000</pubDate>
+		<guid isPermaLink="false">/2011-10-13-yet-another-day-wasted-on-ie-html/#comment-113</guid>
+
+					<description><![CDATA[&lt;p&gt;Just a hunch. Was it happening with IE 8 both in compatibility mode and not? I know to my cost that IE 8 compatibility mode ignores float, as a result of which I had to force IE 8 to ignore compatibllity mode for one of my apps, to ensure it looked like it was designed to.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Just a hunch. Was it happening with IE 8 both in compatibility mode and not? I know to my cost that IE 8 compatibility mode ignores float, as a result of which I had to force IE 8 to ignore compatibllity mode for one of my apps, to ensure it looked like it was designed to.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Site Hacked	</title>
+	<atom:link href="/2007-10-10-site-hacked-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2007-10-10-site-hacked-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:29:06 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Rob McDonagh		</title>
+		<link>/2007-10-10-site-hacked-html/#comment-1186</link>
+
+		<dc:creator><![CDATA[Rob McDonagh]]></dc:creator>
+		<pubDate>Wed, 10 Oct 2007 23:49:32 +0000</pubDate>
+		<guid isPermaLink="false">/2007-10-10-site-hacked-html/#comment-1186</guid>
+
+					<description><![CDATA[&lt;p&gt;Yeah, or as a reader, you can simply block the domain (mutantsrus.com) in an AdBlock extension, and voila! all of a sudden the script kiddie doesn&#039;t affect any of the sites you read.  :D&lt;br  /&gt;&lt;br  /&gt;But yes, I applied the patched template the other day.  Haven&#039;t seen any attempts, but better safe than irritated...&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Yeah, or as a reader, you can simply block the domain (mutantsrus.com) in an AdBlock extension, and voila! all of a sudden the script kiddie doesn&#8217;t affect any of the sites you read.  😀</p>
+<p>But yes, I applied the patched template the other day.  Haven&#8217;t seen any attempts, but better safe than irritated&#8230;</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

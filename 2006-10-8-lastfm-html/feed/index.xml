@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Last.fm	</title>
+	<atom:link href="/2006-10-8-lastfm-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2006-10-8-lastfm-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:33:07 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Karen		</title>
+		<link>/2006-10-8-lastfm-html/#comment-447</link>
+
+		<dc:creator><![CDATA[Karen]]></dc:creator>
+		<pubDate>Mon, 09 Oct 2006 21:11:28 +0000</pubDate>
+		<guid isPermaLink="false">/2006-10-8-lastfm-html/#comment-447</guid>
+
+					<description><![CDATA[&lt;p&gt;There&#039;s also Pandora: &lt;a href=&quot;&lt;a rel=&quot;nofollow&quot; href=&quot;http://www.pandora.com/&quot;&quot; rel=&quot;nofollow ugc&quot;&gt;http://www.pandora.com/&quot;&lt;/a&gt; rel=&quot;nofollow&quot;&gt;&lt;a href=&quot;http://www.pandora.com/&quot; rel=&quot;nofollow ugc&quot;&gt;http://www.pandora.com/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>There&#8217;s also Pandora: <a href="<a rel="nofollow" href="http://www.pandora.com/"" rel="nofollow ugc"></a><a href="http://www.pandora.com/" rel="nofollow ugc">http://www.pandora.com/</a>&#8220; rel=&#8221;nofollow&#8221;><a href="http://www.pandora.com/" rel="nofollow ugc">http://www.pandora.com/</a></p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

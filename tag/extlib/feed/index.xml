@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>extlib &#8211; mattwhite.me</title>
+	<atom:link href="/tag/extlib/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:03 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Creating a new XPages application in 8.5.3 UP1</title>
+		<link>/2012-2-18-creating-a-new-xpages-application-in-853-up1-html/</link>
+					<comments>/2012-2-18-creating-a-new-xpages-application-in-853-up1-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sat, 18 Feb 2012 11:37:21 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[8.5.3]]></category>
+		<category><![CDATA[extlib]]></category>
+		<category><![CDATA[up1]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2012-2-18-creating-a-new-xpages-application-in-853-up1-html/</guid>
+
+					<description><![CDATA[I suppose most of you know about XPages101 now, the first eight videos on the site walk you through creating a new XPages application. I recorded them two years ago now and they are still useful when you&#8217;re starting with XPages. But since 8.5.3 and more specifically UP1 (or the Extension Library) became main stream [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I suppose most of you know about <a href="http://xpages101.net/">XPages101</a> now, the first eight videos on the site walk you through creating a new XPages application. I recorded them two years ago now and they are still useful when you&#8217;re starting with XPages. But since 8.5.3 and more specifically UP1 (or the Extension Library) became main stream my eight videos can make things seem a little like too much work.</p>
+<p>So over the next few weeks at XPages101 I will walk you through creating roughly the same application using the more up to date tools available to us. What&#8217;s interesting is that I have recorded three videos already (the first one was released yesterday <a href="http://xpages101.net/xpages101/XPages101.nsf/0/01E576D528A968CD802579A7004CF962">here</a>) and have already reached the point of having a functional application with navigation and UI. It&#8217;s obviously not a scientific measure, but the extra controls which are provided for us out the box with UP1 (or ExtLib) really make a difference in development time.</p>
+<p>Anyway, if you&#8217;re a subscriber then go ahead and check out the <a href="http://xpages101.net/xpages101/XPages101.nsf/0/01E576D528A968CD802579A7004CF962">new video which I uploaded yesterday</a>, if you&#8217;re not a subscriber&#8230; well, I shall say nothing!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012-2-18-creating-a-new-xpages-application-in-853-up1-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>What does the Upgrade Pack 1 mean for me?</title>
+		<link>/2011-12-15-what-does-the-upgrade-pack-1-mean-for-me-html/</link>
+					<comments>/2011-12-15-what-does-the-upgrade-pack-1-mean-for-me-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 15 Dec 2011 11:14:11 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[extlib]]></category>
+		<category><![CDATA[up1]]></category>
+		<category><![CDATA[upgrade pack 1]]></category>
+		<guid isPermaLink="false">/2011-12-15-what-does-the-upgrade-pack-1-mean-for-me-html/</guid>
+
+					<description><![CDATA[So yesterday we had the release of Upgrade Pack 1 sprung on us by Ed Brill. Overall this &#8220;A Good Thing&#8221; but there is quite a lot of detail which was missing from the announcement. This was a problem for Warren and I as we&#8217;re presenting a session at Lotusphere on the Deployment and Management [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>So yesterday we had the release of <a href="http://www.edbrill.com/ebrill/edbrill.nsf/dx/new-releases-week-part-3-notesdomino-8.5.3-upgrade-pack-1">Upgrade Pack 1 sprung on us by Ed Brill</a>. Overall this &#8220;A Good Thing&#8221; but there is quite a lot of detail which was missing from the announcement.</p>
+<p>This was a problem for <a href="http://elsmore.net/">Warren</a> and I as we&#8217;re presenting a session at Lotusphere on the Deployment and Management of XPages, so a swift bit of research and slide rewriting has been in order this morning.</p>
+<p>Essentially the Upgrade Pack is a new version of the Extension Library just installed in yet another way. If you&#8217;re running the Extension Library in 8.5.3 already then you&#8217;ll need to uninstall it from your Domino Designer and from your server before installing the Upgrade Pack (this may be harder than you imagine, it took me several tries on one machine and simply refused to work on another so I had to delete the Workspace directory!)</p>
+<p>I haven&#8217;t had time to fully test my applications, but from my initial testing it appears that an application written using the November 19th version of Extension Library will work just fine running on an Upgrade Pack 1 server so from the developer&#8217;s point of view this whole process is relatively painless. You just need to decide in your organisation whether you&#8217;re going to run with the Extension Library or the Upgrade Pack. I&#8217;m sure over the coming weeks and months the pros and cons of either approach will become clear, but for the moment if you want a simple life then Upgrade Pack seems to be the way to go.</p>
+<p>What is less clear is how this affects the singnificant admin in your life. I&#8217;ll let Warren cover this in more detail in our session at Lotusphere, but at the moment it seems as though it&#8217;s going to be quite difficult to deploy and manage the Upgrade Pack in a large or complex environment so bear that in mind when making decisions.</p>
+<p>And for reference the part number on the IBM site is&nbsp;<span>CI5HUEN</span><span>&nbsp;and the version number (thanks to Warren for this) is </span><span>8</span><span style="line-height: 1.6em;">.5.3.20111208-0717 (i.e. significantly later than the current version of the ExtLib on OpenNTF).</span></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011-12-15-what-does-the-upgrade-pack-1-mean-for-me-html/feed/</wfw:commentRss>
+			<slash:comments>6</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

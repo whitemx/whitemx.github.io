@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: floats and doubles	</title>
+	<atom:link href="/2007-12-20-floats-and-doubles-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2007-12-20-floats-and-doubles-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:28:23 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Kerr		</title>
+		<link>/2007-12-20-floats-and-doubles-html/#comment-1222</link>
+
+		<dc:creator><![CDATA[Kerr]]></dc:creator>
+		<pubDate>Thu, 20 Dec 2007 13:55:24 +0000</pubDate>
+		<guid isPermaLink="false">/2007-12-20-floats-and-doubles-html/#comment-1222</guid>
+
+					<description><![CDATA[&lt;p&gt;Unless you have some serious performance reasons why not, I&#039;d always go with java.math.BigDecimal for financial calcs.  That way you are pretty much guaranteed to get the correct value.&lt;br  /&gt;&lt;br  /&gt;You can get wrong answers really easily using simple floats. And it&#039;s not really a Java specific thing, anything that implements the IEEE 754 specification just isn&#039;t going to work as you might expect in all sorts of situations.  For example  you just can&#039;t store 0.1 accurately as a float or double.  The best you can hope for is that the precision you want is course grained enough that the true value will round up to what you want.&lt;br  /&gt;&lt;br  /&gt;&lt;img alt=&quot;Emoticon&quot; src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5N3GL7/$File/undecided.gif&quot;&lt;/a&gt; /&gt; &lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Unless you have some serious performance reasons why not, I&#8217;d always go with java.math.BigDecimal for financial calcs.  That way you are pretty much guaranteed to get the correct value.</p>
+<p>You can get wrong answers really easily using simple floats. And it&#8217;s not really a Java specific thing, anything that implements the IEEE 754 specification just isn&#8217;t going to work as you might expect in all sorts of situations.  For example  you just can&#8217;t store 0.1 accurately as a float or double.  The best you can hope for is that the precision you want is course grained enough that the true value will round up to what you want.</p>
+<p><img alt="Emoticon" src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5N3GL7/$File/undecided.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5N3GL7/$File/undecided.gif</a>&#8220; /> </p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

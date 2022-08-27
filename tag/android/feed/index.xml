@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>android &#8211; mattwhite.me</title>
+	<atom:link href="/tag/android/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Using Android as a media player</title>
+		<link>/2011-1-25-using-android-as-a-media-player-html/</link>
+					<comments>/2011-1-25-using-android-as-a-media-player-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 25 Jan 2011 14:53:54 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[iphone]]></category>
+		<category><![CDATA[media player]]></category>
+		<guid isPermaLink="false">/2011-1-25-using-android-as-a-media-player-html/</guid>
+
+					<description><![CDATA[I&#8217;ve been using an Android phone for around 18 months now and, generally, I have to say I like it. I suspect I may well get tempted back to the Apple side of the fence in the summer just because one element of its day to day use is just not quite there yet. I [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;ve been using an Android phone for around 18 months now and, generally, I have to say I like it. I suspect I may well get tempted back to the Apple side of the fence in the summer just because one element of its day to day use is just not quite there yet.</p>
+<p>I <a href="http://mattwhite.me/blog/2005/7/21/consolidation-on-the-gadget-front.html">wrote back in 2005</a> what I wanted in a phone and we are so very nearly there. The limiting factor is still the integration of media with the phone. One of the questions I get asked relatively regularly by new Android users is what my setup is to get content onto my phone. The main difference between the Nexus One (my current phone) and iPhone is that for the vast majority of things you don&#8217;t need to plug it into your computer, emails, contacts etc all sync over the air using your Google account. But music and podcasts are a different matter.</p>
+<p>I listen to a lot of podcasts so will need to sync probably once a day. So at the moment, I have <a href="http://www.winamp.com/android">Winamp for Android</a> as my player on the phone itself. It also has the advantage of syncing over WiFi but to be honest I don&#8217;t use that much. Instead, I use <a href="http://www.salling.com/MediaSync/mac/">Salling Media Sync</a> which is a program for the Mac which basically syncs music and podcasts from iTunes onto the phone when it&#8217;s plugged in.</p>
+<p>In general this setup works well, but there are a few caveats. If you watch a lot of video podcasts, I would exclude them from the automatic sync and manually copy them to a different area of the phone as the scanning time on the media player on the phone becomes truly ridiculous (upwards of an hour sometimes).</p>
+<p>So, overall, you can take this as yet more proof that Android is still aimed for the geeky user, or at least the &#8220;normal&#8221; user is not going to be able to get the best out of it. As I say I suspect I&#8217;ll end up switching back to the iPhone 5 when it&#8217;s announced and my contract expires, but hopefully this is useful for any new Android users out there.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011-1-25-using-android-as-a-media-player-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>HTC Hero and Android First Impressions</title>
+		<link>/2009-11-13-htc-hero-and-android-first-impressions-html/</link>
+					<comments>/2009-11-13-htc-hero-and-android-first-impressions-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 13 Nov 2009 16:55:09 +0000</pubDate>
+				<category><![CDATA[Technology]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[htc hero]]></category>
+		<category><![CDATA[iphone]]></category>
+		<guid isPermaLink="false">/2009-11-13-htc-hero-and-android-first-impressions-html/</guid>
+
+					<description><![CDATA[My new phone got delivered yesterday, and for those who know my proclivity to buy Apple gear, you&#8217;ll be surprised to know that I&#8217;ve dropped the iPhone and gone for an Android phone instead. My reasoning is that I&#8217;ve had the iPhone for a couple of years now and I want to see what the [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>My new <a href="http://www.htc.com/www/product/hero/overview.html">phone</a> got delivered yesterday, and for those who know my proclivity to buy Apple gear, you&#8217;ll be surprised to know that I&#8217;ve dropped the iPhone and gone for an <a href="http://www.android.com/">Android</a> phone instead. My reasoning is that I&#8217;ve had the iPhone for a couple of years now and I want to see what the market elsewhere is doing. Plus the HTC Hero that I have now was free from T-Mobile whereas the insane contracts with O2 or Orange would still require me to drop hundreds of pounds for a 3GS. And finally, I have tried to do some iPhone dev work but I just found I didn&#8217;t enjoy the experience, too alien from everything else I know I suppose, whereas developing for the Android platform is just Java (or at least similar enough as to be the same), so I immediately have a leg up when starting a new application.</p>
+<p>The biggest check against the iPhone at the moment is that I&#8217;m just getting a bit bored of it. It&#8217;s amazing that I find myself in that position after lusting after one for so long, but it is how I feel. Whether it&#8217;s the early adopter, gadget freak&#8217;s curse or whether it&#8217;s because everyone has one and I need to be different who knows?</p>
+<p>So taking the device and the OS as two different entities, which they most definitely are, what are my first impressions?</p>
+<p>The handset itself feels very well built, it has some heft to it so at least on that side of things it&#8217;s a decent replacement to the iPhone. The fiddly little buttons for Home, Back, Search etc take some getting used to, but once muscle memory kicks in they actually work pretty well. The trackball seems superfluous to me, I just naturally do everything that it offers on the touch screen which is probably a hangover of the iPhone for the last two years. The screen looks and feels of a very good quality, easily as responsive as my old 3G iPhone (I&#8217;ve not used a 3GS so can&#8217;t comment there).</p>
+<p>The screen unlock process is quite different to the iPhone with the &#8220;Draw Pattern To Unlock&#8221; being a much faster way of getting into the phone than entering a PIN so I really like that.</p>
+<p>Once you&#8217;re into the phone, then you&#8217;re presented with the Home screen which can be pretty much any combination of application links along with widgets that can display information about the phone, calendar, email, stocks, weather etc etc. T-Mobile has it&#8217;s own themes pre-loaded but I immediately removed all of those in favour of a grid of application icons. 14 years of the Notes workspace and 2 years of the iPhone home screen means it&#8217;s the way I prefer to work. In the same way that the iPhone has multiple screens of icons, so you get seven pages that you can fill up with icons and widgets, but thus far I only need three.</p>
+<p>Of course, I immediately started to install and launch tons of new applications and this is the main difference with the iPhone. Installation is a breeze, it works for me much better than the iPhone. But then you can launch apps and they run in the background so you have to get back into a computer mindset of being aware of what&#8217;s running. And this is the biggest problem I&#8217;ve had so far, there is no way to close applications, in theory the memory is managed automatically, but in reality when you&#8217;re jumping in and out of different tools you quickly start to bog the processor down. So one of the apps I have close to hand is called TasKiller which simply kills everything running at the moment, very quick and simple.</p>
+<p>If you&#8217;re not a big Google apps user (Gmail being the primary app), then Android really isn&#8217;t for you. Pretty much everything assumes you have a Google account. The joy being that rather than setting up the phone and synching with your computer, you just log in and everything is automatically populated over the air to the device. This is just as well as the Hero doesn&#8217;t sync with the Mac, at all. You can mount it as a USB drive to add music and take photos off, but that is all. The phone will also sync with Facebook, Flickr etc and even integrates them into your address book so you can tie a contact to a Facebook friend and monitor what&#8217;s going on that way.</p>
+<p>The apps that I&#8217;ve installed (and would recommend) so far are:</p>
+<ul>
+<li>Battery Meter &#8211; the only widget that I use, it displays the battery percentage</li>
+<li>Compass &#8211; A simple compass application</li>
+<li>eBuddy &#8211; A chat client for MSN, Yahoo, Google Talk etc</li>
+<li>Locale &#8211; Manages phone settings depending on your location, time of day. Very cool to be able to turn on WiFi when you get home automatically.</li>
+<li>NetCounter &#8211; Monitors WiFi and 3G data usage</li>
+<li>NewsRob &#8211; An RSS client (not sure about this yet)</li>
+<li>Places Directory &#8211; suggests places to go based on your current location</li>
+<li>ShopSavvy &#8211; A barcode scanner that compares prices online</li>
+<li>TasKiller &#8211; Kills apps running on the phone</li>
+<li>TwiDroid &#8211; A very nice Twitter client</li>
+</ul>
+<p>So, in conclusion what do I think? The HTC Hero and Android combination feels like it&#8217;s designed for someone like me, that is a geek / early adopter. It does make you think to do certain things where the for iPhone everything is just natural. But in contrast you&#8217;re able to do a lot more than Apple allow on the Jesus Phone so from that side of things, you pays your money, you takes your choice. If you&#8217;re looking for an iPod that can also make phone calls then the iPhone is undoubtedly the choice for you. If you want to do a little more with your phone, maybe do some development, then Android has the feeling of an OS that is going places over the next few years. If HTC could just sort out a Mac client then I&#8217;d say this would be a definite iPhone killer.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-11-13-htc-hero-and-android-first-impressions-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

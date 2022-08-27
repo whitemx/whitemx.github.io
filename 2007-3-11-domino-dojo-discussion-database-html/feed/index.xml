@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Domino Dojo Discussion Database	</title>
+	<atom:link href="/2007-3-11-domino-dojo-discussion-database-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2007-3-11-domino-dojo-discussion-database-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:29:46 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2007-3-11-domino-dojo-discussion-database-html/#comment-1241</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Fri, 16 Mar 2007 08:56:17 +0000</pubDate>
+		<guid isPermaLink="false">/2007-3-11-domino-dojo-discussion-database-html/#comment-1241</guid>
+
+					<description><![CDATA[&lt;p&gt;Jack,&lt;br  /&gt;&lt;br  /&gt;I&#039;ve looked at EXT but only as a bystander. Both yours and Jake&#039;s work looks very interesting. But unfortunately I only have time to dedicate to one of the big frameworks and I&#039;m sold on Dojo!&lt;br  /&gt;&lt;br  /&gt;I hope that over time there is a consolidation of these semi-official frameworks, or at least some natural coming together of the APIs. There&#039;s just so much to learn and so little time.&lt;br  /&gt;&lt;br  /&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Jack,</p>
+<p>I&#8217;ve looked at EXT but only as a bystander. Both yours and Jake&#8217;s work looks very interesting. But unfortunately I only have time to dedicate to one of the big frameworks and I&#8217;m sold on Dojo!</p>
+<p>I hope that over time there is a consolidation of these semi-official frameworks, or at least some natural coming together of the APIs. There&#8217;s just so much to learn and so little time.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Jack Ratcliff		</title>
+		<link>/2007-3-11-domino-dojo-discussion-database-html/#comment-1240</link>
+
+		<dc:creator><![CDATA[Jack Ratcliff]]></dc:creator>
+		<pubDate>Fri, 16 Mar 2007 04:41:27 +0000</pubDate>
+		<guid isPermaLink="false">/2007-3-11-domino-dojo-discussion-database-html/#comment-1240</guid>
+
+					<description><![CDATA[&lt;p&gt;What are your thoughts on Ext?  I&#039;ve been using it for a while now and the grid and tree widget seem perfect for domino views and outlines.&lt;br  /&gt;&lt;br  /&gt;Here&#039;s a demo of a domino app integrated with Ext.&lt;br  /&gt;&lt;br  /&gt;{ &lt;a href=&quot;&lt;a rel=&quot;nofollow&quot; href=&quot;http://jackratcliff.com/jratcliff/dwt/dwt-demo.nsf/main.html&quot;&quot; rel=&quot;nofollow ugc&quot;&gt;http://jackratcliff.com/jratcliff/dwt/dwt-demo.nsf/main.html&quot;&lt;/a&gt; rel=&quot;nofollow&quot; target =&quot;blank&quot;&gt;Link&lt;/a&gt; }&lt;br  /&gt;&lt;br  /&gt;It does sound like IBM is going to be using Dojo with Domino in the near future. However, I think I&#039;m going to stick with Ext + Domino.  &lt;img alt=&quot;Emoticon&quot; src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif&quot;&lt;/a&gt; /&gt; &lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>What are your thoughts on Ext?  I&#8217;ve been using it for a while now and the grid and tree widget seem perfect for domino views and outlines.</p>
+<p>Here&#8217;s a demo of a domino app integrated with Ext.</p>
+<p>{ <a href="<a rel="nofollow" href="http://jackratcliff.com/jratcliff/dwt/dwt-demo.nsf/main.html"" rel="nofollow ugc"></a><a href="http://jackratcliff.com/jratcliff/dwt/dwt-demo.nsf/main.html" rel="nofollow ugc">http://jackratcliff.com/jratcliff/dwt/dwt-demo.nsf/main.html</a>&#8220; rel=&#8221;nofollow&#8221; target =&#8221;blank&#8221;>Link }</p>
+<p>It does sound like IBM is going to be using Dojo with Domino in the near future. However, I think I&#8217;m going to stick with Ext + Domino.  <img alt="Emoticon" src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif</a>&#8220; /> </p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Patrick Kwinten		</title>
+		<link>/2007-3-11-domino-dojo-discussion-database-html/#comment-1242</link>
+
+		<dc:creator><![CDATA[Patrick Kwinten]]></dc:creator>
+		<pubDate>Tue, 13 Mar 2007 19:53:16 +0000</pubDate>
+		<guid isPermaLink="false">/2007-3-11-domino-dojo-discussion-database-html/#comment-1242</guid>
+
+					<description><![CDATA[&lt;p&gt;Hej!&lt;br/&gt;&lt;br  /&gt;&lt;br/&gt;&lt;br  /&gt;Thank you for the posting. I was just collecting information how to integrate Dojo into Domino applications and your posting is excellent for this little research.&lt;br/&gt;&lt;br  /&gt;&lt;br/&gt;&lt;br  /&gt;Keep up the good work!&lt;br/&gt;&lt;br  /&gt;&lt;img alt=&quot;Emoticon&quot; src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif&quot;&lt;/a&gt; /&gt; &lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hej!</p>
+<p>Thank you for the posting. I was just collecting information how to integrate Dojo into Domino applications and your posting is excellent for this little research.</p>
+<p>Keep up the good work!</p>
+<p><img alt="Emoticon" src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif</a>&#8220; /> </p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

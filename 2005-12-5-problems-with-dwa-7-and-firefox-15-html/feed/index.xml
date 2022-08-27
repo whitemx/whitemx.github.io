@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Problems with DWA 7 and Firefox 1.5?	</title>
+	<atom:link href="/2005-12-5-problems-with-dwa-7-and-firefox-15-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2005-12-5-problems-with-dwa-7-and-firefox-15-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:35:16 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Christian Brandlehner		</title>
+		<link>/2005-12-5-problems-with-dwa-7-and-firefox-15-html/#comment-1104</link>
+
+		<dc:creator><![CDATA[Christian Brandlehner]]></dc:creator>
+		<pubDate>Sun, 18 Jun 2006 11:56:18 +0000</pubDate>
+		<guid isPermaLink="false">/2005-12-5-problems-with-dwa-7-and-firefox-15-html/#comment-1104</guid>
+
+					<description><![CDATA[&lt;p&gt;This problem has been fixed in Firefox and is not reproduceable with Firefox 1.5.0.4. &lt;img src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$FILE/smile.gif&quot;&lt;/a&gt;&gt; &lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>This problem has been fixed in Firefox and is not reproduceable with Firefox 1.5.0.4. <img src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$FILE/smile.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$FILE/smile.gif</a>&#8220;> </p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Chris Whisonant		</title>
+		<link>/2005-12-5-problems-with-dwa-7-and-firefox-15-html/#comment-1103</link>
+
+		<dc:creator><![CDATA[Chris Whisonant]]></dc:creator>
+		<pubDate>Mon, 05 Dec 2005 14:23:30 +0000</pubDate>
+		<guid isPermaLink="false">/2005-12-5-problems-with-dwa-7-and-firefox-15-html/#comment-1103</guid>
+
+					<description><![CDATA[&lt;p&gt;Ditto here... When I try to compose a message, the rich text box does not load. So, there may be an issue with that portion of the code.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Ditto here&#8230; When I try to compose a message, the rich text box does not load. So, there may be an issue with that portion of the code.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

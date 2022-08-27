@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>safari &#8211; mattwhite.me</title>
+	<atom:link href="/tag/safari/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Catch and Cancel Return Key Press for Safari in XPages</title>
+		<link>/2009-10-19-catch-and-cancel-return-key-press-for-safari-in-xpages-html/</link>
+					<comments>/2009-10-19-catch-and-cancel-return-key-press-for-safari-in-xpages-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 19 Oct 2009 12:25:59 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[dojo]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[safari]]></category>
+		<guid isPermaLink="false">/2009-10-19-catch-and-cancel-return-key-press-for-safari-in-xpages-html/</guid>
+
+					<description><![CDATA[The solution to one of the small but annoying bugs in IQJam had eluded me for quite a while, so this morning I resolved to have another go at it after a lazy weekend of feeling ill. And, lo and behold, I managed to fix it. So a little bit of background to the problem, [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>The solution to one of the small but annoying bugs in IQJam had eluded me for quite a while, so this morning I resolved to have another go at it after a lazy weekend of feeling ill. And, lo and behold, I managed to fix it.</p>
+<p>So a little bit of background to the problem, when you login to IQJam we provide a login button for you to press after filling in your username and password, but most people are used to just hitting return after finishing typing their password. Unfortunately, this is a case where Safari actually implements internet standards just a little too well. What browsers are meant to do (but none of them except Safari actually do) is submit the form that a text field is in when the user presses the return key.</p>
+<p>Now in most development environments this is pretty easy to fix, you just add a</p>
+<blockquote>
+<p>return false;</p>
+</blockquote>
+<p>to the onSubmit action of the HTML form that the field is located in. But with XPages we don&#8217;t have access to the action, onSubmit or anything else to do with the form, as pretty much everything you click on in an XPage will want to interact with the server using code that has been generated for us rather than written by us.</p>
+<p>In this case, I wanted to do my own AJAX post request to the server and deal with the entire interaction myself and stop anything else being submitted to the server. The problem was how? I spent ages trying to stop event bubbling to try and cancel the keypress event when the user presses return to no avail. However, I did learn, at least, that the keypress event fires before the form is submitted back to the server.</p>
+<p>So my solution is to put this code in the keypress event of the password field:</p>
+<blockquote>
+<p><span>if </span>(thisEvent.keyCode == 13)<span>{</span></p>
+<p><span></span><span style="white-space: pre;"> </span>dojo.connect(</p>
+<p><span style="white-space: pre;"> </span>document.forms[0],&nbsp;</p>
+<p><span></span><span style="white-space: pre;"> </span>&#8216;onsubmit&#8217;<span>,&nbsp;</span></p>
+<p><span><span style="white-space: pre;"> </span>null</span>,&nbsp;</p>
+<p><span></span><span style="white-space: pre;"> </span>function<span>(e) </span>{&nbsp;</p>
+<p><span></span><span style="white-space: pre;"> </span>e.preventDefault();</p>
+<p><span></span><span style="white-space: pre;"> </span>return false<span>;</span></p>
+<p><span><span style="white-space: pre;"> </span>}</span></p>
+<p><span></span><span style="white-space: pre;"> </span>);</p>
+<p><span><span style="white-space: pre;"> </span>doLogin(</span>&#8220;#{id:userName}&#8221;<span>, </span>&#8220;#{id:password}&#8221;<span>)</span></p>
+<p>}</p>
+</blockquote>
+<p>Basically when the user presses the return key, using Dojo, I can re-write the form onsubmit method to prevent it posting back to the server, and instead run my own &#8220;doLogin&#8221; function.</p>
+<p>It&#8217;s important to be aware that this will effectively break the XPage for all other actions unless I re-write the original onSubmit function back to what it was after I have finished, but here, I am going to be re-loading the page anyway so it&#8217;s not necessary.</p>
+<p>Once again, we have more evidence that if you&#8217;re beginning to get into XPages, it&#8217;s worth spending as much time learning Dojo as it is to learn the XPages themselves.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-10-19-catch-and-cancel-return-key-press-for-safari-in-xpages-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: wedding	</title>
+	<atom:link href="/2002-10-17-wedding-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2002-10-17-wedding-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:46:26 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Mum		</title>
+		<link>/2002-10-17-wedding-html/#comment-1017</link>
+
+		<dc:creator><![CDATA[Mum]]></dc:creator>
+		<pubDate>Mon, 28 Oct 2002 11:38:40 +0000</pubDate>
+		<guid isPermaLink="false">/2002-10-17-wedding-html/#comment-1017</guid>
+
+					<description><![CDATA[&lt;p&gt;I&#039;m looking forward to seeing all of the official photos - they look good! Sorry about the dentist - you should have kept going every six months ( that&#039;s a very Mum thing to say!!(&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;m looking forward to seeing all of the official photos &#8211; they look good! Sorry about the dentist &#8211; you should have kept going every six months ( that&#8217;s a very Mum thing to say!!(</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

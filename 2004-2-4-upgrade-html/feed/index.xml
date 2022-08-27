@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: upgrade	</title>
+	<atom:link href="/2004-2-4-upgrade-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2004-2-4-upgrade-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:41:11 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Ben Poole		</title>
+		<link>/2004-2-4-upgrade-html/#comment-862</link>
+
+		<dc:creator><![CDATA[Ben Poole]]></dc:creator>
+		<pubDate>Wed, 04 Feb 2004 15:42:24 +0000</pubDate>
+		<guid isPermaLink="false">/2004-2-4-upgrade-html/#comment-862</guid>
+
+					<description><![CDATA[&lt;p&gt;Same here. That&#039;s the problem with IBM stuff, it&#039;s all aimed at corporate types with dev. depts that can spend this money. What about independent coders who just want to learn the stuff? I&#039;m not a contractor or anything, but even I&#039;m in this position. Recently d&#039;loaded the WSAD trial: no idea whether it&#039;s time-restricted, but is that an option for learning this stuff?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Same here. That&#8217;s the problem with IBM stuff, it&#8217;s all aimed at corporate types with dev. depts that can spend this money. What about independent coders who just want to learn the stuff? I&#8217;m not a contractor or anything, but even I&#8217;m in this position. Recently d&#8217;loaded the WSAD trial: no idea whether it&#8217;s time-restricted, but is that an option for learning this stuff?</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

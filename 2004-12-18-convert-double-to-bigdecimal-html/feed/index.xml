@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Convert Double to BigDecimal	</title>
+	<atom:link href="/2004-12-18-convert-double-to-bigdecimal-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2004-12-18-convert-double-to-bigdecimal-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:37:18 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2004-12-18-convert-double-to-bigdecimal-html/#comment-1359</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Fri, 27 Oct 2006 12:16:46 +0000</pubDate>
+		<guid isPermaLink="false">/2004-12-18-convert-double-to-bigdecimal-html/#comment-1359</guid>
+
+					<description><![CDATA[&lt;p&gt;I think you&#039;re probably using a native double as opposed to a Double object, you&#039;ll just need to convert from one to the other to get this code to work.&lt;/p&gt;&lt;p&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I think you&#8217;re probably using a native double as opposed to a Double object, you&#8217;ll just need to convert from one to the other to get this code to work.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: GJ		</title>
+		<link>/2004-12-18-convert-double-to-bigdecimal-html/#comment-1360</link>
+
+		<dc:creator><![CDATA[GJ]]></dc:creator>
+		<pubDate>Fri, 27 Oct 2006 11:33:17 +0000</pubDate>
+		<guid isPermaLink="false">/2004-12-18-convert-double-to-bigdecimal-html/#comment-1360</guid>
+
+					<description><![CDATA[&lt;p&gt; &#062;&#062;String strNumber = number.toString(); &lt;br/&gt;&lt;br/&gt;&#062;&#062; Cant do doubleValue.toString()&lt;br/&gt;&lt;br/&gt;For Ref: &lt;img src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5N3GHL/$FILE/sad.gif&quot;&lt;/a&gt;&gt;&lt;br/&gt;&lt;br/&gt;C:\TestBigDecimal.java:30: double cannot be dereferenced&lt;br/&gt;&lt;br/&gt;                   String strNumber = amt1.toString();&lt;br/&gt;&lt;br/&gt;                                                     ^&lt;br/&gt;&lt;br/&gt;1 error&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p> &gt;&gt;String strNumber = number.toString(); </p>
+<p>&gt;&gt; Cant do doubleValue.toString()</p>
+<p>For Ref: <img src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5N3GHL/$FILE/sad.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5N3GHL/$FILE/sad.gif</a>&#8220;></p>
+<p>C:\TestBigDecimal.java:30: double cannot be dereferenced</p>
+<p>                   String strNumber = amt1.toString();</p>
+<p>                                                     ^</p>
+<p>1 error</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

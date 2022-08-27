@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: VPN Client for Mac	</title>
+	<atom:link href="/2007-5-17-vpn-client-for-mac-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2007-5-17-vpn-client-for-mac-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:29:25 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2007-5-17-vpn-client-for-mac-html/#comment-200</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Fri, 18 May 2007 13:41:06 +0000</pubDate>
+		<guid isPermaLink="false">/2007-5-17-vpn-client-for-mac-html/#comment-200</guid>
+
+					<description><![CDATA[&lt;p&gt;Bloody Comment Spammers!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Bloody Comment Spammers!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Ben Poole		</title>
+		<link>/2007-5-17-vpn-client-for-mac-html/#comment-198</link>
+
+		<dc:creator><![CDATA[Ben Poole]]></dc:creator>
+		<pubDate>Fri, 18 May 2007 12:25:23 +0000</pubDate>
+		<guid isPermaLink="false">/2007-5-17-vpn-client-for-mac-html/#comment-198</guid>
+
+					<description><![CDATA[&lt;p&gt;Doh! I just checked the website for the comment at #1 - I think we got duped Matt ;o)&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Doh! I just checked the website for the comment at #1 &#8211; I think we got duped Matt ;o)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2007-5-17-vpn-client-for-mac-html/#comment-201</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Fri, 18 May 2007 07:41:23 +0000</pubDate>
+		<guid isPermaLink="false">/2007-5-17-vpn-client-for-mac-html/#comment-201</guid>
+
+					<description><![CDATA[&lt;p&gt;@1 - Technically you&#039;re right, I could use the native Apple VPN client but once you sign a document stating you will use a certain bit of software then it&#039;s usually good practice to go along with your agreement!&lt;br  /&gt;&lt;br  /&gt;@2 - Now that&#039;s a good idea, never had  a reason to play with AppleScript before. If only I had the spare time. Oh well another thing to add to the to do list.&lt;br  /&gt;&lt;br  /&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>@1 &#8211; Technically you&#8217;re right, I could use the native Apple VPN client but once you sign a document stating you will use a certain bit of software then it&#8217;s usually good practice to go along with your agreement!</p>
+<p>@2 &#8211; Now that&#8217;s a good idea, never had  a reason to play with AppleScript before. If only I had the spare time. Oh well another thing to add to the to do list.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Ben Poole		</title>
+		<link>/2007-5-17-vpn-client-for-mac-html/#comment-199</link>
+
+		<dc:creator><![CDATA[Ben Poole]]></dc:creator>
+		<pubDate>Thu, 17 May 2007 22:03:24 +0000</pubDate>
+		<guid isPermaLink="false">/2007-5-17-vpn-client-for-mac-html/#comment-199</guid>
+
+					<description><![CDATA[&lt;p&gt;@1 why not? It&#039;s not like there&#039;s a standard for all this. At my company, we use a different suplier again, which is purely Windows-only, i.e. I&#039;d never get in with my Mac, even if they wanted me to.&lt;br  /&gt;&lt;br  /&gt;@Matt: the situation you outline is a bit of a pain, I agree. Could this be a job for... Applescript??&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>@1 why not? It&#8217;s not like there&#8217;s a standard for all this. At my company, we use a different suplier again, which is purely Windows-only, i.e. I&#8217;d never get in with my Mac, even if they wanted me to.</p>
+<p>@Matt: the situation you outline is a bit of a pain, I agree. Could this be a job for&#8230; Applescript??</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: SuperNTF	</title>
+	<atom:link href="/2007-6-26-superntf-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2007-6-26-superntf-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:29:24 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Kevin Pettitt		</title>
+		<link>/2007-6-26-superntf-html/#comment-1079</link>
+
+		<dc:creator><![CDATA[Kevin Pettitt]]></dc:creator>
+		<pubDate>Wed, 27 Jun 2007 15:01:12 +0000</pubDate>
+		<guid isPermaLink="false">/2007-6-26-superntf-html/#comment-1079</guid>
+
+					<description><![CDATA[&lt;p&gt;It should be noted that Matt is helping tremendously to figure out the best way to provide a web interface to SuperNTF without deviated from the primary goal of keeping it from getting too complicated for newbies.  Thanks Matt!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>It should be noted that Matt is helping tremendously to figure out the best way to provide a web interface to SuperNTF without deviated from the primary goal of keeping it from getting too complicated for newbies.  Thanks Matt!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

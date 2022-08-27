@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>github &#8211; mattwhite.me</title>
+	<atom:link href="/tag/github/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:19:12 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Lessons learned with Jekyll and Github Pages</title>
+		<link>/2013-11-15-lessons-learned-with-jekyll-and-github-pages/</link>
+					<comments>/2013-11-15-lessons-learned-with-jekyll-and-github-pages/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 15 Nov 2013 13:30:31 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[github]]></category>
+		<category><![CDATA[jekyll]]></category>
+		<guid isPermaLink="false">/2013-11-15-lessons-learned-with-jekyll-and-github-pages/</guid>
+
+					<description><![CDATA[One of my projects at the moment has a requirement to create a semi static site for documentation to be hosted on Github. The fact you can do this in Github is great, but we wanted to make the documentation fit the rest of the application in terms of look and feel. So over the [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>One of my projects at the moment has a requirement to create a semi static site for documentation to be hosted on Github. The fact you can do this in <a target="_blank" href="http://pages.github.com/" rel="noopener">Github</a> is great, but we wanted to make the documentation fit the rest of the application in terms of look and feel. So over the last week I&#8217;ve been created a <a target="_blank" href="http://jekyllrb.com/" rel="noopener">Jekyll</a> site which has a set of layouts and then a bunch of posts for content. In theory it&#8217;s a great way of creating these sorts of sites, but I found there were several peculiarities when using Jekyll in combination with Github Pages that weren&#8217;t immediately obvious.</p>
+<p>So a little about my configuration first of all. I&#8217;m running a Mac with Mavericks installed, and I wanted to be able to do local testing of the pages. This involved several steps to get set up:</p>
+<ol>
+<li>Install Xcode, this is needed to install some of the command line tools we&#8217;re going to need later on.</li>
+<li>
+<p>Once Xcode is installed then you need to install the command line tools (so that we can then install Ruby). I think this has been made more difficult, so I&#8217;m not sure how long these instructions will work, but as of November 2013, you need to open a terminal window and type:</p>
+<pre>xcode-select -install</pre>
+</li>
+<li>Once that process has completed (it will all take a while), we need to install Ruby, so again from the terminal window:
+<pre>\curl -L https://get.rvm.io/ | bash -s stable --ruby</pre>
+</li>
+<li>Again this may take some time, but once we&#8217;re done then we can create out Jekyll site.</li>
+<li>First we want to make sure we&#8217;ve got the appropriate Github project cloned to disk and then switched branches to the &#8220;gh-pages&#8221; branch. If it&#8217;s not been created then you can do this from the Settings page of the project on the Github website.</li>
+<li>Delete any content in the site, and navigate to the folder in your terminal window</li>
+<li>Now we&#8217;re going to generate an empty site:
+<pre>jekyll new my-site-name</pre>
+</li>
+<li>Once the site is generated, move the content into the root of the Github project folder</li>
+<li>Now we need to go and modify the _config.yml file. Now this is quite important and I&#8217;m very much a noob at this, so these settings are what work for me, YMMV:
+<pre>safe: true
+lsi: false
+pygments: true
+baseurl: /my-site-name
+markdown: rdiscount
+permalink: /docs/:title.html
+</pre>
+</li>
+<li>If you specify the markdown setting, you&#8217;ll also need to install the rdiscount Ruby Gem:
+<pre>gem install rdiscount</pre>
+</li>
+<li>You&#8217;ll also want to add a &#8220;.gitignore&#8221; file to the root of the folder and put in it:
+<pre>drafts
+_site
+</pre>
+</li>
+<li>Now you can run the server, with a few extra switches so that it will live generate any changes that you make to the site:
+<pre>jekyll serve --watch --baseurl ''</pre>
+</li>
+<li>The baseurl switch is important because locally you want to run http://localhost:4000/index.html but on Github Pages you will be running http://my-site-name.github.io/my-site-name/index.html, so the default setting is made in _config.yml and you&#8217;re overriding when starting your local server.</li>
+<li>Now you&#8217;ll want to create index.html, my suggestion is that you make use of the default.html file located in _layouts to control the look and feel of your site, just put content into the index.html page.</li>
+<li>And then you can start creating real content in the _posts folder.</li>
+</ol>
+<p>Once you sync up to Github changes are not visible immediately they can take up to ten minutes to show, which is why you want the local server.</p>
+<p>A few other bits and pieces that I learned after a bit of messing around:</p>
+<ul>
+<li>Changes to the _config.yml file require you to restart the Jekyll server, everything else will be picked up live (if you&#8217;ve used the &#8211;watch switch)</li>
+<li>I couldn&#8217;t work out how to host images, so you&#8217;ll need to put those up somewhere else, I use a public readable Amazon S3 bucket.</li>
+<li>There are various chunks of code which Jekyll has for outputting lists of posts, but none of them matched what I needed so in the end I hard coded quite a lot of links. When building links, make sure to use this format:
+<pre>&lt;a href="{{ site.baseurl }}/docs/MyPage.html"&gt;My Page&lt;/a&gt;
+</pre>
+<p>The baseurl is coming from the _config.yml file, the &#8220;/docs/&#8221; part is coming from the permalink, you can set this up however you want, but I found this easier than trying to use the date format links which there Jekyll site seems to recommend. The &#8220;MyPage.html&#8221; element is the file name of the post document.</li>
+<li>Beware case sensitivity! On my local server it was forgiving of getting file name cases wrong, but Github is not so generous, that wasted several hours of my life!</li>
+</ul>
+<p>Overall Github Pages with Jekyll is nice if you&#8217;re wanting a semi static, nice looking website, so perfect for documentation and lots of people seem to use if for blogs as well. Personally I found the whole thing a little painful to use, but each to their own!</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2013-11-15-lessons-learned-with-jekyll-and-github-pages/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

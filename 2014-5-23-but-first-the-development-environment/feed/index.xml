@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: But first the development environment	</title>
+	<atom:link href="/2014-5-23-but-first-the-development-environment/feed/" rel="self" type="application/rss+xml" />
+	<link>/2014-5-23-but-first-the-development-environment/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:18:56 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Andrew Magerman		</title>
+		<link>/2014-5-23-but-first-the-development-environment/#comment-30</link>
+
+		<dc:creator><![CDATA[Andrew Magerman]]></dc:creator>
+		<pubDate>Sun, 01 Jun 2014 17:37:43 +0000</pubDate>
+		<guid isPermaLink="false">/2014-5-23-but-first-the-development-environment/#comment-30</guid>
+
+					<description><![CDATA[&lt;p&gt;Matt, if I get it right heroku is the hosting platform - what would I need to specify should I look for one in Switzerland (or somewhere else, for that matter?)&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Matt, if I get it right heroku is the hosting platform &#8211; what would I need to specify should I look for one in Switzerland (or somewhere else, for that matter?)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Ben Poole		</title>
+		<link>/2014-5-23-but-first-the-development-environment/#comment-31</link>
+
+		<dc:creator><![CDATA[Ben Poole]]></dc:creator>
+		<pubDate>Tue, 27 May 2014 12:01:50 +0000</pubDate>
+		<guid isPermaLink="false">/2014-5-23-but-first-the-development-environment/#comment-31</guid>
+
+					<description><![CDATA[&lt;p&gt;You can use colour coding and tweak the folder hierarchy in bog-standard Terminal you know. Un*x foo to the fore! :-)&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>You can use colour coding and tweak the folder hierarchy in bog-standard Terminal you know. Un*x foo to the fore! 🙂</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2014-5-23-but-first-the-development-environment/#comment-33</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Tue, 27 May 2014 06:41:49 +0000</pubDate>
+		<guid isPermaLink="false">/2014-5-23-but-first-the-development-environment/#comment-33</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2014-5-23-but-first-the-development-environment/#comment-32&quot;&gt;Mark Leusink&lt;/a&gt;.
+
+&lt;p&gt;I was already using nodemon and sublime linter, but the sidebar enhancements and Oh My Zsh are going to be really useful, thanks.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2014-5-23-but-first-the-development-environment/#comment-32">Mark Leusink</a>.</p>
+<p>I was already using nodemon and sublime linter, but the sidebar enhancements and Oh My Zsh are going to be really useful, thanks.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mark Leusink		</title>
+		<link>/2014-5-23-but-first-the-development-environment/#comment-32</link>
+
+		<dc:creator><![CDATA[Mark Leusink]]></dc:creator>
+		<pubDate>Mon, 26 May 2014 11:26:41 +0000</pubDate>
+		<guid isPermaLink="false">/2014-5-23-but-first-the-development-environment/#comment-32</guid>
+
+					<description><![CDATA[&lt;p&gt;I&#039;m using a similar setup, but wanted to add some stuff I personally find very useful:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;nodemon (nodemon.io): start your node server with &#039;nodemon&#039; instead of &#039;node&#039; and it will automatically restart whenever a file changes.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Oh My Zsh: a replacement for the standard OS X Terminal, making it easier to work with (that should get your attention :-) I like the color coding and that it only shows the current folder (not a full hierarchy).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Useful Sublime Text plugins (installed via Package Manager - the Sublime Text package manager):&lt;br /&gt;  - Sublime Linter with the JSHint plugin for Javascript validation&lt;br /&gt;  - Bracket Highlighter (highlights brackets)&lt;br /&gt;  - Side Bar Enhancements: add right click options to files (for instance &#034;run in browser&#034;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;m using a similar setup, but wanted to add some stuff I personally find very useful:</p>
+<ul>
+<li>
+<p>nodemon (nodemon.io): start your node server with &#8216;nodemon&#8217; instead of &#8216;node&#8217; and it will automatically restart whenever a file changes.</p>
+</li>
+<li>
+<p>Oh My Zsh: a replacement for the standard OS X Terminal, making it easier to work with (that should get your attention 🙂 I like the color coding and that it only shows the current folder (not a full hierarchy).</p>
+</li>
+<li>
+<p>Useful Sublime Text plugins (installed via Package Manager &#8211; the Sublime Text package manager):<br />  &#8211; Sublime Linter with the JSHint plugin for Javascript validation<br />  &#8211; Bracket Highlighter (highlights brackets)<br />  &#8211; Side Bar Enhancements: add right click options to files (for instance &quot;run in browser&quot;)</p>
+</li>
+</ul>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

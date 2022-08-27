@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>o2 &#8211; mattwhite.me</title>
+	<atom:link href="/tag/o2/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>And the wallet is safe again</title>
+		<link>/2009-6-9-and-the-wallet-is-safe-again-html/</link>
+					<comments>/2009-6-9-and-the-wallet-is-safe-again-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 09 Jun 2009 07:02:31 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[iphone]]></category>
+		<category><![CDATA[o2]]></category>
+		<guid isPermaLink="false">/2009-6-9-and-the-wallet-is-safe-again-html/</guid>
+
+					<description><![CDATA[Having got all excited about the new iPhone last night it seems I may have jumped the gun a little. Unlike in previous years, there is no early upgrade path for existing iPhone customers. According to the O2 Website: If you&#8217;re already with us on Pay Monthly, you can upgrade to the new iPhone 3G [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Having <a href="http://mattwhite.me/blog/2009/6/8/so-there-goes-the-wallet-for-the-summer.html">got all excited about the new iPhone</a> last night it seems I may have jumped the gun a little. Unlike in previous years, there is no early upgrade path for existing iPhone customers. According to the <a href="http://shop.o2.co.uk/update/paymonth.html">O2 Website</a>:</p>
+<blockquote>
+<p>If you&#8217;re already with us on Pay Monthly, you can upgrade to the new iPhone 3G when it&#8217;s time to upgrade. It&#8217;s usually the last month of your contract, but you can check at <a class="first-child nth-child-odd nth-child-1" title="My O2" href="http://www.o2.co.uk/myo2" target="_blank" rel="noopener">My O2</a>.</p>
+</blockquote>
+<p>So for me, that means no upgrade until the end of the year. Oh well, I shall have to make do with the new OS in the meantime.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-6-9-and-the-wallet-is-safe-again-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

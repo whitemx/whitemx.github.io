@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Forcing a file name when downloading a dynamically generated csv file	</title>
+	<atom:link href="/2010-7-14-forcing-a-file-name-when-downloading-a-dynamically-generated-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2010-7-14-forcing-a-file-name-when-downloading-a-dynamically-generated-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:26 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: CayRiuS		</title>
+		<link>/2010-7-14-forcing-a-file-name-when-downloading-a-dynamically-generated-html/#comment-1129</link>
+
+		<dc:creator><![CDATA[CayRiuS]]></dc:creator>
+		<pubDate>Sat, 25 Sep 2010 13:00:06 +0000</pubDate>
+		<guid isPermaLink="false">/2010-7-14-forcing-a-file-name-when-downloading-a-dynamically-generated-html/#comment-1129</guid>
+
+					<description><![CDATA[&lt;p&gt;&lt;a href=&quot;http://sohbet.tanitanis.com&quot;/ title=&quot;Sohbet Odaları&quot; rel=&quot;nofollow ugc&quot;&gt;Sohbet Odaları&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Really trustworthy blog. Please keep updating with great posts like this one. I have booked marked your site and am about to email it to a few friends of mine that I know would enjoy reading..&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p><a href="http://sohbet.tanitanis.com/" title="Sohbet Odaları" rel="nofollow ugc">Sohbet Odaları</a></p>
+<p>Really trustworthy blog. Please keep updating with great posts like this one. I have booked marked your site and am about to email it to a few friends of mine that I know would enjoy reading..</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: programmerbyday		</title>
+		<link>/2010-7-14-forcing-a-file-name-when-downloading-a-dynamically-generated-html/#comment-1128</link>
+
+		<dc:creator><![CDATA[programmerbyday]]></dc:creator>
+		<pubDate>Sat, 17 Jul 2010 20:51:00 +0000</pubDate>
+		<guid isPermaLink="false">/2010-7-14-forcing-a-file-name-when-downloading-a-dynamically-generated-html/#comment-1128</guid>
+
+					<description><![CDATA[&lt;p&gt;Thanks Matt, this is just what I was looking for (trying to figure out how to save an excel file without the &#039;.xsp&#034; extention) !&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thanks Matt, this is just what I was looking for (trying to figure out how to save an excel file without the &#8216;.xsp&quot; extention) !</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Jens Polster		</title>
+		<link>/2010-7-14-forcing-a-file-name-when-downloading-a-dynamically-generated-html/#comment-1127</link>
+
+		<dc:creator><![CDATA[Jens Polster]]></dc:creator>
+		<pubDate>Wed, 14 Jul 2010 18:02:47 +0000</pubDate>
+		<guid isPermaLink="false">/2010-7-14-forcing-a-file-name-when-downloading-a-dynamically-generated-html/#comment-1127</guid>
+
+					<description><![CDATA[&lt;p&gt;The same technique can of course also be used in LotusScript. See my post about &lt;a href=&quot;http://www.domblog.de/domblog.nsf/d6plinks/vcards-from-lotusscript&quot; rel=&quot;nofollow ugc&quot;&gt;dynamically created vCard downloads&lt;/a&gt; for sample code.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>The same technique can of course also be used in LotusScript. See my post about <a href="http://www.domblog.de/domblog.nsf/d6plinks/vcards-from-lotusscript" rel="nofollow ugc">dynamically created vCard downloads</a> for sample code.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

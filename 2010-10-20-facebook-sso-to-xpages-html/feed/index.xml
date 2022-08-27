@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Facebook SSO to XPages	</title>
+	<atom:link href="/2010-10-20-facebook-sso-to-xpages-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2010-10-20-facebook-sso-to-xpages-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:08 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Mark Barton		</title>
+		<link>/2010-10-20-facebook-sso-to-xpages-html/#comment-1379</link>
+
+		<dc:creator><![CDATA[Mark Barton]]></dc:creator>
+		<pubDate>Wed, 20 Oct 2010 08:56:57 +0000</pubDate>
+		<guid isPermaLink="false">/2010-10-20-facebook-sso-to-xpages-html/#comment-1379</guid>
+
+					<description><![CDATA[&lt;p&gt;Cheers Matt - looking forward to the write up.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Cheers Matt &#8211; looking forward to the write up.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2010-10-20-facebook-sso-to-xpages-html/#comment-1378</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Wed, 20 Oct 2010 08:55:13 +0000</pubDate>
+		<guid isPermaLink="false">/2010-10-20-facebook-sso-to-xpages-html/#comment-1378</guid>
+
+					<description><![CDATA[&lt;p&gt;Hi Mark,&lt;/p&gt;&lt;p&gt;No this would be possible with classic Domino, just harder. I will write up the process as soon as I get the chance but basically it uses the Facebook graphs Rest API to get information about the user based upon their access_token key and then registering them as full Domino users behind the scenes.&lt;/p&gt;&lt;p&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hi Mark,</p>
+<p>No this would be possible with classic Domino, just harder. I will write up the process as soon as I get the chance but basically it uses the Facebook graphs Rest API to get information about the user based upon their access_token key and then registering them as full Domino users behind the scenes.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mark Barton		</title>
+		<link>/2010-10-20-facebook-sso-to-xpages-html/#comment-1377</link>
+
+		<dc:creator><![CDATA[Mark Barton]]></dc:creator>
+		<pubDate>Wed, 20 Oct 2010 08:52:04 +0000</pubDate>
+		<guid isPermaLink="false">/2010-10-20-facebook-sso-to-xpages-html/#comment-1377</guid>
+
+					<description><![CDATA[&lt;p&gt;Very cool Matt.&lt;/p&gt;&lt;p&gt;Question:  Was this only possible because of X Pages?  Or did you extract the login info from Facebook and generate a LTPA token?&lt;/p&gt;&lt;p&gt;Mark&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Very cool Matt.</p>
+<p>Question:  Was this only possible because of X Pages?  Or did you extract the login info from Facebook and generate a LTPA token?</p>
+<p>Mark</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

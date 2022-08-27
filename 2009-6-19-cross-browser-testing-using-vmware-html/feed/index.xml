@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Cross browser testing using VMWare	</title>
+	<atom:link href="/2009-6-19-cross-browser-testing-using-vmware-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2009-6-19-cross-browser-testing-using-vmware-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:40 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2009-6-19-cross-browser-testing-using-vmware-html/#comment-1237</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Fri, 26 Jun 2009 08:24:03 +0000</pubDate>
+		<guid isPermaLink="false">/2009-6-19-cross-browser-testing-using-vmware-html/#comment-1237</guid>
+
+					<description><![CDATA[&lt;p&gt;@Eric and @Matthew - you may want to do a Google for Hackintosh on VMWare and be pleasantly surprised ;-)&lt;/p&gt;&lt;p&gt;@Matthew - with regards to Windows 7, it&#039;s a huge leap forwards from XP, runs absolutely fine in a VM and is much more OS X like. THough I won&#039;t be switching back to MS any time soon, it is a much more pleasant place to be.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>@Eric and @Matthew &#8211; you may want to do a Google for Hackintosh on VMWare and be pleasantly surprised 😉</p>
+<p>@Matthew &#8211; with regards to Windows 7, it&#8217;s a huge leap forwards from XP, runs absolutely fine in a VM and is much more OS X like. THough I won&#8217;t be switching back to MS any time soon, it is a much more pleasant place to be.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matthew Southgate		</title>
+		<link>/2009-6-19-cross-browser-testing-using-vmware-html/#comment-1236</link>
+
+		<dc:creator><![CDATA[Matthew Southgate]]></dc:creator>
+		<pubDate>Thu, 25 Jun 2009 15:24:07 +0000</pubDate>
+		<guid isPermaLink="false">/2009-6-19-cross-browser-testing-using-vmware-html/#comment-1236</guid>
+
+					<description><![CDATA[&lt;p&gt;It is a shame there is no MAC support for VMware, As only having access to microsoft computer makes testing hard work,&lt;/p&gt;&lt;p&gt;How have you found running windows 7 on VMware as just about to start testing?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>It is a shame there is no MAC support for VMware, As only having access to microsoft computer makes testing hard work,</p>
+<p>How have you found running windows 7 on VMware as just about to start testing?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Eric Mack		</title>
+		<link>/2009-6-19-cross-browser-testing-using-vmware-html/#comment-1235</link>
+
+		<dc:creator><![CDATA[Eric Mack]]></dc:creator>
+		<pubDate>Fri, 19 Jun 2009 21:08:36 +0000</pubDate>
+		<guid isPermaLink="false">/2009-6-19-cross-browser-testing-using-vmware-html/#comment-1235</guid>
+
+					<description><![CDATA[&lt;p&gt;Thanks for the tip, Matt. Now, If could only find a way to have a MAC OS in a VM so I can test stuff... I&#039;m willing to buy the MAC OS, and I&#039;ve seen people blog how but it still seems scary and more complex than just buying a Mac - which I;m not ready to do at this time.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thanks for the tip, Matt. Now, If could only find a way to have a MAC OS in a VM so I can test stuff&#8230; I&#8217;m willing to buy the MAC OS, and I&#8217;ve seen people blog how but it still seems scary and more complex than just buying a Mac &#8211; which I;m not ready to do at this time.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Ben Poole		</title>
+		<link>/2009-6-19-cross-browser-testing-using-vmware-html/#comment-1234</link>
+
+		<dc:creator><![CDATA[Ben Poole]]></dc:creator>
+		<pubDate>Fri, 19 Jun 2009 09:39:46 +0000</pubDate>
+		<guid isPermaLink="false">/2009-6-19-cross-browser-testing-using-vmware-html/#comment-1234</guid>
+
+					<description><![CDATA[&lt;p&gt;Thanks for posting this Matt; investigating the VMs was on my &#034;to do&#034; list after our sober discussion earlier.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thanks for posting this Matt; investigating the VMs was on my &quot;to do&quot; list after our sober discussion earlier.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

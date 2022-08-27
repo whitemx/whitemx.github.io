@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: XPages101 done. (for now)	</title>
+	<atom:link href="/2010-2-10-xpages101-done-for-now-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2010-2-10-xpages101-done-for-now-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Giulio		</title>
+		<link>/2010-2-10-xpages101-done-for-now-html/#comment-1390</link>
+
+		<dc:creator><![CDATA[Giulio]]></dc:creator>
+		<pubDate>Thu, 11 Feb 2010 05:08:24 +0000</pubDate>
+		<guid isPermaLink="false">/2010-2-10-xpages101-done-for-now-html/#comment-1390</guid>
+
+					<description><![CDATA[&lt;p&gt;Matt, looks like you have found an effective way to evangelise Xpages for the market. IBM is a little hypocritical on their philosophies and their course offerings seems to typify it. &lt;/p&gt;&lt;p&gt;IBM say they want to reach the SMB market, but until they price it accordingly, it&#039;s one of several self-inflicted barriers to entry. The fact that there is a severe lack of availability of Lotus/Domino courses in the market place speaks for itself.&lt;/p&gt;&lt;p&gt;This is why Microsoft is pulverising IBM in the battle for mindshare, because if you get enough geeks in a room saying, &#034;yeah you can do this in Notes&#034;, then you improve your chances of growing your installbase. I&#039;ve looked at a few MS technologies in the collaboration area, and frankly it&#039;s alot more complicated when stacked up against Domino. So, on paper Domino should just be knocking it out of the park.&lt;/p&gt;&lt;p&gt;(Unfortunately) Steve B had a good point when he said  &#034;developers! developers! developers!&#034;&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Matt, looks like you have found an effective way to evangelise Xpages for the market. IBM is a little hypocritical on their philosophies and their course offerings seems to typify it. </p>
+<p>IBM say they want to reach the SMB market, but until they price it accordingly, it&#8217;s one of several self-inflicted barriers to entry. The fact that there is a severe lack of availability of Lotus/Domino courses in the market place speaks for itself.</p>
+<p>This is why Microsoft is pulverising IBM in the battle for mindshare, because if you get enough geeks in a room saying, &quot;yeah you can do this in Notes&quot;, then you improve your chances of growing your installbase. I&#8217;ve looked at a few MS technologies in the collaboration area, and frankly it&#8217;s alot more complicated when stacked up against Domino. So, on paper Domino should just be knocking it out of the park.</p>
+<p>(Unfortunately) Steve B had a good point when he said  &quot;developers! developers! developers!&quot;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2010-2-10-xpages101-done-for-now-html/#comment-1389</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Wed, 10 Feb 2010 13:43:48 +0000</pubDate>
+		<guid isPermaLink="false">/2010-2-10-xpages101-done-for-now-html/#comment-1389</guid>
+
+					<description><![CDATA[&lt;p&gt;@John - Thanks for the feedback, that&#039;s useful. I do plan to do a course up North at some point, it&#039;s just a matter of getting the venue and dates sorted out. - so much to do, so little time.&lt;/p&gt;&lt;p&gt;@Mat - I&#039;ve taught the IBM course on XPages several times so I know it works well. The problem is that it costs a fair bit which makes it difficult for independent consultants and small business to justify. The aim with my one day course was to try and cover the basics at as low a cost as possible.&lt;/p&gt;&lt;p&gt;As for the course outline, you&#039;ll see more later in the next few days when I publish the online course details. (I&#039;m still breaking up the lessons at the moment).&lt;/p&gt;&lt;p&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>@John &#8211; Thanks for the feedback, that&#8217;s useful. I do plan to do a course up North at some point, it&#8217;s just a matter of getting the venue and dates sorted out. &#8211; so much to do, so little time.</p>
+<p>@Mat &#8211; I&#8217;ve taught the IBM course on XPages several times so I know it works well. The problem is that it costs a fair bit which makes it difficult for independent consultants and small business to justify. The aim with my one day course was to try and cover the basics at as low a cost as possible.</p>
+<p>As for the course outline, you&#8217;ll see more later in the next few days when I publish the online course details. (I&#8217;m still breaking up the lessons at the moment).</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mat Newman		</title>
+		<link>/2010-2-10-xpages101-done-for-now-html/#comment-1388</link>
+
+		<dc:creator><![CDATA[Mat Newman]]></dc:creator>
+		<pubDate>Wed, 10 Feb 2010 11:12:41 +0000</pubDate>
+		<guid isPermaLink="false">/2010-2-10-xpages101-done-for-now-html/#comment-1388</guid>
+
+					<description><![CDATA[&lt;p&gt;G&#039;Dat Matt,&lt;/p&gt;&lt;p&gt;Interested in how you choose your delivery method.  Sounds like you purposefully stayed away from the traditional IBM &#034;lab model&#034; of delivery. Was this intentional?  Did you have a look at the IBM course on xPages before running your session?&lt;/p&gt;&lt;p&gt;Do you have a course outline that you can share?&lt;/p&gt;&lt;p&gt;Thanks,&lt;/p&gt;&lt;p&gt;Mat&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>G&#8217;Dat Matt,</p>
+<p>Interested in how you choose your delivery method.  Sounds like you purposefully stayed away from the traditional IBM &quot;lab model&quot; of delivery. Was this intentional?  Did you have a look at the IBM course on xPages before running your session?</p>
+<p>Do you have a course outline that you can share?</p>
+<p>Thanks,</p>
+<p>Mat</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: John Cawrey		</title>
+		<link>/2010-2-10-xpages101-done-for-now-html/#comment-1387</link>
+
+		<dc:creator><![CDATA[John Cawrey]]></dc:creator>
+		<pubDate>Wed, 10 Feb 2010 10:41:24 +0000</pubDate>
+		<guid isPermaLink="false">/2010-2-10-xpages101-done-for-now-html/#comment-1387</guid>
+
+					<description><![CDATA[&lt;p&gt;Looks like a very positive outcome. Let us know when you plan to do one &#039;up north&#039; please.&lt;/p&gt;&lt;p&gt;The intermediate course could be defined broadly as being :&lt;br/&gt;&#039;the things that those people who attended the basic course struggle with when starting to develop their first few applications in the real world&#039;&lt;/p&gt;&lt;p&gt;so, in a few weeks/months time, ask them how far they got with their own apps, and what issues/barriers are they hitting, and there&#039;s your content for the next level course.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Looks like a very positive outcome. Let us know when you plan to do one &#8216;up north&#8217; please.</p>
+<p>The intermediate course could be defined broadly as being :<br />&#8216;the things that those people who attended the basic course struggle with when starting to develop their first few applications in the real world&#8217;</p>
+<p>so, in a few weeks/months time, ask them how far they got with their own apps, and what issues/barriers are they hitting, and there&#8217;s your content for the next level course.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

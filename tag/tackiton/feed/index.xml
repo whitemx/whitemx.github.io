@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>tackiton &#8211; mattwhite.me</title>
+	<atom:link href="/tag/tackiton/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Heading home</title>
+		<link>/2010-8-6-heading-home-html/</link>
+					<comments>/2010-8-6-heading-home-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 05 Aug 2010 23:53:24 +0000</pubDate>
+				<category><![CDATA[My Life]]></category>
+		<category><![CDATA[iamlug]]></category>
+		<category><![CDATA[tackiton]]></category>
+		<category><![CDATA[travel]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2010-8-6-heading-home-html/</guid>
+
+					<description><![CDATA[It seems like a long time since I went away on holiday, and it is. Since the middle of July I&#8217;ve been to Latitude (great), Madeira (great), IamLUG (great) and run an XPages101 day (seemed to go well). So all in all it&#8217;s been a really enjoyable few weeks. I&#8217;m sat in JFK airport in [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>It seems like a long time since I went away on holiday, and it is. Since the middle of July I&#8217;ve been to <a href="http://www.latitudefestival.co.uk/">Latitude</a> (great), Madeira (great), <a href="http://iamlug.org/iamlug/IamLug2010.nsf">IamLUG</a> (great) and run an <a href="http://xpages101.net/">XPages101</a> day (seemed to go well). So all in all it&#8217;s been a really enjoyable few weeks.</p>
+<p>I&#8217;m sat in JFK airport in New York waiting to start the final leg of the journey home and much as it&#8217;s been a great couple of weeks away, I am *really* looking forward to getting back home and just decompressing for a couple of days before getting back into the real world with a vengeance on Monday morning.</p>
+<p>IamLUG was a really superb event, <a href="http://idonotes.com/">Chris</a> and the rest of the team do put on a good show. Everything was run incredibly smoothly, the content was very good indeed and, as ever, the people were great company. I presented my &#8220;<a href="http://mattwhite.me/iamlug_tenpatterns.zip">Ten XPages Design Patterns</a>&#8221; session, probably for the last time as I&#8217;ve used it for a year now. So I need to start thinking about future sessions pretty seriously now. (Bet you can&#8217;t guess what I plan to speak about next time!).</p>
+<p>After IamLUG, we had the inaugural &#8220;<a href="http://tackiton.com/">Tack It On</a>&#8221; day, and I&#8217;d really like to thank <a href="http://www.lotusnotebook.com/">David Leedy</a> for his invaluable assistance during the day. I had been rather lax and not given him a huge amount of guidance before the day itself but he dealt with all of the questions with good grace and humour. Things really wouldn&#8217;t have run as smoothly without him there. Overall I think the day went pretty well. I&#8217;m sure there&#8217;ll be more of these sorts of things happening in the future.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-8-6-heading-home-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

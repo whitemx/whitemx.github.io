@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Dojo ToolTips	</title>
+	<atom:link href="/2009-7-13-dojo-tooltips-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2009-7-13-dojo-tooltips-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:39 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Jerry Shelley		</title>
+		<link>/2009-7-13-dojo-tooltips-html/#comment-1421</link>
+
+		<dc:creator><![CDATA[Jerry Shelley]]></dc:creator>
+		<pubDate>Fri, 25 Feb 2011 17:15:23 +0000</pubDate>
+		<guid isPermaLink="false">/2009-7-13-dojo-tooltips-html/#comment-1421</guid>
+
+					<description><![CDATA[&lt;p&gt;Oooops - yes dojo tooltips do indeed work only if their divs are stored inside the panel or whatever is the source of the partial refresh that contains the controls to be tool-tipped.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Oooops &#8211; yes dojo tooltips do indeed work only if their divs are stored inside the panel or whatever is the source of the partial refresh that contains the controls to be tool-tipped.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Jerry Shelley		</title>
+		<link>/2009-7-13-dojo-tooltips-html/#comment-1420</link>
+
+		<dc:creator><![CDATA[Jerry Shelley]]></dc:creator>
+		<pubDate>Fri, 25 Feb 2011 17:07:08 +0000</pubDate>
+		<guid isPermaLink="false">/2009-7-13-dojo-tooltips-html/#comment-1420</guid>
+
+					<description><![CDATA[&lt;p&gt;Just discovered that dojo Tooltips don&#039;t work for controls that have been hidden and revealed by a partial refresh, eg after a radio button option has been chosen. :-(&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Just discovered that dojo Tooltips don&#39;t work for controls that have been hidden and revealed by a partial refresh, eg after a radio button option has been chosen. 🙁</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Keith Strickland		</title>
+		<link>/2009-7-13-dojo-tooltips-html/#comment-1419</link>
+
+		<dc:creator><![CDATA[Keith Strickland]]></dc:creator>
+		<pubDate>Thu, 23 Jul 2009 18:05:42 +0000</pubDate>
+		<guid isPermaLink="false">/2009-7-13-dojo-tooltips-html/#comment-1419</guid>
+
+					<description><![CDATA[&lt;p&gt;OK, I found it. Seems Lotus Domino 8.5.0 does not fully support IE 8. I found this entry over on the XPages Wiki http://www.youatnotes.de/web/youatnotes/wiki-xpages.nsf/dx/Browser_compatibility&lt;/p&gt;&lt;p&gt;The code listed there solved my issue, thanks for the speedy response :)&lt;/p&gt;&lt;p&gt;Keith&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>OK, I found it. Seems Lotus Domino 8.5.0 does not fully support IE 8. I found this entry over on the XPages Wiki <a href="http://www.youatnotes.de/web/youatnotes/wiki-xpages.nsf/dx/Browser_compatibility" rel="nofollow ugc">http://www.youatnotes.de/web/youatnotes/wiki-xpages.nsf/dx/Browser_compatibility</a></p>
+<p>The code listed there solved my issue, thanks for the speedy response 🙂</p>
+<p>Keith</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2009-7-13-dojo-tooltips-html/#comment-1418</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Thu, 23 Jul 2009 07:41:38 +0000</pubDate>
+		<guid isPermaLink="false">/2009-7-13-dojo-tooltips-html/#comment-1418</guid>
+
+					<description><![CDATA[&lt;p&gt;@Keith - I can&#039;t think of any reason why it wouldn&#039;t work with IE (apart from it being a POC). It is a technique I have used several times now and it has worked in IE6 / 7 / 8 during testing so not sure what the problem is there.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>@Keith &#8211; I can&#8217;t think of any reason why it wouldn&#8217;t work with IE (apart from it being a POC). It is a technique I have used several times now and it has worked in IE6 / 7 / 8 during testing so not sure what the problem is there.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Keith Strickland		</title>
+		<link>/2009-7-13-dojo-tooltips-html/#comment-1417</link>
+
+		<dc:creator><![CDATA[Keith Strickland]]></dc:creator>
+		<pubDate>Wed, 22 Jul 2009 20:58:39 +0000</pubDate>
+		<guid isPermaLink="false">/2009-7-13-dojo-tooltips-html/#comment-1417</guid>
+
+					<description><![CDATA[&lt;p&gt;Great tip Matt, Thanks! Does this work for you in Internet Explorer? It works great in firefox however I get an error in IE (Line: 20 Error: Member not found) when adding the dijit.Tooltip resource. I&#039;ve tried dijit.Tooltip.js also to no avail.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Great tip Matt, Thanks! Does this work for you in Internet Explorer? It works great in firefox however I get an error in IE (Line: 20 Error: Member not found) when adding the dijit.Tooltip resource. I&#8217;ve tried dijit.Tooltip.js also to no avail.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2009-7-13-dojo-tooltips-html/#comment-1416</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Mon, 13 Jul 2009 16:41:38 +0000</pubDate>
+		<guid isPermaLink="false">/2009-7-13-dojo-tooltips-html/#comment-1416</guid>
+
+					<description><![CDATA[&lt;p&gt;OK I corrected the code so it is unstruckout (?!?) now :-)&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>OK I corrected the code so it is unstruckout (?!?) now 🙂</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: John "HeyHeyJP" Palmer		</title>
+		<link>/2009-7-13-dojo-tooltips-html/#comment-1415</link>
+
+		<dc:creator><![CDATA[John "HeyHeyJP" Palmer]]></dc:creator>
+		<pubDate>Mon, 13 Jul 2009 16:39:44 +0000</pubDate>
+		<guid isPermaLink="false">/2009-7-13-dojo-tooltips-html/#comment-1415</guid>
+
+					<description><![CDATA[&lt;p&gt;@Tim / @Matt&lt;/p&gt;&lt;p&gt;Thanks.  Found the error (capital T) in one place and fixed that before testing page, but didn&#039;t get all them, so didn&#039;t know that&#039;s what was causing the problem.  Working now without error, even keeping in your struckout lines (strikedout?).&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>@Tim / @Matt</p>
+<p>Thanks.  Found the error (capital T) in one place and fixed that before testing page, but didn&#8217;t get all them, so didn&#8217;t know that&#8217;s what was causing the problem.  Working now without error, even keeping in your struckout lines (strikedout?).</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Declan Lynch		</title>
+		<link>/2009-7-13-dojo-tooltips-html/#comment-1414</link>
+
+		<dc:creator><![CDATA[Declan Lynch]]></dc:creator>
+		<pubDate>Mon, 13 Jul 2009 16:02:11 +0000</pubDate>
+		<guid isPermaLink="false">/2009-7-13-dojo-tooltips-html/#comment-1414</guid>
+
+					<description><![CDATA[&lt;p&gt;I find having the tooltip as a custom control works great for me as a write once use many control. I was interested by Tim&#039;s comment above about putting richer content into the tooltip so I tried an experiement of using an Editable Area in the tooltip custom control and it seems to work fairly well.&lt;/p&gt;&lt;p&gt;I will write up an example and post it soon.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I find having the tooltip as a custom control works great for me as a write once use many control. I was interested by Tim&#8217;s comment above about putting richer content into the tooltip so I tried an experiement of using an Editable Area in the tooltip custom control and it seems to work fairly well.</p>
+<p>I will write up an example and post it soon.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2009-7-13-dojo-tooltips-html/#comment-1413</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Mon, 13 Jul 2009 15:32:51 +0000</pubDate>
+		<guid isPermaLink="false">/2009-7-13-dojo-tooltips-html/#comment-1413</guid>
+
+					<description><![CDATA[&lt;p&gt;@Tim - Aha good spot, I really shouldn&#039;t blog while trying to do three other things at once is the lesson from this :-)&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>@Tim &#8211; Aha good spot, I really shouldn&#8217;t blog while trying to do three other things at once is the lesson from this 🙂</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Tim Tripcony		</title>
+		<link>/2009-7-13-dojo-tooltips-html/#comment-1412</link>
+
+		<dc:creator><![CDATA[Tim Tripcony]]></dc:creator>
+		<pubDate>Mon, 13 Jul 2009 15:31:05 +0000</pubDate>
+		<guid isPermaLink="false">/2009-7-13-dojo-tooltips-html/#comment-1412</guid>
+
+					<description><![CDATA[&lt;p&gt;@Matt / @John, that&#039;s because the second T should be lowercase:&lt;/p&gt;&lt;p&gt;xp:dojoModule name=&#034;dijit.Tooltip&#034;&lt;/p&gt;&lt;p&gt;When you include a dojo module - whether through a dojoModule resource or a dojo.require() statement in client-side JS - it&#039;s not just trying to load the extra script tag, it also verifies the object that tag creates, and since JS is case-sensitive, the object verification will fail if the case doesn&#039;t match.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>@Matt / @John, that&#8217;s because the second T should be lowercase:</p>
+<p>xp:dojoModule name=&quot;dijit.Tooltip&quot;</p>
+<p>When you include a dojo module &#8211; whether through a dojoModule resource or a dojo.require() statement in client-side JS &#8211; it&#8217;s not just trying to load the extra script tag, it also verifies the object that tag creates, and since JS is case-sensitive, the object verification will fail if the case doesn&#8217;t match.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

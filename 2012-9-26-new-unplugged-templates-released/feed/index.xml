@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: New Unplugged Templates released	</title>
+	<atom:link href="/2012-9-26-new-unplugged-templates-released/feed/" rel="self" type="application/rss+xml" />
+	<link>/2012-9-26-new-unplugged-templates-released/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:03 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2012-9-26-new-unplugged-templates-released/#comment-94</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Fri, 07 Dec 2012 10:03:41 +0000</pubDate>
+		<guid isPermaLink="false">/2012-9-26-new-unplugged-templates-released/#comment-94</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2012-9-26-new-unplugged-templates-released/#comment-93&quot;&gt;Some one&lt;/a&gt;.
+
+&lt;p&gt;It is certainly &#034;a&#034; way to go, I&#039;ve used it on other projects and it&#039;s great, in this case we went for jQuery Mobile, and in version 2 of this project we&#039;re actually moving away from that and going for a custom setup much more tailored to the Unplugged environment. Horses for courses.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2012-9-26-new-unplugged-templates-released/#comment-93">Some one</a>.</p>
+<p>It is certainly &quot;a&quot; way to go, I&#8217;ve used it on other projects and it&#8217;s great, in this case we went for jQuery Mobile, and in version 2 of this project we&#8217;re actually moving away from that and going for a custom setup much more tailored to the Unplugged environment. Horses for courses.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Some one		</title>
+		<link>/2012-9-26-new-unplugged-templates-released/#comment-93</link>
+
+		<dc:creator><![CDATA[Some one]]></dc:creator>
+		<pubDate>Fri, 07 Dec 2012 10:01:22 +0000</pubDate>
+		<guid isPermaLink="false">/2012-9-26-new-unplugged-templates-released/#comment-93</guid>
+
+					<description><![CDATA[&lt;p&gt;In terms of mobile development isn&#039;t twitter&#039;s bootstrap the way to go?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>In terms of mobile development isn&#8217;t twitter&#8217;s bootstrap the way to go?</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

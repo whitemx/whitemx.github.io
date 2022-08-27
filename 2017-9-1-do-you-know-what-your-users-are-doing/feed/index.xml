@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Do you know what your users are doing?	</title>
+	<atom:link href="/2017-9-1-do-you-know-what-your-users-are-doing/feed/" rel="self" type="application/rss+xml" />
+	<link>/2017-9-1-do-you-know-what-your-users-are-doing/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:18:49 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: essay editor		</title>
+		<link>/2017-9-1-do-you-know-what-your-users-are-doing/#comment-9</link>
+
+		<dc:creator><![CDATA[essay editor]]></dc:creator>
+		<pubDate>Sat, 18 Aug 2018 22:29:32 +0000</pubDate>
+		<guid isPermaLink="false">/2017-9-1-do-you-know-what-your-users-are-doing/#comment-9</guid>
+
+					<description><![CDATA[&lt;p&gt;Hi there! Undoubtedly, it is more likely you need to have your blog posts edited by http://essay-editor.net/blog/how-to-be-the-online-essay-proofreader - it&#039;s really easy to cooperate with the best ones!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hi there! Undoubtedly, it is more likely you need to have your blog posts edited by <a href="http://essay-editor.net/blog/how-to-be-the-online-essay-proofreader" rel="nofollow ugc">http://essay-editor.net/blog/how-to-be-the-online-essay-proofreader</a> &#8211; it&#8217;s really easy to cooperate with the best ones!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt Stannard		</title>
+		<link>/2017-9-1-do-you-know-what-your-users-are-doing/#comment-8</link>
+
+		<dc:creator><![CDATA[Matt Stannard]]></dc:creator>
+		<pubDate>Wed, 06 Sep 2017 09:51:05 +0000</pubDate>
+		<guid isPermaLink="false">/2017-9-1-do-you-know-what-your-users-are-doing/#comment-8</guid>
+
+					<description><![CDATA[&lt;p&gt;Also, was going to say, if SessionCam is a bit of an overkill, check out Hot Jar - http://www.hotjar.com/&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Also, was going to say, if SessionCam is a bit of an overkill, check out Hot Jar &#8211; <a href="http://www.hotjar.com/" rel="nofollow ugc">http://www.hotjar.com/</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Emily		</title>
+		<link>/2017-9-1-do-you-know-what-your-users-are-doing/#comment-7</link>
+
+		<dc:creator><![CDATA[Emily]]></dc:creator>
+		<pubDate>Wed, 06 Sep 2017 07:58:40 +0000</pubDate>
+		<guid isPermaLink="false">/2017-9-1-do-you-know-what-your-users-are-doing/#comment-7</guid>
+
+					<description><![CDATA[&lt;p&gt;Hi Matt, &lt;/p&gt;
+&lt;p&gt;Good post. We’re big GA fans at SessionCam too. But I just wanted to mention that we have plans that work really well for individuals and growing companies with smaller budgets. &lt;/p&gt;
+&lt;p&gt;Our paid plans start from $50 a month and include our Google Analytics integration, so you can watch session replays straight from GA. &lt;/p&gt;
+&lt;p&gt;https://sessioncam.com/our-plans/ &lt;/p&gt;
+&lt;p&gt;Thanks for sharing! &lt;/p&gt;
+&lt;p&gt;Emily&lt;br/&gt;-Content Exec @ SessionCam&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hi Matt, </p>
+<p>Good post. We’re big GA fans at SessionCam too. But I just wanted to mention that we have plans that work really well for individuals and growing companies with smaller budgets. </p>
+<p>Our paid plans start from $50 a month and include our Google Analytics integration, so you can watch session replays straight from GA. </p>
+<p><a href="https://sessioncam.com/our-plans/" rel="nofollow ugc">https://sessioncam.com/our-plans/</a> </p>
+<p>Thanks for sharing! </p>
+<p>Emily<br />-Content Exec @ SessionCam</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt Stannard		</title>
+		<link>/2017-9-1-do-you-know-what-your-users-are-doing/#comment-6</link>
+
+		<dc:creator><![CDATA[Matt Stannard]]></dc:creator>
+		<pubDate>Tue, 05 Sep 2017 14:20:01 +0000</pubDate>
+		<guid isPermaLink="false">/2017-9-1-do-you-know-what-your-users-are-doing/#comment-6</guid>
+
+					<description><![CDATA[&lt;p&gt;Thanks for Sharing Matt :) &lt;/p&gt;
+&lt;p&gt;You can also use Google Tag Manager and a dataLayer to capture events and then it can be pushed upstack to Google Analytics and / or any other tools, just as easy:&lt;/p&gt;
+&lt;p&gt;dataLayer.push(&#123;&#039;event&#039;:&#039;myEvent&#039;,&#039;eventCategory&#039;:&#039;ABC&#039;,&#039;eventAction&#039;:&#039;DEF&#039;,&#039;eventLabel&#039;:&#039;GHI&#039;&#125;);&lt;/p&gt;
+&lt;p&gt;The other thing to consider is using Custom Dimensions to enrich your events, for example, with a User Id (to identify the user), the Client Id (the internal Analytics Id) or other attributes, for example whether its a blog page, product page etc. Custom Metrics can be used to capture if its a Brochure Download, Sign In, Video View, Feature Request.&lt;/p&gt;
+&lt;p&gt;The nice thing about capturing a Client Id and / or User Id is you can then use the Measurement Protocol to embed follow on hits which may take place within an app or offline process :)&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thanks for Sharing Matt 🙂 </p>
+<p>You can also use Google Tag Manager and a dataLayer to capture events and then it can be pushed upstack to Google Analytics and / or any other tools, just as easy:</p>
+<p>dataLayer.push(&#123;&#8217;event&#8217;:&#8217;myEvent&#8217;,&#8217;eventCategory&#8217;:&#8217;ABC&#8217;,&#8217;eventAction&#8217;:&#8217;DEF&#8217;,&#8217;eventLabel&#8217;:&#8217;GHI&#8217;&#125;);</p>
+<p>The other thing to consider is using Custom Dimensions to enrich your events, for example, with a User Id (to identify the user), the Client Id (the internal Analytics Id) or other attributes, for example whether its a blog page, product page etc. Custom Metrics can be used to capture if its a Brochure Download, Sign In, Video View, Feature Request.</p>
+<p>The nice thing about capturing a Client Id and / or User Id is you can then use the Measurement Protocol to embed follow on hits which may take place within an app or offline process 🙂</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

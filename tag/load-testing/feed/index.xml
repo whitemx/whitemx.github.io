@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>load testing &#8211; mattwhite.me</title>
+	<atom:link href="/tag/load-testing/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Load testing XPages with the help of IBM</title>
+		<link>/2009-7-9-load-testing-xpages-with-the-help-of-ibm-html/</link>
+					<comments>/2009-7-9-load-testing-xpages-with-the-help-of-ibm-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 09 Jul 2009 09:18:20 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[ibm]]></category>
+		<category><![CDATA[load testing]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2009-7-9-load-testing-xpages-with-the-help-of-ibm-html/</guid>
+
+					<description><![CDATA[Mick Moignard and I have been down at IBM Hursley for a few days working on load testing an XPages application we&#8217;ve written for a customer. Mick talks more about the (very impressive from our point of view) details, but I just wanted to add my voice to his in saying thanks to the team [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><a href="http://www.mickmoignard.com/">Mick Moignard</a> and I have been down at IBM Hursley for a few days working on load testing an XPages application we&#8217;ve written for a customer.</p>
+<p><a href="http://www.mickmoignard.com/mickmoignard/mickmoignard.nsf/dx/09072009082935MMOAT2.htm">Mick talks more about the (very impressive from our point of view) details</a>, but I just wanted to add my voice to his in saying thanks to the team down there, especially Andy Walter who really helped us out with anything we needed, from server hardware, load testing software, expertise in building the kit and so on.&nbsp;</p>
+<p>If you are a BP in the UK then I&#8217;d highly recommend having a chat with the <a href="https://www-304.ibm.com/jct01005c/isv/spc/europe/hursley.htm">team down there</a>. And I believe there are equivalent set ups in a lot of other countries around the world. It is nice to be able to praise IBM every now and again!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-7-9-load-testing-xpages-with-the-help-of-ibm-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

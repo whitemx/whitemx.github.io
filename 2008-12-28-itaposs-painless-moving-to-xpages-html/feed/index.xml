@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: It&amp;apos;s painless moving to XPages	</title>
+	<atom:link href="/2008-12-28-itaposs-painless-moving-to-xpages-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2008-12-28-itaposs-painless-moving-to-xpages-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:25:16 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Charles Robinson		</title>
+		<link>/2008-12-28-itaposs-painless-moving-to-xpages-html/#comment-364</link>
+
+		<dc:creator><![CDATA[Charles Robinson]]></dc:creator>
+		<pubDate>Mon, 29 Dec 2008 18:53:10 +0000</pubDate>
+		<guid isPermaLink="false">/2008-12-28-itaposs-painless-moving-to-xpages-html/#comment-364</guid>
+
+					<description><![CDATA[&lt;p&gt;I&#039;ll just hold off for gold code and go through my list and see what&#039;s still broken, then we can compare notes.  &lt;img alt=&quot;Emoticon&quot; src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif&quot;&lt;/a&gt; /&gt;  Thanks for the offer.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;ll just hold off for gold code and go through my list and see what&#8217;s still broken, then we can compare notes.  <img alt="Emoticon" src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif</a>&#8220; />  Thanks for the offer.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2008-12-28-itaposs-painless-moving-to-xpages-html/#comment-365</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Mon, 29 Dec 2008 15:20:11 +0000</pubDate>
+		<guid isPermaLink="false">/2008-12-28-itaposs-painless-moving-to-xpages-html/#comment-365</guid>
+
+					<description><![CDATA[&lt;p&gt;@12 Charles, I don&#039;t have anything documented I&#039;m afraid and I suspect that it would be a bit of a waste of time at the moment with the impending release of 8.5.0. I certainly have three or four things to check but other than those I haven&#039;t got any serious bugs open at the moment.&lt;br  /&gt;&lt;br  /&gt;Ping me on BleedYellow if you want some details.&lt;br  /&gt;&lt;br  /&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>@12 Charles, I don&#8217;t have anything documented I&#8217;m afraid and I suspect that it would be a bit of a waste of time at the moment with the impending release of 8.5.0. I certainly have three or four things to check but other than those I haven&#8217;t got any serious bugs open at the moment.</p>
+<p>Ping me on BleedYellow if you want some details.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Charles Robinson		</title>
+		<link>/2008-12-28-itaposs-painless-moving-to-xpages-html/#comment-368</link>
+
+		<dc:creator><![CDATA[Charles Robinson]]></dc:creator>
+		<pubDate>Mon, 29 Dec 2008 15:07:04 +0000</pubDate>
+		<guid isPermaLink="false">/2008-12-28-itaposs-painless-moving-to-xpages-html/#comment-368</guid>
+
+					<description><![CDATA[&lt;p&gt;Matt, do you have any reference for &quot;here&#039;s the broken bits&quot; that you could share?  Things like field names in subforms on XPages not showing up in dropdown lists, etc?  I&#039;ve been reading the 8.5 Beta forum to try to keep up with what&#039;s known to be broken, what will be fixed in a future release, and what&#039;s just beta weird behavior.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Matt, do you have any reference for &#8220;here&#8217;s the broken bits&#8221; that you could share?  Things like field names in subforms on XPages not showing up in dropdown lists, etc?  I&#8217;ve been reading the 8.5 Beta forum to try to keep up with what&#8217;s known to be broken, what will be fixed in a future release, and what&#8217;s just beta weird behavior.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Volker Weber		</title>
+		<link>/2008-12-28-itaposs-painless-moving-to-xpages-html/#comment-374</link>
+
+		<dc:creator><![CDATA[Volker Weber]]></dc:creator>
+		<pubDate>Mon, 29 Dec 2008 14:36:19 +0000</pubDate>
+		<guid isPermaLink="false">/2008-12-28-itaposs-painless-moving-to-xpages-html/#comment-374</guid>
+
+					<description><![CDATA[&lt;p&gt;Thanks, Matt and Tim, for the explanation. It&#039;s kind of what the Websphere guys told us all the time, right? &lt;img alt=&quot;Emoticon&quot; src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif&quot;&lt;/a&gt; /&gt;&lt;br  /&gt;&lt;br  /&gt;In understand you still have to maintain the Classic code, so you are not saving work, but have more scalability.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thanks, Matt and Tim, for the explanation. It&#8217;s kind of what the Websphere guys told us all the time, right? <img alt="Emoticon" src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif</a>&#8220; /></p>
+<p>In understand you still have to maintain the Classic code, so you are not saving work, but have more scalability.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Tim Clark		</title>
+		<link>/2008-12-28-itaposs-painless-moving-to-xpages-html/#comment-369</link>
+
+		<dc:creator><![CDATA[Tim Clark]]></dc:creator>
+		<pubDate>Mon, 29 Dec 2008 14:06:40 +0000</pubDate>
+		<guid isPermaLink="false">/2008-12-28-itaposs-painless-moving-to-xpages-html/#comment-369</guid>
+
+					<description><![CDATA[&lt;p&gt;&quot;WELL DONE&quot; Bruce and Matt.&lt;br  /&gt;&lt;br  /&gt;Can&#039;t wait to see it at Lotusphere 2009&lt;br  /&gt;&lt;br  /&gt;Tim&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>&#8220;WELL DONE&#8221; Bruce and Matt.</p>
+<p>Can&#8217;t wait to see it at Lotusphere 2009</p>
+<p>Tim</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2008-12-28-itaposs-painless-moving-to-xpages-html/#comment-371</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Mon, 29 Dec 2008 12:59:56 +0000</pubDate>
+		<guid isPermaLink="false">/2008-12-28-itaposs-painless-moving-to-xpages-html/#comment-371</guid>
+
+					<description><![CDATA[&lt;p&gt;@8 - Spot on Tim, plus we get some other performance improvements to do with the computation of whether the user has voted on each idea which just add to the benefits of XPages.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>@8 &#8211; Spot on Tim, plus we get some other performance improvements to do with the computation of whether the user has voted on each idea which just add to the benefits of XPages.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Tim Tripcony		</title>
+		<link>/2008-12-28-itaposs-painless-moving-to-xpages-html/#comment-373</link>
+
+		<dc:creator><![CDATA[Tim Tripcony]]></dc:creator>
+		<pubDate>Mon, 29 Dec 2008 12:06:58 +0000</pubDate>
+		<guid isPermaLink="false">/2008-12-28-itaposs-painless-moving-to-xpages-html/#comment-373</guid>
+
+					<description><![CDATA[&lt;p&gt;@Volker, I&#039;m not privy to their codebase, but I&#039;m assuming (based on the work I&#039;ve been doing on Lotus 911 XPage projects) that the bulk of (if not all of) what used to be in agents now runs in server-side JavaScript, which really just means it&#039;s JS being interpreted as Java within a servlet engine, so not only is there less overhead because the servlet is resident the whole time (as opposed to instantiating an agent for each equivalent transaction), but the server can also cache objects that would otherwise have to be re-instantiated for every agent run. Hence, all users can share memory pointers to application settings, etc., which also reduces the amount of database queries.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>@Volker, I&#8217;m not privy to their codebase, but I&#8217;m assuming (based on the work I&#8217;ve been doing on Lotus 911 XPage projects) that the bulk of (if not all of) what used to be in agents now runs in server-side JavaScript, which really just means it&#8217;s JS being interpreted as Java within a servlet engine, so not only is there less overhead because the servlet is resident the whole time (as opposed to instantiating an agent for each equivalent transaction), but the server can also cache objects that would otherwise have to be re-instantiated for every agent run. Hence, all users can share memory pointers to application settings, etc., which also reduces the amount of database queries.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Curt Stone		</title>
+		<link>/2008-12-28-itaposs-painless-moving-to-xpages-html/#comment-370</link>
+
+		<dc:creator><![CDATA[Curt Stone]]></dc:creator>
+		<pubDate>Mon, 29 Dec 2008 11:38:49 +0000</pubDate>
+		<guid isPermaLink="false">/2008-12-28-itaposs-painless-moving-to-xpages-html/#comment-370</guid>
+
+					<description><![CDATA[&lt;p&gt;Congratulations on being on the leading edge.  Nothing sells a new technology like success.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Congratulations on being on the leading edge.  Nothing sells a new technology like success.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2008-12-28-itaposs-painless-moving-to-xpages-html/#comment-363</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Mon, 29 Dec 2008 09:45:02 +0000</pubDate>
+		<guid isPermaLink="false">/2008-12-28-itaposs-painless-moving-to-xpages-html/#comment-363</guid>
+
+					<description><![CDATA[&lt;p&gt;@5 - Yes there are certainly less agents, we are also able to send smaller web pages out to the browser. Come by stand #227 at LS and I&#039;ll show you the differences &lt;img alt=&quot;Emoticon&quot; src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLU/$File/wink.gif&quot;&lt;/a&gt; /&gt;&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>@5 &#8211; Yes there are certainly less agents, we are also able to send smaller web pages out to the browser. Come by stand #227 at LS and I&#8217;ll show you the differences <img alt="Emoticon" src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLU/$File/wink.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLU/$File/wink.gif</a>&#8220; /></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Volker Weber		</title>
+		<link>/2008-12-28-itaposs-painless-moving-to-xpages-html/#comment-375</link>
+
+		<dc:creator><![CDATA[Volker Weber]]></dc:creator>
+		<pubDate>Mon, 29 Dec 2008 09:04:50 +0000</pubDate>
+		<guid isPermaLink="false">/2008-12-28-itaposs-painless-moving-to-xpages-html/#comment-375</guid>
+
+					<description><![CDATA[&lt;p&gt;I understand the fun part very well. &lt;img alt=&quot;Emoticon&quot; src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif&quot;&lt;/a&gt; /&gt;&lt;br  /&gt;&lt;br  /&gt;Where does the scalability come from? Less agents to run for rendering HTML??&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I understand the fun part very well. <img alt="Emoticon" src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLY/$File/smile.gif</a>&#8220; /></p>
+<p>Where does the scalability come from? Less agents to run for rendering HTML??</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

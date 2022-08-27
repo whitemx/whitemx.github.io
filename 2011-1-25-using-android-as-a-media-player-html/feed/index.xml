@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Using Android as a media player	</title>
+	<atom:link href="/2011-1-25-using-android-as-a-media-player-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2011-1-25-using-android-as-a-media-player-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:04 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Brian O'Donovan		</title>
+		<link>/2011-1-25-using-android-as-a-media-player-html/#comment-144</link>
+
+		<dc:creator><![CDATA[Brian O'Donovan]]></dc:creator>
+		<pubDate>Fri, 04 Feb 2011 11:22:32 +0000</pubDate>
+		<guid isPermaLink="false">/2011-1-25-using-android-as-a-media-player-html/#comment-144</guid>
+
+					<description><![CDATA[&lt;p&gt;I am an avid listener of Podcasts and I personally recommend the Google Listen application for podcatching on Android. My two favourite features are:&lt;/p&gt;&lt;p&gt;1- Your subscriptions are automatically reflected in Google Reader as a feed group called &#034;Listen Subscriptions&#034;&lt;br/&gt;2 - It will synchronise over the air in the background without any user interaction. You can configure it to only download media files when you are connected to Wifi so you don&#039;t &#034;waste&#034; your 3G data allowance.,&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I am an avid listener of Podcasts and I personally recommend the Google Listen application for podcatching on Android. My two favourite features are:</p>
+<p>1- Your subscriptions are automatically reflected in Google Reader as a feed group called &quot;Listen Subscriptions&quot;<br />2 &#8211; It will synchronise over the air in the background without any user interaction. You can configure it to only download media files when you are connected to Wifi so you don&#39;t &quot;waste&quot; your 3G data allowance.,</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2011-1-25-using-android-as-a-media-player-html/#comment-143</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Wed, 26 Jan 2011 09:29:26 +0000</pubDate>
+		<guid isPermaLink="false">/2011-1-25-using-android-as-a-media-player-html/#comment-143</guid>
+
+					<description><![CDATA[&lt;p&gt;Vitor,&lt;/p&gt;&lt;p&gt;Yes you&#039;d still download on the Mac. Unfortunately the Winamp desktop software is Windows only so it involves using a virtual machine to use the wifi syncing, which is the reason I dont use it.&lt;/p&gt;&lt;p&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Vitor,</p>
+<p>Yes you&#39;d still download on the Mac. Unfortunately the Winamp desktop software is Windows only so it involves using a virtual machine to use the wifi syncing, which is the reason I dont use it.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Vitor Pereira		</title>
+		<link>/2011-1-25-using-android-as-a-media-player-html/#comment-142</link>
+
+		<dc:creator><![CDATA[Vitor Pereira]]></dc:creator>
+		<pubDate>Tue, 25 Jan 2011 23:00:36 +0000</pubDate>
+		<guid isPermaLink="false">/2011-1-25-using-android-as-a-media-player-html/#comment-142</guid>
+
+					<description><![CDATA[&lt;p&gt;Interesting. One of the reasons I went for an Android device was to be able to have the podcasts I listen to in the device without having to sync with a pc\mac. With winamp you still have to download on your mac and then sync to the device, is that it?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Interesting. One of the reasons I went for an Android device was to be able to have the podcasts I listen to in the device without having to sync with a pc\mac. With winamp you still have to download on your mac and then sync to the device, is that it?</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

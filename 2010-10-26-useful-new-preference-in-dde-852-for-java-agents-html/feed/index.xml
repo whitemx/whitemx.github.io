@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Useful new preference in DDE 8.5.2 for Java Agents	</title>
+	<atom:link href="/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:08 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/#comment-503</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Thu, 06 Jan 2011 08:40:27 +0000</pubDate>
+		<guid isPermaLink="false">/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/#comment-503</guid>
+
+					<description><![CDATA[&lt;p&gt;@Lars,&lt;/p&gt;&lt;p&gt;That&#039;s just the default settings. It was turned on almost immeditately after I took that screenshot!&lt;/p&gt;&lt;p&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>@Lars,</p>
+<p>That&#39;s just the default settings. It was turned on almost immeditately after I took that screenshot!</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Lars Berntrop-Bos		</title>
+		<link>/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/#comment-502</link>
+
+		<dc:creator><![CDATA[Lars Berntrop-Bos]]></dc:creator>
+		<pubDate>Thu, 06 Jan 2011 07:54:29 +0000</pubDate>
+		<guid isPermaLink="false">/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/#comment-502</guid>
+
+					<description><![CDATA[&lt;p&gt;Why do you have the refactoring preference turned off?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Why do you have the refactoring preference turned off?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Steven Newton		</title>
+		<link>/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/#comment-501</link>
+
+		<dc:creator><![CDATA[Steven Newton]]></dc:creator>
+		<pubDate>Thu, 09 Dec 2010 14:48:35 +0000</pubDate>
+		<guid isPermaLink="false">/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/#comment-501</guid>
+
+					<description><![CDATA[&lt;p&gt;Are you or anyone else finding problems with this option.&lt;/p&gt;&lt;p&gt;I have found in particular when saving script libs that sometimes (cant identify any pattern) that although the source is saved the Java class files dont get recompiled  (i.e. the old code is still the code that executes even though the source has changed.)&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Are you or anyone else finding problems with this option.</p>
+<p>I have found in particular when saving script libs that sometimes (cant identify any pattern) that although the source is saved the Java class files dont get recompiled  (i.e. the old code is still the code that executes even though the source has changed.)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: mark myers		</title>
+		<link>/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/#comment-500</link>
+
+		<dc:creator><![CDATA[mark myers]]></dc:creator>
+		<pubDate>Sat, 13 Nov 2010 14:05:58 +0000</pubDate>
+		<guid isPermaLink="false">/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/#comment-500</guid>
+
+					<description><![CDATA[&lt;p&gt;at last, nice find&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>at last, nice find</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/#comment-499</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Tue, 26 Oct 2010 13:34:58 +0000</pubDate>
+		<guid isPermaLink="false">/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/#comment-499</guid>
+
+					<description><![CDATA[&lt;p&gt;My understanding of it is that every time the agent is saved the entire set of classes is recompiled, so if it&#039;s a big agent then it could, in theory, take a while to save. But I personally agree with you that this is how it should have worked all along.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>My understanding of it is that every time the agent is saved the entire set of classes is recompiled, so if it&#39;s a big agent then it could, in theory, take a while to save. But I personally agree with you that this is how it should have worked all along.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Craig Schumann		</title>
+		<link>/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/#comment-498</link>
+
+		<dc:creator><![CDATA[Craig Schumann]]></dc:creator>
+		<pubDate>Tue, 26 Oct 2010 12:56:08 +0000</pubDate>
+		<guid isPermaLink="false">/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/#comment-498</guid>
+
+					<description><![CDATA[&lt;p&gt;Why is that a preference? Shouldn&#039;t that just be the way it works? What other side effect are we agreeing to be burnt by when ticking the box?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Why is that a preference? Shouldn&#39;t that just be the way it works? What other side effect are we agreeing to be burnt by when ticking the box?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sreedhar Reddy		</title>
+		<link>/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/#comment-497</link>
+
+		<dc:creator><![CDATA[Sreedhar Reddy]]></dc:creator>
+		<pubDate>Tue, 26 Oct 2010 10:30:01 +0000</pubDate>
+		<guid isPermaLink="false">/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/#comment-497</guid>
+
+					<description><![CDATA[&lt;p&gt;Hi Matt White,&lt;/p&gt;&lt;p&gt;Thank you for the nice tip. &lt;/p&gt;&lt;p&gt;thanks,&lt;br/&gt;Sreedhar.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hi Matt White,</p>
+<p>Thank you for the nice tip. </p>
+<p>thanks,<br />Sreedhar.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

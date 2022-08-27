@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: kennedy	</title>
+	<atom:link href="/2003-12-27-kennedy-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2003-12-27-kennedy-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:41:13 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Jim		</title>
+		<link>/2003-12-27-kennedy-html/#comment-879</link>
+
+		<dc:creator><![CDATA[Jim]]></dc:creator>
+		<pubDate>Mon, 29 Dec 2003 12:31:42 +0000</pubDate>
+		<guid isPermaLink="false">/2003-12-27-kennedy-html/#comment-879</guid>
+
+					<description><![CDATA[&lt;p&gt;It&#039;s alright for some... I&#039;m back at work!!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>It&#8217;s alright for some&#8230; I&#8217;m back at work!!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

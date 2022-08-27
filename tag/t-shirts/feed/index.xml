@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>t-shirts &#8211; mattwhite.me</title>
+	<atom:link href="/tag/t-shirts/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:03 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Get your LDC t-shirts here</title>
+		<link>/2012-1-27-get-your-ldc-t-shirts-here-html/</link>
+					<comments>/2012-1-27-get-your-ldc-t-shirts-here-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 27 Jan 2012 15:12:06 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[ldc]]></category>
+		<category><![CDATA[t-shirts]]></category>
+		<guid isPermaLink="false">/2012-1-27-get-your-ldc-t-shirts-here-html/</guid>
+
+					<description><![CDATA[Well Lotusphere has been over for a week now and people are just about recovering from the post LS flu and getting back into the swing of things. But did you miss out on getting an LDC shirt. Julian, Mark and I were only able to physically carry over a 150 or so shirts this [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Well Lotusphere has been over for a week now and people are just about recovering from the post LS flu and getting back into the swing of things. But did you miss out on getting an <a href="http://londondevelopercoop.com/">LDC</a> shirt. <a href="http://blog.woowar.com/">Julian</a>, <a href="http://stickfight.co.uk/">Mark</a> and I were only able to physically carry over a 150 or so shirts this year and we had to apologise to so many people for not having the design or size they wanted.</p>
+<p>So we thought we&#8217;d try and rectify that by adding all of this year&#8217;s designs, along with previous t-shirts that we&#8217;ve given out at other conferences and allow you to buy your own. The most important thing to note is that this is not a money making exercise, anything which we make will be donated to the <a href="http://www.joyrx.org/">Children&#8217;s Cancer Association</a> who we have <a href="http://mattwhite.me/blog/2011/2/1/its-a-small-lotus-world-raffle-results.html">previously donated money raised by the Lotus community to</a>.</p>
+<p>The store we use is called Zazzle and the link to the latest shirts is: <a href="http://www.zazzle.co.uk/londevcoop/?qs=&amp;dp=0&amp;pg=3#homeProducts">http://www.zazzle.co.uk/londevcoop/?qs=&amp;dp=0&amp;pg=3#homeProducts</a>&nbsp;</p>
+<p>Please feel to buy as many shirts or other products as you like, hopefully we can raise even more money for the CCA.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012-1-27-get-your-ldc-t-shirts-here-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>speaking &#8211; mattwhite.me</title>
+	<atom:link href="/tag/speaking/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>UKLUG 2012 &#8211; Call for abstracts</title>
+		<link>/2012-5-29-uklug-2012-call-for-abstracts-html/</link>
+					<comments>/2012-5-29-uklug-2012-call-for-abstracts-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 29 May 2012 11:15:26 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[speaking]]></category>
+		<category><![CDATA[uklug2012]]></category>
+		<guid isPermaLink="false">/2012-5-29-uklug-2012-call-for-abstracts-html/</guid>
+
+					<description><![CDATA[Warren announced that UKLUG is happening again this year, in Cardiff in September. Hopefully you&#8217;ve registered already, but have you thought about presenting? You&#8217;ll often hear Lotusphere speakers mention that their first taste of speaking was at a User Group like UKLUG, indeed it was mine four years ago when I presented with Bruce Elgort [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p id="_mcePaste"><a href="http://www.elsmore.net/warren/blog.nsf/d6plinks/WELE-8UREVH">Warren announced</a> that <a href="http://uklug.info/">UKLUG</a> is happening again this year, in Cardiff in September. Hopefully you&#8217;ve registered already, but have you thought about presenting?</p>
+<p id="_mcePaste">You&#8217;ll often hear Lotusphere speakers mention that their first taste of speaking was at a User Group like UKLUG, indeed it was mine four years ago when I presented with <a href="http://bruceelgort.com/">Bruce Elgort</a> and <a href="http://phigsaidwhat.com/">Sean Burgess</a>. A truly terrifying experience, but so worthwhile.</p>
+<p id="_mcePaste">This year, as ever, we have three tracks of sessions; Admin, Management and Development. But what are we looking for? Well the high level response is that we want interesting sessions about anything to do with Lotus technologies (Notes, Domino, Connections, Sametime etc). Your session will need to last for just under and hour (55 minutes or so) and it can be aimed at any level of audience. The key thing is to write a clear and concise abstract.</p>
+<p id="_mcePaste">The nice thing about LUGs vs Lotusphere is that we have somewhat more leeway in what we can run sessions on. So if your session is tangential to Lotus technologies but still relevant then it&#8217;s worth putting it in. If you have a &#8220;real world&#8221; session which uses technologies which maybe IBM wouldn&#8217;t want to highlight on the Lotusphere stage, then maybe the LUG format will suit you better. The key thing is to write the abstract (and title) to attract people to your session. Remember, when you&#8217;re speaking there will be at least two other sessions going on, you have to sell yourself.</p>
+<p id="_mcePaste">Myself and <a href="http://dominoyesmaybe.blogspot.com/">Steve McDonagh</a> are running the Dev track this year, and I just thought it would be useful to run through the process of how we choose the sessions.</p>
+<p id="_mcePaste">Firstly I move all of the session titles and abstracts into a spreadsheet and remove any names from the list to try and avoid falling into the trap of automatically selecting &#8220;the old dependables&#8221;. Just to give an idea, last year we had three times as many abstracts as we had sessions, so this next bit of the process is very hard. We go through the abstracts and we rate each one so that there is a league table.&nbsp;</p>
+<p id="_mcePaste">Next we add in the speaker names. We try our best to get as many speakers in as possible, so if someone has played a blinder and submitted multiple abstracts which we like we&#8217;ll either pick the best one and remove the others, or contact them to see if maybe they could speak with someone else, ideally someone new to the speaking circuit.</p>
+<p id="_mcePaste">After much arguing and horse trading with the other tracks (sometimes we can stretch the definition of Admin or Dev or Management!) we end up with a list and we&#8217;ll send out the notification emails.</p>
+<p id="_mcePaste">And that&#8217;s where the real fun starts for you!</p>
+<p id="_mcePaste">So please do have a think about whether you want to try out presenting in a smaller, less terrifying setting than Lotusphere. The Call For Abstracts closes on Friday 29th June and we&#8217;ll aim to let people know as soon after that as possible.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012-5-29-uklug-2012-call-for-abstracts-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Lotus UK Power of Business Applications</title>
+		<link>/2010-5-18-lotus-uk-power-of-business-applications-html/</link>
+					<comments>/2010-5-18-lotus-uk-power-of-business-applications-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 18 May 2010 15:43:44 +0000</pubDate>
+				<category><![CDATA[Domino Community]]></category>
+		<category><![CDATA[applications]]></category>
+		<category><![CDATA[speaking]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2010-5-18-lotus-uk-power-of-business-applications-html/</guid>
+
+					<description><![CDATA[Darren Adams has already mentioned this day on 16th June, but I thought I&#8217;d just make sure that people know about it as well. Basically what Darren has organised is a day all about Lotus application development in the real world. So I&#8217;m going to speak a little about the history of IdeaJam, where we [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Darren Adams has already mentioned this day on 16th June, but I thought I&#8217;d just make sure that people know about it as well.</p>
+<p>Basically what Darren has organised is a day all about Lotus application development in the real world. So I&#8217;m going to speak a little about the history of IdeaJam, where we are and hot we got here. Then in the afternoon I&#8217;m back on my favourite hobby horse; XPages development. This time the title for the session is &#8220;Rejuvenating&nbsp;Domino Web Applications with XPages&#8221;.</p>
+<p>There looks like there&#8217;s some really great content during the day, so if you have anything to do with Domino applications (that&#8217;s development, implementation, management, or anything else really, this isn&#8217;t an overly techie day) then it will probably be worth you coming along.</p>
+<p>And best of all, it&#8217;s free. You just need to <a href="https://www-950.ibm.com/events/wwe/grp/grp006.nsf/v16_agenda?openform&amp;seminar=4EAFUNES&amp;locale=en_GB">register here</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-5-18-lotus-uk-power-of-business-applications-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>UKLUG Progressing</title>
+		<link>/2009-5-31-uklug-progressing-html/</link>
+					<comments>/2009-5-31-uklug-progressing-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sun, 31 May 2009 14:15:53 +0000</pubDate>
+				<category><![CDATA[UKLUG2009]]></category>
+		<category><![CDATA[speaking]]></category>
+		<category><![CDATA[uklug2009]]></category>
+		<guid isPermaLink="false">/2009-5-31-uklug-progressing-html/</guid>
+
+					<description><![CDATA[During the week we published the first round of approved sessions on the UKLUG site. So far we have some really great looking sessions that are going to be given by stalwarts of the Lotus Community such as Rob Novak, Paul Mooney, Bill Buchan, Warren Elsmore, Steve McDonagh, Gab Davis, John Head, Ben Poole and [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>During the week we published the first round of approved sessions on the <a href="http://www.uklug.info/">UKLUG site</a>. So far we have some really great looking sessions that are going to be given by stalwarts of the Lotus Community such as <a href="http://www.lotusrockstar.com/">Rob Novak</a>, <a href="http://www.pmooney.net/">Paul Mooney</a>, <a href="http://www.billbuchan.com/">Bill Buchan</a>, <a href="http://www.elsmore.net/">Warren Elsmore</a>, <a href="http://dominoyesmaybe.blogspot.com/">Steve McDonagh</a>, <a href="http://www.turtleweb.com/blog.nsf">Gab Davis</a>, <a href="http://www.johndavidhead.com/">John Head</a>, <a href="http://www.benpoole.com/">Ben Poole</a> and <a href="http://blog.collaborationmatters.com/">Stuart McIntyre</a> (amongst others), but the real beauty of events like UKLUG is that it gives an opportunity for some <a href="http://www.uklug.info/UKLUG/UKLUG2009.nsf/speakers.xsp">new speakers</a> to enter the fray as well.</p>
+<p>There is still a little bit of time to get your session in if you want to get into the Lotus speaking world. As a new entrant myself, I can&#8217;t recommend it highly enough, it&#8217;s a lot of work and scary as hell, but ultimately good fun and good for your CV as well.</p>
+<p>If you don&#8217;t fancy speaking and hadn&#8217;t decided whether to attend UKLUG, hopefully the <a href="http://www.uklug.info/UKLUG/UKLUG2009.nsf/sessions.xsp">sessions we&#8217;ve published</a> so far will help you make the decision.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-5-31-uklug-progressing-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

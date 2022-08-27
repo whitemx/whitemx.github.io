@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Tips for referencing elements in XPages JavaScript	</title>
+	<atom:link href="/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:25:20 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Neemesh		</title>
+		<link>/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/#comment-1143</link>
+
+		<dc:creator><![CDATA[Neemesh]]></dc:creator>
+		<pubDate>Wed, 14 Oct 2009 11:56:00 +0000</pubDate>
+		<guid isPermaLink="false">/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/#comment-1143</guid>
+
+					<description><![CDATA[&lt;p&gt;Absolutely typical!&lt;/p&gt;&lt;p&gt;No sooner than I post do I find the answer after messing around for a while longer.  If anyone else gets this issue, toggling &#039;escape&#039; in the all properties for the computed field to false will sort this out :)&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Absolutely typical!</p>
+<p>No sooner than I post do I find the answer after messing around for a while longer.  If anyone else gets this issue, toggling &#8216;escape&#8217; in the all properties for the computed field to false will sort this out 🙂</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Neemesh		</title>
+		<link>/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/#comment-1142</link>
+
+		<dc:creator><![CDATA[Neemesh]]></dc:creator>
+		<pubDate>Wed, 14 Oct 2009 11:45:36 +0000</pubDate>
+		<guid isPermaLink="false">/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/#comment-1142</guid>
+
+					<description><![CDATA[&lt;p&gt;Thanks for the article, it&#039;s definitely helped me.  The only problem I&#039;m having is with the output from the computed field. &lt;/p&gt;&lt;p&gt;When the tag chevrons (is that the name for these: &#060;&#062;?) are rendered to the browsers source, they actually get rendered as  meaning the code doesn&#039;t understand it&#039;s Javascript initially.  Any ideas how I can get it render to the source as actual chevrons &#060;&#062;?&lt;/p&gt;&lt;p&gt;I&#039;ve tried using \ to escape it but that hasn&#039;t worked :(&lt;/p&gt;&lt;p&gt;Using 8.5 server, tried also on 8.5 FP1 client (local http), same results in Firefox 3, IE 7, IE 6 (I know *groan*), chrome and Safari.&lt;/p&gt;&lt;p&gt;Thanks!&lt;/a&gt;&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thanks for the article, it&#8217;s definitely helped me.  The only problem I&#8217;m having is with the output from the computed field. </p>
+<p>When the tag chevrons (is that the name for these: &lt;&gt;?) are rendered to the browsers source, they actually get rendered as  meaning the code doesn&#8217;t understand it&#8217;s Javascript initially.  Any ideas how I can get it render to the source as actual chevrons &lt;&gt;?</p>
+<p>I&#8217;ve tried using \ to escape it but that hasn&#8217;t worked 🙁</p>
+<p>Using 8.5 server, tried also on 8.5 FP1 client (local http), same results in Firefox 3, IE 7, IE 6 (I know *groan*), chrome and Safari.</p>
+<p>Thanks!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: reynald		</title>
+		<link>/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/#comment-1141</link>
+
+		<dc:creator><![CDATA[reynald]]></dc:creator>
+		<pubDate>Mon, 12 Oct 2009 03:18:44 +0000</pubDate>
+		<guid isPermaLink="false">/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/#comment-1141</guid>
+
+					<description><![CDATA[&lt;p&gt;How to access / getting the date in Client side in XPAGES. Hope you could reply here&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>How to access / getting the date in Client side in XPAGES. Hope you could reply here</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: ewan husarmee		</title>
+		<link>/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/#comment-1140</link>
+
+		<dc:creator><![CDATA[ewan husarmee]]></dc:creator>
+		<pubDate>Wed, 01 Jul 2009 13:58:32 +0000</pubDate>
+		<guid isPermaLink="false">/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/#comment-1140</guid>
+
+					<description><![CDATA[&lt;p&gt;Because the &#039;password&#039; item type is not available as an xpage element (correct me if Im wrong), I have been trying to get my HTML password field value back onto the server side. And failing miserably. I thought I might be able to getClientID to create a hidden item that contains the name of a bound field that I could populate in the clientside before submitting the document.&lt;/p&gt;&lt;p&gt;This seems clumsy have you any better ideas?&lt;/p&gt;&lt;p&gt;Thanks&lt;/p&gt;&lt;p&gt;ewan&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Because the &#8216;password&#8217; item type is not available as an xpage element (correct me if Im wrong), I have been trying to get my HTML password field value back onto the server side. And failing miserably. I thought I might be able to getClientID to create a hidden item that contains the name of a bound field that I could populate in the clientside before submitting the document.</p>
+<p>This seems clumsy have you any better ideas?</p>
+<p>Thanks</p>
+<p>ewan</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nina		</title>
+		<link>/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/#comment-1139</link>
+
+		<dc:creator><![CDATA[Nina]]></dc:creator>
+		<pubDate>Mon, 25 May 2009 21:04:03 +0000</pubDate>
+		<guid isPermaLink="false">/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/#comment-1139</guid>
+
+					<description><![CDATA[&lt;p&gt;Hi Math&lt;br  /&gt;Thank you for you response&lt;br  /&gt;Yes It&#039;s my fault&lt;br  /&gt;&lt;br  /&gt;I meant&lt;br  /&gt;document.getElementById(&#039;#{id:view:_id1:repeat1:0:inputText1}&#039;).value &lt;br  /&gt;&lt;br  /&gt;&lt;br  /&gt;I have a button(button1) and a inputText1(inputText1), both inside of a repeat control(repeat1)&lt;br  /&gt;&lt;br  /&gt;I need to show a message when clicked the button this message should include the value of inputText1(each value is different per row) and I dont know how to refer this value&lt;br  /&gt;&lt;br  /&gt;I used this code in client side in click event of button1 &lt;br  /&gt;&lt;br  /&gt;var index=&quot;#{colindex}&quot;;/* colindex is the index of the collection of the repeat control */&lt;br  /&gt;var valor=document.getElementById(&#039;#{id:view:_id1:repeat1:&quot;+ index +&quot;:inputText1}&#039;).value &lt;br  /&gt;&lt;br  /&gt;but not luck&lt;br  /&gt;&lt;br  /&gt;Thank you&lt;br  /&gt;&lt;br  /&gt;Nina&lt;br  /&gt;&lt;br  /&gt;&lt;br  /&gt;&lt;br  /&gt;&lt;br  /&gt;&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hi Math<br />Thank you for you response<br />Yes It&#8217;s my fault</p>
+<p>I meant<br />document.getElementById(&#8216;#{id:view:_id1:repeat1:0:inputText1}&#8217;).value </p>
+<p>I have a button(button1) and a inputText1(inputText1), both inside of a repeat control(repeat1)</p>
+<p>I need to show a message when clicked the button this message should include the value of inputText1(each value is different per row) and I dont know how to refer this value</p>
+<p>I used this code in client side in click event of button1 </p>
+<p>var index=&#8221;#{colindex}&#8221;;/* colindex is the index of the collection of the repeat control */<br />var valor=document.getElementById(&#8216;#{id:view:_id1:repeat1:&#8221;+ index +&#8221;:inputText1}&#8217;).value </p>
+<p>but not luck</p>
+<p>Thank you</p>
+<p>Nina</p>
+<p></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/#comment-1137</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Sat, 23 May 2009 18:24:51 +0000</pubDate>
+		<guid isPermaLink="false">/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/#comment-1137</guid>
+
+					<description><![CDATA[&lt;p&gt;Hi Nina,&lt;br  /&gt;&lt;br  /&gt;Looks like you&#039;re trying to use the wrong code. In client side code you can&#039;t use getDocumentById (which wouldn&#039;t run against a document object anyway), instead you&#039;ll need to use something like:&lt;br  /&gt;&lt;br  /&gt;dojo.byId(&quot;#{id:inputText1}&quot;).value&lt;br  /&gt;&lt;br  /&gt;But you&#039;ll need to make sure that that client side script is inside the repeat control as well, otherwise it won&#039;t know how to refer to the correct instance of the input field.&lt;br  /&gt;&lt;br  /&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hi Nina,</p>
+<p>Looks like you&#8217;re trying to use the wrong code. In client side code you can&#8217;t use getDocumentById (which wouldn&#8217;t run against a document object anyway), instead you&#8217;ll need to use something like:</p>
+<p>dojo.byId(&#8220;#{id:inputText1}&#8221;).value</p>
+<p>But you&#8217;ll need to make sure that that client side script is inside the repeat control as well, otherwise it won&#8217;t know how to refer to the correct instance of the input field.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nina		</title>
+		<link>/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/#comment-1134</link>
+
+		<dc:creator><![CDATA[Nina]]></dc:creator>
+		<pubDate>Fri, 22 May 2009 18:42:09 +0000</pubDate>
+		<guid isPermaLink="false">/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/#comment-1134</guid>
+
+					<description><![CDATA[&lt;p&gt;I&#039;m trying to figure out how to get a value of a repeat control in client side&lt;br  /&gt;&lt;br  /&gt;document.getDocumentById(&#039;#{id:view:_id1:repeat1:0:inputText1}&#039;).value  &lt;br  /&gt;it doesnt work&lt;br  /&gt;&lt;br  /&gt;&lt;br  /&gt;any suggestions?&lt;br  /&gt;&lt;br  /&gt;&lt;br  /&gt;&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;m trying to figure out how to get a value of a repeat control in client side</p>
+<p>document.getDocumentById(&#8216;#{id:view:_id1:repeat1:0:inputText1}&#8217;).value  <br />it doesnt work</p>
+<p>any suggestions?</p>
+<p></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: John Mackey		</title>
+		<link>/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/#comment-1135</link>
+
+		<dc:creator><![CDATA[John Mackey]]></dc:creator>
+		<pubDate>Thu, 09 Oct 2008 22:23:44 +0000</pubDate>
+		<guid isPermaLink="false">/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/#comment-1135</guid>
+
+					<description><![CDATA[&lt;p&gt;Thanks for the &quot;thanks&quot; Matt.... &lt;br  /&gt;&lt;br  /&gt;I have to share the credit for my knowledge with the Sal and Jason who wrote this article on LCD: { &lt;a href=&quot;&lt;a rel=&quot;nofollow&quot; href=&quot;http://www.ibm.com/developerworks/lotus/library/lcd-client-side/&quot;&quot; rel=&quot;nofollow ugc&quot;&gt;http://www.ibm.com/developerworks/lotus/library/lcd-client-side/&quot;&lt;/a&gt; rel=&quot;nofollow&quot; target =&quot;blank&quot;&gt;Link&lt;/a&gt; }&lt;br  /&gt;&lt;br  /&gt;They explain those id techniques in the section titled &quot;Accessing browser DOM element IDs in client-side script&quot;.&lt;br  /&gt;&lt;br  /&gt;John&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thanks for the &#8220;thanks&#8221; Matt&#8230;. </p>
+<p>I have to share the credit for my knowledge with the Sal and Jason who wrote this article on LCD: { <a href="<a rel="nofollow" href="http://www.ibm.com/developerworks/lotus/library/lcd-client-side/"" rel="nofollow ugc"></a><a href="http://www.ibm.com/developerworks/lotus/library/lcd-client-side/" rel="nofollow ugc">http://www.ibm.com/developerworks/lotus/library/lcd-client-side/</a>&#8220; rel=&#8221;nofollow&#8221; target =&#8221;blank&#8221;>Link }</p>
+<p>They explain those id techniques in the section titled &#8220;Accessing browser DOM element IDs in client-side script&#8221;.</p>
+<p>John</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/#comment-1133</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Thu, 09 Oct 2008 18:18:15 +0000</pubDate>
+		<guid isPermaLink="false">/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/#comment-1133</guid>
+
+					<description><![CDATA[&lt;p&gt;@1 &#038; @2 - Thanks guys, I suspect it&#039;s going to keep us busy for a long time finding all of these functions we&#039;ve been provided with.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>@1 &amp; @2 &#8211; Thanks guys, I suspect it&#8217;s going to keep us busy for a long time finding all of these functions we&#8217;ve been provided with.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Rock		</title>
+		<link>/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/#comment-1136</link>
+
+		<dc:creator><![CDATA[Rock]]></dc:creator>
+		<pubDate>Thu, 09 Oct 2008 17:12:24 +0000</pubDate>
+		<guid isPermaLink="false">/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/#comment-1136</guid>
+
+					<description><![CDATA[&lt;p&gt;That is very, very kewl. And this post will help many others who delve into the world of xpages for development.&lt;br  /&gt;&lt;br  /&gt;Thanks for posting!&lt;br  /&gt;&lt;br  /&gt;--Rock&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>That is very, very kewl. And this post will help many others who delve into the world of xpages for development.</p>
+<p>Thanks for posting!</p>
+<p>&#8211;Rock</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

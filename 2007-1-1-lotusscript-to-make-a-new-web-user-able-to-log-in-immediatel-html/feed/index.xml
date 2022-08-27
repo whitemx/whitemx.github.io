@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: LotusScript to Make a new web user able to log in immediately	</title>
+	<atom:link href="/2007-1-1-lotusscript-to-make-a-new-web-user-able-to-log-in-immediatel-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2007-1-1-lotusscript-to-make-a-new-web-user-able-to-log-in-immediatel-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:30:42 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Kevin Pettitt		</title>
+		<link>/2007-1-1-lotusscript-to-make-a-new-web-user-able-to-log-in-immediatel-html/#comment-1150</link>
+
+		<dc:creator><![CDATA[Kevin Pettitt]]></dc:creator>
+		<pubDate>Thu, 04 Jan 2007 15:06:45 +0000</pubDate>
+		<guid isPermaLink="false">/2007-1-1-lotusscript-to-make-a-new-web-user-able-to-log-in-immediatel-html/#comment-1150</guid>
+
+					<description><![CDATA[&lt;p&gt;Oh man, I just fixed this same problem in the OpenNTF registration db a couple months back.  Pretty much used the same approach as Dwight, with the addition of logic for both the main and the directory assistance NAB.  I also used the delayupdates = false line which may fix your issue Dwight.  Here&#039;s a snippet:&lt;/p&gt;&lt;p&gt;******************************************************************************************************&lt;br/&gt;Set dbNab = s.GetDatabase(db.Server, &quot;internal\Other_Directory.nsf&quot;)&lt;br/&gt;Set dbMainNab = s.GetDatabase(db.Server, &quot;names.nsf&quot;)&lt;br/&gt;...&lt;br/&gt;&#039;OpenNTF uses two Directories, where the person docs are created in the DA directory&lt;br/&gt;&#039;and the group maintenance occurs in the Main Directory (names.nsf)&lt;br/&gt;&#039;we therefore need to make sure the appropriate views in both get updated immediately&lt;br/&gt;dbNab.DelayUpdates = False &lt;br/&gt;dbMainNab.DelayUpdates = False 	&#039;KP addd this line to ensure the group views are updated in main nab&lt;/p&gt;&lt;p&gt;Dim nabFullNameView As NotesView&lt;br/&gt;Dim nabServerAccessView As NotesView&lt;br/&gt;Dim nabUserView As NotesView&lt;br/&gt;Dim MainnabFullNameView As NotesView&lt;br/&gt;Dim MainnabServerAccessView As NotesView&lt;/p&gt;&lt;p&gt;Set nabFullNameView = dbNAB.GetView(&quot;($LDAPCN)&quot;)&lt;br/&gt;Set nabUserView = dbNAB.GetView(&quot;($Users)&quot;)&lt;br/&gt;Set nabServerAccessView = dbNAB.GetView(&quot;($ServerAccess)&quot;)&lt;br/&gt;Set MainnabFullNameView = dbMainNAB.GetView(&quot;($VIMPeople)&quot;)&lt;br/&gt;Set MainnabServerAccessView = dbMainNAB.GetView(&quot;($ServerAccess)&quot;)&lt;/p&gt;&lt;p&gt;Call nabFullNameView.Refresh&lt;br/&gt;Call nabUserView .Refresh&lt;br/&gt;Call nabServerAccessView.Refresh&lt;br/&gt;Call MainnabFullNameView.Refresh&lt;br/&gt;Call MainnabServerAccessView.Refresh&lt;br/&gt;******************************************************************************************************&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Oh man, I just fixed this same problem in the OpenNTF registration db a couple months back.  Pretty much used the same approach as Dwight, with the addition of logic for both the main and the directory assistance NAB.  I also used the delayupdates = false line which may fix your issue Dwight.  Here&#8217;s a snippet:</p>
+<p>******************************************************************************************************<br />Set dbNab = s.GetDatabase(db.Server, &#8220;internal\Other_Directory.nsf&#8221;)<br />Set dbMainNab = s.GetDatabase(db.Server, &#8220;names.nsf&#8221;)<br />&#8230;<br />&#8216;OpenNTF uses two Directories, where the person docs are created in the DA directory<br />&#8216;and the group maintenance occurs in the Main Directory (names.nsf)<br />&#8216;we therefore need to make sure the appropriate views in both get updated immediately<br />dbNab.DelayUpdates = False <br />dbMainNab.DelayUpdates = False 	&#8216;KP addd this line to ensure the group views are updated in main nab</p>
+<p>Dim nabFullNameView As NotesView<br />Dim nabServerAccessView As NotesView<br />Dim nabUserView As NotesView<br />Dim MainnabFullNameView As NotesView<br />Dim MainnabServerAccessView As NotesView</p>
+<p>Set nabFullNameView = dbNAB.GetView(&#8220;($LDAPCN)&#8221;)<br />Set nabUserView = dbNAB.GetView(&#8220;($Users)&#8221;)<br />Set nabServerAccessView = dbNAB.GetView(&#8220;($ServerAccess)&#8221;)<br />Set MainnabFullNameView = dbMainNAB.GetView(&#8220;($VIMPeople)&#8221;)<br />Set MainnabServerAccessView = dbMainNAB.GetView(&#8220;($ServerAccess)&#8221;)</p>
+<p>Call nabFullNameView.Refresh<br />Call nabUserView .Refresh<br />Call nabServerAccessView.Refresh<br />Call MainnabFullNameView.Refresh<br />Call MainnabServerAccessView.Refresh<br />******************************************************************************************************</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2007-1-1-lotusscript-to-make-a-new-web-user-able-to-log-in-immediatel-html/#comment-1151</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Thu, 04 Jan 2007 11:00:32 +0000</pubDate>
+		<guid isPermaLink="false">/2007-1-1-lotusscript-to-make-a-new-web-user-able-to-log-in-immediatel-html/#comment-1151</guid>
+
+					<description><![CDATA[&lt;p&gt;Nice example Dwight, I may well &quot;borrow&quot; that myself.&lt;/p&gt;&lt;p&gt;Have you tried the &quot;show nlcache reset&quot; command? That seems to be the most powerful of the commands to do with security caching.&lt;/p&gt;&lt;p&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Nice example Dwight, I may well &#8220;borrow&#8221; that myself.</p>
+<p>Have you tried the &#8220;show nlcache reset&#8221; command? That seems to be the most powerful of the commands to do with security caching.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Dwight Wilbanks		</title>
+		<link>/2007-1-1-lotusscript-to-make-a-new-web-user-able-to-log-in-immediatel-html/#comment-1154</link>
+
+		<dc:creator><![CDATA[Dwight Wilbanks]]></dc:creator>
+		<pubDate>Wed, 03 Jan 2007 22:27:17 +0000</pubDate>
+		<guid isPermaLink="false">/2007-1-1-lotusscript-to-make-a-new-web-user-able-to-log-in-immediatel-html/#comment-1154</guid>
+
+					<description><![CDATA[&lt;p&gt;Using a standard addressbook, I&#039;ve not had any problems creating new web users with these commands (or equivalent) &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Set nabFullNameView = NabDB.GetView(&quot;($LDAPCN)&quot;)&lt;br/&gt;&lt;br/&gt;Call nabFullNameView.Refresh&lt;br/&gt;&lt;br/&gt;Set nabServerAccessView = NabDB.GetView(&quot;($ServerAccess)&quot;)&lt;br/&gt;&lt;br/&gt;Call nabServerAccessView.Refresh&lt;br/&gt;&lt;br/&gt;Set nabUserAccessView = NabDB.GetView(&quot;($Users)&quot;)&lt;br/&gt;&lt;br/&gt;Call nabUserAccessView.Refresh&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;They then have imediate access.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Once you have the users login information, you can actually populate the login box for them and log them in automatically.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;See &lt;a href=&quot;&lt;a rel=&quot;nofollow&quot; href=&quot;http://www.dwightwilbanks.org/dwightwilbanks/blog.nsf/d6plinks/DWIS-6QKN9N&quot;&quot; rel=&quot;nofollow ugc&quot;&gt;http://www.dwightwilbanks.org/dwightwilbanks/blog.nsf/d6plinks/DWIS-6QKN9N&quot;&lt;/a&gt; rel=&quot;nofollow&quot;&gt;&lt;a href=&quot;http://www.dwightwilbanks.org/dwightwilbanks/blog.nsf/d6plinks/DWIS-6QKN9N&quot; rel=&quot;nofollow ugc&quot;&gt;http://www.dwightwilbanks.org/dwightwilbanks/blog.nsf/d6plinks/DWIS-6QKN9N&lt;/a&gt;&lt;/a&gt; as an example&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;What I&#039;m struggling with right now is, I&#039;ve got existing users that are already logged in, I&#039;m granting the new group access in a WQS and need the new privileges to take affect right away.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;This one really has me scratching my head, the server is caching the credenitals and nothign I have been able to do will force the server to re-cache consistantly.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;I&#039;ve even tried bouncing the user to a new virtual host on the same server (with strange and inconstant results)&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Has anyone had any luck with group changes?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Using a standard addressbook, I&#8217;ve not had any problems creating new web users with these commands (or equivalent) </p>
+<p>Set nabFullNameView = NabDB.GetView(&#8220;($LDAPCN)&#8221;)</p>
+<p>Call nabFullNameView.Refresh</p>
+<p>Set nabServerAccessView = NabDB.GetView(&#8220;($ServerAccess)&#8221;)</p>
+<p>Call nabServerAccessView.Refresh</p>
+<p>Set nabUserAccessView = NabDB.GetView(&#8220;($Users)&#8221;)</p>
+<p>Call nabUserAccessView.Refresh</p>
+<p>They then have imediate access.</p>
+<p>Once you have the users login information, you can actually populate the login box for them and log them in automatically.</p>
+<p>See <a href="<a rel="nofollow" href="http://www.dwightwilbanks.org/dwightwilbanks/blog.nsf/d6plinks/DWIS-6QKN9N"" rel="nofollow ugc"></a><a href="http://www.dwightwilbanks.org/dwightwilbanks/blog.nsf/d6plinks/DWIS-6QKN9N" rel="nofollow ugc">http://www.dwightwilbanks.org/dwightwilbanks/blog.nsf/d6plinks/DWIS-6QKN9N</a>&#8220; rel=&#8221;nofollow&#8221;><a href="http://www.dwightwilbanks.org/dwightwilbanks/blog.nsf/d6plinks/DWIS-6QKN9N" rel="nofollow ugc">http://www.dwightwilbanks.org/dwightwilbanks/blog.nsf/d6plinks/DWIS-6QKN9N</a> as an example</p>
+<p>What I&#8217;m struggling with right now is, I&#8217;ve got existing users that are already logged in, I&#8217;m granting the new group access in a WQS and need the new privileges to take affect right away.</p>
+<p>This one really has me scratching my head, the server is caching the credenitals and nothign I have been able to do will force the server to re-cache consistantly.</p>
+<p>I&#8217;ve even tried bouncing the user to a new virtual host on the same server (with strange and inconstant results)</p>
+<p>Has anyone had any luck with group changes?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2007-1-1-lotusscript-to-make-a-new-web-user-able-to-log-in-immediatel-html/#comment-1149</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Tue, 02 Jan 2007 09:04:26 +0000</pubDate>
+		<guid isPermaLink="false">/2007-1-1-lotusscript-to-make-a-new-web-user-able-to-log-in-immediatel-html/#comment-1149</guid>
+
+					<description><![CDATA[&lt;p&gt;I&#039;m not doing hundreds a day so I&#039;m not too worried and I&#039;d rather have the thing working. But knowing that you know your stuff in this area I&#039;ll try removing it to see what happens.&lt;/p&gt;&lt;p&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;m not doing hundreds a day so I&#8217;m not too worried and I&#8217;d rather have the thing working. But knowing that you know your stuff in this area I&#8217;ll try removing it to see what happens.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Wild Bill		</title>
+		<link>/2007-1-1-lotusscript-to-make-a-new-web-user-able-to-log-in-immediatel-html/#comment-1153</link>
+
+		<dc:creator><![CDATA[Wild Bill]]></dc:creator>
+		<pubDate>Tue, 02 Jan 2007 08:14:11 +0000</pubDate>
+		<guid isPermaLink="false">/2007-1-1-lotusscript-to-make-a-new-web-user-able-to-log-in-immediatel-html/#comment-1153</guid>
+
+					<description><![CDATA[&lt;p&gt;Wow.. I usually just go for the refreshing the two views.. A dbcache refresh in the middle is going to really punish the server performance - especially if you&#039;re registering *lots* of users...&lt;/p&gt;&lt;p&gt;---* Bill&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Wow.. I usually just go for the refreshing the two views.. A dbcache refresh in the middle is going to really punish the server performance &#8211; especially if you&#8217;re registering *lots* of users&#8230;</p>
+<p>&#8212;* Bill</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sean Burgess		</title>
+		<link>/2007-1-1-lotusscript-to-make-a-new-web-user-able-to-log-in-immediatel-html/#comment-1152</link>
+
+		<dc:creator><![CDATA[Sean Burgess]]></dc:creator>
+		<pubDate>Mon, 01 Jan 2007 14:26:13 +0000</pubDate>
+		<guid isPermaLink="false">/2007-1-1-lotusscript-to-make-a-new-web-user-able-to-log-in-immediatel-html/#comment-1152</guid>
+
+					<description><![CDATA[&lt;p&gt;I have run into this issue also.  It has to do with the name lookup cache that was introduced in R6 for performance reasons.  Of course, this issue only affects users that are registered via the web, which is even more frustrating.  I just wish that Lotus would have a sever command like &quot;Tell server PickUpNewUsers&quot; so we wouldn&#039;t have to jury rig it.  I have never tried refreshing the views, but the nlcache reset has always been my friend.&lt;/p&gt;&lt;p&gt;Sean---&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I have run into this issue also.  It has to do with the name lookup cache that was introduced in R6 for performance reasons.  Of course, this issue only affects users that are registered via the web, which is even more frustrating.  I just wish that Lotus would have a sever command like &#8220;Tell server PickUpNewUsers&#8221; so we wouldn&#8217;t have to jury rig it.  I have never tried refreshing the views, but the nlcache reset has always been my friend.</p>
+<p>Sean&#8212;</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

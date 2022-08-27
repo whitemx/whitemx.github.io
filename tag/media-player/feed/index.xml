@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>media player &#8211; mattwhite.me</title>
+	<atom:link href="/tag/media-player/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:04 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Using Android as a media player</title>
+		<link>/2011-1-25-using-android-as-a-media-player-html/</link>
+					<comments>/2011-1-25-using-android-as-a-media-player-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 25 Jan 2011 14:53:54 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[iphone]]></category>
+		<category><![CDATA[media player]]></category>
+		<guid isPermaLink="false">/2011-1-25-using-android-as-a-media-player-html/</guid>
+
+					<description><![CDATA[I&#8217;ve been using an Android phone for around 18 months now and, generally, I have to say I like it. I suspect I may well get tempted back to the Apple side of the fence in the summer just because one element of its day to day use is just not quite there yet. I [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;ve been using an Android phone for around 18 months now and, generally, I have to say I like it. I suspect I may well get tempted back to the Apple side of the fence in the summer just because one element of its day to day use is just not quite there yet.</p>
+<p>I <a href="http://mattwhite.me/blog/2005/7/21/consolidation-on-the-gadget-front.html">wrote back in 2005</a> what I wanted in a phone and we are so very nearly there. The limiting factor is still the integration of media with the phone. One of the questions I get asked relatively regularly by new Android users is what my setup is to get content onto my phone. The main difference between the Nexus One (my current phone) and iPhone is that for the vast majority of things you don&#8217;t need to plug it into your computer, emails, contacts etc all sync over the air using your Google account. But music and podcasts are a different matter.</p>
+<p>I listen to a lot of podcasts so will need to sync probably once a day. So at the moment, I have <a href="http://www.winamp.com/android">Winamp for Android</a> as my player on the phone itself. It also has the advantage of syncing over WiFi but to be honest I don&#8217;t use that much. Instead, I use <a href="http://www.salling.com/MediaSync/mac/">Salling Media Sync</a> which is a program for the Mac which basically syncs music and podcasts from iTunes onto the phone when it&#8217;s plugged in.</p>
+<p>In general this setup works well, but there are a few caveats. If you watch a lot of video podcasts, I would exclude them from the automatic sync and manually copy them to a different area of the phone as the scanning time on the media player on the phone becomes truly ridiculous (upwards of an hour sometimes).</p>
+<p>So, overall, you can take this as yet more proof that Android is still aimed for the geeky user, or at least the &#8220;normal&#8221; user is not going to be able to get the best out of it. As I say I suspect I&#8217;ll end up switching back to the iPhone 5 when it&#8217;s announced and my contract expires, but hopefully this is useful for any new Android users out there.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011-1-25-using-android-as-a-media-player-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

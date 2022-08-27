@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>javascript &#8211; mattwhite.me</title>
+	<atom:link href="/tag/javascript/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Tracking down error 80020101 in Internet Exploder</title>
+		<link>/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/</link>
+					<comments>/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 21 Apr 2010 11:14:06 +0000</pubDate>
+				<category><![CDATA[Tips Tricks Samples]]></category>
+		<category><![CDATA[internet explorer]]></category>
+		<category><![CDATA[javascript]]></category>
+		<guid isPermaLink="false">/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/</guid>
+
+					<description><![CDATA[So yesterday, after all of the travel fun and games of the few days, it was back to the real world with a bump. I had a pile of bugs to fix on various projects. Most were very simple to get through, but one has taken me several hours to track down so I thought [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>So yesterday, after all of the travel fun and games of the few days, it was back to the real world with a bump. I had a pile of bugs to fix on various projects. Most were very simple to get through, but one has taken me several hours to track down so I thought it would be useful to record the problem and my solution.</p>
+<p>In IdeaJam we use Mootools as I have mentioned many a time before. Mootools, when executing Ajax requests does some very funky stuff to make the request as efficient as possible. One of those things, is that will detect the content type of the page you&#8217;re requesting and try it&#8217;s best to process it as it should, that is, if you request Javascript then it will try and execute it. Unfortunately if you&#8217;re in IE, then it uses the following technique&nbsp;</p>
+<blockquote>
+<p>window.execScript(code)</p>
+</blockquote>
+<p>This is all well and good until there is an error in the Javascript it is evaluating (and it is very picky about syntax here). When there is an error you will get something like:</p>
+<blockquote>
+<p>Could not complete the operation due to error 80020101</p>
+</blockquote>
+<p>There are a *lot* of websites out there where people have come across this problem and then tracked it down to a specific problem with their code so they assume that this error message means you&nbsp;should&nbsp;remove comment tags from your script, or there&#8217;s a missing semi colon on the end of a line, or an array is incorrectly formed. All of these may well be true, but the error message just means &#8220;There is an error&#8221;, you can read no more into it than that.</p>
+<p>Instead, you need to look very closely at whatever is being returned and evaluate it manually yourself to track down the issue.</p>
+<p>What was especially galling for me, is that my problem was entirely my own fault. I had set the content type of the page I was requesting using Ajax to be text/javascript when it actually it should have been text/html. So Mootools was trying to evaluate some &#8220;code&#8221; which could never possibly work. So my fix was simply to change the content type of my response page.</p>
+<p>The point is that your problem may be something entirely different, and you&#8217;d still get exactly the same error message from IE. Thanks for that Microsoft.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/feed/</wfw:commentRss>
+			<slash:comments>11</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Upgrading to Mootools 1.2</title>
+		<link>/2010-2-26-upgrading-to-mootools-12-html/</link>
+					<comments>/2010-2-26-upgrading-to-mootools-12-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 26 Feb 2010 10:00:26 +0000</pubDate>
+				<category><![CDATA[IdeaJam]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[mootools]]></category>
+		<guid isPermaLink="false">/2010-2-26-upgrading-to-mootools-12-html/</guid>
+
+					<description><![CDATA[With the release of IdeaJam 1.7 (in beta at the moment, but going &#8220;Gold&#8221; soon enough), we decided to upgrade the Javascript framework that we use, MooTools to the latest and greatest version. Normally this isn&#8217;t even worth commenting on, but this change was a big&#8217;un as a lot of the underlying API changed from [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>With the release of <a href="http://ideajam.net/">IdeaJam 1.7</a> (in beta at the moment, but going &#8220;Gold&#8221; soon enough), we decided to upgrade the Javascript framework that we use, <a href="http//mootools.net">MooTools</a> to the latest and greatest version. Normally this isn&#8217;t even worth commenting on, but this change was a big&#8217;un as a lot of the underlying API changed from version 1.1 to 1.2. Similar changes have happened with <a href="http://www.dojotoolkit.org/">Dojo</a> in the past in the shift from 0.4 to 0.9 and a very positive move it was too. The problem is that it&#8217;s a painful process of rekeying quite a lot of code.</p>
+<p> So I thought I&#8217;d go through the resources I used and the main changes which we faced with the upgrade to help anyone else going through the same process, although to be fair we are quite late to the party with <a href="http://ajaxian.com/archives/mootools-12-released">MooTools 1.2 as it was released in the middle of 2008</a>.</p>
+<p> There are a couple of really useful websites which document in quite a lot of detail how old style 1.1 syntax should be modified for 1.2. My favourite was this page on the Github Wiki: <a href="http://wiki.github.com/mootools/mootools-core/conversion-from-1-11-to-1-2">Conversion from 1.11 to 1.2</a>.</p>
+<p> Another page you might find useful is <a href="http://www.siafoo.net/article/62">this</a>.</p>
+<p> The areas which we spent most time on were retooling all of our Ajax requests behind the scenes (which was the reason the <a href="http://mattwhite.me/blog/2010/2/25/be-very-careful-with-your-content-type-for-chrome-ajax-reque.html">Chrome bug I mentioned recently</a> was introduced). So the main thing to be aware of is that the syntax for an Ajax request changed from something like this:</p>
+<blockquote><p>new Ajax(url, {<br /> method: &#8216;get&#8217;,<br /> onComplete: processResponse<br /> }).request();</p></blockquote>
+<p>towards something like this:</p>
+<blockquote><p>new Request({<br /> url: url, <br /> method: &#8216;get&#8217;,<br /> onComplete: processResponse<br /> }).send();</p></blockquote>
+<p>The other thing which caused us a little trouble was with the tooltips we use on the Dashboard page in IdeaJam. When I say trouble, it took about an hour to fix, we&#8217;re not talking serious effort here! Anyway, the default CSS settings changed a little, so we just had to add a few extra lines to our CSS file, no biggie.</p>
+<p>Finally for areas which you&#8217;ll want to be careful with, it&#8217;s third party add on functions and code. For example we use <a href="http://phatfusion.net/sortabletable/">Phatfusion&#8217;s sortableTable</a> class in the Top Innovator&#8217;s screen. This was written for MooTools 1.11, so I had to make some changes for it to work properly with the new version.</p>
+<p> From an IdeaJam point of view, the reason for the upgrade was so that we can start to use some of the newer Clientcide plugins in areas that may not get much airtime on the public IdeaJam site. One of the main customer feature requests for this new version is what we call the &#8220;Implementation Plan&#8221;, it&#8217;s the first feature to use some new MooTools functionality, but you can expect more in the next few weeks as we add a new way of linking ideas together.</p>
+<p> So why should you use MooTools? Well to be honest, these days most big web shops seem to be going with jQuery and there are a lot more resources out there for that framework. But I still have a soft spot for MooTools, it seems to fit the way I think which is an important consideration when you&#8217;ll be spending days, weeks or months using the API.</p>
+<p> Really the main benefit of MooTools these days is the wonderful <a href="http://www.clientcide.com/js/">Clientcide</a> add ons which handle the UI side of things and the superb documentation and also the <a href="http://mootools.net/core">core</a> and <a href="http://mootools.net/more">more</a> builders which allow you to configure the javascript files which make up MooTools to such a degree that it will do exactly what you want, a great boon for managing your deployments.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-2-26-upgrading-to-mootools-12-html/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Catch and Cancel Return Key Press for Safari in XPages</title>
+		<link>/2009-10-19-catch-and-cancel-return-key-press-for-safari-in-xpages-html/</link>
+					<comments>/2009-10-19-catch-and-cancel-return-key-press-for-safari-in-xpages-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 19 Oct 2009 12:25:59 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[dojo]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[safari]]></category>
+		<guid isPermaLink="false">/2009-10-19-catch-and-cancel-return-key-press-for-safari-in-xpages-html/</guid>
+
+					<description><![CDATA[The solution to one of the small but annoying bugs in IQJam had eluded me for quite a while, so this morning I resolved to have another go at it after a lazy weekend of feeling ill. And, lo and behold, I managed to fix it. So a little bit of background to the problem, [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>The solution to one of the small but annoying bugs in IQJam had eluded me for quite a while, so this morning I resolved to have another go at it after a lazy weekend of feeling ill. And, lo and behold, I managed to fix it.</p>
+<p>So a little bit of background to the problem, when you login to IQJam we provide a login button for you to press after filling in your username and password, but most people are used to just hitting return after finishing typing their password. Unfortunately, this is a case where Safari actually implements internet standards just a little too well. What browsers are meant to do (but none of them except Safari actually do) is submit the form that a text field is in when the user presses the return key.</p>
+<p>Now in most development environments this is pretty easy to fix, you just add a</p>
+<blockquote>
+<p>return false;</p>
+</blockquote>
+<p>to the onSubmit action of the HTML form that the field is located in. But with XPages we don&#8217;t have access to the action, onSubmit or anything else to do with the form, as pretty much everything you click on in an XPage will want to interact with the server using code that has been generated for us rather than written by us.</p>
+<p>In this case, I wanted to do my own AJAX post request to the server and deal with the entire interaction myself and stop anything else being submitted to the server. The problem was how? I spent ages trying to stop event bubbling to try and cancel the keypress event when the user presses return to no avail. However, I did learn, at least, that the keypress event fires before the form is submitted back to the server.</p>
+<p>So my solution is to put this code in the keypress event of the password field:</p>
+<blockquote>
+<p><span>if </span>(thisEvent.keyCode == 13)<span>{</span></p>
+<p><span></span><span style="white-space: pre;"> </span>dojo.connect(</p>
+<p><span style="white-space: pre;"> </span>document.forms[0],&nbsp;</p>
+<p><span></span><span style="white-space: pre;"> </span>&#8216;onsubmit&#8217;<span>,&nbsp;</span></p>
+<p><span><span style="white-space: pre;"> </span>null</span>,&nbsp;</p>
+<p><span></span><span style="white-space: pre;"> </span>function<span>(e) </span>{&nbsp;</p>
+<p><span></span><span style="white-space: pre;"> </span>e.preventDefault();</p>
+<p><span></span><span style="white-space: pre;"> </span>return false<span>;</span></p>
+<p><span><span style="white-space: pre;"> </span>}</span></p>
+<p><span></span><span style="white-space: pre;"> </span>);</p>
+<p><span><span style="white-space: pre;"> </span>doLogin(</span>&#8220;#{id:userName}&#8221;<span>, </span>&#8220;#{id:password}&#8221;<span>)</span></p>
+<p>}</p>
+</blockquote>
+<p>Basically when the user presses the return key, using Dojo, I can re-write the form onsubmit method to prevent it posting back to the server, and instead run my own &#8220;doLogin&#8221; function.</p>
+<p>It&#8217;s important to be aware that this will effectively break the XPage for all other actions unless I re-write the original onSubmit function back to what it was after I have finished, but here, I am going to be re-loading the page anyway so it&#8217;s not necessary.</p>
+<p>Once again, we have more evidence that if you&#8217;re beginning to get into XPages, it&#8217;s worth spending as much time learning Dojo as it is to learn the XPages themselves.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-10-19-catch-and-cancel-return-key-press-for-safari-in-xpages-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Human Readable Dates in XPages</title>
+		<link>/2009-6-28-human-readable-dates-in-xpages-html/</link>
+					<comments>/2009-6-28-human-readable-dates-in-xpages-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sun, 28 Jun 2009 09:05:56 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2009-6-28-human-readable-dates-in-xpages-html/</guid>
+
+					<description><![CDATA[Last year Jake published a really good article (as he generally does) about how to create Ruby style dates in LotusScript. So for example, instead of displaying &#8220;28/06/2009 09:35&#8221; the page will show &#8220;about 30 minutes ago&#8221;. It&#8217;s a technique I bookmarked until I had a need for it, which I now have, but for [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Last year <a href="http://www.codestore.net/store.nsf/unid/BLOG-20080909?OpenDocument">Jake published a really good article</a> (as he generally does) about how to create Ruby style dates in LotusScript. So for example, instead of displaying &#8220;28/06/2009 09:35&#8221; the page will show &#8220;about 30 minutes ago&#8221;.</p>
+<p>It&#8217;s a technique I bookmarked until I had a need for it, which I now have, but for an XPages app. So I have ported Jakes code across to use Server Side Javascript instead of LotusScript, and in &#8220;share and share alike&#8221; fashion, thought I should republish it for you to use as you see fit.</p>
+<p>So you can download the code here: <a href="/static/500fb502e4b0b0a178712c5d/500fb669e4b00f3716e9af9d/500fb669e4b00f3716e9b134/1246116965047/">xpDates.jss</a>&nbsp;</p>
+<p>Please let me know if you spot any bugs.</p>
+<p>An interesting side note is, that if you compare Jakes LotusScript and my server side Javascript, you can see just how easy it is to port code from one syntax to the other. So if you&#8217;re just starting out in XPages development and are worried about losing all of your existing LotusScript agents, there really is no need to. You can spend (an admittedly boring) few hours reformatting and not lose any of your existing code at all.</p>
+<p>It may not suit all cases, but for the majority of code it&#8217;s easier than starting from scratch.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-6-28-human-readable-dates-in-xpages-html/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

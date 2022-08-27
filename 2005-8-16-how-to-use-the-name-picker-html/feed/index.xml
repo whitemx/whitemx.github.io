@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: How to use the name picker	</title>
+	<atom:link href="/2005-8-16-how-to-use-the-name-picker-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2005-8-16-how-to-use-the-name-picker-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:35:27 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2005-8-16-how-to-use-the-name-picker-html/#comment-1263</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Wed, 26 Mar 2008 15:27:31 +0000</pubDate>
+		<guid isPermaLink="false">/2005-8-16-how-to-use-the-name-picker-html/#comment-1263</guid>
+
+					<description><![CDATA[&lt;p&gt;@28 - there is no database to download. You just need to look at the source of the demo HTML page for the javascript.&lt;br  /&gt;&lt;br  /&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>@28 &#8211; there is no database to download. You just need to look at the source of the demo HTML page for the javascript.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: null		</title>
+		<link>/2005-8-16-how-to-use-the-name-picker-html/#comment-1270</link>
+
+		<dc:creator><![CDATA[null]]></dc:creator>
+		<pubDate>Wed, 26 Mar 2008 13:53:47 +0000</pubDate>
+		<guid isPermaLink="false">/2005-8-16-how-to-use-the-name-picker-html/#comment-1270</guid>
+
+					<description><![CDATA[&lt;p&gt;where could we download the db?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>where could we download the db?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Menchie		</title>
+		<link>/2005-8-16-how-to-use-the-name-picker-html/#comment-1260</link>
+
+		<dc:creator><![CDATA[Menchie]]></dc:creator>
+		<pubDate>Tue, 08 Jan 2008 02:30:11 +0000</pubDate>
+		<guid isPermaLink="false">/2005-8-16-how-to-use-the-name-picker-html/#comment-1260</guid>
+
+					<description><![CDATA[&lt;p&gt;Does this code work with frames?  &lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Does this code work with frames?  </p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Menchie		</title>
+		<link>/2005-8-16-how-to-use-the-name-picker-html/#comment-1268</link>
+
+		<dc:creator><![CDATA[Menchie]]></dc:creator>
+		<pubDate>Mon, 07 Jan 2008 17:30:35 +0000</pubDate>
+		<guid isPermaLink="false">/2005-8-16-how-to-use-the-name-picker-html/#comment-1268</guid>
+
+					<description><![CDATA[&lt;p&gt;First of all this is a brilliant code.&lt;br/&gt;&lt;br  /&gt;&lt;br/&gt;&lt;br  /&gt;Is it suppose to prompt you to login?  I am using this for another application and I am already authenticated.  When I click the pop-up button, it asks me to login again?  what should be the ACL setting for the names.nsf to avoid the prompt?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>First of all this is a brilliant code.</p>
+<p>Is it suppose to prompt you to login?  I am using this for another application and I am already authenticated.  When I click the pop-up button, it asks me to login again?  what should be the ACL setting for the names.nsf to avoid the prompt?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Rod Weaver		</title>
+		<link>/2005-8-16-how-to-use-the-name-picker-html/#comment-1271</link>
+
+		<dc:creator><![CDATA[Rod Weaver]]></dc:creator>
+		<pubDate>Wed, 12 Dec 2007 18:31:52 +0000</pubDate>
+		<guid isPermaLink="false">/2005-8-16-how-to-use-the-name-picker-html/#comment-1271</guid>
+
+					<description><![CDATA[&lt;p&gt;Matt, I&#039;ve downloaded the db and want to use the &quot;Type Ahead&quot; format in an app I am developing. In addition to picking a name, how can I use this to populate other fields from the NAB entry (Phone, address etc) once I select the name.&lt;br  /&gt;&lt;br  /&gt;ie - Say I have a form with a Name field and a Phone field. When I select the Name via Name Picker I also want it to populate the Phone field.&lt;br  /&gt;&lt;br  /&gt;Thanks.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Matt, I&#8217;ve downloaded the db and want to use the &#8220;Type Ahead&#8221; format in an app I am developing. In addition to picking a name, how can I use this to populate other fields from the NAB entry (Phone, address etc) once I select the name.</p>
+<p>ie &#8211; Say I have a form with a Name field and a Phone field. When I select the Name via Name Picker I also want it to populate the Phone field.</p>
+<p>Thanks.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: kipa		</title>
+		<link>/2005-8-16-how-to-use-the-name-picker-html/#comment-1279</link>
+
+		<dc:creator><![CDATA[kipa]]></dc:creator>
+		<pubDate>Mon, 15 Jan 2007 13:09:16 +0000</pubDate>
+		<guid isPermaLink="false">/2005-8-16-how-to-use-the-name-picker-html/#comment-1279</guid>
+
+					<description><![CDATA[&lt;p&gt;when create new document multivaluepicker works fine, but after saving it not works anymore. &#060;br  /&#062;It show next error in popup window: ERROR 500, Http Web Server: Invalid URL Exception.  &#060;br  /&#062;&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>when create new document multivaluepicker works fine, but after saving it not works anymore. &lt;br  /&gt;It show next error in popup window: ERROR 500, Http Web Server: Invalid URL Exception.  &lt;br  /&gt;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: kipa		</title>
+		<link>/2005-8-16-how-to-use-the-name-picker-html/#comment-1266</link>
+
+		<dc:creator><![CDATA[kipa]]></dc:creator>
+		<pubDate>Mon, 15 Jan 2007 13:05:19 +0000</pubDate>
+		<guid isPermaLink="false">/2005-8-16-how-to-use-the-name-picker-html/#comment-1266</guid>
+
+					<description><![CDATA[&lt;p&gt;when create new document multivaluepicker works fine, but after saving it not works anymore. &lt;br  /&gt;It show next error in popup window: ERROR 500, Http Web Server: Invalid URL Exception.  &lt;br  /&gt;&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>when create new document multivaluepicker works fine, but after saving it not works anymore. <br />It show next error in popup window: ERROR 500, Http Web Server: Invalid URL Exception.  </p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Marcus Laubli		</title>
+		<link>/2005-8-16-how-to-use-the-name-picker-html/#comment-1269</link>
+
+		<dc:creator><![CDATA[Marcus Laubli]]></dc:creator>
+		<pubDate>Tue, 26 Sep 2006 22:40:25 +0000</pubDate>
+		<guid isPermaLink="false">/2005-8-16-how-to-use-the-name-picker-html/#comment-1269</guid>
+
+					<description><![CDATA[&lt;p&gt;Matt,&lt;br/&gt;&lt;br/&gt;Where in Ipswich?  My wife&#039;s family lives there. It sure is a small world! &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Marcus&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;P.S. I think your picker is the pick of the crop! &lt;img src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLS/$FILE/biggrin.gif&quot;&lt;/a&gt;&gt; I love it!&lt;img src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5N3GJG/$FILE/cheesy.gif&quot;&lt;/a&gt;&gt; &lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Matt,</p>
+<p>Where in Ipswich?  My wife&#8217;s family lives there. It sure is a small world! </p>
+<p>Marcus</p>
+<p>P.S. I think your picker is the pick of the crop! <img src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLS/$FILE/biggrin.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5MZVLS/$FILE/biggrin.gif</a>&#8220;> I love it!<img src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5N3GJG/$FILE/cheesy.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5N3GJG/$FILE/cheesy.gif</a>&#8220;> </p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: fernando ferrandini		</title>
+		<link>/2005-8-16-how-to-use-the-name-picker-html/#comment-1264</link>
+
+		<dc:creator><![CDATA[fernando ferrandini]]></dc:creator>
+		<pubDate>Tue, 11 Jul 2006 20:04:11 +0000</pubDate>
+		<guid isPermaLink="false">/2005-8-16-how-to-use-the-name-picker-html/#comment-1264</guid>
+
+					<description><![CDATA[&lt;p&gt;hey Matt,&lt;/p&gt;&lt;p&gt;why i cant access other server´s names.nsf? why only the server the APP is running?&lt;/p&gt;&lt;p&gt;Im asking that , cause sometimes we do search others server´s names.nsf in NAB, you choose the server you want to search for... from a combo or whatever..&lt;/p&gt;&lt;p&gt;Do you have any reference on Domino Assistance+AJAX?&lt;br/&gt;how could i proceed to make it possible?&lt;/p&gt;&lt;p&gt;how to retrieve from Domino Assistance ( Domino Directories ) , this kind of info ? &lt;/p&gt;&lt;p&gt;PS: Im cleaning the code( not your code, my added code) of the name picker, its almost 100% in firefox 1.5.x &lt;/p&gt;&lt;p&gt;&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>hey Matt,</p>
+<p>why i cant access other server´s names.nsf? why only the server the APP is running?</p>
+<p>Im asking that , cause sometimes we do search others server´s names.nsf in NAB, you choose the server you want to search for&#8230; from a combo or whatever..</p>
+<p>Do you have any reference on Domino Assistance+AJAX?<br />how could i proceed to make it possible?</p>
+<p>how to retrieve from Domino Assistance ( Domino Directories ) , this kind of info ? </p>
+<p>PS: Im cleaning the code( not your code, my added code) of the name picker, its almost 100% in firefox 1.5.x </p></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2005-8-16-how-to-use-the-name-picker-html/#comment-1281</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Tue, 11 Jul 2006 09:05:22 +0000</pubDate>
+		<guid isPermaLink="false">/2005-8-16-how-to-use-the-name-picker-html/#comment-1281</guid>
+
+					<description><![CDATA[&lt;p&gt;Fernando,&lt;/p&gt;&lt;p&gt;The code was written for an IE only site, however my brief testing in Firefox didn&#039;t reveal any major problems.&lt;/p&gt;&lt;p&gt;I like that you guys are spending the time to extend my code. When you&#039;re done please let me know and I&#039;ll publish an update article giving you all the credit of course!&lt;/p&gt;&lt;p&gt;Wish I had the time to help but things are very busy at the moment.&lt;/p&gt;&lt;p&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Fernando,</p>
+<p>The code was written for an IE only site, however my brief testing in Firefox didn&#8217;t reveal any major problems.</p>
+<p>I like that you guys are spending the time to extend my code. When you&#8217;re done please let me know and I&#8217;ll publish an update article giving you all the credit of course!</p>
+<p>Wish I had the time to help but things are very busy at the moment.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

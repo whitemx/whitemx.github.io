@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>holidays &#8211; mattwhite.me</title>
+	<atom:link href="/tag/holidays/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:03 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Gone Fishing</title>
+		<link>/2011-7-9-gone-fishing-html/</link>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sat, 09 Jul 2011 08:00:11 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[holidays]]></category>
+		<guid isPermaLink="false">/2011-7-9-gone-fishing-html/</guid>
+
+					<description><![CDATA[I&#8217;m heading off on holiday for a couple of weeks from today. First port of call is Montreal and then we&#8217;re going Newfoundland to explore for a while. I&#8217;ll be checking into email every so often but I will not be responding to much in the meantime. See you later in July 🙂]]></description>
+										<content:encoded><![CDATA[<p><span class="full-image-float-right ssNonEditable"><span><img src="/static/500fb502e4b0b0a178712c5d/500fb669e4b00f3716e9af9d/500fb669e4b00f3716e9afd8/1310044628099/1000w" alt="" /></span></span>I&#8217;m heading off on holiday for a couple of weeks from today. First port of call is Montreal and then we&#8217;re going Newfoundland to explore for a while.</p>
+<p>I&#8217;ll be checking into email every so often but I will not be responding to much in the meantime.</p>
+<p>See you later in July <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

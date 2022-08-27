@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Continuing XPages Progress and some lessons learned	</title>
+	<atom:link href="/2008-9-8-continuing-xpages-progress-and-some-lessons-learned-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2008-9-8-continuing-xpages-progress-and-some-lessons-learned-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:25:24 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2008-9-8-continuing-xpages-progress-and-some-lessons-learned-html/#comment-1053</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Tue, 09 Sep 2008 19:25:37 +0000</pubDate>
+		<guid isPermaLink="false">/2008-9-8-continuing-xpages-progress-and-some-lessons-learned-html/#comment-1053</guid>
+
+					<description><![CDATA[&lt;p&gt;@1 - It&#039;s certainly on the way. I would say by the time we get to 9.0 (or whatever it&#039;s called) we should be bordering on world class development platforms.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>@1 &#8211; It&#8217;s certainly on the way. I would say by the time we get to 9.0 (or whatever it&#8217;s called) we should be bordering on world class development platforms.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Scott Cochrane		</title>
+		<link>/2008-9-8-continuing-xpages-progress-and-some-lessons-learned-html/#comment-1052</link>
+
+		<dc:creator><![CDATA[Scott Cochrane]]></dc:creator>
+		<pubDate>Tue, 09 Sep 2008 11:30:03 +0000</pubDate>
+		<guid isPermaLink="false">/2008-9-8-continuing-xpages-progress-and-some-lessons-learned-html/#comment-1052</guid>
+
+					<description><![CDATA[&lt;p&gt;Certainly sounds impressive.. is Domino finally a &quot;great&quot; web development platform?  &lt;img alt=&quot;Emoticon&quot; src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5N3GJ8/$File/shocked.gif&quot;&lt;/a&gt; /&gt; &lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Certainly sounds impressive.. is Domino finally a &#8220;great&#8221; web development platform?  <img alt="Emoticon" src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5N3GJ8/$File/shocked.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5N3GJ8/$File/shocked.gif</a>&#8220; /> </p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

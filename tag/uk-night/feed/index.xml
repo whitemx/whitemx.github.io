@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>uk night &#8211; mattwhite.me</title>
+	<atom:link href="/tag/uk-night/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>UK Night at Lotusphere &#8211; VENUE CHANGE</title>
+		<link>/2010-1-11-uk-night-at-lotusphere-venue-change-html/</link>
+					<comments>/2010-1-11-uk-night-at-lotusphere-venue-change-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 11 Jan 2010 09:41:20 +0000</pubDate>
+				<category><![CDATA[Lotusphere2010]]></category>
+		<category><![CDATA[ls10]]></category>
+		<category><![CDATA[uk night]]></category>
+		<guid isPermaLink="false">/2010-1-11-uk-night-at-lotusphere-venue-change-html/</guid>
+
+					<description><![CDATA[UK Night has proved such a hit with the sponsors that we&#8217;ve had to move the venue. So the new details are: 8pm on Monday night at Shula&#8217;s Lounge. The rest of the set up is the same as before. Come and join us for a few drinks, chats about the UK market and the [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>UK Night has proved such a hit with the sponsors that we&#8217;ve had to move the venue.</p>
+<p>So the new details are: <strong>8pm on Monday night at Shula&#8217;s Lounge</strong>.</p>
+<p>The rest of the set up is the same as before. Come and join us for a few drinks, chats about the UK market and the chance to match up with old friends. <a href="http://www.elsmore.net/warren/blog.nsf/d6plinks/WELE-7ZLDAH">Warren describes it best&#8230;</a></p>
+<blockquote>
+<p>How to get in:&nbsp;<br />Here&#8217;s the fun part! You&#8217;ll need to find someone from one of the above companies. Find one of their employees, let them hear your great British accent*, and get a special sticker for your Lotusphere badge. Make sure to wear your badge and sticker to get in!&nbsp;</p>
+<p>So, if you&#8217;re at Lotusphere in January, then we&#8217;d love to see you at UK Night. We&#8217;re attracting more freebies as time goes on, so you will even stand a change of winning a superb prize. Our thanks again to the sponsors above who are making this possible.&nbsp;</p>
+<p>*BTW, If you&#8217;re not British, but can do a good british accent &#8211; we might let you in too. Just don&#8217;t start learning from Mary Poppins&#8230;</p>
+</blockquote>
+<p>You can find me, <a href="http://benpoole.com/">Ben</a>, <a href="http://stickfight.co.uk/">Mark</a> or <a href="http://blog.woowar.com/">Julian</a> (collectively representing the <a href="http://londondevelopercoop.com/">LDC</a>) down on stand 622, the <a href="http://elguji.com/">Elguji</a> stand.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-1-11-uk-night-at-lotusphere-venue-change-html/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

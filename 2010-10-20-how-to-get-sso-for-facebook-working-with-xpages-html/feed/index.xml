@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: How to get SSO for Facebook working with XPages	</title>
+	<atom:link href="/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:08 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Peter Närlund		</title>
+		<link>/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/#comment-1376</link>
+
+		<dc:creator><![CDATA[Peter Närlund]]></dc:creator>
+		<pubDate>Thu, 03 Mar 2011 23:41:45 +0000</pubDate>
+		<guid isPermaLink="false">/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/#comment-1376</guid>
+
+					<description><![CDATA[&lt;p&gt;Check out real authentication using http://simply-sso.com./ No need to handel domino passwords...&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Check out real authentication using <a href="http://simply-sso.com/" rel="nofollow ugc">http://simply-sso.com/</a>. No need to handel domino passwords&#8230;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Vikas Tiwari		</title>
+		<link>/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/#comment-1375</link>
+
+		<dc:creator><![CDATA[Vikas Tiwari]]></dc:creator>
+		<pubDate>Tue, 23 Nov 2010 08:39:42 +0000</pubDate>
+		<guid isPermaLink="false">/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/#comment-1375</guid>
+
+					<description><![CDATA[&lt;p&gt;Hi Matt, &lt;/p&gt;&lt;p&gt;Thanks for the wonderful code. &lt;/p&gt;&lt;p&gt;I am facing issue with sessionAsSigner in afterPageLoad event. Server is 8.5.2, still giving error: sessionAsSigner not found. It works if I use sessionAsSigner within onClick event of a button but not with XPage events.&lt;/p&gt;&lt;p&gt;Please suggest if anyone else has faced such issue ?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hi Matt, </p>
+<p>Thanks for the wonderful code. </p>
+<p>I am facing issue with sessionAsSigner in afterPageLoad event. Server is 8.5.2, still giving error: sessionAsSigner not found. It works if I use sessionAsSigner within onClick event of a button but not with XPage events.</p>
+<p>Please suggest if anyone else has faced such issue ?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Julian Buss		</title>
+		<link>/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/#comment-1374</link>
+
+		<dc:creator><![CDATA[Julian Buss]]></dc:creator>
+		<pubDate>Wed, 20 Oct 2010 13:16:19 +0000</pubDate>
+		<guid isPermaLink="false">/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/#comment-1374</guid>
+
+					<description><![CDATA[&lt;p&gt;sorry for my comment, I didn&#039;t read until the end.. :-) Now I know where the password&#039;s coming from.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>sorry for my comment, I didn&#39;t read until the end.. 🙂 Now I know where the password&#39;s coming from.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nathan T. Freeman		</title>
+		<link>/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/#comment-1373</link>
+
+		<dc:creator><![CDATA[Nathan T. Freeman]]></dc:creator>
+		<pubDate>Wed, 20 Oct 2010 13:06:57 +0000</pubDate>
+		<guid isPermaLink="false">/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/#comment-1373</guid>
+
+					<description><![CDATA[&lt;p&gt;Matt, can I suggest adding the following to your registerNewFBUser function?&lt;/p&gt;&lt;p&gt;docPerson.replaceItemValue(&#034;$SecurePassword&#034;, &#034;2&#034;);&lt;/p&gt;&lt;p&gt;Theoretically the .computeWithForm call will enforce whatever password storage policy you&#039;ve set in the directory, but I&#039;ve personally found it a good idea to enforce the salted storage as much as possible.&lt;/p&gt;&lt;p&gt;Nice use of the fb uid as a custom OU there. Very slick. ;-)&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Matt, can I suggest adding the following to your registerNewFBUser function?</p>
+<p>docPerson.replaceItemValue(&quot;$SecurePassword&quot;, &quot;2&quot;);</p>
+<p>Theoretically the .computeWithForm call will enforce whatever password storage policy you&#39;ve set in the directory, but I&#39;ve personally found it a good idea to enforce the salted storage as much as possible.</p>
+<p>Nice use of the fb uid as a custom OU there. Very slick. 😉</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Julian Buss		</title>
+		<link>/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/#comment-1372</link>
+
+		<dc:creator><![CDATA[Julian Buss]]></dc:creator>
+		<pubDate>Wed, 20 Oct 2010 13:03:00 +0000</pubDate>
+		<guid isPermaLink="false">/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/#comment-1372</guid>
+
+					<description><![CDATA[&lt;p&gt;nice one, Matt. &lt;br/&gt;I always wondered how one could create SSO solutions for Domino using &#034;foreign&#034; authentication, but it makes sense the way you did it. &lt;br/&gt;What puzzles me is that it seems you can read the user&#039;s password from his facebook account (since you create a new person document and writing that password into the httppassword field)? &lt;br/&gt;Or is this some kind of generated password, created by the facebook system?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>nice one, Matt. <br />I always wondered how one could create SSO solutions for Domino using &quot;foreign&quot; authentication, but it makes sense the way you did it. <br />What puzzles me is that it seems you can read the user&#39;s password from his facebook account (since you create a new person document and writing that password into the httppassword field)? <br />Or is this some kind of generated password, created by the facebook system?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Fredrik		</title>
+		<link>/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/#comment-1371</link>
+
+		<dc:creator><![CDATA[Fredrik]]></dc:creator>
+		<pubDate>Wed, 20 Oct 2010 12:41:48 +0000</pubDate>
+		<guid isPermaLink="false">/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/#comment-1371</guid>
+
+					<description><![CDATA[&lt;p&gt;Thanks for sharing Matt, perhaps plublish this on openntf.org as a demo app would be great next step.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thanks for sharing Matt, perhaps plublish this on openntf.org as a demo app would be great next step.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mark Barton		</title>
+		<link>/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/#comment-1370</link>
+
+		<dc:creator><![CDATA[Mark Barton]]></dc:creator>
+		<pubDate>Wed, 20 Oct 2010 12:40:15 +0000</pubDate>
+		<guid isPermaLink="false">/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/#comment-1370</guid>
+
+					<description><![CDATA[&lt;p&gt;Ah - doing the AJAX HTTP Post to perform the login is a nice touch saves having to create the token.&lt;/p&gt;&lt;p&gt;Thanks for posting this Matt.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Ah &#8211; doing the AJAX HTTP Post to perform the login is a nice touch saves having to create the token.</p>
+<p>Thanks for posting this Matt.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: JJTB Somhorst		</title>
+		<link>/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/#comment-1369</link>
+
+		<dc:creator><![CDATA[JJTB Somhorst]]></dc:creator>
+		<pubDate>Wed, 20 Oct 2010 12:26:16 +0000</pubDate>
+		<guid isPermaLink="false">/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/#comment-1369</guid>
+
+					<description><![CDATA[&lt;p&gt;The integration with facebook is an awsome step to make xpages even more nice. I think it would be possible to do the same with for instance twitter?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>The integration with facebook is an awsome step to make xpages even more nice. I think it would be possible to do the same with for instance twitter?</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: A small tip for upgrading your XPages apps from 8.5.1 to 8.5.2	</title>
+	<atom:link href="/2010-9-2-a-small-tip-for-upgrading-your-xpages-apps-from-851-to-852-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2010-9-2-a-small-tip-for-upgrading-your-xpages-apps-from-851-to-852-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:08 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: John Vaughan		</title>
+		<link>/2010-9-2-a-small-tip-for-upgrading-your-xpages-apps-from-851-to-852-html/#comment-157</link>
+
+		<dc:creator><![CDATA[John Vaughan]]></dc:creator>
+		<pubDate>Thu, 02 Sep 2010 15:57:42 +0000</pubDate>
+		<guid isPermaLink="false">/2010-9-2-a-small-tip-for-upgrading-your-xpages-apps-from-851-to-852-html/#comment-157</guid>
+
+					<description><![CDATA[&lt;p&gt;Thanks Matt. :-)&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thanks Matt. 🙂</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2010-9-2-a-small-tip-for-upgrading-your-xpages-apps-from-851-to-852-html/#comment-156</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Thu, 02 Sep 2010 15:36:39 +0000</pubDate>
+		<guid isPermaLink="false">/2010-9-2-a-small-tip-for-upgrading-your-xpages-apps-from-851-to-852-html/#comment-156</guid>
+
+					<description><![CDATA[&lt;p&gt;John,&lt;/p&gt;&lt;p&gt;I&#039;ve not done any significant testing yet but I suspect we should leave the responseComplete line in.&lt;/p&gt;&lt;p&gt;With regards any potential memory leaks, again I&#039;ve not looked in detail but I suspect it will be OK.&lt;/p&gt;&lt;p&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>John,</p>
+<p>I&#39;ve not done any significant testing yet but I suspect we should leave the responseComplete line in.</p>
+<p>With regards any potential memory leaks, again I&#39;ve not looked in detail but I suspect it will be OK.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: John Vaughan		</title>
+		<link>/2010-9-2-a-small-tip-for-upgrading-your-xpages-apps-from-851-to-852-html/#comment-155</link>
+
+		<dc:creator><![CDATA[John Vaughan]]></dc:creator>
+		<pubDate>Thu, 02 Sep 2010 15:28:12 +0000</pubDate>
+		<guid isPermaLink="false">/2010-9-2-a-small-tip-for-upgrading-your-xpages-apps-from-851-to-852-html/#comment-155</guid>
+
+					<description><![CDATA[&lt;p&gt;So we should get rid of facesContext.responseComplete(); in 8.5.2?&lt;/p&gt;&lt;p&gt;Do you have any idea if leaving that line out in 8.5.1 will cause memory leaks?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>So we should get rid of facesContext.responseComplete(); in 8.5.2?</p>
+<p>Do you have any idea if leaving that line out in 8.5.1 will cause memory leaks?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2010-9-2-a-small-tip-for-upgrading-your-xpages-apps-from-851-to-852-html/#comment-154</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Thu, 02 Sep 2010 15:13:34 +0000</pubDate>
+		<guid isPermaLink="false">/2010-9-2-a-small-tip-for-upgrading-your-xpages-apps-from-851-to-852-html/#comment-154</guid>
+
+					<description><![CDATA[&lt;p&gt;@John, You&#039;re right, Stephan&#039;s codesample does use the responseComplete() argument. From my testing this is still an issue though.&lt;/p&gt;&lt;p&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>@John, You&#39;re right, Stephan&#39;s codesample does use the responseComplete() argument. From my testing this is still an issue though.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: John Vaughan		</title>
+		<link>/2010-9-2-a-small-tip-for-upgrading-your-xpages-apps-from-851-to-852-html/#comment-153</link>
+
+		<dc:creator><![CDATA[John Vaughan]]></dc:creator>
+		<pubDate>Thu, 02 Sep 2010 14:35:55 +0000</pubDate>
+		<guid isPermaLink="false">/2010-9-2-a-small-tip-for-upgrading-your-xpages-apps-from-851-to-852-html/#comment-153</guid>
+
+					<description><![CDATA[&lt;p&gt;The code I gratefully stole out of the LS2010 AD111 session (Tim and Stephan&#039;s session on this topic) ends with:&lt;/p&gt;&lt;p&gt;facesContext.responseComplete();&lt;/p&gt;&lt;p&gt;Any problems with that line in 8.5.2?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>The code I gratefully stole out of the LS2010 AD111 session (Tim and Stephan&#39;s session on this topic) ends with:</p>
+<p>facesContext.responseComplete();</p>
+<p>Any problems with that line in 8.5.2?</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

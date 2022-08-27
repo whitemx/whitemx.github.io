@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Thing learned for the day	</title>
+	<atom:link href="/2009-6-25-thing-learned-for-the-day-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2009-6-25-thing-learned-for-the-day-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:40 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: David Leedy		</title>
+		<link>/2009-6-25-thing-learned-for-the-day-html/#comment-380</link>
+
+		<dc:creator><![CDATA[David Leedy]]></dc:creator>
+		<pubDate>Thu, 25 Jun 2009 16:41:26 +0000</pubDate>
+		<guid isPermaLink="false">/2009-6-25-thing-learned-for-the-day-html/#comment-380</guid>
+
+					<description><![CDATA[&lt;p&gt;Neat Tip!  For grins I tried the Notes Client to see if I could set a -1 to the tab order there and get the same results. Nope you can&#039;t.  -1 just changes the number to 65535 - so it goes last. Oh well..&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Neat Tip!  For grins I tried the Notes Client to see if I could set a -1 to the tab order there and get the same results. Nope you can&#8217;t.  -1 just changes the number to 65535 &#8211; so it goes last. Oh well..</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nathan T. Freeman		</title>
+		<link>/2009-6-25-thing-learned-for-the-day-html/#comment-379</link>
+
+		<dc:creator><![CDATA[Nathan T. Freeman]]></dc:creator>
+		<pubDate>Thu, 25 Jun 2009 16:07:42 +0000</pubDate>
+		<guid isPermaLink="false">/2009-6-25-thing-learned-for-the-day-html/#comment-379</guid>
+
+					<description><![CDATA[&lt;p&gt;&lt;a href=&quot;http://www.lotus911.com/nathan/escape.nsf/D6Plinks/NTFN-6UQRNV&quot; rel=&quot;nofollow ugc&quot;&gt;http://www.lotus911.com/nathan/escape.nsf/D6Plinks/NTFN-6UQRNV&lt;/a&gt;&lt;/p&gt;&lt;p&gt;;-)&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p><a href="http://www.lotus911.com/nathan/escape.nsf/D6Plinks/NTFN-6UQRNV" rel="nofollow ugc">http://www.lotus911.com/nathan/escape.nsf/D6Plinks/NTFN-6UQRNV</a></p>
+<p>😉</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: back	</title>
+	<atom:link href="/2004-1-5-back-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2004-1-5-back-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:41:13 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Ed Brill		</title>
+		<link>/2004-1-5-back-html/#comment-878</link>
+
+		<dc:creator><![CDATA[Ed Brill]]></dc:creator>
+		<pubDate>Fri, 09 Jan 2004 17:25:10 +0000</pubDate>
+		<guid isPermaLink="false">/2004-1-5-back-html/#comment-878</guid>
+
+					<description><![CDATA[&lt;p&gt;love the daytime flight.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>love the daytime flight.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

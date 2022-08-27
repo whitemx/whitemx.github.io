@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>awards &#8211; mattwhite.me</title>
+	<atom:link href="/tag/awards/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>IdeaJam wins 2009 Beacon Award</title>
+		<link>/2009-6-9-ideajam-wins-2009-beacon-award-html/</link>
+					<comments>/2009-6-9-ideajam-wins-2009-beacon-award-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 09 Jun 2009 15:51:00 +0000</pubDate>
+				<category><![CDATA[IdeaJam]]></category>
+		<category><![CDATA[awards]]></category>
+		<category><![CDATA[ideajam]]></category>
+		<guid isPermaLink="false">/2009-6-9-ideajam-wins-2009-beacon-award-html/</guid>
+
+					<description><![CDATA[We were just watching the &#8220;Business Partner Leadership Agenda&#8221; webcast with Sam Palmisano&#160;where he announced the 2009 Beacon Awards winners. Like the Lotus Awards that we did so well in earlier in the year, these are given to leading IBM Business Partners and as Sam said the Beacon Awards are IBM&#8217;s &#8220;most prestigious award&#8221; so [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><span class="full-image-float-right ssNonEditable"><span><img src="/static/500fb502e4b0b0a178712c5d/500fb669e4b00f3716e9af9d/500fb669e4b00f3716e9b14f/1244562781049/1000w" alt="" /></span></span>We were just watching the &#8220;Business Partner Leadership Agenda&#8221; webcast with <a href="http://en.wikipedia.org/wiki/Samuel_J._Palmisano">Sam Palmisano</a>&nbsp;where he announced the 2009 <a href="http://www-200.ibm.com/partnerworld/pwhome.nsf/weblook/2009_awards.html">Beacon Awards</a> winners.</p>
+<p>Like the Lotus Awards that we did so well in earlier in the year, these are given to leading IBM Business Partners and as Sam said the Beacon Awards are IBM&#8217;s &#8220;most prestigious award&#8221; so we&#8217;re completely blown away that <a href="http://ideajam.net/">IdeaJam</a>&nbsp;and <a href="http://elguji.com/">Elguji</a> has won again.</p>
+<p>This time we won the&nbsp;<a href="http://www-200.ibm.com/partnerworld/pwhome.nsf/weblook/2009_awards_awards_soft.html#collab">Innovative Collaboration Solution with Lotus Software</a>&nbsp;award. There were 22 different awards given to solutions from over 340 nominations so we really couldn&#8217;t be happier.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-6-9-ideajam-wins-2009-beacon-award-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

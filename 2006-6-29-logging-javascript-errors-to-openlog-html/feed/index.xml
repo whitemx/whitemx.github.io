@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Logging JavaScript Errors to OpenLog	</title>
+	<atom:link href="/2006-6-29-logging-javascript-errors-to-openlog-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2006-6-29-logging-javascript-errors-to-openlog-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:33:10 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: stritti		</title>
+		<link>/2006-6-29-logging-javascript-errors-to-openlog-html/#comment-1168</link>
+
+		<dc:creator><![CDATA[stritti]]></dc:creator>
+		<pubDate>Tue, 18 Jul 2006 12:18:21 +0000</pubDate>
+		<guid isPermaLink="false">/2006-6-29-logging-javascript-errors-to-openlog-html/#comment-1168</guid>
+
+					<description><![CDATA[&lt;p&gt;Probably you are also interested in log4js ( &lt;a href=&quot;&lt;a rel=&quot;nofollow&quot; href=&quot;http://log4js.berlios.de&quot;&quot;/ rel=&quot;nofollow ugc&quot;&gt;http://log4js.berlios.de&quot;&lt;/a&gt; rel=&quot;nofollow&quot;&gt;&lt;a href=&quot;http://log4js.berlios.de&quot;/ rel=&quot;nofollow ugc&quot;&gt;http://log4js.berlios.de&lt;/a&gt;&lt;/a&gt; ) a logging API for JavaScript.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Probably you are also interested in log4js ( <a href="<a rel="nofollow" href="http://log4js.berlios.de/"" rel="nofollow ugc"></a><a href="http://log4js.berlios.de/" rel="nofollow ugc">http://log4js.berlios.de/</a>&#8220; rel=&#8221;nofollow&#8221;><a href="http://log4js.berlios.de/" rel="nofollow ugc">http://log4js.berlios.de/</a> ) a logging API for JavaScript.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Ben Poole		</title>
+		<link>/2006-6-29-logging-javascript-errors-to-openlog-html/#comment-1170</link>
+
+		<dc:creator><![CDATA[Ben Poole]]></dc:creator>
+		<pubDate>Thu, 29 Jun 2006 15:23:45 +0000</pubDate>
+		<guid isPermaLink="false">/2006-6-29-logging-javascript-errors-to-openlog-html/#comment-1170</guid>
+
+					<description><![CDATA[&lt;p&gt;That&#039;s really very cool, and this sort of thing will only become more important as Javascript gets used more and more in apps.&lt;/p&gt;&lt;p&gt;Splendid!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>That&#8217;s really very cool, and this sort of thing will only become more important as Javascript gets used more and more in apps.</p>
+<p>Splendid!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Julian Robichaux		</title>
+		<link>/2006-6-29-logging-javascript-errors-to-openlog-html/#comment-1169</link>
+
+		<dc:creator><![CDATA[Julian Robichaux]]></dc:creator>
+		<pubDate>Thu, 29 Jun 2006 15:10:57 +0000</pubDate>
+		<guid isPermaLink="false">/2006-6-29-logging-javascript-errors-to-openlog-html/#comment-1169</guid>
+
+					<description><![CDATA[&lt;p&gt;That&#039;s fantastic! I think that code belongs in the next production version of the code. I&#039;ll see about working it in and I&#039;ll send you an e-mail offline so we can chat about it. Thanks!&lt;/p&gt;&lt;p&gt;- Julian&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>That&#8217;s fantastic! I think that code belongs in the next production version of the code. I&#8217;ll see about working it in and I&#8217;ll send you an e-mail offline so we can chat about it. Thanks!</p>
+<p>&#8211; Julian</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

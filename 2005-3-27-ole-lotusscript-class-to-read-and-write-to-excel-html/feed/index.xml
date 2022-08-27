@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: OLE LotusScript Class to read and write to Excel	</title>
+	<atom:link href="/2005-3-27-ole-lotusscript-class-to-read-and-write-to-excel-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2005-3-27-ole-lotusscript-class-to-read-and-write-to-excel-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:35:50 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Chris Crompton		</title>
+		<link>/2005-3-27-ole-lotusscript-class-to-read-and-write-to-excel-html/#comment-1303</link>
+
+		<dc:creator><![CDATA[Chris Crompton]]></dc:creator>
+		<pubDate>Mon, 02 Oct 2006 17:19:40 +0000</pubDate>
+		<guid isPermaLink="false">/2005-3-27-ole-lotusscript-class-to-read-and-write-to-excel-html/#comment-1303</guid>
+
+					<description><![CDATA[&lt;p&gt;Thanks for the great ExcelClass!  It is very simple to use.  One thing I need is to be able to insert a new column at a certain location in the file (I&#039;m starting with a &quot;template&quot;).  Do you know the line or two of code that would accomplish this?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thanks for the great ExcelClass!  It is very simple to use.  One thing I need is to be able to insert a new column at a certain location in the file (I&#8217;m starting with a &#8220;template&#8221;).  Do you know the line or two of code that would accomplish this?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2005-3-27-ole-lotusscript-class-to-read-and-write-to-excel-html/#comment-1302</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Tue, 05 Apr 2005 20:02:39 +0000</pubDate>
+		<guid isPermaLink="false">/2005-3-27-ole-lotusscript-class-to-read-and-write-to-excel-html/#comment-1302</guid>
+
+					<description><![CDATA[&lt;p&gt;Thanks for spotting the &quot;deliberate&quot; mistakes Matthias! I have corrected them now.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thanks for spotting the &#8220;deliberate&#8221; mistakes Matthias! I have corrected them now.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matthias TMC		</title>
+		<link>/2005-3-27-ole-lotusscript-class-to-read-and-write-to-excel-html/#comment-1301</link>
+
+		<dc:creator><![CDATA[Matthias TMC]]></dc:creator>
+		<pubDate>Mon, 04 Apr 2005 23:10:09 +0000</pubDate>
+		<guid isPermaLink="false">/2005-3-27-ole-lotusscript-class-to-read-and-write-to-excel-html/#comment-1301</guid>
+
+					<description><![CDATA[&lt;p&gt;Matt,&lt;br/&gt;Thanks for this helpfull little class.&lt;/p&gt;&lt;p&gt;Just 2 remarks:&lt;br/&gt;a) In the example, you use &quot;End For&quot; for the end of the loop. As far as I know is this not supported in LotusScript, so just &quot;Next&quot; or &quot;Next iRow&quot; should be used there.&lt;br/&gt;b) In the example, the report variable is not declared previously which will cause an error - at least if Option Declare is used.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Matt,<br />Thanks for this helpfull little class.</p>
+<p>Just 2 remarks:<br />a) In the example, you use &#8220;End For&#8221; for the end of the loop. As far as I know is this not supported in LotusScript, so just &#8220;Next&#8221; or &#8220;Next iRow&#8221; should be used there.<br />b) In the example, the report variable is not declared previously which will cause an error &#8211; at least if Option Declare is used.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

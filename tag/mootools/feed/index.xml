@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>mootools &#8211; mattwhite.me</title>
+	<atom:link href="/tag/mootools/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Upgrading to Mootools 1.2</title>
+		<link>/2010-2-26-upgrading-to-mootools-12-html/</link>
+					<comments>/2010-2-26-upgrading-to-mootools-12-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 26 Feb 2010 10:00:26 +0000</pubDate>
+				<category><![CDATA[IdeaJam]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[mootools]]></category>
+		<guid isPermaLink="false">/2010-2-26-upgrading-to-mootools-12-html/</guid>
+
+					<description><![CDATA[With the release of IdeaJam 1.7 (in beta at the moment, but going &#8220;Gold&#8221; soon enough), we decided to upgrade the Javascript framework that we use, MooTools to the latest and greatest version. Normally this isn&#8217;t even worth commenting on, but this change was a big&#8217;un as a lot of the underlying API changed from [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>With the release of <a href="http://ideajam.net/">IdeaJam 1.7</a> (in beta at the moment, but going &#8220;Gold&#8221; soon enough), we decided to upgrade the Javascript framework that we use, <a href="http//mootools.net">MooTools</a> to the latest and greatest version. Normally this isn&#8217;t even worth commenting on, but this change was a big&#8217;un as a lot of the underlying API changed from version 1.1 to 1.2. Similar changes have happened with <a href="http://www.dojotoolkit.org/">Dojo</a> in the past in the shift from 0.4 to 0.9 and a very positive move it was too. The problem is that it&#8217;s a painful process of rekeying quite a lot of code.</p>
+<p> So I thought I&#8217;d go through the resources I used and the main changes which we faced with the upgrade to help anyone else going through the same process, although to be fair we are quite late to the party with <a href="http://ajaxian.com/archives/mootools-12-released">MooTools 1.2 as it was released in the middle of 2008</a>.</p>
+<p> There are a couple of really useful websites which document in quite a lot of detail how old style 1.1 syntax should be modified for 1.2. My favourite was this page on the Github Wiki: <a href="http://wiki.github.com/mootools/mootools-core/conversion-from-1-11-to-1-2">Conversion from 1.11 to 1.2</a>.</p>
+<p> Another page you might find useful is <a href="http://www.siafoo.net/article/62">this</a>.</p>
+<p> The areas which we spent most time on were retooling all of our Ajax requests behind the scenes (which was the reason the <a href="http://mattwhite.me/blog/2010/2/25/be-very-careful-with-your-content-type-for-chrome-ajax-reque.html">Chrome bug I mentioned recently</a> was introduced). So the main thing to be aware of is that the syntax for an Ajax request changed from something like this:</p>
+<blockquote><p>new Ajax(url, {<br /> method: &#8216;get&#8217;,<br /> onComplete: processResponse<br /> }).request();</p></blockquote>
+<p>towards something like this:</p>
+<blockquote><p>new Request({<br /> url: url, <br /> method: &#8216;get&#8217;,<br /> onComplete: processResponse<br /> }).send();</p></blockquote>
+<p>The other thing which caused us a little trouble was with the tooltips we use on the Dashboard page in IdeaJam. When I say trouble, it took about an hour to fix, we&#8217;re not talking serious effort here! Anyway, the default CSS settings changed a little, so we just had to add a few extra lines to our CSS file, no biggie.</p>
+<p>Finally for areas which you&#8217;ll want to be careful with, it&#8217;s third party add on functions and code. For example we use <a href="http://phatfusion.net/sortabletable/">Phatfusion&#8217;s sortableTable</a> class in the Top Innovator&#8217;s screen. This was written for MooTools 1.11, so I had to make some changes for it to work properly with the new version.</p>
+<p> From an IdeaJam point of view, the reason for the upgrade was so that we can start to use some of the newer Clientcide plugins in areas that may not get much airtime on the public IdeaJam site. One of the main customer feature requests for this new version is what we call the &#8220;Implementation Plan&#8221;, it&#8217;s the first feature to use some new MooTools functionality, but you can expect more in the next few weeks as we add a new way of linking ideas together.</p>
+<p> So why should you use MooTools? Well to be honest, these days most big web shops seem to be going with jQuery and there are a lot more resources out there for that framework. But I still have a soft spot for MooTools, it seems to fit the way I think which is an important consideration when you&#8217;ll be spending days, weeks or months using the API.</p>
+<p> Really the main benefit of MooTools these days is the wonderful <a href="http://www.clientcide.com/js/">Clientcide</a> add ons which handle the UI side of things and the superb documentation and also the <a href="http://mootools.net/core">core</a> and <a href="http://mootools.net/more">more</a> builders which allow you to configure the javascript files which make up MooTools to such a degree that it will do exactly what you want, a great boon for managing your deployments.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-2-26-upgrading-to-mootools-12-html/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

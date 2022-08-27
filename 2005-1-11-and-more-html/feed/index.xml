@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: and more&#8230;	</title>
+	<atom:link href="/2005-1-11-and-more-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2005-1-11-and-more-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:37:17 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt		</title>
+		<link>/2005-1-11-and-more-html/#comment-341</link>
+
+		<dc:creator><![CDATA[Matt]]></dc:creator>
+		<pubDate>Wed, 12 Jan 2005 20:34:08 +0000</pubDate>
+		<guid isPermaLink="false">/2005-1-11-and-more-html/#comment-341</guid>
+
+					<description><![CDATA[&lt;p&gt;I don&#039;t think you can go wrong Fi. Even if you end up not liking it you&#039;ll be able to to sell it for a profit on eBay.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I don&#8217;t think you can go wrong Fi. Even if you end up not liking it you&#8217;ll be able to to sell it for a profit on eBay.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Fi		</title>
+		<link>/2005-1-11-and-more-html/#comment-340</link>
+
+		<dc:creator><![CDATA[Fi]]></dc:creator>
+		<pubDate>Wed, 12 Jan 2005 15:36:57 +0000</pubDate>
+		<guid isPermaLink="false">/2005-1-11-and-more-html/#comment-340</guid>
+
+					<description><![CDATA[&lt;p&gt;so do you think I should get one when we&#039;re in the states? &lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>so do you think I should get one when we&#8217;re in the states? </p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

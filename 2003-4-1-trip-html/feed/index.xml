@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: trip	</title>
+	<atom:link href="/2003-4-1-trip-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2003-4-1-trip-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:45:54 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Mum		</title>
+		<link>/2003-4-1-trip-html/#comment-945</link>
+
+		<dc:creator><![CDATA[Mum]]></dc:creator>
+		<pubDate>Wed, 02 Apr 2003 19:39:45 +0000</pubDate>
+		<guid isPermaLink="false">/2003-4-1-trip-html/#comment-945</guid>
+
+					<description><![CDATA[&lt;p&gt;APRIL FOOL ???&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>APRIL FOOL ???</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

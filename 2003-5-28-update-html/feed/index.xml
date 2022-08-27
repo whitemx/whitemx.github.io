@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: update	</title>
+	<atom:link href="/2003-5-28-update-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2003-5-28-update-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:45:43 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: fi		</title>
+		<link>/2003-5-28-update-html/#comment-931</link>
+
+		<dc:creator><![CDATA[fi]]></dc:creator>
+		<pubDate>Thu, 29 May 2003 08:59:08 +0000</pubDate>
+		<guid isPermaLink="false">/2003-5-28-update-html/#comment-931</guid>
+
+					<description><![CDATA[&lt;p&gt;thought you might like to know that we spent ages last night going through movies we like to read the reviews. Every time one of us decided that should be the last one, we remembered another movie. This is going to keep us occupied for months!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>thought you might like to know that we spent ages last night going through movies we like to read the reviews. Every time one of us decided that should be the last one, we remembered another movie. This is going to keep us occupied for months!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Fiona		</title>
+		<link>/2003-5-28-update-html/#comment-930</link>
+
+		<dc:creator><![CDATA[Fiona]]></dc:creator>
+		<pubDate>Wed, 28 May 2003 12:01:10 +0000</pubDate>
+		<guid isPermaLink="false">/2003-5-28-update-html/#comment-930</guid>
+
+					<description><![CDATA[&lt;p&gt;Thanks Matthew, and for the great present. I was saying only the other day that we needed a movie reference guide. Glad to hear you&#039;ve been enjoying the sunshine. We saw Matrix Reloaded to, pretty good.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thanks Matthew, and for the great present. I was saying only the other day that we needed a movie reference guide. Glad to hear you&#8217;ve been enjoying the sunshine. We saw Matrix Reloaded to, pretty good.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>tease &#8211; mattwhite.me</title>
+	<atom:link href="/tag/tease/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Our next JAM Product &#8211; Hint No. 2</title>
+		<link>/2009-7-21-our-next-jam-product-hint-no-2-html/</link>
+					<comments>/2009-7-21-our-next-jam-product-hint-no-2-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 21 Jul 2009 13:58:19 +0000</pubDate>
+				<category><![CDATA[Elguji]]></category>
+		<category><![CDATA[tease]]></category>
+		<guid isPermaLink="false">/2009-7-21-our-next-jam-product-hint-no-2-html/</guid>
+
+					<description><![CDATA[Continuing the cruel teasing that Bruce started yesterday&#8230; With *****JAM you will be able to: Help departments develop and manage communities of practice.]]></description>
+										<content:encoded><![CDATA[<p>Continuing the cruel teasing that <a href="http://planetlotus.org/52768c">Bruce started yesterday</a>&#8230;</p>
+<p>With *****JAM you will be able to:</p>
+<p><strong>Help departments develop and manage communities of practice.</strong></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-7-21-our-next-jam-product-hint-no-2-html/feed/</wfw:commentRss>
+			<slash:comments>6</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Coming later this year&#8230;</title>
+		<link>/2009-6-9-coming-later-this-year-html/</link>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 09 Jun 2009 16:26:20 +0000</pubDate>
+				<category><![CDATA[Elguji]]></category>
+		<category><![CDATA[tease]]></category>
+		<guid isPermaLink="false">/2009-6-9-coming-later-this-year-html/</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<p><a title="Coming in Fall 2009 by Bruce Elgort, on Flickr" href="http://www.flickr.com/photos/bruce/3605014558/"><img loading="lazy" src="/wp-content/uploads/2022/08/3605014558_12f3aa97d3.jpg" border="0" alt="Coming in Fall 2009" width="500" height="500" /></a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

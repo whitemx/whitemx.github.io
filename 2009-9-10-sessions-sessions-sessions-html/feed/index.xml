@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Sessions, sessions, sessions	</title>
+	<atom:link href="/2009-9-10-sessions-sessions-sessions-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2009-9-10-sessions-sessions-sessions-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: hosting managed		</title>
+		<link>/2009-9-10-sessions-sessions-sessions-html/#comment-1406</link>
+
+		<dc:creator><![CDATA[hosting managed]]></dc:creator>
+		<pubDate>Sat, 25 Sep 2010 13:01:49 +0000</pubDate>
+		<guid isPermaLink="false">/2009-9-10-sessions-sessions-sessions-html/#comment-1406</guid>
+
+					<description><![CDATA[&lt;p&gt;Very good interesting article.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Very good interesting article.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: jason		</title>
+		<link>/2009-9-10-sessions-sessions-sessions-html/#comment-1405</link>
+
+		<dc:creator><![CDATA[jason]]></dc:creator>
+		<pubDate>Tue, 13 Jul 2010 22:55:12 +0000</pubDate>
+		<guid isPermaLink="false">/2009-9-10-sessions-sessions-sessions-html/#comment-1405</guid>
+
+					<description><![CDATA[&lt;p&gt;excellent post thanks!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>excellent post thanks!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2009-9-10-sessions-sessions-sessions-html/#comment-1404</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Wed, 02 Dec 2009 12:24:27 +0000</pubDate>
+		<guid isPermaLink="false">/2009-9-10-sessions-sessions-sessions-html/#comment-1404</guid>
+
+					<description><![CDATA[&lt;p&gt;Hi Rasmus,&lt;/p&gt;&lt;p&gt;It sounds like you have a more serious issue than just sessionScope variables.&lt;/p&gt;&lt;p&gt;Questions I&#039;d ask are:&lt;/p&gt;&lt;p&gt;1) What hardware are you running on? Specifically how much memory does the server have?&lt;/p&gt;&lt;p&gt;2) Have you changed any of the Notes.ini memory settings for XPages, have a look at this page for more details: http://www.stevecastledine.com/sc.nsf/dx/xpages-memory-usage-and-performance-tips-8.5?opendocument&lt;/p&gt;&lt;p&gt;3) What are you storing in the sessionScope? Are you reading in very large objects?&lt;/p&gt;&lt;p&gt;Hope this helps.&lt;/p&gt;&lt;p&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hi Rasmus,</p>
+<p>It sounds like you have a more serious issue than just sessionScope variables.</p>
+<p>Questions I&#8217;d ask are:</p>
+<p>1) What hardware are you running on? Specifically how much memory does the server have?</p>
+<p>2) Have you changed any of the Notes.ini memory settings for XPages, have a look at this page for more details: <a href="http://www.stevecastledine.com/sc.nsf/dx/xpages-memory-usage-and-performance-tips-8.5?opendocument" rel="nofollow ugc">http://www.stevecastledine.com/sc.nsf/dx/xpages-memory-usage-and-performance-tips-8.5?opendocument</a></p>
+<p>3) What are you storing in the sessionScope? Are you reading in very large objects?</p>
+<p>Hope this helps.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Rasmus Bauck		</title>
+		<link>/2009-9-10-sessions-sessions-sessions-html/#comment-1403</link>
+
+		<dc:creator><![CDATA[Rasmus Bauck]]></dc:creator>
+		<pubDate>Wed, 02 Dec 2009 09:09:46 +0000</pubDate>
+		<guid isPermaLink="false">/2009-9-10-sessions-sessions-sessions-html/#comment-1403</guid>
+
+					<description><![CDATA[&lt;p&gt;We are rewriting a Notes intranet application to use XPages and everything is working fine (although a bit slow) in the development environment. Once we try to go live, the server crashes within a minute and the log is flooded with this message:&lt;/p&gt;&lt;p&gt;01.12.2009 15:07:07   HTTP JVM: SEVERE: CLFAD####E: Exception processing XPage request&lt;/p&gt;&lt;p&gt;For the server console: &#034;Out of Backend Memory&#034;&lt;/p&gt;&lt;p&gt;Any thoughts on whether this might be related to the SessionScope trouble described in this blog post?&lt;br/&gt;The company has several thousands of employees, and the front page is accessed frequently by many of them.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>We are rewriting a Notes intranet application to use XPages and everything is working fine (although a bit slow) in the development environment. Once we try to go live, the server crashes within a minute and the log is flooded with this message:</p>
+<p>01.12.2009 15:07:07   HTTP JVM: SEVERE: CLFAD####E: Exception processing XPage request</p>
+<p>For the server console: &quot;Out of Backend Memory&quot;</p>
+<p>Any thoughts on whether this might be related to the SessionScope trouble described in this blog post?<br />The company has several thousands of employees, and the front page is accessed frequently by many of them.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

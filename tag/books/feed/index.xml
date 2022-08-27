@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>books &#8211; mattwhite.me</title>
+	<atom:link href="/tag/books/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Notes and Domino 8.5.1 &#8211; The Upgrader&#8217;s Guide &#8211; Review</title>
+		<link>/2010-3-13-notes-and-domino-851-the-upgraders-guide-review-html/</link>
+					<comments>/2010-3-13-notes-and-domino-851-the-upgraders-guide-review-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sat, 13 Mar 2010 10:16:29 +0000</pubDate>
+				<category><![CDATA[Notes and Domino]]></category>
+		<category><![CDATA[books]]></category>
+		<category><![CDATA[review]]></category>
+		<guid isPermaLink="false">/2010-3-13-notes-and-domino-851-the-upgraders-guide-review-html/</guid>
+
+					<description><![CDATA[So this is the official 387&#8217;th review of IBM Lotus Notes and Domino &#8211; The Upgrader&#8217;s Guide. Finally every Lotus blogger in the world has now received a copy of the book! It&#8217;s an odd situation for me to find myself in, it&#8217;s great to see a book being published about Notes and Domino again. [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>So this is the official 387&#8217;th review of <a href="http://www.packtpub.com/ibm-lotus-notes-and-domino-8-5-1-upgraders-guide/book?utm_source=mattwhite.me&amp;utm_medium=bookrev&amp;utm_content=blog&amp;utm_campaign=mdb_002250">IBM Lotus Notes and Domino &#8211; The Upgrader&#8217;s Guide</a>. Finally every Lotus blogger in the world has now received a copy of the book!</p>
+<p>It&#8217;s an odd situation for me to find myself in, it&#8217;s great to see a book being published about Notes and Domino again. There&#8217;s not really been anything of value for the developer since Rocky and Brian&#8217;s seminal <a href="http://www.amazon.co.uk/Lotus-Notes-Domino-Programming-Bible/dp/0764526111">Notes and Domino 6 Programming Bible</a> which was published seven years ago. And I wish I could say that this new book from Packt Publishing was worth buying, but from the point of view of the developer there is really very little of value in here.</p>
+<p>What we (and by we, I mean you and I, the gentle, unappreciated Notes/Domino developer) get is 40 pages of basically extended release notes with very little detail about how to do anything with Notes and Domino programming. To take my favourite topic, XPages as an example, there is a single page that just says &#8220;and we now have XPages, yay!&#8221;. There are books of material that could be written about the subject on it&#8217;s own. It&#8217;s faintly ridiculous to just skirt over this whole new programming paradigm in a single page.</p>
+<p>So what is the point of the book? I&#8217;ve been trying to work out who it would add value to and I am really struggling I&#8217;m afraid. I guess, at a push if you have an R6.x based environment and you just want to spend a couple of hours getting the list of new features straight in your head then you could do worse than reading this over a couple of hours. Hardly a ringing endorsement really. The problem that the writers and publisher faces with a book of this style is that it doesn&#8217;t really know what it&#8217;s trying to achieve. Now if there was an XPages Bible in the style of Brian and Rocky&#8217;s book then I would probably end up with several copies but this upgrader&#8217;s guide is just not any use to me.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-3-13-notes-and-domino-851-the-upgraders-guide-review-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

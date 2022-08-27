@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>internet explorer &#8211; mattwhite.me</title>
+	<atom:link href="/tag/internet-explorer/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Tracking down error 80020101 in Internet Exploder</title>
+		<link>/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/</link>
+					<comments>/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 21 Apr 2010 11:14:06 +0000</pubDate>
+				<category><![CDATA[Tips Tricks Samples]]></category>
+		<category><![CDATA[internet explorer]]></category>
+		<category><![CDATA[javascript]]></category>
+		<guid isPermaLink="false">/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/</guid>
+
+					<description><![CDATA[So yesterday, after all of the travel fun and games of the few days, it was back to the real world with a bump. I had a pile of bugs to fix on various projects. Most were very simple to get through, but one has taken me several hours to track down so I thought [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>So yesterday, after all of the travel fun and games of the few days, it was back to the real world with a bump. I had a pile of bugs to fix on various projects. Most were very simple to get through, but one has taken me several hours to track down so I thought it would be useful to record the problem and my solution.</p>
+<p>In IdeaJam we use Mootools as I have mentioned many a time before. Mootools, when executing Ajax requests does some very funky stuff to make the request as efficient as possible. One of those things, is that will detect the content type of the page you&#8217;re requesting and try it&#8217;s best to process it as it should, that is, if you request Javascript then it will try and execute it. Unfortunately if you&#8217;re in IE, then it uses the following technique&nbsp;</p>
+<blockquote>
+<p>window.execScript(code)</p>
+</blockquote>
+<p>This is all well and good until there is an error in the Javascript it is evaluating (and it is very picky about syntax here). When there is an error you will get something like:</p>
+<blockquote>
+<p>Could not complete the operation due to error 80020101</p>
+</blockquote>
+<p>There are a *lot* of websites out there where people have come across this problem and then tracked it down to a specific problem with their code so they assume that this error message means you&nbsp;should&nbsp;remove comment tags from your script, or there&#8217;s a missing semi colon on the end of a line, or an array is incorrectly formed. All of these may well be true, but the error message just means &#8220;There is an error&#8221;, you can read no more into it than that.</p>
+<p>Instead, you need to look very closely at whatever is being returned and evaluate it manually yourself to track down the issue.</p>
+<p>What was especially galling for me, is that my problem was entirely my own fault. I had set the content type of the page I was requesting using Ajax to be text/javascript when it actually it should have been text/html. So Mootools was trying to evaluate some &#8220;code&#8221; which could never possibly work. So my fix was simply to change the content type of my response page.</p>
+<p>The point is that your problem may be something entirely different, and you&#8217;d still get exactly the same error message from IE. Thanks for that Microsoft.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/feed/</wfw:commentRss>
+			<slash:comments>11</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cross browser testing using VMWare</title>
+		<link>/2009-6-19-cross-browser-testing-using-vmware-html/</link>
+					<comments>/2009-6-19-cross-browser-testing-using-vmware-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 19 Jun 2009 08:20:27 +0000</pubDate>
+				<category><![CDATA[Tips Tricks Samples]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[internet explorer]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[vmware fusion]]></category>
+		<guid isPermaLink="false">/2009-6-19-cross-browser-testing-using-vmware-html/</guid>
+
+					<description><![CDATA[As an Apple user, when I&#8217;m doing Domino development I live in VMWare Fusion to emulate Windows. And since the release of the Windows 7 Release Candidate (free until next year) doing testing in IE6 and IE7 is nigh on impossible. There are tools that you can use to emulate the different browsers (such as [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>As an Apple user, when I&#8217;m doing Domino development I live in <a href="http://www.vmware.com/products/fusion/">VMWare Fusion</a> to emulate Windows. And since the release of the Windows 7 Release Candidate (<a href="http://www.microsoft.com/windows/windows-7/download.aspx">free until next year</a>) doing testing in IE6 and IE7 is nigh on impossible. There are tools that you can use to emulate the different browsers (such as <a href="http://www.my-debugbar.com/wiki/IETester/HomePage">IETester</a>) but I have found them to be unreliable.</p>
+<p>It&#8217;s a little know fact that Microsoft actually give out free copies of Virtual PCs setup for IE6 and IE7 compliance testing from <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=21EABB90-958F-4B64-B5F1-73D0A413C8EF&amp;displaylang=en">their website</a>. Of course because it&#8217;s a virtual PC image and not a VMWare image we have to go a little further and convert the one to the other. That&#8217;s where <a href="http://blog.mozmonkey.com/2008/vpc-ie6-ie7-ie8-on-mac-os-x/">these instructions</a> come in. You&#8217;ll need to download a conversion tool, the one that worked for me was <a href="http://www.kju-app.org/">Q</a> which is actually mentioned in the comments rather than the main body.</p>
+<p>Once you&#8217;ve done the conversion, you end up with small (i.e. &lt;1gb) Virtual Machines that you can do &#8220;proper&#8221; IE testing in until you get the nerve to tell you&#8217;re idiot IE users that they need to move into the 21st century and start using one of the <a href="http://www.apple.com/safari/">proper</a> <a href="http://www.mozilla.com/en-US/firefox/firefox.html">browsers</a>.</p>
+<p>Anyway, what it does mean is that you can leave XP and IE6 behind altogether except for your testing which can only be a good thing. Windows 7 really is a big step forwards, even for those of us who don&#8217;t even like Windows.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-6-19-cross-browser-testing-using-vmware-html/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

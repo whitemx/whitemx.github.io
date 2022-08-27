@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: lotus.domino.types Jar file	</title>
+	<atom:link href="/2007-1-4-lotusdominotypes-jar-file-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2007-1-4-lotusdominotypes-jar-file-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:30:42 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2007-1-4-lotusdominotypes-jar-file-html/#comment-1247</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Thu, 04 Jan 2007 15:07:40 +0000</pubDate>
+		<guid isPermaLink="false">/2007-1-4-lotusdominotypes-jar-file-html/#comment-1247</guid>
+
+					<description><![CDATA[&lt;p&gt;Mike,&lt;/p&gt;&lt;p&gt;I don&#039;t have a ND6 client installed these days so can only apologise for not being specific on the version. Thanks for pointing it out.&lt;/p&gt;&lt;p&gt;Roll on the appearance of the Hannover Designer client!&lt;/p&gt;&lt;p&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Mike,</p>
+<p>I don&#8217;t have a ND6 client installed these days so can only apologise for not being specific on the version. Thanks for pointing it out.</p>
+<p>Roll on the appearance of the Hannover Designer client!</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mike Miller		</title>
+		<link>/2007-1-4-lotusdominotypes-jar-file-html/#comment-1248</link>
+
+		<dc:creator><![CDATA[Mike Miller]]></dc:creator>
+		<pubDate>Thu, 04 Jan 2007 14:50:07 +0000</pubDate>
+		<guid isPermaLink="false">/2007-1-4-lotusdominotypes-jar-file-html/#comment-1248</guid>
+
+					<description><![CDATA[&lt;p&gt;Matt,&lt;br/&gt;I am very new to Java and am in the middle of writing a web service consuming agent. One important thing I&#039;ve learned is to pay close attention to the version of Notes/Domino (I&#039;m currently at 6.5.4) as well as the corresponding JVM version.&lt;/p&gt;&lt;p&gt;I noticed your reference to websvc.jar and found that my 6.5.4 installation doesn&#039;t have it. Must be a R7 item?&lt;/p&gt;&lt;p&gt;Anyway, the agent I&#039;m currently working on only requires java.io.*, java.net.*, java.util.*, lotus.domino.*, org.w3c.dom.*&lt;/p&gt;&lt;p&gt;One thing is for sure, if not for Eclipse, I would have given up and abandoned any hope of ever developing anything in Java. Eclipse is AWESOME and Domiclipse (as soon as I master all its subtleties) makes it even better.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Matt,<br />I am very new to Java and am in the middle of writing a web service consuming agent. One important thing I&#8217;ve learned is to pay close attention to the version of Notes/Domino (I&#8217;m currently at 6.5.4) as well as the corresponding JVM version.</p>
+<p>I noticed your reference to websvc.jar and found that my 6.5.4 installation doesn&#8217;t have it. Must be a R7 item?</p>
+<p>Anyway, the agent I&#8217;m currently working on only requires java.io.*, java.net.*, java.util.*, lotus.domino.*, org.w3c.dom.*</p>
+<p>One thing is for sure, if not for Eclipse, I would have given up and abandoned any hope of ever developing anything in Java. Eclipse is AWESOME and Domiclipse (as soon as I master all its subtleties) makes it even better.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2007-1-4-lotusdominotypes-jar-file-html/#comment-1245</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Thu, 04 Jan 2007 12:26:09 +0000</pubDate>
+		<guid isPermaLink="false">/2007-1-4-lotusdominotypes-jar-file-html/#comment-1245</guid>
+
+					<description><![CDATA[&lt;p&gt;I have, but unfortunately it doesn&#039;t work on the Mac &lt;img src=&quot;&lt;a  rel=&quot;nofollow ugc&quot;&gt;http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5N3GK8/$FILE/cry.gif&quot;&lt;/a&gt;&gt; &lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I have, but unfortunately it doesn&#8217;t work on the Mac <img src="<a  rel="nofollow ugc"/><a href="http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5N3GK8/$FILE/cry.gif" rel="nofollow ugc">http://www.11tmr.com/11tmr.nsf/emoticons/DLYH-5N3GK8/$FILE/cry.gif</a>&#8220;> </p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Wild Bill		</title>
+		<link>/2007-1-4-lotusdominotypes-jar-file-html/#comment-1246</link>
+
+		<dc:creator><![CDATA[Wild Bill]]></dc:creator>
+		<pubDate>Thu, 04 Jan 2007 11:05:56 +0000</pubDate>
+		<guid isPermaLink="false">/2007-1-4-lotusdominotypes-jar-file-html/#comment-1246</guid>
+
+					<description><![CDATA[&lt;p&gt;Not seen Domiclipse ? &lt;/p&gt;&lt;p&gt;&lt;a href=&quot;&lt;a rel=&quot;nofollow&quot; href=&quot;http://domiclipse.com/&quot;&quot; rel=&quot;nofollow ugc&quot;&gt;http://domiclipse.com/&quot;&lt;/a&gt; rel=&quot;nofollow&quot;&gt;&lt;a href=&quot;http://domiclipse.com/&quot; rel=&quot;nofollow ugc&quot;&gt;http://domiclipse.com/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;---* Bill&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Not seen Domiclipse ? </p>
+<p><a href="<a rel="nofollow" href="http://domiclipse.com/"" rel="nofollow ugc"></a><a href="http://domiclipse.com/" rel="nofollow ugc">http://domiclipse.com/</a>&#8220; rel=&#8221;nofollow&#8221;><a href="http://domiclipse.com/" rel="nofollow ugc">http://domiclipse.com/</a></p>
+<p>&#8212;* Bill</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

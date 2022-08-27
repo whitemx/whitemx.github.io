@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Lucky after all	</title>
+	<atom:link href="/2006-11-28-lucky-after-all-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2006-11-28-lucky-after-all-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:30:42 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2006-11-28-lucky-after-all-html/#comment-528</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Wed, 29 Nov 2006 08:27:53 +0000</pubDate>
+		<guid isPermaLink="false">/2006-11-28-lucky-after-all-html/#comment-528</guid>
+
+					<description><![CDATA[&lt;p&gt;I thought it was unlikely, that&#039;s good to hear Sean.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I thought it was unlikely, that&#8217;s good to hear Sean.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sean Burgess		</title>
+		<link>/2006-11-28-lucky-after-all-html/#comment-527</link>
+
+		<dc:creator><![CDATA[Sean Burgess]]></dc:creator>
+		<pubDate>Wed, 29 Nov 2006 00:56:10 +0000</pubDate>
+		<guid isPermaLink="false">/2006-11-28-lucky-after-all-html/#comment-527</guid>
+
+					<description><![CDATA[&lt;p&gt;Speakers on the BoF track are the only ones who didn&#039;t get their registration fee comped, I think.  I know mine was covered for my Best Practices session.&lt;/p&gt;&lt;p&gt;Sean---&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Speakers on the BoF track are the only ones who didn&#8217;t get their registration fee comped, I think.  I know mine was covered for my Best Practices session.</p>
+<p>Sean&#8212;</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

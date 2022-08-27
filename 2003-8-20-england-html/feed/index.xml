@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: england	</title>
+	<atom:link href="/2003-8-20-england-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2003-8-20-england-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:43:29 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Simon		</title>
+		<link>/2003-8-20-england-html/#comment-914</link>
+
+		<dc:creator><![CDATA[Simon]]></dc:creator>
+		<pubDate>Thu, 21 Aug 2003 09:52:45 +0000</pubDate>
+		<guid isPermaLink="false">/2003-8-20-england-html/#comment-914</guid>
+
+					<description><![CDATA[&lt;p&gt;Matthew, thanks for having us to stay - the game was ace and the cheesecake even better!! I&#039;m aiming to fit some work in now between our hectic social schedule!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Matthew, thanks for having us to stay &#8211; the game was ace and the cheesecake even better!! I&#8217;m aiming to fit some work in now between our hectic social schedule!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

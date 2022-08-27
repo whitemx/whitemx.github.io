@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: ND 7.0.2 and RSS	</title>
+	<atom:link href="/2006-10-10-nd-702-and-rss-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2006-10-10-nd-702-and-rss-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:33:06 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: stephen hood		</title>
+		<link>/2006-10-10-nd-702-and-rss-html/#comment-1102</link>
+
+		<dc:creator><![CDATA[stephen hood]]></dc:creator>
+		<pubDate>Thu, 12 Oct 2006 16:01:39 +0000</pubDate>
+		<guid isPermaLink="false">/2006-10-10-nd-702-and-rss-html/#comment-1102</guid>
+
+					<description><![CDATA[&lt;p&gt;There is a bit more information about  basic authentication here..&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;&lt;a rel=&quot;nofollow&quot; href=&quot;http://chris-linfoot.net/d6plinks/CWLT-6UEK9B#comments&quot;&quot; rel=&quot;nofollow ugc&quot;&gt;http://chris-linfoot.net/d6plinks/CWLT-6UEK9B#comments&quot;&lt;/a&gt; rel=&quot;nofollow&quot;&gt;&lt;a href=&quot;http://chris-linfoot.net/d6plinks/CWLT-6UEK9B#comments&quot; rel=&quot;nofollow ugc&quot;&gt;http://chris-linfoot.net/d6plinks/CWLT-6UEK9B#comments&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;although not sure if it will answer your question&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>There is a bit more information about  basic authentication here..</p>
+<p><a href="<a rel="nofollow" href="http://chris-linfoot.net/d6plinks/CWLT-6UEK9B#comments"" rel="nofollow ugc"></a><a href="http://chris-linfoot.net/d6plinks/CWLT-6UEK9B#comments" rel="nofollow ugc">http://chris-linfoot.net/d6plinks/CWLT-6UEK9B#comments</a>&#8220; rel=&#8221;nofollow&#8221;><a href="http://chris-linfoot.net/d6plinks/CWLT-6UEK9B#comments" rel="nofollow ugc">http://chris-linfoot.net/d6plinks/CWLT-6UEK9B#comments</a></p>
+<p>although not sure if it will answer your question</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

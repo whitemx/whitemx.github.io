@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Two Quickies	</title>
+	<atom:link href="/2006-5-24-two-quickies-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2006-5-24-two-quickies-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:34:41 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Wild Bill		</title>
+		<link>/2006-5-24-two-quickies-html/#comment-1171</link>
+
+		<dc:creator><![CDATA[Wild Bill]]></dc:creator>
+		<pubDate>Wed, 24 May 2006 09:26:51 +0000</pubDate>
+		<guid isPermaLink="false">/2006-5-24-two-quickies-html/#comment-1171</guid>
+
+					<description><![CDATA[&lt;p&gt;Yes - a scheduled agent can open a &quot;remote&quot; database if the current server is in the &quot;trusted servers&quot; field on the remote server document. &lt;/p&gt;&lt;p&gt;Handy. And beats using the C-API call NSFDbOpen (which bypassed this restriction)...&lt;/p&gt;&lt;p&gt;---* Bill&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Yes &#8211; a scheduled agent can open a &#8220;remote&#8221; database if the current server is in the &#8220;trusted servers&#8221; field on the remote server document. </p>
+<p>Handy. And beats using the C-API call NSFDbOpen (which bypassed this restriction)&#8230;</p>
+<p>&#8212;* Bill</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

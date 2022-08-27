@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>xpages101 &#8211; mattwhite.me</title>
+	<atom:link href="/tag/xpages101/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Creating a new XPages application in 8.5.3 UP1</title>
+		<link>/2012-2-18-creating-a-new-xpages-application-in-853-up1-html/</link>
+					<comments>/2012-2-18-creating-a-new-xpages-application-in-853-up1-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sat, 18 Feb 2012 11:37:21 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[8.5.3]]></category>
+		<category><![CDATA[extlib]]></category>
+		<category><![CDATA[up1]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2012-2-18-creating-a-new-xpages-application-in-853-up1-html/</guid>
+
+					<description><![CDATA[I suppose most of you know about XPages101 now, the first eight videos on the site walk you through creating a new XPages application. I recorded them two years ago now and they are still useful when you&#8217;re starting with XPages. But since 8.5.3 and more specifically UP1 (or the Extension Library) became main stream [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I suppose most of you know about <a href="http://xpages101.net/">XPages101</a> now, the first eight videos on the site walk you through creating a new XPages application. I recorded them two years ago now and they are still useful when you&#8217;re starting with XPages. But since 8.5.3 and more specifically UP1 (or the Extension Library) became main stream my eight videos can make things seem a little like too much work.</p>
+<p>So over the next few weeks at XPages101 I will walk you through creating roughly the same application using the more up to date tools available to us. What&#8217;s interesting is that I have recorded three videos already (the first one was released yesterday <a href="http://xpages101.net/xpages101/XPages101.nsf/0/01E576D528A968CD802579A7004CF962">here</a>) and have already reached the point of having a functional application with navigation and UI. It&#8217;s obviously not a scientific measure, but the extra controls which are provided for us out the box with UP1 (or ExtLib) really make a difference in development time.</p>
+<p>Anyway, if you&#8217;re a subscriber then go ahead and check out the <a href="http://xpages101.net/xpages101/XPages101.nsf/0/01E576D528A968CD802579A7004CF962">new video which I uploaded yesterday</a>, if you&#8217;re not a subscriber&#8230; well, I shall say nothing!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012-2-18-creating-a-new-xpages-application-in-853-up1-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>XPages101 Lotusphere Discount</title>
+		<link>/2012-1-9-xpages101-lotusphere-discount-html/</link>
+					<comments>/2012-1-9-xpages101-lotusphere-discount-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 09 Jan 2012 07:40:26 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[ls12]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2012-1-9-xpages101-lotusphere-discount-html/</guid>
+
+					<description><![CDATA[I&#8217;m not sure if it can be a tradition after two years but it&#8217;s a good deal either way. If you enter the coupon code &#8220;LS12&#8221; at checkout at XPages101.net&#160;then you will receive a 33% discount on the cost. So if your new years resolution is to learn XPages then this should help you along. [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;m not sure if it can be a tradition after two years but it&#8217;s a good deal either way.</p>
+<p>If you enter the coupon code &#8220;LS12&#8221; at checkout at <a href="http://xpages101.net/">XPages101.net</a>&nbsp;then you will receive a 33% discount on the cost. So if your new years resolution is to learn XPages then this should help you along.</p>
+<p>There are currently 68 videos on the site which total up to almost 13 hours of back to back content or well over 3.5gb of video!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012-1-9-xpages101-lotusphere-discount-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Sixty not out</title>
+		<link>/2011-9-12-sixty-not-out-html/</link>
+					<comments>/2011-9-12-sixty-not-out-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 12 Sep 2011 11:29:03 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[xpages]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2011-9-12-sixty-not-out-html/</guid>
+
+					<description><![CDATA[Today I uploaded the 60th video to xpages101.net. It&#8217;s taken me over 18 months to get this far and there are no plans to stop adding more content. In fact with the announcement of the 8.5.3 release date, there are many more areas which need to be covered. Expect to see a rash of new [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Today I uploaded the 60th video to <a href="http://xpages101.net/">xpages101.net</a>. It&#8217;s taken me over 18 months to get this far and there are no plans to stop adding more content. In fact with the <a href="http://www.edbrill.com/ebrill/edbrill.nsf/dx/notesdomino-8.5.3-launch-dates-set">announcement of the 8.5.3 release date</a>, there are many more areas which need to be covered. Expect to see a rash of new videos over the next few weeks.</p>
+<p>I thought I&#8217;d post some of the stats for the site so far.</p>
+<p>&nbsp;</p>
+<ul>
+<li>First video posted: February 11th 2010</li>
+<li>Total length of videos uploaded: 11 hours 15 minutes</li>
+<li>Total size of videos uploaded: 3.17gb</li>
+<li>Shortest video: 2 minutes 7 seconds &#8211; <a href="http://xpages101.net/xpages101/XPages101.nsf/0/A3F3B5C9400A81A3802578EE0026F820">how to run a local HTTP console window</a></li>
+<li>Longest video: 25 minutes 12 seconds &#8211; <a href="http://xpages101.net/xpages101/XPages101.nsf/0/68CB7F693B3631A78025790900369898">Dojo Mobile Controls in 8.5.3</a></li>
+</ul>
+<p>&nbsp;</p>
+<p>In the last couple of months I&#8217;ve had the 250th subscriber sign up for the site, and more are joining weekly. Since the site was re-designed earlier this year it&#8217;s also easier to submit your own lesson ideas if there&#8217;s something which I&#8217;ve not covered yet and each of the lessons has a comments section to clarify points or add you&#8217;re own thoughts on the lesson.</p>
+<p>And finally, to celebrate the 60th lesson being uploaded, here&#8217;s an offer for you. If you use the coupon code &#8220;60notout&#8221; at checkout, you&#8217;ll get a &pound;60 discount on your purchase. Just head on over to <a href="http://xpages101.net/">xpages101.net</a> to get started.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011-9-12-sixty-not-out-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>It&#8217;s Learn XPages Month (and I have a discount to offer)</title>
+		<link>/2011-5-25-its-learn-xpages-month-and-i-have-a-discount-to-offer-html/</link>
+					<comments>/2011-5-25-its-learn-xpages-month-and-i-have-a-discount-to-offer-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 25 May 2011 15:22:10 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2011-5-25-its-learn-xpages-month-and-i-have-a-discount-to-offer-html/</guid>
+
+					<description><![CDATA[You may have seen that June has been declared Learn XPages Month. XPages.info has all of the details but I thought I would (shamelessly) highlight that XPages101 will be offering a 33% discount for the whole of June. If you use the coupon code &#8220;learnxpages&#8221; at checkout the discount will be applied for access to [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>You may have seen that June has been declared <a href="http://xpages.info/Internal/home.nsf/dx/Learn-XPages-Month">Learn XPages Month</a>. XPages.info has all of the details but I thought I would (shamelessly) highlight that XPages101 will be offering a 33% discount for the whole of June. If you use the coupon code &#8220;learnxpages&#8221; at checkout the discount will be applied for access to a whole year&#8217;s worth of XPages training content.</p>
+<p>So head on over to <a href="http://xpages101.net/">XPages101</a> to get your subscription.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011-5-25-its-learn-xpages-month-and-i-have-a-discount-to-offer-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>XPages101 LS11 discount</title>
+		<link>/2011-1-26-xpages101-ls11-discount-html/</link>
+					<comments>/2011-1-26-xpages101-ls11-discount-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 26 Jan 2011 09:00:23 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[ls11]]></category>
+		<category><![CDATA[xpages]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2011-1-26-xpages101-ls11-discount-html/</guid>
+
+					<description><![CDATA[As the annual pilgrimage to Florida for Lotusphere begins, I thought it would be worth mentioning a discount for XPages101 which I&#8217;ll be offering for the next 3 weeks. Use the coupon code &#8220;ls11&#8221; at checkout and get a 33% discount! It&#8217;s coming up to a year since I first launched the site and in [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>As the annual pilgrimage to Florida for Lotusphere begins, I thought it would be worth mentioning a discount for <a href="http://xpages101.net/">XPages101</a> which I&#8217;ll be offering for the next 3 weeks.</p>
+<p>Use the coupon code &#8220;ls11&#8221; at checkout and get a 33% discount!</p>
+<p>It&#8217;s coming up to a year since I first launched the site and in that time I&#8217;ve uploaded 37 lessons which run to more than 7 hours of content and well over 2gb of movies. There are many more lessons planned over the coming weeks and months.</p>
+<p>So if you feel like it&#8217;s time to get into XPages, or you&#8217;re just looking for a bit of a helping hand with some of the more complex tasks in Domino Designer then hopefully my videos will be able to help you. <a href="http://xpages101.net/videos">Check them out</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011-1-26-xpages101-ls11-discount-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>XPages training videos now available on the iPad</title>
+		<link>/2010-9-23-xpages-training-videos-now-available-on-the-ipad-html/</link>
+					<comments>/2010-9-23-xpages-training-videos-now-available-on-the-ipad-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 23 Sep 2010 19:42:46 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2010-9-23-xpages-training-videos-now-available-on-the-ipad-html/</guid>
+
+					<description><![CDATA[Well I finally caved to the repeated requests to make the videos on XPages101.net available to run on the iPad, iPhone, Android and so on. So I&#8217;ve spent the better part of this afternoon transcoding all of the videos and&#8230; Voil&#224;. In the end I also took the opportunity to move the hosting of the [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Well I finally caved to the repeated requests to make the videos on <a href="http://xpages101.net/">XPages101.net</a> available to run on the iPad, iPhone, Android and so on. So I&#8217;ve spent the better part of this afternoon transcoding all of the videos and&#8230; Voil&agrave;.</p>
+<p>In the end I also took the opportunity to move the hosting of the videos across to <a href="http://vimeo.com/">Vimeo</a> so hopefully performance will be better and they&#8217;ll also better handle future developments in online video technology meaning I won&#8217;t need to worry about it in future!</p>
+<p>Anyway, if you&#8217;re already a subscriber, log into the site and check out the new videos which I&#8217;ve uploaded this week which look at the data table control and the Extensions Library project on OpenNTF. If you&#8217;re not already a subscriber then head on over to the <a href="http://xpages101.net/">site</a> and see what&#8217;s on offer, it really is a good way to get started with XPages development.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-9-23-xpages-training-videos-now-available-on-the-ipad-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>What&#8217;s new with XPages in 8.5.2</title>
+		<link>/2010-8-25-whats-new-with-xpages-in-852-html/</link>
+					<comments>/2010-8-25-whats-new-with-xpages-in-852-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 25 Aug 2010 11:19:50 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[8.5.2]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2010-8-25-whats-new-with-xpages-in-852-html/</guid>
+
+					<description><![CDATA[Over on XPages101.net I&#8217;ve just posted (yet another) video. This time we&#8217;re looking at what&#8217;s new in 8.5.2 for the XPages developer. What&#8217;s New With XPages in 8.5.2 As a bit of a teaser, I thought I&#8217;d post the audio from that recording here as well so that you can hear what you&#8217;re missing. As [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Over on <a href="http://xpages101.net/">XPages101.net</a> I&#8217;ve just posted (yet another) video. This time we&#8217;re looking at what&#8217;s new in 8.5.2 for the XPages developer.</p>
+<p><script type="text/javascript" src="http://mediaplayer.yahoo.com/js"></script> <a href="http://mattwhite.me/storage/WhatsNewIn852.mp3">What&#8217;s New With XPages in 8.5.2</a></p>
+<p>As a bit of a teaser, I thought I&#8217;d post the audio from that recording here as well so that you can hear what you&#8217;re missing. As ever, feel free to subscribe if you want to get a jumpstart on your XPages development. There are 30 different videos up on the site covering all the elements you&#8217;ll need to get started and then dig a little deeper into XPages development. The <a href="http://xpages101.net/videos/">full video listing can be found here</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-8-25-whats-new-with-xpages-in-852-html/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		<enclosure url="http://mattwhite.me/storage/WhatsNewIn852.mp3" length="8720" type="audio/mpeg" />
+
+			</item>
+		<item>
+		<title>Heading home</title>
+		<link>/2010-8-6-heading-home-html/</link>
+					<comments>/2010-8-6-heading-home-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 05 Aug 2010 23:53:24 +0000</pubDate>
+				<category><![CDATA[My Life]]></category>
+		<category><![CDATA[iamlug]]></category>
+		<category><![CDATA[tackiton]]></category>
+		<category><![CDATA[travel]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2010-8-6-heading-home-html/</guid>
+
+					<description><![CDATA[It seems like a long time since I went away on holiday, and it is. Since the middle of July I&#8217;ve been to Latitude (great), Madeira (great), IamLUG (great) and run an XPages101 day (seemed to go well). So all in all it&#8217;s been a really enjoyable few weeks. I&#8217;m sat in JFK airport in [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>It seems like a long time since I went away on holiday, and it is. Since the middle of July I&#8217;ve been to <a href="http://www.latitudefestival.co.uk/">Latitude</a> (great), Madeira (great), <a href="http://iamlug.org/iamlug/IamLug2010.nsf">IamLUG</a> (great) and run an <a href="http://xpages101.net/">XPages101</a> day (seemed to go well). So all in all it&#8217;s been a really enjoyable few weeks.</p>
+<p>I&#8217;m sat in JFK airport in New York waiting to start the final leg of the journey home and much as it&#8217;s been a great couple of weeks away, I am *really* looking forward to getting back home and just decompressing for a couple of days before getting back into the real world with a vengeance on Monday morning.</p>
+<p>IamLUG was a really superb event, <a href="http://idonotes.com/">Chris</a> and the rest of the team do put on a good show. Everything was run incredibly smoothly, the content was very good indeed and, as ever, the people were great company. I presented my &#8220;<a href="http://mattwhite.me/iamlug_tenpatterns.zip">Ten XPages Design Patterns</a>&#8221; session, probably for the last time as I&#8217;ve used it for a year now. So I need to start thinking about future sessions pretty seriously now. (Bet you can&#8217;t guess what I plan to speak about next time!).</p>
+<p>After IamLUG, we had the inaugural &#8220;<a href="http://tackiton.com/">Tack It On</a>&#8221; day, and I&#8217;d really like to thank <a href="http://www.lotusnotebook.com/">David Leedy</a> for his invaluable assistance during the day. I had been rather lax and not given him a huge amount of guidance before the day itself but he dealt with all of the questions with good grace and humour. Things really wouldn&#8217;t have run as smoothly without him there. Overall I think the day went pretty well. I&#8217;m sure there&#8217;ll be more of these sorts of things happening in the future.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-8-6-heading-home-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>My IamLUG Session</title>
+		<link>/2010-6-8-my-iamlug-session-html/</link>
+					<comments>/2010-6-8-my-iamlug-session-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 08 Jun 2010 07:07:46 +0000</pubDate>
+				<category><![CDATA[Domino Community]]></category>
+		<category><![CDATA[iamlug]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2010-6-8-my-iamlug-session-html/</guid>
+
+					<description><![CDATA[Yesterday Chris Miller announced the first batch of speakers and sessions for this year&#8217;s IamLUG conference in St Louis. I&#8217;m fortunate enough to have had my abstract accepted. And so I&#8217;ll be presenting an updated version of my &#8220;Ten XPages Design Patterns&#8221; session. There is already a great list of speakers and sessions announced, so [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Yesterday <a href="http://iamlug.org/IamLUG/blog.nsf/dx/the-first-round-of-sessions-for-iamlug-2010-announced.htm">Chris Miller announced</a> the first batch of speakers and sessions for this year&#8217;s IamLUG conference in St Louis. I&#8217;m fortunate enough to have had my abstract accepted. And so I&#8217;ll be presenting an updated version of my &#8220;<a href="http://iamlug.org/iamlug/IamLug2010.nsf/session.xsp?action=openDocument&amp;documentId=78F96453D7A4615A8625770300322D5B">Ten XPages Design Patterns</a>&#8221; session.</p>
+<p>There is already a great <a href="http://iamlug.org/iamlug/IamLug2010.nsf/sessions.xsp">list of speakers and sessions announced</a>, so if you&#8217;ve not registered yet then get over to the IamLUG site quickly to get signed up, it&#8217;s a free conference remember!</p>
+<p>And then, of course, there&#8217;s the <a href="http://tackiton.com/IamLUG">Tack It On</a> extra day of deep dive content provided by Rob Novak and the SNAPPS team, Chris Miller and myself. All in all, three days of great sessions, interesting people, and I&#8217;m sure more than a little fun as well.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-6-8-my-iamlug-session-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>XPages101 comes to America</title>
+		<link>/2010-5-4-xpages101-comes-to-america-html/</link>
+					<comments>/2010-5-4-xpages101-comes-to-america-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 04 May 2010 14:29:52 +0000</pubDate>
+				<category><![CDATA[Domino Community]]></category>
+		<category><![CDATA[training]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2010-5-4-xpages101-comes-to-america-html/</guid>
+
+					<description><![CDATA[I&#8217;ve been working with Chris Miller and Rob Novak over the last few weeks to put together a great extra day after IamLUG this August in St Louis.&#160; Basically the plan is that I&#8217;ll run my XPages101 classroom course, Chris will be running a new &#8220;Domino Optimization Tour&#8221; and Rob and the SNAPPS team will [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;ve been working with <a href="http://idonotes.com/">Chris Miller</a> and <a href="http://lotusrockstar.com/">Rob Novak</a> over the last few weeks to put together a great extra day after <a href="http://iamlug.org/">IamLUG</a> this August in St Louis.&nbsp;</p>
+<p>Basically the plan is that I&#8217;ll run my <a href="http://xpages101.net/classroom">XPages101 classroom course</a>, Chris will be running a new &#8220;Domino Optimization Tour&#8221; and Rob and the SNAPPS team will be running their iPhone Development class. Each of the courses will be running concurrently in the same rooms that IamLUG will have been in for the previous couple of days. And because we&#8217;re able to get some economies of scale by operating together, the prices for the extra training day, or &#8220;<a href="http://tackiton.com/iamlug">Tack It On</a>&#8221; day can be kept as low as possible.</p>
+<p>So if you&#8217;re interested in learning XPages, iPhone development or taking a deep dive into Domino server optimisation then <a href="http://tackiton.com/iamlug">visit the information site for more details</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-5-4-xpages101-comes-to-america-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

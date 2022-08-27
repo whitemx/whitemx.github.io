@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: How to get complicated data on the clientside in XPages without AJAX	</title>
+	<atom:link href="/2009-5-25-how-to-get-complicated-data-on-the-clientside-in-xpages-with-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2009-5-25-how-to-get-complicated-data-on-the-clientside-in-xpages-with-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:41 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2009-5-25-how-to-get-complicated-data-on-the-clientside-in-xpages-with-html/#comment-1438</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Fri, 19 Jun 2009 21:00:16 +0000</pubDate>
+		<guid isPermaLink="false">/2009-5-25-how-to-get-complicated-data-on-the-clientside-in-xpages-with-html/#comment-1438</guid>
+
+					<description><![CDATA[&lt;p&gt;@Rob,&lt;/p&gt;&lt;p&gt;Thanks for the comment, good to know someone reads this stuff :-)&lt;/p&gt;&lt;p&gt;Re post itself, I maybe didn&#039;t make things as clear as possible, but any element of the computed Javascript which gets refreshed on the server will recalculate itself. So if you use a partial refresh element then when the HTML is regenerated and sent back to the browser (as an Ajax request which is written for you) it will contain the updated values.&lt;/p&gt;&lt;p&gt;The point is (as the title says) that we are getting complex data that we can use in client side Javascript &lt;strong&gt;without&lt;/strong&gt; using Ajax.&lt;/p&gt;&lt;p&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>@Rob,</p>
+<p>Thanks for the comment, good to know someone reads this stuff 🙂</p>
+<p>Re post itself, I maybe didn&#8217;t make things as clear as possible, but any element of the computed Javascript which gets refreshed on the server will recalculate itself. So if you use a partial refresh element then when the HTML is regenerated and sent back to the browser (as an Ajax request which is written for you) it will contain the updated values.</p>
+<p>The point is (as the title says) that we are getting complex data that we can use in client side Javascript <strong>without</strong> using Ajax.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Rob		</title>
+		<link>/2009-5-25-how-to-get-complicated-data-on-the-clientside-in-xpages-with-html/#comment-1437</link>
+
+		<dc:creator><![CDATA[Rob]]></dc:creator>
+		<pubDate>Fri, 19 Jun 2009 16:22:44 +0000</pubDate>
+		<guid isPermaLink="false">/2009-5-25-how-to-get-complicated-data-on-the-clientside-in-xpages-with-html/#comment-1437</guid>
+
+					<description><![CDATA[&lt;p&gt;I look at your blog every day. Thanks for writing it.&lt;/p&gt;&lt;p&gt;FYI: the comment from Doug Moore has a broken link in it. Perhaps it broke when you moved things into SquareSpace.&lt;/p&gt;&lt;p&gt;AJAX ... NOT&lt;br/&gt;Correct me if I&#039;m wrong but everything in your XPages example is computed on the server as the page is served and is downloaded to the browser. When using AJAX the page is downloaded and then AJAX makes dynamic calls to the server to update the page already loaded in the browser without having to re-download the page?&lt;/p&gt;&lt;p&gt;A good example of this would be a selection box where the available selections depend on another input field who&#039;s value isn&#039;t known at the time the page is downloaded. Domino used to reload the whole page to update the values when the user changed the value in the field it depended on.&lt;/p&gt;&lt;p&gt;Another way to say this is that your example could have been done with a standard form using pass-through HTML and computed text elements. Granted, this is a nice new way to do this but  AJAX isn&#039;t really a factor in this example.&lt;/p&gt;&lt;p&gt;But thanks for the example. I&#039;m just starting to use XPages and need all the examples I can find.&lt;/p&gt;&lt;p&gt;Peace,&lt;/p&gt;&lt;p&gt;Rob:-]&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I look at your blog every day. Thanks for writing it.</p>
+<p>FYI: the comment from Doug Moore has a broken link in it. Perhaps it broke when you moved things into SquareSpace.</p>
+<p>AJAX &#8230; NOT<br />Correct me if I&#8217;m wrong but everything in your XPages example is computed on the server as the page is served and is downloaded to the browser. When using AJAX the page is downloaded and then AJAX makes dynamic calls to the server to update the page already loaded in the browser without having to re-download the page?</p>
+<p>A good example of this would be a selection box where the available selections depend on another input field who&#8217;s value isn&#8217;t known at the time the page is downloaded. Domino used to reload the whole page to update the values when the user changed the value in the field it depended on.</p>
+<p>Another way to say this is that your example could have been done with a standard form using pass-through HTML and computed text elements. Granted, this is a nice new way to do this but  AJAX isn&#8217;t really a factor in this example.</p>
+<p>But thanks for the example. I&#8217;m just starting to use XPages and need all the examples I can find.</p>
+<p>Peace,</p>
+<p>Rob:-]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Doug Moore		</title>
+		<link>/2009-5-25-how-to-get-complicated-data-on-the-clientside-in-xpages-with-html/#comment-1436</link>
+
+		<dc:creator><![CDATA[Doug Moore]]></dc:creator>
+		<pubDate>Thu, 28 May 2009 16:53:33 +0000</pubDate>
+		<guid isPermaLink="false">/2009-5-25-how-to-get-complicated-data-on-the-clientside-in-xpages-with-html/#comment-1436</guid>
+
+					<description><![CDATA[&lt;p&gt;Good stuff, Matt...&lt;/p&gt;&lt;p&gt;BTW, it might be worth adding a link to a good basic overview of XPages in Domino as well, such as this one: http://tinyurl.com/6peals&lt;/p&gt;&lt;p&gt;I also enjoyed your linkjam links (&#034;Startups in 13 Sentences&#034; was right on-target)...look forward to speaking with you Monday afternoon...&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Good stuff, Matt&#8230;</p>
+<p>BTW, it might be worth adding a link to a good basic overview of XPages in Domino as well, such as this one: <a href="http://tinyurl.com/6peals" rel="nofollow ugc">http://tinyurl.com/6peals</a></p>
+<p>I also enjoyed your linkjam links (&quot;Startups in 13 Sentences&quot; was right on-target)&#8230;look forward to speaking with you Monday afternoon&#8230;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Rock		</title>
+		<link>/2009-5-25-how-to-get-complicated-data-on-the-clientside-in-xpages-with-html/#comment-1435</link>
+
+		<dc:creator><![CDATA[Rock]]></dc:creator>
+		<pubDate>Mon, 25 May 2009 14:48:06 +0000</pubDate>
+		<guid isPermaLink="false">/2009-5-25-how-to-get-complicated-data-on-the-clientside-in-xpages-with-html/#comment-1435</guid>
+
+					<description><![CDATA[&lt;p&gt;Nice job, Matt! XPages is where the future of Domino (i.e. Web) development is, so it is good that people like you (and Dec, and others) are building our &quot;collective knowledge&quot; about them. Thanks for sharing this neat bit of kit.&lt;br  /&gt;&lt;br  /&gt;--Rock&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Nice job, Matt! XPages is where the future of Domino (i.e. Web) development is, so it is good that people like you (and Dec, and others) are building our &#8220;collective knowledge&#8221; about them. Thanks for sharing this neat bit of kit.</p>
+<p>&#8211;Rock</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

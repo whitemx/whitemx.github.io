@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ldcvia &#8211; mattwhite.me</title>
+	<atom:link href="/tag/ldcvia/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:18:52 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Introduction to LDC Via Webinar</title>
+		<link>/2016-1-4-introduction-to-ldc-via-webinar/</link>
+					<comments>/2016-1-4-introduction-to-ldc-via-webinar/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 04 Jan 2016 07:55:29 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[ldcvia]]></category>
+		<guid isPermaLink="false">/2016-1-4-introduction-to-ldc-via-webinar/</guid>
+
+					<description><![CDATA[We&#8217;re very aware at LDC Via that lots of people are interested in our offering, but it can be a little overwhelming to get started, so on Tuesday the 12th Jan, we&#8217;re going to talk and demo for an hour about what LDC Via is, how it works and how you can use it to [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>We&#8217;re very aware at <a href="http://ldcvia.com/">LDC Via</a> that lots of people are interested in our offering, but it can be a little overwhelming to get started, so on Tuesday the 12th Jan, we&#8217;re going to talk and demo for an hour about what <a target="_blank" href="http://ldcvia.com/" rel="noopener">LDC Via</a> is, how it works and how you can use it to liberate your Domino data.</p>
+<div
+        class="
+          image-block-outer-wrapper
+          layout-caption-hidden
+          design-layout-inline
+          
+          
+          
+        "
+        data-test="image-block-inline-outer-wrapper"
+    ></p>
+<figure
+            class="
+              sqs-block-image-figure
+              intrinsic
+            "
+            style="max-width:470px;"
+        ></p>
+<p>          <a class="
+                sqs-block-image-link
+                
+          
+        
+              " href="https://attendee.gotowebinar.com/register/3901059929414555906" target="_blank" rel="noopener"></p>
+<div
+              
+              
+              class="image-block-wrapper"
+              data-animation-role="image"
+              
+  data-animation-override
+
+          ></p>
+<div class="sqs-image-shape-container-element
+              
+          
+        
+              has-aspect-ratio
+            " style="
+                position: relative;
+                
+                  padding-bottom:52.12765884399414%;
+                
+                overflow: hidden;
+              "
+              ><br />
+              <noscript><img src="/wp-content/uploads/2022/08/ldcvia-webinar.png" alt="ldcvia-webinar.png" /></noscript><img class="thumb-image" src="/wp-content/uploads/2022/08/ldcvia-webinar.png" data-image="/wp-content/uploads/2022/08/ldcvia-webinar.png" data-image-dimensions="470x245" data-image-focal-point="0.5,0.5" alt="ldcvia-webinar.png" data-load="false" data-image-id="568a24af0ab377ae44eff384" data-type="image" />
+            </div>
+</p></div>
+<p>          </a></p>
+</figure></div>
+<p>It&#8217;s obviously a free event and we&#8217;d love to have you there. You can <a href="https://attendee.gotowebinar.com/register/3901059929414555906">register here</a>. And what better way can there be to start a new year than to attend a webinar <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Of course we will all be attending or speaking at Connect 2016 in a few weeks as well, so if you would like to chat with any of us, please <a target="_blank" href="mailto:support@ldcvia.com" rel="noopener">drop us a line</a> to arrange a meeting.&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016-1-4-introduction-to-ldc-via-webinar/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

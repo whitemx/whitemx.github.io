@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: rss	</title>
+	<atom:link href="/2003-7-6-rss-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2003-7-6-rss-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:45:42 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Lee		</title>
+		<link>/2003-7-6-rss-html/#comment-919</link>
+
+		<dc:creator><![CDATA[Lee]]></dc:creator>
+		<pubDate>Sun, 13 Jul 2003 11:16:10 +0000</pubDate>
+		<guid isPermaLink="false">/2003-7-6-rss-html/#comment-919</guid>
+
+					<description><![CDATA[&lt;p&gt;That&#039;s so cool! Thank you! You&#039;re the best RSS source for train &#039;happenings&#039; I&#039;m aware of. Seriously! As if the route between Brick Hell (Bracknell) and Richmond weren&#039;t bad enough, now I know if I *were* to be a offered a contract with the idea of crashing at friends in Kewe, to regard it as mere folley!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>That&#8217;s so cool! Thank you! You&#8217;re the best RSS source for train &#8216;happenings&#8217; I&#8217;m aware of. Seriously! As if the route between Brick Hell (Bracknell) and Richmond weren&#8217;t bad enough, now I know if I *were* to be a offered a contract with the idea of crashing at friends in Kewe, to regard it as mere folley!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

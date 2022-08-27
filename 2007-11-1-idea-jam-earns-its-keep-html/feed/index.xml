@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Idea Jam earns its keep	</title>
+	<atom:link href="/2007-11-1-idea-jam-earns-its-keep-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2007-11-1-idea-jam-earns-its-keep-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:29:05 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Bruce Elgort		</title>
+		<link>/2007-11-1-idea-jam-earns-its-keep-html/#comment-353</link>
+
+		<dc:creator><![CDATA[Bruce Elgort]]></dc:creator>
+		<pubDate>Thu, 01 Nov 2007 18:59:35 +0000</pubDate>
+		<guid isPermaLink="false">/2007-11-1-idea-jam-earns-its-keep-html/#comment-353</guid>
+
+					<description><![CDATA[&lt;p&gt;Setting ini variables is archaic.  I agree with Nathan.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Setting ini variables is archaic.  I agree with Nathan.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: jonvon		</title>
+		<link>/2007-11-1-idea-jam-earns-its-keep-html/#comment-355</link>
+
+		<dc:creator><![CDATA[jonvon]]></dc:creator>
+		<pubDate>Thu, 01 Nov 2007 17:32:50 +0000</pubDate>
+		<guid isPermaLink="false">/2007-11-1-idea-jam-earns-its-keep-html/#comment-355</guid>
+
+					<description><![CDATA[&lt;p&gt;omg that is awesome, i did not know that...&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>omg that is awesome, i did not know that&#8230;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nathan T. Freeman		</title>
+		<link>/2007-11-1-idea-jam-earns-its-keep-html/#comment-354</link>
+
+		<dc:creator><![CDATA[Nathan T. Freeman]]></dc:creator>
+		<pubDate>Thu, 01 Nov 2007 14:55:04 +0000</pubDate>
+		<guid isPermaLink="false">/2007-11-1-idea-jam-earns-its-keep-html/#comment-354</guid>
+
+					<description><![CDATA[&lt;p&gt;The fact that this question has been asked and answered probably in excess of 100 times is indicative of just how much DESIGNER NEEDS PREFERENCE CONTROLS!!!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>The fact that this question has been asked and answered probably in excess of 100 times is indicative of just how much DESIGNER NEEDS PREFERENCE CONTROLS!!!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

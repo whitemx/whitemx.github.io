@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>xpages201 &#8211; mattwhite.me</title>
+	<atom:link href="/tag/xpages201/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:03 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>XPages201 TackItOn Day</title>
+		<link>/2011-7-25-xpages201-tackiton-day-html/</link>
+					<comments>/2011-7-25-xpages201-tackiton-day-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 25 Jul 2011 07:32:45 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[iamlug]]></category>
+		<category><![CDATA[xpages201]]></category>
+		<guid isPermaLink="false">/2011-7-25-xpages201-tackiton-day-html/</guid>
+
+					<description><![CDATA[IamLUG is just a week away and I have been remiss in not mentioning the XPages201 training day which I am running next Wednesday after IamLUG in St Louis. This video explains a little more&#8230; The aim of the day is to dig a little deeper into XPages if you&#8217;ve been playing with them for [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><a href="http://iamlug.org/">IamLUG</a> is just a week away and I have been remiss in not mentioning the XPages201 training day which I am running next Wednesday after IamLUG in St Louis.</p>
+<p>This video explains a little more&#8230;</p>
+<p><iframe loading="lazy" src="http://player.vimeo.com/video/26150938?byline=0&amp;portrait=0" width="601" height="376" frameborder="0"></iframe></p>
+<p>The aim of the day is to dig a little deeper into XPages if you&#8217;ve been playing with them for a few months. So I&#8217;m going to cover some of the basics that I&#8217;ve seen commonly misunderstood, like Scoped Variables, but then also we&#8217;ll look at some more advanced things such as using Java and Managed Beans in your XPages applications.</p>
+<p>If you&#8217;d like to sign up then head over to <a href="http://xpages101.net/classroom">XPages101</a> and if you&#8217;re already registered for the IamLUG conference itself, don&#8217;t forget to use the discount coupon code which you received in your confirmation email for a $100 discount.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011-7-25-xpages201-tackiton-day-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

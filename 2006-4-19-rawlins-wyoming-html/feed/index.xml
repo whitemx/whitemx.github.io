@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Rawlins, Wyoming	</title>
+	<atom:link href="/2006-4-19-rawlins-wyoming-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2006-4-19-rawlins-wyoming-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:34:42 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Mum		</title>
+		<link>/2006-4-19-rawlins-wyoming-html/#comment-1118</link>
+
+		<dc:creator><![CDATA[Mum]]></dc:creator>
+		<pubDate>Thu, 20 Apr 2006 13:05:19 +0000</pubDate>
+		<guid isPermaLink="false">/2006-4-19-rawlins-wyoming-html/#comment-1118</guid>
+
+					<description><![CDATA[&lt;p&gt;Hope you get my email.  All send love, Mum.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hope you get my email.  All send love, Mum.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Simon		</title>
+		<link>/2006-4-19-rawlins-wyoming-html/#comment-1119</link>
+
+		<dc:creator><![CDATA[Simon]]></dc:creator>
+		<pubDate>Thu, 20 Apr 2006 08:04:36 +0000</pubDate>
+		<guid isPermaLink="false">/2006-4-19-rawlins-wyoming-html/#comment-1119</guid>
+
+					<description><![CDATA[&lt;p&gt;Hi Matthew - hope that you&#039;re having a relaxing stay - the Jeep looks cool!  Have some chicken &#038; biscuits for us!!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hi Matthew &#8211; hope that you&#8217;re having a relaxing stay &#8211; the Jeep looks cool!  Have some chicken &amp; biscuits for us!!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

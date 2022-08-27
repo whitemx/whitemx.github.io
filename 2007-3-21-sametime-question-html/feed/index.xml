@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Sametime Question	</title>
+	<atom:link href="/2007-3-21-sametime-question-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2007-3-21-sametime-question-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:29:46 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2007-3-21-sametime-question-html/#comment-1090</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Tue, 27 Mar 2007 07:48:40 +0000</pubDate>
+		<guid isPermaLink="false">/2007-3-21-sametime-question-html/#comment-1090</guid>
+
+					<description><![CDATA[&lt;p&gt;Thanks Carl, that&#039;s pretty much what I had gathered. A strange one really that will hopefully get fixed pretty soon.&lt;br  /&gt;&lt;br  /&gt;Matt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thanks Carl, that&#8217;s pretty much what I had gathered. A strange one really that will hopefully get fixed pretty soon.</p>
+<p>Matt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Carl Tyler		</title>
+		<link>/2007-3-21-sametime-question-html/#comment-1089</link>
+
+		<dc:creator><![CDATA[Carl Tyler]]></dc:creator>
+		<pubDate>Mon, 26 Mar 2007 23:35:44 +0000</pubDate>
+		<guid isPermaLink="false">/2007-3-21-sametime-question-html/#comment-1089</guid>
+
+					<description><![CDATA[&lt;p&gt;Right now, it has not been documented on how you can send a clickable URL, rich text etc. to the Sametime 7.5 client.  IBM Say this will be documented for Sametime 7.5.1 GA.&lt;br/&gt;&lt;br  /&gt;&lt;br/&gt;&lt;br  /&gt;Also there is a difference between the Sametime 7.5 and sametime 7.0 and earlier clients in that Announcement URLs are not clickable.  This was identified in st 7.5 beta, but IBM didn&#039;t fix it, I haven&#039;t yet checked to see if they addressed this in ST 7.5.1.&lt;br/&gt;&lt;br  /&gt;&lt;br/&gt;&lt;br  /&gt;So sending an announcment with a clickable link, not possible in regular ST, but is possible with STLinks.&lt;br/&gt;&lt;br  /&gt;&lt;br/&gt;&lt;br  /&gt;Sending a regular text message can include a URL, which the ST Client will automatically make clickable.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Right now, it has not been documented on how you can send a clickable URL, rich text etc. to the Sametime 7.5 client.  IBM Say this will be documented for Sametime 7.5.1 GA.</p>
+<p>Also there is a difference between the Sametime 7.5 and sametime 7.0 and earlier clients in that Announcement URLs are not clickable.  This was identified in st 7.5 beta, but IBM didn&#8217;t fix it, I haven&#8217;t yet checked to see if they addressed this in ST 7.5.1.</p>
+<p>So sending an announcment with a clickable link, not possible in regular ST, but is possible with STLinks.</p>
+<p>Sending a regular text message can include a URL, which the ST Client will automatically make clickable.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

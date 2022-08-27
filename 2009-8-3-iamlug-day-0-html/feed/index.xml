@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: IamLUG Day 0	</title>
+	<atom:link href="/2009-8-3-iamlug-day-0-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2009-8-3-iamlug-day-0-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:38 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Rob Wills		</title>
+		<link>/2009-8-3-iamlug-day-0-html/#comment-245</link>
+
+		<dc:creator><![CDATA[Rob Wills]]></dc:creator>
+		<pubDate>Tue, 04 Aug 2009 07:37:14 +0000</pubDate>
+		<guid isPermaLink="false">/2009-8-3-iamlug-day-0-html/#comment-245</guid>
+
+					<description><![CDATA[&lt;p&gt;It just looks like rounders to me.  Who won anyway?!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>It just looks like rounders to me.  Who won anyway?!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

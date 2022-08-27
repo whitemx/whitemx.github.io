@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Thing learned for the day	</title>
+	<atom:link href="/2007-2-5-thing-learned-for-the-day-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2007-2-5-thing-learned-for-the-day-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:30:41 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Jack Ratcliff		</title>
+		<link>/2007-2-5-thing-learned-for-the-day-html/#comment-1243</link>
+
+		<dc:creator><![CDATA[Jack Ratcliff]]></dc:creator>
+		<pubDate>Sun, 11 Feb 2007 03:59:59 +0000</pubDate>
+		<guid isPermaLink="false">/2007-2-5-thing-learned-for-the-day-html/#comment-1243</guid>
+
+					<description><![CDATA[&lt;p&gt;Actually, the sorting doesn&#039;t matter.  In fact, the only requirement is that the view you are deleting from exists.  The document doesn&#039;t even have to appear in the view.  In fact, it can be a folder which is even better since a view consumes some resources on the server to keep its index updated.  What I have done in the past is just setup a dedicated hidden folder called something like &quot;(Delete)&quot; and then, when you want to delete a doc you just call db/(delete)/unid?DeleteDocument.&lt;br  /&gt;&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Actually, the sorting doesn&#8217;t matter.  In fact, the only requirement is that the view you are deleting from exists.  The document doesn&#8217;t even have to appear in the view.  In fact, it can be a folder which is even better since a view consumes some resources on the server to keep its index updated.  What I have done in the past is just setup a dedicated hidden folder called something like &#8220;(Delete)&#8221; and then, when you want to delete a doc you just call db/(delete)/unid?DeleteDocument.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

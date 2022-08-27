@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: My thoughts on the IBM BlueMix workshop	</title>
+	<atom:link href="/2014-4-29-my-thoughts-on-the-ibm-bluemix-workshop/feed/" rel="self" type="application/rss+xml" />
+	<link>/2014-4-29-my-thoughts-on-the-ibm-bluemix-workshop/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:18:59 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Ryan Baxter		</title>
+		<link>/2014-4-29-my-thoughts-on-the-ibm-bluemix-workshop/#comment-45</link>
+
+		<dc:creator><![CDATA[Ryan Baxter]]></dc:creator>
+		<pubDate>Tue, 29 Apr 2014 21:16:12 +0000</pubDate>
+		<guid isPermaLink="false">/2014-4-29-my-thoughts-on-the-ibm-bluemix-workshop/#comment-45</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2014-4-29-my-thoughts-on-the-ibm-bluemix-workshop/#comment-43&quot;&gt;Matt White&lt;/a&gt;.
+
+&lt;p&gt;Great!  The offer still stands, questions comments and complaints are welcome, send them my way!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2014-4-29-my-thoughts-on-the-ibm-bluemix-workshop/#comment-43">Matt White</a>.</p>
+<p>Great!  The offer still stands, questions comments and complaints are welcome, send them my way!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Russell Maher		</title>
+		<link>/2014-4-29-my-thoughts-on-the-ibm-bluemix-workshop/#comment-44</link>
+
+		<dc:creator><![CDATA[Russell Maher]]></dc:creator>
+		<pubDate>Tue, 29 Apr 2014 21:14:04 +0000</pubDate>
+		<guid isPermaLink="false">/2014-4-29-my-thoughts-on-the-ibm-bluemix-workshop/#comment-44</guid>
+
+					<description><![CDATA[&lt;p&gt;Astute indeed.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Astute indeed.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2014-4-29-my-thoughts-on-the-ibm-bluemix-workshop/#comment-43</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Tue, 29 Apr 2014 21:06:28 +0000</pubDate>
+		<guid isPermaLink="false">/2014-4-29-my-thoughts-on-the-ibm-bluemix-workshop/#comment-43</guid>
+
+					<description><![CDATA[&lt;p&gt;Thanks Ryan, and yes I got our app deployed in about five minutes, it&#039;s a very simple process.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thanks Ryan, and yes I got our app deployed in about five minutes, it&#8217;s a very simple process.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Ryan Baxter		</title>
+		<link>/2014-4-29-my-thoughts-on-the-ibm-bluemix-workshop/#comment-42</link>
+
+		<dc:creator><![CDATA[Ryan Baxter]]></dc:creator>
+		<pubDate>Tue, 29 Apr 2014 20:51:21 +0000</pubDate>
+		<guid isPermaLink="false">/2014-4-29-my-thoughts-on-the-ibm-bluemix-workshop/#comment-42</guid>
+
+					<description><![CDATA[&lt;p&gt;Hey Matt, thanks for the feedback.  I think it is important to keep in mind that BlueMix is still in beta and that there are many details that will become more clear over the coming months.  Things like pricing, SLAs, and integration into the catalog will be clearly documented when we move out of beta :)  (If you have a service you would like to provide and surface in the BlueMix catalog we can certainly work with you before GA if you want.)  &lt;/p&gt;
+
+&lt;p&gt;A couple of clarifications on some things...&lt;/p&gt;
+
+&lt;p&gt;We don&#039;t assume critical services we or our partners provide to your application will be &#034;black boxes&#034;.  We know developers want to have control and insight into them just like they would if they were on premise.  There are some services in the catalog right now (essentially all the ones labeled community) that do not provide the level of insight you would like.  As we move towards GA there will be alternatives made available that do.  In fact some already have alternatives.  Take the community Redis service.  As of this week there is now a RedisCloud service which provides the same functionality to your app that the community Redis service does but also allows you to go to the RedisCloud dashboard to manage your Redis instance.  You can do things like flush the cash or import data into your Redis instance.  You can also see important statistics about your Redis instance.  The community Redis instance does not let you do any of this and is a &#034;black box&#034;.  It seems like you are specifically interested in the Mongo DB service.  Over the coming weeks we hope to add MongoLab to the catalog (it is already in the IBM Cloud Marketplace https://marketplace.ibmcloud.com/apps/511#!overview).  Once this is there it will provide the extra functionality you are looking for.&lt;/p&gt;
+
+&lt;p&gt;I agree with your that the PaaS functionality provided by BlueMix is commodity.  You can get similar functionality from Heroku or Pivotal for example.  However the real value to BlueMix comes from 3 areas.&lt;br /&gt;1.  The services.  In particular the IBM services.  These are enterprise grade services that only IBM can offer and can only be found in an IBM PaaS offering.  (Think Watson as a service for example, not that I am saying this will happen, but just a well known example.)&lt;br /&gt;2. Softlayer.  BlueMix is running ontop of SoftLayer, meaning we can take advantage of all SoftLayer offers and most importantly its data centers.  Heroku, for example, only supports AWS data centers in the US and EU.  The plan is to have BlueMix support many of the Softlayer data centers around the globe.&lt;br /&gt;3. Dev Ops services with JazzHub.  The integration between BlueMix and IBM&#039;s dev ops services is something I have not seen from other PaaS providers and we have just gotten started in this space.  I think you will see a lot more to come from here in the future.&lt;/p&gt;
+
+&lt;p&gt;With that said I welcome the challenge of getting your app that currently runs on Heroku deployed on BlueMix.  It should be possible to do TODAY even if we don&#039;t offer the services you use on Heroku.  Feel free to reach out to me any time Skype: ryanjbaxter Twitter: @ryanjbaxter&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hey Matt, thanks for the feedback.  I think it is important to keep in mind that BlueMix is still in beta and that there are many details that will become more clear over the coming months.  Things like pricing, SLAs, and integration into the catalog will be clearly documented when we move out of beta 🙂  (If you have a service you would like to provide and surface in the BlueMix catalog we can certainly work with you before GA if you want.)  </p>
+<p>A couple of clarifications on some things&#8230;</p>
+<p>We don&#8217;t assume critical services we or our partners provide to your application will be &quot;black boxes&quot;.  We know developers want to have control and insight into them just like they would if they were on premise.  There are some services in the catalog right now (essentially all the ones labeled community) that do not provide the level of insight you would like.  As we move towards GA there will be alternatives made available that do.  In fact some already have alternatives.  Take the community Redis service.  As of this week there is now a RedisCloud service which provides the same functionality to your app that the community Redis service does but also allows you to go to the RedisCloud dashboard to manage your Redis instance.  You can do things like flush the cash or import data into your Redis instance.  You can also see important statistics about your Redis instance.  The community Redis instance does not let you do any of this and is a &quot;black box&quot;.  It seems like you are specifically interested in the Mongo DB service.  Over the coming weeks we hope to add MongoLab to the catalog (it is already in the IBM Cloud Marketplace <a href="https://marketplace.ibmcloud.com/apps/511#!overview" rel="nofollow ugc">https://marketplace.ibmcloud.com/apps/511#!overview</a>).  Once this is there it will provide the extra functionality you are looking for.</p>
+<p>I agree with your that the PaaS functionality provided by BlueMix is commodity.  You can get similar functionality from Heroku or Pivotal for example.  However the real value to BlueMix comes from 3 areas.<br />1.  The services.  In particular the IBM services.  These are enterprise grade services that only IBM can offer and can only be found in an IBM PaaS offering.  (Think Watson as a service for example, not that I am saying this will happen, but just a well known example.)<br />2. Softlayer.  BlueMix is running ontop of SoftLayer, meaning we can take advantage of all SoftLayer offers and most importantly its data centers.  Heroku, for example, only supports AWS data centers in the US and EU.  The plan is to have BlueMix support many of the Softlayer data centers around the globe.<br />3. Dev Ops services with JazzHub.  The integration between BlueMix and IBM&#8217;s dev ops services is something I have not seen from other PaaS providers and we have just gotten started in this space.  I think you will see a lot more to come from here in the future.</p>
+<p>With that said I welcome the challenge of getting your app that currently runs on Heroku deployed on BlueMix.  It should be possible to do TODAY even if we don&#8217;t offer the services you use on Heroku.  Feel free to reach out to me any time Skype: ryanjbaxter Twitter: @ryanjbaxter</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Finn L. Knudsen		</title>
+		<link>/2014-4-29-my-thoughts-on-the-ibm-bluemix-workshop/#comment-41</link>
+
+		<dc:creator><![CDATA[Finn L. Knudsen]]></dc:creator>
+		<pubDate>Tue, 29 Apr 2014 19:02:36 +0000</pubDate>
+		<guid isPermaLink="false">/2014-4-29-my-thoughts-on-the-ibm-bluemix-workshop/#comment-41</guid>
+
+					<description><![CDATA[&lt;p&gt;Hi Matt, thanks for sharing your thoughts. &lt;br /&gt;/Finn L. Knudsen&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hi Matt, thanks for sharing your thoughts. <br />/Finn L. Knudsen</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

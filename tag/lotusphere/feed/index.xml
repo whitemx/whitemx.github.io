@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>lotusphere &#8211; mattwhite.me</title>
+	<atom:link href="/tag/lotusphere/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:08 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>I&#8217;ll be speaking at Lotusphere 2011</title>
+		<link>/2010-12-3-ill-be-speaking-at-lotusphere-2011-html/</link>
+					<comments>/2010-12-3-ill-be-speaking-at-lotusphere-2011-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 03 Dec 2010 08:40:45 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[lotusphere]]></category>
+		<category><![CDATA[ls11]]></category>
+		<guid isPermaLink="false">/2010-12-3-ill-be-speaking-at-lotusphere-2011-html/</guid>
+
+					<description><![CDATA[Well the emails went out last night, I had one session rejected but&#160;Tim Clark and I are very fortunate to have had two sessions approved for Lotusphere 2011. XPages Blast Matt and Tim, will take you on a roller-coaster ride through the best of the best ideas and time saving techniques for creating world class [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Well the emails went out last night, I had one session rejected but&nbsp;<a href="http://blog.tc-soft.com/">Tim Clark</a> and I are very fortunate to have had two sessions approved for <a href="http://lotusphere.com/">Lotusphere 2011</a>.</p>
+<p><strong>XPages Blast</strong></p>
+<p><!-- p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 8.8px 'Lucida Grande'} --></p>
+<blockquote>
+<p class="p1">Matt and Tim, will take you on a roller-coaster ride through the best of the best ideas and time saving techniques for creating world class XPages applications. We&#8217;re going to provide 30 top tips in just 60 minutes, it will be fast paced and packed with loads of information you will refer to time and again. Everything from simple debugging and dojo controls all the way through to complex Server Side Javascript and jQuery integration. Please fasten your seat belts and keep your hands in the car at all times.</p>
+</blockquote>
+<p><strong>How to build a simple XPages application</strong></p>
+<blockquote>
+<p>Join us as we take you step by step and click by click through building an XPages application. Learn the basics and then grow the complexity as you expand the application. Including XPages, Custom Control, Server Side Javascript, single UI methodology, using existing Notes data and adding unlisted Dojo objects. Watch the application being built live on stage with everything you need to know condensed into two hours.</p>
+</blockquote>
+<p>Looking forward to seeing you there.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-12-3-ill-be-speaking-at-lotusphere-2011-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

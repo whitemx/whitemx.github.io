@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>show112 &#8211; mattwhite.me</title>
+	<atom:link href="/tag/show112/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>SHOW112 Building an XPages App from Start to Finish Session Downloads</title>
+		<link>/2010-1-19-show112-building-an-xpages-app-from-start-to-finish-session-html/</link>
+					<comments>/2010-1-19-show112-building-an-xpages-app-from-start-to-finish-session-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 19 Jan 2010 19:54:41 +0000</pubDate>
+				<category><![CDATA[Lotusphere2010]]></category>
+		<category><![CDATA[ls10]]></category>
+		<category><![CDATA[show112]]></category>
+		<guid isPermaLink="false">/2010-1-19-show112-building-an-xpages-app-from-start-to-finish-session-html/</guid>
+
+					<description><![CDATA[Well now that we&#8217;ve finished the last repeat of our session at Lotusphere 2010, I thought I&#8217;d post the details of the downloads. You can get the zip here. It includes: The presentation slides The start and final session databases Script snippets file It should all be pretty self explanatory, but if you have issues [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Well now that we&#8217;ve finished the last repeat of our session at Lotusphere 2010, I thought I&#8217;d post the details of the downloads.</p>
+<p>You can get the zip <a href="/static/500fb502e4b0b0a178712c5d/500fb669e4b00f3716e9af9d/500fb669e4b00f3716e9b0a0/1264584568047/">here</a>.</p>
+<p>It includes:</p>
+<ul>
+<li>The presentation slides</li>
+<li>The start and final session databases</li>
+<li>Script snippets file</li>
+</ul>
+<p>It should all be pretty self explanatory, but if you have issues then please drop me a line.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-1-19-show112-building-an-xpages-app-from-start-to-finish-session-html/feed/</wfw:commentRss>
+			<slash:comments>6</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>christmas greetings &#8211; mattwhite.me</title>
+	<atom:link href="/tag/christmas-greetings/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Merry Christmas one and all</title>
+		<link>/2009-12-25-merry-christmas-one-and-all-html/</link>
+					<comments>/2009-12-25-merry-christmas-one-and-all-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 25 Dec 2009 09:00:46 +0000</pubDate>
+				<category><![CDATA[My Life]]></category>
+		<category><![CDATA[christmas greetings]]></category>
+		<guid isPermaLink="false">/2009-12-25-merry-christmas-one-and-all-html/</guid>
+
+					<description><![CDATA[Well, I&#8217;m off to Suffolk for the Christmas break to see the family. Here&#8217;s wishing you and your family a wonderful Christmas. Now, where was that bottle of champagne?]]></description>
+										<content:encoded><![CDATA[<p>Well, I&#8217;m off to Suffolk for the Christmas break to see the family.</p>
+<p>Here&#8217;s wishing you and your family a wonderful Christmas. Now, where was that bottle of champagne?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-12-25-merry-christmas-one-and-all-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

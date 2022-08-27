@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: How to collapse a categorized view in an XPage	</title>
+	<atom:link href="/2011-4-28-how-to-collapse-a-categorized-view-in-an-xpage-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2011-4-28-how-to-collapse-a-categorized-view-in-an-xpage-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:04 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Karthick Prasanna		</title>
+		<link>/2011-4-28-how-to-collapse-a-categorized-view-in-an-xpage-html/#comment-140</link>
+
+		<dc:creator><![CDATA[Karthick Prasanna]]></dc:creator>
+		<pubDate>Tue, 22 Sep 2015 10:51:38 +0000</pubDate>
+		<guid isPermaLink="false">/2011-4-28-how-to-collapse-a-categorized-view-in-an-xpage-html/#comment-140</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2011-4-28-how-to-collapse-a-categorized-view-in-an-xpage-html/#comment-139&quot;&gt;Nagarajan P.V.&lt;/a&gt;.
+
+&lt;p&gt;it will work&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2011-4-28-how-to-collapse-a-categorized-view-in-an-xpage-html/#comment-139">Nagarajan P.V.</a>.</p>
+<p>it will work</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nagarajan P.V.		</title>
+		<link>/2011-4-28-how-to-collapse-a-categorized-view-in-an-xpage-html/#comment-139</link>
+
+		<dc:creator><![CDATA[Nagarajan P.V.]]></dc:creator>
+		<pubDate>Mon, 01 Apr 2013 12:50:32 +0000</pubDate>
+		<guid isPermaLink="false">/2011-4-28-how-to-collapse-a-categorized-view-in-an-xpage-html/#comment-139</guid>
+
+					<description><![CDATA[&lt;p&gt;Does this works when the documents having readers field?&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Does this works when the documents having readers field?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: John Parker		</title>
+		<link>/2011-4-28-how-to-collapse-a-categorized-view-in-an-xpage-html/#comment-138</link>
+
+		<dc:creator><![CDATA[John Parker]]></dc:creator>
+		<pubDate>Thu, 06 Dec 2012 15:32:18 +0000</pubDate>
+		<guid isPermaLink="false">/2011-4-28-how-to-collapse-a-categorized-view-in-an-xpage-html/#comment-138</guid>
+
+					<description><![CDATA[&lt;p&gt;If I open a view, it starts fully expanded, I click Collapse All, then Expand All, I get the categories with the twisties turned as though they were open, but no documents display. If I click Expand All again, the categories expand properly and I see all the documents. &lt;/p&gt;
+
+&lt;p&gt;How can I make it work the first time? I even tried &lt;/p&gt;
+
+&lt;p&gt;container.expandAll();&lt;br /&gt;container.expandAll();&lt;/p&gt;
+
+&lt;p&gt;that did not work.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>If I open a view, it starts fully expanded, I click Collapse All, then Expand All, I get the categories with the twisties turned as though they were open, but no documents display. If I click Expand All again, the categories expand properly and I see all the documents. </p>
+<p>How can I make it work the first time? I even tried </p>
+<p>container.expandAll();<br />container.expandAll();</p>
+<p>that did not work.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2011-4-28-how-to-collapse-a-categorized-view-in-an-xpage-html/#comment-137</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Thu, 28 Apr 2011 15:06:50 +0000</pubDate>
+		<guid isPermaLink="false">/2011-4-28-how-to-collapse-a-categorized-view-in-an-xpage-html/#comment-137</guid>
+
+					<description><![CDATA[&lt;p&gt;Good point Hans-Peter.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Good point Hans-Peter.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Hans-Peter Kuessner		</title>
+		<link>/2011-4-28-how-to-collapse-a-categorized-view-in-an-xpage-html/#comment-136</link>
+
+		<dc:creator><![CDATA[Hans-Peter Kuessner]]></dc:creator>
+		<pubDate>Thu, 28 Apr 2011 15:05:07 +0000</pubDate>
+		<guid isPermaLink="false">/2011-4-28-how-to-collapse-a-categorized-view-in-an-xpage-html/#comment-136</guid>
+
+					<description><![CDATA[&lt;p&gt;Hi Matt,&lt;/p&gt;&lt;p&gt;there seem to be some other gotcha - if you collapse all using this method, when having paged down to a page which does not exist when everything has been collapsed, you end with an empty view (which confuses the users, or at least me).&lt;/p&gt;&lt;p&gt;So my collapse all button has an additional &#034;gotoFirstPage()&#034; to avoid this behaviour:&lt;/p&gt;&lt;p&gt;&lt;code&gt;&lt;br/&gt;var viewPanel:com.ibm.xsp.component.xp.XspViewPanel = getComponent(&#034;viewPanel1&#034;);&lt;br/&gt;try {&lt;br/&gt;     viewPanel.gotoFirstPage();        // jump to the start, as we might be on a page which won&#039;t exist when everything is collapsed&lt;br/&gt;} catch (e) {&lt;br/&gt;     // if this is not possible (i. e. there is only one page), just ignore this&lt;br/&gt;}&lt;br/&gt;var model = viewPanel.getDataModel();&lt;br/&gt;model.getDominoViewDataContainer().collapseAll();&lt;br/&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;Hans-Peter&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Hi Matt,</p>
+<p>there seem to be some other gotcha &#8211; if you collapse all using this method, when having paged down to a page which does not exist when everything has been collapsed, you end with an empty view (which confuses the users, or at least me).</p>
+<p>So my collapse all button has an additional &quot;gotoFirstPage()&quot; to avoid this behaviour:</p>
+<p><code><br />var viewPanel:com.ibm.xsp.component.xp.XspViewPanel = getComponent(&quot;viewPanel1&quot;);<br />try {<br />     viewPanel.gotoFirstPage();        // jump to the start, as we might be on a page which won&#39;t exist when everything is collapsed<br />} catch (e) {<br />     // if this is not possible (i. e. there is only one page), just ignore this<br />}<br />var model = viewPanel.getDataModel();<br />model.getDominoViewDataContainer().collapseAll();<br /></code></p>
+<p>Hans-Peter</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

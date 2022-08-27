@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>8.5.2 &#8211; mattwhite.me</title>
+	<atom:link href="/tag/852/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Useful new preference in DDE 8.5.2 for Java Agents</title>
+		<link>/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/</link>
+					<comments>/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 26 Oct 2010 09:39:19 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Notes and Domino]]></category>
+		<category><![CDATA[8.5.2]]></category>
+		<category><![CDATA[agents]]></category>
+		<category><![CDATA[dde]]></category>
+		<guid isPermaLink="false">/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/</guid>
+
+					<description><![CDATA[Having the proper Eclipse Java editor instead of the old style editor was introduced in 8.5.1, but there was one huge annoyance. When you edited a Java file, you had to save that, but then also remember to save the agent as well. Cue plenty of swearing and head scratching when your change wasn&#8217;t showing [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Having the proper Eclipse Java editor instead of the old style editor was introduced in 8.5.1, but there was one huge annoyance. When you edited a Java file, you had to save that, but then also remember to save the agent as well. Cue plenty of swearing and head scratching when your change wasn&#8217;t showing up.</p>
+<p>Well in 8.5.2 there is a new preference setting which allows the agent to be automatically saved when you save the Java file:</p>
+<p><span class="full-image-block ssNonEditable"><span><img src="/static/500fb502e4b0b0a178712c5d/500fb669e4b00f3716e9af9d/500fb669e4b00f3716e9b012/1288086099167/1000w" alt="" /></span></span></p>
+<p>Just check the &#8220;Autosave Java design element on save of individual Java sources&#8221; box to make your Java coding a lot less annoying.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>A small tip for upgrading your XPages apps from 8.5.1 to 8.5.2</title>
+		<link>/2010-9-2-a-small-tip-for-upgrading-your-xpages-apps-from-851-to-852-html/</link>
+					<comments>/2010-9-2-a-small-tip-for-upgrading-your-xpages-apps-from-851-to-852-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 02 Sep 2010 08:23:57 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[8.5.2]]></category>
+		<category><![CDATA[bugs]]></category>
+		<category><![CDATA[ssjs]]></category>
+		<category><![CDATA[tips]]></category>
+		<guid isPermaLink="false">/2010-9-2-a-small-tip-for-upgrading-your-xpages-apps-from-851-to-852-html/</guid>
+
+					<description><![CDATA[If you have been using Stephan Wissel&#8217;s &#8220;Web Agents, XPages Style&#8221; technique for outputting non-HTML content from your XPages, you may run into a problem when you upgrade your server to 8.5.2. In the original afterRenderResponse sample code, you would use something like&#8230; try{ var exCon = facesContext.getExternalContext(); var writer = facesContext.getResponseWriter(); var response = [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>If you have been using Stephan Wissel&#8217;s &#8220;<a href="http://www.wissel.net/blog/d6plinks/SHWL-7MGFBN">Web Agents, XPages Style</a>&#8221; technique for outputting non-HTML content from your XPages, you may run into a problem when you upgrade your server to 8.5.2.</p>
+<p>In the original afterRenderResponse sample code, you would use something like&#8230;</p>
+<pre style="font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; color: #000000; background-color: #eee; font-size: 12px; border: 1px dashed #999999; line-height: 14px; padding: 5px; overflow: auto; width: 100%;"><code>try{
+    var exCon = facesContext.getExternalContext(); 
+    var writer = facesContext.getResponseWriter();
+    var response = exCon.getResponse();
+    response.setContentType("text/plain");
+    writer.write("Hello World");
+    writer.close();
+}catch(e){
+    _dump(e);
+}
+</code></pre>
+<p>What you may find is running that code on your lovely new 8.5.2 server will result in an Error 500 with no detail of the error itself. To fix the problem, simple remove the</p>
+<pre style="font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; color: #000000; background-color: #eee; font-size: 12px; border: 1px dashed #999999; line-height: 14px; padding: 5px; overflow: auto; width: 100%;"><code>writer.close();
+</code></pre>
+<p>line from the source code and you should be good to go.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-9-2-a-small-tip-for-upgrading-your-xpages-apps-from-851-to-852-html/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>What&#8217;s new with XPages in 8.5.2</title>
+		<link>/2010-8-25-whats-new-with-xpages-in-852-html/</link>
+					<comments>/2010-8-25-whats-new-with-xpages-in-852-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 25 Aug 2010 11:19:50 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[8.5.2]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2010-8-25-whats-new-with-xpages-in-852-html/</guid>
+
+					<description><![CDATA[Over on XPages101.net I&#8217;ve just posted (yet another) video. This time we&#8217;re looking at what&#8217;s new in 8.5.2 for the XPages developer. What&#8217;s New With XPages in 8.5.2 As a bit of a teaser, I thought I&#8217;d post the audio from that recording here as well so that you can hear what you&#8217;re missing. As [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Over on <a href="http://xpages101.net/">XPages101.net</a> I&#8217;ve just posted (yet another) video. This time we&#8217;re looking at what&#8217;s new in 8.5.2 for the XPages developer.</p>
+<p><script type="text/javascript" src="http://mediaplayer.yahoo.com/js"></script> <a href="http://mattwhite.me/storage/WhatsNewIn852.mp3">What&#8217;s New With XPages in 8.5.2</a></p>
+<p>As a bit of a teaser, I thought I&#8217;d post the audio from that recording here as well so that you can hear what you&#8217;re missing. As ever, feel free to subscribe if you want to get a jumpstart on your XPages development. There are 30 different videos up on the site covering all the elements you&#8217;ll need to get started and then dig a little deeper into XPages development. The <a href="http://xpages101.net/videos/">full video listing can be found here</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-8-25-whats-new-with-xpages-in-852-html/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		<enclosure url="http://mattwhite.me/storage/WhatsNewIn852.mp3" length="8720" type="audio/mpeg" />
+
+			</item>
+		<item>
+		<title>Pleasant 8.5.2 surprise&#8230; everything works!</title>
+		<link>/2010-4-27-pleasant-852-surprise-everything-works-html/</link>
+					<comments>/2010-4-27-pleasant-852-surprise-everything-works-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 27 Apr 2010 11:00:03 +0000</pubDate>
+				<category><![CDATA[Notes and Domino]]></category>
+		<category><![CDATA[8.5.2]]></category>
+		<guid isPermaLink="false">/2010-4-27-pleasant-852-surprise-everything-works-html/</guid>
+
+					<description><![CDATA[Well maybe that&#8217;s too bold a claim, but from the point of view of regression testing IdeaJam and IQJam for XPages issues, a vanilla application works absolutely fine. And better than that, it seems to be faster as well. Why is this even worth commenting on you ask? Well between 8.5.0 and 8.5.1 there were [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Well maybe that&#8217;s too bold a claim, but from the point of view of regression testing IdeaJam and IQJam for XPages issues, a vanilla application works absolutely fine. And better than that, it seems to be faster as well.</p>
+<p>Why is this even worth commenting on you ask? Well between 8.5.0 and 8.5.1 there were some quite significant changes in the way XPages worked which meant I had to do some re-coding of my XPages apps to get them to work properly when we migrated up to the new version. But, so far, and all of the usual caveats apply here* (see below for more information), I can simply copy an NSF from my 8.5.1 VM onto my 8.5.2 VM and it works.</p>
+<p>We&#8217;ve not done any proper testing on the performance side of things, but from my usage of the application everything feels snappier.</p>
+<p>So, who needs new features when we&#8217;ve got stability between versions. Well OK, I&#8217;ll not turn down the spangly new development features (dragging controls into the source XML of an XPage is far and away my favourite), but even without them, I&#8217;m a happy camper this morning.</p>
+<p>*** 8.5.2 is still in beta things may change between now and when it&#8217;s released. Let&#8217;s hope not eh?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-4-27-pleasant-852-surprise-everything-works-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: How to add non breaking spaces to your XPages	</title>
+	<atom:link href="/2009-6-27-how-to-add-non-breaking-spaces-to-your-xpages-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2009-6-27-how-to-add-non-breaking-spaces-to-your-xpages-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:40 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: John Palmer		</title>
+		<link>/2009-6-27-how-to-add-non-breaking-spaces-to-your-xpages-html/#comment-1434</link>
+
+		<dc:creator><![CDATA[John Palmer]]></dc:creator>
+		<pubDate>Thu, 06 Aug 2009 13:12:56 +0000</pubDate>
+		<guid isPermaLink="false">/2009-6-27-how-to-add-non-breaking-spaces-to-your-xpages-html/#comment-1434</guid>
+
+					<description><![CDATA[&lt;p&gt;Just like your tabsequence=-1 tip, it&#039;s that little things that can make your day.  Learned TWO things from this short post.  Thanx guys!&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Just like your tabsequence=-1 tip, it&#8217;s that little things that can make your day.  Learned TWO things from this short post.  Thanx guys!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt White		</title>
+		<link>/2009-6-27-how-to-add-non-breaking-spaces-to-your-xpages-html/#comment-1433</link>
+
+		<dc:creator><![CDATA[Matt White]]></dc:creator>
+		<pubDate>Sat, 27 Jun 2009 18:00:04 +0000</pubDate>
+		<guid isPermaLink="false">/2009-6-27-how-to-add-non-breaking-spaces-to-your-xpages-html/#comment-1433</guid>
+
+					<description><![CDATA[&lt;p&gt;That&#039;s a great tip Paul, didn&#039;t know that either.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>That&#8217;s a great tip Paul, didn&#8217;t know that either.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Paul T. Calhoun		</title>
+		<link>/2009-6-27-how-to-add-non-breaking-spaces-to-your-xpages-html/#comment-1432</link>
+
+		<dc:creator><![CDATA[Paul T. Calhoun]]></dc:creator>
+		<pubDate>Sat, 27 Jun 2009 17:43:57 +0000</pubDate>
+		<guid isPermaLink="false">/2009-6-27-how-to-add-non-breaking-spaces-to-your-xpages-html/#comment-1432</guid>
+
+					<description><![CDATA[&lt;p&gt;If you are having trouble remembering the sequence if you hti &#060;ctrl&#062;&#060;space&#062; in the design tab of an XPage it will add a the non breaking space where-ever you need it.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>If you are having trouble remembering the sequence if you hti &lt;ctrl&gt;&lt;space&gt; in the design tab of an XPage it will add a the non breaking space where-ever you need it.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

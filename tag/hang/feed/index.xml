@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>hang &#8211; mattwhite.me</title>
+	<atom:link href="/tag/hang/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:03 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Yet another day wasted on IE</title>
+		<link>/2011-10-13-yet-another-day-wasted-on-ie-html/</link>
+					<comments>/2011-10-13-yet-another-day-wasted-on-ie-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 13 Oct 2011 11:05:24 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[bugs]]></category>
+		<category><![CDATA[css]]></category>
+		<category><![CDATA[hang]]></category>
+		<category><![CDATA[ie8]]></category>
+		<category><![CDATA[iframe]]></category>
+		<guid isPermaLink="false">/2011-10-13-yet-another-day-wasted-on-ie-html/</guid>
+
+					<description><![CDATA[I&#8217;ve just spent more than eight hours working on a single bug in IE. In a classic Domino web application which I work on, we have a complex form which was working just fine when we developed and tested it. But then users started reporting their Internet Explorer clients were hanging intermittently. We finally got [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;ve just spent more than eight hours working on a single bug in IE.</p>
+<p>In a classic Domino web application which I work on, we have a complex form which was working just fine when we developed and tested it. But then users started reporting their Internet Explorer clients were hanging intermittently. We finally got a test case where we could reproduce the problem.</p>
+<p>When the user selected an option from a combo box, a new row is added to a table and displayed for them to fill in some data which is required. Nothing too odd there. And again this worked fine for us, until we opened the form inside an iFrame. Our application is part of a much larger application and the end user doesn&#8217;t know that when they click a certain link they are suddenly running on a Domino server inside the iFrame.</p>
+<p>So cue me spending a whole day assuming this was a JavaScript problem, it only seemed to happen when the onChange event of the combo box fired, if I disabled the JavaScript then it worked fine, but the hang was after the JavaScript had finished executing (at least the debugger said so).&nbsp;</p>
+<p>Then on a hunch I removed all of the CSS from the form. And it suddenly started working. It didn&#8217;t look very good of course, but at least I now just had to track down the offending line of CSS.&nbsp;</p>
+<p>In the end it turned out to be a div which wrapped around the whole page which had a class assigned that set float: left. As soon as I removed that one line of CSS the page worked absolutely fine. I still don&#8217;t really understand *why* that single change fixes the problem, but maybe it will help someone else.</p>
+<p>So, just to recap, the symptoms we&#8217;re looking at are IE (8 in this case) hanging after an onChange event fires which causes some new HTML to be rendered into a page which is running inside an iFrame. And the solution is to examine, very closely, your CSS.</p>
+<p>Once again I&#8217;ll say it. The quicker the world is rid of IE then the happier I will be.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011-10-13-yet-another-day-wasted-on-ie-html/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

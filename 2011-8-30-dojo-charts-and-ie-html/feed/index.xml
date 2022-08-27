@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Dojo Charts and IE	</title>
+	<atom:link href="/2011-8-30-dojo-charts-and-ie-html/feed/" rel="self" type="application/rss+xml" />
+	<link>/2011-8-30-dojo-charts-and-ie-html/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:20:03 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: Paul T. Calhoun		</title>
+		<link>/2011-8-30-dojo-charts-and-ie-html/#comment-122</link>
+
+		<dc:creator><![CDATA[Paul T. Calhoun]]></dc:creator>
+		<pubDate>Sat, 03 Sep 2011 06:53:03 +0000</pubDate>
+		<guid isPermaLink="false">/2011-8-30-dojo-charts-and-ie-html/#comment-122</guid>
+
+					<description><![CDATA[&lt;p&gt;I was able to make the dojo charting work across all browsers by tricking IE8 and IE9 into believing they were really IE7 (set compatibility mode for that page load).  Once we did that all code was &#034;cross-browser&#034; compliant.&lt;/p&gt;&lt;p&gt;Get Mark working on that T-Shirt :o)&#062;&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I was able to make the dojo charting work across all browsers by tricking IE8 and IE9 into believing they were really IE7 (set compatibility mode for that page load).  Once we did that all code was &quot;cross-browser&quot; compliant.</p>
+<p>Get Mark working on that T-Shirt :o)&gt;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Michelle O'Rorke		</title>
+		<link>/2011-8-30-dojo-charts-and-ie-html/#comment-121</link>
+
+		<dc:creator><![CDATA[Michelle O'Rorke]]></dc:creator>
+		<pubDate>Tue, 30 Aug 2011 23:30:32 +0000</pubDate>
+		<guid isPermaLink="false">/2011-8-30-dojo-charts-and-ie-html/#comment-121</guid>
+
+					<description><![CDATA[&lt;p&gt;II work for a large company that is still using IE6.  Yes 6 !!  Why?  Because it was such a poor browser that many of the intranet pages /  apps are chock full of IE6 hacks that **do** break in any other browser.  Finding and repairing all that rubbish code is a huge undertaking.  Getting it to run in IE8 is far less work than making it fully compliant with other modern browsers, so the only &#039;upgrade&#039; being considered is IE8.&lt;/p&gt;&lt;p&gt;So my development process is&lt;br/&gt;1) build and test in a modern browser&lt;br/&gt;2) make it work in IE8&lt;br/&gt;3) make it work in IE6 &lt;br/&gt;:-(  &lt;/p&gt;&lt;p&gt;And I agree - that last sentence would make a great T-shirt&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>II work for a large company that is still using IE6.  Yes 6 !!  Why?  Because it was such a poor browser that many of the intranet pages /  apps are chock full of IE6 hacks that **do** break in any other browser.  Finding and repairing all that rubbish code is a huge undertaking.  Getting it to run in IE8 is far less work than making it fully compliant with other modern browsers, so the only &#39;upgrade&#39; being considered is IE8.</p>
+<p>So my development process is<br />1) build and test in a modern browser<br />2) make it work in IE8<br />3) make it work in IE6 <br />🙁  </p>
+<p>And I agree &#8211; that last sentence would make a great T-shirt</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sam Bridegroom		</title>
+		<link>/2011-8-30-dojo-charts-and-ie-html/#comment-120</link>
+
+		<dc:creator><![CDATA[Sam Bridegroom]]></dc:creator>
+		<pubDate>Tue, 30 Aug 2011 17:06:42 +0000</pubDate>
+		<guid isPermaLink="false">/2011-8-30-dojo-charts-and-ie-html/#comment-120</guid>
+
+					<description><![CDATA[&lt;p&gt;You need to turn your last paragraph into a t-shirt; no truer words ever written. Never ceases to amaze me that code that runs flawlessly in at least 4 other browsers on 4 different OS platforms doesn&#039;t quite work right in IE. Why companies insist on using it is beyond me.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>You need to turn your last paragraph into a t-shirt; no truer words ever written. Never ceases to amaze me that code that runs flawlessly in at least 4 other browsers on 4 different OS platforms doesn&#39;t quite work right in IE. Why companies insist on using it is beyond me.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Paul Withers		</title>
+		<link>/2011-8-30-dojo-charts-and-ie-html/#comment-119</link>
+
+		<dc:creator><![CDATA[Paul Withers]]></dc:creator>
+		<pubDate>Tue, 30 Aug 2011 12:50:23 +0000</pubDate>
+		<guid isPermaLink="false">/2011-8-30-dojo-charts-and-ie-html/#comment-119</guid>
+
+					<description><![CDATA[&lt;p&gt;Yes, (charting in) IE can be an absolute PITA, which is why all my sessions use Firefox. I&#039;d always used a function, called in XSP.addOnLoad(), all in a Output Script control, so it&#039;s useful to know the problem you had there. The main time I&#039;ve had problems with IE is when data is not available when the page initially loads, which it sounds like is what you have in issue 2. It&#039;s bizarre that an empty div works, but IE being bizarre is nothing new! I&#039;m sure everyone knows it&#039;s a given, but I&#039;ve always found I needed to force compatibility mode in IE for charts to work. The code&#039;s well documented in various places, including the charting articles on the Lotus app dev wiki.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Yes, (charting in) IE can be an absolute PITA, which is why all my sessions use Firefox. I&#39;d always used a function, called in XSP.addOnLoad(), all in a Output Script control, so it&#39;s useful to know the problem you had there. The main time I&#39;ve had problems with IE is when data is not available when the page initially loads, which it sounds like is what you have in issue 2. It&#39;s bizarre that an empty div works, but IE being bizarre is nothing new! I&#39;m sure everyone knows it&#39;s a given, but I&#39;ve always found I needed to force compatibility mode in IE for charts to work. The code&#39;s well documented in various places, including the charting articles on the Lotus app dev wiki.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

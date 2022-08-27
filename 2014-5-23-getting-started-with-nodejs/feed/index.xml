@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Getting started with node.js	</title>
+	<atom:link href="/2014-5-23-getting-started-with-nodejs/feed/" rel="self" type="application/rss+xml" />
+	<link>/2014-5-23-getting-started-with-nodejs/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:18:59 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>
+		By: training for devops		</title>
+		<link>/2014-5-23-getting-started-with-nodejs/#comment-39</link>
+
+		<dc:creator><![CDATA[training for devops]]></dc:creator>
+		<pubDate>Fri, 20 Aug 2021 07:01:26 +0000</pubDate>
+		<guid isPermaLink="false">/2014-5-23-getting-started-with-nodejs/#comment-39</guid>
+
+					<description><![CDATA[&lt;p&gt;Thank you for sharing such a good information. Very informative and effective post. Keep it up!&lt;br/&gt;training for devops&lt;br/&gt;https://www.igmguru.com/cloud-computing/devops-certification-training/&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thank you for sharing such a good information. Very informative and effective post. Keep it up!<br />training for devops<br /><a href="https://www.igmguru.com/cloud-computing/devops-certification-training/" rel="nofollow ugc">https://www.igmguru.com/cloud-computing/devops-certification-training/</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Patrick Kwinten		</title>
+		<link>/2014-5-23-getting-started-with-nodejs/#comment-38</link>
+
+		<dc:creator><![CDATA[Patrick Kwinten]]></dc:creator>
+		<pubDate>Mon, 26 May 2014 15:29:05 +0000</pubDate>
+		<guid isPermaLink="false">/2014-5-23-getting-started-with-nodejs/#comment-38</guid>
+
+					<description><![CDATA[&lt;p&gt;It happens that smashing magazine published an article on node and mongo today. Good for getting started&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>It happens that smashing magazine published an article on node and mongo today. Good for getting started</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nick Wall		</title>
+		<link>/2014-5-23-getting-started-with-nodejs/#comment-36</link>
+
+		<dc:creator><![CDATA[Nick Wall]]></dc:creator>
+		<pubDate>Sat, 24 May 2014 13:33:17 +0000</pubDate>
+		<guid isPermaLink="false">/2014-5-23-getting-started-with-nodejs/#comment-36</guid>
+
+					<description><![CDATA[&lt;p&gt;I&#039;ve been using Angular for a while now. In a nutshell: all your client side code is in your client side &#034;models&#034; and &#034;controllers&#034; and you have your &#034;directives&#034; generate the html.  But you end up doing no DOM manipulation, Angular will look after the 2 way data binding (there are perf&#039; issues you can address with 1 way binding, e.g. once.js).  I have been working on a MVV* app that has been in production now for around 2.5 yrs, mountains of spaghetti code keeping DOM and REST &#034;models&#034; in sync, nightmare.  An MVV* framework would have made it way, way simpler...and testable.  On current project we are using it...so much nicer.  Object.observe() will soon be with us!  http://www.html5rocks.com/en/tutorials/es7/observe/&lt;/p&gt;
+
+&lt;p&gt;Anyway, always good to read your articles, so will follow with great interest.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;ve been using Angular for a while now. In a nutshell: all your client side code is in your client side &quot;models&quot; and &quot;controllers&quot; and you have your &quot;directives&quot; generate the html.  But you end up doing no DOM manipulation, Angular will look after the 2 way data binding (there are perf&#8217; issues you can address with 1 way binding, e.g. once.js).  I have been working on a MVV* app that has been in production now for around 2.5 yrs, mountains of spaghetti code keeping DOM and REST &quot;models&quot; in sync, nightmare.  An MVV* framework would have made it way, way simpler&#8230;and testable.  On current project we are using it&#8230;so much nicer.  Object.observe() will soon be with us!  <a href="http://www.html5rocks.com/en/tutorials/es7/observe/" rel="nofollow ugc">http://www.html5rocks.com/en/tutorials/es7/observe/</a></p>
+<p>Anyway, always good to read your articles, so will follow with great interest.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mark Roden		</title>
+		<link>/2014-5-23-getting-started-with-nodejs/#comment-37</link>
+
+		<dc:creator><![CDATA[Mark Roden]]></dc:creator>
+		<pubDate>Sat, 24 May 2014 12:32:41 +0000</pubDate>
+		<guid isPermaLink="false">/2014-5-23-getting-started-with-nodejs/#comment-37</guid>
+
+					<description><![CDATA[&lt;p&gt;&#034;. I mean if I can do it then so can you.&#034; - there you go overestimating the abilities of the rest of us again :)&lt;/p&gt;
+
+&lt;p&gt;Thank you so much for sharing - glad you have the opportunity to branch out into node.js - looks very interesting to me and I look forward to reading more :)&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>&quot;. I mean if I can do it then so can you.&quot; &#8211; there you go overestimating the abilities of the rest of us again 🙂</p>
+<p>Thank you so much for sharing &#8211; glad you have the opportunity to branch out into node.js &#8211; looks very interesting to me and I look forward to reading more 🙂</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Rob McDonagh		</title>
+		<link>/2014-5-23-getting-started-with-nodejs/#comment-34</link>
+
+		<dc:creator><![CDATA[Rob McDonagh]]></dc:creator>
+		<pubDate>Fri, 23 May 2014 15:22:31 +0000</pubDate>
+		<guid isPermaLink="false">/2014-5-23-getting-started-with-nodejs/#comment-34</guid>
+
+					<description><![CDATA[&lt;p&gt;Thanks, Matt. Very interesting. I&#039;ll be watching closely.&lt;/p&gt;
+
+&lt;p&gt;--&lt;br /&gt;Rob McDonagh&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thanks, Matt. Very interesting. I&#8217;ll be watching closely.</p>
+<p>&#8212;<br />Rob McDonagh</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Rob McDonagh		</title>
+		<link>/2014-5-23-getting-started-with-nodejs/#comment-35</link>
+
+		<dc:creator><![CDATA[Rob McDonagh]]></dc:creator>
+		<pubDate>Fri, 23 May 2014 15:22:31 +0000</pubDate>
+		<guid isPermaLink="false">/2014-5-23-getting-started-with-nodejs/#comment-35</guid>
+
+					<description><![CDATA[&lt;p&gt;Thanks, Matt. Very interesting. I&#039;ll be watching closely.&lt;/p&gt;]]></description>
+			<content:encoded><![CDATA[<p>Thanks, Matt. Very interesting. I&#8217;ll be watching closely.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
