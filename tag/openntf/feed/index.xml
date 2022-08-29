@@ -11,9 +11,9 @@
 	<title>openntf &#8211; mattwhite.me</title>
 	<atom:link href="/tag/openntf/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:20:04 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -32,7 +32,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2011-6-10-lug-template-available-on-openntf-html/</guid>
 
-					<description><![CDATA[At UKLUG this year, Warren announced that we would be making the template which we use to run the online elements of the LUG available on OpenNTF. Well I finally got around to making the template and uploading the bits and pieces onto OpenNTF (actually a surprisingly easy process!). Anyway, if you&#8217;re interested then you [&#8230;]]]></description>
+					<description><![CDATA[At UKLUG this year, Warren announced that we would be making the template which we use to run the online elements of the LUG available on&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>At UKLUG this year, <a href="http://elsmore.net/">Warren</a> announced that we would be making the template which we use to run the online elements of the LUG available on OpenNTF. Well I finally got around to making the template and uploading the bits and pieces onto OpenNTF (actually a surprisingly easy process!).</p>
 <p>Anyway, if you&#8217;re interested then you can download the template from here: <a href="http://www.openntf.org/internal/home.nsf/project.xsp?action=openDocument&amp;name=LUG%20Template">LUG Template</a></p>
 <p>As Warren mentioned, we&#8217;re looking for help. At the moment there is no documentation at all, so it can be a little painful to get set up, just ask <a href="http://idonotes.com/">Chris</a>, or <a href="http://curiousmitch.com/">Mitch</a> or <a href="http://collaborationmatters.com/">Stuart</a> or any of the other people who are already using it for their own LUGs! The app itself is simple enough, but it registers people in different DA databases, integrates into other elements on your server, sends email etc etc.</p>

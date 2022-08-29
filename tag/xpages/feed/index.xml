@@ -11,9 +11,9 @@
 	<title>xpages &#8211; mattwhite.me</title>
 	<atom:link href="/tag/xpages/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:24:26 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -32,7 +32,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2012-5-31-new-xpages-mobile-crm-application-released-html/</guid>
 
-					<description><![CDATA[Over the last few months I&#8217;ve been helping out Vigilus with a new XPages Mobile Web CRM application. ACT! For Notes is a long standing Notes client based application and what we&#8217;ve added in VMobile is a fairly significant subset of the features in the full client application designed to work in iPad, iPhone, Android [&#8230;]]]></description>
+					<description><![CDATA[Over the last few months I&#8217;ve been helping out Vigilus with a new XPages Mobile Web CRM application. ACT! For Notes is a long standing Notes&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>Over the last few months I&#8217;ve been helping out <a href="http://vigilus.net/">Vigilus</a> with a new XPages Mobile Web CRM application. <a href="http://vigilus.net/website/act--for-notes.html">ACT! For Notes</a> is a long standing Notes client based application and what we&#8217;ve added in <a href="http://vigilus.net/website/vmobile.html">VMobile</a> is a fairly significant subset of the features in the full client application designed to work in iPad, iPhone, Android phone and Blackberry.&nbsp;</p>
 <p>Given the size of the application it&#8217;s taken a while and there have been some challenges, but overall I&#8217;d say it&#8217;s a very capable CRM application that will now work on every device you work with day to day.</p>
 <p>Well worth a look if your company is wanting a CRM application.</p>
@@ -56,7 +56,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2012-4-3-dojo-172-in-xpages-html/</guid>
 
-					<description><![CDATA[I had need to make use of some of the more advanced Dojo Mobile controls for a project last week which ship with Dojo 1.7.2. For various reasons I needed the Dojo files inside the nsf rather than on the file system, and if you&#8217;ve had to do that before you&#8217;ll know what a massive [&#8230;]]]></description>
+					<description><![CDATA[I had need to make use of some of the more advanced Dojo Mobile controls for a project last week which ship with Dojo 1.7.2. For&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>I had need to make use of some of the more advanced Dojo Mobile controls for a project last week which ship with Dojo 1.7.2. For various reasons I needed the Dojo files inside the nsf rather than on the file system, and if you&#8217;ve had to do that before you&#8217;ll know what a massive pain it is to get the files loaded. So I thought I&#8217;d share a simple nsf with the files loaded.</p>
 <p>You can either clone the database from Github here: <a href="https://github.com/whitemx/Dojo172XPages">https://github.com/whitemx/Dojo172XPages</a></p>
 <p>Or you can download the nsf here: <a href="http://fcldocs.s3.amazonaws.com/Dojo172.nsf.zip">Dojo172.nsf.zip</a>&nbsp;</p>
@@ -80,7 +80,7 @@
 		<category><![CDATA[xpages101]]></category>
 		<guid isPermaLink="false">/2011-9-12-sixty-not-out-html/</guid>
 
-					<description><![CDATA[Today I uploaded the 60th video to xpages101.net. It&#8217;s taken me over 18 months to get this far and there are no plans to stop adding more content. In fact with the announcement of the 8.5.3 release date, there are many more areas which need to be covered. Expect to see a rash of new [&#8230;]]]></description>
+					<description><![CDATA[Today I uploaded the 60th video to xpages101.net. It&#8217;s taken me over 18 months to get this far and there are no plans to stop adding&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>Today I uploaded the 60th video to <a href="http://xpages101.net/">xpages101.net</a>. It&#8217;s taken me over 18 months to get this far and there are no plans to stop adding more content. In fact with the <a href="http://www.edbrill.com/ebrill/edbrill.nsf/dx/notesdomino-8.5.3-launch-dates-set">announcement of the 8.5.3 release date</a>, there are many more areas which need to be covered. Expect to see a rash of new videos over the next few weeks.</p>
 <p>I thought I&#8217;d post some of the stats for the site so far.</p>
 <p>&nbsp;</p>
@@ -114,7 +114,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2011-8-30-dojo-charts-and-ie-html/</guid>
 
-					<description><![CDATA[I&#8217;ve just spent the better part of three days working on a suite of Dojo Charts for an application. They are usually pretty easy to get going and look as good, if not better than a lot of the flash charting tools out there. But, and there&#8217;s always a but isn&#8217;t there, getting the charts [&#8230;]]]></description>
+					<description><![CDATA[I&#8217;ve just spent the better part of three days working on a suite of Dojo Charts for an application. They are usually pretty easy to get&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>I&#8217;ve just spent the better part of three days working on a suite of Dojo Charts for an application. They are usually pretty easy to get going and look as good, if not better than a lot of the flash charting tools out there. But, and there&#8217;s always a but isn&#8217;t there, getting the charts working in IE can be a real challenge with very little in the way of guidance.</p>
 <p>So here are three tips which I shall pass on learned through bitter experience over the last few days&#8230;</p>
 <p>It may well look as though you can initialise your charts using in line JavaScript and, indeed, it will work absolutely fine in Firefox, Safari, Chrome and other &#8220;modern&#8221; web browser. Not so much with IE. So break your initialisation code into a function and call it from the either the onClientLoad client side event in the XPage or using XSP.addOnLoad(init) depending on your preference.</p>
@@ -141,7 +141,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2011-6-10-lug-template-available-on-openntf-html/</guid>
 
-					<description><![CDATA[At UKLUG this year, Warren announced that we would be making the template which we use to run the online elements of the LUG available on OpenNTF. Well I finally got around to making the template and uploading the bits and pieces onto OpenNTF (actually a surprisingly easy process!). Anyway, if you&#8217;re interested then you [&#8230;]]]></description>
+					<description><![CDATA[At UKLUG this year, Warren announced that we would be making the template which we use to run the online elements of the LUG available on&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>At UKLUG this year, <a href="http://elsmore.net/">Warren</a> announced that we would be making the template which we use to run the online elements of the LUG available on OpenNTF. Well I finally got around to making the template and uploading the bits and pieces onto OpenNTF (actually a surprisingly easy process!).</p>
 <p>Anyway, if you&#8217;re interested then you can download the template from here: <a href="http://www.openntf.org/internal/home.nsf/project.xsp?action=openDocument&amp;name=LUG%20Template">LUG Template</a></p>
 <p>As Warren mentioned, we&#8217;re looking for help. At the moment there is no documentation at all, so it can be a little painful to get set up, just ask <a href="http://idonotes.com/">Chris</a>, or <a href="http://curiousmitch.com/">Mitch</a> or <a href="http://collaborationmatters.com/">Stuart</a> or any of the other people who are already using it for their own LUGs! The app itself is simple enough, but it registers people in different DA databases, integrates into other elements on your server, sends email etc etc.</p>
@@ -166,7 +166,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2011-5-17-xpages-guru-webinar-html/</guid>
 
-					<description><![CDATA[I&#8217;m very honoured to have been asked by Chris Blatnick to be involved in a webinar running on 1st June where several of the &#8220;Gurus of XPages&#8221; from around the world (plus myself) will be talking about our favourite technology. You can sign up for the event here. The rough agenda for the hour long [&#8230;]]]></description>
+					<description><![CDATA[I&#8217;m very honoured to have been asked by Chris Blatnick to be involved in a webinar running on 1st June where several of the &#8220;Gurus of&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>I&#8217;m very honoured to have been asked by Chris Blatnick to be involved in a webinar running on 1st June where several of the &#8220;Gurus of XPages&#8221; from around the world (plus myself) will be talking about our favourite technology.</p>
 <p>You can sign up for the event <a href="https://events.webdialogs.com/portal/wipevents/register.php?id=6d9d5a6a35&amp;l=en-US">here</a>.</p>
 <p>The rough agenda for the hour long session looks like this:</p>
@@ -193,7 +193,7 @@
 		<category><![CDATA[xpages101]]></category>
 		<guid isPermaLink="false">/2011-1-26-xpages101-ls11-discount-html/</guid>
 
-					<description><![CDATA[As the annual pilgrimage to Florida for Lotusphere begins, I thought it would be worth mentioning a discount for XPages101 which I&#8217;ll be offering for the next 3 weeks. Use the coupon code &#8220;ls11&#8221; at checkout and get a 33% discount! It&#8217;s coming up to a year since I first launched the site and in [&#8230;]]]></description>
+					<description><![CDATA[As the annual pilgrimage to Florida for Lotusphere begins, I thought it would be worth mentioning a discount for XPages101 which I&#8217;ll be offering for the&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>As the annual pilgrimage to Florida for Lotusphere begins, I thought it would be worth mentioning a discount for <a href="http://xpages101.net/">XPages101</a> which I&#8217;ll be offering for the next 3 weeks.</p>
 <p>Use the coupon code &#8220;ls11&#8221; at checkout and get a 33% discount!</p>
 <p>It&#8217;s coming up to a year since I first launched the site and in that time I&#8217;ve uploaded 37 lessons which run to more than 7 hours of content and well over 2gb of movies. There are many more lessons planned over the coming weeks and months.</p>
@@ -218,7 +218,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/</guid>
 
-					<description><![CDATA[So, earlier today I posted a short video about a new feature that I&#8217;ve written for IQJam (initially at least, it will be coming to IdeaJam at some point). It allows you to authenticate against a Domino server using Facebook Single Sign On (SSO). Overall this is not for the faint of heart (or the [&#8230;]]]></description>
+					<description><![CDATA[So, earlier today I posted a short video about a new feature that I&#8217;ve written for IQJam (initially at least, it will be coming to IdeaJam&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>So, <a href="http://mattwhite.me/blog/2010/10/20/facebook-sso-to-xpages.html">earlier today I posted a short video about a new feature that I&#8217;ve written for IQJam</a> (initially at least, it will be coming to IdeaJam at some point). It allows you to authenticate against a Domino server using Facebook Single Sign On (SSO).</p>
 <p>Overall this is not for the faint of heart (or the new XPages developer, hence me not going into detail about how what the code is doing etc), there are a lot of moving parts to get things working properly. That being said there is absolutely no reason exactly the same approach couldn&#8217;t be taken with a classic Domino application. All of the server Side Javascript would need to be converted to LotusScript and Java (for the network operations).</p>
 <p>1) Register your application with Facebook here: <a href="http://www.facebook.com/developers/apps.php">http://www.facebook.com/developers/apps.php</a></p>
@@ -542,7 +542,7 @@ function getFBPassword(fbname:NotesName, seed){
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2010-10-20-facebook-sso-to-xpages-html/</guid>
 
-					<description><![CDATA[One of the things I&#8217;ve been playing with this week is getting Facebook SSO working with XPages. It&#8217;s not a true SSO implementation as Domino doesn&#8217;t support OAuth, but from the user&#8217;s point of view they are not having to enter a username and password to get authenticated against a Domino app. I think it&#8217;s [&#8230;]]]></description>
+					<description><![CDATA[One of the things I&#8217;ve been playing with this week is getting Facebook SSO working with XPages. It&#8217;s not a true SSO implementation as Domino doesn&#8217;t&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>One of the things I&#8217;ve been playing with this week is getting Facebook SSO working with XPages. It&#8217;s not a true SSO implementation as Domino doesn&#8217;t support OAuth, but from the user&#8217;s point of view they are not having to enter a username and password to get authenticated against a Domino app. I think it&#8217;s pretty cool&#8230;</p>
 <p><iframe loading="lazy" src="http://player.vimeo.com/video/16016491?byline=0&amp;portrait=0" width="601" height="338" frameborder="0"></iframe></p>
 ]]></content:encoded>
@@ -566,7 +566,7 @@ function getFBPassword(fbname:NotesName, seed){
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2010-7-14-forcing-a-file-name-when-downloading-a-dynamically-generated-html/</guid>
 
-					<description><![CDATA[Over the last couple of weeks I&#8217;ve been working on a customisation project using IQJam as a starting point and then making it better fit a particular customer&#8217;s requirements. It&#8217;s worth mentioning as I finally had the justification to spend a little time investigating a problem which has been bugging me. One of the features [&#8230;]]]></description>
+					<description><![CDATA[Over the last couple of weeks I&#8217;ve been working on a customisation project using IQJam as a starting point and then making it better fit a&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>Over the last couple of weeks I&#8217;ve been working on a customisation project using IQJam as a starting point and then making it better fit a particular customer&#8217;s requirements. It&#8217;s worth mentioning as I finally had the justification to spend a little time investigating a problem which has been bugging me.</p>
 <p>One of the features I added to IQJam was the ability to export data to Excel, a common enough feature that you&#8217;ve been able to do in Domino for ever. Simply print data out to the browser in simple HTML format and change the content-type of the page to &#8220;application/vnd.ms-excel&#8221;. That&#8217;s not the point of this posting really.</p>
 <p>The problem I&#8217;ve been trying to work around is that if your user is using Excel 2007 or later (I&#8217;m only on the beta of Office 2010 but it still seems to be a problem for me anyway) and you use the printing HTML technique, Excel raises an error for the user when they load the page, something like:</p>

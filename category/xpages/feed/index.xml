@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>XPages &#8211; mattwhite.me</title>
+	<atom:link href="/category/xpages/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>It&#8217;s Learn XPages Month (and I have a discount to offer)</title>
+		<link>/2011-5-25-its-learn-xpages-month-and-i-have-a-discount-to-offer-html/</link>
+					<comments>/2011-5-25-its-learn-xpages-month-and-i-have-a-discount-to-offer-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 25 May 2011 15:22:10 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2011-5-25-its-learn-xpages-month-and-i-have-a-discount-to-offer-html/</guid>
+
+					<description><![CDATA[You may have seen that June has been declared Learn XPages Month. XPages.info has all of the details but I thought I would (shamelessly) highlight that&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>You may have seen that June has been declared <a href="http://xpages.info/Internal/home.nsf/dx/Learn-XPages-Month">Learn XPages Month</a>. XPages.info has all of the details but I thought I would (shamelessly) highlight that XPages101 will be offering a 33% discount for the whole of June. If you use the coupon code &#8220;learnxpages&#8221; at checkout the discount will be applied for access to a whole year&#8217;s worth of XPages training content.</p>
+<p>So head on over to <a href="http://xpages101.net/">XPages101</a> to get your subscription.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011-5-25-its-learn-xpages-month-and-i-have-a-discount-to-offer-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to get SSO for Facebook working with XPages</title>
+		<link>/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/</link>
+					<comments>/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 20 Oct 2010 10:51:51 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[facebook]]></category>
+		<category><![CDATA[sso]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/</guid>
+
+					<description><![CDATA[So, earlier today I posted a short video about a new feature that I&#8217;ve written for IQJam (initially at least, it will be coming to IdeaJam&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>So, <a href="http://mattwhite.me/blog/2010/10/20/facebook-sso-to-xpages.html">earlier today I posted a short video about a new feature that I&#8217;ve written for IQJam</a> (initially at least, it will be coming to IdeaJam at some point). It allows you to authenticate against a Domino server using Facebook Single Sign On (SSO).</p>
+<p>Overall this is not for the faint of heart (or the new XPages developer, hence me not going into detail about how what the code is doing etc), there are a lot of moving parts to get things working properly. That being said there is absolutely no reason exactly the same approach couldn&#8217;t be taken with a classic Domino application. All of the server Side Javascript would need to be converted to LotusScript and Java (for the network operations).</p>
+<p>1) Register your application with Facebook here: <a href="http://www.facebook.com/developers/apps.php">http://www.facebook.com/developers/apps.php</a></p>
+<p>2) In the app home page, add a facebook login graphic with some client side onClick code:</p>
+<pre style="font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; color: #000000; background-color: #eee; font-size: 12px; border: 1px dashed #999999; line-height: 14px; padding: 5px; overflow: auto; width: 100%;"><code>var returl = "http://[Your/ App Host Name][Your App DB Path]/fblogin.xsp";
+var url = "https://graph.facebook.com/oauth/authorize?client_id=[YOUR FACEBOOK APP ID]&amp;redirect_uri=" + returl;
+window.open (url, "mywindow","width=500,height=250");
+</code></pre>
+<p>3) Create a new XPage called fblogin</p>
+<p>4) In the afterPageLoad event put the following code:</p>
+<pre style="font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; color: #000000; background-color: #eee; font-size: 12px; border: 1px dashed #999999; line-height: 14px; padding: 5px; overflow: auto; width: 100%;"><code>try{
+    //Get these from Facebook App registration
+    var API_KEY = "YOUR FACEBOOK APP ID";
+    var SECRET = "YOUR FACEBOOK SECRET KEY";
+
+    //Get the auth code from url param returned by facebook
+    var code = context.getUrlParameter("code");
+    
+    //Now swap the auth code for the access_token key
+    var urltoken = "https://graph.facebook.com/oauth/access_token?client_id=" + API_KEY + 
+                    "&amp;redirect_uri=http://[yourhostname]/" + 
+                    "/" + @ReplaceSubstring(database.getFilePath(), "\\", "/") + "/fblogin.xsp" + 
+                    "&amp;client_secret=" + SECRET + 
+                    "&amp;code=" + code;
+    var urltoken:jav.net.URL = new java.net.URL(urltoken);
+    var urltokenconn = urltoken.openConnection();
+    var tokenreader = new java.io.BufferedReader(
+                            new java.io.InputStreamReader(
+                            urltokenconn.getInputStream())
+                        );
+    var inputLine;
+    var accesstoken = "";
+    while(    (inputLine = tokenreader.readLine()) != null){
+        accesstoken += inputLine;
+    }
+    tokenreader.close();
+    accesstoken = @Right(accesstoken, "=");
+
+    //Now get the user info using the access_token
+    var url = "https://graph.facebook.com/me?access_token=" + accesstoken + "&amp;client_id=" + API_KEY;
+    var url:java.net.URL = new java.net.URL(url);
+    var urlconn:java.net.URLConnection = url.openConnection();
+    var reader:java.io.BufferedReader = new java.io.BufferedReader(
+                                            new java.io.InputStreamReader(
+                                            urlconn.getInputStream())
+                                        );
+    var inputLine;
+    var userjson = "";
+    while ((inputLine = reader.readLine()) != null){
+        userjson += inputLine;
+    }
+    reader.close();
+    
+    //Now we've got a JSON object which contains the user data
+    userjson = eval("(" + userjson + ")");
+    var firstname = userjson.first_name;
+    var lastname = userjson.last_name;
+    var userId = userjson.id;
+    var fbname = getFBName(firstname, lastname, userId);
+    var password = getFBPassword(fbname, SECRET);
+    print("FBName = " + fbname);
+    var fbreg = new facebookReg();
+    if (fbreg.validateUser(fbname.getCanonical())){
+        //We need to go and register the user
+        fbreg.registerNewFBUser(firstname, lastname, fbname, password);
+    }
+    //Set the username and password fields so the Ajax login can happen    
+    viewScope.username = fbname.getCanonical();
+    viewScope.password = password;
+}catch(e){
+    _dump(e);
+}
+</code></pre>
+<p>5) In a supporting script library you&#8217;ll need the following functions:</p>
+<pre style="font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; color: #000000; background-color: #eee; font-size: 12px; border: 1px dashed #999999; line-height: 14px; padding: 5px; overflow: auto; width: 100%;"><code>/*
+An object which handles authentication / registration of Facebook users
+Created By: Matt White
+Date Created: October 2010
+Version: 1.0
+*/
+var facebookReg = function(){
+    var dbNab:NotesDatabase = null;
+    var dbMainNab:NotesDatabase = null;
+    var registerNewFBUser = function(firstname, lastname, fbname, password){
+        getDbs();    
+        if(validateUser(fbname.getCanonical())){
+            var registerNewUser = false;
+            
+            if (!addUserToGroup(fbname)){
+                print("Couldn't add " + fbname.getAbbreviated() + " to group");
+            }else{
+                dbNab.DelayUpdates = false
+                dbMainNab.DelayUpdates = false
+                
+                var docPerson = dbNab.createDocument();
+                
+                docPerson.replaceItemValue("form", "Person");
+                docPerson.replaceItemValue("Type", "Person");
+                docPerson.replaceItemValue("LastName", lastname);
+                docPerson.replaceItemValue("FirstName", firstname);
+                var item = docPerson.replaceItemValue("FullName","");
+                item.appendToTextList(fbname.getCanonical());
+                item.appendToTextList(firstname + " " + lastname);
+                docPerson.replaceItemValue("HTTPPassword", password);
+                docPerson.replaceItemValue("accountstatus", "Not Verified");
+                
+                docPerson.computeWithForm( false, false );
+                print("Saving new person doc: " + docPerson.getUniversalID() + " in " + dbNab.getTitle());
+                docPerson.save();
+                
+                var addviews = new Array();
+                addviews.push(dbNab.getView("($LDAPCN)"));
+                addviews.push(dbNab.getView("($Users)"));
+                addviews.push(dbNab.getView("($ServerAccess)"));
+                addviews.push(dbNab.getView("($VIMPeople)"));
+                addviews.push(dbMainNab.getView("($ServerAccess)"));
+                addviews.push(dbMainNab.getView("($VIMGroups)"));
+                addviews.push(dbMainNab.getView("($Users)"));
+                for(var i=0; i&lt;addviews.length; i++)
+                    addviews[i].refresh();
+                print("Refreshed views");
+                
+                //Finally create a profile document for the person
+                var dbCurrent = sessionAsSigner.getDatabase(database.getServer(), database.getFilePath());
+                var profile = dbCurrent.createDocument();
+                profile.replaceItemValue("Form", "person");
+                profile.replaceItemValue("Name", fbname.getCanonical());
+                profile.computeWithForm(false, false);
+                profile.save();
+                print("Created profile document");
+            }
+        }
+    }
+    
+    var validateUser = function(thisname){
+        getDbs();
+        var people = dbNab.getView("($Users)");
+        var collection = people.getAllDocumentsByKey(thisname, true);
+        print("Found " + collection.getCount() + " matching people for " + thisname);
+        if (collection.getCount() &gt; 0)
+            return false;
+        else
+            return true;
+    }
+    
+    var addUserToGroup = function(nname){
+        var group = "[Your Group Name Here]";
+        var groups = dbMainNab.getView("Groups");
+        var docGroup = groups.getDocumentByKey(group, true);
+        
+        if (docGroup == null){
+            docGroup = dbMainNab.createDocument();
+            docGroup.replaceItemValue("Form", "Group");
+            docGroup.replaceItemValue("ListName", group);
+            docGroup.replaceItemValue("Members",  group &amp; " 1");
+            docGroup.replaceItemValue("GroupType", "0");
+            docGroup.replaceItemValue("ListDescription", "Do NOT edit this group manually, it is updated via an agent!!!");
+            docGroup.computeWithForm( false, false );
+            docGroup.save();
+        }
+        
+        var groupMainMembers = docGroup.getFirstItem( "Members" );
+        var subGroup = "";
+        for (var x=groupMainMembers.getValues().length; i&gt;=0; i--){
+            if (@Left(groupMainMembers.getValues()[x], @Length( group  )) == group)
+                subGroup = groupMainMembers.getValues()[x];
+        }
+        
+        groupNum = 0;
+        
+        if (subGroup != "")
+            groupNum = @TextToNumber( @Right( subGroup, @Length( subGroup ) - @Length( group ) - 1 ) );
+        else{
+            groupNum = 1
+            subGroup = group + " 1";
+        }
+        
+        while(true){
+            var groupSubDoc = groups.getDocumentByKey( subGroup, true );
+            
+            if (groupSubDoc == null){
+                groupSubDoc = dbMainNab.createDocument();
+                groupSubDoc.replaceItemValue("Form", "Group");
+                groupSubDoc.replaceItemValue("ListName", subGroup);
+                groupSubDoc.replaceItemValue("GroupType", "0");
+                groupSubDoc.computeWithForm( false, false );
+                
+                if (!groupMainMembers.containsValue( subGroup )){
+                    try{
+                        groupMainMembers = docGroup.getFirstItem("Members");
+                        groupMainMembers.appendToTextList(subGroup);
+                        saveGroupMainDoc = true;
+                    }catch(e){
+                        _dump(e);
+                    }
+                }
+            }
+            var groupSubMembers = groupSubDoc.getFirstItem( "Members" );
+            
+            if (groupSubMembers.getValueLength() &lt; 10000)
+                break;
+            
+            groupNum = groupNum + 1;
+            subGroup = group + " " + groupNum;
+        }
+        
+        groupSubMembers.appendToTextList(nname.getCanonical());
+        groupSubDoc.save( false, true );
+        docGroup.save( false, true );
+        return true;
+    }
+    
+    var getDbs = function(){
+        if (dbNab == null || dbMainNab == null){
+            dbNab = sessionAsSigner.getDatabase(database.getServer(), "[NAB Where Users Are Stored]");
+            dbMainNab = sessionAsSigner.getDatabase(database.getServer(), "[Main NAB]");
+        }
+    }
+    
+    return {
+        // public methods
+        registerNewFBUser:        registerNewFBUser,
+        validateUser:            validateUser,
+        addUserToGroup:            addUserToGroup, 
+        getDbs:                    getDbs
+    }
+}
+/*
+Creates a new Notes Name using First Name, Last Name, Facebook User ID
+*/
+function getFBName(firstname, lastname, uid){
+    return session.createName(firstname + " " + lastname + "/" + uid + "/Facebook");
+}
+/*
+Generates a password using a Notes Name and a secret key as a salt
+*/
+function getFBPassword(fbname:NotesName, seed){
+    var result = session.evaluate("@Password(\"" + fbname.getCanonical() + seed + "\")");
+    return @ReplaceSubstring(result.elementAt(0), ["(",")"], "");
+}
+</code></pre>
+<p>6) Finally you&#8217;ll need some AJAX code which logs the user in assuming all of the previous code has worked properly</p>
+<pre style="font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; color: #000000; background-color: #eee; font-size: 12px; border: 1px dashed #999999; line-height: 14px; padding: 5px; overflow: auto; width: 100%;"><code>function doLogin(userNameId, passwordId, facebookmode){
+    dojo.xhrPost({
+        url: "/names.nsf?login",
+        content: {
+            username: dojo.byId(userNameId).value, 
+            password: dojo.byId(passwordId).value, 
+            redirectto: dbPath + "/username.txt?open&amp;rnd=" + Math.random()
+        },
+        load: function(data) {
+            try {
+                if( data.indexOf("Anonymous") == -1) { 
+                    dojo.byId("loginMsg").style.display = "block";
+                    dojo.byId("loginMsg").style.color = "green";
+                    dojo.byId("loginMsg").style.backgroundColor = "transparent"; 
+                    dojo.byId("loginMsg").innerHTML = "Please Wait";
+                    if(location.href.indexOf("register.xsp") &gt; -1){
+                        location.href = dbPath;
+                    }else{
+                        if (facebookmode == true){
+                            window.opener.location.href = window.opener.location.href;
+                            window.close(); 
+                        }else{
+                            if (window.location.href.indexOf("#") &gt; -1){
+                                window.location.replace( strLeft(window.location.href, "#") );
+                            }else{
+                                window.location.replace( window.location.href );
+                            }
+                        }
+                    }
+                } else { 
+                    dojo.byId("loginMsg").style.display = "block";
+                    dojo.byId("loginMsg").style.color = "red"; 
+                    dojo.byId("loginMsg").style.backgroundColor = "transparent";
+                    if ( dojo.cookie('DomAuthSessId') != null || dojo.cookie('LtpaToken') != null ) { 
+                        dojo.byId("loginMsg").innerHTML = "You do not have access to this database";
+                    } else { 
+                        dojo.byId("loginMsg").innerHTML = "Wrong username or password"; 
+                    } 
+                }
+            }catch(e){
+                alert(e);
+                console.error ('Error: ', error);
+            }
+        },
+        error: function(data) {
+            alert(e);
+            console.error ('Error: ', error); 
+        } 
+    });
+}
+</code></pre>
+<p>7) That code will need to be triggered by some Javascript which runs when the page loads (so this needs to go in the onClientLoad function)</p>
+<pre style="font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; color: #000000; background-color: #eee; font-size: 12px; border: 1px dashed #999999; line-height: 14px; padding: 5px; overflow: auto; width: 100%;"><code>if (gup("code") != ""){
+    doLogin("#{id:username}", "#{id:password}", true)
+}else{
+    window.close();
+}
+</code></pre>
+<p>For the gup function go here: <a href="http://www.netlobo.com/url_query_string_javascript.html">http://www.netlobo.com/url_query_string_javascript.html</a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/feed/</wfw:commentRss>
+			<slash:comments>8</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Facebook SSO to XPages</title>
+		<link>/2010-10-20-facebook-sso-to-xpages-html/</link>
+					<comments>/2010-10-20-facebook-sso-to-xpages-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 20 Oct 2010 07:46:54 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[facebook]]></category>
+		<category><![CDATA[iqjam]]></category>
+		<category><![CDATA[sso]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2010-10-20-facebook-sso-to-xpages-html/</guid>
+
+					<description><![CDATA[One of the things I&#8217;ve been playing with this week is getting Facebook SSO working with XPages. It&#8217;s not a true SSO implementation as Domino doesn&#8217;t&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>One of the things I&#8217;ve been playing with this week is getting Facebook SSO working with XPages. It&#8217;s not a true SSO implementation as Domino doesn&#8217;t support OAuth, but from the user&#8217;s point of view they are not having to enter a username and password to get authenticated against a Domino app. I think it&#8217;s pretty cool&#8230;</p>
+<p><iframe loading="lazy" src="http://player.vimeo.com/video/16016491?byline=0&amp;portrait=0" width="601" height="338" frameborder="0"></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-10-20-facebook-sso-to-xpages-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>What&#8217;s new with XPages in 8.5.2</title>
+		<link>/2010-8-25-whats-new-with-xpages-in-852-html/</link>
+					<comments>/2010-8-25-whats-new-with-xpages-in-852-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 25 Aug 2010 11:19:50 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[8.5.2]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2010-8-25-whats-new-with-xpages-in-852-html/</guid>
+
+					<description><![CDATA[Over on XPages101.net I&#8217;ve just posted (yet another) video. This time we&#8217;re looking at what&#8217;s new in 8.5.2 for the XPages developer. What&#8217;s New With XPages&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Over on <a href="http://xpages101.net/">XPages101.net</a> I&#8217;ve just posted (yet another) video. This time we&#8217;re looking at what&#8217;s new in 8.5.2 for the XPages developer.</p>
+<p><script type="text/javascript" src="http://mediaplayer.yahoo.com/js"></script> <a href="http://mattwhite.me/storage/WhatsNewIn852.mp3">What&#8217;s New With XPages in 8.5.2</a></p>
+<p>As a bit of a teaser, I thought I&#8217;d post the audio from that recording here as well so that you can hear what you&#8217;re missing. As ever, feel free to subscribe if you want to get a jumpstart on your XPages development. There are 30 different videos up on the site covering all the elements you&#8217;ll need to get started and then dig a little deeper into XPages development. The <a href="http://xpages101.net/videos/">full video listing can be found here</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-8-25-whats-new-with-xpages-in-852-html/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		<enclosure url="http://mattwhite.me/storage/WhatsNewIn852.mp3" length="8720" type="audio/mpeg" />
+
+			</item>
+		<item>
+		<title>XPages101 Online is here</title>
+		<link>/2010-2-12-xpages101-online-is-here-html/</link>
+					<comments>/2010-2-12-xpages101-online-is-here-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 12 Feb 2010 13:32:29 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[training]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2010-2-12-xpages101-online-is-here-html/</guid>
+
+					<description><![CDATA[One of my big takeaways from Lotusphere this year was that there is a huge appetite for XPages training material. I had already got my classroom&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>One of my big takeaways from Lotusphere this year was that there is a huge appetite for XPages training material. I had already got my classroom based XPages101 course lined up, but now that that&#8217;s done, it&#8217;s time to turn attention to the rest of the world and the online format.</p>
+<p>So what I&#8217;ve come up with is a new website (same URL as before though) at <a href="http://xpages101.net/">xpages101.net</a>. From here you can see the details of the classroom based course but there&#8217;s a whole other section of the site devoted to online material. Now to make this work for me (I run a small business on my own and this stuff takes a *lot* of time to put together) there is a charge for the content. But I&#8217;ve tried to make it as appealing as possible.</p>
+<p>You have two choices, either a single user account or a five user account. In both cases you&#8217;ll get full access to the site, all of the videos and support content for a full 12 months. The aim from my side is to keep on adding new videos every week or two for as long as there are interesting things to talk about. I just worked out what I have to create lessons on and it will take me well into May just from my initial list!</p>
+<p>Also, to thank you for your early interest in the site, you can use the coupon code &#8220;earlybird&#8221; at check out and get a 33% discount until February 26th.</p>
+<p>So please, go and <a href="http://xpages101.net/">check out the site</a>, let me know what you think and if you have any areas that you&#8217;d like covered the please either comment here or use the <a href="http://xpages101.net/contact-us/">contact us form</a> on the site.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-2-12-xpages101-online-is-here-html/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>XPages101 done. (for now)</title>
+		<link>/2010-2-10-xpages101-done-for-now-html/</link>
+					<comments>/2010-2-10-xpages101-done-for-now-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 10 Feb 2010 08:19:06 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[training]]></category>
+		<category><![CDATA[xpages]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2010-2-10-xpages101-done-for-now-html/</guid>
+
+					<description><![CDATA[Yesterday, Ben Poole and myself presented the XPages101 course which I have designed over the last couple of months to be an introduction to developing with&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Yesterday, <a href="http://benpoole.com/">Ben Poole</a> and myself presented the <a href="http://xpages101.net/">XPages101</a> course which I have designed over the last couple of months to be an introduction to developing with XPages.</p>
+<p>Overall it seemed to go pretty well, the timings need some work, I went a little fast at some points which may have left a few people overwhelmed at the&nbsp;fire hose&nbsp;of information we got through in a short period of time! That will not happen again now that I understand how it all hangs together a bit more.</p>
+<p>The feedback from the attendees was really gratifying&#8230;</p>
+<table>
+<tbody>
+<tr>
+<td>Question</td>
+<td>Score</td>
+</tr>
+<tr>
+<td>Overall, how would you rate the course?</td>
+<td>95% (between Excellent and Good)</td>
+</tr>
+<tr>
+<td>How was the course material?</td>
+<td>86.67% (between Excellent and Good)</td>
+</tr>
+<tr>
+<td>How was the presentation style?</td>
+<td>86.67% (between Excellent and Good)</td>
+</tr>
+<tr>
+<td>Would you recommend the course to your colleagues / nerdy friends?</td>
+<td>Yes: 100%</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>Obviously there&#8217;s always room for improvement and there were some great feedback comments as well&#8230;</p>
+<blockquote>
+<p>&#8220;A real eye opener for me as I&#8217;ve not looked XPages prior to the course.&#8221;</p>
+<p>&#8220;Excellent value for money. Pitched just right for the first steps into XPages.&#8221;</p>
+<p>&#8220;It gave me a very good understanding of XPages under the bonnet.&#8221;</p>
+<p>&#8220;It was great being here, great course, the XPages start I was looking for.&#8221;</p>
+</blockquote>
+<p>One of the things which I had&nbsp;consciously&nbsp;not done was provide lots of handout materials. The aim was to reduce the costs of the course as much as possible. From the feedback it seems people would have been happy to pay extra to get more paper based materials. So I think in future iterations of the course we&#8217;ll change that around.</p>
+<p>The other area where a couple of people expressed an interest was for an &#8220;intermediate&#8221; course. This leaves me in a bit of a quandary, as I&#8217;m not sure I know what intermediate is. So if you have any thoughts I&#8217;d love to hear them.</p>
+<p>Overall though, as I said earlier, it was a great day. Good fun for me, and hopefully useful to everyone else.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-2-10-xpages101-done-for-now-html/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Announcing XPages101 &#8211; An Introduction to XPages course</title>
+		<link>/2009-12-4-announcing-xpages101-an-introduction-to-xpages-course-html/</link>
+					<comments>/2009-12-4-announcing-xpages101-an-introduction-to-xpages-course-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 04 Dec 2009 09:32:28 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[london]]></category>
+		<category><![CDATA[training]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2009-12-4-announcing-xpages101-an-introduction-to-xpages-course-html/</guid>
+
+					<description><![CDATA[A few weeks ago I asked the twittersphere what people thought would be a reasonable cost for a one day long, introduction to XPages course. This&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>A few weeks ago I <a href="http://twitter.com/mattwhite/status/5040230767">asked the twittersphere</a> what people thought would be a reasonable cost for a one day long, introduction to XPages course. This was before I had investigated the cost of anything such as room hire etc, and also before I had thought about what the content for the course might be. But I liked the idea of running a single day bootcamp that will help you get started with XPages so, taking people&#8217;s advice and sourcing all of the elements for the course, I&#8217;m happy to be able to open up <a href="http://xpages101.net/">xpages101.net</a> today.</p>
+<p> I&#8217;ve managed to find a very reasonably priced training room, and more importantly, written a sample application which includes as much of the elements of a &#8220;real world&#8221; XPages app as I could squeeze into an eight hour course. The plan for the day is that you bring along your own laptop with Domino Designer 8.5.1 installed, I give you a starting point template and then together we go through the steps to build an XPages application. As we progress we&#8217;ll cover all of the major elements of XPages including the new design elements, server side Javascript, Dojo, OneUI and Themes, searching and so on. Then at the end of the day you&#8217;ll have a working application (in theory at least!) and be able to go back to your office and use it as a reference point for your first real world development when you deploy Domino 8.5.1.</p>
+<p> So please do head on over to <a href="http://xpages101.net/">xpages101.net</a>, have a look at the site and if you&#8217;ve got any questions <a href="http://xpages101.net/training/xpages101.nsf/contact.xsp">drop me a line</a>, otherwise I hope to see you in London in February 2010.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-12-4-announcing-xpages101-an-introduction-to-xpages-course-html/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Catch and Cancel Return Key Press for Safari in XPages</title>
+		<link>/2009-10-19-catch-and-cancel-return-key-press-for-safari-in-xpages-html/</link>
+					<comments>/2009-10-19-catch-and-cancel-return-key-press-for-safari-in-xpages-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 19 Oct 2009 12:25:59 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[dojo]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[safari]]></category>
+		<guid isPermaLink="false">/2009-10-19-catch-and-cancel-return-key-press-for-safari-in-xpages-html/</guid>
+
+					<description><![CDATA[The solution to one of the small but annoying bugs in IQJam had eluded me for quite a while, so this morning I resolved to have&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>The solution to one of the small but annoying bugs in IQJam had eluded me for quite a while, so this morning I resolved to have another go at it after a lazy weekend of feeling ill. And, lo and behold, I managed to fix it.</p>
+<p>So a little bit of background to the problem, when you login to IQJam we provide a login button for you to press after filling in your username and password, but most people are used to just hitting return after finishing typing their password. Unfortunately, this is a case where Safari actually implements internet standards just a little too well. What browsers are meant to do (but none of them except Safari actually do) is submit the form that a text field is in when the user presses the return key.</p>
+<p>Now in most development environments this is pretty easy to fix, you just add a</p>
+<blockquote>
+<p>return false;</p>
+</blockquote>
+<p>to the onSubmit action of the HTML form that the field is located in. But with XPages we don&#8217;t have access to the action, onSubmit or anything else to do with the form, as pretty much everything you click on in an XPage will want to interact with the server using code that has been generated for us rather than written by us.</p>
+<p>In this case, I wanted to do my own AJAX post request to the server and deal with the entire interaction myself and stop anything else being submitted to the server. The problem was how? I spent ages trying to stop event bubbling to try and cancel the keypress event when the user presses return to no avail. However, I did learn, at least, that the keypress event fires before the form is submitted back to the server.</p>
+<p>So my solution is to put this code in the keypress event of the password field:</p>
+<blockquote>
+<p><span>if </span>(thisEvent.keyCode == 13)<span>{</span></p>
+<p><span></span><span style="white-space: pre;"> </span>dojo.connect(</p>
+<p><span style="white-space: pre;"> </span>document.forms[0],&nbsp;</p>
+<p><span></span><span style="white-space: pre;"> </span>&#8216;onsubmit&#8217;<span>,&nbsp;</span></p>
+<p><span><span style="white-space: pre;"> </span>null</span>,&nbsp;</p>
+<p><span></span><span style="white-space: pre;"> </span>function<span>(e) </span>{&nbsp;</p>
+<p><span></span><span style="white-space: pre;"> </span>e.preventDefault();</p>
+<p><span></span><span style="white-space: pre;"> </span>return false<span>;</span></p>
+<p><span><span style="white-space: pre;"> </span>}</span></p>
+<p><span></span><span style="white-space: pre;"> </span>);</p>
+<p><span><span style="white-space: pre;"> </span>doLogin(</span>&#8220;#{id:userName}&#8221;<span>, </span>&#8220;#{id:password}&#8221;<span>)</span></p>
+<p>}</p>
+</blockquote>
+<p>Basically when the user presses the return key, using Dojo, I can re-write the form onsubmit method to prevent it posting back to the server, and instead run my own &#8220;doLogin&#8221; function.</p>
+<p>It&#8217;s important to be aware that this will effectively break the XPage for all other actions unless I re-write the original onSubmit function back to what it was after I have finished, but here, I am going to be re-loading the page anyway so it&#8217;s not necessary.</p>
+<p>Once again, we have more evidence that if you&#8217;re beginning to get into XPages, it&#8217;s worth spending as much time learning Dojo as it is to learn the XPages themselves.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-10-19-catch-and-cancel-return-key-press-for-safari-in-xpages-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>On synchronization in XPages</title>
+		<link>/2009-9-14-on-synchronization-in-xpages-html/</link>
+					<comments>/2009-9-14-on-synchronization-in-xpages-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 14 Sep 2009 08:44:53 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[8.5.1]]></category>
+		<category><![CDATA[synchronise]]></category>
+		<guid isPermaLink="false">/2009-9-14-on-synchronization-in-xpages-html/</guid>
+
+					<description><![CDATA[The biggest issue that we had with XPages in 8.5.0 was performance, every piece of code you wrote had to be optimised to get the best&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>The biggest issue that we had with XPages in 8.5.0 was performance, every piece of code you wrote had to be optimised to get the best performance, something which us Notes developers have spent all too little time on in the past.</p>
+<p>With 8.5.1 everything is faster from DDE onwards, but there are some code changes that we can take advantage of to make things even better. Most important of these is synchronization. For those of you who know Java this will be a familiar concept that has just been implemented into Server Side JavaScript (SSJS). But for the LotusScript developer, here is my quick attempt at explaining it&#8230;</p>
+<p>If you have a commonly used piece of code, it will be called by multiple different areas of the system at the same time (or at least very close together) and return the same result. If you&#8217;re doing some expensive piece of work (such as a DbLookup) then all of the calls to that code will run and there will be an inevitable performance hit.</p>
+<p>By adding the synchronize wrapper around the &#8220;expensive&#8221; code what will happen is that all of the calls to that code will queue up behind each other, so that code can only run once at a time. We can then cache the results of the code so that all of the queued up calls can just get that result from memory (the applicationScope for example) rather than having to go off and calculate it again and again. A very simple concept but one which saves a huge amount of processing time.</p>
+<p>But what will our code look like? Well here is a sample function from the upcoming IQJam application that will be launching later this week.</p>
+<blockquote>
+<p><span>function</span> getControlPanelFieldString(fieldname){</p>
+<p><span style="white-space: pre;"> </span>synchronized<span>(</span>applicationScope<span>){</span></p>
+<div></div>
+<p><span><span style="white-space: pre;"><span style="white-space: pre;"> </span> </span>if</span>(isCacheInvalid(<span>&#8220;controlpanel_&#8221;</span> + fieldname, 600)){</p>
+<p><span><span style="white-space: pre;"><span style="white-space: pre;"> </span> </span>var</span> controlPanels = <span>database</span>.getView(<span>&#8220;lookupControlPanel&#8221;</span>);</p>
+<p><span><span style="white-space: pre;"><span style="white-space: pre;"> </span> </span>var</span> controlPanel = controlPanels.getFirstDocument();</p>
+<p><span><span style="white-space: pre;"><span style="white-space: pre;"> </span> </span>applicationScope</span>.put(<span>&#8220;controlpanel_&#8221;</span> + fieldname, controlPanel.getItemValueString(fieldname));</p>
+<p><span style="white-space: pre;"><span style="white-space: pre;"> </span> </span>controlPanel = <span>null</span>;</p>
+<p><span style="white-space: pre;"><span style="white-space: pre;"> </span> </span>controlPanels = <span>null</span>;</p>
+<p><span style="white-space: pre;"><span style="white-space: pre;"> </span> </span>}&nbsp;</p>
+<p><span style="white-space: pre;"><span style="white-space: pre;"> </span> </span>}</p>
+<p><span>&nbsp;</span><span style="white-space: pre;"><span style="white-space: pre;"> </span> </span>return<span> </span>applicationScope<span>.get(</span><span>&#8220;controlpanel_&#8221;</span><span> + fieldname);</span></p>
+<p><span>}</span></p>
+<p>/**</p>
+<p><span> </span>A generic caching mechanism for each key will check to see if it is &#8216;n&#8217; seconds</p>
+<p><span> </span>since it was last updated. Use for things that change relatively infrequently &nbsp;</p>
+<p>*/</p>
+<p><span>function</span> isCacheInvalid(key, cacheInterval){</p>
+<p><span><span style="white-space: pre;"> </span>var</span> currentTime<span> </span>= <span>new</span> Date().getTime();</p>
+<p><span><span style="white-space: pre;"> </span>if</span> (!<span>applicationScope</span>.containsKey(key + <span>&#8220;_time&#8221;</span>)){</p>
+<p><span><span style="white-space: pre;"> </span>applicationScope</span>.put(key + <span>&#8220;_time&#8221;</span>, currentTime);</p>
+<p><span>&nbsp;</span><span style="white-space: pre;"> </span>return<span> </span>true<span>;</span></p>
+<p><span style="white-space: pre;"> </span>}</p>
+<p><span><span style="white-space: pre;"> </span>var</span> diffInSecs<span> </span>= Math.ceil((currentTime &#8211; <span>applicationScope</span>.get(key + <span>&#8220;_time&#8221;</span>)) / 1000);</p>
+<p><span><span style="white-space: pre;"> </span>if</span> (diffInSecs &lt; cacheInterval) {</p>
+<p><span style="white-space: pre;"> </span>return<span> </span>false<span>;</span></p>
+<p><span style="white-space: pre;"> </span>} <span>else</span> {</p>
+<p><span><span style="white-space: pre;"> </span>applicationScope</span>.put(key + <span>&#8220;_time&#8221;</span>, currentTime);</p>
+<p><span style="white-space: pre;"> </span>return<span> </span>true<span>;</span></p>
+<p><span style="white-space: pre;"> </span>}</p>
+<p>}</p>
+</blockquote>
+<p>We store lots of tiny variables about the application in a &#8220;Control Panel&#8221; document and then read them as needed into the applicationScope. The nature of the variables is that they don&#8217;t change much so we can cache them for long periods of time (10 minutes in this case).</p>
+<p>As with lots of XPages code, the idea for this came from the Discussion template (which is quite dramatically different under the covers in 8.5.1), so I&#8217;d highly recommend digging through the code in there to get an idea of what you can do with XPages. And of course we have to offer thanks to Thomas Gumz and the other XPages developers in IBM who write the code that the rest of us can then re-use for our own dastardly ends.</p>
+<p>Disclaimer: Notes/Domino 8.5.1 is beta software and no features are guaranteed until release.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-9-14-on-synchronization-in-xpages-html/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Sessions, sessions, sessions</title>
+		<link>/2009-9-10-sessions-sessions-sessions-html/</link>
+					<comments>/2009-9-10-sessions-sessions-sessions-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 10 Sep 2009 15:21:46 +0000</pubDate>
+				<category><![CDATA[XPages]]></category>
+		<category><![CDATA[debugging]]></category>
+		<category><![CDATA[sessions]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2009-9-10-sessions-sessions-sessions-html/</guid>
+
+					<description><![CDATA[When is a session not a session? Most Domino web sites these days will be running some form of session authentication which stores a cookie on&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>When is a session not a session?</p>
+<p>Most Domino web sites these days will be running some form of session authentication which stores a cookie on the user&#8217;s browser and a tiny piece of memory with details about the user on the server. This has always worked fine, and of course these sessions can time out (by default after 30 minutes).</p>
+<p>But with the advent of XPages we now also have the sessionScope variable container which allows us to store information about a user&#8217;s session (whether they are authenticated or not). This offers us huge opportunities for performance improvements as it means we don&#8217;t need to keep on doing @DbLookups to get user specific information for every page load. But it does introduce some potential issues if the authentication session timeouts are different to the sessionScope timeouts.</p>
+<p>Basically the server needs to be able to clear out sessionScope variables after an amount of time, otherwise the server would run out of memory very quickly indeed. But in a recent project we had users who would open a page and then come back to it 2 or 3 hours later and then wonder why everything had stopped working. This is because the default timeout for sessionScope variables is something around 30 minutes and our session timeouts were set to 2 hours. &nbsp;So once the page had been left inactive for half an hour it effectively lost all of the background information that drove how it should act when the user pressed the save button for example.</p>
+<p><span class="full-image-float-right ssNonEditable"><span><img src="/static/500fb502e4b0b0a178712c5d/500fb669e4b00f3716e9af9d/500fb669e4b00f3716e9b0ec/1252596582503/1000w" alt="" /></span></span></p>
+<p>The solution is very simple, but very important. In the application properties for your database (opened in Domino Designer these days remember), go to the XPages tab and make sure to set the Session timeout field to be more than the authentication Session Timeout (which you set in the server or website document). The rule of thumb that we have come to (in the absence of any official guidelines from IBM) is that if you have a 2 hour authentication timeout for your website, then set the XPages Session Timeout to 3 hours.</p>
+<p>Generally the application timeout is less important for this sort of thing, but we took the opportunity to also set that to 3 hours in this case as I knew it wouldn&#8217;t be too large.</p>
+<p>There are, of course, caveats here. If your server has memory issues then this is only going to exacerbate them as for each user (remember a user is just a visitor to the website, not necessarily someone who logs in) is going to take up some memory from the server for a minimum of 3 hours, but for us it solves more problems than it causes.</p>
+<p>Of course, if you are not using the sessionScope to store any page sensitive data then you can just ignore all of this, but once you start using the sessionScope, it does become rather addictive, so I suspect you will get some benefit from setting this variable. Either way if you start to see completely bizarre errors, this may be a good first port of call.</p>
+<p>Hopefully this article will save someone the pain of trying to debug seemingly un-reproducible errors in a dev environment where you don&#8217;t have the time to leave pages inactive for hours on end!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-9-10-sessions-sessions-sessions-html/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

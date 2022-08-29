@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Internet &#8211; mattwhite.me</title>
+	<atom:link href="/category/internet/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:29:08 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Thing learned for the day</title>
+		<link>/2009-6-25-thing-learned-for-the-day-html/</link>
+					<comments>/2009-6-25-thing-learned-for-the-day-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 25 Jun 2009 14:26:11 +0000</pubDate>
+				<category><![CDATA[Internet]]></category>
+		<category><![CDATA[html]]></category>
+		<category><![CDATA[tagindex]]></category>
+		<guid isPermaLink="false">/2009-6-25-thing-learned-for-the-day-html/</guid>
+
+					<description><![CDATA[I&#8217;m sure this is well known already, but it was a new one on me. I have a web form that has a tabular layout of&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;m sure this is well known already, but it was a new one on me.</p>
+<p>I have a web form that has a tabular layout of fields. But at the end of each row is a field that mustn&#8217;t ever get focus (for reasons that are to boring to go into), so I have an onFocus Javascript event in those fields that immediately blurs the focus if the user tries to get into it. All fine and dandy until you try and tab your way around the table, when you reach the end of each row, we end up with no field having focus.</p>
+<p>The thing I learned (was told by an exasperated web designer) is that you can set the &#8220;tabindex&#8221; of a field to -1. If you do this then it is effectively excluded from the tab order of the form as you use the keyboard to navigate around.</p>
+<p>Cue much punching of the sky as we knock another bug off the list for the application I&#8217;m working on at the moment. It&#8217;s the little victories that count!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-6-25-thing-learned-for-the-day-html/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>New online presence aggregation service</title>
+		<link>/2009-2-2-new-online-presence-aggregation-service-html/</link>
+					<comments>/2009-2-2-new-online-presence-aggregation-service-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 02 Feb 2009 13:50:16 +0000</pubDate>
+				<category><![CDATA[Internet]]></category>
+		<guid isPermaLink="false">/2009-2-2-new-online-presence-aggregation-service-html/</guid>
+
+					<description><![CDATA[Julian was kind enough to pass on a beta invite for chi.mp this morning. Basically, it&#8217;s a website that will aggregate your entire online presence into&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://blog.woowar.com/">Julian</a> was kind enough to pass on a beta invite for <a href="http://chi.mp/">chi.mp</a> this morning. Basically, it&#8217;s a website that will aggregate your entire online presence into one site, so all of my Blog postings, photos, tweets etc can now be found at <a href="http://mattwhite.mp/">mattwhite.mp</a> and, if you really have no life at all, then you can subscribe to an RSS feed of them all together at <a href="http://mattwhite.mp/profiles/18685.atom">this link</a>.</p>
+<p>A great service I think, that is easy to set up, looks nice. As with a lot of these internet startups, I have no idea how they plan to make money so it may not be around for long. But for the moment, it&#8217;s the best place to follow my online activity in one place.</p>
+<p>I haven&#8217;t yet got any invites to pass along, but if you want one, just comment on here with your email address and I&#8217;ll pass them along as I receive them.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-2-2-new-online-presence-aggregation-service-html/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Amazon MP3 Store Opens in the UK</title>
+		<link>/2008-12-3-amazon-mp3-store-opens-in-the-uk-html/</link>
+					<comments>/2008-12-3-amazon-mp3-store-opens-in-the-uk-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 03 Dec 2008 15:40:41 +0000</pubDate>
+				<category><![CDATA[Internet]]></category>
+		<guid isPermaLink="false">/2008-12-3-amazon-mp3-store-opens-in-the-uk-html/</guid>
+
+					<description><![CDATA[There is literally no excuse to use iTunes for buying music any more. The Amazon MP3 Store has opened in the UK. It offers basically the&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>There is literally no excuse to use iTunes for buying music any more. The <a href="http://www.amazon.co.uk/MP3-Music-Download/b/ref=amb_link_82663493_1?ie=UTF8&#038;node=77197031&#038;pf_rd_m=A3P5ROKL5A1OLE&#038;pf_rd_s=right-0&#038;pf_rd_r=0B4P7MDYQMTRYWB66S0K&#038;pf_rd_t=101&#038;pf_rd_p=464288373&#038;pf_rd_i=468294">Amazon MP3 Store</a> has opened in the UK. It offers basically the same music selection for less money and without DRM so you can play it on any player, not just your iPod.</p>
+<p>There goes the credit card for December <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-12-3-amazon-mp3-store-opens-in-the-uk-html/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Barclays Pinsentry madness</title>
+		<link>/2007-11-12-barclays-pinsentry-madness-html/</link>
+					<comments>/2007-11-12-barclays-pinsentry-madness-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 12 Nov 2007 08:24:10 +0000</pubDate>
+				<category><![CDATA[Internet]]></category>
+		<guid isPermaLink="false">/2007-11-12-barclays-pinsentry-madness-html/</guid>
+
+					<description><![CDATA[Because I run a small business I have multiple bank accounts with Barclays, one of the &#8220;big four&#8221; banks here in the UK. As banks go&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Because I run a small business I have multiple bank accounts with <a href="http://www.barclays.co.uk/">Barclays</a>, one of the &#8220;big four&#8221; banks here in the UK. As banks go they aren&#8217;t too bad (although that is like saying that as diseases go Malaria isn&#8217;t too bad, don&#8217;t think I actually like these guys). So at the weekend a package arrived containing my new <a href="http://news.bbc.co.uk/1/hi/business/6564645.stm">Pinsentry</a> card reader that I have to use to get into online banking. In the past I needed to know two user IDs, some personal information and a password to log into each of my accounts. Now, in addition to that I have to put my bank card into this card reader, enter the PIN for the card and then type another 8 digit number to log in. It&#8217;s classic dual factor authentication, and it&#8217;s absolutely crazy.</p>
+<p>Frankly the old system was more than secure enough. All that the new system will achieve is to make me log in to the site less frequently as it is such a palaver. I genuinely can&#8217;t think of a reason why they have gone this far with the security, if someone is foolish enough to give out their personal details, two secret (and hard to guess) user IDs and their password then frankly they deserve what they get.</p>
+<p>Setting aside the absurdness of the over-security, when I tried to log in yesterday (taxes to pay, thanks Gordon) I couldn&#8217;t actually get in at all any more. The reason which was discovered after nearly an hour on the phone was that my personal bank card has now been tied to my business account. So to log in to my business bank account I have to partially use business details and partially personal details. Their response when I asked how it was going to be fixed&#8230; &#8220;Well you have both sets of details so you can just live with it&#8221;! This from a company which last year made over seven billion punds profit. That&#8217;s more than fourteen billion dollars. And the worst thing is that moving banks is not really an option, they are all as bad as each other.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-11-12-barclays-pinsentry-madness-html/feed/</wfw:commentRss>
+			<slash:comments>27</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Laptop Divorce Advice</title>
+		<link>/2007-10-15-laptop-divorce-advice-html/</link>
+					<comments>/2007-10-15-laptop-divorce-advice-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 15 Oct 2007 21:57:08 +0000</pubDate>
+				<category><![CDATA[Internet]]></category>
+		<guid isPermaLink="false">/2007-10-15-laptop-divorce-advice-html/</guid>
+
+					<description><![CDATA[The always useful 43Folders offers some sage advice for those of us who spend far, far too much time on our laptops.]]></description>
+										<content:encoded><![CDATA[<p>The always useful <a href="http://www.43folders.com/">43Folders</a> offers some sage advice for those of us who spend far, far <a href="http://www.43folders.com/forum/2007/10/15/how-divorce-your-laptop">too much time on our laptops</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-10-15-laptop-divorce-advice-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>TV Shows on ITMS</title>
+		<link>/2007-8-29-tv-shows-on-itms-html/</link>
+					<comments>/2007-8-29-tv-shows-on-itms-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 29 Aug 2007 08:01:20 +0000</pubDate>
+				<category><![CDATA[Internet]]></category>
+		<guid isPermaLink="false">/2007-8-29-tv-shows-on-itms-html/</guid>
+
+					<description><![CDATA[Well it appears that the iTunes Music Store has finally started selling TV shows here in the UK. In and of itself not big news, especially&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Well it appears that the iTunes Music Store has finally <a href="http://www.macrumors.com/2007/08/28/television-shows-now-available-on-uk-itunes/">started selling TV shows</a> here in the UK. In and of itself not big news, especially when you see the very small selection of programmes you can download and the fact that they cost £1.89 (or $3.78 for those over the pond). But what it does open the way to is movies being available at some point in the near future and then the <a href="http://www.apple.com/appletv/">Apple TV</a> actually becomes an appealling product.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-8-29-tv-shows-on-itms-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>20% chance we&amp;apos;re living in the Matrix</title>
+		<link>/2007-8-15-20-chance-weaposre-living-in-the-matrix-html/</link>
+					<comments>/2007-8-15-20-chance-weaposre-living-in-the-matrix-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 15 Aug 2007 16:19:57 +0000</pubDate>
+				<category><![CDATA[Internet]]></category>
+		<guid isPermaLink="false">/2007-8-15-20-chance-weaposre-living-in-the-matrix-html/</guid>
+
+					<description><![CDATA[Here&#8217;s something to screw with your mind on a Wednesday afternoon.]]></description>
+										<content:encoded><![CDATA[<p>Here&#8217;s <a href="http://www.nytimes.com/2007/08/14/science/14tier.html?ei=5090&#038;en=22bfff4070a81187&#038;ex=1344744000">something to screw with your mind</a> on a Wednesday afternoon.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-8-15-20-chance-weaposre-living-in-the-matrix-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>YSlow</title>
+		<link>/2007-8-7-yslow-html/</link>
+					<comments>/2007-8-7-yslow-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 07 Aug 2007 08:03:14 +0000</pubDate>
+				<category><![CDATA[Internet]]></category>
+		<guid isPermaLink="false">/2007-8-7-yslow-html/</guid>
+
+					<description><![CDATA[Yahoo have released a Firebug addon called YSlow, it&#8217;s well worth a look if you&#8217;re a web developer just to get an idea of the very&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Yahoo have released a <a href="http://www.getfirebug.com/">Firebug</a> addon called <a href="http://developer.yahoo.com/yslow/">YSlow</a>, it&#8217;s well worth a look if you&#8217;re a web developer just to get an idea of the very high level reasons why a page might be slow to load.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-8-7-yslow-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Finally some sense</title>
+		<link>/2007-7-31-finally-some-sense-html/</link>
+					<comments>/2007-7-31-finally-some-sense-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 31 Jul 2007 21:04:15 +0000</pubDate>
+				<category><![CDATA[Internet]]></category>
+		<guid isPermaLink="false">/2007-7-31-finally-some-sense-html/</guid>
+
+					<description><![CDATA[As the reasons why Grosse Point Blank is my favourite film are explained.]]></description>
+										<content:encoded><![CDATA[<p>As the reasons why <a href="http://www.doubleviking.com/real-men-love-i-gross-pointe-blank-i--6265-p.html">Grosse Point Blank</a> is my favourite film are explained.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-7-31-finally-some-sense-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Ta Da!</title>
+		<link>/2007-7-31-ta-da-html/</link>
+					<comments>/2007-7-31-ta-da-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 31 Jul 2007 08:57:45 +0000</pubDate>
+				<category><![CDATA[Internet]]></category>
+		<guid isPermaLink="false">/2007-7-31-ta-da-html/</guid>
+
+					<description><![CDATA[I&#8217;m constantly looking for the ideal Task List manager. I don&#8217;t know about you but if I don&#8217;t write things down they simply never get done,&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;m constantly looking for the ideal Task List manager. I don&#8217;t know about you but if I don&#8217;t write things down they simply never get done, it&#8217;s silly really that I can remember all sorts of obscure trivia but can&#8217;t keep track of the things I have to do for work. Anyway I must have tried seven or eight different products and although they are all good they don&#8217;t do exactly what I want, so I don&#8217;t use them all the time, so I still wind up forgetting something. Anyway I am currently trialling a very simple web app from <a href="http://www.37signals.com/">37 Signals</a> called <a href="http://www.tadalist.com/">Ta Da list</a>. Simple is good, but as usual there are a couple of things I&#8217;d like to happen differently. I&#8217;ll probably end up writing my own app at this rate but I&#8217;m interested, what, if anything do you use?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-7-31-ta-da-html/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

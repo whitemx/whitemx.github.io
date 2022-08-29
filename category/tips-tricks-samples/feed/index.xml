@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Tips Tricks Samples &#8211; mattwhite.me</title>
+	<atom:link href="/category/tips-tricks-samples/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:30:41 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Tracking down error 80020101 in Internet Exploder</title>
+		<link>/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/</link>
+					<comments>/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 21 Apr 2010 11:14:06 +0000</pubDate>
+				<category><![CDATA[Tips Tricks Samples]]></category>
+		<category><![CDATA[internet explorer]]></category>
+		<category><![CDATA[javascript]]></category>
+		<guid isPermaLink="false">/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/</guid>
+
+					<description><![CDATA[So yesterday, after all of the travel fun and games of the few days, it was back to the real world with a bump. I had&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>So yesterday, after all of the travel fun and games of the few days, it was back to the real world with a bump. I had a pile of bugs to fix on various projects. Most were very simple to get through, but one has taken me several hours to track down so I thought it would be useful to record the problem and my solution.</p>
+<p>In IdeaJam we use Mootools as I have mentioned many a time before. Mootools, when executing Ajax requests does some very funky stuff to make the request as efficient as possible. One of those things, is that will detect the content type of the page you&#8217;re requesting and try it&#8217;s best to process it as it should, that is, if you request Javascript then it will try and execute it. Unfortunately if you&#8217;re in IE, then it uses the following technique&nbsp;</p>
+<blockquote>
+<p>window.execScript(code)</p>
+</blockquote>
+<p>This is all well and good until there is an error in the Javascript it is evaluating (and it is very picky about syntax here). When there is an error you will get something like:</p>
+<blockquote>
+<p>Could not complete the operation due to error 80020101</p>
+</blockquote>
+<p>There are a *lot* of websites out there where people have come across this problem and then tracked it down to a specific problem with their code so they assume that this error message means you&nbsp;should&nbsp;remove comment tags from your script, or there&#8217;s a missing semi colon on the end of a line, or an array is incorrectly formed. All of these may well be true, but the error message just means &#8220;There is an error&#8221;, you can read no more into it than that.</p>
+<p>Instead, you need to look very closely at whatever is being returned and evaluate it manually yourself to track down the issue.</p>
+<p>What was especially galling for me, is that my problem was entirely my own fault. I had set the content type of the page I was requesting using Ajax to be text/javascript when it actually it should have been text/html. So Mootools was trying to evaluate some &#8220;code&#8221; which could never possibly work. So my fix was simply to change the content type of my response page.</p>
+<p>The point is that your problem may be something entirely different, and you&#8217;d still get exactly the same error message from IE. Thanks for that Microsoft.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/feed/</wfw:commentRss>
+			<slash:comments>11</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cross browser testing using VMWare</title>
+		<link>/2009-6-19-cross-browser-testing-using-vmware-html/</link>
+					<comments>/2009-6-19-cross-browser-testing-using-vmware-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 19 Jun 2009 08:20:27 +0000</pubDate>
+				<category><![CDATA[Tips Tricks Samples]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[internet explorer]]></category>
+		<category><![CDATA[testing]]></category>
+		<category><![CDATA[vmware fusion]]></category>
+		<guid isPermaLink="false">/2009-6-19-cross-browser-testing-using-vmware-html/</guid>
+
+					<description><![CDATA[As an Apple user, when I&#8217;m doing Domino development I live in VMWare Fusion to emulate Windows. And since the release of the Windows 7 Release&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>As an Apple user, when I&#8217;m doing Domino development I live in <a href="http://www.vmware.com/products/fusion/">VMWare Fusion</a> to emulate Windows. And since the release of the Windows 7 Release Candidate (<a href="http://www.microsoft.com/windows/windows-7/download.aspx">free until next year</a>) doing testing in IE6 and IE7 is nigh on impossible. There are tools that you can use to emulate the different browsers (such as <a href="http://www.my-debugbar.com/wiki/IETester/HomePage">IETester</a>) but I have found them to be unreliable.</p>
+<p>It&#8217;s a little know fact that Microsoft actually give out free copies of Virtual PCs setup for IE6 and IE7 compliance testing from <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=21EABB90-958F-4B64-B5F1-73D0A413C8EF&amp;displaylang=en">their website</a>. Of course because it&#8217;s a virtual PC image and not a VMWare image we have to go a little further and convert the one to the other. That&#8217;s where <a href="http://blog.mozmonkey.com/2008/vpc-ie6-ie7-ie8-on-mac-os-x/">these instructions</a> come in. You&#8217;ll need to download a conversion tool, the one that worked for me was <a href="http://www.kju-app.org/">Q</a> which is actually mentioned in the comments rather than the main body.</p>
+<p>Once you&#8217;ve done the conversion, you end up with small (i.e. &lt;1gb) Virtual Machines that you can do &#8220;proper&#8221; IE testing in until you get the nerve to tell you&#8217;re idiot IE users that they need to move into the 21st century and start using one of the <a href="http://www.apple.com/safari/">proper</a> <a href="http://www.mozilla.com/en-US/firefox/firefox.html">browsers</a>.</p>
+<p>Anyway, what it does mean is that you can leave XP and IE6 behind altogether except for your testing which can only be a good thing. Windows 7 really is a big step forwards, even for those of us who don&#8217;t even like Windows.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-6-19-cross-browser-testing-using-vmware-html/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Log4J logging to the console</title>
+		<link>/2007-7-26-log4j-logging-to-the-console-html/</link>
+					<comments>/2007-7-26-log4j-logging-to-the-console-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 26 Jul 2007 14:56:07 +0000</pubDate>
+				<category><![CDATA[Tips Tricks Samples]]></category>
+		<guid isPermaLink="false">/2007-7-26-log4j-logging-to-the-console-html/</guid>
+
+					<description><![CDATA[I&#8217;m conscious that technical posts have been notable by their absence here recently, but it&#8217;s just the nature of what I&#8217;m doing right now. Anyway I&#8217;m&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;m conscious that technical posts have been notable by their absence here recently, but it&#8217;s just the nature of what I&#8217;m doing right now. Anyway I&#8217;m not sure this counts but it&#8217;s caused me to waste half an hour searching for it.</p>
+<p><a href="http://logging.apache.org/log4j/docs/index.html">Log4J</a> is an excellent Java logging solution (if you&#8217;re not using then I highly recommend it). The only problem I&#8217;ve had is that when writing test classes I get an error &#8220;log4j:WARN No appenders could be found for logger&#8221;, so, how to get the logging output to be sent to the console in MyEclipse? It&#8217;s a very simple problem but is something I always forget. Well, all you need to do is add one line at the start of the main method:</p>
+<blockquote><p>BasicConfigurator.configure();</p></blockquote>
+<p>So your test class will look like this:</p>
+<blockquote><p>
+import org.apache.log4j.BasicConfigurator;<br />
+import org.apache.log4j.Logger;</p>
+<p>public class MyClass{<br />
+&nbsp;&nbsp;&nbsp;static Logger logger = Logger.getLogger(MyClass.class);<br />
+&nbsp;&nbsp;&nbsp;public static void main(String[] args) {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BasicConfigurator.configure();<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;logger.debug(&#8220;This will appear in your console now&#8221;);<br />
+&nbsp;&nbsp;&nbsp;}<br />
+}
+</p></blockquote>
+<p>
+Next week I&#8217;ll be teaching you how to suck eggs!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-7-26-log4j-logging-to-the-console-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>A demo iText application</title>
+		<link>/2007-5-11-a-demo-itext-application-html/</link>
+					<comments>/2007-5-11-a-demo-itext-application-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 11 May 2007 00:00:00 +0000</pubDate>
+				<category><![CDATA[Tips Tricks Samples]]></category>
+		<guid isPermaLink="false">/2007-5-11-a-demo-itext-application-html/</guid>
+
+					<description><![CDATA[I always find the best way to learn some new geekery is to write something with it rather than just reading a book. So in that&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I always find the best way to learn some new geekery is to write something with it rather than just reading a book. So in that spirit I&#8217;ve used one of my spare domain names to bring you <a href="http://www.invoicr.co.uk/">Invoicr</a>. I know, you&#8217;re wondering where I got the idea for the name from, let&#8217;s just call it inspiration!</p>
+<p>So Invoicr is a simple form which uses a couple of neat little Javascript-y things in Andrew Tetlaw&#8217;s <a href="http://tetlaw.id.au/view/blog/really-easy-field-validation-with-prototype/">really easy field validation with Prototype</a> and the <a href="http://www.scbr.com/docs/products/dhtmlxGrid/">DHTML XGrid</a> for the dynamic table.</p>
+<p>They are nice but not really the point of the app, which was to play around with <a href="http://www.lowagie.com/iText/">iText</a> which I mentioned earlier this week. The PDF I&#8217;m producing doesn&#8217;t really stretch what iText is capable of but it does show off element positioning, tables, font formatting etc which is all I really need at the moment. So have a look and if you&#8217;re interested in how it all works, then you can get the nsf <a href="/11tmr.nsf/Downloads/MWHE-733BFT/$File/invoicr_v01.nsf">here</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-5-11-a-demo-itext-application-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Heavy Duty Javascript-ing</title>
+		<link>/2007-4-11-heavy-duty-javascript-ing-html/</link>
+					<comments>/2007-4-11-heavy-duty-javascript-ing-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 11 Apr 2007 13:28:18 +0000</pubDate>
+				<category><![CDATA[Tips Tricks Samples]]></category>
+		<guid isPermaLink="false">/2007-4-11-heavy-duty-javascript-ing-html/</guid>
+
+					<description><![CDATA[The new project I&#8217;m working on is moving on quickly and I&#8217;m in the middle of some really heavy duty Javascript work for a complicated web&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>The new project I&#8217;m working on is moving on quickly and I&#8217;m in the middle of some really heavy duty Javascript work for a complicated web form. We are making use of a Javascript library which I think I&#8217;ve mentioned before called the <a href="http://scbr.com/docs/products/dhtmlxGrid/">DHTMLXGrid</a> which is a full featured dynamic table solution which can store it&#8217;s data as XML and HTML. No single bit of it is especially complex but put together it would take several months to duplicate and it only costs £150 for the professional version so we&#8217;ve forked out for it. Well worth a look, even the basic, free version is very good.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-4-11-heavy-duty-javascript-ing-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Three Javascript Form Validation Tips</title>
+		<link>/2007-3-26-three-javascript-form-validation-tips-html/</link>
+					<comments>/2007-3-26-three-javascript-form-validation-tips-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 26 Mar 2007 11:48:28 +0000</pubDate>
+				<category><![CDATA[Tips Tricks Samples]]></category>
+		<guid isPermaLink="false">/2007-3-26-three-javascript-form-validation-tips-html/</guid>
+
+					<description><![CDATA[I&#8217;m in the process of putting together a new web form and have picked up a few bits and pieces which you may find useful: The&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;m in the process of putting together a new web form and have picked up a few bits and pieces which you may find useful:</p>
+<p>The <a href="http://tetlaw.id.au/view/javascript/really-easy-field-validation">really easy field validation with Prototype</a> script by Andrew Tetlaw is, indeed really easy to implement. But beyond that it&#8217;s also simple to extend to add your own validation rules, be they simple or complex. I think this is going to become my default front-end validation script until I find a better one.</p>
+<p>One of the changes I needed to make to the script was to add a test for a specific number format, to allow comma separation at thousands but disallow decimal points (and vice versa for European users). Now I really don&#8217;t understand <a href="http://en.wikipedia.org/wiki/Regular_expression">Regex</a> very well at all. But I did manage to find an OS X Widget devoted to <a href="http://robrohan.com/projects/widgets/">testing Regex expressions</a>, I recommend it heartily. And it allowed me to write this expression to do my validation:</p>
+<blockquote><p>
+/^[0-9\,\-\+\(\)\ ]+$/
+</p></blockquote>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-3-26-three-javascript-form-validation-tips-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Domino Dojo Discussion Database</title>
+		<link>/2007-3-11-domino-dojo-discussion-database-html/</link>
+					<comments>/2007-3-11-domino-dojo-discussion-database-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sun, 11 Mar 2007 14:36:42 +0000</pubDate>
+				<category><![CDATA[Tips Tricks Samples]]></category>
+		<guid isPermaLink="false">/2007-3-11-domino-dojo-discussion-database-html/</guid>
+
+					<description><![CDATA[I&#8217;ve had quite a few emails from people asking how to get started using Dojo in their Domino applications, so rather than repeating myself a lot&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;ve had quite a few emails from people asking how to get started using <a href="http://dojotoolkit.org/">Dojo</a> in their Domino applications, so rather than repeating myself a lot I thought I&#8217;d bash together a demonstration database.</p>
+<p>The refuge for a lack of imagination is the classic Discussion database, we&#8217;ve all been there in some for or another so I thought I&#8217;d take that old chestnut and bring it up to date a little. And the result can be seen <a href="http://www.11tmr.com/apps/dododi.nsf">here</a>.</p>
+<p>So a little about the database. It is a working demonstration, meaning you can create documents to see how it works but I haven&#8217;t done extensive testing, unless there is a lot of feedback I can&#8217;t see this becoming a &#8220;proper&#8221; application. The aim is to show some of the main Dojo features in action in a relatively simple Domino context. The main ones you&#8217;re seeing are:<br />
+&#8211; the layout widgets to control the pseudo frames<br />
+&#8211; the button widget to make nice looking action buttons<br />
+&#8211; the tree widget to display the left hand action bar and the thread display<br />
+&#8211; the combo box widget when creating new documents<br />
+&#8211; and last but not least the editor widget that allows rich text input.</p>
+<p>As a starting point, open the design of the database (download link further down this entry) and open the form called &#8220;index.htm&#8221;. It controls the main page layout. the other forms are pretty simple to allow the creation of new discussions and replies. Personally I always prefer just to dig around in the source code to find my way, but if you have specific questions or issues please leave a comment here or drop me an email.</p>
+<p><a href="http://www.11tmr.com/11tmr.nsf/Downloads/MWHE-6Z7JYD/$File/dododi_v1_0.nsf.zip">Download the NSF</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-3-11-domino-dojo-discussion-database-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>CSS Editor for the Mac</title>
+		<link>/2007-2-12-css-editor-for-the-mac-html/</link>
+					<comments>/2007-2-12-css-editor-for-the-mac-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 12 Feb 2007 15:58:49 +0000</pubDate>
+				<category><![CDATA[Tips Tricks Samples]]></category>
+		<guid isPermaLink="false">/2007-2-12-css-editor-for-the-mac-html/</guid>
+
+					<description><![CDATA[I&#8217;ve been looking for a CSS Editor for the Mac which can match Topstyle for features and ease of use. Well I think the search is&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;ve been looking for a CSS Editor for the Mac which can match <a href="http://www.newsgator.com/NGOLProduct.aspx?ProdID=TopStyle">Topstyle</a> for features and ease of use. Well I think the search is finally over&#8230; enter <a href="http://macrabbit.com/cssedit/">CSSEdit</a> a very cool little bit of software and the best bit is that it only costs $29.95. Well worth a look if you do any browser design work at all.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-2-12-css-editor-for-the-mac-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Thing learned for the day</title>
+		<link>/2007-2-5-thing-learned-for-the-day-html/</link>
+					<comments>/2007-2-5-thing-learned-for-the-day-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 05 Feb 2007 09:44:15 +0000</pubDate>
+				<category><![CDATA[Tips Tricks Samples]]></category>
+		<guid isPermaLink="false">/2007-2-5-thing-learned-for-the-day-html/</guid>
+
+					<description><![CDATA[So it&#8217;s not even 10am and I&#8217;ve learned my thing for the day. It&#8217;s amazing that there are these little nuggets of information which have passed&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>So it&#8217;s not even 10am and I&#8217;ve learned my thing for the day. It&#8217;s amazing that there are these little nuggets of information which have passed me by all these years.</p>
+<p>I was trying to delete a document from a web database this morning. I had accessed the document via the &#8220;0&#8221; view so the URL looked like http://myserver/mydb.nsf/0/[unid]?opendocument which of course worked fine. So what I told my user to do was just replace &#8220;opendocument&#8221; with &#8220;deletedocument&#8221; but he kept on getting an error. &#8220;Stupid bloody users&#8221; thought I, &#8220;Can&#8217;t even type a simple URL parameter&#8221;. But then I tried it and, shock, horror I got an &#8220;Invalid URL Exception&#8221; error returned as well. To be honest I was a little stumped but of course <a href="http://notes.net/">notes.net</a> put me straight with the <a href="http://www-10.lotus.com/ldd/nd6forum.nsf/55c38d716d632d9b8525689b005ba1c0/83dcb54507861bb485256db100519bb6?OpenDocument">answer</a>. You cannot use the &#8220;deletedocument&#8221; command against an unsorted view and it appears that the &#8220;0&#8221; view is indeed unsorted.</p>
+<p>It&#8217;s good that there&#8217;s still stuff out there to learn, even if I should have known that a long time ago.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-2-5-thing-learned-for-the-day-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to return an array of complex types in a web service</title>
+		<link>/2007-1-5-how-to-return-an-array-of-complex-types-in-a-web-service-html/</link>
+					<comments>/2007-1-5-how-to-return-an-array-of-complex-types-in-a-web-service-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 05 Jan 2007 12:51:57 +0000</pubDate>
+				<category><![CDATA[Tips Tricks Samples]]></category>
+		<guid isPermaLink="false">/2007-1-5-how-to-return-an-array-of-complex-types-in-a-web-service-html/</guid>
+
+					<description><![CDATA[Going for the full geek posting here, as I&#160;mentioned earlier in the week, I&#8217;m doing a lot of web services work at the moment. One of&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Going for the full geek posting here, as I&nbsp;mentioned earlier in the week, I&#8217;m doing a lot of web services work at the moment. One of the requirements of one of the services is to return an array of complex objects (as opposed to an array of strings for example). The objects get described by the WSDL for serialization but it took me a little while to work out how to actually write the code to return the array&#8230;
+</p>
+<blockquote><p>public class MyService{<br />
+&nbsp;&nbsp;public ComplexType[] getList(String in){<br />
+&nbsp;&nbsp;&nbsp;&nbsp;ArrayList retList = new ArrayList();<br />
+&nbsp;&nbsp;&nbsp;&nbsp;//&#8230;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;//Build ArrayList Here<br />
+&nbsp;&nbsp;&nbsp;&nbsp;//&#8230;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;return (ComplexType[])retList.toArray(new ComplexType[retList.size()]);<br />
+&nbsp;&nbsp;}<br />
+} </p></blockquote>
+<p>I&#8217;m sure it&#8217;s pretty obvious to most people, but the fact that you have to convert the ArrayList to an array and then also cast it to an array of the correct type was what had confused me. Anyway it&#8217;s all working now, which is nice!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-1-5-how-to-return-an-array-of-complex-types-in-a-web-service-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

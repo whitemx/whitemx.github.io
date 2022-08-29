@@ -11,9 +11,9 @@
 	<title>dojo &#8211; mattwhite.me</title>
 	<atom:link href="/tag/dojo/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:24:39 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -31,7 +31,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2012-4-3-dojo-172-in-xpages-html/</guid>
 
-					<description><![CDATA[I had need to make use of some of the more advanced Dojo Mobile controls for a project last week which ship with Dojo 1.7.2. For various reasons I needed the Dojo files inside the nsf rather than on the file system, and if you&#8217;ve had to do that before you&#8217;ll know what a massive [&#8230;]]]></description>
+					<description><![CDATA[I had need to make use of some of the more advanced Dojo Mobile controls for a project last week which ship with Dojo 1.7.2. For&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>I had need to make use of some of the more advanced Dojo Mobile controls for a project last week which ship with Dojo 1.7.2. For various reasons I needed the Dojo files inside the nsf rather than on the file system, and if you&#8217;ve had to do that before you&#8217;ll know what a massive pain it is to get the files loaded. So I thought I&#8217;d share a simple nsf with the files loaded.</p>
 <p>You can either clone the database from Github here: <a href="https://github.com/whitemx/Dojo172XPages">https://github.com/whitemx/Dojo172XPages</a></p>
 <p>Or you can download the nsf here: <a href="http://fcldocs.s3.amazonaws.com/Dojo172.nsf.zip">Dojo172.nsf.zip</a>&nbsp;</p>
@@ -56,7 +56,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2011-8-30-dojo-charts-and-ie-html/</guid>
 
-					<description><![CDATA[I&#8217;ve just spent the better part of three days working on a suite of Dojo Charts for an application. They are usually pretty easy to get going and look as good, if not better than a lot of the flash charting tools out there. But, and there&#8217;s always a but isn&#8217;t there, getting the charts [&#8230;]]]></description>
+					<description><![CDATA[I&#8217;ve just spent the better part of three days working on a suite of Dojo Charts for an application. They are usually pretty easy to get&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>I&#8217;ve just spent the better part of three days working on a suite of Dojo Charts for an application. They are usually pretty easy to get going and look as good, if not better than a lot of the flash charting tools out there. But, and there&#8217;s always a but isn&#8217;t there, getting the charts working in IE can be a real challenge with very little in the way of guidance.</p>
 <p>So here are three tips which I shall pass on learned through bitter experience over the last few days&#8230;</p>
 <p>It may well look as though you can initialise your charts using in line JavaScript and, indeed, it will work absolutely fine in Firefox, Safari, Chrome and other &#8220;modern&#8221; web browser. Not so much with IE. So break your initialisation code into a function and call it from the either the onClientLoad client side event in the XPage or using XSP.addOnLoad(init) depending on your preference.</p>
@@ -83,7 +83,7 @@
 		<category><![CDATA[safari]]></category>
 		<guid isPermaLink="false">/2009-10-19-catch-and-cancel-return-key-press-for-safari-in-xpages-html/</guid>
 
-					<description><![CDATA[The solution to one of the small but annoying bugs in IQJam had eluded me for quite a while, so this morning I resolved to have another go at it after a lazy weekend of feeling ill. And, lo and behold, I managed to fix it. So a little bit of background to the problem, [&#8230;]]]></description>
+					<description><![CDATA[The solution to one of the small but annoying bugs in IQJam had eluded me for quite a while, so this morning I resolved to have&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>The solution to one of the small but annoying bugs in IQJam had eluded me for quite a while, so this morning I resolved to have another go at it after a lazy weekend of feeling ill. And, lo and behold, I managed to fix it.</p>
 <p>So a little bit of background to the problem, when you login to IQJam we provide a login button for you to press after filling in your username and password, but most people are used to just hitting return after finishing typing their password. Unfortunately, this is a case where Safari actually implements internet standards just a little too well. What browsers are meant to do (but none of them except Safari actually do) is submit the form that a text field is in when the user presses the return key.</p>
 <p>Now in most development environments this is pretty easy to fix, you just add a</p>
@@ -130,7 +130,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2009-7-13-dojo-tooltips-html/</guid>
 
-					<description><![CDATA[Tooltips are one of those little features which you rarely have the time to add to your website (beyond the basic title settings of your HTML elements), but do add a surprising amount of polish to your application from your user&#8217;s point of view. In an application that I have been working on recently, we [&#8230;]]]></description>
+					<description><![CDATA[Tooltips are one of those little features which you rarely have the time to add to your website (beyond the basic title settings of your HTML&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>Tooltips are one of those little features which you rarely have the time to add to your website (beyond the basic title settings of your HTML elements), but do add a surprising amount of polish to your application from your user&#8217;s point of view.</p>
 <p>In an application that I have been working on recently, we added some tooltips to convey some specific information on how to use certain features and the extra help went over really well. But how do you add them in XPages?</p>
 <p>Well Dojo is your friend, and more specifically one of the &#8220;dijit&#8221; package of plugins called dijit.ToolTip. So in your XPage you add a computed field with the display type set to HTML. In the value of the field add the following:</p>

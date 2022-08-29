@@ -11,9 +11,9 @@
 	<title>sso &#8211; mattwhite.me</title>
 	<atom:link href="/tag/sso/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:20:08 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -32,7 +32,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2010-10-20-how-to-get-sso-for-facebook-working-with-xpages-html/</guid>
 
-					<description><![CDATA[So, earlier today I posted a short video about a new feature that I&#8217;ve written for IQJam (initially at least, it will be coming to IdeaJam at some point). It allows you to authenticate against a Domino server using Facebook Single Sign On (SSO). Overall this is not for the faint of heart (or the [&#8230;]]]></description>
+					<description><![CDATA[So, earlier today I posted a short video about a new feature that I&#8217;ve written for IQJam (initially at least, it will be coming to IdeaJam&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>So, <a href="http://mattwhite.me/blog/2010/10/20/facebook-sso-to-xpages.html">earlier today I posted a short video about a new feature that I&#8217;ve written for IQJam</a> (initially at least, it will be coming to IdeaJam at some point). It allows you to authenticate against a Domino server using Facebook Single Sign On (SSO).</p>
 <p>Overall this is not for the faint of heart (or the new XPages developer, hence me not going into detail about how what the code is doing etc), there are a lot of moving parts to get things working properly. That being said there is absolutely no reason exactly the same approach couldn&#8217;t be taken with a classic Domino application. All of the server Side Javascript would need to be converted to LotusScript and Java (for the network operations).</p>
 <p>1) Register your application with Facebook here: <a href="http://www.facebook.com/developers/apps.php">http://www.facebook.com/developers/apps.php</a></p>
@@ -356,7 +356,7 @@ function getFBPassword(fbname:NotesName, seed){
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2010-10-20-facebook-sso-to-xpages-html/</guid>
 
-					<description><![CDATA[One of the things I&#8217;ve been playing with this week is getting Facebook SSO working with XPages. It&#8217;s not a true SSO implementation as Domino doesn&#8217;t support OAuth, but from the user&#8217;s point of view they are not having to enter a username and password to get authenticated against a Domino app. I think it&#8217;s [&#8230;]]]></description>
+					<description><![CDATA[One of the things I&#8217;ve been playing with this week is getting Facebook SSO working with XPages. It&#8217;s not a true SSO implementation as Domino doesn&#8217;t&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>One of the things I&#8217;ve been playing with this week is getting Facebook SSO working with XPages. It&#8217;s not a true SSO implementation as Domino doesn&#8217;t support OAuth, but from the user&#8217;s point of view they are not having to enter a username and password to get authenticated against a Domino app. I think it&#8217;s pretty cool&#8230;</p>
 <p><iframe loading="lazy" src="http://player.vimeo.com/video/16016491?byline=0&amp;portrait=0" width="601" height="338" frameborder="0"></iframe></p>
 ]]></content:encoded>

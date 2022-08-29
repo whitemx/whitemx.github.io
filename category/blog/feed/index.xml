@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Blog &#8211; mattwhite.me</title>
+	<atom:link href="/category/blog/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:49 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Eight today</title>
+		<link>/2010-3-30-eight-today-html/</link>
+					<comments>/2010-3-30-eight-today-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 30 Mar 2010 05:00:38 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[blog]]></category>
+		<category><![CDATA[community]]></category>
+		<guid isPermaLink="false">/2010-3-30-eight-today-html/</guid>
+
+					<description><![CDATA[Today is the eighth anniversary of my blogging life. It seems fitting somehow that I&#8217;m at a community event for this as by far the best&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Today is the eighth anniversary of my blogging life. It seems fitting somehow that I&#8217;m at a community event for this as by far the best thing about the blog is all of the great people that I&#8217;ve met through it in some way over the years. So, here&#8217;s to another eight years, and here&#8217;s to the wonderful Lotus community.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-3-30-eight-today-html/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Seven years old today</title>
+		<link>/2009-3-30-seven-years-old-today-html/</link>
+					<comments>/2009-3-30-seven-years-old-today-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 30 Mar 2009 09:06:20 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<guid isPermaLink="false">/2009-3-30-seven-years-old-today-html/</guid>
+
+					<description><![CDATA[On March 30th 2002 I posted on 11TMR for the very first time. Seven years later and the posting frequency may have gone down thanks to&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>On March 30th 2002 I posted on 11TMR for the very first time. Seven years later and the posting frequency may have gone down thanks to the Twitter, but I&#8217;m still here and have no plans on going anywhere else.</p>
+<p>That being said that&#8217;s all for this post!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-3-30-seven-years-old-today-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

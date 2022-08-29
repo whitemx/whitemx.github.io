@@ -11,9 +11,9 @@
 	<title>mattwhite.me</title>
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:18:52 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -29,7 +29,7 @@
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">/2017-9-18-is-it-still-possible-to-muddle-through/</guid>
 
-					<description><![CDATA[I was reading this article while waiting for some code to deploy this morning, and a couple of sentences really leapt out at me&#8230; &#8220;The British way is to muddle through on the basis of vaguely understood traditions and conventions. Our entire culture, from our political constitution to the way we queue, is based on [&#8230;]]]></description>
+					<description><![CDATA[I was reading this article while waiting for some code to deploy this morning, and a couple of sentences really leapt out at me&#8230; &#8220;The British&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>I was reading <a target="_blank" href="https://www.theguardian.com/commentisfree/2017/sep/18/level-playing-field-commuters-british-green-lanes-tube" rel="noopener">this article</a> while waiting for some code to deploy this morning, and a couple of sentences really leapt out at me&#8230;</p>
 <figure >
 <blockquote data-animation-role="quote" 
@@ -57,7 +57,7 @@
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">/2017-9-12-evernote-to-bear/</guid>
 
-					<description><![CDATA[I’ve been an Evernote user for years. But recently it’s been an on and off thing as I get more and more annoyed with their service. The problem is that I keep trying to find something that will do everything I need, find a tool that I think might work and it never quite does [&#8230;]]]></description>
+					<description><![CDATA[I’ve been an Evernote user for years. But recently it’s been an on and off thing as I get more and more annoyed with their service.&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>I’ve been an Evernote user for years. But recently it’s been an on and off thing as I get more and more annoyed with their service. The problem is that I keep trying to find something that will do everything I need, find a tool that I <em>think</em> might work and it never quite does so I crawl back to Evernote with my tail between my legs. </p>
 <p>The issues with Evernote are several, I use it all day long for note taking in meetings, writing blog posts, planning out code changes and so on. Over time, the software has just become a bit too bloated, the editor doesn’t support Markdown which is de rigueur these days, and then there’s the pricing changes, the data leaks. Basically, if I can find something better then I will jump ship.</p>
 <p>Well, I think I may have finally done just that. <a href="http://www.bear-writer.com/">Bear</a> is a much cut down note taking tool, it syncs beautifully across Mac / iOS, supports Markdown and it’s a really nice text editor to use. </p>
@@ -80,7 +80,7 @@
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">/2017-9-1-do-you-know-what-your-users-are-doing/</guid>
 
-					<description><![CDATA[There are levels to this question. I&#8217;m sure most of us that run web apps know to some degree what our users are doing, but, if you have the need, you can find out in real detail what they&#8217;re doing and in what order. Obviously there are paid tools, entire companies that make this their [&#8230;]]]></description>
+					<description><![CDATA[There are levels to this question. I&#8217;m sure most of us that run web apps know to some degree what our users are doing, but, if&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>There are levels to this question. I&#8217;m sure most of us that run web apps know to some degree what our users are doing, but, if you have the need, you can find out in real detail what they&#8217;re doing and in what order.</p>
 <p>Obviously there are paid tools, entire companies that make this their business such as <a href="https://sessioncam.com/">SessionCam</a>. And what they do is great if you have the budget. But what about for those of us with slightly smaller wallets?</p>
 <p>My usual approach to the problem these days is to use <a href="https://analytics.google.com/">Google Analytics</a>&nbsp;(or GA as it is inevitably shortened to). I suspect most people know that you can drop a simple GA JavaScript file onto a web page and any visits to the page will be automatically recorded, analysed to identify what type of user is visiting so that you can get a picture, even real time, of traffic to your site.&nbsp;</p>
@@ -106,7 +106,7 @@
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">/2017-9-1-oh-ah-linting-i-will-go/</guid>
 
-					<description><![CDATA[Often when I talk with developers who are firmly in the C# or Java camp their main objection to JavaScript is that it’s not strongly typed. And indeed, if you’re new to the world of JavaScript, this is a big thing to get over. But there are strategies, best practices if you will, which can [&#8230;]]]></description>
+					<description><![CDATA[Often when I talk with developers who are firmly in the C# or Java camp their main objection to JavaScript is that it’s not strongly typed.&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p><img src="/wp-content/uploads/2022/08/eslint.png" style="float: right; max-width: 350px" /></i></p>
 <p>Often when I talk with developers who are firmly in the C# or Java camp their main objection to JavaScript is that it’s not strongly typed. And indeed, if you’re new to the world of JavaScript, this is a big thing to get over.
 </p>
@@ -149,7 +149,7 @@ Linting your code is not, in itself going to make it great code, but it will be 
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">/2017-8-21-do-you-use-your-own-product/</guid>
 
-					<description><![CDATA[We&#8217;re just back from holidays down in Cornwall and Devon and a lovely time was had by all. A view of Falmouth from one of our walks Of course there has to be one exception: whenever we do any travel in the UK, I rarely carry change with me these days. And so, when parking [&#8230;]]]></description>
+					<description><![CDATA[We&#8217;re just back from holidays down in Cornwall and Devon and a lovely time was had by all. A view of Falmouth from one of our&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>We&#8217;re just back from holidays down in Cornwall and Devon and a lovely time was had by all.</p>
 <figure
           class="
@@ -277,7 +277,7 @@ Linting your code is not, in itself going to make it great code, but it will be 
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">/2017-8-2-three-months-in-with-the-new-macbook-pro/</guid>
 
-					<description><![CDATA[A few months ago our house got burgled. Luckily it was just &#8220;stuff&#8221; that was taken and the insurance companies sorted everything out with remarkably little fuss and bother. One bit of &#8220;stuff&#8221; that went was my work laptop, so I immediately got a new MacBook Pro 15&#8243;, restored my backup and was able to [&#8230;]]]></description>
+					<description><![CDATA[A few months ago our house got burgled. Luckily it was just &#8220;stuff&#8221; that was taken and the insurance companies sorted everything out with remarkably little&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>A few months ago our house got burgled. Luckily it was just &#8220;stuff&#8221; that was taken and the insurance companies sorted everything out with remarkably little fuss and bother.</p>
 <p>One bit of &#8220;stuff&#8221; that went was my work laptop, so I immediately got a new MacBook Pro 15&#8243;, restored my backup and was able to carry on working.</p>
 <div
@@ -347,7 +347,7 @@ Linting your code is not, in itself going to make it great code, but it will be 
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">/2017-7-29-browser-tracking-and-digital-advertising-in-the-modern-era/</guid>
 
-					<description><![CDATA[In the day job, I deal with a lot of interactions between members of the public and ourselves, and our partners. If you&#8217;re in any way involved in working with user data, then you&#8217;ll have heard about GDPR. To be honest, this is quite a new world for me. Even though I&#8217;ve been working in [&#8230;]]]></description>
+					<description><![CDATA[In the day job, I deal with a lot of interactions between members of the public and ourselves, and our partners. If you&#8217;re in any way&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>In the <a target="_blank" href="http://comparethemarket.com/" rel="noopener">day job</a>, I deal with a lot of interactions between members of the public and ourselves, and our partners. If you&#8217;re in any way involved in working with user data, then you&#8217;ll have heard about <a target="_blank" href="http://www.eugdpr.org/" rel="noopener">GDPR</a>.</p>
 <p>To be honest, this is quite a new world for me. Even though I&#8217;ve been working in web development for many many years, it&#8217;s generally been in the business or corporate space where we&#8217;re less concerned about these issues. What I&#8217;ve learned has really opened my eyes to exactly <strong>how</strong>&nbsp;you see those adverts tracking you around the internet and the huge amount of data that various providers know about you to be able to do it.</p>
 <p>The video below is only 30 seconds long, and, to be honest, slightly underplays the number of companies that get to see your profile data as you browse around the internet. But it&#8217;s a good grounding.</p>
@@ -372,7 +372,7 @@ Linting your code is not, in itself going to make it great code, but it will be 
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">/2017-2-16-ibm-connect-goes-to-the-pub/</guid>
 
-					<description><![CDATA[As some people begin their trek to the new venue of IBM Connect in San Francisco over the next couple of days, not all of us are going.&#160; Instead, we decided to host a free beer&#160;event in London to watch the OGS Keynote next Tuesday evening. So, if you&#8217;re in town and want to come [&#8230;]]]></description>
+					<description><![CDATA[As some people begin their trek to the new venue of IBM Connect in San Francisco over the next couple of days, not all of us&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>As some people begin their trek to the new venue of IBM Connect in San Francisco over the next couple of days, not all of us are going.&nbsp;</p>
 <p>Instead, we decided to host a <strong>free beer</strong>&nbsp;event in London to watch the OGS Keynote next Tuesday evening. So, if you&#8217;re in town and want to come along then we&#8217;d love to see you.&nbsp;</p>
 <p>You can <a target="_blank" href="https://www.eventbrite.com/e/ibm-connect-goes-to-the-pub-tickets-31535309961" rel="noopener">register to attend (so that we know you&#8217;re coming) here</a>.</p>
@@ -393,7 +393,7 @@ Linting your code is not, in itself going to make it great code, but it will be 
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">/2016-7-6-xcontrols-170-released/</guid>
 
-					<description><![CDATA[I&#8217;ve been most remiss in not talking more about the XControls project which lets you quickly build an application that will run on desktop, iOS and Android with as little coding required as possible. It&#8217;s the little open source project that just keeps rolling along. As and when I get the chance, I&#8217;ll have a [&#8230;]]]></description>
+					<description><![CDATA[I&#8217;ve been most remiss in not talking more about the XControls project which lets you quickly build an application that will run on desktop, iOS and&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>I&#8217;ve been most remiss in not talking more about the <a target="_blank" href="http://xcontrols.org/" rel="noopener">XControls </a>project which lets you quickly build an application that will run on desktop, iOS and Android with as little coding required as possible.</p>
 <div
         class="
@@ -458,7 +458,7 @@ Linting your code is not, in itself going to make it great code, but it will be 
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">/2016-5-20-jade-bootstrap-pagination-mixin/</guid>
 
-					<description><![CDATA[I&#8217;ve been working on a new node.js application for the last few weeks. It uses LDC Via as a back end, but that is by the by. On the front end I am rendering HTML using Jade and Bootstrap.&#160; As I have the need to display quite a lot of data, I&#8217;m using Bootstrap pagination [&#8230;]]]></description>
+					<description><![CDATA[I&#8217;ve been working on a new node.js application for the last few weeks. It uses LDC Via as a back end, but that is by the&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>I&#8217;ve been working on a new <a target="_blank" href="http://nodejs.org/" rel="noopener">node.js</a> application for the last few weeks. It uses <a target="_blank" href="http://ldcvia.com/" rel="noopener">LDC Via</a> as a back end, but that is by the by. On the front end I am rendering HTML using <a target="_blank" href="http://jade-lang.com/" rel="noopener">Jade</a> and <a target="_blank" href="http://getbootstrap.com/" rel="noopener">Bootstrap</a>.&nbsp;</p>
 <p>As I have the need to display quite a lot of data, I&#8217;m using <a target="_blank" href="http://getbootstrap.com/components/#pagination" rel="noopener">Bootstrap pagination</a> and had need to make a re-usable &#8220;<a target="_blank" href="http://jade-lang.com/reference/mixins/" rel="noopener">mixin</a>&#8221; that I can insert into many different pages. There are a <a target="_blank" href="https://gist.github.com/backus/5087360" rel="noopener">few examples</a> out there on t&#8217;internet that do this, but none that did exactly what I needed, so I&#8217;ve created by own.</p>
 <p><script src="https://gist.github.com/whitemx/b1aa6ab27349ed83f8c0851a5b36b4b5.js"></script></p>

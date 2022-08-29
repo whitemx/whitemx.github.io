@@ -11,9 +11,9 @@
 	<title>community &#8211; mattwhite.me</title>
 	<atom:link href="/tag/community/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -31,7 +31,7 @@
 		<category><![CDATA[community]]></category>
 		<guid isPermaLink="false">/2010-3-30-eight-today-html/</guid>
 
-					<description><![CDATA[Today is the eighth anniversary of my blogging life. It seems fitting somehow that I&#8217;m at a community event for this as by far the best thing about the blog is all of the great people that I&#8217;ve met through it in some way over the years. So, here&#8217;s to another eight years, and here&#8217;s [&#8230;]]]></description>
+					<description><![CDATA[Today is the eighth anniversary of my blogging life. It seems fitting somehow that I&#8217;m at a community event for this as by far the best&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>Today is the eighth anniversary of my blogging life. It seems fitting somehow that I&#8217;m at a community event for this as by far the best thing about the blog is all of the great people that I&#8217;ve met through it in some way over the years. So, here&#8217;s to another eight years, and here&#8217;s to the wonderful Lotus community.</p>
 ]]></content:encoded>
 					
@@ -53,7 +53,7 @@
 		<category><![CDATA[review]]></category>
 		<guid isPermaLink="false">/2009-12-28-review-of-the-year-2009-html/</guid>
 
-					<description><![CDATA[Every year, for the last several, I&#8217;ve done a blog post sometime between Christmas and New Year that wraps up my life over the previous 12 months. Normally there has been some big change, but this year has been more evolutionary than revolutionary. As ever, the year started with Lotusphere, but it was a very [&#8230;]]]></description>
+					<description><![CDATA[Every year, for the last several, I&#8217;ve done a blog post sometime between Christmas and New Year that wraps up my life over the previous 12&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>Every year, for the last several, I&#8217;ve done a blog post sometime between Christmas and New Year that wraps up my life over the previous 12 months. Normally there has been some big change, but this year has been more evolutionary than revolutionary.</p>
 <p>As ever, the year started with Lotusphere, but it was a very different one for me for two reasons, I was speaking for the first time and it was a great (if pant wettingly scary) experience, one that I hope to continue for a few years to come. Indeed <a href="http://blog.tc-soft.com/">Tim Clark</a> and I will be presenting in less than three weeks at Lotusphere 2010. The other big change at Lotusphere 2009 was that <a href="http://elguji.com/">Elguji</a> had a stand on the Showcase floor. It gives a totally different view on the proceedings, still great fun of course, and also something that we&#8217;ll be repeating in a few weeks time.</p>
 <p>The public speaking continued on a couple of fronts throughout the year with sessions at The View Developer 2009, IamLUG and UKLUG. All great events in their own way. The user group scene continues to expand and get better every year. There are several European groups that I&#8217;m going to try and get to during 2010. The speaking is the biggest new thing for me this year. If you&#8217;re unsure about getting started, all I can say is that I highly recommend it. And this is coming from an introvert who was pathologically scared of public speaking until recently.</p>

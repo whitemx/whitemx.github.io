@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Dojo &#8211; mattwhite.me</title>
+	<atom:link href="/category/dojo/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:29:48 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>dojo.io.bind and Rich Text</title>
+		<link>/2007-2-28-dojoiobind-and-rich-text-html/</link>
+					<comments>/2007-2-28-dojoiobind-and-rich-text-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 28 Feb 2007 12:14:24 +0000</pubDate>
+				<category><![CDATA[Dojo]]></category>
+		<guid isPermaLink="false">/2007-2-28-dojoiobind-and-rich-text-html/</guid>
+
+					<description><![CDATA[I&#8217;m playing around with Dojo a lot at the moment and it&#8217;s getting better by the week but there are still &#8220;hinky&#8221; areas. One of the&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;m playing around with <a href="http://dojotoolkit.org/">Dojo</a> a lot at the moment and it&#8217;s getting better by the week but there are still &#8220;hinky&#8221; areas. One of the things which has been really bugging me is using dojo.io.bind in conjunction with the Editor2 widget against a textarea. (I think we&#8217;ve all been there haven&#8217;t we!)</p>
+<p>If you run the widget against a textarea and submit normally then all works fine but there seems to be a bug in the binding of the widget and the textarea when submitting asynchronously. So to get around this you should simply use the following line before you call dojo.io.bind: </p>
+<blockquote><p>
+dojo.byId(&#8220;mytextarea&#8221;).value = dojo.widget.byId(&#8220;mytextarea&#8221;).getEditorContent();
+</p></blockquote>
+<p>But whenever I have tried that I get a null or object not found error in IE and Firefox so after a <i>lot</i> of reading I&#8217;ve come up with this as an alternative:</p>
+<blockquote><p>
+dojo.byId(&#8220;mytextarea&#8221;).value = dojo.widget.byId(&#8220;mytextarea&#8221;)._richText.<br />editNode.innerHTML;
+</p></blockquote>
+<p>As ever with Dojo it&#8217;s constantly changing so I&#8217;m not sure how long my hack will work (or indeed when the underlying bug will be fixed) but as of 0.4.1 today it seems to get around the problem.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-2-28-dojoiobind-and-rich-text-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

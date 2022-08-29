@@ -11,9 +11,9 @@
 	<title>ajax &#8211; mattwhite.me</title>
 	<atom:link href="/tag/ajax/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -32,7 +32,7 @@
 		<category><![CDATA[ideajam]]></category>
 		<guid isPermaLink="false">/2010-2-25-be-very-careful-with-your-content-type-for-chrome-ajax-reque-html/</guid>
 
-					<description><![CDATA[We released the first beta for IdeaJam 1.7 today. There are *tons* of changes under the covers including the new MooTools 1.2 framework, on which you can expect more later this week. But for the moment, I thought I&#8217;d pass along one little tip which we ran into. Inevitably during our own testing we had [&#8230;]]]></description>
+					<description><![CDATA[We released the first beta for IdeaJam 1.7 today. There are *tons* of changes under the covers including the new MooTools 1.2 framework, on which you&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>We released the first beta for <a href="http://ideajam.net/">IdeaJam 1.7</a> today. There are *tons* of changes under the covers including the new MooTools 1.2 framework, on which you can expect more later this week.</p>
 <p>But for the moment, I thought I&#8217;d pass along one little tip which we ran into. Inevitably during our own testing we had missed this bug. When you&#8217;re in an idea you can &#8220;Click to show votes&#8221; and what happens behind the scenes is that an Ajax request is fired off to our votes database, an agent runs and send back a list of the votes related to that idea, when they were cast, who by and so on. That agent had been set up with the following code at the start:</p>
 <blockquote>

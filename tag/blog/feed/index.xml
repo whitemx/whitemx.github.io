@@ -11,9 +11,9 @@
 	<title>blog &#8211; mattwhite.me</title>
 	<atom:link href="/tag/blog/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:24:39 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -31,7 +31,7 @@
 		<category><![CDATA[community]]></category>
 		<guid isPermaLink="false">/2010-3-30-eight-today-html/</guid>
 
-					<description><![CDATA[Today is the eighth anniversary of my blogging life. It seems fitting somehow that I&#8217;m at a community event for this as by far the best thing about the blog is all of the great people that I&#8217;ve met through it in some way over the years. So, here&#8217;s to another eight years, and here&#8217;s [&#8230;]]]></description>
+					<description><![CDATA[Today is the eighth anniversary of my blogging life. It seems fitting somehow that I&#8217;m at a community event for this as by far the best&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>Today is the eighth anniversary of my blogging life. It seems fitting somehow that I&#8217;m at a community event for this as by far the best thing about the blog is all of the great people that I&#8217;ve met through it in some way over the years. So, here&#8217;s to another eight years, and here&#8217;s to the wonderful Lotus community.</p>
 ]]></content:encoded>
 					
@@ -52,7 +52,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2009-7-12-new-xpages-blog-html/</guid>
 
-					<description><![CDATA[Bruce (ever trying new things) has gathered together a few people who are using XPages a lot in their day jobs to form a group blog over at xpagesblog.com. Hopefully over the next weeks and months we can put together a really good library of XPages news, development techniques, tip and tricks for the community [&#8230;]]]></description>
+					<description><![CDATA[Bruce (ever trying new things) has gathered together a few people who are using XPages a lot in their day jobs to form a group blog&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p><a href="http://bruceelgort.com/">Bruce</a> (ever trying new things) has gathered together a few people who are using XPages a lot in their day jobs to form a group blog over at <a href="http://xpagesblog.com/">xpagesblog.com</a>. Hopefully over the next weeks and months we can put together a really good library of XPages news, development techniques, tip and tricks for the community to use.</p>
 <p>There&#8217;s already some good stuff up there, so it&#8217;s well worth a look.</p>
 ]]></content:encoded>

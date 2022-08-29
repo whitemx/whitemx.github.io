@@ -11,9 +11,9 @@
 	<title>tooltip &#8211; mattwhite.me</title>
 	<atom:link href="/tag/tooltip/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:24:39 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -32,7 +32,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2009-7-13-dojo-tooltips-html/</guid>
 
-					<description><![CDATA[Tooltips are one of those little features which you rarely have the time to add to your website (beyond the basic title settings of your HTML elements), but do add a surprising amount of polish to your application from your user&#8217;s point of view. In an application that I have been working on recently, we [&#8230;]]]></description>
+					<description><![CDATA[Tooltips are one of those little features which you rarely have the time to add to your website (beyond the basic title settings of your HTML&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>Tooltips are one of those little features which you rarely have the time to add to your website (beyond the basic title settings of your HTML elements), but do add a surprising amount of polish to your application from your user&#8217;s point of view.</p>
 <p>In an application that I have been working on recently, we added some tooltips to convey some specific information on how to use certain features and the extra help went over really well. But how do you add them in XPages?</p>
 <p>Well Dojo is your friend, and more specifically one of the &#8220;dijit&#8221; package of plugins called dijit.ToolTip. So in your XPage you add a computed field with the display type set to HTML. In the value of the field add the following:</p>

@@ -11,9 +11,9 @@
 	<title>bugs &#8211; mattwhite.me</title>
 	<atom:link href="/tag/bugs/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:20:08 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -34,7 +34,7 @@
 		<category><![CDATA[iframe]]></category>
 		<guid isPermaLink="false">/2011-10-13-yet-another-day-wasted-on-ie-html/</guid>
 
-					<description><![CDATA[I&#8217;ve just spent more than eight hours working on a single bug in IE. In a classic Domino web application which I work on, we have a complex form which was working just fine when we developed and tested it. But then users started reporting their Internet Explorer clients were hanging intermittently. We finally got [&#8230;]]]></description>
+					<description><![CDATA[I&#8217;ve just spent more than eight hours working on a single bug in IE. In a classic Domino web application which I work on, we have&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>I&#8217;ve just spent more than eight hours working on a single bug in IE.</p>
 <p>In a classic Domino web application which I work on, we have a complex form which was working just fine when we developed and tested it. But then users started reporting their Internet Explorer clients were hanging intermittently. We finally got a test case where we could reproduce the problem.</p>
 <p>When the user selected an option from a combo box, a new row is added to a table and displayed for them to fill in some data which is required. Nothing too odd there. And again this worked fine for us, until we opened the form inside an iFrame. Our application is part of a much larger application and the end user doesn&#8217;t know that when they click a certain link they are suddenly running on a Domino server inside the iFrame.</p>
@@ -64,7 +64,7 @@
 		<category><![CDATA[tips]]></category>
 		<guid isPermaLink="false">/2010-9-2-a-small-tip-for-upgrading-your-xpages-apps-from-851-to-852-html/</guid>
 
-					<description><![CDATA[If you have been using Stephan Wissel&#8217;s &#8220;Web Agents, XPages Style&#8221; technique for outputting non-HTML content from your XPages, you may run into a problem when you upgrade your server to 8.5.2. In the original afterRenderResponse sample code, you would use something like&#8230; try{ var exCon = facesContext.getExternalContext(); var writer = facesContext.getResponseWriter(); var response = [&#8230;]]]></description>
+					<description><![CDATA[If you have been using Stephan Wissel&#8217;s &#8220;Web Agents, XPages Style&#8221; technique for outputting non-HTML content from your XPages, you may run into a problem when&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>If you have been using Stephan Wissel&#8217;s &#8220;<a href="http://www.wissel.net/blog/d6plinks/SHWL-7MGFBN">Web Agents, XPages Style</a>&#8221; technique for outputting non-HTML content from your XPages, you may run into a problem when you upgrade your server to 8.5.2.</p>
 <p>In the original afterRenderResponse sample code, you would use something like&#8230;</p>
 <pre style="font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; color: #000000; background-color: #eee; font-size: 12px; border: 1px dashed #999999; line-height: 14px; padding: 5px; overflow: auto; width: 100%;"><code>try{

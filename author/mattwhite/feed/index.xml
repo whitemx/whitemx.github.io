@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>mattwhite &#8211; mattwhite.me</title>
+	<atom:link href="/author/mattwhite/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:18:52 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Is it still possible to muddle through?</title>
+		<link>/2017-9-18-is-it-still-possible-to-muddle-through/</link>
+					<comments>/2017-9-18-is-it-still-possible-to-muddle-through/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 18 Sep 2017 11:35:34 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/2017-9-18-is-it-still-possible-to-muddle-through/</guid>
+
+					<description><![CDATA[I was reading this article while waiting for some code to deploy this morning, and a couple of sentences really leapt out at me&#8230; &#8220;The British&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I was reading <a target="_blank" href="https://www.theguardian.com/commentisfree/2017/sep/18/level-playing-field-commuters-british-green-lanes-tube" rel="noopener">this article</a> while waiting for some code to deploy this morning, and a couple of sentences really leapt out at me&#8230;</p>
+<figure >
+<blockquote data-animation-role="quote" 
+<p>    data-animation-override><br />
+    <span>&#8220;</span>The British way is to muddle through on the basis of vaguely understood traditions and conventions. Our entire culture, from our political constitution to the way we queue, is based on that principle of minimal principles.<span>&#8221;</span><br />
+  </blockquote><figcaption class="source">&mdash; https://www.theguardian.com/commentisfree/2017/sep/18/level-playing-field-commuters-british-green-lanes-tube</figcaption></figure>
+<p>The same has been true in the IT world, or at least my IT world, for the longest time. Getting code from my machine into production is never a consistent process. It depends where I&#8217;m working, what regulatory framework is in place, what technology is being used, how advanced the organisation is.</p>
+<p>In my current job we use a lot of the latest and greatest technologies: node.js, microservices, Docker, Kubernetes, Splunk and so on. And the philosophy we try and adopt is called &#8220;build, run, own&#8221;. That is, you take ownership over every element of the code you write, from conception through to support.&nbsp;</p>
+<p>It&#8217;s a good theory, but every so often we get stuck. I do own my code, but someone else owns the Kubernetes platform, a different team is responsible for splunk and they don&#8217;t all necessarily do the right thing, especially in test environments.&nbsp;In some environments I&#8217;d have the ability work around these sorts of problems &#8211; muddling through &#8211; but it is not possible in this highly connected architecture where various elements present themselves as black boxes.&nbsp;</p>
+<p>It makes for some interesting challenges and dependencies and means that muddling through is no longer an option. The positive is, or at least should be, that, because we have to do everything within well known, tightly defined constraints, that when my code finally reaches production it is far more stable.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2017-9-18-is-it-still-possible-to-muddle-through/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Evernote to Bear</title>
+		<link>/2017-9-12-evernote-to-bear/</link>
+					<comments>/2017-9-12-evernote-to-bear/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 12 Sep 2017 08:22:00 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/2017-9-12-evernote-to-bear/</guid>
+
+					<description><![CDATA[I’ve been an Evernote user for years. But recently it’s been an on and off thing as I get more and more annoyed with their service.&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I’ve been an Evernote user for years. But recently it’s been an on and off thing as I get more and more annoyed with their service. The problem is that I keep trying to find something that will do everything I need, find a tool that I <em>think</em> might work and it never quite does so I crawl back to Evernote with my tail between my legs. </p>
+<p>The issues with Evernote are several, I use it all day long for note taking in meetings, writing blog posts, planning out code changes and so on. Over time, the software has just become a bit too bloated, the editor doesn’t support Markdown which is de rigueur these days, and then there’s the pricing changes, the data leaks. Basically, if I can find something better then I will jump ship.</p>
+<p>Well, I think I may have finally done just that. <a href="http://www.bear-writer.com/">Bear</a> is a much cut down note taking tool, it syncs beautifully across Mac / iOS, supports Markdown and it’s a really nice text editor to use. </p>
+<p>The only issue I struggled with so far was bringing across tags and notebooks from Evernote. There is no concept of a notebook in Bear (that I can see), but you can &#8220;sub tag&#8221; content. So you&#8217;ll need to work out a strategy to bring across your Evernote documents. For me it was a case of doing it a notebook at a time, but YMMV. </p>
+<p>So, for the moment, this is what I’m trying out. Do you have any better suggestions?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2017-9-12-evernote-to-bear/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Do you know what your users are doing?</title>
+		<link>/2017-9-1-do-you-know-what-your-users-are-doing/</link>
+					<comments>/2017-9-1-do-you-know-what-your-users-are-doing/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 05 Sep 2017 09:43:00 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/2017-9-1-do-you-know-what-your-users-are-doing/</guid>
+
+					<description><![CDATA[There are levels to this question. I&#8217;m sure most of us that run web apps know to some degree what our users are doing, but, if&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>There are levels to this question. I&#8217;m sure most of us that run web apps know to some degree what our users are doing, but, if you have the need, you can find out in real detail what they&#8217;re doing and in what order.</p>
+<p>Obviously there are paid tools, entire companies that make this their business such as <a href="https://sessioncam.com/">SessionCam</a>. And what they do is great if you have the budget. But what about for those of us with slightly smaller wallets?</p>
+<p>My usual approach to the problem these days is to use <a href="https://analytics.google.com/">Google Analytics</a>&nbsp;(or GA as it is inevitably shortened to). I suspect most people know that you can drop a simple GA JavaScript file onto a web page and any visits to the page will be automatically recorded, analysed to identify what type of user is visiting so that you can get a picture, even real time, of traffic to your site.&nbsp;</p>
+<p>What&#8217;s maybe less well known is that you can actually use that GA JavaScript to record events on your page so that you can really drill down into what is happening once the user loads the page.</p>
+<blockquote><p>ga(&#8216;send&#8217;, &#8216;event&#8217;, &#8216;MySuperPage_OKButton&#8217;, &#8216;Clicked&#8217;);</p></blockquote>
+<p>If you add the above line to the onclick event on a button on your page then, in your GA analysis you&#8217;ll be able to see how often that particular button is clicked. And, really, you can track everything that the user does, every single key press, click and page load.&nbsp;</p>
+<p>Well whoop-de-do you might say. That&#8217;s a lot of data, but what use is it? Well, imagine you&#8217;re adding or testing a new feature, wouldn&#8217;t it be good to know how often it&#8217;s actually being used. Or you may need to keep an eye on the volume of usage for a particular feature. Or your management may want to understand better how far through a process people are getting before dropping out. The point is that having more data is very rarely a bad thing and the development cost of adding this to an application is surprisingly low.</p>
+<p>The question really is why you wouldn&#8217;t do something like this for an application.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2017-9-1-do-you-know-what-your-users-are-doing/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Oh, ah-linting I will go</title>
+		<link>/2017-9-1-oh-ah-linting-i-will-go/</link>
+					<comments>/2017-9-1-oh-ah-linting-i-will-go/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 01 Sep 2017 13:42:56 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/2017-9-1-oh-ah-linting-i-will-go/</guid>
+
+					<description><![CDATA[Often when I talk with developers who are firmly in the C# or Java camp their main objection to JavaScript is that it’s not strongly typed.&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p><img src="/wp-content/uploads/2022/08/eslint.png" style="float: right; max-width: 350px" /></i></p>
+<p>Often when I talk with developers who are firmly in the C# or Java camp their main objection to JavaScript is that it’s not strongly typed. And indeed, if you’re new to the world of JavaScript, this is a big thing to get over.
+</p>
+<p>
+  But there are strategies, best practices if you will, which can make the transition easier. One I thought worth mentioning is <a href="https://eslint.org/">ESLint</a>. This is a process whereby you statically validate your code to make sure it adheres to a set of rules you define. These rules can be as lax or strict as you like, but, applied properly they make your code more supportable, more readable and less error-prone.
+</p>
+<p>
+  So, how to get started I hear you ask? A lot depends on your working environment. If you use a modern editor like VS Code, Atom or Sublime Text then there will be a plugin you can install to help you along. In your project, you add a <code>.eslintrc</code> file which defines the rules you want to apply and then you look, with horror, at the hundreds of errors that have suddenly appeared in your code.
+</p>
+<p>
+But fear not, things aren’t as bad as they appear. Your ESLint plugin will probably have a command to automatically fix “easily fixable issues” such as using single quotes rather than double quotes for strings, or indentation of your code. Once these are all addressed you can fix the rest of the issues manually, and relatively quickly.
+</p>
+<p>
+I’ve recently completed this exercise with a large code base primarily because we want to put some focus on performance: if I have code that is predictably organised, then this makes the process a lot easier.
+</p>
+<p>
+A great side effect is that the rest of the developers on the team can pick up the code I’ve been butchering and immediately have some familiarity with the style.
+</p>
+<p>
+  The most popular eslint configuration is published by <a href="https://github.com/airbnb/javascript">AirBnB as an open source project</a>. It’s a great starting point, but the beauty of these configurations is that if you don’t like a rule then you can simply turn it off. Or, on a case by case basis you can also turn off the rule in your code. As an example, <a href="http://blog.ldcvia.com/assets/files/eslintrc-demo.txt">here is the LDC Via <code>.eslintrc</code> file</a>.
+</p>
+<p>
+Linting your code is not, in itself going to make it great code, but it will be a big help to you and, at the end of the day you can go home with a slightly smug feeling that you’ve gone that extra step to be a good programmer. And who doesn’t like to feel a bit smug sometimes?
+</p>
+<p><small>This blog post was originally published on <a href="http://blog.ldcvia.com/">blog.ldcvia.com</a>.</small></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2017-9-1-oh-ah-linting-i-will-go/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Do you use your own product?</title>
+		<link>/2017-8-21-do-you-use-your-own-product/</link>
+					<comments>/2017-8-21-do-you-use-your-own-product/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 21 Aug 2017 19:36:21 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/2017-8-21-do-you-use-your-own-product/</guid>
+
+					<description><![CDATA[We&#8217;re just back from holidays down in Cornwall and Devon and a lovely time was had by all. A view of Falmouth from one of our&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>We&#8217;re just back from holidays down in Cornwall and Devon and a lovely time was had by all.</p>
+<figure
+          class="
+            sqs-block-image-figure
+            image-block-outer-wrapper
+            image-block-v2
+            design-layout-overlap
+            
+            
+            
+            image-position-left
+            
+          "
+          data-scrolled
+          data-test="image-block-v2-outer-wrapper"
+      ></p>
+<div class="intrinsic">
+<div
+          
+              class="
+                
+                image-inset"
+              data-animation-role="image"
+              data-description=""
+              
+  data-animation-override
+
+          ></p>
+<div class="sqs-image-shape-container-element
+              
+                content-fit
+              
+            " style="
+              position: relative;
+              overflow: hidden;
+              
+            "><br />
+              <noscript><img class="sqs-image-min-height" src="/wp-content/uploads/2022/08/img_6308e3873cce0.jpg" alt="View of Falmouth" loading="lazy"/></noscript><br />
+              <img class="sqs-image-min-height" src="/wp-content/uploads/2022/08/img_6308e3873cce0.jpg" data-image="/wp-content/uploads/2022/08/img_6308e3873cce0.jpg" data-image-dimensions="2500x1875" data-image-focal-point="0.5,0.5" alt="View of Falmouth"  loading="lazy"/></p>
+<div class="image-overlay" style="overflow: hidden;"></div>
+</p></div>
+</p></div>
+</p></div><figcaption class="image-card-wrapper" data-width-ratio>
+<div class="image-card sqs-dynamic-text-container">
+<div class="image-subtitle-wrapper">
+<div class="image-subtitle sqs-dynamic-text"
+                
+  data-animation-override
+></p>
+<p>A view of Falmouth from one of our walks</p>
+</div>
+</div></div>
+</figcaption></figure>
+<p>Of course there has to be one exception: whenever we do any travel in the UK, I rarely carry change with me these days. And so, when parking the car, we rely on the various mobile parking apps to pay for our spaces.</p>
+<figure
+          class="
+            sqs-block-image-figure
+            image-block-outer-wrapper
+            image-block-v2
+            design-layout-card
+            
+            
+            
+            image-position-left
+            
+          "
+          data-scrolled
+          data-test="image-block-v2-outer-wrapper"
+      ></p>
+<div class="intrinsic">
+<div
+          
+              class="
+                
+                image-inset"
+              data-animation-role="image"
+              data-description=""
+              
+  data-animation-override
+
+          ></p>
+<div class="sqs-image-shape-container-element
+              
+                content-fit
+              
+            " style="
+              position: relative;
+              overflow: hidden;
+              
+            "><br />
+              <noscript><img class="sqs-image-min-height" src="/wp-content/uploads/2022/08/Parkingapps.png" alt="Parkingapps.png" loading="lazy"/></noscript><br />
+              <img class="sqs-image-min-height" src="/wp-content/uploads/2022/08/Parkingapps.png" data-image="/wp-content/uploads/2022/08/Parkingapps.png" data-image-dimensions="1242x2208" data-image-focal-point="0.5,0.5" alt="Parkingapps.png"  loading="lazy"/></p>
+<div class="image-overlay" style="overflow: hidden;"></div>
+</p></div>
+</p></div>
+</p></div><figcaption class="image-card-wrapper" data-width-ratio>
+<div class="image-card sqs-dynamic-text-container">
+<div class="image-subtitle-wrapper">
+<div class="image-subtitle sqs-dynamic-text"
+                
+  data-animation-override
+></p>
+<p>After a couple of weeks away, I end up with a page of parking apps installed like this.</p>
+</div>
+</div></div>
+</figcaption></figure>
+<p>Some of the apps have nice features, but not one of them is actually staying on my phone now that I&#8217;m home.</p>
+<p>And what&#8217;s the point of this post? Well, not a single one of the many different parking apps that I&#8217;ve installed, used and then deleted as quickly as possible over the years is any good to use. The registration process is awful and opaque. You have to enter your name, a card type (why?), a card number, expiration date, CVC and only then is validation run and a single mistake clears out all the fields and you have to start again.</p>
+<p>I&#8217;ve reached the point where I&#8217;m pretty sure that the people responsible for the apps have ever actually tried to use them, while standing in a car park, in the rain, with impatient children tugging at your shirt because they want to get to the beach. NOW!</p>
+<p>If you write apps that people have to use in sub optimal locations, as opposed to behind your desk with fast wifi, please, please, please think about how they will be used in the real world. Even if the app will be used from the comfort of a sofa, why not actually try using it for real yourself before inflicting it on the rest of the world?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2017-8-21-do-you-use-your-own-product/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Three months in with the new MacBook Pro</title>
+		<link>/2017-8-2-three-months-in-with-the-new-macbook-pro/</link>
+					<comments>/2017-8-2-three-months-in-with-the-new-macbook-pro/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 02 Aug 2017 06:51:46 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/2017-8-2-three-months-in-with-the-new-macbook-pro/</guid>
+
+					<description><![CDATA[A few months ago our house got burgled. Luckily it was just &#8220;stuff&#8221; that was taken and the insurance companies sorted everything out with remarkably little&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>A few months ago our house got burgled. Luckily it was just &#8220;stuff&#8221; that was taken and the insurance companies sorted everything out with remarkably little fuss and bother.</p>
+<p>One bit of &#8220;stuff&#8221; that went was my work laptop, so I immediately got a new MacBook Pro 15&#8243;, restored my backup and was able to carry on working.</p>
+<div
+        class="
+          image-block-outer-wrapper
+          layout-caption-hidden
+          design-layout-inline
+          
+          
+          
+        "
+        data-test="image-block-inline-outer-wrapper"
+    ></p>
+<figure
+            class="
+              sqs-block-image-figure
+              intrinsic
+            "
+            style="max-width:452px;"
+        ></p>
+<div
+              
+              
+              class="image-block-wrapper"
+              data-animation-role="image"
+              
+  data-animation-override
+
+          ></p>
+<div class="sqs-image-shape-container-element
+              
+          
+        
+              has-aspect-ratio
+            " style="
+                position: relative;
+                
+                  padding-bottom:92.035400390625%;
+                
+                overflow: hidden;
+              "
+              ><br />
+              <noscript><img src="/wp-content/uploads/2022/08/mbp15touch-gray-select-201610.jpg" alt="mbp15touch-gray-select-201610.jpg" /></noscript><img class="thumb-image" src="/wp-content/uploads/2022/08/mbp15touch-gray-select-201610.jpg" data-image="/wp-content/uploads/2022/08/mbp15touch-gray-select-201610.jpg" data-image-dimensions="452x420" data-image-focal-point="0.5,0.5" alt="mbp15touch-gray-select-201610.jpg" data-load="false" data-image-id="5981735dc534a57a0927cc5b" data-type="image" />
+            </div>
+</p></div>
+</figure></div>
+<p>The problem is that I&#8217;m still not feeling like I&#8217;m able to work as well as I was on the old machine. Now, admittedly that old machine had had the same design for several years, but everything about it was just good, the keyboard, the ports, everything really.</p>
+<p>Not so much with the new design. The first, and still most notably annoying thing to me is the keyboard. I simply cannot type with the same speed and reliability as I can on other keyboards, I don&#8217;t know what it is about it; maybe the lack of travel on the keys, or that they&#8217;re bigger than before, or that aesthetically they show every bit of human contact in the form of fingerprints,&nbsp;or that it seems to be incredibly noisy when I&#8217;m bashing out long form text. I&#8217;m getting to the point where I&#8217;m considering getting an external keyboard and carrying that around with me, which would be insane.</p>
+<p>The trackpad is also too big. Until using this laptop, I had never encountered the situation where, by resting my hands below the keyboard I&#8217;d mistakenly move the mouse while typing, but now it happens regularly.</p>
+<p>Likewise with the silly gimmick that is the touchbar where there should be function keys. It&#8217;s very much a case of &#8220;you don&#8217;t know what you&#8217;ve got &#8217;til it&#8217;s gone&#8221;. Apparently I used the F keys more often than I realised and swapping them out for typeahead suggestions that would take me longer to touch than simply typing the word feels like a step back to me.</p>
+<p>It&#8217;s not all bad, the screen is lovely and larger than before, but still no touch? Seems like a missed opportunity to me when compared to Windows 10. And the battery life is pretty amazing, I actually have travel days where I don&#8217;t plug into the mains the whole day and still have 20% battery left, and that&#8217;s without dialling down any settings or using it any less hard than I normally would.</p>
+<p>All in all, if I were to buy a new laptop today I would end up buying a Windows machine; a Lenovo or a Surface over a MacBook Pro. I&#8217;ve not really been able to say that for well over ten years and it makes me sad.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2017-8-2-three-months-in-with-the-new-macbook-pro/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Browser tracking and digital advertising in the modern era</title>
+		<link>/2017-7-29-browser-tracking-and-digital-advertising-in-the-modern-era/</link>
+					<comments>/2017-7-29-browser-tracking-and-digital-advertising-in-the-modern-era/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sat, 29 Jul 2017 19:38:26 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/2017-7-29-browser-tracking-and-digital-advertising-in-the-modern-era/</guid>
+
+					<description><![CDATA[In the day job, I deal with a lot of interactions between members of the public and ourselves, and our partners. If you&#8217;re in any way&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>In the <a target="_blank" href="http://comparethemarket.com/" rel="noopener">day job</a>, I deal with a lot of interactions between members of the public and ourselves, and our partners. If you&#8217;re in any way involved in working with user data, then you&#8217;ll have heard about <a target="_blank" href="http://www.eugdpr.org/" rel="noopener">GDPR</a>.</p>
+<p>To be honest, this is quite a new world for me. Even though I&#8217;ve been working in web development for many many years, it&#8217;s generally been in the business or corporate space where we&#8217;re less concerned about these issues. What I&#8217;ve learned has really opened my eyes to exactly <strong>how</strong>&nbsp;you see those adverts tracking you around the internet and the huge amount of data that various providers know about you to be able to do it.</p>
+<p>The video below is only 30 seconds long, and, to be honest, slightly underplays the number of companies that get to see your profile data as you browse around the internet. But it&#8217;s a good grounding.</p>
+<p><iframe loading="lazy" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" src="https://fast.wistia.com/embed/iframe/znh6y05b3f" width="480" height="270"></iframe></p>
+<p>GDPR is going to shake up a lot of how this all works and I don&#8217;t think there is really a plan for how internet advertising is going to work after May 2018, but, in the meantime it&#8217;s worth visiting <a target="_blank" href="http://www.youronlinechoices.com/uk/your-ad-choices" rel="noopener">YourOnlineChoices.eu</a>&nbsp;in the short term to see what&#8217;s being tracked in your browser.</p>
+<p>The service there is a voluntary one which the main players in digital media have signed up to. It allows you to opt out of being offered adverts by different providers. So, if you opt out of everything there, then, often you&#8217;ll see far less advertising as you browse.</p>
+<p>If you want a good grounding in the GDPR space, then <a target="_blank" href="https://twitter.com/muenzpraeger" rel="noopener">Rene</a> linked to an excellent set of pages offered by his employer, <a target="_blank" href="https://trailhead.salesforce.com/en/trails/learn-privacy-and-data-protection-law/modules/european-union-privacy-law-basics" rel="noopener">Salesforce</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2017-7-29-browser-tracking-and-digital-advertising-in-the-modern-era/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>IBM Connect goes to the pub</title>
+		<link>/2017-2-16-ibm-connect-goes-to-the-pub/</link>
+					<comments>/2017-2-16-ibm-connect-goes-to-the-pub/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 16 Feb 2017 14:50:51 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/2017-2-16-ibm-connect-goes-to-the-pub/</guid>
+
+					<description><![CDATA[As some people begin their trek to the new venue of IBM Connect in San Francisco over the next couple of days, not all of us&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>As some people begin their trek to the new venue of IBM Connect in San Francisco over the next couple of days, not all of us are going.&nbsp;</p>
+<p>Instead, we decided to host a <strong>free beer</strong>&nbsp;event in London to watch the OGS Keynote next Tuesday evening. So, if you&#8217;re in town and want to come along then we&#8217;d love to see you.&nbsp;</p>
+<p>You can <a target="_blank" href="https://www.eventbrite.com/e/ibm-connect-goes-to-the-pub-tickets-31535309961" rel="noopener">register to attend (so that we know you&#8217;re coming) here</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2017-2-16-ibm-connect-goes-to-the-pub/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>XControls 1.7.0 Released</title>
+		<link>/2016-7-6-xcontrols-170-released/</link>
+					<comments>/2016-7-6-xcontrols-170-released/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 06 Jul 2016 20:49:26 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/2016-7-6-xcontrols-170-released/</guid>
+
+					<description><![CDATA[I&#8217;ve been most remiss in not talking more about the XControls project which lets you quickly build an application that will run on desktop, iOS and&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;ve been most remiss in not talking more about the <a target="_blank" href="http://xcontrols.org/" rel="noopener">XControls </a>project which lets you quickly build an application that will run on desktop, iOS and Android with as little coding required as possible.</p>
+<div
+        class="
+          image-block-outer-wrapper
+          layout-caption-below
+          design-layout-inline
+          
+          
+          
+        "
+        data-test="image-block-inline-outer-wrapper"
+    ></p>
+<figure
+            class="
+              sqs-block-image-figure
+              intrinsic
+            "
+            style="max-width:100%;"
+        ></p>
+<div
+              
+              
+              class="image-block-wrapper"
+              data-animation-role="image"
+              
+  data-animation-override
+
+          ></p>
+<div class="sqs-image-shape-container-element
+              
+          
+        
+              has-aspect-ratio
+            " style="
+                position: relative;
+                
+                  padding-bottom:77.0240707397461%;
+                
+                overflow: hidden;
+              "
+              ><br />
+              <noscript><img src="/wp-content/uploads/2022/08/image-asset.png" alt="" /></noscript><img class="thumb-image" src="/wp-content/uploads/2022/08/image-asset.png" data-image="/wp-content/uploads/2022/08/image-asset.png" data-image-dimensions="1371x1056" data-image-focal-point="0.5,0.5" alt="" data-load="false" data-image-id="577d6eb8be65940a22ebdd7e" data-type="image" />
+            </div>
+</p></div>
+</figure></div>
+<p>It&#8217;s the little open source project that just keeps rolling along. As and when I get the chance, I&#8217;ll have a blast through the <a target="_blank" href="https://github.com/whitemx/xcontrols-domino/issues" rel="noopener">Github issues list</a> and put out a new version. Today has been one of those days where I&#8217;ve fixed a few bugs, added a few changes and released it to the website, and <a target="_blank" href="https://www.openntf.org/main.nsf/project.xsp?r=project/XControls/summary" rel="noopener">OpenNTF</a>.</p>
+<p>If you&#8217;d like any assistance in getting started with XControls or, indeed, if you&#8217;d like an application created, then please do <a target="_blank" href="mailto:matt@ldcvia.com" rel="noopener">drop me a line</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016-7-6-xcontrols-170-released/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Jade / Bootstrap pagination mixin</title>
+		<link>/2016-5-20-jade-bootstrap-pagination-mixin/</link>
+					<comments>/2016-5-20-jade-bootstrap-pagination-mixin/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 20 May 2016 08:55:50 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/2016-5-20-jade-bootstrap-pagination-mixin/</guid>
+
+					<description><![CDATA[I&#8217;ve been working on a new node.js application for the last few weeks. It uses LDC Via as a back end, but that is by the&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;ve been working on a new <a target="_blank" href="http://nodejs.org/" rel="noopener">node.js</a> application for the last few weeks. It uses <a target="_blank" href="http://ldcvia.com/" rel="noopener">LDC Via</a> as a back end, but that is by the by. On the front end I am rendering HTML using <a target="_blank" href="http://jade-lang.com/" rel="noopener">Jade</a> and <a target="_blank" href="http://getbootstrap.com/" rel="noopener">Bootstrap</a>.&nbsp;</p>
+<p>As I have the need to display quite a lot of data, I&#8217;m using <a target="_blank" href="http://getbootstrap.com/components/#pagination" rel="noopener">Bootstrap pagination</a> and had need to make a re-usable &#8220;<a target="_blank" href="http://jade-lang.com/reference/mixins/" rel="noopener">mixin</a>&#8221; that I can insert into many different pages. There are a <a target="_blank" href="https://gist.github.com/backus/5087360" rel="noopener">few examples</a> out there on t&#8217;internet that do this, but none that did exactly what I needed, so I&#8217;ve created by own.</p>
+<p><script src="https://gist.github.com/whitemx/b1aa6ab27349ed83f8c0851a5b36b4b5.js"></script></p>
+<p>To use it you just enter something like this in your Jade template:</p>
+<p>&#8211; var pages = 10<br />&#8211; var currentpage = 3<br />+pagination(1, pages, currentpage, &#8216;/index/&#8217;)</p>
+<p>And you end up with a pagination control that looks like this:</p>
+<div
+        class="
+          image-block-outer-wrapper
+          layout-caption-hidden
+          design-layout-inline
+          
+          
+          
+        "
+        data-test="image-block-inline-outer-wrapper"
+    ></p>
+<figure
+            class="
+              sqs-block-image-figure
+              intrinsic
+            "
+            style="max-width:238px;"
+        ></p>
+<div
+              
+              
+              class="image-block-wrapper"
+              data-animation-role="image"
+              
+  data-animation-override
+
+          ></p>
+<div class="sqs-image-shape-container-element
+              
+          
+        
+              has-aspect-ratio
+            " style="
+                position: relative;
+                
+                  padding-bottom:21.008403778076172%;
+                
+                overflow: hidden;
+              "
+              ><br />
+              <noscript><img src="/wp-content/uploads/2022/08/1_image-asset.png" alt="" /></noscript><img class="thumb-image" src="/wp-content/uploads/2022/08/1_image-asset.png" data-image="/wp-content/uploads/2022/08/1_image-asset.png" data-image-dimensions="238x78" data-image-focal-point="0.5,0.5" alt="" data-load="false" data-image-id="573ed0bc8259b5f9e45266e4" data-type="image" />
+            </div>
+</p></div>
+</figure></div>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016-5-20-jade-bootstrap-pagination-mixin/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

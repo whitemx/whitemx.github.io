@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>iTunes &#8211; mattwhite.me</title>
+	<atom:link href="/category/itunes/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:25:15 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>iTunes wants to charge me more for something that costs less?</title>
+		<link>/2009-1-14-itunes-wants-to-charge-me-more-for-something-that-costs-less-html/</link>
+					<comments>/2009-1-14-itunes-wants-to-charge-me-more-for-something-that-costs-less-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 14 Jan 2009 09:14:05 +0000</pubDate>
+				<category><![CDATA[iTunes]]></category>
+		<guid isPermaLink="false">/2009-1-14-itunes-wants-to-charge-me-more-for-something-that-costs-less-html/</guid>
+
+					<description><![CDATA[Last week at MacWorld Apple finally announced that the vast majority of the music on iTunes would be DRM free and that prices on a lot&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://www.flickr.com/photos/11tmr/3195687439/" title="They want how much? by 11tmr, on Flickr"><img loading="lazy" src="/wp-content/uploads/2022/08/3195687439_422ceac9fc_o.png" width="415" height="175" alt="They want how much?" /></a></p>
+<p>Last week at MacWorld Apple finally announced that the vast majority of the music on iTunes would be DRM free and that prices on a lot of back catalogue tunes would actually go down. I guess this is in response to Amazon&#8217;s MP3 store which is cheaper and also DRM free. All good news so far. I thought I might upgrade my existing music to the new 256kb DRM free format so imagine my surprise when I went to the iTunes store to find that to &#8220;upgrade&#8221; my music collection I have to pay <strong>more</strong> now that each song or album actually costs <strong>less</strong>. Not sure how that works, but you can be sure I shan&#8217;t be &#8220;upgrading&#8221;!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-1-14-itunes-wants-to-charge-me-more-for-something-that-costs-less-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

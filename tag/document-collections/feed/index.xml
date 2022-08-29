@@ -11,9 +11,9 @@
 	<title>document collections &#8211; mattwhite.me</title>
 	<atom:link href="/tag/document-collections/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -32,7 +32,7 @@
 		<category><![CDATA[ftsearch]]></category>
 		<guid isPermaLink="false">/2010-1-1-why-using-ftsearch-in-lotusscript-is-usually-a-bad-idea-html/</guid>
 
-					<description><![CDATA[Well it&#8217;s New Year&#8217;s Day so the obvious subject that is on everyone&#8217;s lips is database full text searching. Isn&#8217;t it? Yesterday I tweeted about having to remove a load (and I mean a load) of database.FTSearch calls from an application I&#8217;ve inherited recently. Several people asked why I would want to do that, so [&#8230;]]]></description>
+					<description><![CDATA[Well it&#8217;s New Year&#8217;s Day so the obvious subject that is on everyone&#8217;s lips is database full text searching. Isn&#8217;t it? Yesterday I tweeted about having&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>Well it&#8217;s New Year&#8217;s Day so the obvious subject that is on everyone&#8217;s lips is database full text searching. Isn&#8217;t it?</p>
 <p>Yesterday I <a href="http://twitter.com/mattwhite/status/7235875861">tweeted</a> about having to remove a load (and I mean a load) of database.FTSearch calls from an application I&#8217;ve inherited recently. Several people asked why I would want to do that, so I thought I&#8217;d explain.</p>
 <p>On the face of it using the Full Text Index to find a collection of documents is an ideal way of working, it saves you having to create a suite of views that will only be used by your LotusScript and we all know that less views is a good thing. But, in my view, there is almost no situation when you should use an FTSearch unless you are looking for a word or phrase across *all fields* in *all documents* in your database. If you find you are writing query syntax that uses the FIELD or CONTAINS keywords then you should probably be thinking again about your code design.</p>

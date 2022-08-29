@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Elguji &#8211; mattwhite.me</title>
+	<atom:link href="/category/elguji/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:40 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>IQJam Announced</title>
+		<link>/2009-7-27-iqjam-announced-html/</link>
+					<comments>/2009-7-27-iqjam-announced-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 27 Jul 2009 14:11:35 +0000</pubDate>
+				<category><![CDATA[Elguji]]></category>
+		<category><![CDATA[iqjam]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2009-7-27-iqjam-announced-html/</guid>
+
+					<description><![CDATA[After all the cruel teasing, today it has become obvious what Bruce and I have been working on for the last couple of months. IQJam is&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p><span class="full-image-float-right ssNonEditable"><span><a title="IQJam by Elguji Software, LLC by Bruce Elgort, on Flickr" href="http://www.flickr.com/photos/bruce/3759289832/" target="_blank" rel="noopener"><img loading="lazy" src="/wp-content/uploads/2022/08/3759289832_6a603a14db_m.jpg" alt="IQJam by Elguji Software, LLC" width="225" height="240" /></a></span></span></p>
+<p>After all the cruel teasing, today it has <a href="http://elguji.com/iqjam">become obvious</a> what <a href="http://bruceelgort.com/">Bruce</a> and I have been working on for the last couple of months. IQJam is still very much a work in progress but we are getting there and so far we are really proud of what we&#8217;ve achieved. it looks great, performs very well and will be a great tool for many companies and communities.</p>
+<p>Over the next weeks there&#8217;ll be more news as we progress and of course we&#8217;ll be running our beta programme for people to get involved, get an early peek and help shape what we hope will become a mainstay product on the Lotus Domino platform.</p>
+<p>Once again we&#8217;re happy to prove that you can create kick-ass web applications on Domino. And this time it&#8217;s made even easier with the use of XPages.</p>
+<p>Until we&#8217;re ready to go into beta, if you&#8217;d like any more information, or have a potential use for the application in your company please <a href="mailto:sales@elguji.com">contact us</a> and we&#8217;d love to get into more detail with you.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-7-27-iqjam-announced-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Our next JAM Product &#8211; Hint No. 2</title>
+		<link>/2009-7-21-our-next-jam-product-hint-no-2-html/</link>
+					<comments>/2009-7-21-our-next-jam-product-hint-no-2-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 21 Jul 2009 13:58:19 +0000</pubDate>
+				<category><![CDATA[Elguji]]></category>
+		<category><![CDATA[tease]]></category>
+		<guid isPermaLink="false">/2009-7-21-our-next-jam-product-hint-no-2-html/</guid>
+
+					<description><![CDATA[Continuing the cruel teasing that Bruce started yesterday&#8230; With *****JAM you will be able to: Help departments develop and manage communities of practice.]]></description>
+										<content:encoded><![CDATA[<p>Continuing the cruel teasing that <a href="http://planetlotus.org/52768c">Bruce started yesterday</a>&#8230;</p>
+<p>With *****JAM you will be able to:</p>
+<p><strong>Help departments develop and manage communities of practice.</strong></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-7-21-our-next-jam-product-hint-no-2-html/feed/</wfw:commentRss>
+			<slash:comments>6</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Coming later this year&#8230;</title>
+		<link>/2009-6-9-coming-later-this-year-html/</link>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 09 Jun 2009 16:26:20 +0000</pubDate>
+				<category><![CDATA[Elguji]]></category>
+		<category><![CDATA[tease]]></category>
+		<guid isPermaLink="false">/2009-6-9-coming-later-this-year-html/</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<p><a title="Coming in Fall 2009 by Bruce Elgort, on Flickr" href="http://www.flickr.com/photos/bruce/3605014558/"><img loading="lazy" src="/wp-content/uploads/2022/08/3605014558_12f3aa97d3.jpg" border="0" alt="Coming in Fall 2009" width="500" height="500" /></a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -11,9 +11,9 @@
 	<title>release &#8211; mattwhite.me</title>
 	<atom:link href="/tag/release/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -33,7 +33,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2009-10-6-domino-designer-is-free-html/</guid>
 
-					<description><![CDATA[I can&#8217;t imagine why you&#8217;ve not seen this news, but just in case, with the release of Notes / Domino 8.5.1 next Monday, Domino Designer will now be free. This is huge news for the platform, as it means that anyone can download and have a play with 8.5.1 which is the first really good [&#8230;]]]></description>
+					<description><![CDATA[I can&#8217;t imagine why you&#8217;ve not seen this news, but just in case, with the release of Notes / Domino 8.5.1 next Monday, Domino Designer will&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>I can&#8217;t imagine why you&#8217;ve not seen this news, but just in case, with the release of Notes / Domino 8.5.1 next Monday, <a href="http://www.edbrill.com/ebrill/edbrill.nsf/dx/announcing-notesdomino-8.5.1-part-1-free-domino-designer">Domino Designer will now be free</a>.</p>
 <p>This is huge news for the platform, as it means that anyone can download and have a play with 8.5.1 which is the first really good version of Domino Designer on Eclipse. It means that you can have a play with XPages without having to worry about CALs. And I&#8217;d really recommend taking that look, whereas XPages in 8.5.0 were very much a &#8220;dot zero&#8221; release, with 8.5.1 we have a vastly improved dev environment and hugely increased performance and stability on the server side.</p>
 <p>If you&#8217;re in any doubt about what you can achieve with XPages in a relatively short amount of time (i.e. less than it took us to develop the first version of IdeaJam), then have a look at <a href="http://iqjam.net/">http://IQJam.net/</a>, the first commercially available application developed specifically for Domino 8.5.1 using XPages.</p>

@@ -11,9 +11,9 @@
 	<title>ibm &#8211; mattwhite.me</title>
 	<atom:link href="/tag/ibm/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:24:39 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -32,7 +32,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2009-7-9-load-testing-xpages-with-the-help-of-ibm-html/</guid>
 
-					<description><![CDATA[Mick Moignard and I have been down at IBM Hursley for a few days working on load testing an XPages application we&#8217;ve written for a customer. Mick talks more about the (very impressive from our point of view) details, but I just wanted to add my voice to his in saying thanks to the team [&#8230;]]]></description>
+					<description><![CDATA[Mick Moignard and I have been down at IBM Hursley for a few days working on load testing an XPages application we&#8217;ve written for a customer.&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p><a href="http://www.mickmoignard.com/">Mick Moignard</a> and I have been down at IBM Hursley for a few days working on load testing an XPages application we&#8217;ve written for a customer.</p>
 <p><a href="http://www.mickmoignard.com/mickmoignard/mickmoignard.nsf/dx/09072009082935MMOAT2.htm">Mick talks more about the (very impressive from our point of view) details</a>, but I just wanted to add my voice to his in saying thanks to the team down there, especially Andy Walter who really helped us out with anything we needed, from server hardware, load testing software, expertise in building the kit and so on.&nbsp;</p>
 <p>If you are a BP in the UK then I&#8217;d highly recommend having a chat with the <a href="https://www-304.ibm.com/jct01005c/isv/spc/europe/hursley.htm">team down there</a>. And I believe there are equivalent set ups in a lot of other countries around the world. It is nice to be able to praise IBM every now and again!</p>

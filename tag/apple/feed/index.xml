@@ -11,9 +11,9 @@
 	<title>apple &#8211; mattwhite.me</title>
 	<atom:link href="/tag/apple/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:24:41 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -33,7 +33,7 @@
 		<category><![CDATA[vmware fusion]]></category>
 		<guid isPermaLink="false">/2009-6-19-cross-browser-testing-using-vmware-html/</guid>
 
-					<description><![CDATA[As an Apple user, when I&#8217;m doing Domino development I live in VMWare Fusion to emulate Windows. And since the release of the Windows 7 Release Candidate (free until next year) doing testing in IE6 and IE7 is nigh on impossible. There are tools that you can use to emulate the different browsers (such as [&#8230;]]]></description>
+					<description><![CDATA[As an Apple user, when I&#8217;m doing Domino development I live in VMWare Fusion to emulate Windows. And since the release of the Windows 7 Release&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>As an Apple user, when I&#8217;m doing Domino development I live in <a href="http://www.vmware.com/products/fusion/">VMWare Fusion</a> to emulate Windows. And since the release of the Windows 7 Release Candidate (<a href="http://www.microsoft.com/windows/windows-7/download.aspx">free until next year</a>) doing testing in IE6 and IE7 is nigh on impossible. There are tools that you can use to emulate the different browsers (such as <a href="http://www.my-debugbar.com/wiki/IETester/HomePage">IETester</a>) but I have found them to be unreliable.</p>
 <p>It&#8217;s a little know fact that Microsoft actually give out free copies of Virtual PCs setup for IE6 and IE7 compliance testing from <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=21EABB90-958F-4B64-B5F1-73D0A413C8EF&amp;displaylang=en">their website</a>. Of course because it&#8217;s a virtual PC image and not a VMWare image we have to go a little further and convert the one to the other. That&#8217;s where <a href="http://blog.mozmonkey.com/2008/vpc-ie6-ie7-ie8-on-mac-os-x/">these instructions</a> come in. You&#8217;ll need to download a conversion tool, the one that worked for me was <a href="http://www.kju-app.org/">Q</a> which is actually mentioned in the comments rather than the main body.</p>
 <p>Once you&#8217;ve done the conversion, you end up with small (i.e. &lt;1gb) Virtual Machines that you can do &#8220;proper&#8221; IE testing in until you get the nerve to tell you&#8217;re idiot IE users that they need to move into the 21st century and start using one of the <a href="http://www.apple.com/safari/">proper</a> <a href="http://www.mozilla.com/en-US/firefox/firefox.html">browsers</a>.</p>
@@ -59,7 +59,7 @@
 		<category><![CDATA[wwdc]]></category>
 		<guid isPermaLink="false">/2009-6-8-so-there-goes-the-wallet-for-the-summer-html/</guid>
 
-					<description><![CDATA[The Apple WWDC Keynote has just finished and we&#8217;ve been promised some real treats. You can get all the details elsewhere but from my point of view the new iPhone 3GS 32GB and the MacBook Pro 15&#8243; refresh look very compelling. So there goes my spending money for the summer&#8230; and the winter. I can&#8217;t [&#8230;]]]></description>
+					<description><![CDATA[The Apple WWDC Keynote has just finished and we&#8217;ve been promised some real treats. You can get all the details elsewhere but from my point of&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>The Apple WWDC Keynote has just finished and we&#8217;ve been promised some real treats. You can get all the details <a href="http://vowe.net/archives/010554.html">elsewhere</a> but from my point of view the new <a href="http://store.apple.com/uk/browse/home/shop_iphone/family/iphone?mco=MTE2OTU">iPhone 3GS 32GB</a> and the <a href="http://store.apple.com/uk/configure/MB986B/A?mco=NjcxMTYwNQ">MacBook Pro 15&#8243; refresh</a> look very compelling.</p>
 <p>So there goes my spending money for the summer&#8230; and the winter. I can&#8217;t change my laptop until Christmas so from September I&#8217;ll definitely be upgrading to Snow Leopard for $29 (I&#8217;m assuming that will translate into around &pound;20).</p>
 <p>Got to give kudos to <a href="http://twitlive.tv/">TWIT Live</a> as well where they managed to get a hooky feed direct from the Moscone Center. All very impressive and enjoyable in a very geeky sort of way.</p>

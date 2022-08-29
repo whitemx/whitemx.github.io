@@ -11,9 +11,9 @@
 	<title>up1 &#8211; mattwhite.me</title>
 	<atom:link href="/tag/up1/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:20:03 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -33,7 +33,7 @@
 		<category><![CDATA[xpages101]]></category>
 		<guid isPermaLink="false">/2012-2-18-creating-a-new-xpages-application-in-853-up1-html/</guid>
 
-					<description><![CDATA[I suppose most of you know about XPages101 now, the first eight videos on the site walk you through creating a new XPages application. I recorded them two years ago now and they are still useful when you&#8217;re starting with XPages. But since 8.5.3 and more specifically UP1 (or the Extension Library) became main stream [&#8230;]]]></description>
+					<description><![CDATA[I suppose most of you know about XPages101 now, the first eight videos on the site walk you through creating a new XPages application. I recorded&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>I suppose most of you know about <a href="http://xpages101.net/">XPages101</a> now, the first eight videos on the site walk you through creating a new XPages application. I recorded them two years ago now and they are still useful when you&#8217;re starting with XPages. But since 8.5.3 and more specifically UP1 (or the Extension Library) became main stream my eight videos can make things seem a little like too much work.</p>
 <p>So over the next few weeks at XPages101 I will walk you through creating roughly the same application using the more up to date tools available to us. What&#8217;s interesting is that I have recorded three videos already (the first one was released yesterday <a href="http://xpages101.net/xpages101/XPages101.nsf/0/01E576D528A968CD802579A7004CF962">here</a>) and have already reached the point of having a functional application with navigation and UI. It&#8217;s obviously not a scientific measure, but the extra controls which are provided for us out the box with UP1 (or ExtLib) really make a difference in development time.</p>
 <p>Anyway, if you&#8217;re a subscriber then go ahead and check out the <a href="http://xpages101.net/xpages101/XPages101.nsf/0/01E576D528A968CD802579A7004CF962">new video which I uploaded yesterday</a>, if you&#8217;re not a subscriber&#8230; well, I shall say nothing!</p>
@@ -57,7 +57,7 @@
 		<category><![CDATA[upgrade pack 1]]></category>
 		<guid isPermaLink="false">/2011-12-15-what-does-the-upgrade-pack-1-mean-for-me-html/</guid>
 
-					<description><![CDATA[So yesterday we had the release of Upgrade Pack 1 sprung on us by Ed Brill. Overall this &#8220;A Good Thing&#8221; but there is quite a lot of detail which was missing from the announcement. This was a problem for Warren and I as we&#8217;re presenting a session at Lotusphere on the Deployment and Management [&#8230;]]]></description>
+					<description><![CDATA[So yesterday we had the release of Upgrade Pack 1 sprung on us by Ed Brill. Overall this &#8220;A Good Thing&#8221; but there is quite a&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>So yesterday we had the release of <a href="http://www.edbrill.com/ebrill/edbrill.nsf/dx/new-releases-week-part-3-notesdomino-8.5.3-upgrade-pack-1">Upgrade Pack 1 sprung on us by Ed Brill</a>. Overall this &#8220;A Good Thing&#8221; but there is quite a lot of detail which was missing from the announcement.</p>
 <p>This was a problem for <a href="http://elsmore.net/">Warren</a> and I as we&#8217;re presenting a session at Lotusphere on the Deployment and Management of XPages, so a swift bit of research and slide rewriting has been in order this morning.</p>
 <p>Essentially the Upgrade Pack is a new version of the Extension Library just installed in yet another way. If you&#8217;re running the Extension Library in 8.5.3 already then you&#8217;ll need to uninstall it from your Domino Designer and from your server before installing the Upgrade Pack (this may be harder than you imagine, it took me several tries on one machine and simply refused to work on another so I had to delete the Workspace directory!)</p>

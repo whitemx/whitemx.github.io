@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Defectr &#8211; mattwhite.me</title>
+	<atom:link href="/category/defectr/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:33:06 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>A new toy to play with</title>
+		<link>/2006-10-28-a-new-toy-to-play-with-html/</link>
+					<comments>/2006-10-28-a-new-toy-to-play-with-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sat, 28 Oct 2006 13:52:52 +0000</pubDate>
+				<category><![CDATA[Defectr]]></category>
+		<guid isPermaLink="false">/2006-10-28-a-new-toy-to-play-with-html/</guid>
+
+					<description><![CDATA[To keep my mind off other things this week, I&#8217;ve written a little reporting area in Defectr. It makes use of the WebFX Chart javascript that&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>To keep my mind off other things this week, I&#8217;ve written a little reporting area in <a href="http://www.defectr.com/">Defectr</a>. It makes use of the <a href="http://webfx.eae.net/dhtml/chart/chart.html">WebFX Chart</a> javascript that <a href="http://www.11tmr.com/11tmr.nsf/d6plinks/INTT-6URFUC">I mentioned</a> a few days ago. It&#8217;s well worth a look if you haven&#8217;t already.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2006-10-28-a-new-toy-to-play-with-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Oops, I&#8217;ve been Ed-Dotted</title>
+		<link>/2006-10-16-oops-ive-been-ed-dotted-html/</link>
+					<comments>/2006-10-16-oops-ive-been-ed-dotted-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 16 Oct 2006 19:54:50 +0000</pubDate>
+				<category><![CDATA[Defectr]]></category>
+		<guid isPermaLink="false">/2006-10-16-oops-ive-been-ed-dotted-html/</guid>
+
+					<description><![CDATA[OK guys, apologies for the appalling performance of Defectr. The feedback from you all was incredible before Ed posted a link this afternoon, since when the&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>OK guys, apologies for the appalling performance of <a href="http://www.defectr.com/">Defectr</a>. The feedback from you all was incredible before Ed posted a link this afternoon, since when the server has been churning away like a good&#8217;un. I am going to try and sort out a proper hosting solution ASAP but until then please bear with me.</p>
+<p>By the way, can anyone suggest a good hosting company, I&#8217;m tempted to just rent a dedicated server but that seems a pricey option?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2006-10-16-oops-ive-been-ed-dotted-html/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

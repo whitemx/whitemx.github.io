@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Forum Friday &#8211; mattwhite.me</title>
+	<atom:link href="/category/forum-friday/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:28:21 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Forum Friday: Public Access File Resources</title>
+		<link>/2008-2-1-forum-friday-public-access-file-resources-html/</link>
+					<comments>/2008-2-1-forum-friday-public-access-file-resources-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 01 Feb 2008 08:37:25 +0000</pubDate>
+				<category><![CDATA[Forum Friday]]></category>
+		<guid isPermaLink="false">/2008-2-1-forum-friday-public-access-file-resources-html/</guid>
+
+					<description><![CDATA[Declan&#8217;s Forum Friday idea happened to coincide with me coming across what is seemingly a bug in Domino which has been around for a long time.&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://qtzar.com/">Declan&#8217;s</a> Forum Friday idea happened to coincide with me coming across what is seemingly a bug in Domino which has been around for a long time. So back in 2006 the following question was <a href="http://www-10.lotus.com/ldd/nd6forum.nsf/55c38d716d632d9b8525689b005ba1c0/e4e642944e3fec20852571850032e075?OpenDocument">asked on notes.net</a>:</p>
+<p>&#8220;In the ACL, Anonymous is set to &#8220;No Access&#8221; with read and write to public document. Anonymous don&#8217;t have problem opening form, pages, image resource which have &#8220;Available to Public Access&#8221;.</p>
+<p>But I face a problem with file resource. I&#8217;ve check on the &#8220;Availabel to Public Access&#8221; but it still prompt a login? How can I overcome this? &#8220;</p>
+<p>I hadn&#8217;t come across this before, but doing some testing on the next version of <a href="http://ideajam.net/">Idea Jam</a> it bit me.</p>
+<p>The file I was trying to get to was <a href="http://mootools.net/">Mootools</a>. The obvious answer was to move it into a script library, but because it&#8217;s a compressed file all on one line, Domino doesn&#8217;t serve it up correctly. So my rather dirty solution was to change the File Resource to be a Stylesheet Resource instead. The reason that this will work is that Stylesheet Resources don&#8217;t serve up a content type (whereas if you try to use an Image Resource it will tell the browser that it should expect a graphic which causes an error). So a quick and dirty solution but it does work at least. Now I wonder if we can get the bug fixed since that it seems to have been around since ND6.x.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-2-1-forum-friday-public-access-file-resources-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

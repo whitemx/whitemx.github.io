@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>UKLUG2007 &#8211; mattwhite.me</title>
+	<atom:link href="/category/uklug2007/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:29:08 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>UKLUG Eval Results</title>
+		<link>/2007-10-10-uklug-eval-results-html/</link>
+					<comments>/2007-10-10-uklug-eval-results-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 10 Oct 2007 11:53:30 +0000</pubDate>
+				<category><![CDATA[UKLUG2007]]></category>
+		<guid isPermaLink="false">/2007-10-10-uklug-eval-results-html/</guid>
+
+					<description><![CDATA[Warren has posted details about the conference evaluations that everyone kindly filled in a couple of weeks ago. Overall I think people were happy. One of&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://www.elsmore.net/">Warren</a> has <a href="http://www.elsmore.net/hosted/we/blog2.nsf/d6plinks/WELE-77TLUW">posted details</a> about the conference evaluations that everyone kindly filled in a couple of weeks ago. Overall I think people were happy.</p>
+<p>One of the questions was where people wanted to see UKLUG 2008 and the response was pretty overwhelmingly London. My suspicion is that this is because the people who attended the event were mainly from down south. If you couldn&#8217;t attend because the journey was too far please let us know so that we can get a clearer picture of where people would like to see the event next year.</p>
+<p>And just a final round of applause for Warren and Kitty who, even though the event itself is over, are still working hard, reading the evaluations and starting planning for next year.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-10-10-uklug-eval-results-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Back from UKLUG</title>
+		<link>/2007-9-27-back-from-uklug-html/</link>
+					<comments>/2007-9-27-back-from-uklug-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 27 Sep 2007 12:14:36 +0000</pubDate>
+				<category><![CDATA[UKLUG2007]]></category>
+		<guid isPermaLink="false">/2007-9-27-back-from-uklug-html/</guid>
+
+					<description><![CDATA[Well I just got home from the hotel in Hatfield where we had the drinks reception last night. UKLUG seemed to go very well, the attendance&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Well I just got home from the hotel in Hatfield where we had the drinks reception last night. <a href="http://www.uklug.info/">UKLUG</a> seemed to go very well, the attendance was excellent with the keynote session from Kevin Cavanaugh being completely packed out. And then right through the day each session was well attended. The lab seemed to do well at the break times as people checked out Notes 8 (some for the first time).</p>
+<p>The actual setup of the day was very simple, two rooms, plus the lab which was where I spent most of my time. We did have a minor panic setting up the laptops which IBM had kindly loaned us as, once they were all plugged in we discovered that noone knew the passwords to get in! So we were rushing on Wednesday morning to get the VMWare images installed for the servers and then setting up 10 client machines with Notes 8 clients. In the end we managed to get the whole job done in just 90 minutes which was pretty good going.<br />
+<br />
+Hopefully everyone enjoyed the day and got something useful out of it. I certainly met a lot of interesting people and the general feedback I was picking up was very positive for future events. There were a huge number of people helping out, but most thanks should go to <a href="http://www.elsmore.net/">Warren</a> and <a href="http://www.mrselsmore.com/">Kitty</a> who put in a truly staggering amount of work to make the day run smoothly.</p>
+<p>Now I have to admit my head&#8217;s a little sore this morning as we had a few beers after the drinks reception but the break was well deserved after a hard day&#8217;s work. So I am just going to chill out for the rest of the day. Then back to the real world to catch up on work. So while I head off, I&#8217;ve uploaded a few photos to <a href="http://www.flickr.com/photos/11tmr/sets/72157602178676621/">Flickr</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-9-27-back-from-uklug-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>UKLUG Waitlisted</title>
+		<link>/2007-8-16-uklug-waitlisted-html/</link>
+					<comments>/2007-8-16-uklug-waitlisted-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 16 Aug 2007 12:32:24 +0000</pubDate>
+				<category><![CDATA[UKLUG2007]]></category>
+		<guid isPermaLink="false">/2007-8-16-uklug-waitlisted-html/</guid>
+
+					<description><![CDATA[Warren has just reported that the UK Lotus User Group next month is now full. If you haven&#8217;t registered yet please do still sign up. As&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://www.elsmore.net/">Warren</a> has just reported that the <a href="http://www.uklug.info/">UK Lotus User Group</a> next month is now full.</p>
+<p>If you haven&#8217;t registered yet please do still sign up. As people drop out, those on the waitlist will get contacted.</p>
+<p>If you have registered and can&#8217;t make it please do let Warren know so that someone else can take your place.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-8-16-uklug-waitlisted-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>UKLUG Hands On Labs</title>
+		<link>/2007-8-14-uklug-hands-on-labs-html/</link>
+					<comments>/2007-8-14-uklug-hands-on-labs-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 14 Aug 2007 11:11:28 +0000</pubDate>
+				<category><![CDATA[UKLUG2007]]></category>
+		<guid isPermaLink="false">/2007-8-14-uklug-hands-on-labs-html/</guid>
+
+					<description><![CDATA[So Warren has announced one of the cool things planned for the upcoming UKLUG next month. IBM have graciously loaned us 20 laptops to set up&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>So <a href="http://www.elsmore.net/">Warren</a> has <a href="http://www.elsmore.net/hosted/we/blog2.nsf/d6plinks/WELE-763DMQ">announced</a> one of the cool things planned for the upcoming <a href="http://www.uklug.info/">UKLUG</a> next month. IBM have graciously loaned us 20 laptops to set up a Lab to show off all of the latest and greatest Lotus software offerings, including Notes 8, Quickr, Connections (maybe) etc etc. Now you know why I&#8217;ve been <a href="http://www.11tmr.com/11tmr.nsf/d6plinks/MWHE-75ZHES#Comments">looking at Composite Apps</a> recently. So depending on how well my playing progresses, there should be one of those to play with as well.</p>
+<p>Either way, there will be some good stuff, so if you haven&#8217;t registered yet, then get in quickly, the spaces are going fast.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-8-14-uklug-hands-on-labs-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

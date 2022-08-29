@@ -11,9 +11,9 @@
 	<title>squarespace &#8211; mattwhite.me</title>
 	<atom:link href="/tag/squarespace/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:24:41 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -32,7 +32,7 @@
 		<category><![CDATA[squarespace]]></category>
 		<guid isPermaLink="false">/2009-5-30-how-to-migrate-blogsphere-data-into-a-squarespace-blog-html/</guid>
 
-					<description><![CDATA[Having said yesterday that I wasn&#8217;t going to migrate the old blog across here fully, I got an attack of guilt overnight and so the obvious thing to do on a beautiful Saturday was sit on the balcony with a bottle of beer and write a migration agent that took all of the blog posts [&#8230;]]]></description>
+					<description><![CDATA[Having said yesterday that I wasn&#8217;t going to migrate the old blog across here fully, I got an attack of guilt overnight and so the obvious&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>Having said yesterday that I wasn&#8217;t going to migrate the old blog across here fully, I got an attack of guilt overnight and so the obvious thing to do on a beautiful Saturday was sit on the balcony with a bottle of beer and write a migration agent that took all of the blog posts from my old blog and converted them into an XML format that can be imported by Squarespace. (In the Website Management &#8211;&gt; Blog Importer section). The results can be found <a href="/blog/">here</a>.</p>
 <p>There is no direct route to take from Blogsphere to Squarespace (unsurprisingly) so I set up a temporary <a href="http://wordpress.com/">WordPress</a> blog, worked out the XML format that it uses when you export data and simply wrote a LotusScript agent (still a guilt pleasure occasionally)&nbsp; that creates an XML files that matches the same pattern. So in theory now, if you go here you find all of the old entries and comments working properly (I suspect that the older they get, the less reliable the conversion will be), but it was surprisingly easy.</p>
 <p>The Lotusscript needed can be downloaded <a href="/static/500fb502e4b0b0a178712c5d/500fb669e4b00f3716e9af9d/500fb669e4b00f3716e9b15e/1243695504167/">here</a>. I&#8217;m not sure whether it&#8217;s good or bad that the whole of my seven years of blogging resulted in an XML file that is just under 3.5mb in size!</p>

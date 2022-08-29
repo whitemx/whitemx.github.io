@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Blogsphere &#8211; mattwhite.me</title>
+	<atom:link href="/category/blogsphere/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:35:50 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Blogpshere Upgraded</title>
+		<link>/2007-9-5-blogpshere-upgraded-html/</link>
+					<comments>/2007-9-5-blogpshere-upgraded-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 05 Sep 2007 10:23:29 +0000</pubDate>
+				<category><![CDATA[Blogsphere]]></category>
+		<guid isPermaLink="false">/2007-9-5-blogpshere-upgraded-html/</guid>
+
+					<description><![CDATA[I&#8217;ve just upgraded this site to use the latest Blogsphere release (3.0.1 b7). As always a fairly painless affair so thanks to Declan et al for&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;ve just upgraded this site to use the latest <a href="http://www.openntf.org/Projects/pmt.nsf/ProjectLookup/BlogSphere%20V3">Blogsphere</a> release (3.0.1 b7). As always a fairly painless affair so thanks to <a href="http://www.qtzar.com/">Declan</a> et al for a product which continues to be one of the best <a href="http://www.openntf.org/">OpenNTF</a> projects around.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-9-5-blogpshere-upgraded-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Blogsphere Skins</title>
+		<link>/2007-2-2-blogsphere-skins-html/</link>
+					<comments>/2007-2-2-blogsphere-skins-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 02 Feb 2007 12:09:57 +0000</pubDate>
+				<category><![CDATA[Blogsphere]]></category>
+		<guid isPermaLink="false">/2007-2-2-blogsphere-skins-html/</guid>
+
+					<description><![CDATA[I&#8217;ve been having a closer look at Blogsphere V3 over the last couple of days. It really is a well put together database design. The thing&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;ve been having a closer look at <a href="http://www.openntf.org/Projects/pmt.nsf/ProjectHome?ReadForm&#038;Query=BlogSphere%20V3">Blogsphere V3</a> over the last couple of days. It really is a well put together database design. The thing which has impressed me most is the Movable Type skin support. You can just go and download any Movable Type skin (a good place to start is <a href="http://www.sixapart.com/movabletype/styles/library">here</a>), copy the css files into a skin document and save it. Or if you want to make your own style, then go <a href="http://styles.movalog.com/generator/">here</a> and play around to your heart&#8217;s content. This is going to keep me entertained for months to come!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-2-2-blogsphere-skins-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Upgraded to Blogsphere V3 Beta</title>
+		<link>/2007-1-11-upgraded-to-blogsphere-v3-beta-html/</link>
+					<comments>/2007-1-11-upgraded-to-blogsphere-v3-beta-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 11 Jan 2007 14:22:28 +0000</pubDate>
+				<category><![CDATA[Blogsphere]]></category>
+		<guid isPermaLink="false">/2007-1-11-upgraded-to-blogsphere-v3-beta-html/</guid>
+
+					<description><![CDATA[I have just spent an hour upgrading the blog to use Declan&#8217;s new Blogsphere V3 Beta. It really couldn&#8217;t be a simpler process, replace the design,&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I have just spent an hour upgrading the blog to use <a href="http://www.qtzar.com/">Declan&#8217;s</a> new <a href="http://www.openntf.org/projects/pmt.nsf/041f04f1ecaf8e95862570e2007ed36b/24f68e4e2fa7b5418625721b0074c7eb!OpenDocument">Blogsphere V3 Beta</a>. It really couldn&#8217;t be a simpler process, replace the design, run the upgrade agent, pick a template and off we go. Please drop me a line if you spot any problems.</p>
+<p>A big thanks to Declan and all of the team behind this superb template.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-1-11-upgraded-to-blogsphere-v3-beta-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Blogsphere posting with MarsEdit</title>
+		<link>/2005-2-6-blogsphere-posting-with-marsedit-html/</link>
+					<comments>/2005-2-6-blogsphere-posting-with-marsedit-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sun, 06 Feb 2005 12:40:19 +0000</pubDate>
+				<category><![CDATA[Blogsphere]]></category>
+		<guid isPermaLink="false">/2005-2-6-blogsphere-posting-with-marsedit-html/</guid>
+
+					<description><![CDATA[Using my PowerBook for most of the time means that posting using the Notes client and Internet Explorer are not an option. The former as the&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Using my PowerBook for most of the time means that posting using the Notes client and Internet Explorer are not an option. The former as the implementation of Java in the Notes client for Mac is not complete, the latter because IE on the Mac is a joke (I am a pure Firefox user these days anyway).</p>
+<p>So an hour&#8217;s research has led me to <a href="http://ranchero.com/marsedit/">MarsEdit</a> a tool from the people who write the RSS aggregator which I use; <a href="http://ranchero.com/software/">NetNewsWire</a>. It&#8217;s only a version 1.0 so doesn&#8217;t offer every tool required, but posting normal entries (like this one) is not a problem at all. If there are people in a similar situation to me I would definitely recommend they take a look at it. The XML-RPC code which the guys have written in Blogsphere to support the Blogger API is really well done and works with no problems at all for me now.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2005-2-6-blogsphere-posting-with-marsedit-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

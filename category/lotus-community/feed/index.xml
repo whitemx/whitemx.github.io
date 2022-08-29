@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Lotus Community &#8211; mattwhite.me</title>
+	<atom:link href="/category/lotus-community/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:27:22 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Looking back at BLUG</title>
+		<link>/2010-4-1-looking-back-at-blug-html/</link>
+					<comments>/2010-4-1-looking-back-at-blug-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 01 Apr 2010 08:35:58 +0000</pubDate>
+				<category><![CDATA[Lotus Community]]></category>
+		<category><![CDATA[blug2010]]></category>
+		<guid isPermaLink="false">/2010-4-1-looking-back-at-blug-html/</guid>
+
+					<description><![CDATA[This week I (and several other&#8217;s from the UK) headed over to Brussels for the Benelux Lotus User Group (BLUG) being run by Theo Heselmans and&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>This week I (and several other&#8217;s from the UK) headed over to Brussels for the Benelux Lotus User Group (BLUG) being run by <a href="http://www.xceed.be/Blog.nsf">Theo Heselmans</a> and others. The first thing to say is that, from a speaker&#8217;s point of view, Theo has really raised the bar for us involved with ILUG and UKLUG. We were treated unbelievably well, I can&#8217;t thank all of the people involved enough for the hospitality they showed us.</p>
+<p>But the really important thing is the content on the day itself. From what I could tell the 200+ people were very happy. The morning was given over to the &#8220;official word&#8221; from no less than Alastair Rennie. He gave an interesting rehash of the Lotusphere OGS, there&#8217;s always good content in there that gets missed the first time around. You can see the <a href="http://www.blug.be/blug.nsf/Pages/Event20100330_Live">live blog of the OGS here</a>.</p>
+<p>In the afternoon, the BLUG organisers tried a different approach with up to five concurrent sessions running at any one time. It certainly suited the venue which had plenty of slightly smaller rooms. So in the room I was speaking in we basically had a three hour XPages geek fest with sessions from <a href="http://www.tc-soft.com/wordpress/">Tim Clark</a> and <a href="http://hermes.intec.co.uk/intec/blog.nsf">Paul Withers</a> along with mine. Right through the afternoon the room was packed and no one walked out which is always a good sign of people actually getting value from our speaking <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>&lt;selfpromotion&gt;I&#8217;ve published the slides and supporting database for my session over on my <a href="/presentations/">presentations page</a>&nbsp;so feel free to download it. Also don&#8217;t forget the &#8220;blug2010&#8221; coupon code for <a href="http://xpages101.net/">XPages101.net</a>. &lt;/selfpromotion&gt;</p>
+<p>As always the best thing about User Groups anywhere in the world is the new people you meet, so it was goof to finally put some faces to names I&#8217;ve known for a long time in the Lotus Community and also meet some completely new people as well.</p>
+<p>This month is turning into a bit of a travel / community affair with upcoming trips for me to <a href="http://www.clearitconsulting.nl/site/site.nsf/webcontent/CDRH-82GK3T">Amsterdam next week for a two day XPages course</a>&nbsp;(I think there are a couple of spaces still free if you want to come along) and then <a href="http://www.dannotes.dk/">Dannotes the week after in Denmark</a>.</p>
+<p>For anyone organising community events, then Theo et al have certainly raised the bar.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-4-1-looking-back-at-blug-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Off to BLUG</title>
+		<link>/2010-3-25-off-to-blug-html/</link>
+					<comments>/2010-3-25-off-to-blug-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 25 Mar 2010 09:36:41 +0000</pubDate>
+				<category><![CDATA[Lotus Community]]></category>
+		<category><![CDATA[blug2010]]></category>
+		<guid isPermaLink="false">/2010-3-25-off-to-blug-html/</guid>
+
+					<description><![CDATA[On Monday I&#8217;m jumping on the train to Brussels for a couple of days to enjoy the Belux Lotus User Group meeting. It&#8217;s promising to be&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>On Monday I&#8217;m jumping on the train to Brussels for a couple of days to enjoy the <a href="http://www.blug.be/">Belux Lotus User Group</a> meeting. It&#8217;s promising to be a really interesting event with some great speakers lined up, and a keynote from none other than Alistair Rennie. This is a huge coup for <a href="http://www.xceed.be/Blog.nsf">Theo</a> and the rest of the organisers to have lined up.</p>
+<p>I&#8217;ll be presenting a session on XPages development (who&#8217;d have thunk it?) and there are other really interesting looking sessions from Tim Clark, Paul Withers, Stuart McIntyre, Warren Elsmore, Gabriella Davis, Eileen Fitzgerald and Thomas Bahn, and they&#8217;re just the people I know. I&#8217;m really looking forward to seeing several of them as I didn&#8217;t get to see much as Lotusphere.</p>
+<p>The event is looking like it will be great fun, so if you see me wandering around stop me and say Hi.</p>
+<p>Also, in celebration of the event, I&#8217;ve set up a coupon code for <a href="http://xpages101.net/">XPages101.net</a> which will run for a couple of weeks. Just enter &#8220;blug2010&#8221; at checkout for a big discount on the cost for access to a large, and growing, suite of videos about XPages development.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-3-25-off-to-blug-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Taking Notes Podcast Episode 100</title>
+		<link>/2009-10-26-taking-notes-podcast-episode-100-html/</link>
+					<comments>/2009-10-26-taking-notes-podcast-episode-100-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 26 Oct 2009 08:51:36 +0000</pubDate>
+				<category><![CDATA[Lotus Community]]></category>
+		<category><![CDATA[taking notes]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2009-10-26-taking-notes-podcast-episode-100-html/</guid>
+
+					<description><![CDATA[Yesterday, Bruce and Julian were kind enough to invite Peter Presnell, Declan Lynch and myself to have a bit of a chat about XPages on the&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Yesterday, <a href="http://bruceelgort.com/">Bruce</a> and <a href="http://nsftools.com/">Julian</a> were kind enough to invite <a href="http://www.bleedyellow.com/blogs/dotdomino/">Peter Presnell</a>, <a href="http://qtzar.com/">Declan Lynch</a> and myself to have a bit of a chat about XPages on the land mark 100th episode of the <a href="http://www.takingnotespodcast.com/">Taking Notes Podcast</a>. The chat itself seemed to go OK, but even if you&#8217;re not interested, you should listen to the podcast for the first 4 minutes if nothing else.&nbsp;</p>
+<p><a href="http://lotusrockstar.com/">Rob Novak</a> managed to organise the Lotus Community (like herding cats at the best of times) to record their own individual congratulations for Bruce and Julian. We get to enjoy the fruits of his work at the start of the podcast.</p>
+<p>So go and <a href="http://www.takingnotespodcast.com/blogs/takingnotes.nsf/dx/TakingNotesEpisode100.htm">take a listen</a>. And here&#8217;s to another 100 episodes of a great Lotus tradition.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-10-26-taking-notes-podcast-episode-100-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>IamLUG Registration Open</title>
+		<link>/2009-4-24-iamlug-registration-open-html/</link>
+					<comments>/2009-4-24-iamlug-registration-open-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 24 Apr 2009 17:01:08 +0000</pubDate>
+				<category><![CDATA[Lotus Community]]></category>
+		<guid isPermaLink="false">/2009-4-24-iamlug-registration-open-html/</guid>
+
+					<description><![CDATA[Chris Miller has announced that registration is open for the inaugral IamLUG meetup in St Louis in August. It sounds like it&#8217;s going to be a&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://idonotes.com/">Chris Miller</a> has <a href="http://www.idonotes.com/IdoNotes/IdoNotes.nsf/dx/IamLUG-registration-is-alive.htm">announced</a> that registration is open for the inaugral <a href="http://iamlug.org/iamlug/IamLug2009a.nsf">IamLUG</a> meetup in St Louis in August.</p>
+<p>It sounds like it&#8217;s going to be a great event, and I&#8217;m going to try my best to get over to it (a good excuse for a bit of a holiday tacked onto the end).</p>
+<p>You may also have noticed that the IamLUG site looks strangely similar to the UKLUG one! Well Chris has gamely decided to start using our very much &#8220;in development&#8221; template. It&#8217;s not properly documented yet and there are a lot of rough edges that I am still sorting out, but once we get closer to the events, we&#8217;ll definitely be releasing the template to OpenNTF to add to the ever increasing number of XPages apps out there for you to rip apart.</p>
+<p>Anyway, if you&#8217;ve always wanted to attend ILUG or UKLUG and couldn&#8217;t justify the flight to Europe, then I suspect that IamLUG will be in much the same vein, great speakers, sponsors, good craic and good people. Hopefully see you there.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-4-24-iamlug-registration-open-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Last Minute LotusBeer</title>
+		<link>/2009-4-22-last-minute-lotusbeer-html/</link>
+					<comments>/2009-4-22-last-minute-lotusbeer-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2009 19:24:28 +0000</pubDate>
+				<category><![CDATA[Lotus Community]]></category>
+		<guid isPermaLink="false">/2009-4-22-last-minute-lotusbeer-html/</guid>
+
+					<description><![CDATA[Mr Buchan and a few others will be meeting for a beer or two, tomorrow evening at the Founders Arms near the Tate Modern gallery on&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://www.billbuchan.com/">Mr Buchan</a> and a few others will be meeting for a beer or two, tomorrow evening at the <a href="http://www.foundersarms.co.uk/">Founders Arms</a> near the Tate Modern gallery on the South Bank of the Thames to make the most of the beautiful weather and the fact that it&#8217;s Thursday evening. If you can make it at such short notice, you are more than welcome to come along. We&#8217;ll be there some time after 5pm, and will probably stay for a while!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-4-22-last-minute-lotusbeer-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>PlanetLotus Superfeed</title>
+		<link>/2008-7-15-planetlotus-superfeed-html/</link>
+					<comments>/2008-7-15-planetlotus-superfeed-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 15 Jul 2008 13:40:06 +0000</pubDate>
+				<category><![CDATA[Lotus Community]]></category>
+		<guid isPermaLink="false">/2008-7-15-planetlotus-superfeed-html/</guid>
+
+					<description><![CDATA[Yancy set me up on the PlanetLotus superfeed beta last night so I could test it out from NetNewsWire on the Mac and the iPhone (still&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://www.yancylent.com/">Yancy</a> set me up on the <a href="http://planetlotus.org/">PlanetLotus</a> superfeed beta last night so I could test it out from NetNewsWire on the Mac and the iPhone (still first gen unfortunately but we are hopeful for the end of the week!). The feed is brilliant, I no longer need to try and keep up with all of the Lotus blogs in my own RSS reader, and I can also cut down on the number of trips to the PL website as all of the posts come to my feed reader direct. Excellent stuff as ever Yancy, thanks!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-7-15-planetlotus-superfeed-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Show-n-Tell Thursday &#8211; mattwhite.me</title>
+	<atom:link href="/category/show-n-tell-thursday/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:33:07 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Forcing a file name when downloading a dynamically generated csv file</title>
+		<link>/2010-7-14-forcing-a-file-name-when-downloading-a-dynamically-generated-html/</link>
+					<comments>/2010-7-14-forcing-a-file-name-when-downloading-a-dynamically-generated-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 14 Jul 2010 14:47:41 +0000</pubDate>
+				<category><![CDATA[Show-n-Tell Thursday]]></category>
+		<category><![CDATA[excel]]></category>
+		<category><![CDATA[http]]></category>
+		<category><![CDATA[ssjs]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2010-7-14-forcing-a-file-name-when-downloading-a-dynamically-generated-html/</guid>
+
+					<description><![CDATA[Over the last couple of weeks I&#8217;ve been working on a customisation project using IQJam as a starting point and then making it better fit a&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Over the last couple of weeks I&#8217;ve been working on a customisation project using IQJam as a starting point and then making it better fit a particular customer&#8217;s requirements. It&#8217;s worth mentioning as I finally had the justification to spend a little time investigating a problem which has been bugging me.</p>
+<p>One of the features I added to IQJam was the ability to export data to Excel, a common enough feature that you&#8217;ve been able to do in Domino for ever. Simply print data out to the browser in simple HTML format and change the content-type of the page to &#8220;application/vnd.ms-excel&#8221;. That&#8217;s not the point of this posting really.</p>
+<p>The problem I&#8217;ve been trying to work around is that if your user is using Excel 2007 or later (I&#8217;m only on the beta of Office 2010 but it still seems to be a problem for me anyway) and you use the printing HTML technique, Excel raises an error for the user when they load the page, something like:</p>
+<blockquote><p>The file you are trying to open, &#8216;name.ext&#8217;, is in a different format than specified by the file extension. Verify that the file is not corrupted and is from a trusted source before opening the file. Do you want to open the file now?</p></blockquote>
+<p>According to various <a href="http://support.microsoft.com/kb/948615">technotes</a> and <a href="http://blogs.msdn.com/b/vsofficedeveloper/archive/2008/03/11/excel-2007-extension-warning.aspx">blog posts</a> there is no work around for this, it is a deliberate security feature of Excel. Fair enough I can live with this, though it&#8217;s not acceptable to the end user, so instead of generating an Excel file I reverted to generated CSV formatted data.</p>
+<p>The thing I learned from my investigations into the Excel problem was that there is this header which you can add to the data being generated which tells the browser that the page being opened is actually a file attachment and what the name of the file you want to download should be. So in my example, I&#8217;m able to create a unique file name every time the page is generated and also specify that it should be saved as a CSV file, not .XSP which is what it would be thanks to the page being loaded being an XPage. See this example:</p>
+<blockquote><p>try{<br /> &nbsp;&nbsp;&nbsp;&nbsp;var exCon = facesContext.getExternalContext(); <br /> &nbsp;&nbsp;&nbsp;&nbsp;var writer = facesContext.getResponseWriter();<br /> &nbsp;&nbsp;&nbsp;&nbsp;var response = exCon.getResponse();<br /> &nbsp;&nbsp;&nbsp;&nbsp;response.setContentType(&#8220;text/csv&#8221;);<br /> &nbsp;&nbsp;&nbsp;&nbsp;response.setHeader(&#8220;Content-disposition&#8221;, &#8220;attachment; filename=export_&#8221; + DateConverter.dateToString(@Now(), &#8220;yyyyMMddhhmm&#8221;) + &#8220;.csv&#8221;);<br /> &nbsp;&nbsp;&nbsp;&nbsp;response.setHeader(&#8220;Cache-Control&#8221;, &#8220;no-cache&#8221;);<br /> &nbsp;&nbsp;&nbsp;&nbsp;writer.write(getCSVBody());<br /> &nbsp;&nbsp;&nbsp;&nbsp;writer.endDocument();<br /> &nbsp;&nbsp;&nbsp;&nbsp;facesContext.responseComplete();<br /> &nbsp;&nbsp;&nbsp;&nbsp;writer.close();<br /> }catch(e){<br /> &nbsp;&nbsp;&nbsp;&nbsp;_dump(e);<br /> }</p></blockquote>
+<p>So this server side javascript sits in the afterRenderResponse of my XPage and is using the &#8220;<a href="http://www.wissel.net/blog/d6plinks/SHWL-7MGFBN">web agents XPages style</a>&#8221; technique which Stephan first documented to generate non HTML content from an XPage. The key line for this blog post is where the &#8220;Content-disposition&#8221; header is set, hopefully you can see where the filename is being created (I&#8217;m also using <a href="http://dontpanic82.blogspot.com/2010/04/xpages-code-snippet-for-datestring.html">Tommy Valand&#8217;s DateConverter SSJS code</a> to get the current date / time formatted into a nice string).</p>
+<p>Anyway, not a new technique looking at the dates on some of the internet postings out there, but a new one on me and worth passing on I thought.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-7-14-forcing-a-file-name-when-downloading-a-dynamically-generated-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Be very careful with your content type for Chrome Ajax requests</title>
+		<link>/2010-2-25-be-very-careful-with-your-content-type-for-chrome-ajax-reque-html/</link>
+					<comments>/2010-2-25-be-very-careful-with-your-content-type-for-chrome-ajax-reque-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 25 Feb 2010 15:10:44 +0000</pubDate>
+				<category><![CDATA[Show-n-Tell Thursday]]></category>
+		<category><![CDATA[ajax]]></category>
+		<category><![CDATA[chrome]]></category>
+		<category><![CDATA[ideajam]]></category>
+		<guid isPermaLink="false">/2010-2-25-be-very-careful-with-your-content-type-for-chrome-ajax-reque-html/</guid>
+
+					<description><![CDATA[We released the first beta for IdeaJam 1.7 today. There are *tons* of changes under the covers including the new MooTools 1.2 framework, on which you&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>We released the first beta for <a href="http://ideajam.net/">IdeaJam 1.7</a> today. There are *tons* of changes under the covers including the new MooTools 1.2 framework, on which you can expect more later this week.</p>
+<p>But for the moment, I thought I&#8217;d pass along one little tip which we ran into. Inevitably during our own testing we had missed this bug. When you&#8217;re in an idea you can &#8220;Click to show votes&#8221; and what happens behind the scenes is that an Ajax request is fired off to our votes database, an agent runs and send back a list of the votes related to that idea, when they were cast, who by and so on. That agent had been set up with the following code at the start:</p>
+<blockquote>
+<div id="_mcePaste">Print |Content-Type:text/javascript; charset=utf-8|</div>
+<div id="_mcePaste"><span> </span>Print |Cache-Control: no-cache|</div>
+</blockquote>
+<div>But what we are actually doing is pre-building some HTML and then just inserting it into a div, it saves a little bit of browser processing time this way. But in Chrome we were getting an error:</div>
+<blockquote>
+<div>Uncaught SyntaxError: Unexpected token &lt;</div>
+</blockquote>
+<div>It took a while to track down the problem, but now I found it, it&#8217;s obvious. The content-type of the agent needs to actually be set to text/html, not text/javascript. All of the other browsers worked fine with this oversight, even Safari which is a fellow Webkit browser, but Chrome seems to be a lot more picky. So this is just a reminder to make sure you&#8217;re very precise with what is being sent to Chrome from your server.</div>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-2-25-be-very-careful-with-your-content-type-for-chrome-ajax-reque-html/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>XPages: Displaying a view inside a Dojo Dialog</title>
+		<link>/2009-4-23-xpages-displaying-a-view-inside-a-dojo-dialog-html/</link>
+					<comments>/2009-4-23-xpages-displaying-a-view-inside-a-dojo-dialog-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 23 Apr 2009 10:36:36 +0000</pubDate>
+				<category><![CDATA[Show-n-Tell Thursday]]></category>
+		<guid isPermaLink="false">/2009-4-23-xpages-displaying-a-view-inside-a-dojo-dialog-html/</guid>
+
+					<description><![CDATA[This is my first SnTT post for absolutely ages, but, hopefully I&#8217;ll be able to do quite a few more over the next few months as&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>This is my first SnTT post for absolutely ages, but, hopefully I&#8217;ll be able to do quite a few more over the next few months as I am just starting a brand new XPages project for a customer that runs through until August.</p>
+<p>One of the first things I have been bashing my head against the development wall over is how to get a view to act as a picklist in a dialog. In theory, it should be pretty easy, you just add the &#8220;dijit.Dialog&#8221; to your XPage resources like so:</p>
+<p><img src="http://img.skitch.com/20090423-xi5n4anc62asnfwjman884u9x3.jpg" /></p>
+<p>Don&#8217;t forget to also enable the dojoParseOnLoad and dojoTheme properties at the same time.Then inside your XPage you&#8217;ll want to actually create the dialog HTML:</p>
+<p><img src="http://img.skitch.com/20090423-emw7i49srkaercfk1jbrdstk3.jpg" /></p>
+<p>At this point I had assumed that I could just add my view control inside the div and Bob, as they say, would be my mother&#8217;s brother. But I hadn&#8217;t catered for Dojo taking control of the HTML in the XPage once it was rendered. Basically what happens is that after the page loads, Dojo moves the div I created out of the Domino generated form and makes it a child of the body element. This displays fine, until you try and navigate through the view using the pager control, which no longer works as the javascipt requires the HTML to beinside the Domino form. So as far I can tell you have a couple of options, either move the div back inside the form, but I&#8217;m assuming that Dojo moved it out for a reason so I wanted to avoid that.</p>
+<p>In the end I moved the view control itself to be in a standalone XPage and then opened that via an iFrame that is embedded inside the dialog div. It&#8217;s just a matter then of changing my javascript to refer to window.parent when I want to send values back from the dialog to the main XPage.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-4-23-xpages-displaying-a-view-inside-a-dojo-dialog-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Tips for referencing elements in XPages JavaScript</title>
+		<link>/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/</link>
+					<comments>/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 09 Oct 2008 08:56:48 +0000</pubDate>
+				<category><![CDATA[Show-n-Tell Thursday]]></category>
+		<guid isPermaLink="false">/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/</guid>
+
+					<description><![CDATA[I managed to hit a bit of a wall with my IdeaJam on XPages development this week. Up until now I haven&#8217;t really needed to write&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I managed to hit a bit of a wall with my IdeaJam on XPages development this week. Up until now I haven&#8217;t really needed to write any client side JavaScript which is impressive in itself compared to how much client side scripts we have in IdeaJam classic. But I have reached that point where I want to add some interactivity without round-tripping to the server.</p>
+<p>In classic Domino it&#8217;s very easy to write script that refers to specific elements of the HTML because you get to control the IDs of those elements. But with XPages it is not possible to predict what the name of an element will be when it reaches the browser. So you are provided with a couple of functions to help you out. When you&#8217;re writing client side Javascript in an XPage client side event (like clicking a button) it&#8217;s very easy, the syntax you use to reference an element is &#8220;#{id:myElement}&#8221; in place of the id. So for example you could use:</p>
+<p>dojo.byId(&#8220;#{id:myDiv}&#8221;).style.display = &#8220;none&#8221;;</p>
+<p>But the thing that I didn&#8217;t know about until <a href="http://www.jmackey.net/">John Mackey</a> gave me some help was that there is a second way of getting the ID of an element. My specific problem was that I wanted to have a script run when the page finishes loading and that script needed to go and work on several different elements. It&#8217;s easy enough to make a script run &#8220;onload&#8221;. You can actually write JavaScript directly into the source XML of the XPage, so I have added, at the top of my XPage something like this:</p>
+<p>&lt;script language=&#8221;Javascript&#8221;&gt;<br />
+XSP.addOnLoad(function () {<br />
+initLocal();<br />
+}<br />
+);<br />
+&lt;/script&gt;</p>
+<p>This will tell Dojo to call the function &#8220;initLocal()&#8221; when the page has finished loading, no problem there. But my initLocal function needs to reference an element on the page and I can&#8217;t use the &#8220;#{id:myElement}&#8221; format as that only gets evaluated in events that are provided for you by the XPage, enter the &#8220;getClientId()&#8221; function. You can add a computed field to the XPage that has JavaScript embedded within it in the following format:</p>
+<p>var out=&#8221;&lt;script language=\&#8221;Javascript\&#8221;&gt;\n&#8221;;<br />
+out += &#8220;var myElementId = \&#8221;&#8221; + getClientId(&#8220;myElement&#8221;) + &#8220;\&#8221;;\n&#8221;;<br />
+out += &#8220;function initLocal(){\n&#8221;;<br />
+out += &#8220;myFunction(myElementId);\n&#8221;;<br />
+out += &#8220;}\n&#8221;;<br />
+out += &#8220;&lt;/script&gt;&#8221;;<br />
+out</p>
+<p>And by the time it makes it out the the browser it has been translated into:</p>
+<p>&lt;script language=&#8221;Javascript&#8221;&gt;<br />
+var myElementId = &#8220;view:_id1:_id2:content:_id4:myElement&#8221;;<br />
+function initLocal(){<br />
+myFunction(myElementId);<br />
+}<br />
+&lt;/script&gt;</p>
+<p>So in the initLocal function I call another function which is held in a Client Side JavaScript library and I pass in the element ID so that the function can reference the element on the page with proper separation between UI and business logic. So it&#8217;s all a bit round the houses but this way of doing things does work well and hopefully you won&#8217;t need to go through the pain that I have in working this stuff out.</p>
+<p>Finally a big thanks to <a href="http://www.jmackey.net/">John Mackey</a> for his help, this is when the Lotus community really proves it&#8217;s worth</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-10-9-tips-for-referencing-elements-in-xpages-javascript-html/feed/</wfw:commentRss>
+			<slash:comments>11</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Character encoding in an Ajax LotusScript agent</title>
+		<link>/2008-10-6-character-encoding-in-an-ajax-lotusscript-agent-html/</link>
+					<comments>/2008-10-6-character-encoding-in-an-ajax-lotusscript-agent-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 06 Oct 2008 09:15:51 +0000</pubDate>
+				<category><![CDATA[Show-n-Tell Thursday]]></category>
+		<guid isPermaLink="false">/2008-10-6-character-encoding-in-an-ajax-lotusscript-agent-html/</guid>
+
+					<description><![CDATA[I know it&#8217;s Monday, but I thought I&#8217;d share this with you anyway. So, most people know that you can control the content-type in an agent&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I know it&#8217;s Monday, but I thought I&#8217;d share this with you anyway.</p>
+<p>So, most people know that you can control the <a href="http://en.wikipedia.org/wiki/MIME#Content-Type">content-type</a> in an agent called by an Ajax request (or any type of agent for that matter) by using this line:</p>
+<p>print |content-type: text/plain|</p>
+<p>which will result in plain text being sento to the browser, of course you can also send HTML, XML, JSON or any other content type that you so choose.</p>
+<p>What you may not have known is that you can also control the charset property of the response. Why would you want to do this? Well if you have an agent that returns high number Ascii characters such as &eacute; or &ouml; then by default they will be returned to the Ajax request as non-printing characters. But if you use this line in your agent then they will be transferred to your browser correctly:</p>
+<p>print |content-type: text/plain; charset=utf-8|</p>
+<p>So my recommendation is that for every agent that you write where you would have just set the content-type, just take that extra few seconds to define the character set as well to save yourself trouble down the line.</p>
+<p>You may well take from this, that I have just been burned by this very issue, and you may well be correct. Did I mention that version 1.3 of IdeaJam will be released very shortly <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-10-6-character-encoding-in-an-ajax-lotusscript-agent-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Using easymock for disconnected Domino Java testing</title>
+		<link>/2008-2-6-using-easymock-for-disconnected-domino-java-testing-html/</link>
+					<comments>/2008-2-6-using-easymock-for-disconnected-domino-java-testing-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 06 Feb 2008 09:49:17 +0000</pubDate>
+				<category><![CDATA[Show-n-Tell Thursday]]></category>
+		<guid isPermaLink="false">/2008-2-6-using-easymock-for-disconnected-domino-java-testing-html/</guid>
+
+					<description><![CDATA[One of the projects I&#8217;m working on at the moment has a *lot* of code written in a J2EE application which talks to Oracle using JDBC&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>One of the projects I&#8217;m working on at the moment has a *lot* of code written in a J2EE application which talks to Oracle using JDBC and Domino over CORBA. It actually all works really well but the approach of one of our non-Domino developers was really interesting to me, so I asked if I could write about it up here.</p>
+<p>So the approach that Greg takes is <a href="http://en.wikipedia.org/wiki/Test-driven_development">test driven development</a>, that is he writes his tests before writing the code. For his testing he would rather not connect to the Domino server all the time, but instead mock up objects to make sure that his other code works correctly. Enter <a href="http://www.easymock.org/">EasyMock</a>, which is a JAR file which you can include in any project that basically pretends to be whatever object you want it to be.</p>
+<style type="text/css">
+    <!--code { font-family: Courier New, Courier; font-size: 10pt; margin: 0px; }-->
+</style>
+<p><!-- ======================================================== --><br />
+<!-- = Java Sourcecode to HTML automatically converted code = --><br />
+<!-- =   Java2Html Converter 5.0 [2006-02-26] by Markus Gebhard  markus@jave.de   = --><br />
+<!-- =     Further information: http://www.java2html.de/     = --></p>
+<div align="left" class="java">
+<table border="0" cellpadding="3" cellspacing="0" bgcolor="#ffffff">
+<tr>
+  <!-- start source code --></p>
+<td nowrap="nowrap" valign="top" align="left">
+    <code><br />
+<font color="#7f0055"><b>package&nbsp;</b></font><font color="#000000">test;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#7f0055"><b>import&nbsp;</b></font><font color="#000000">junit.framework.*;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#7f0055"><b>import&nbsp;</b></font><font color="#000000">java.util.Vector;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#7f0055"><b>import&nbsp;</b></font><font color="#000000">org.easymock.EasyMock;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#7f0055"><b>import&nbsp;</b></font><font color="#000000">org.easymock.*;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#7f0055"><b>import&nbsp;static&nbsp;</b></font><font color="#000000">org.easymock.EasyMock.*;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#7f0055"><b>import&nbsp;</b></font><font color="#000000">lotus.domino.*;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#7f0055"><b>import&nbsp;</b></font><font color="#000000">com.agcs.cores.utilities.*;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#7f0055"><b>public&nbsp;class&nbsp;</b></font><font color="#000000">testDominoFieldProcessing&nbsp;</font><font color="#7f0055"><b>extends&nbsp;</b></font><font color="#000000">TestCase&nbsp;</font><font color="#000000">{</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;</font><font color="#000000">Document&nbsp;mock&nbsp;=&nbsp;</font><font color="#7f0055"><b>null</b></font><font color="#000000">;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;</font><font color="#000000">DateTime&nbsp;datemock&nbsp;=&nbsp;</font><font color="#7f0055"><b>null</b></font><font color="#000000">;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;</font><font color="#000000">DominoFieldProcessing&nbsp;dfield&nbsp;=&nbsp;</font><font color="#7f0055"><b>null</b></font><font color="#000000">;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;</font><font color="#7f0055"><b>public&nbsp;</b></font><font color="#7f0055"><b>void&nbsp;</b></font><font color="#000000">setUp</font><font color="#000000">()&nbsp;</font><font color="#7f0055"><b>throws&nbsp;</b></font><font color="#000000">Exception</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;</font><font color="#000000">{</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#000000">mock&nbsp;=&nbsp;createMock</font><font color="#000000">(</font><font color="#000000">Document.</font><font color="#7f0055"><b>class</b></font><font color="#000000">)</font><font color="#000000">;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#000000">Vector&lt;DateTime&gt;&nbsp;v&nbsp;=&nbsp;</font><font color="#7f0055"><b>new&nbsp;</b></font><font color="#000000">Vector&lt;DateTime&gt;</font><font color="#000000">()</font><font color="#000000">;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#7f0055"><b>for&nbsp;</b></font><font color="#000000">(</font><font color="#7f0055"><b>int&nbsp;</b></font><font color="#000000">i&nbsp;=&nbsp;</font><font color="#990000">0</font><font color="#000000">;&nbsp;i&lt;&nbsp;</font><font color="#990000">3</font><font color="#000000">;i++</font><font color="#000000">)</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#000000">{</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#000000">datemock&nbsp;=&nbsp;createMock</font><font color="#000000">(</font><font color="#000000">DateTime.</font><font color="#7f0055"><b>class</b></font><font color="#000000">)</font><font color="#000000">;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#000000">expect</font><font color="#000000">(</font><font color="#000000">datemock.getLocalTime</font><font color="#000000">())</font><font color="#000000">.andReturn</font><font color="#000000">(</font><font color="#2a00ff">&#34;01:02:03&#34;</font><font color="#000000">)</font><font color="#000000">;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#000000">expect</font><font color="#000000">(</font><font color="#000000">datemock.toJavaDate</font><font color="#000000">())</font><font color="#000000">.andReturn</font><font color="#000000">(</font><font color="#7f0055"><b>new&nbsp;</b></font><font color="#000000">java.util.Date</font><font color="#000000">(</font><font color="#000000">System.currentTimeMillis</font><font color="#000000">()&nbsp;&nbsp;&nbsp;))</font><font color="#000000">;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#000000">v.add</font><font color="#000000">(</font><font color="#000000">datemock</font><font color="#000000">)</font><font color="#000000">;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#000000">replay</font><font color="#000000">(</font><font color="#000000">datemock</font><font color="#000000">)</font><font color="#000000">;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#000000">}</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#000000">expect</font><font color="#000000">(</font><font color="#000000">mock.getItemValue</font><font color="#000000">(</font><font color="#2a00ff">&#34;time&#34;</font><font color="#000000">))</font><font color="#000000">.andReturn</font><font color="#000000">(</font><font color="#000000">v</font><font color="#000000">)</font><font color="#000000">;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#000000">expect</font><font color="#000000">(</font><font color="#000000">mock.hasItem</font><font color="#000000">(</font><font color="#2a00ff">&#34;time&#34;</font><font color="#000000">))</font><font color="#000000">.andReturn</font><font color="#000000">(</font><font color="#7f0055"><b>true</b></font><font color="#000000">)</font><font color="#000000">;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#000000">replay</font><font color="#000000">(</font><font color="#000000">mock</font><font color="#000000">)</font><font color="#000000">;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;</font><font color="#000000">}</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;</font><font color="#7f0055"><b>public&nbsp;</b></font><font color="#7f0055"><b>void&nbsp;</b></font><font color="#000000">testNotesDateToJavaDate</font><font color="#000000">()&nbsp;&nbsp;</font><font color="#7f0055"><b>throws&nbsp;</b></font><font color="#000000">Exception</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;</font><font color="#000000">{</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#7f0055"><b>for&nbsp;</b></font><font color="#000000">(</font><font color="#000000">java.util.Date&nbsp;d:&nbsp;&nbsp;DominoFieldProcessing.getFieldValueAsListDate</font><font color="#000000">(</font><font color="#000000">mock,</font><font color="#2a00ff">&#34;time&#34;</font><font color="#000000">))</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#000000">System.out.println</font><font color="#000000">(</font><font color="#000000">d</font><font color="#000000">)</font><font color="#000000">;</font><br />
+<font color="#ffffff"></font><br />
+<font color="#ffffff">&nbsp;&nbsp;</font><font color="#000000">}</font><br />
+<font color="#ffffff"></font><br />
+<font color="#000000">}</font><br />
+<font color="#ffffff"></font><font color="#ffffff"><br />
+</font></code></p>
+</td>
+<p>  <!-- end source code --><br />
+   </tr>
+<p>  <!-- start Java2Html link --></p>
+<tr>
+<td align="right">
+<small><br />
+<a href="http://www.java2html.de/" target="_blank" rel="noopener">Java2html</a><br />
+</small>
+    </td>
+</tr>
+<p>  <!-- end Java2Html link --><br />
+</table>
+</div>
+<p><!-- =       END of automatically generated HTML code       = --><br />
+<!-- ======================================================== --></p>
+<p>What this code shows is the use of EasyMock to be a Notes Document and a DateTime Object. You tell it what the methods that you want to call should return, and then, for all intents and purposes, the object is a Domino object but without having to go through the hassle of deploying your code to a server which has the rights to connect to a proper Domino server. Now of course this should only be used early on in the development lifecycle, but for environments where connecting to Domino can be difficult this is a real time saver.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-2-6-using-easymock-for-disconnected-domino-java-testing-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>WebDAV tip</title>
+		<link>/2007-3-8-webdav-tip-html/</link>
+					<comments>/2007-3-8-webdav-tip-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 08 Mar 2007 08:30:16 +0000</pubDate>
+				<category><![CDATA[Show-n-Tell Thursday]]></category>
+		<guid isPermaLink="false">/2007-3-8-webdav-tip-html/</guid>
+
+					<description><![CDATA[I spent a little time last night getting WebDAV enabled on a database and server so that I could upload the latest version of Dojo as&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I spent a little time last night getting <a href="http://www.webdav.org/">WebDAV</a> enabled on a database and server so that I could upload the latest version of Dojo as file resource design elements. Unfortunately it took a little more time than expected. Of course <a href="http://codestore.net/">Jake</a> has an <a href="http://www.codestore.net/store.nsf/unid/FISR-6U8SN7?OpenDocument">article</a> on how to set it up but the one thing which I missed for about half an hour of swearing was that you <u>must</u> check the design locking box in the database properties as well as everything else. The Administration documentation is ambiguous on this point from my view.</p>
+<p>So hopefully if people are seeing the message &#8220;The HTTP method is not allowed for the specified URL&#8221; when trying to copy a file into the Domino database using Windows Explorer (or indeed the OS X Finder although the error message is somewhat less helpful there!) then a quick Google should find this page.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-3-8-webdav-tip-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>LotusScript to Make a new web user able to log in immediately</title>
+		<link>/2007-1-1-lotusscript-to-make-a-new-web-user-able-to-log-in-immediatel-html/</link>
+					<comments>/2007-1-1-lotusscript-to-make-a-new-web-user-able-to-log-in-immediatel-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 01 Jan 2007 12:50:25 +0000</pubDate>
+				<category><![CDATA[Show-n-Tell Thursday]]></category>
+		<guid isPermaLink="false">/2007-1-1-lotusscript-to-make-a-new-web-user-able-to-log-in-immediatel-html/</guid>
+
+					<description><![CDATA[Bill offered some advice yesterday about a problem I&#8217;ve been having with new user registrations for Defectr. What was happening was that a new user would&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://www.billbuchan.com/">Bill</a> offered some advice <a href="http://www.11tmr.com/11tmr.nsf/d6plinks/MWHE-6WZE7J#comments">yesterday</a> about a problem I&#8217;ve been having with new user registrations for <a href="http://www.defectr.com/">Defectr</a>.</p>
+<p>What was happening was that a new user would register, everything would work fine but it took up to 15 minutes for the new account to work. I thought I had tried all combinations of solution but am also running the Defectr registrations in a Directory Assistance NAB (ie not the primary NAB on the server) so assumed that that was the source of the problem. But Bill&#8217;s posting spurred me to have another quick look and it seems like I&#8217;ve got it fixed now.</p>
+<p>All of the work I had been doing was around refreshing views in the NAB in which the users were being created, it never occurred to me to refresh the same views in the main NAB but when I did the new account worked straight away. I have no idea why this would be the case, any idea you admin types?</p>
+<p>Anyway, this is the code I now run when a new user registers:</p>
+<blockquote>
+<style>.lotusscript { font-family: sans-serif; font-size: 9pt; color: black; }
+.ls-comment { color: green; }
+.ls-quote { color: black; }
+.ls-datatype { color: black; }
+.ls-operator { color: blue; }
+.ls-keyword { color: blue; }
+.ls-statement { color: blue; }
+.ls-function { color: blue; }
+.ls-class { color: black; }
+.ls-constant { color: purple; }
+</style>
+<pre><div class=lotusscript>
+<font class=ls-keyword>Option</font> <font class=ls-keyword>Public</font>
+<font class=ls-keyword>Option</font> <font class=ls-keyword>Declare</font>
+<font class=ls-statement>Use</font> <font class=ls-quote>"OpenLogFunctions"</font>
+<font class=ls-statement>Use</font> <font class=ls-quote>"slnnotesdll"</font>
+
+<font class=ls-statement>Sub</font> UpdateNAB
+	<font class=ls-statement>On</font> <font class=ls-function>Error</font> <font class=ls-keyword>Goto</font> Whoops
+	
+	<font class=ls-statement>Dim</font> commander <font class=ls-keyword>As</font> <font class=ls-keyword>New</font> nnotesdll
+	<font class=ls-statement>Dim</font> sess <font class=ls-keyword>As</font> <font class=ls-keyword>New</font> <font class=ls-class>NotesSession</font>
+	<font class=ls-statement>Dim</font> strError <font class=ls-keyword>As</font> <font class=ls-keyword>String</font>
+	<font class=ls-statement>Dim</font> server <font class=ls-keyword>As</font> <font class=ls-keyword>String</font>
+	<font class=ls-statement>Dim</font> scommand <font class=ls-keyword>As</font> <font class=ls-keyword>String</font>
+	<font class=ls-statement>Dim</font> strResponse <font class=ls-keyword>As</font> <font class=ls-keyword>String</font>
+	
+	Server <font class=ls-operator>=</font> sess<font class=ls-operator>.</font>CurrentDatabase<font class=ls-operator>.</font>Server
+	
+	sCommand <font class=ls-operator>=</font> <font class=ls-quote>|load updall names.nsf -t "($ServerAccess)" -r|</font>
+	strResponse<font class=ls-operator>=</font><font class=ls-quote>""</font>
+	strError<font class=ls-operator>=</font>commander<font class=ls-operator>.</font>rConsole<font class=ls-operator>(</font>Server<font class=ls-operator>,</font>sCommand<font class=ls-operator>,</font>strResponse<font class=ls-operator>)</font>
+	<font class=ls-function>Sleep</font> 1
+	
+	sCommand <font class=ls-operator>=</font> <font class=ls-quote>|load updall names.nsf -t "($Users)" -r|</font>
+	strResponse<font class=ls-operator>=</font><font class=ls-quote>""</font>
+	strError<font class=ls-operator>=</font>commander<font class=ls-operator>.</font>rConsole<font class=ls-operator>(</font>Server<font class=ls-operator>,</font>sCommand<font class=ls-operator>,</font>strResponse<font class=ls-operator>)</font>
+	<font class=ls-function>Sleep</font> 1
+	
+	sCommand <font class=ls-operator>=</font> <font class=ls-quote>|dbcache flush|</font>
+	strResponse<font class=ls-operator>=</font><font class=ls-quote>""</font>
+	strError<font class=ls-operator>=</font>commander<font class=ls-operator>.</font>rConsole<font class=ls-operator>(</font>Server<font class=ls-operator>,</font>sCommand<font class=ls-operator>,</font>strResponse<font class=ls-operator>)</font>	
+	<font class=ls-function>Sleep</font> 1
+	
+	sCommand <font class=ls-operator>=</font> <font class=ls-quote>"Tell Adminp Process People"</font>
+	strResponse<font class=ls-operator>=</font><font class=ls-quote>""</font>
+	strError<font class=ls-operator>=</font>commander<font class=ls-operator>.</font>rConsole<font class=ls-operator>(</font>Server<font class=ls-operator>,</font>sCommand<font class=ls-operator>,</font>strResponse<font class=ls-operator>)</font>
+	
+	<font class=ls-function>Sleep</font> 1
+	
+	sCommand <font class=ls-operator>=</font> <font class=ls-quote>"Show nlcache reset"</font>
+	strResponse<font class=ls-operator>=</font><font class=ls-quote>""</font>
+	strError<font class=ls-operator>=</font>commander<font class=ls-operator>.</font>rConsole<font class=ls-operator>(</font>Server<font class=ls-operator>,</font>sCommand<font class=ls-operator>,</font>strResponse<font class=ls-operator>)</font>
+	
+	<font class=ls-statement>Exit</font> <font class=ls-statement>Sub</font>	
+Whoops<font class=ls-operator>:</font>
+	<font class=ls-function>Call</font> LogError<font class=ls-operator>(</font><font class=ls-operator>)</font>
+	gResponse <font class=ls-operator>=</font> <font class=ls-quote>"ERROR: "</font> <font class=ls-operator>+</font> <font class=ls-function>Error</font>
+	<font class=ls-statement>Exit</font> <font class=ls-statement>Sub</font>
+<font class=ls-statement>End</font> <font class=ls-statement>Sub</font>
+</div></pre>
+<div style="FONT-SIZE: 8pt; COLOR: gray; FONT-FAMILY: sans-serif; BORDER: 1 solid Grey; margin : 5px 50px 5px 50px;"><center>This LotusScript was converted to HTML using the <b><i>ls2html</i></b> routine,<br />provided by Julian Robichaux at <a href="http://www.nsftools.com/" target="_blank" rel="noopener">nsftools.com</a>.</center></div>
+</blockquote>
+<p>
+Tags: <a href="http://technorati.com/tag/Show-N-Tell+Thursday">Show-N-Tell Thursday</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-1-1-lotusscript-to-make-a-new-web-user-able-to-log-in-immediatel-html/feed/</wfw:commentRss>
+			<slash:comments>6</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>LotusScript Class to Convert Numbers to Words in French</title>
+		<link>/2006-10-29-lotusscript-class-to-convert-numbers-to-words-in-french-html/</link>
+					<comments>/2006-10-29-lotusscript-class-to-convert-numbers-to-words-in-french-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sun, 29 Oct 2006 09:38:19 +0000</pubDate>
+				<category><![CDATA[Show-n-Tell Thursday]]></category>
+		<guid isPermaLink="false">/2006-10-29-lotusscript-class-to-convert-numbers-to-words-in-french-html/</guid>
+
+					<description><![CDATA[A bit of an obscure one this, but we are making an English application multi lingual. One function converts numbers to words, and having tried to&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>A bit of an obscure one this, but we are making an English application multi lingual. One function converts numbers to words, and having tried to use the same logic for the French translations it just doesn&#8217;t work so I spent a couple of hours this morning porting a <a href="http://www.rgagnon.com/javadetails/java-0426.html">Java class</a> to work in LotusScript to perform the function:</p>
+<pre style="BORDER-RIGHT: #999999 1px dashed; PADDING-RIGHT: 5px; BORDER-TOP: #999999 1px dashed; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; OVERFLOW: auto; BORDER-LEFT: #999999 1px dashed; WIDTH: 100%; COLOR: #000000; LINE-HEIGHT: 14px; PADDING-TOP: 5px; BORDER-BOTTOM: #999999 1px dashed; FONT-FAMILY: Andale Mono, Lucida Console, Monaco, fixed, monospace; BACKGROUND-COLOR: #eee"><code>'**********************************************************
+'*Ported from Java Class found at:
+'*http://www.rgagnon.com/javadetails/java-0426.html
+'**********************************************************
+Class FrenchDecimalFormat
+&nbsp;&nbsp;tenNames() As String
+&nbsp;&nbsp;uniteNames1() As String
+&nbsp;&nbsp;uniteNames2() As String
+&nbsp;&nbsp;
+&nbsp;&nbsp;Sub new()
+&nbsp;&nbsp;&nbsp;&nbsp;Redim tenNames(9)
+&nbsp;&nbsp;&nbsp;&nbsp;tenNames(0) = &quot;&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;tenNames(1) = &quot;&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;tenNames(2) = &quot;vingt&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;tenNames(3) = &quot;trente&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;tenNames(4) = &quot;quarante&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;tenNames(5) = &quot;cinquante&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;tenNames(6) = &quot;soixante&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;tenNames(7) = &quot;soixante&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;tenNames(8) = &quot;quatre-vingt&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;tenNames(9) = &quot;quatre-vingt&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;Redim uniteNames1(19)
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames1(0) = &quot;&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames1(1) = &quot;un&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames1(2) = &quot;deux&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames1(3) = &quot;trois&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames1(4) = &quot;quatre&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames1(5) = &quot;cinq&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames1(6) = &quot;six&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames1(7) = &quot;sept&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames1(8) = &quot;huit&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames1(9) = &quot;neuf&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames1(10) = &quot;dix&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames1(11) = &quot;onze&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames1(12) = &quot;douze&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames1(13) = &quot;treize&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames1(14) = &quot;quatorze&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames1(15) = &quot;quinze&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames1(16) = &quot;seize&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames1(17) = &quot;dix-sept&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames1(18) = &quot;dix-huit&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames1(19) = &quot;dix-neuf&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;Redim uniteNames2(10)
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames2(0) = &quot;&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames2(1) = &quot;&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames2(2) = &quot;deux&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames2(3) = &quot;trois&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames2(4) = &quot;quatre&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames2(5) = &quot;cinq&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames2(6) = &quot;six&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames2(7) = &quot;sept&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames2(8) = &quot;huit&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames2(9) = &quot;neuf&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;uniteNames2(10) = &quot;dix&quot;
+&nbsp;&nbsp;End Sub
+&nbsp;&nbsp;
+&nbsp;&nbsp;Function convertZeroToHundred(number As Integer) As String
+&nbsp;&nbsp;&nbsp;&nbsp;Dim laten As Integer
+&nbsp;&nbsp;&nbsp;&nbsp;Dim lUnite As Integer
+&nbsp;&nbsp;&nbsp;&nbsp;Dim result As String
+&nbsp;&nbsp;&nbsp;&nbsp;Dim joiner As String
+&nbsp;&nbsp;&nbsp;&nbsp;laten = Fix(number / 10)
+&nbsp;&nbsp;&nbsp;&nbsp;lUnite = number Mod 10
+&nbsp;&nbsp;&nbsp;&nbsp;result = &quot;&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;If laten = 1 Or laten = 7 Or laten = 9 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lUnite = lUnite + 10
+&nbsp;&nbsp;&nbsp;&nbsp;End If
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;joiner = &quot;&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;If laten &gt; 1 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;joiner = &quot;-&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;End If
+&nbsp;&nbsp;&nbsp;&nbsp;If lUnite = 0 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;joiner = &quot;&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;Elseif lUnite = 1 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If laten = 8 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;joiner = &quot;-&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Else
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;joiner = &quot; et &quot;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End If
+&nbsp;&nbsp;&nbsp;&nbsp;Elseif lUnite = 11 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If laten = 7 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;joiner = &quot; et &quot;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End If
+&nbsp;&nbsp;&nbsp;&nbsp;End If
+&nbsp;&nbsp;&nbsp;&nbsp;If laten = 0 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result = uniteNames1(lUnite)
+&nbsp;&nbsp;&nbsp;&nbsp;Elseif laten = 8 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If lUnite = 0 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result = tenNames(laten)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Else
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result = tenNames(laten) + joiner + uniteNames1(lUnite)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End If
+&nbsp;&nbsp;&nbsp;&nbsp;Else
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result = tenNames(laten) + joiner + uniteNames1(lUnite)
+&nbsp;&nbsp;&nbsp;&nbsp;End If
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;convertZeroToHundred = result
+&nbsp;&nbsp;End Function
+&nbsp;&nbsp;
+&nbsp;&nbsp;Function convertLessThanOneThousand(number As Integer)
+&nbsp;&nbsp;&nbsp;&nbsp;Dim hundreds As Integer
+&nbsp;&nbsp;&nbsp;&nbsp;Dim remainder As Integer
+&nbsp;&nbsp;&nbsp;&nbsp;Dim strRemainder As String
+&nbsp;&nbsp;&nbsp;&nbsp;Dim result As String
+&nbsp;&nbsp;&nbsp;&nbsp;hundreds = Fix(number / 100)
+&nbsp;&nbsp;&nbsp;&nbsp;remainder = number Mod 100
+&nbsp;&nbsp;&nbsp;&nbsp;strRemainder = convertZeroToHundred(remainder)
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;If hundreds = 0 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result = strRemainder
+&nbsp;&nbsp;&nbsp;&nbsp;Elseif hundreds = 1 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If remainder &gt; 0 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result = &quot;cent &quot; + strRemainder
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Else
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result = &quot;cent&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End If
+&nbsp;&nbsp;&nbsp;&nbsp;Else
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If remainder &gt; 0 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result = uniteNames2(hundreds) + &quot; cent &quot; + strRemainder
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Else
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result = uniteNames2(hundreds) + &quot; cents&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End If
+&nbsp;&nbsp;&nbsp;&nbsp;End If
+&nbsp;&nbsp;&nbsp;&nbsp;convertLessThanOneThousand = result
+&nbsp;&nbsp;End Function
+&nbsp;&nbsp;
+&nbsp;&nbsp;Function convert(number As Double)
+&nbsp;&nbsp;&nbsp;&nbsp;Dim snumber As String
+&nbsp;&nbsp;&nbsp;&nbsp;Dim billions As Integer
+&nbsp;&nbsp;&nbsp;&nbsp;Dim millions As Integer
+&nbsp;&nbsp;&nbsp;&nbsp;Dim hundredthousands As Integer
+&nbsp;&nbsp;&nbsp;&nbsp;Dim thousands As Integer
+&nbsp;&nbsp;&nbsp;&nbsp;Dim strBillions As String
+&nbsp;&nbsp;&nbsp;&nbsp;Dim strMillions As String
+&nbsp;&nbsp;&nbsp;&nbsp;Dim strHundredThousands As String
+&nbsp;&nbsp;&nbsp;&nbsp;Dim strThousands As String
+&nbsp;&nbsp;&nbsp;&nbsp;Dim result As String
+&nbsp;&nbsp;&nbsp;&nbsp;If number = 0 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;convert = &quot;z&eacute;ro&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exit Function
+&nbsp;&nbsp;&nbsp;&nbsp;End If
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;snumber = Cstr(number)
+&nbsp;&nbsp;&nbsp;&nbsp;snumber = Format$(number, &quot;000000000000&quot;)
+&nbsp;&nbsp;&nbsp;&nbsp;billions = Cint(Left$(snumber, 3)) ' XXXnnnnnnnnn
+&nbsp;&nbsp;&nbsp;&nbsp;millions&nbsp;&nbsp;= Cint(Mid$(snumber, 4,3)) ' nnnXXXnnnnnn
+&nbsp;&nbsp;&nbsp;&nbsp;hundredthousands = Cint(Mid$(snumber, 7, 3))&nbsp;&nbsp;' nnnnnnXXXnnn
+&nbsp;&nbsp;&nbsp;&nbsp;thousands = Cint(Mid$(snumber, 10, 3))&nbsp;&nbsp;' nnnnnnnnnXXX
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;If billions = 0 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;strBillions = &quot;&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;Elseif billions = 1 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;strBillions = convertLessThanOneThousand(billions) + &quot; milliard &quot;
+&nbsp;&nbsp;&nbsp;&nbsp;Else
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;strBillions = convertLessThanOneThousand(billions) + &quot; milliards &quot;
+&nbsp;&nbsp;&nbsp;&nbsp;End If
+&nbsp;&nbsp;&nbsp;&nbsp;result =&nbsp;&nbsp;strBillions
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;If millions = 0 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;strMillions = &quot;&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;Elseif millions = 1 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;strMillions = convertLessThanOneThousand(millions) + &quot; million &quot;
+&nbsp;&nbsp;&nbsp;&nbsp;Else
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;strMillions = convertLessThanOneThousand(millions) + &quot; millions &quot;
+&nbsp;&nbsp;&nbsp;&nbsp;End If
+&nbsp;&nbsp;&nbsp;&nbsp;result = result + strMillions
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;If hundredthousands = 0 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;strHundredThousands = &quot;&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;Elseif hundredthousands = 1 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;strHundredThousands = &quot;mille &quot;
+&nbsp;&nbsp;&nbsp;&nbsp;Else
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;strHundredThousands = convertLessThanOneThousand(hundredthousands) + &quot; mille &quot;
+&nbsp;&nbsp;&nbsp;&nbsp;End If
+&nbsp;&nbsp;&nbsp;&nbsp;result = result + strHundredThousands
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;strThousands = convertLessThanOneThousand(thousands)
+&nbsp;&nbsp;&nbsp;&nbsp;result =&nbsp;&nbsp;result + strThousands
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;convert = result
+&nbsp;&nbsp;End Function
+End Class&amp;#0;&amp;#0;&amp;#0;
+</code></pre>
+<p>
+Tags: <a href="http://technorati.com/tag/Show-N-Tell+Thursday">Show-N-Tell Thursday</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2006-10-29-lotusscript-class-to-convert-numbers-to-words-in-french-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Posting to a Form for AJAX validation</title>
+		<link>/2006-9-27-posting-to-a-form-for-ajax-validation-html/</link>
+					<comments>/2006-9-27-posting-to-a-form-for-ajax-validation-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 27 Sep 2006 16:50:08 +0000</pubDate>
+				<category><![CDATA[Show-n-Tell Thursday]]></category>
+		<guid isPermaLink="false">/2006-9-27-posting-to-a-form-for-ajax-validation-html/</guid>
+
+					<description><![CDATA[I am guessing that this has been done before elsewhere but it was a new idea for me anyway. A couple of weeks ago Julian and&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I am guessing that this has been done before elsewhere but it was a new idea for me anyway.</p>
+<p>A couple of weeks ago <a href="http://www.nsftools.com/blog/blog-08-2006.htm#08-28-06">Julian</a> and <a href="http://dominoweb.blogspot.com/2006/06/ajax-autocompletion-avec-scriptaculous.html">Philippe</a> were talking about using the <a href="http://wiki.script.aculo.us/scriptaculous/show/Ajax.Autocompleter">Scriptaculous Autocomplete</a> feature. Philippe had the cracking idea of using a page to do DBLookups on the fly to provide <a href="http://www.json.org/">JSON</a> data.</p>
+<p>While on the train this morning I came up with the idea of performing complex form validation using a similar technique. The sort of thing I am thinking of is uniqueness checking, complex business rules and so on but without the overhead of firing up an agent to do the processing, submitting to a form will do that same task much faster.</p>
+<p>It&#8217;s definitely worth having a read of Philippe&#8217;s article that I mentioned earlier. What I am proposing is that rather than running a &quot;GET&quot; request from a page which he suggested for the autocomplete tool, that we create a simple form which we &quot;POST&quot; to, to make sure that all of the fields are valid, before submitting the &quot;real&quot; form to be saved. Let me describe things in a little more detail. I have a form which is registering a new user for an application. I need to make sure that the company name of the user is valid and that his email address has not been used for any other users that are already registered. Now this is pretty simple stuff to handle with normal form validation or webquerysave agents but I am not a big fan of the user submitting, waiting for a screen refresh only then to be told they&#8217;ve got something wrong.</p>
+<p>So instead, before submitting the form, we run some javascript which creates an AJAX request (as usual I am using Prototype but you can use your preferred framework). My submit function looks something like this:</p>
+<blockquote>
+<pre style="BORDER-RIGHT: #999999 1px dashed; PADDING-RIGHT: 5px; BORDER-TOP: #999999 1px dashed; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; OVERFLOW: auto; BORDER-LEFT: #999999 1px dashed; WIDTH: 100%; COLOR: #000000; LINE-HEIGHT: 14px; PADDING-TOP: 5px; BORDER-BOTTOM: #999999 1px dashed; FONT-FAMILY: Andale Mono, Lucida Console, Monaco, fixed, monospace; BACKGROUND-COLOR: #eee"><code>function submitClient() {
+//Now we do the server side validation
+var a=$H(
+{
+clientnameandcode: $F(&quot;clientnameandcode&quot;),
+email: $F(&quot;email&quot;)
+}
+);
+var myAjax = new Ajax.Request(
+'/validateNewclient?createdocument&amp;rand=' + Math.floor(Math.random()*1001),
+{method: 'post', parameters: a.toQueryString(), onComplete: submitclientContinue}
+);
+}
+function submitclientContinue(jsonDoc) {
+if (jsonDoc.responseText == &quot;\n&quot;) {
+//All the validation has been passed so submit properly
+document.forms[0].submit();
+}else{
+//There are error messages so display them in a div on the form
+$(&quot;validation&quot;).innerHTML = &quot;
+<p>&quot; + jsonDoc.responseText +&quot;</p>
+&quot;;
+$(&quot;validation&quot;).style.display = &quot;&quot;;
+}
+}
+</code></pre>
+</blockquote>
+<p>
+The two fields I am interested in, clientnameandcode and email are posted to the form called &quot;validateNewClient&quot;. The form then has the following design:<br />
+<img alt="" src="/11tmr.nsf/0/d364cf76c9c5aecf802571f600535125/$FILE/formvalidation.jpg" border="0"/></p>
+<p>
+The things to note are&#8230;</p>
+<li>The SaveOptions field which is set to &quot;0&quot; to prevent the document being saved
+</li>
+<li>The two data fields which match the parameters sent in by the AJAX request
+</li>
+<li>The $$Return formula which actually does all of the validation work, it just computes some response messages where there are errors, or empty string for successes.
+<p>Now the only &quot;hack&#8217; I&#8217;ve had to do is with the return value from the $$Return, where because @SetHTTPHeader(&quot;Content-Type&quot;; &quot;text/text&quot;) doesn&#8217;t work I have to redirect the message I want to return to a page where I can format the message as simple text to be returned to the AJAX request.</p>
+<p>This isn&#8217;t an approach which I would recommend for every situation, but where you have relatively complex business rules which need to be validated and the network can handle the extra load etc then I think it&#8217;s quite neat.</p>
+<p>Of course the one caveat is that with client side validation you must always, always double check on the server side to prevent sneaky people circumventing all of the Javascript you have written to make their lives easier!</p>
+<p>Technorati Tags: <a href="http://technorati.com/tag/Show-N-Tell+Thursday">Show-N-Tell Thursday</a></li>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2006-9-27-posting-to-a-form-for-ajax-validation-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

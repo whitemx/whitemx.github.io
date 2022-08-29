@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>IdeaJam &#8211; mattwhite.me</title>
+	<atom:link href="/category/ideajam/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:27:23 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Upgrading to Mootools 1.2</title>
+		<link>/2010-2-26-upgrading-to-mootools-12-html/</link>
+					<comments>/2010-2-26-upgrading-to-mootools-12-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 26 Feb 2010 10:00:26 +0000</pubDate>
+				<category><![CDATA[IdeaJam]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[mootools]]></category>
+		<guid isPermaLink="false">/2010-2-26-upgrading-to-mootools-12-html/</guid>
+
+					<description><![CDATA[With the release of IdeaJam 1.7 (in beta at the moment, but going &#8220;Gold&#8221; soon enough), we decided to upgrade the Javascript framework that we use,&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>With the release of <a href="http://ideajam.net/">IdeaJam 1.7</a> (in beta at the moment, but going &#8220;Gold&#8221; soon enough), we decided to upgrade the Javascript framework that we use, <a href="http//mootools.net">MooTools</a> to the latest and greatest version. Normally this isn&#8217;t even worth commenting on, but this change was a big&#8217;un as a lot of the underlying API changed from version 1.1 to 1.2. Similar changes have happened with <a href="http://www.dojotoolkit.org/">Dojo</a> in the past in the shift from 0.4 to 0.9 and a very positive move it was too. The problem is that it&#8217;s a painful process of rekeying quite a lot of code.</p>
+<p> So I thought I&#8217;d go through the resources I used and the main changes which we faced with the upgrade to help anyone else going through the same process, although to be fair we are quite late to the party with <a href="http://ajaxian.com/archives/mootools-12-released">MooTools 1.2 as it was released in the middle of 2008</a>.</p>
+<p> There are a couple of really useful websites which document in quite a lot of detail how old style 1.1 syntax should be modified for 1.2. My favourite was this page on the Github Wiki: <a href="http://wiki.github.com/mootools/mootools-core/conversion-from-1-11-to-1-2">Conversion from 1.11 to 1.2</a>.</p>
+<p> Another page you might find useful is <a href="http://www.siafoo.net/article/62">this</a>.</p>
+<p> The areas which we spent most time on were retooling all of our Ajax requests behind the scenes (which was the reason the <a href="http://mattwhite.me/blog/2010/2/25/be-very-careful-with-your-content-type-for-chrome-ajax-reque.html">Chrome bug I mentioned recently</a> was introduced). So the main thing to be aware of is that the syntax for an Ajax request changed from something like this:</p>
+<blockquote><p>new Ajax(url, {<br /> method: &#8216;get&#8217;,<br /> onComplete: processResponse<br /> }).request();</p></blockquote>
+<p>towards something like this:</p>
+<blockquote><p>new Request({<br /> url: url, <br /> method: &#8216;get&#8217;,<br /> onComplete: processResponse<br /> }).send();</p></blockquote>
+<p>The other thing which caused us a little trouble was with the tooltips we use on the Dashboard page in IdeaJam. When I say trouble, it took about an hour to fix, we&#8217;re not talking serious effort here! Anyway, the default CSS settings changed a little, so we just had to add a few extra lines to our CSS file, no biggie.</p>
+<p>Finally for areas which you&#8217;ll want to be careful with, it&#8217;s third party add on functions and code. For example we use <a href="http://phatfusion.net/sortabletable/">Phatfusion&#8217;s sortableTable</a> class in the Top Innovator&#8217;s screen. This was written for MooTools 1.11, so I had to make some changes for it to work properly with the new version.</p>
+<p> From an IdeaJam point of view, the reason for the upgrade was so that we can start to use some of the newer Clientcide plugins in areas that may not get much airtime on the public IdeaJam site. One of the main customer feature requests for this new version is what we call the &#8220;Implementation Plan&#8221;, it&#8217;s the first feature to use some new MooTools functionality, but you can expect more in the next few weeks as we add a new way of linking ideas together.</p>
+<p> So why should you use MooTools? Well to be honest, these days most big web shops seem to be going with jQuery and there are a lot more resources out there for that framework. But I still have a soft spot for MooTools, it seems to fit the way I think which is an important consideration when you&#8217;ll be spending days, weeks or months using the API.</p>
+<p> Really the main benefit of MooTools these days is the wonderful <a href="http://www.clientcide.com/js/">Clientcide</a> add ons which handle the UI side of things and the superb documentation and also the <a href="http://mootools.net/core">core</a> and <a href="http://mootools.net/more">more</a> builders which allow you to configure the javascript files which make up MooTools to such a degree that it will do exactly what you want, a great boon for managing your deployments.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-2-26-upgrading-to-mootools-12-html/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>IdeaJam wins 2009 Beacon Award</title>
+		<link>/2009-6-9-ideajam-wins-2009-beacon-award-html/</link>
+					<comments>/2009-6-9-ideajam-wins-2009-beacon-award-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 09 Jun 2009 15:51:00 +0000</pubDate>
+				<category><![CDATA[IdeaJam]]></category>
+		<category><![CDATA[awards]]></category>
+		<category><![CDATA[ideajam]]></category>
+		<guid isPermaLink="false">/2009-6-9-ideajam-wins-2009-beacon-award-html/</guid>
+
+					<description><![CDATA[We were just watching the &#8220;Business Partner Leadership Agenda&#8221; webcast with Sam Palmisano&#160;where he announced the 2009 Beacon Awards winners. Like the Lotus Awards that we&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p><span class="full-image-float-right ssNonEditable"><span><img src="/static/500fb502e4b0b0a178712c5d/500fb669e4b00f3716e9af9d/500fb669e4b00f3716e9b14f/1244562781049/1000w" alt="" /></span></span>We were just watching the &#8220;Business Partner Leadership Agenda&#8221; webcast with <a href="http://en.wikipedia.org/wiki/Samuel_J._Palmisano">Sam Palmisano</a>&nbsp;where he announced the 2009 <a href="http://www-200.ibm.com/partnerworld/pwhome.nsf/weblook/2009_awards.html">Beacon Awards</a> winners.</p>
+<p>Like the Lotus Awards that we did so well in earlier in the year, these are given to leading IBM Business Partners and as Sam said the Beacon Awards are IBM&#8217;s &#8220;most prestigious award&#8221; so we&#8217;re completely blown away that <a href="http://ideajam.net/">IdeaJam</a>&nbsp;and <a href="http://elguji.com/">Elguji</a> has won again.</p>
+<p>This time we won the&nbsp;<a href="http://www-200.ibm.com/partnerworld/pwhome.nsf/weblook/2009_awards_awards_soft.html#collab">Innovative Collaboration Solution with Lotus Software</a>&nbsp;award. There were 22 different awards given to solutions from over 340 nominations so we really couldn&#8217;t be happier.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-6-9-ideajam-wins-2009-beacon-award-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Using the system to build the system</title>
+		<link>/2009-3-6-using-the-system-to-build-the-system-html/</link>
+					<comments>/2009-3-6-using-the-system-to-build-the-system-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 06 Mar 2009 17:59:43 +0000</pubDate>
+				<category><![CDATA[IdeaJam]]></category>
+		<guid isPermaLink="false">/2009-3-6-using-the-system-to-build-the-system-html/</guid>
+
+					<description><![CDATA[You&#8217;re not meant to apologise for radio silence on a blog, so I shan&#8217;t but things have been very busy. I&#8217;m working on several really cool&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>You&#8217;re not meant to apologise for radio silence on a blog, so I shan&#8217;t but things have been very busy. I&#8217;m working on several really cool projects at the moment so time for the blog has rather fallen to the bottom of the to do list.</p>
+<p>What is really great news from both my own business and from IBM&#8217;s point of view, is that three quarters of my work at the moment is doing development for 8.5 servers, and not just that, but doing development on XPages. It looks as though the latest refresh of the server and Domino Designer has given the development market for Domino web apps the kick up the backside that it really needed.</p>
+<p>As always one of the things going on is the next version of IdeaJam. A couple of weeks ago we posted asking for input on what people want to see on the new home page that we are designing. That&#8217;s still a work in progress, but we&#8217;ll definitely keep you updated. The other area that we want to concentrate on (at the behest of various customers) is the statistics page. Currently we use the JFreeCharts java library to build the charts, they&#8217;re cool and everything but require a lot of processing on the server and aren&#8217;t very &#8220;live&#8221;. So we&#8217;re planning to move back to some flash charts and are looking for views of what you want to see:</p>
+<p><script type="text/javascript"> 
+<!--
+inwidth = 500;inheight = 320;id = "7E53DDE71428B664862575710062A319";//-->
+</script><br />
+<script type="text/javascript" 
+src="http://ideajam.net/IdeaJam/P/ij.nsf/ideajamblogthis.js"> 
+</script></p>
+<p>In other news, I&#8217;m off to Sweden next week with <a href="http://blog.tc-soft.com/">Tim Clark</a> to do another repeat of the XPages course. Looking forward to getting back over to Stockholm as I haven&#8217;t been for a few years. Then it&#8217;s back to the UK for a day before heading off to <a href="http://www.skimorzine.com/morzine/morzine.php">Morzine</a> for a long stag weekend. I don&#8217;t mind telling you, life is pretty tough at the moment. <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-3-6-using-the-system-to-build-the-system-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>For those who don&amp;apos;t think IdeaJam is being watched</title>
+		<link>/2009-1-6-for-those-who-donapost-think-ideajam-is-being-watched-html/</link>
+					<comments>/2009-1-6-for-those-who-donapost-think-ideajam-is-being-watched-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 06 Jan 2009 17:00:37 +0000</pubDate>
+				<category><![CDATA[IdeaJam]]></category>
+		<guid isPermaLink="false">/2009-1-6-for-those-who-donapost-think-ideajam-is-being-watched-html/</guid>
+
+					<description><![CDATA[Every so often we hear from people that they don&#8217;t think that the public IdeaJam site is having any effect with Lotus. There are definitely issues&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Every so often we hear from people that they don&#8217;t think that the public IdeaJam site is having any effect with Lotus. There are definitely issues with feedback, but every so often we get a gem like this&#8230;</p>
+<p><a href="http://www.flickr.com/photos/11tmr/3173653463/" title="IdeaJam is watched by 11tmr, on Flickr"><img loading="lazy" src="/wp-content/uploads/2022/08/3173653463_fdfaae8ba1_o.png" width="242" height="94" alt="IdeaJam is watched" /></a></p>
+<p>So keep on logging your ideas, comments and votes. The people making the decisions are definitely watching.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-1-6-for-those-who-donapost-think-ideajam-is-being-watched-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>It&amp;apos;s painless moving to XPages</title>
+		<link>/2008-12-28-itaposs-painless-moving-to-xpages-html/</link>
+					<comments>/2008-12-28-itaposs-painless-moving-to-xpages-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sun, 28 Dec 2008 18:18:45 +0000</pubDate>
+				<category><![CDATA[IdeaJam]]></category>
+		<guid isPermaLink="false">/2008-12-28-itaposs-painless-moving-to-xpages-html/</guid>
+
+					<description><![CDATA[Over the last month or so we&#8217;ve been spending a lot of time doing testing of the new version of IdeaJam so that the XPages plays&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Over the last month or so we&#8217;ve been spending a lot of time doing testing of the new version of <a href="http://ideajam.net/">IdeaJam</a> so that the XPages plays well with &#8220;Classic&#8221; (as we&#8217;ve taken to calling it). Today we got to the point where we applied the latest beta template against a copy of the IdeaJam production database. Shock of shocks, everything worked exactly as designed. It&#8217;s getting to the point where even we can&#8217;t tell the difference between the classic and the new versions (which is what we were aiming for). So we get all of the benefits of XPages and very little of the pain from the user&#8217;s point of view of things changing because there&#8217;s a new technology under the hood.</p>
+<p>IdeaJam &#8220;Classic&#8221; is a good Domino web application (if I do say so myself), but to work on the design of it requires any developers that help us to have a serious amount of experience with Domino web development (I&#8217;m talking like 5 years plus). But with our XPages version there really is none of that history required, all the new design elements can be worked on by a developer with the same experience as me, or indeed any other XPages developer, 3 months. It means that we can go from having to worry about all of the Domino &#8220;hacks&#8221; to make things work, to concentrating on the important stuff&#8230; developing a kick-ass application for our customers.</p>
+<p>So this is the XPages version of IdeaJam: <img src="/wp-content/uploads/2022/08/3144904956_dd49358a44.jpg" /> <br />
+and this is the classic version: <img src="/wp-content/uploads/2022/08/3144904680_ef376aeaa7.jpg" /><br />
+<br />
+So now our copy of production is at the point where we can go to the database launch properties and flick between launch a navigator and an XPage when the user goes to the home URL, and that is all that needs to be done to switch between classic and the XPage version.</p>
+<p><img src="/wp-content/uploads/2022/08/3144904716_1b9b45f8f6.jpg" /><img src="/wp-content/uploads/2022/08/3144904432_ef8e65c4f6.jpg" /></p>
+<p>Obviously from our point of view there&#8217;s a lot of work behind the scenes going on, but for our customers, switching to XPages couldn&#8217;t be easier.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-12-28-itaposs-painless-moving-to-xpages-html/feed/</wfw:commentRss>
+			<slash:comments>14</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>What is Idea Management?</title>
+		<link>/2008-11-12-what-is-idea-management-html/</link>
+					<comments>/2008-11-12-what-is-idea-management-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 12 Nov 2008 07:21:13 +0000</pubDate>
+				<category><![CDATA[IdeaJam]]></category>
+		<guid isPermaLink="false">/2008-11-12-what-is-idea-management-html/</guid>
+
+					<description><![CDATA[Bruce has been busy putting together this video that will be helpful for new customers]]></description>
+										<content:encoded><![CDATA[<p>Bruce has been busy putting together this video that will be helpful for new customers<br />
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/iUO69k4HSKo&#038;color1=0xb1b1b1&#038;color2=0xcfcfcf&#038;hl=en&#038;fs=1"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.youtube.com/v/iUO69k4HSKo&#038;color1=0xb1b1b1&#038;color2=0xcfcfcf&#038;hl=en&#038;fs=1" type="application/x-shockwave-flash" allowfullscreen="true" width="425" height="344"></embed></object></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-11-12-what-is-idea-management-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Continuing XPages Development</title>
+		<link>/2008-9-28-continuing-xpages-development-html/</link>
+					<comments>/2008-9-28-continuing-xpages-development-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sun, 28 Sep 2008 15:43:00 +0000</pubDate>
+				<category><![CDATA[IdeaJam]]></category>
+		<guid isPermaLink="false">/2008-9-28-continuing-xpages-development-html/</guid>
+
+					<description><![CDATA[After all of the craziness of helping out with UKLUG last week it was back to a good week of development on the new XPages version&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>After all of the craziness of helping out with UKLUG last week it was back to a good week of development on the new XPages version of IdeaJam.<br />
+<a href="http://www.flickr.com/photos/11tmr/2892483310/" title="IdeaJam XPages by 11tmr, on Flickr"><img loading="lazy" src="/wp-content/uploads/2022/08/2892483310_3774310edd.jpg" width="500" height="437" alt="IdeaJam XPages" /></a><br />
+<br />
+I&#8217;ve put a <a href="http://www.flickr.com/photos/11tmr/sets/72157607533263472/">few more screenshots up on Flickr</a> but we&#8217;re continuing to make good progress. This week we&#8217;ve managed to knock off quite a few tasks&#8230;</p>
+<p>The biggest change is that I&#8217;ve added multi lingual support. I suspect that our strategy for IdeaJam won&#8217;t match all requirements, but we already have language documents in place for &#8220;classic&#8221; IdeaJam and I want to re-use as much as I can. So when XPages is loaded for the first time, a server side Javascript function runs which goes and parses the existing languages document and stores each label into a Hashtable in the sessionScope variable. Whenever a page is loaded after that, each label on the XPages and custom controls calls a function which goes and looks up the relevant label from the Hashtable. It seems to work pretty well. As with all of our work so far we haven&#8217;t done serious scalability testing on it, I want to get a baseline function set, see where we are and then tune from that point as I am coming from a position where I don&#8217;t know what is an &#8220;expensive&#8221; operation. We are basically creating best practices as we go here so hopefully the <a href="http://ideajam.net/IdeaJam/P/ij.nsf/0/B4147EA69085EEE0862574D100547BD5?OpenDocument">session that Bruce and I have submitted for Lotusphere</a> will be able to pull our learnings together!</p>
+<p>The other big change this week is the addition of the user profile. This is actually way better than the classic IdeaJam profile as I can effectively embed multiple views onto a single XPage and then just toggle between them with a tabbed panel control (which you can see above). Unfortunately when I was almost done with this earlier in the week, DDE somehow ate the design element and I had to start again, but as with all these things, doing it the second time was much quicker than the first.</p>
+<p>Other cool little bits and pieces that we&#8217;ve done this week include moving the CSS from being a design element back out to being a document so that our customers can easily change the look and feel of their IdeaJam sites. Again this may not be needed for most sites, but for us it is very important as we want to make administering IdeaJam very, very easy (like it is today). I&#8217;ve re-inserted the context sensitivity for RSS feeds, so that the RSS icon knows where you are in the system and presents the right feed to you (I think we have something like 8 different styles of RSS feed in IdeaJam so you can watch what is interesting to you).</p>
+<p>And I&#8217;m finally getting around to fixing some of the stylesheet issues caused by the move from classic to XPages. In classic we style elements based on their ID which is not really practical in XPages as it is all but impossible to know what the ID of an element will be by the time it makes it to the browser, so all styling has to switch to the class property of elements, not a massive issue, but IE being as crap as it is has caused a few problems. As with all browser issues I follow the rule of develop in Firefox and then break for IE, but in the end it only took a couple of hours to sort out most of the problems.</p>
+<p>So where does that leave us? Well I have about 15 big ticket tasks left on the tada list and then we start the really serious task of testing. It&#8217;s going to take us quite a while as we want to release a good quality product. Hopefully somewhere in there will be a new drop of 8.5 beta code, but either way we will have to leave our final test cycle until 8.5 goes gold so that we know we have the fixed, non beta, code that customers will be using. Life is very very busy, but good fun.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-9-28-continuing-xpages-development-html/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>What&amp;apos;s your Elguji?</title>
+		<link>/2008-9-15-whataposs-your-elguji-html/</link>
+					<comments>/2008-9-15-whataposs-your-elguji-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 15 Sep 2008 16:58:45 +0000</pubDate>
+				<category><![CDATA[IdeaJam]]></category>
+		<guid isPermaLink="false">/2008-9-15-whataposs-your-elguji-html/</guid>
+
+					<description><![CDATA[Just in case you&#8217;ve missed it, Mr Elgort is running a competition to come up with the best tag line for future Elguji advertising. You may&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Just in case you&#8217;ve missed it, <a href="http://bruceelgort.com/">Mr Elgort</a> is running a <a href="http://elguji.com/contest">competition</a> to come up with the best tag line for future Elguji advertising. You may have seen the &#8220;If you thought Elguji was&#8230;&#8221; adverts on various sites on the internet, well now you can add your own creative juices to the mix and maybe even win valuable prizes <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Head on over to the <a href="http://elguji.com/contest">Elguji blog</a> and get your thinking caps on.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-9-15-whataposs-your-elguji-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Lotusphere Best Practices Session on IdeaJam</title>
+		<link>/2008-9-5-lotusphere-best-practices-session-on-ideajam-html/</link>
+					<comments>/2008-9-5-lotusphere-best-practices-session-on-ideajam-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 05 Sep 2008 17:08:59 +0000</pubDate>
+				<category><![CDATA[IdeaJam]]></category>
+		<guid isPermaLink="false">/2008-9-5-lotusphere-best-practices-session-on-ideajam-html/</guid>
+
+					<description><![CDATA[Mac has announced that IdeaJam will be used to gather feedback on Best Practices sessions for Lotusphere in January. So if you&#8217;re wanting to get your&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://macguidera.blogspot.com/2008/09/ls09bp-ij-4u.html">Mac has announced</a> that IdeaJam will be used to gather feedback on Best Practices sessions for Lotusphere in January. So if you&#8217;re wanting to get your session included, make sure to add it to IdeaJam so that people can say how great they think it is. I&#8217;m sure it will be a big help if you get a positive response on IdeaJam. You can go and have a look at any sesisons that people have posted <a href="http://ideajam.net/ideajam/p/ij.nsf/ProductByAreaMostRecent?openview&#038;restricttocategory=LS09%20Best%20Practices%20Sessions">here</a>. If fact you may even be the first person to post if you get in quickly.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-9-5-lotusphere-best-practices-session-on-ideajam-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>New IdeaJam features</title>
+		<link>/2008-7-8-new-ideajam-features-html/</link>
+					<comments>/2008-7-8-new-ideajam-features-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 08 Jul 2008 21:06:32 +0000</pubDate>
+				<category><![CDATA[IdeaJam]]></category>
+		<guid isPermaLink="false">/2008-7-8-new-ideajam-features-html/</guid>
+
+					<description><![CDATA[Just to let you know that we are about to release v1.2 of IdeaJam. There&#8217;s a whole ton of new configuration options which are detailed here&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Just to let you know that we are about to release v1.2 of <a href="http://ideajam.net/">IdeaJam</a>. There&#8217;s a whole ton of new configuration options which are detailed <a href="http://ideajam.net/ideajam/blog/blog.nsf/d6plinks/BELT-7GCNF5">here</a> but we did also manage to sneak out a couple of extra features for the public site which people have been asking for. One of the most frequent requests we&#8217;ve been getting has been the ability to filter the Unvoted screen by IdeaSpace, well that&#8217;s been added. And we have also finally added the change password function as well.</p>
+<p>If you&#8217;re an existing IdeaJam customer then you can go to the <a href="http://elguji.com/download">downloads site</a> from tomorrow to get the latest templates and documentation, if you&#8217;re not yet a customer then you really need to talk to <a href="http://gayleelgort.wordpress.com/">Gayle</a> at the <a href="http://elguji.com/ideajam/elguji/elguji.nsf/htdocs/contact">contact page</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-7-8-new-ideajam-features-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

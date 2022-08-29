@@ -11,9 +11,9 @@
 	<title>http &#8211; mattwhite.me</title>
 	<atom:link href="/tag/http/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:24:26 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -33,7 +33,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2010-7-14-forcing-a-file-name-when-downloading-a-dynamically-generated-html/</guid>
 
-					<description><![CDATA[Over the last couple of weeks I&#8217;ve been working on a customisation project using IQJam as a starting point and then making it better fit a particular customer&#8217;s requirements. It&#8217;s worth mentioning as I finally had the justification to spend a little time investigating a problem which has been bugging me. One of the features [&#8230;]]]></description>
+					<description><![CDATA[Over the last couple of weeks I&#8217;ve been working on a customisation project using IQJam as a starting point and then making it better fit a&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>Over the last couple of weeks I&#8217;ve been working on a customisation project using IQJam as a starting point and then making it better fit a particular customer&#8217;s requirements. It&#8217;s worth mentioning as I finally had the justification to spend a little time investigating a problem which has been bugging me.</p>
 <p>One of the features I added to IQJam was the ability to export data to Excel, a common enough feature that you&#8217;ve been able to do in Domino for ever. Simply print data out to the browser in simple HTML format and change the content-type of the page to &#8220;application/vnd.ms-excel&#8221;. That&#8217;s not the point of this posting really.</p>
 <p>The problem I&#8217;ve been trying to work around is that if your user is using Excel 2007 or later (I&#8217;m only on the beta of Office 2010 but it still seems to be a problem for me anyway) and you use the printing HTML technique, Excel raises an error for the user when they load the page, something like:</p>

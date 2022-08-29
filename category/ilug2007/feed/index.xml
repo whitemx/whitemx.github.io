@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ILUG2007 &#8211; mattwhite.me</title>
+	<atom:link href="/category/ilug2007/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:29:25 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>ILUG2007 Wrapup</title>
+		<link>/2007-5-26-ilug2007-wrapup-html/</link>
+					<comments>/2007-5-26-ilug2007-wrapup-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sat, 26 May 2007 06:46:48 +0000</pubDate>
+				<category><![CDATA[ILUG2007]]></category>
+		<guid isPermaLink="false">/2007-5-26-ilug2007-wrapup-html/</guid>
+
+					<description><![CDATA[So it&#8217;s early on Saturday morning and ILUG is all finished, for me at least, there is a geek tour today but I have to get&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>So it&#8217;s early on Saturday morning and ILUG is all finished, for me at least, there is a geek tour today but I have to get back to London to get on another plane to Boston. I&#8217;m going to be posting slightly more sporadically than usual as I try to fit in as much relaxation time as possible over the next couple of weeks until I get home again.</p>
+<p>ILUG couldn&#8217;t have gone better all round. There were well over 200 people in attendance plus the cream of the Lotus speaking community. Everyone needs to offer great thanks and appreciation to <a href="http://www.pmooney.net/">Paul</a>, <a href="http://ywywywywyw.com/">Eileen</a>, <a href="http://www.mrselsmore.com/">Kitty</a>, <a href="http://www.elsmore.net/">Warren</a>, <a href="http://hostit1.connectria.com/twduff/home.nsf">Duffbert</a> and <a href="http://www.billbuchan.com/">Bill</a> for the incredible amount of work they&#8217;ve put into organising this completely free event. It seems like it will be happening again next year so make sure you get registered for ILUG 2008 if you didn&#8217;t manage to get onto the list this year.</p>
+<p>Thursday night, IBM laid on free beers both during and after the Speedgeeking , I think everyone made the most of the free booze, I know I did and was regretting it Friday morning. But a lot of water and a tea later all was well with the world again. There was an excellent set of sessions on during the day with a behind the scenes look at Lotusphere, Portal integration with Domino and Rob Novak&#8217;s free code (and beer) ones all standing out for me. We also learned that pulling up all of the AV cabling was a <i>lot</i> easier than putting it down. 15 minutes after the closing session everything was packed up and stored away in the overnight room. And we were off to the Geek dinner.</p>
+<p>A really fun evening, I&#8217;m guessing there&#8217;ll be a few storeis doing the rounds on the different blogs, there were certainly some incriminating photos that were being planned for blackmail use. I had to duck out at about 11 to try and get some sleep before the early start this morning so I don&#8217;t know what state people are going to be in this morning. I&#8217;m going to take a wild stab and say that there will be some sore heads on the geek tours today.</p>
+<p>When I get to Heathrow in a couple of hours it will be a quick terminal transfer and another plane journey off to Boston for a while. If you&#8217;re around and fancy a pint one evening then just drop me a line.</p>
+<p>Now hopefully I can get some sleep on the plane!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-5-26-ilug2007-wrapup-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ILUG2007 Day 1</title>
+		<link>/2007-5-24-ilug2007-day-1-html/</link>
+					<comments>/2007-5-24-ilug2007-day-1-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 24 May 2007 16:16:40 +0000</pubDate>
+				<category><![CDATA[ILUG2007]]></category>
+		<guid isPermaLink="false">/2007-5-24-ilug2007-day-1-html/</guid>
+
+					<description><![CDATA[The journey over to Dublin yesterday was as painless as you could hope for. I bumped into a few people headed over here as well so&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>The journey over to Dublin yesterday was as painless as you could hope for. I bumped into a few people headed over here as well so we shared a taxi from the airport.</p>
+<p>I had volunteered to help out with the setup and was taken at my word, a whole group of us were down in the conference area organising the cabling to Warren&#8217;s amazing amount of kit. Everything was done by about 11pm by which time everyone was so knackered that I had a single pint and then off to bed.</p>
+<p>We were all up early to finish the setting up and registration area at which point I managed to enjoy the sessions rather than worrying about organisation like Paul, Kitty, Warren and Eileen have been all day. Honestly when you see how much work they put into this you really have to take your hat off to them. It also gives a huge insight into what organising a big conference like Lotusphere must be like. Just enourmous amounts of effort.</p>
+<p>The day seems to be going well, there&#8217;s a really good crowd, over 200 people, with a lot of the big names from the Domino community either presenting or attending. Tonight is &#8220;Speed Geeking&#8221; reprised from Lotusphere followed by an IBM hosted drinks reception at a local bar. So I&#8217;m guessing there&#8217;ll be even less sleep than last night.</p>
+<p>Just as well I have a few days off next week to recover!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-5-24-ilug2007-day-1-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Off to ILUG tomorrow</title>
+		<link>/2007-5-22-off-to-ilug-tomorrow-html/</link>
+					<comments>/2007-5-22-off-to-ilug-tomorrow-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 22 May 2007 07:56:12 +0000</pubDate>
+				<category><![CDATA[ILUG2007]]></category>
+		<guid isPermaLink="false">/2007-5-22-off-to-ilug-tomorrow-html/</guid>
+
+					<description><![CDATA[I (and seemingly a large proportion of the Domino world) will be off to Dublin tomorrow for ILUG 2007 on Thursday and Friday. I&#8217;m flying mid&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I (and seemingly a large proportion of the Domino world) will be off to Dublin tomorrow for <a href="http://www.ilug2007.org/">ILUG 2007</a> on Thursday and Friday. I&#8217;m flying mid afternoon so should be in town by about 6pm. I&#8217;m staying at the Alexander Hotel and my mobile number is +44 7767 384970 if you want to catch up with me. Looking forward to catching up with everyone over the next few days.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-5-22-off-to-ilug-tomorrow-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

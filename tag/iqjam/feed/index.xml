@@ -11,9 +11,9 @@
 	<title>iqjam &#8211; mattwhite.me</title>
 	<atom:link href="/tag/iqjam/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:24:39 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -33,7 +33,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2010-10-20-facebook-sso-to-xpages-html/</guid>
 
-					<description><![CDATA[One of the things I&#8217;ve been playing with this week is getting Facebook SSO working with XPages. It&#8217;s not a true SSO implementation as Domino doesn&#8217;t support OAuth, but from the user&#8217;s point of view they are not having to enter a username and password to get authenticated against a Domino app. I think it&#8217;s [&#8230;]]]></description>
+					<description><![CDATA[One of the things I&#8217;ve been playing with this week is getting Facebook SSO working with XPages. It&#8217;s not a true SSO implementation as Domino doesn&#8217;t&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>One of the things I&#8217;ve been playing with this week is getting Facebook SSO working with XPages. It&#8217;s not a true SSO implementation as Domino doesn&#8217;t support OAuth, but from the user&#8217;s point of view they are not having to enter a username and password to get authenticated against a Domino app. I think it&#8217;s pretty cool&#8230;</p>
 <p><iframe loading="lazy" src="http://player.vimeo.com/video/16016491?byline=0&amp;portrait=0" width="601" height="338" frameborder="0"></iframe></p>
 ]]></content:encoded>
@@ -57,7 +57,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2009-10-6-domino-designer-is-free-html/</guid>
 
-					<description><![CDATA[I can&#8217;t imagine why you&#8217;ve not seen this news, but just in case, with the release of Notes / Domino 8.5.1 next Monday, Domino Designer will now be free. This is huge news for the platform, as it means that anyone can download and have a play with 8.5.1 which is the first really good [&#8230;]]]></description>
+					<description><![CDATA[I can&#8217;t imagine why you&#8217;ve not seen this news, but just in case, with the release of Notes / Domino 8.5.1 next Monday, Domino Designer will&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>I can&#8217;t imagine why you&#8217;ve not seen this news, but just in case, with the release of Notes / Domino 8.5.1 next Monday, <a href="http://www.edbrill.com/ebrill/edbrill.nsf/dx/announcing-notesdomino-8.5.1-part-1-free-domino-designer">Domino Designer will now be free</a>.</p>
 <p>This is huge news for the platform, as it means that anyone can download and have a play with 8.5.1 which is the first really good version of Domino Designer on Eclipse. It means that you can have a play with XPages without having to worry about CALs. And I&#8217;d really recommend taking that look, whereas XPages in 8.5.0 were very much a &#8220;dot zero&#8221; release, with 8.5.1 we have a vastly improved dev environment and hugely increased performance and stability on the server side.</p>
 <p>If you&#8217;re in any doubt about what you can achieve with XPages in a relatively short amount of time (i.e. less than it took us to develop the first version of IdeaJam), then have a look at <a href="http://iqjam.net/">http://IQJam.net/</a>, the first commercially available application developed specifically for Domino 8.5.1 using XPages.</p>
@@ -82,7 +82,7 @@
 		<category><![CDATA[travel]]></category>
 		<guid isPermaLink="false">/2009-8-7-gsx-day-travelling-and-portland-html/</guid>
 
-					<description><![CDATA[After IamLUG finished up about 30 people stayed on for the GSX Day which was all about setting up your environment to monitor what&#8217;s going on, prevent significant outages and make everything run smoothly in your organisation. Even for a lowly developer such as myself this is useful content to know. The GSX software itself [&#8230;]]]></description>
+					<description><![CDATA[After IamLUG finished up about 30 people stayed on for the GSX Day which was all about setting up your environment to monitor what&#8217;s going on,&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>After IamLUG finished up about 30 people stayed on for the GSX Day which was all about setting up your environment to monitor what&#8217;s going on, prevent significant outages and make everything run smoothly in your organisation. Even for a lowly developer such as myself this is useful content to know. The GSX software itself looks very interesting from a performance monitoring and scalability planning point of view and of course now that Elguji is running more and more hosted sites we need to make sure that our servers are in tip top shape.</p>
 <p>The day itself was very well planned to not be a sales pitch, so the presentations were valid even without the GSX software. A very clever way of doing marketing I&#8217;d say.</p>
 <p>Then yesterday really was the end of the trip to St Louis, with a very relaxed start to the day and some fun and games on the travel following that. US Airways cancelled the second leg of my flight to Portland so when I got to the front of the queue to re-book the lady looked a little shocked and said &#8220;But you&#8217;ve been booked onto the flight that leaves in 45 minutes from Terminal 2!&#8221;. Oh it was very entertaining getting my bags, changing terminals (in 111 degree heat), checking in, getting through security and boarding all within 30 minutes. But I did manage it at least so I was only half an hour late to meet Bruce and Gayle, so ultimately a successful day.</p>
@@ -106,7 +106,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2009-7-27-iqjam-announced-html/</guid>
 
-					<description><![CDATA[After all the cruel teasing, today it has become obvious what Bruce and I have been working on for the last couple of months. IQJam is still very much a work in progress but we are getting there and so far we are really proud of what we&#8217;ve achieved. it looks great, performs very well [&#8230;]]]></description>
+					<description><![CDATA[After all the cruel teasing, today it has become obvious what Bruce and I have been working on for the last couple of months. IQJam is&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p><span class="full-image-float-right ssNonEditable"><span><a title="IQJam by Elguji Software, LLC by Bruce Elgort, on Flickr" href="http://www.flickr.com/photos/bruce/3759289832/" target="_blank" rel="noopener"><img loading="lazy" src="/wp-content/uploads/2022/08/3759289832_6a603a14db_m.jpg" alt="IQJam by Elguji Software, LLC" width="225" height="240" /></a></span></span></p>
 <p>After all the cruel teasing, today it has <a href="http://elguji.com/iqjam">become obvious</a> what <a href="http://bruceelgort.com/">Bruce</a> and I have been working on for the last couple of months. IQJam is still very much a work in progress but we are getting there and so far we are really proud of what we&#8217;ve achieved. it looks great, performs very well and will be a great tool for many companies and communities.</p>
 <p>Over the next weeks there&#8217;ll be more news as we progress and of course we&#8217;ll be running our beta programme for people to get involved, get an early peek and help shape what we hope will become a mainstay product on the Lotus Domino platform.</p>

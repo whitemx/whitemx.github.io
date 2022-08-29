@@ -11,9 +11,9 @@
 	<title>synchronise &#8211; mattwhite.me</title>
 	<atom:link href="/tag/synchronise/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -31,7 +31,7 @@
 		<category><![CDATA[synchronise]]></category>
 		<guid isPermaLink="false">/2009-9-14-on-synchronization-in-xpages-html/</guid>
 
-					<description><![CDATA[The biggest issue that we had with XPages in 8.5.0 was performance, every piece of code you wrote had to be optimised to get the best performance, something which us Notes developers have spent all too little time on in the past. With 8.5.1 everything is faster from DDE onwards, but there are some code [&#8230;]]]></description>
+					<description><![CDATA[The biggest issue that we had with XPages in 8.5.0 was performance, every piece of code you wrote had to be optimised to get the best&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>The biggest issue that we had with XPages in 8.5.0 was performance, every piece of code you wrote had to be optimised to get the best performance, something which us Notes developers have spent all too little time on in the past.</p>
 <p>With 8.5.1 everything is faster from DDE onwards, but there are some code changes that we can take advantage of to make things even better. Most important of these is synchronization. For those of you who know Java this will be a familiar concept that has just been implemented into Server Side JavaScript (SSJS). But for the LotusScript developer, here is my quick attempt at explaining it&#8230;</p>
 <p>If you have a commonly used piece of code, it will be called by multiple different areas of the system at the same time (or at least very close together) and return the same result. If you&#8217;re doing some expensive piece of work (such as a DbLookup) then all of the calls to that code will run and there will be an inevitable performance hit.</p>

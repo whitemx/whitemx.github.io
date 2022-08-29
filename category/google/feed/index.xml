@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Google &#8211; mattwhite.me</title>
+	<atom:link href="/category/google/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:29:45 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Mailplane for Gmail</title>
+		<link>/2007-4-28-mailplane-for-gmail-html/</link>
+					<comments>/2007-4-28-mailplane-for-gmail-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sat, 28 Apr 2007 16:15:54 +0000</pubDate>
+				<category><![CDATA[Google]]></category>
+		<guid isPermaLink="false">/2007-4-28-mailplane-for-gmail-html/</guid>
+
+					<description><![CDATA[I&#8217;ve been playing with the beta for some new shareware called Mailplane for Gmail. Basically it&#8217;s a wrapper for your Gmail browser window ont he Mac&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;ve been playing with the beta for some new shareware called <a href="http://mailplaneapp.com/">Mailplane for Gmail</a>. Basically it&#8217;s a wrapper for your Gmail browser window ont he Mac which makes normal mail tasks just that little bit easier. Pretty cool and worth a look if you&#8217;re a heavy Gmail user.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-4-28-mailplane-for-gmail-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

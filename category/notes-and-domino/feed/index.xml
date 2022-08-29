@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Notes and Domino &#8211; mattwhite.me</title>
+	<atom:link href="/category/notes-and-domino/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:25:24 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Useful new preference in DDE 8.5.2 for Java Agents</title>
+		<link>/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/</link>
+					<comments>/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 26 Oct 2010 09:39:19 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Notes and Domino]]></category>
+		<category><![CDATA[8.5.2]]></category>
+		<category><![CDATA[agents]]></category>
+		<category><![CDATA[dde]]></category>
+		<guid isPermaLink="false">/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/</guid>
+
+					<description><![CDATA[Having the proper Eclipse Java editor instead of the old style editor was introduced in 8.5.1, but there was one huge annoyance. When you edited a&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Having the proper Eclipse Java editor instead of the old style editor was introduced in 8.5.1, but there was one huge annoyance. When you edited a Java file, you had to save that, but then also remember to save the agent as well. Cue plenty of swearing and head scratching when your change wasn&#8217;t showing up.</p>
+<p>Well in 8.5.2 there is a new preference setting which allows the agent to be automatically saved when you save the Java file:</p>
+<p><span class="full-image-block ssNonEditable"><span><img src="/static/500fb502e4b0b0a178712c5d/500fb669e4b00f3716e9af9d/500fb669e4b00f3716e9b012/1288086099167/1000w" alt="" /></span></span></p>
+<p>Just check the &#8220;Autosave Java design element on save of individual Java sources&#8221; box to make your Java coding a lot less annoying.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-10-26-useful-new-preference-in-dde-852-for-java-agents-html/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Pleasant 8.5.2 surprise&#8230; everything works!</title>
+		<link>/2010-4-27-pleasant-852-surprise-everything-works-html/</link>
+					<comments>/2010-4-27-pleasant-852-surprise-everything-works-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 27 Apr 2010 11:00:03 +0000</pubDate>
+				<category><![CDATA[Notes and Domino]]></category>
+		<category><![CDATA[8.5.2]]></category>
+		<guid isPermaLink="false">/2010-4-27-pleasant-852-surprise-everything-works-html/</guid>
+
+					<description><![CDATA[Well maybe that&#8217;s too bold a claim, but from the point of view of regression testing IdeaJam and IQJam for XPages issues, a vanilla application works&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Well maybe that&#8217;s too bold a claim, but from the point of view of regression testing IdeaJam and IQJam for XPages issues, a vanilla application works absolutely fine. And better than that, it seems to be faster as well.</p>
+<p>Why is this even worth commenting on you ask? Well between 8.5.0 and 8.5.1 there were some quite significant changes in the way XPages worked which meant I had to do some re-coding of my XPages apps to get them to work properly when we migrated up to the new version. But, so far, and all of the usual caveats apply here* (see below for more information), I can simply copy an NSF from my 8.5.1 VM onto my 8.5.2 VM and it works.</p>
+<p>We&#8217;ve not done any proper testing on the performance side of things, but from my usage of the application everything feels snappier.</p>
+<p>So, who needs new features when we&#8217;ve got stability between versions. Well OK, I&#8217;ll not turn down the spangly new development features (dragging controls into the source XML of an XPage is far and away my favourite), but even without them, I&#8217;m a happy camper this morning.</p>
+<p>*** 8.5.2 is still in beta things may change between now and when it&#8217;s released. Let&#8217;s hope not eh?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-4-27-pleasant-852-surprise-everything-works-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Notes and Domino 8.5.1 &#8211; The Upgrader&#8217;s Guide &#8211; Review</title>
+		<link>/2010-3-13-notes-and-domino-851-the-upgraders-guide-review-html/</link>
+					<comments>/2010-3-13-notes-and-domino-851-the-upgraders-guide-review-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sat, 13 Mar 2010 10:16:29 +0000</pubDate>
+				<category><![CDATA[Notes and Domino]]></category>
+		<category><![CDATA[books]]></category>
+		<category><![CDATA[review]]></category>
+		<guid isPermaLink="false">/2010-3-13-notes-and-domino-851-the-upgraders-guide-review-html/</guid>
+
+					<description><![CDATA[So this is the official 387&#8217;th review of IBM Lotus Notes and Domino &#8211; The Upgrader&#8217;s Guide. Finally every Lotus blogger in the world has now&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>So this is the official 387&#8217;th review of <a href="http://www.packtpub.com/ibm-lotus-notes-and-domino-8-5-1-upgraders-guide/book?utm_source=mattwhite.me&amp;utm_medium=bookrev&amp;utm_content=blog&amp;utm_campaign=mdb_002250">IBM Lotus Notes and Domino &#8211; The Upgrader&#8217;s Guide</a>. Finally every Lotus blogger in the world has now received a copy of the book!</p>
+<p>It&#8217;s an odd situation for me to find myself in, it&#8217;s great to see a book being published about Notes and Domino again. There&#8217;s not really been anything of value for the developer since Rocky and Brian&#8217;s seminal <a href="http://www.amazon.co.uk/Lotus-Notes-Domino-Programming-Bible/dp/0764526111">Notes and Domino 6 Programming Bible</a> which was published seven years ago. And I wish I could say that this new book from Packt Publishing was worth buying, but from the point of view of the developer there is really very little of value in here.</p>
+<p>What we (and by we, I mean you and I, the gentle, unappreciated Notes/Domino developer) get is 40 pages of basically extended release notes with very little detail about how to do anything with Notes and Domino programming. To take my favourite topic, XPages as an example, there is a single page that just says &#8220;and we now have XPages, yay!&#8221;. There are books of material that could be written about the subject on it&#8217;s own. It&#8217;s faintly ridiculous to just skirt over this whole new programming paradigm in a single page.</p>
+<p>So what is the point of the book? I&#8217;ve been trying to work out who it would add value to and I am really struggling I&#8217;m afraid. I guess, at a push if you have an R6.x based environment and you just want to spend a couple of hours getting the list of new features straight in your head then you could do worse than reading this over a couple of hours. Hardly a ringing endorsement really. The problem that the writers and publisher faces with a book of this style is that it doesn&#8217;t really know what it&#8217;s trying to achieve. Now if there was an XPages Bible in the style of Brian and Rocky&#8217;s book then I would probably end up with several copies but this upgrader&#8217;s guide is just not any use to me.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-3-13-notes-and-domino-851-the-upgraders-guide-review-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Why using FTSearch in LotusScript is usually a bad idea</title>
+		<link>/2010-1-1-why-using-ftsearch-in-lotusscript-is-usually-a-bad-idea-html/</link>
+					<comments>/2010-1-1-why-using-ftsearch-in-lotusscript-is-usually-a-bad-idea-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 01 Jan 2010 09:17:52 +0000</pubDate>
+				<category><![CDATA[Notes and Domino]]></category>
+		<category><![CDATA[design decisions]]></category>
+		<category><![CDATA[document collections]]></category>
+		<category><![CDATA[ftsearch]]></category>
+		<guid isPermaLink="false">/2010-1-1-why-using-ftsearch-in-lotusscript-is-usually-a-bad-idea-html/</guid>
+
+					<description><![CDATA[Well it&#8217;s New Year&#8217;s Day so the obvious subject that is on everyone&#8217;s lips is database full text searching. Isn&#8217;t it? Yesterday I tweeted about having&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Well it&#8217;s New Year&#8217;s Day so the obvious subject that is on everyone&#8217;s lips is database full text searching. Isn&#8217;t it?</p>
+<p>Yesterday I <a href="http://twitter.com/mattwhite/status/7235875861">tweeted</a> about having to remove a load (and I mean a load) of database.FTSearch calls from an application I&#8217;ve inherited recently. Several people asked why I would want to do that, so I thought I&#8217;d explain.</p>
+<p>On the face of it using the Full Text Index to find a collection of documents is an ideal way of working, it saves you having to create a suite of views that will only be used by your LotusScript and we all know that less views is a good thing. But, in my view, there is almost no situation when you should use an FTSearch unless you are looking for a word or phrase across *all fields* in *all documents* in your database. If you find you are writing query syntax that uses the FIELD or CONTAINS keywords then you should probably be thinking again about your code design.</p>
+<p>The main issue with relying on the Full Text Index is that it is normally out of date. As a rule of thumb you can&#8217;t rely on any changes that have happened in the last 30 minutes to show up in your search results. So in my case yesterday, the agents were being run almost immediately after a new document is added to the database and then expecting to find that document and ones related to it. When you&#8217;re relying on luck rather than judgement then you know you have a problem.</p>
+<p>So, what to do? Generally the answer is to design your database views carefully. You can build a suite of views that can be used across the database that will allow you to build collections of documents that match your requirements. Remember, you can have multiple sorted columns if needed and pass an array as the key parameter in you getAllDocumentsByKey call, or build composite keys in the first column of your views.</p>
+<p>In fact I&#8217;d go as far as saying that if your document collection isn&#8217;t too big that it may be better to build a larger collection than you need and loop through it to find the exact documents you need, rather than performing an FTSearch. The other benefit of using views, of course, is that you can build a NotesViewEntryCollection which will perform a lot better than a document collection and you get the added benefit of being able to use the sorting from the view design rather than having to apply your own quick sort after you&#8217;ve built whatever output array you&#8217;re trying to get to.</p>
+<p>As with all of these types of general design principals, your mileage may vary, if you have a good reason to use the Full Text Index then go ahead and use it. But please make sure you understand what limitations you face when using the index rather than views.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-1-1-why-using-ftsearch-in-lotusscript-is-usually-a-bad-idea-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Domino Designer is Free!</title>
+		<link>/2009-10-6-domino-designer-is-free-html/</link>
+					<comments>/2009-10-6-domino-designer-is-free-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 06 Oct 2009 07:24:21 +0000</pubDate>
+				<category><![CDATA[Notes and Domino]]></category>
+		<category><![CDATA[8.5.1]]></category>
+		<category><![CDATA[iqjam]]></category>
+		<category><![CDATA[release]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2009-10-6-domino-designer-is-free-html/</guid>
+
+					<description><![CDATA[I can&#8217;t imagine why you&#8217;ve not seen this news, but just in case, with the release of Notes / Domino 8.5.1 next Monday, Domino Designer will&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I can&#8217;t imagine why you&#8217;ve not seen this news, but just in case, with the release of Notes / Domino 8.5.1 next Monday, <a href="http://www.edbrill.com/ebrill/edbrill.nsf/dx/announcing-notesdomino-8.5.1-part-1-free-domino-designer">Domino Designer will now be free</a>.</p>
+<p>This is huge news for the platform, as it means that anyone can download and have a play with 8.5.1 which is the first really good version of Domino Designer on Eclipse. It means that you can have a play with XPages without having to worry about CALs. And I&#8217;d really recommend taking that look, whereas XPages in 8.5.0 were very much a &#8220;dot zero&#8221; release, with 8.5.1 we have a vastly improved dev environment and hugely increased performance and stability on the server side.</p>
+<p>If you&#8217;re in any doubt about what you can achieve with XPages in a relatively short amount of time (i.e. less than it took us to develop the first version of IdeaJam), then have a look at <a href="http://iqjam.net/">http://IQJam.net/</a>, the first commercially available application developed specifically for Domino 8.5.1 using XPages.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-10-6-domino-designer-is-free-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Ytria tools just saved me half a day</title>
+		<link>/2009-4-25-ytria-tools-just-saved-me-half-a-day-html/</link>
+					<comments>/2009-4-25-ytria-tools-just-saved-me-half-a-day-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sat, 25 Apr 2009 13:42:01 +0000</pubDate>
+				<category><![CDATA[Notes and Domino]]></category>
+		<guid isPermaLink="false">/2009-4-25-ytria-tools-just-saved-me-half-a-day-html/</guid>
+
+					<description><![CDATA[I mentioned yesterday that we are planning to release the UKLUG Site Template onto OpenNTF later on in the year, having been through the process of&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I mentioned yesterday that we are planning to release the UKLUG Site Template onto OpenNTF later on in the year, having been through the process of &#8220;shrink wrapping&#8221; a database with IdeaJam I was dreading the process of just adding some consistency to the look and feel of the Notes side of things. It&#8217;s the silly little things like consistent fonts, colours and layout that take ages and ages. Enter the <a href="http://ytria.com/">Ytria</a> tools called <a href="http://www.ytria.com/WebSite.nsf/WebPageRequest/Solutions_viewEZen?OpenDocument">ViewEZ</a> and <a href="http://www.ytria.com/WebSite.nsf/WebPageRequest/Solutions_actionBarEZen?OpenDocument&#038;Lang=en">ActionBarEZ</a>, in 10 minutes I was able to apply a consistent look and feel to the entire database and I&#8217;m free then to spend the rest of my Saturday afternoon on more interesting things instead.</p>
+<p>So thanks to the Ytria guys for making my weekend better. If you&#8217;re a Notes developer and you haven&#8217;t tried them out then you really do owe it to yourself to have a look.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-4-25-ytria-tools-just-saved-me-half-a-day-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Two free XPages workshops</title>
+		<link>/2008-10-27-two-free-xpages-workshops-html/</link>
+					<comments>/2008-10-27-two-free-xpages-workshops-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 27 Oct 2008 15:47:02 +0000</pubDate>
+				<category><![CDATA[Notes and Domino]]></category>
+		<guid isPermaLink="false">/2008-10-27-two-free-xpages-workshops-html/</guid>
+
+					<description><![CDATA[I&#8217;ve been at Staines today working with Tim Clark and Chris Freestone preparing for two XPages workshops which will be held at IBM Hursley at the&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;ve been at Staines today working with <a href="http://www.tc-soft.com/wordpress/index.php">Tim Clark</a> and <a href="http://www.chrisfreestone.com/">Chris Freestone</a> preparing for two XPages workshops which will be held at IBM Hursley at the end of November and start of December. I&#8217;ll be helping out on the first (and possibly the second one) and they should be pretty good, especially if you want an introduction to getting started with XPages.</p>
+<p>The first session details are:<br />
+25-27 November 2008<br />
+IBM Innovation Centre, Hursley<br />
+Cost is FREE<br />
+Registration is from the <a href="https://www-304.ibm.com/jct09002c/isv/spc/events/description.jsp?event=EF151DCFDDC12CAD852574EB006CE206">IIC events pages</a></p>
+<p>The second session details are:<br />
+9-11 December 2008<br />
+Hursley Technical Exploration Centre<br />
+Registration: Please email <a href="mailto://hurtec@uk.ibm.com?subject=XPages%20Workshop%209-11%20December">hurtec@uk.ibm.com</a> to resgister.<br />
+Cost: Free</p>
+<p>Hope to see you there.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-10-27-two-free-xpages-workshops-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Have you checked out the Domino Designer &#034;Wiki&#034;?</title>
+		<link>/2008-10-9-have-you-checked-out-the-domino-designer-quotwikiquot-html/</link>
+					<comments>/2008-10-9-have-you-checked-out-the-domino-designer-quotwikiquot-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 09 Oct 2008 16:36:59 +0000</pubDate>
+				<category><![CDATA[Notes and Domino]]></category>
+		<guid isPermaLink="false">/2008-10-9-have-you-checked-out-the-domino-designer-quotwikiquot-html/</guid>
+
+					<description><![CDATA[The content of the Domino Designer Wiki is really starting to get very useful. If you don&#8217;t check there when you have a dev problem then&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>The content of the <a href="http://www-10.lotus.com/ldd/ddwiki.nsf">Domino Designer Wiki</a> is really starting to get very useful. If you don&#8217;t check there when you have a dev problem then you really should add it to your list of &#8220;go to&#8221; places. It still doesn&#8217;t gell with what my understanding of a wiki is (a wiki should be editable and have automatic cross linking in my view) but setting that aside it&#8217;s useful stuff so go have a read.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-10-9-have-you-checked-out-the-domino-designer-quotwikiquot-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Continuing XPages progress and first public demos</title>
+		<link>/2008-9-14-continuing-xpages-progress-and-first-public-demos-html/</link>
+					<comments>/2008-9-14-continuing-xpages-progress-and-first-public-demos-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sun, 14 Sep 2008 13:31:39 +0000</pubDate>
+				<category><![CDATA[Notes and Domino]]></category>
+		<guid isPermaLink="false">/2008-9-14-continuing-xpages-progress-and-first-public-demos-html/</guid>
+
+					<description><![CDATA[Another week of developing IdeaJam in XPages has passed and we&#8217;re really making progress. A lot more behind the scenes coding this week that improved voting,&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Another week of developing IdeaJam in XPages has passed and we&#8217;re really making progress.</p>
+<p>A lot more behind the scenes coding this week that improved voting, but also the first drafts of the Idea screens in read and edit modes, plus a lot of the supporting screens that are accessed from the header menu. So some screenshots (these are as much a record for me as for the blog as I suspect it will be interesting to look back on how quickly we were able to progress with this stuff in the future):<br />
+<br />
+<center><br />
+<a href="http://www.flickr.com/photos/11tmr/2855249619/" title="IdeaJam in XPages Progress by 11tmr, on Flickr"><img loading="lazy" src="/wp-content/uploads/2022/08/2855249619_2a69d1c6da_m.jpg" width="240" height="235" alt="IdeaJam in XPages Progress" /></a><br />
+<a href="http://www.flickr.com/photos/11tmr/2855249485/" title="IdeaJam in XPages Progress by 11tmr, on Flickr"><img loading="lazy" src="/wp-content/uploads/2022/08/2855249485_2df5fd1682_m.jpg" width="240" height="218" alt="IdeaJam in XPages Progress" /></a><br />
+<a href="http://www.flickr.com/photos/11tmr/2855249545/" title="IdeaJam in XPages Progress by 11tmr, on Flickr"><img loading="lazy" src="/wp-content/uploads/2022/08/2855249545_9f1152c899_m.jpg" width="240" height="216" alt="IdeaJam in XPages Progress" /></a><br />
+</center><br />
+<br />
+Both Bruce and I will be doing presentations this week. <a href="http://www.bruceelgort.com/blogs/be.nsf/plinks/BELT-7HFUWL">The boss will be at NEOLUG on Thursday</a> and I will be presenting with a certain <a href="http://pmooney.net/">Mr Mooney</a> about what&#8217;s new in 8.5 at <a href="http://uklug.info/">UKLUG</a> in London. It should be interesting, Paul is the veteran expert speaker but he gets all the boring admin content (;-)) while I, as the newbie inexperienced speaker, get to talk about XPages. If you&#8217;re coming along to either user group you&#8217;ll get to see whatever point we&#8217;ve got to in the development. Always good to try and demo *very* alpha level code, come watch as I try to explain the error messages!</p>
+<p>In all seriousness, development is progressing very nicely, of course we are encountering issues, but with a combination of workarounds and help from IBM we hope to have a really classy extra string to the IdeaJam bow in the next few months.</p>
+<p>If you listened to the new <a href="http://1352report.wordpress.com/">1352 Report podcast</a> (and if not, why not?) then you may also have noticed that Bruce mentioned a new tool that we plan to have ready in the next few months as well, called TaskJam. There will be a lot more to come on that as we make progress.</p>
+<p>Anyway, this week is going to be good fun, if you&#8217;re coming along to UKLUG then say hi to me if you see me around.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-9-14-continuing-xpages-progress-and-first-public-demos-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Continuing XPages Progress and some lessons learned</title>
+		<link>/2008-9-8-continuing-xpages-progress-and-some-lessons-learned-html/</link>
+					<comments>/2008-9-8-continuing-xpages-progress-and-some-lessons-learned-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 08 Sep 2008 12:11:17 +0000</pubDate>
+				<category><![CDATA[Notes and Domino]]></category>
+		<guid isPermaLink="false">/2008-9-8-continuing-xpages-progress-and-some-lessons-learned-html/</guid>
+
+					<description><![CDATA[Well we&#8217;re now 9 days into the porting of IdeaJam to run in XPages: The screenshot hasn&#8217;t changed an enormous amount but you can see that&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Well we&#8217;re now 9 days into the porting of IdeaJam to run in XPages:<br />
+<a href="http://www.flickr.com/photos/11tmr/2838836059/" title="IdeaJam in XPages Progress by 11tmr, on Flickr"><img loading="lazy" src="/wp-content/uploads/2022/08/2838836059_dae24c6cac.jpg" width="500" height="360" alt="IdeaJam in XPages Progress" /></a><br />
+The screenshot hasn&#8217;t changed an enormous amount but you can see that voting is working properly now and I have added the view filtering so that you can look at individual IdeaSpaces. All of those bits were surprisingly easy once I had worked around a couple of bugs. And these are my lessons learned for the week&#8230;</p>
+<p>Firstly, the new server side @DbLookup() javascript function does not work in conjunction with the @DbName() function if your database is in a sub directory. THis is obviously a bug which will be fixed before 8.5 goes Gold but it took me a while to work out. Anyway, there are two current workarounds, first just work in the root of the server (which is what I&#8217;m doing) or you can hard code your database path using the following format: @DbLookup(&#8220;xpages//DbLookup.nsf&#8221;, &#8220;RefData&#8221;, &#8220;Test&#8221;, &#8220;Value&#8221;).</p>
+<p>My second problem took a while longer to track down and I&#8217;m sure it&#8217;s an edge case but it&#8217;s a doozie &#8211; I have a custom control which contains a &lt;tr&gr; element that gets repeated in another custom control. What I learned is that you <strong>do not</strong> set styles on the html element directly, you must assign a class name to the element and define the style in CSS otherwise the Designer client hangs while trying to rebuild the project. It&#8217;s a better way of doing things I guess, but I wanted to be lazy!</p>
+<p>So those two are the downsides so far, and they&#8217;re going to be fixed, but on the upside I have still not written *any* client side javascript myself and I&#8217;ve only had to write 2 agents (to handle voting requirements which can&#8217;t run under the rights of the authenticated user). That is hugely impressive when compared to the &#8220;classic&#8221; IdeaJam which can amount to 100kb of Javascript&#8230; read big performance improvements for the user. I&#8217;ve also managed to reduce the number of views required to run IdeaJam from 15 to 5 due to the different ways that you can apply filtering and reuse views for different tasks&#8230; read server side performance improvements.</p>
+<p>There is still a lot to do but real progress is being made, and (as Bruce will tell you) I am enjoying this so much that I can be found playing with XPages most of the time now!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-9-8-continuing-xpages-progress-and-some-lessons-learned-html/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

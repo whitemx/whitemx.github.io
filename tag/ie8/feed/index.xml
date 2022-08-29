@@ -11,9 +11,9 @@
 	<title>ie8 &#8211; mattwhite.me</title>
 	<atom:link href="/tag/ie8/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:24:41 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -34,7 +34,7 @@
 		<category><![CDATA[iframe]]></category>
 		<guid isPermaLink="false">/2011-10-13-yet-another-day-wasted-on-ie-html/</guid>
 
-					<description><![CDATA[I&#8217;ve just spent more than eight hours working on a single bug in IE. In a classic Domino web application which I work on, we have a complex form which was working just fine when we developed and tested it. But then users started reporting their Internet Explorer clients were hanging intermittently. We finally got [&#8230;]]]></description>
+					<description><![CDATA[I&#8217;ve just spent more than eight hours working on a single bug in IE. In a classic Domino web application which I work on, we have&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>I&#8217;ve just spent more than eight hours working on a single bug in IE.</p>
 <p>In a classic Domino web application which I work on, we have a complex form which was working just fine when we developed and tested it. But then users started reporting their Internet Explorer clients were hanging intermittently. We finally got a test case where we could reproduce the problem.</p>
 <p>When the user selected an option from a combo box, a new row is added to a table and displayed for them to fill in some data which is required. Nothing too odd there. And again this worked fine for us, until we opened the form inside an iFrame. Our application is part of a much larger application and the end user doesn&#8217;t know that when they click a certain link they are suddenly running on a Domino server inside the iFrame.</p>
@@ -63,7 +63,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2009-6-4-running-xpages-850-in-ie8-html/</guid>
 
-					<description><![CDATA[The first thing you&#8217;ll notice when you try and open an XPages website in IE8 is a Javascript error. The version of Dojo that ships with 8.5.0 is 1.1.1, this does not support IE8. Hopefully in 8.5.1 Dojo 1.3 will ship so this is a very short term fix. The aim is for us to [&#8230;]]]></description>
+					<description><![CDATA[The first thing you&#8217;ll notice when you try and open an XPages website in IE8 is a Javascript error. The version of Dojo that ships with&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>The first thing you&#8217;ll notice when you try and open an XPages website in IE8 is a Javascript error. The version of Dojo that ships with 8.5.0 is 1.1.1, this does not support IE8. Hopefully in 8.5.1 Dojo 1.3 will ship so this is a very short term fix.</p>
 <p>The aim is for us to set a meta tag in our HTML to tell IE8 to run in IE7 compatability mode. Unfortunately, the built in way of setting meta tags in Domino Designer does not work properly yet so we have to manually add our own tag to the servlet response that the Domino server generates for us.</p>
 <p>So if you put the following code into the &#8220;beforeRenderResponse&#8221; event of your XPage then you should find your site will work properly now.</p>

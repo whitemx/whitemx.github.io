@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>LinkJam &#8211; mattwhite.me</title>
+	<atom:link href="/category/linkjam/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:27:24 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>LinkJam Blog Widget</title>
+		<link>/2008-7-27-linkjam-blog-widget-html/</link>
+					<comments>/2008-7-27-linkjam-blog-widget-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sun, 27 Jul 2008 16:41:02 +0000</pubDate>
+				<category><![CDATA[LinkJam]]></category>
+		<guid isPermaLink="false">/2008-7-27-linkjam-blog-widget-html/</guid>
+
+					<description><![CDATA[We realised this afternoon that we hadn&#8217;t told you how to embed the LinkJam blog widget (off to the right there) into your blog. So go&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>We realised this afternoon that we hadn&#8217;t told you how to embed the <a href="http://linkjam.elguji.com/">LinkJam</a> blog widget (off to the right there) into your blog. So go to the <a href="http://ideajam.net/ideajam/blog/blog.nsf/d6plinks/BELT-7GXL5W">Elguji blog</a> for all the details.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-7-27-linkjam-blog-widget-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>LinkJam is coming</title>
+		<link>/2008-7-8-linkjam-is-coming-html/</link>
+					<comments>/2008-7-8-linkjam-is-coming-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 08 Jul 2008 11:13:06 +0000</pubDate>
+				<category><![CDATA[LinkJam]]></category>
+		<guid isPermaLink="false">/2008-7-8-linkjam-is-coming-html/</guid>
+
+					<description><![CDATA[You may have seen that Bruce has published the brochure for LinkJam. And now we have got a release date as well, so on the 31st&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>You may have seen that Bruce has published the <a href="http://elguji.com/ideajam/elguji/elguji.nsf/Images/BELT-7GASML/$File/LinkJamProductBrochure.pdf">brochure for LinkJam</a>. And now we have got a release date as well, so on the 31st of July the first version of LinkJam, the social bookmarking tool for Lotus Domino, will be launched upon an unsuspecting world. We are already dealing with quite a few sales enquiries for LinkJam, so if you&#8217;re interested then please do <a href="http://elguji.com/ideajam/elguji/elguji.nsf/htdocs/contact">contact us for more details</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-7-8-linkjam-is-coming-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>LinkJam beta started</title>
+		<link>/2008-6-16-linkjam-beta-started-html/</link>
+					<comments>/2008-6-16-linkjam-beta-started-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 16 Jun 2008 10:56:16 +0000</pubDate>
+				<category><![CDATA[LinkJam]]></category>
+		<guid isPermaLink="false">/2008-6-16-linkjam-beta-started-html/</guid>
+
+					<description><![CDATA[Over the weekend we applied the final finishing touches to the LinkJam beta site and notified the beta testers about how to log in etc. So&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Over the weekend we applied the final finishing touches to the <a href="http://linkjam.elguji.com/">LinkJam beta site</a> and notified the beta testers about how to log in etc. So over the next few weeks we will be testing out the features and stability of the application with a view to releasing it in the middle of July. In the meantime please feel free to have a look around and log any ideas into the <a href="http://ideajam.net/ideajam/p/ij.nsf/ProductByAreaMostRecent?openview&#038;restricttocategory=LinkJam">LinkJam IdeaSpace on IdeaJam</a>.</p>
+<p>All of the same IdeaJam goodness in terms of customisation and maintenance will be available for LinkJam, and as ever this is a version 1.0 product, we have a lot of features to be added in future versions.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-6-16-linkjam-beta-started-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

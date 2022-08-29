@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Idea Jam &#8211; mattwhite.me</title>
+	<atom:link href="/category/idea-jam/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:29:06 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>IdeaJam product ready</title>
+		<link>/2008-3-7-ideajam-product-ready-html/</link>
+					<comments>/2008-3-7-ideajam-product-ready-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 07 Mar 2008 08:00:34 +0000</pubDate>
+				<category><![CDATA[Idea Jam]]></category>
+		<guid isPermaLink="false">/2008-3-7-ideajam-product-ready-html/</guid>
+
+					<description><![CDATA[Well things have been quiet on the IdeaJam development front for the last couple of months. The reason is that we&#8217;ve been working to get the&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Well things have been quiet on the <a href="http://ideajam.net/">IdeaJam</a> development front for the last couple of months. The reason is that we&#8217;ve been working to get the saleable version of IdeaJam ready to go. We have just about reached that point now. Over the next week or two we&#8217;ll be upgrading the current site to use the new design which adds a whole load of new features. If you&#8217;re interested, or know someone who&#8217;s interested, in running IdeaJam within their company then please do contact myself or Bruce. We have set up a <a href="http://www.elguji.com/ideajam/elguji/inquiry.nsf/webfrminquiry">page for you to register interest</a> and we&#8217;ll get back to you with details of the application that will make Idea management in your organisation a lot easier.</p>
+<p>Once we&#8217;ve updated the live site we&#8217;ll be discussing on the <a href="http://ideajam.net/blog">IdeaJam blog</a> some of the new features that maybe aren&#8217;t so visible for the user, but make managing the application a doddle (in the last couple of weeks we&#8217;ve got the setup time for a new IdeaJam down to 30 minutes, start to finish!).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-3-7-ideajam-product-ready-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Idea Jam Blog</title>
+		<link>/2007-12-11-idea-jam-blog-html/</link>
+					<comments>/2007-12-11-idea-jam-blog-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 11 Dec 2007 20:20:06 +0000</pubDate>
+				<category><![CDATA[Idea Jam]]></category>
+		<guid isPermaLink="false">/2007-12-11-idea-jam-blog-html/</guid>
+
+					<description><![CDATA[I know I&#8217;ve been posting little else than Idea Jam content here recently. Well Bruce and Declan have set up an Idea Jam blog for us&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I know I&#8217;ve been posting little else than Idea Jam content here recently. Well <a href="http://www.bruceelgort.com/">Bruce</a> and <a href="http://www.qtzar.com/">Declan</a> have set up an <a href="http://ideajam.net/ideajam/blog/blog.nsf">Idea Jam blog</a> for us to post all news there. It does mean that there&#8217;ll be even less posted here for the moment, but hopefully my workload will get under control over Christmas and I&#8217;ll get back to some semblance of normality.</p>
+<p>Until then, keep your ideas coming, we are working on bug fixes, features and the Idea Jam product over the next few weeks.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-12-11-idea-jam-blog-html/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Idea Jam Blog Sidebar Widget</title>
+		<link>/2007-12-5-idea-jam-blog-sidebar-widget-html/</link>
+					<comments>/2007-12-5-idea-jam-blog-sidebar-widget-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 05 Dec 2007 09:35:34 +0000</pubDate>
+				<category><![CDATA[Idea Jam]]></category>
+		<guid isPermaLink="false">/2007-12-5-idea-jam-blog-sidebar-widget-html/</guid>
+
+					<description><![CDATA[You may have noticed on my blog that I&#8217;ve had a sidebar widget showing recent ideas from the Idea Jam on and off for the last&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>You may have noticed on my blog that I&#8217;ve had a sidebar widget showing recent ideas from the <a href="http://ideajam.net/">Idea Jam</a> on and off for the last couple of months. Well <a href="http://www.bruceelgort.com/">Bruce</a> has cast his UI design spells over it now and boy does it look a lot better.</p>
+<p>So if you want to add it to your blog you can head over to <a href="http://www.bruceelgort.com/blogs/be.nsf/plinks/BELT-79L623">Bruce&#8217;s blog</a> to get instructions (at least until we have a page on the Idea Jam site itself).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-12-5-idea-jam-blog-sidebar-widget-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Blog my Idea</title>
+		<link>/2007-11-22-blog-my-idea-html/</link>
+					<comments>/2007-11-22-blog-my-idea-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 22 Nov 2007 07:35:36 +0000</pubDate>
+				<category><![CDATA[Idea Jam]]></category>
+		<guid isPermaLink="false">/2007-11-22-blog-my-idea-html/</guid>
+
+					<description><![CDATA[Now that the Idea Jam has come out of beta we are going to keep the new features coming as fast as we can. So in&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Now that the <a href="http://ideajam.net/">Idea Jam</a> has come out of beta we are going to keep the new features coming as fast as we can.</p>
+<p>So in that vein, <a href="http://www.bruceelgort.com/">Bruce</a> spent yesterday getting the embed function working. Basically this allows you to display an idea, with its current vote count etc on a blog or other website. Check it out:<br />
+<script type="text/javascript"> 
+<!--
+inwidth = 500;inheight = 320;id = 'CC32240A6F53A0B78625739A00837C57';//-->
+</script><br />
+<script type="text/javascript" 
+src="http://ideajam.net/IdeaJam/P/ij.nsf/ideajamblogthis.js"> 
+</script></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-11-22-blog-my-idea-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Latest Version of Idea Jam released</title>
+		<link>/2007-11-12-latest-version-of-idea-jam-released-html/</link>
+					<comments>/2007-11-12-latest-version-of-idea-jam-released-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 12 Nov 2007 08:55:40 +0000</pubDate>
+				<category><![CDATA[Idea Jam]]></category>
+		<guid isPermaLink="false">/2007-11-12-latest-version-of-idea-jam-released-html/</guid>
+
+					<description><![CDATA[Well we&#8217;re getting close to the official release date of 20th November so this weekend we&#8217;ve released the latest round of changes and bug fixes to&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Well we&#8217;re getting close to the official release date of 20th November so this weekend we&#8217;ve released the latest round of changes and bug fixes to the <a href="http://ideajam.net/">Idea Jam</a>. Hopefully you can see that your feedback is showing up in the changes, with new features like the ability to express no opinion from views, changing date formats to dd-mmm-yyyy, making it clearer that you&#8217;ve just voted on an idea and so on. Hopefully this week we are just going to deal with bug fixes, then have a period of stability on the live site before pushing on with 1.1 change requests.</p>
+<p>The content on the site is continuing to be of a high quality, I was going through some of my <a href="http://ideajam.net/ideajam/p/ij.nsf/stilltovoteon?open&#038;login">Unvoted</a> list this morning and really enjoyed some of the great ideas that people have submitted over the last couple of weeks.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-11-12-latest-version-of-idea-jam-released-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Idea Jam earns its keep</title>
+		<link>/2007-11-1-idea-jam-earns-its-keep-html/</link>
+					<comments>/2007-11-1-idea-jam-earns-its-keep-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 01 Nov 2007 14:08:34 +0000</pubDate>
+				<category><![CDATA[Idea Jam]]></category>
+		<guid isPermaLink="false">/2007-11-1-idea-jam-earns-its-keep-html/</guid>
+
+					<description><![CDATA[If you hadn&#8217;t already noticed, we have opened up registration on Idea Jam. Already there are a ton of good ideas and seemingly a lot of&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>If you hadn&#8217;t already noticed, we have opened up <a href="http://ideajam.net/IdeaJam/P/ij.nsf/register">registration</a> on <a href="http://ideajam.net/">Idea Jam</a>. Already there are a ton of good ideas and seemingly a lot of people getting involved with making suggestions, voting and answering issues for the community.</p>
+<p>I though I&#8217;d just mention one idea because, from my point of view it shows the great possibilities of the site. Doug Finner posted <a href="http://ideajam.net/IdeaJam/P/ij.nsf/0/E8BC49E222E88E5A86257386003E3F79">an idea</a> about allowing the user to turn off the automatic opening of the properties dialog when you open a view or agent in Domino Designer. Well within 3 hours Voytek Wicinski and Alan Lepofsky had both posted about an existing notes.ini setting &#8220;DesignNoInitialInfoBox=1&#8221; which does exactly that for you already.</p>
+<p>This is great news to me in several ways, best of which is that I didn&#8217;t know about the ini parameter and do now. But also it shows the kind of people which <a href="http://ww.bruceelgort.com/">Bruce</a> has managed to attract to <a href="http://ideajam.net/">Idea Jam</a>. If you work with any Lotus product I think you&#8217;re probably going to get some real benefit from getting involved.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-11-1-idea-jam-earns-its-keep-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Latest Beta of Idea Jam released</title>
+		<link>/2007-10-28-latest-beta-of-idea-jam-released-html/</link>
+					<comments>/2007-10-28-latest-beta-of-idea-jam-released-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sun, 28 Oct 2007 18:51:21 +0000</pubDate>
+				<category><![CDATA[Idea Jam]]></category>
+		<guid isPermaLink="false">/2007-10-28-latest-beta-of-idea-jam-released-html/</guid>
+
+					<description><![CDATA[I headed up to Suffolk to see my parents and sister over the weekend, a really nice couple of days if a little short as I&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I headed up to Suffolk to see my parents and sister over the weekend, a really nice couple of days if a little short as I had to get back to London. &#8220;Why?&#8221;, I hear you ask, well because we wanted to get the latest version of the <a href="http://ideajam.net/">Idea Jam</a> released to the live site. It took a couple of hours as there was quite a lot of data migration to do, but it seems to be pretty stable now so an email has gone out to all of the beta testers. But please do feel free to go and have a look around.</p>
+<p>If you spot any problems then please drop one of us a line and we&#8217;ll try and get to it as soon as possible.</p>
+<p>I guess it&#8217;s pretty obvious why things have been so quiet around here lately, unfortunately things aren&#8217;t going to get any better soon, my &#8220;day job&#8221; has a huge project going live mid November so with two systems going live at around the same time, the opportunities to blog are few and far between.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-10-28-latest-beta-of-idea-jam-released-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The Idea Jam is coming</title>
+		<link>/2007-10-16-the-idea-jam-is-coming-html/</link>
+					<comments>/2007-10-16-the-idea-jam-is-coming-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 16 Oct 2007 07:52:29 +0000</pubDate>
+				<category><![CDATA[Idea Jam]]></category>
+		<guid isPermaLink="false">/2007-10-16-the-idea-jam-is-coming-html/</guid>
+
+					<description><![CDATA[Well we&#8217;ve been beavering away for the last few weeks and yesterday Bruce announced the release date of the Idea Jam. Hopefully you&#8217;ll come along, have&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Well we&#8217;ve been beavering away for the last few weeks and yesterday <a href="http://www.bruceelgort.com/blogs/be.nsf/plinks/BELT-77ZU8Z">Bruce announced the release date</a> of the <a href="http://ideajam.net/">Idea Jam</a>. Hopefully you&#8217;ll come along, have a look around and then, on the big day, 20th November, you&#8217;ll register and get your ideas heard by the Lotus community.</p>
+<p>You can view the full press release <a href="http://www.bruceelgort.com/blogs/be.nsf/2/BELT-77ZNFV/$FILE/IdeaJamPressReleaseOCT-16-2007.pdf">here</a></p>
+<p><b>Update</b> Wow, just looking at the <a href="http://www.bruceelgort.com/blogs/be.nsf/plinks/BELT-782LYT">list of posts</a> on Bruce&#8217;s blog there is just great feedback from the Domino community. I&#8217;m really looking forwards to November 20th now <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-10-16-the-idea-jam-is-coming-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

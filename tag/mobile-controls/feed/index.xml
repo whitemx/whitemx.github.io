@@ -11,9 +11,9 @@
 	<title>mobile controls &#8211; mattwhite.me</title>
 	<atom:link href="/tag/mobile-controls/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:20:03 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -32,7 +32,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2012-5-31-new-xpages-mobile-crm-application-released-html/</guid>
 
-					<description><![CDATA[Over the last few months I&#8217;ve been helping out Vigilus with a new XPages Mobile Web CRM application. ACT! For Notes is a long standing Notes client based application and what we&#8217;ve added in VMobile is a fairly significant subset of the features in the full client application designed to work in iPad, iPhone, Android [&#8230;]]]></description>
+					<description><![CDATA[Over the last few months I&#8217;ve been helping out Vigilus with a new XPages Mobile Web CRM application. ACT! For Notes is a long standing Notes&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>Over the last few months I&#8217;ve been helping out <a href="http://vigilus.net/">Vigilus</a> with a new XPages Mobile Web CRM application. <a href="http://vigilus.net/website/act--for-notes.html">ACT! For Notes</a> is a long standing Notes client based application and what we&#8217;ve added in <a href="http://vigilus.net/website/vmobile.html">VMobile</a> is a fairly significant subset of the features in the full client application designed to work in iPad, iPhone, Android phone and Blackberry.&nbsp;</p>
 <p>Given the size of the application it&#8217;s taken a while and there have been some challenges, but overall I&#8217;d say it&#8217;s a very capable CRM application that will now work on every device you work with day to day.</p>
 <p>Well worth a look if your company is wanting a CRM application.</p>

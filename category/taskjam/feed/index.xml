@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>TaskJam &#8211; mattwhite.me</title>
+	<atom:link href="/category/taskjam/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:25:19 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>TaskJam teaser</title>
+		<link>/2008-10-31-taskjam-teaser-html/</link>
+					<comments>/2008-10-31-taskjam-teaser-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 31 Oct 2008 19:34:40 +0000</pubDate>
+				<category><![CDATA[TaskJam]]></category>
+		<guid isPermaLink="false">/2008-10-31-taskjam-teaser-html/</guid>
+
+					<description><![CDATA[I have absolutely no idea where this year has gone, but October has certainly been a busy month. In IdeaJam and LinkJam news, Bruce has been&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I have absolutely no idea where this year has gone, but October has certainly been a busy month.</p>
+<p>In IdeaJam and LinkJam news, Bruce has been beavering away on some tour videos that demonstrate all of the key features of our current *Jam products. You can go watch them <a href="http://elguji.com/ideajam/elguji/tour.nsf/IdeaJamTour">here</a> and <a href="http://elguji.com/ideajam/elguji/tour.nsf/LinkJamTour">here</a>. You get to see a bit of behind the scenes footage of how you administer your Jam application which may be interesting if you have nothing better to do of a Halloween evening (is that tautology, not sure).</p>
+<p>While Bruce has been lost in Camtasia I&#8217;ve been alternating my time between the January &#8217;09 release of IdeaJam and our new product called TaskJam which Bruce has already mentioned, there are some really cool features coming for IdeaJam (and not just in XPages) but if I told you I&#8217;d have to kill you at the moment <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>TaskJam is very much a work in progress, as with LinkJam it&#8217;s started from the fact that none of the internet based To Do list applications match our needs exactly, so given that Domino is nice and easy to develop, especially with XPages, why not just write our own? TaskJam will be slightly different from IdeaJam and LinkJam in that it will be a pure XPages application, and even more importantly it will be free (as in beer). This is just a teaser post at the moment, you&#8217;ll hear a lot more on a certain week in January (bet you can&#8217;t guess which), but to whet your appetite, here&#8217;s a screenshot of where I was yesterday evening:<br />
+<img src="/wp-content/uploads/2022/08/2987842524_18a7fc3248.jpg" /><br />
+As a testament to the speed with which you can develop an XPages app, I started from scratch and have so far spent 18 hours working on the code. It&#8217;s already basically feature complete, I just need to do all of the tidying up behind the scenes, document it, write the admin elements etc (all the boring bits in other words) which always take an inordinate amount of time. Hopefully the app will prove to be a useful tool for the Lotus community.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-10-31-taskjam-teaser-html/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

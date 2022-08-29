@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Consulting &#8211; mattwhite.me</title>
+	<atom:link href="/category/consulting/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:25:21 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>London Developer Co-operative</title>
+		<link>/2008-11-17-london-developer-co-operative-html/</link>
+					<comments>/2008-11-17-london-developer-co-operative-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 17 Nov 2008 12:56:31 +0000</pubDate>
+				<category><![CDATA[Consulting]]></category>
+		<guid isPermaLink="false">/2008-11-17-london-developer-co-operative-html/</guid>
+
+					<description><![CDATA[It&#8217;s over six months since I went fully independent for work, and it&#8217;s certainly been both entertaining and probably the most challenging thing I have ever&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>It&#8217;s over six months since I went fully independent for work, and it&#8217;s certainly been both entertaining and probably the most challenging thing I have ever done.</p>
+<p>One of the biggest hurdles when dealing with large companies, as I do, is bidding for larger projects against the established large consultancies. Partly because of this, but also because it offers some great opportunities to work with some very smart people, several of us in the UK have grouped together to set up the <a href="http://www.londondevelopercoop.com/">London Developer Co-operative</a>.</p>
+<p>Basically we have some really great people such as <a href="http://benpoole.com/">Ben Poole</a>, <a href="http://www.inter-weavers.com/0/RobsBlog.nsf">Rob Wills</a> and <a href="http://anewchance.co.uk/">Mark Myers</a>, each with well over ten years experience with various different technologies (although with an obvious bias towards Lotus) who are able to win business in their own right and then use the rest of the group to back them up with extra resource, consulting help or holiday / sickness cover.</p>
+<p>The hope is that over the next few years we&#8217;ll be able to establish ourselves as a serious alternative to the huge &#8220;big 6&#8221; by offering better service, deeper technical skills, quicker responsiveness and cheaper consultants. Time will tell.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-11-17-london-developer-co-operative-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Need help with your Domino development?</title>
+		<link>/2008-9-29-need-help-with-your-domino-development-html/</link>
+					<comments>/2008-9-29-need-help-with-your-domino-development-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 29 Sep 2008 10:27:50 +0000</pubDate>
+				<category><![CDATA[Consulting]]></category>
+		<guid isPermaLink="false">/2008-9-29-need-help-with-your-domino-development-html/</guid>
+
+					<description><![CDATA[This is unashamed marketing, so if you already know that I&#8217;m an independent developer please ignore! I was chatting with a friend over the weekend who&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>This is unashamed marketing, so if you already know that I&#8217;m an independent developer please ignore!</p>
+<p>I was chatting with a friend over the weekend who wasn&#8217;t really aware that I&#8217;m an independent developer and so it occurred to me that you might not either!</p>
+<p>Basically, for the last eight years I&#8217;ve been a contractor, which here in the UK means you usually have one large client. During that time I often had smaller clients that I worked with as well, but I wasn&#8217;t able to commit to really serious projects with them. But as of May this year, I decided that I&#8217;d try and switch the focus of my work to be more consulting based, the theory being that I was getting lots of calls from people asking for help on small to medium sized projects that they either couldn&#8217;t, or didn&#8217;t want to run &#8220;in house&#8221;.</p>
+<p>So, anyway, that&#8217;s a rather round-about way of saying that if you need any help with Notes, Domino, Java or web development then please do <a href="mailto:matthew.white@fclonline.com">drop me a line</a> or give me a call (+44 7767 384970) and I&#8217;d love to try and help you out. Over the years I&#8217;ve built up quite a list of clients, both small and large, my <a href="http://www.fclonline.com/">company website</a> tells you a bit more about them.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-9-29-need-help-with-your-domino-development-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

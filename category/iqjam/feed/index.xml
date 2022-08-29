@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>IQJam &#8211; mattwhite.me</title>
+	<atom:link href="/category/iqjam/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>IQJam Beta is live</title>
+		<link>/2009-9-16-iqjam-beta-is-live-html/</link>
+					<comments>/2009-9-16-iqjam-beta-is-live-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 16 Sep 2009 08:24:51 +0000</pubDate>
+				<category><![CDATA[IQJam]]></category>
+		<category><![CDATA[browsers]]></category>
+		<category><![CDATA[design decisions]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2009-9-16-iqjam-beta-is-live-html/</guid>
+
+					<description><![CDATA[As you may have seen, Bruce announced the beta release of IQJam overnight. We&#8217;ve been bashing on about IQJam for a couple of months now, so&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>As you may have seen, <a href="http://www.bruceelgort.com/blogs/be.nsf/plinks/BELT-7VWUZS">Bruce announced the beta release of IQJam overnight</a>. We&#8217;ve been bashing on about <a href="http://iqjam.net/">IQJam</a> for a couple of months now, so I thought I&#8217;d give a little background on what it is and where it came from.</p>
+<p>The original genesis of the application came, as these things do, from several different places at once. Within two weeks, three of our IdeaJam customers spoke to us and said they were looking for ways of building up databases of solutions to problems. Of course, each of them had a slightly different take, one wanted to enhance their Help Desk, another is rolling out a new methodology and needs support in that process for people new to the way of working being introduced.</p>
+<p>As is normal on this blog, I don&#8217;t really concentrate on the business side of things, more the technical as that&#8217;s my day job. It got us thinking anyway, and taking the experiences we had from rolling out IdeaJam and the characteristics of our existing customers into account we made several technical decisions up front.</p>
+<p><strong>Run on XPages, </strong>which in turn lead us to make the choice to only run on Domino 8.5.1. This was actually a very easy decision. I have been hugely surprised over the last year at how willing companies are to take their servers right up to the latest version of the Domino server. 8.5.1 will be coming out sometime soon (as we have learned from Ed&#8217;s blog) and our expectation is that most of the 8.5.0 servers will be quickly upgraded and that those people not wanting to go with a &#8220;.0&#8221; release will also follow on soon behind. In terms of the XPages side of things, the changes that we have been given in 8.5.1 make XPages so much faster, more stable and usable that I have really loved the last 4 months of coding even on the beta releases.</p>
+<p>Just to give you an idea of the performance. The live IQJam server has an old Pentium 4 processor and a single hard drive. My impression is that with the release of 8.5.1, XPages will actually overtake classic HTTP in terms of performance.</p>
+<p><strong>Support &#8220;modern&#8221; browsers, that is &#8211; IE6 can take a back seat</strong>. This, I suspect will be our most controversial decision. Not amongst developers of course as we all know that IE6 needs to die, and die quickly. But it is still a corporate standard in many companies. What we have learned with IdeaJam, though, is that the companies most interested in &#8220;social software&#8221; also seem to be the companies that keep most up to date with their software, including web browsers. I can honestly say that I have not even looked at IQJam in IE6 and have no plans to. That being said, everything should work fine, there may be some UI discrepancies where we are using funky CSS etc, but life is too short to support IE6 so we have no plans to. At all. Was that definitive enough? <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p><strong>Administer everything from the web</strong>. This was a relatively easy decision, one of the surprises about IdeaJam is the number of people that we host the application for on our server (witness the recent Lotus Knows IdeaJam event). In IdeaJam we have put as many administration function into the browser as possible, but for IQJam we wanted to make everything available for the hosted customer. So from the browser it is possible to control the look and feel of the application, messages that get displayed to the user, graphics, emails, and every single other configuration option.</p>
+<p>Over the next few weeks and months, I plan to dig a little deeper into the XPages side of things, how we do certain things and why we did them that way. But for the moment, head on over to <a href="http://iqjam.net/">iqjam.net</a> and have a dig around. You can log in with your existing IdeaJam user name and password, or register if you&#8217;ve not used IdeaJam before.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-9-16-iqjam-beta-is-live-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

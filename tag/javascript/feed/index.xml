@@ -11,9 +11,9 @@
 	<title>javascript &#8211; mattwhite.me</title>
 	<atom:link href="/tag/javascript/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:24:40 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -31,7 +31,7 @@
 		<category><![CDATA[javascript]]></category>
 		<guid isPermaLink="false">/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/</guid>
 
-					<description><![CDATA[So yesterday, after all of the travel fun and games of the few days, it was back to the real world with a bump. I had a pile of bugs to fix on various projects. Most were very simple to get through, but one has taken me several hours to track down so I thought [&#8230;]]]></description>
+					<description><![CDATA[So yesterday, after all of the travel fun and games of the few days, it was back to the real world with a bump. I had&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>So yesterday, after all of the travel fun and games of the few days, it was back to the real world with a bump. I had a pile of bugs to fix on various projects. Most were very simple to get through, but one has taken me several hours to track down so I thought it would be useful to record the problem and my solution.</p>
 <p>In IdeaJam we use Mootools as I have mentioned many a time before. Mootools, when executing Ajax requests does some very funky stuff to make the request as efficient as possible. One of those things, is that will detect the content type of the page you&#8217;re requesting and try it&#8217;s best to process it as it should, that is, if you request Javascript then it will try and execute it. Unfortunately if you&#8217;re in IE, then it uses the following technique&nbsp;</p>
 <blockquote>
@@ -64,7 +64,7 @@
 		<category><![CDATA[mootools]]></category>
 		<guid isPermaLink="false">/2010-2-26-upgrading-to-mootools-12-html/</guid>
 
-					<description><![CDATA[With the release of IdeaJam 1.7 (in beta at the moment, but going &#8220;Gold&#8221; soon enough), we decided to upgrade the Javascript framework that we use, MooTools to the latest and greatest version. Normally this isn&#8217;t even worth commenting on, but this change was a big&#8217;un as a lot of the underlying API changed from [&#8230;]]]></description>
+					<description><![CDATA[With the release of IdeaJam 1.7 (in beta at the moment, but going &#8220;Gold&#8221; soon enough), we decided to upgrade the Javascript framework that we use,&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>With the release of <a href="http://ideajam.net/">IdeaJam 1.7</a> (in beta at the moment, but going &#8220;Gold&#8221; soon enough), we decided to upgrade the Javascript framework that we use, <a href="http//mootools.net">MooTools</a> to the latest and greatest version. Normally this isn&#8217;t even worth commenting on, but this change was a big&#8217;un as a lot of the underlying API changed from version 1.1 to 1.2. Similar changes have happened with <a href="http://www.dojotoolkit.org/">Dojo</a> in the past in the shift from 0.4 to 0.9 and a very positive move it was too. The problem is that it&#8217;s a painful process of rekeying quite a lot of code.</p>
 <p> So I thought I&#8217;d go through the resources I used and the main changes which we faced with the upgrade to help anyone else going through the same process, although to be fair we are quite late to the party with <a href="http://ajaxian.com/archives/mootools-12-released">MooTools 1.2 as it was released in the middle of 2008</a>.</p>
 <p> There are a couple of really useful websites which document in quite a lot of detail how old style 1.1 syntax should be modified for 1.2. My favourite was this page on the Github Wiki: <a href="http://wiki.github.com/mootools/mootools-core/conversion-from-1-11-to-1-2">Conversion from 1.11 to 1.2</a>.</p>
@@ -98,7 +98,7 @@
 		<category><![CDATA[safari]]></category>
 		<guid isPermaLink="false">/2009-10-19-catch-and-cancel-return-key-press-for-safari-in-xpages-html/</guid>
 
-					<description><![CDATA[The solution to one of the small but annoying bugs in IQJam had eluded me for quite a while, so this morning I resolved to have another go at it after a lazy weekend of feeling ill. And, lo and behold, I managed to fix it. So a little bit of background to the problem, [&#8230;]]]></description>
+					<description><![CDATA[The solution to one of the small but annoying bugs in IQJam had eluded me for quite a while, so this morning I resolved to have&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>The solution to one of the small but annoying bugs in IQJam had eluded me for quite a while, so this morning I resolved to have another go at it after a lazy weekend of feeling ill. And, lo and behold, I managed to fix it.</p>
 <p>So a little bit of background to the problem, when you login to IQJam we provide a login button for you to press after filling in your username and password, but most people are used to just hitting return after finishing typing their password. Unfortunately, this is a case where Safari actually implements internet standards just a little too well. What browsers are meant to do (but none of them except Safari actually do) is submit the form that a text field is in when the user presses the return key.</p>
 <p>Now in most development environments this is pretty easy to fix, you just add a</p>
@@ -144,7 +144,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2009-6-28-human-readable-dates-in-xpages-html/</guid>
 
-					<description><![CDATA[Last year Jake published a really good article (as he generally does) about how to create Ruby style dates in LotusScript. So for example, instead of displaying &#8220;28/06/2009 09:35&#8221; the page will show &#8220;about 30 minutes ago&#8221;. It&#8217;s a technique I bookmarked until I had a need for it, which I now have, but for [&#8230;]]]></description>
+					<description><![CDATA[Last year Jake published a really good article (as he generally does) about how to create Ruby style dates in LotusScript. So for example, instead of&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>Last year <a href="http://www.codestore.net/store.nsf/unid/BLOG-20080909?OpenDocument">Jake published a really good article</a> (as he generally does) about how to create Ruby style dates in LotusScript. So for example, instead of displaying &#8220;28/06/2009 09:35&#8221; the page will show &#8220;about 30 minutes ago&#8221;.</p>
 <p>It&#8217;s a technique I bookmarked until I had a need for it, which I now have, but for an XPages app. So I have ported Jakes code across to use Server Side Javascript instead of LotusScript, and in &#8220;share and share alike&#8221; fashion, thought I should republish it for you to use as you see fit.</p>
 <p>So you can download the code here: <a href="/static/500fb502e4b0b0a178712c5d/500fb669e4b00f3716e9af9d/500fb669e4b00f3716e9b134/1246116965047/">xpDates.jss</a>&nbsp;</p>

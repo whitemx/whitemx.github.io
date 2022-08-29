@@ -11,9 +11,9 @@
 	<title>github &#8211; mattwhite.me</title>
 	<atom:link href="/tag/github/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:19:12 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -31,7 +31,7 @@
 		<category><![CDATA[jekyll]]></category>
 		<guid isPermaLink="false">/2013-11-15-lessons-learned-with-jekyll-and-github-pages/</guid>
 
-					<description><![CDATA[One of my projects at the moment has a requirement to create a semi static site for documentation to be hosted on Github. The fact you can do this in Github is great, but we wanted to make the documentation fit the rest of the application in terms of look and feel. So over the [&#8230;]]]></description>
+					<description><![CDATA[One of my projects at the moment has a requirement to create a semi static site for documentation to be hosted on Github. The fact you&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>One of my projects at the moment has a requirement to create a semi static site for documentation to be hosted on Github. The fact you can do this in <a target="_blank" href="http://pages.github.com/" rel="noopener">Github</a> is great, but we wanted to make the documentation fit the rest of the application in terms of look and feel. So over the last week I&#8217;ve been created a <a target="_blank" href="http://jekyllrb.com/" rel="noopener">Jekyll</a> site which has a set of layouts and then a bunch of posts for content. In theory it&#8217;s a great way of creating these sorts of sites, but I found there were several peculiarities when using Jekyll in combination with Github Pages that weren&#8217;t immediately obvious.</p>
 <p>So a little about my configuration first of all. I&#8217;m running a Mac with Mavericks installed, and I wanted to be able to do local testing of the pages. This involved several steps to get set up:</p>
 <ol>

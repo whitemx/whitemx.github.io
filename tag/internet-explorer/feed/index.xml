@@ -11,9 +11,9 @@
 	<title>internet explorer &#8211; mattwhite.me</title>
 	<atom:link href="/tag/internet-explorer/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:24:40 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -31,7 +31,7 @@
 		<category><![CDATA[javascript]]></category>
 		<guid isPermaLink="false">/2010-4-21-tracking-down-error-80020101-in-internet-exploder-html/</guid>
 
-					<description><![CDATA[So yesterday, after all of the travel fun and games of the few days, it was back to the real world with a bump. I had a pile of bugs to fix on various projects. Most were very simple to get through, but one has taken me several hours to track down so I thought [&#8230;]]]></description>
+					<description><![CDATA[So yesterday, after all of the travel fun and games of the few days, it was back to the real world with a bump. I had&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>So yesterday, after all of the travel fun and games of the few days, it was back to the real world with a bump. I had a pile of bugs to fix on various projects. Most were very simple to get through, but one has taken me several hours to track down so I thought it would be useful to record the problem and my solution.</p>
 <p>In IdeaJam we use Mootools as I have mentioned many a time before. Mootools, when executing Ajax requests does some very funky stuff to make the request as efficient as possible. One of those things, is that will detect the content type of the page you&#8217;re requesting and try it&#8217;s best to process it as it should, that is, if you request Javascript then it will try and execute it. Unfortunately if you&#8217;re in IE, then it uses the following technique&nbsp;</p>
 <blockquote>
@@ -66,7 +66,7 @@
 		<category><![CDATA[vmware fusion]]></category>
 		<guid isPermaLink="false">/2009-6-19-cross-browser-testing-using-vmware-html/</guid>
 
-					<description><![CDATA[As an Apple user, when I&#8217;m doing Domino development I live in VMWare Fusion to emulate Windows. And since the release of the Windows 7 Release Candidate (free until next year) doing testing in IE6 and IE7 is nigh on impossible. There are tools that you can use to emulate the different browsers (such as [&#8230;]]]></description>
+					<description><![CDATA[As an Apple user, when I&#8217;m doing Domino development I live in VMWare Fusion to emulate Windows. And since the release of the Windows 7 Release&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>As an Apple user, when I&#8217;m doing Domino development I live in <a href="http://www.vmware.com/products/fusion/">VMWare Fusion</a> to emulate Windows. And since the release of the Windows 7 Release Candidate (<a href="http://www.microsoft.com/windows/windows-7/download.aspx">free until next year</a>) doing testing in IE6 and IE7 is nigh on impossible. There are tools that you can use to emulate the different browsers (such as <a href="http://www.my-debugbar.com/wiki/IETester/HomePage">IETester</a>) but I have found them to be unreliable.</p>
 <p>It&#8217;s a little know fact that Microsoft actually give out free copies of Virtual PCs setup for IE6 and IE7 compliance testing from <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=21EABB90-958F-4B64-B5F1-73D0A413C8EF&amp;displaylang=en">their website</a>. Of course because it&#8217;s a virtual PC image and not a VMWare image we have to go a little further and convert the one to the other. That&#8217;s where <a href="http://blog.mozmonkey.com/2008/vpc-ie6-ie7-ie8-on-mac-os-x/">these instructions</a> come in. You&#8217;ll need to download a conversion tool, the one that worked for me was <a href="http://www.kju-app.org/">Q</a> which is actually mentioned in the comments rather than the main body.</p>
 <p>Once you&#8217;ve done the conversion, you end up with small (i.e. &lt;1gb) Virtual Machines that you can do &#8220;proper&#8221; IE testing in until you get the nerve to tell you&#8217;re idiot IE users that they need to move into the 21st century and start using one of the <a href="http://www.apple.com/safari/">proper</a> <a href="http://www.mozilla.com/en-US/firefox/firefox.html">browsers</a>.</p>

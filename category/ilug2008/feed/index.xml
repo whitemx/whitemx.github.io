@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ILUG2008 &#8211; mattwhite.me</title>
+	<atom:link href="/category/ilug2008/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:28:21 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>ILUG 2008 Conference Evaluation</title>
+		<link>/2008-6-16-ilug-2008-conference-evaluation-html/</link>
+					<comments>/2008-6-16-ilug-2008-conference-evaluation-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 16 Jun 2008 13:31:50 +0000</pubDate>
+				<category><![CDATA[ILUG2008]]></category>
+		<guid isPermaLink="false">/2008-6-16-ilug-2008-conference-evaluation-html/</guid>
+
+					<description><![CDATA[Hopefully, if you attended ILUG this year you will have received an email about the Conference Evaluation. We&#8217;ve already had a great response with people taking&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Hopefully, if you attended ILUG this year you will have received an email about the Conference Evaluation. We&#8217;ve already had a great response with people taking the time to fill it in, but if you haven&#8217;t please make sure that you do as the speakers and sponsors really appreciate any feedback that you have to give. Part of the remit for ILUG is that speakers can try new things without too much risk as everyone is just there to learn and network, so if you think a session worked really well, or indeed could do with some improvement, let us know.</p>
+<p>I should also give a shout out to the <a href="http://www.openntf.org/Projects/pmt.nsf/ProjectLookup/metaSurvey">metaSurvey project on OpenNTF</a> which we used to build the conference evaluation. Yet again OpenNTF has saved me time and effort (too late for the hair unfortunately). Originally I thought that I&#8217;d need to write a whole new application, but with this cool app which <a href="http://www.metalogic-inc.com/home.htm">metaLogic</a> have open sourced, I could just fill in the questions and publish it. Very, very easy.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-6-16-ilug-2008-conference-evaluation-html/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Back in the land of the online</title>
+		<link>/2008-6-10-back-in-the-land-of-the-online-html/</link>
+					<comments>/2008-6-10-back-in-the-land-of-the-online-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 10 Jun 2008 09:50:30 +0000</pubDate>
+				<category><![CDATA[ILUG2008]]></category>
+		<guid isPermaLink="false">/2008-6-10-back-in-the-land-of-the-online-html/</guid>
+
+					<description><![CDATA[I finally got home from ILUG at midnight last night. Warren, Bill and I drove back from Dublin with a stop over in Belfast on Sunday&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I finally got home from ILUG at midnight last night. Warren, Bill and I drove back from Dublin with a stop over in Belfast on Sunday night at Pauls with the AV kit to return. By the Saturday evening I think we had all pretty much hit the wall so we just had a couple of quiet drinks along the way, no major excitement.</p>
+<p>Now looking back to ILUG week itself, it was pretty manic the whole time. We had a huge amount of help from all sorts of people but Kerr Rainey deserves special mention, and also Mark Myers who helped out with room monitoring for a couple of days.</p>
+<p>While we were driving back from Belfast to Edinburgh yesterday Bill asked what was my favourite bit of the week, I really struggled to come up with just one thing so I thought I&#8217;d put together a list and see what anyone else wants to add&#8230;</p>
+<p>&#8211; The amazing people who turned up on Tuesday to help with bag stuffing and anything else that needed doing, it was really hard work, but at least the Malteser cake which Leah brought made up for it<br />
+&#8211; The conference venue staff, especially the AV guys who were still there on Tuesday night at midnight when I left and were back in before eight o&#8217;clock the next morning to continue helping us.<br />
+&#8211; Kerr Rainey deserves a special mention for helping Warren and me out with all the roadie type work, including all sorts of odd things like running extra long VGA cabling through ceilings which really went above and beyond the call of duty.<br />
+&#8211; ILUG marked the first time I had done any public speaking for a long, long time and, bizarrely, I actually enjoyed it. Especially the Speed Geeking, it really is quite challenging to get your content into the 5 minutes and then repeat it 12 times in an hour. (by the way, several people asked for the little database that I demo&#8217;d, so I&#8217;ll make sure that it makes it into the download area which I need to write this week which will be available once you have filled in the conference evaluation form. Paul will announce the site once it has been written and tested <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> )<br />
+&#8211; Unfortunately I didn&#8217;t get to spend much time in the sponsors area but whenever I was down there it seemed busy, Speed Sponsoring was a great success by all accounts (that&#8217;s sponsors and delegates) and I was really pleasantly surprised at how well attended the sponsor sessions were. Looks like people got a lot of value from them.<br />
+&#8211; Finally, it&#8217;s really worth singling out Paul, Eileen and Warren for special thanks. I&#8217;m not sure if people know quite how much effort goes into the organisation of such a big event in their spare time, well pick a number and double it. All of the green tee shirt brigade helped out but those three in particular really put in an enourmous amount of effort.</p>
+<p>Now I really need to get up to speed with the real world, there&#8217;s been lots of good news about the iPhone yesterday which I am just catching up on, oh and I suppose I really should do some work at some point, we have a beta of LinkJam to get out after all.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-6-10-back-in-the-land-of-the-online-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ILUG SpeedGeeking</title>
+		<link>/2008-5-20-ilug-speedgeeking-html/</link>
+					<comments>/2008-5-20-ilug-speedgeeking-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 20 May 2008 22:55:31 +0000</pubDate>
+				<category><![CDATA[ILUG2008]]></category>
+		<guid isPermaLink="false">/2008-5-20-ilug-speedgeeking-html/</guid>
+
+					<description><![CDATA[Paul has blogged about the SpeedGeeking at ILUG in just over two weeks time. If you&#8217;re interested in presenting then drop an email to speedgeek@ilug2008.org. And&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://www.pmooney.net/pmooney/pmooneynet.nsf/d6plinks/PMOY-7ETS5R">Paul has blogged</a> about the SpeedGeeking at ILUG in just over two weeks time. If you&#8217;re interested in presenting then drop an email to <a href="mailto:speedgeek@ilug2008.org">speedgeek@ilug2008.org</a>. And if you&#8217;re not then make sure to add the event to your Dublin diary, it should be a lot of fun.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-5-20-ilug-speedgeeking-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ILUG Agenda</title>
+		<link>/2008-4-29-ilug-agenda-html/</link>
+					<comments>/2008-4-29-ilug-agenda-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 29 Apr 2008 08:12:49 +0000</pubDate>
+				<category><![CDATA[ILUG2008]]></category>
+		<guid isPermaLink="false">/2008-4-29-ilug-agenda-html/</guid>
+
+					<description><![CDATA[Well it&#8217;s been a long time in the works with so much content to squeeze in to the three days, but the draft ILUG Agenda has&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Well it&#8217;s been a long time in the works with so much content to squeeze in to the three days, but the draft <a href="http://www.ilug2008.org/ilug/ilug2008.nsf/WebDocsBySubject/Agenda">ILUG Agenda</a> has been published. If you haven&#8217;t yet signed up then hopefully this will persuade you to come along, but be quick, there are only a very few places left.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-4-29-ilug-agenda-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ILUG Sessions List</title>
+		<link>/2008-3-5-ilug-sessions-list-html/</link>
+					<comments>/2008-3-5-ilug-sessions-list-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 05 Mar 2008 07:55:23 +0000</pubDate>
+				<category><![CDATA[ILUG2008]]></category>
+		<guid isPermaLink="false">/2008-3-5-ilug-sessions-list-html/</guid>
+
+					<description><![CDATA[OK, all it seems that I am doing on the blog at the moment is pimping ILUG. In the background work is completely manic with IdeaJam&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>OK, all it seems that I am doing on the blog at the moment is pimping ILUG. In the background work is completely manic with IdeaJam plus my other jobs taking pretty much every waking moment, hence the lack of posting here. In theory things will quieten down a the end of this month but I&#8217;ve thought that before. Besides, I am absolutely loving all of the work I&#8217;m doing at the moment, some really cool stuff, interesting projects, life is good.</p>
+<p>Anyway, back to the primary purpose of my blog at the moment. Paul has published a rough draft of the <a href="http://www.pmooney.net/pmooney/pmooneynet.nsf/d6plinks/PMOY-7CEUE9">ILUG Sessions List</a>, I think you&#8217;ll agree it looks pretty damned good. So if you haven&#8217;t already <a href="http://www.ilug2008.org/">registered</a>, I would take this opportunity to get on the list, as spaces are going to become limited very soon.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-3-5-ilug-sessions-list-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Registration is Open</title>
+		<link>/2008-2-25-registration-is-open-html/</link>
+					<comments>/2008-2-25-registration-is-open-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 25 Feb 2008 12:52:57 +0000</pubDate>
+				<category><![CDATA[ILUG2008]]></category>
+		<guid isPermaLink="false">/2008-2-25-registration-is-open-html/</guid>
+
+					<description><![CDATA[We got a little carried away and opened up registration a whole 20 minutes early, so run, don&#8217;t walk over to ilug2008.org and register while there&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>We got a little carried away and opened up registration a whole 20 minutes early, so run, don&#8217;t walk over to <a href="http://www.ilug2008.org/">ilug2008.org</a> and register while there are still spaces.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-2-25-registration-is-open-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Don&amp;apos;t forget&#8230;</title>
+		<link>/2008-2-25-donapost-forget-html/</link>
+					<comments>/2008-2-25-donapost-forget-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 25 Feb 2008 07:29:09 +0000</pubDate>
+				<category><![CDATA[ILUG2008]]></category>
+		<guid isPermaLink="false">/2008-2-25-donapost-forget-html/</guid>
+
+					<description><![CDATA[that at 1pm GMT today registration for ILUG 2008 opens. Now although capacity is up from last year I suspect that places are going to go&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>that at 1pm GMT today registration for <a href="http://www.ilug2008.org/">ILUG 2008</a> opens. Now although capacity is up from last year I suspect that places are going to go quickly so make sure that you register early.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-2-25-donapost-forget-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>It&amp;apos;s coming&#8230;</title>
+		<link>/2008-2-18-itaposs-coming-html/</link>
+					<comments>/2008-2-18-itaposs-coming-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 18 Feb 2008 21:01:10 +0000</pubDate>
+				<category><![CDATA[ILUG2008]]></category>
+		<guid isPermaLink="false">/2008-2-18-itaposs-coming-html/</guid>
+
+					<description><![CDATA[At 1pm GMT on Monday, 25th February, the registration for ILUG 2008 opens. Mark the date and time in your diary because places are going to&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>At 1pm GMT on Monday, 25th February, the registration for <a href="http://ilug2008.org/">ILUG 2008</a> opens. Mark the date and time in your diary because places are going to go quickly.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-2-18-itaposs-coming-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Want to sponsor ILUG?</title>
+		<link>/2008-2-8-want-to-sponsor-ilug-html/</link>
+					<comments>/2008-2-8-want-to-sponsor-ilug-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 08 Feb 2008 08:22:54 +0000</pubDate>
+				<category><![CDATA[ILUG2008]]></category>
+		<guid isPermaLink="false">/2008-2-8-want-to-sponsor-ilug-html/</guid>
+
+					<description><![CDATA[If you&#8217;d like to sponsor ILUG then read this and then drop an email to sponsors@ilug2008.org.]]></description>
+										<content:encoded><![CDATA[<p>If you&#8217;d like to sponsor ILUG then read <a href="http://www.ilug2008.org/ilug/ilug2008.nsf/WebDocsBySubject/ILUG%2B2008%2BSponsor%2BInformation">this</a> and then drop an email to sponsors@ilug2008.org.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-2-8-want-to-sponsor-ilug-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ILUG 2008 Call for Abstracts</title>
+		<link>/2008-1-31-ilug-2008-call-for-abstracts-html/</link>
+					<comments>/2008-1-31-ilug-2008-call-for-abstracts-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 31 Jan 2008 16:33:15 +0000</pubDate>
+				<category><![CDATA[ILUG2008]]></category>
+		<guid isPermaLink="false">/2008-1-31-ilug-2008-call-for-abstracts-html/</guid>
+
+					<description><![CDATA[The planning for ILUG is hotting up and now Paul has put out the call for abstracts. The aim is to get as many good speakers&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>The planning for <a href="http://www.ilug2008.org/">ILUG</a> is hotting up and now <a href="http://www.pmooney.net/">Paul</a> has put out the <a href="http://www.pmooney.net/blogsphe.nsf/d6plinks/PMOY-7BDLGH">call for abstracts</a>.</p>
+<p>The aim is to get as many good speakers into the three days as possible so if you have a good idea then send an email to speakers@ilug2008.org sketching out what you&#8217;d like to talk about. As Paul says&#8230;</p>
+<p>The only condition we have is that it is reasonably funky&#8230;. We try to keep clear of strategic sessions as much as possible.  If you have an idea for a cool session, jot it down and send it to us asap!.  Remember <br />
+1.  Suits on speakers is just wrong at ILUG <br />
+2.  This is a user group &#8211; informality is the key <br />
+3.  Bad language is welcomed, and sometimes encouraged <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <br />
+4. Session length is an  hour. <br />
+We will be doing speedgeeking, but not working on that just yet. </p>
+<p>Here is an example of one of Paul&#8217;s abstracts for Lotusphere. </p>
+<p>AdminBlast&#8230; Over 60 tips in 60 minutes. <br />
+Bring coffee to this session as Paul Mooney brings you though over 60 administration tips aimed at improving the domino server environment for all the administrators.  This brain dump of configuration features, notes.ini parameters and recommendations covers almost every aspect of Domino servers, and you are guaranteed to pick up something new.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-1-31-ilug-2008-call-for-abstracts-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

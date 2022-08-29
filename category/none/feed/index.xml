@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>None &#8211; mattwhite.me</title>
+	<atom:link href="/category/none/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:37:18 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>XPages Progress and UKLUG</title>
+		<link>/2008-9-2-xpages-progress-and-uklug-html/</link>
+					<comments>/2008-9-2-xpages-progress-and-uklug-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 02 Sep 2008 15:48:12 +0000</pubDate>
+				<category><![CDATA[None]]></category>
+		<guid isPermaLink="false">/2008-9-2-xpages-progress-and-uklug-html/</guid>
+
+					<description><![CDATA[So, I came back from Dublin all enthused about XPages and I&#8217;ve spent the last few days starting to port IdeaJam across to be a pure&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>So, I came back from Dublin all enthused about XPages and I&#8217;ve spent the last few days starting to port <a href="http://ideajam.net/">IdeaJam</a> across to be a pure XPages app. This is my progress so far:<br />
+<a href="http://www.flickr.com/photos/11tmr/2821854738/" title="IdeaJam in XPages by 11tmr, on Flickr"><img loading="lazy" src="/wp-content/uploads/2022/08/2821854738_3343696700.jpg" width="500" height="302" alt="IdeaJam in XPages" /></a><br />
+Notice the difference&#8230; no? Well that&#8217;s the point really. But so far, what took me several weeks has taken two days to get working to a reasonable level in XPages. The bits I&#8217;ve done so far are the voting, views that know whether you&#8217;ve voted on an idea and view paging. Over the next few weeks I&#8217;ll hopefully be posting some tips and tricks that I am learning as I go. At the moment I&#8217;m writing an add-on to <a href="http://openntf.org/Projects/pmt.nsf/ProjectLookup/OpenLog">OpenLog</a> that will allow logging of server side JavaScript and will hand that code on to <a href="http://nsftools.com/">Julian</a> for posting with the next version of OpenLog.</p>
+<p>There is no way that you could claim XPages is feature complete, I&#8217;ve managed to crash Designer a few times, there are focus issues with the different windows in the Eclipse Designer client, and the documentation needs to be a *lot* better. But I have spent precisely four days with XPages and I&#8217;m producing pages that look as good as a classic Domino web page that required the previous 13 years of experience with Notes and Domino for me to produce. Take from that what you will.</p>
+<p>In other news today, I was out for lunch with some old colleagues who hadn&#8217;t heard about <a href="http://uklug.info/">UKLUG</a>. So if you&#8217;re based in the UK and you know some developers or admins who you think may be interested in the Lotus world, just mention the site to them in case they haven&#8217;t heard about it. When I told my friends about the incredible <a href="http://www.uklug.info/UKLUG/UKLUG2008.nsf/SponsorsByCompany">22 different sponsors</a> that <a href="http://www.elsmore.net/">Warren</a> has arranged, they were blown away and should be registering as I type. Really, for two days, with great free sessions, access to sponsors and IBM-ers, I&#8217;m not sure why you wouldn&#8217;t register. It&#8217;s only a couple of weeks away.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-9-2-xpages-progress-and-uklug-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Wrong Headed Approach to Terrorism</title>
+		<link>/2008-3-5-wrong-headed-approach-to-terrorism-html/</link>
+					<comments>/2008-3-5-wrong-headed-approach-to-terrorism-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 05 Mar 2008 08:31:28 +0000</pubDate>
+				<category><![CDATA[None]]></category>
+		<guid isPermaLink="false">/2008-3-5-wrong-headed-approach-to-terrorism-html/</guid>
+
+					<description><![CDATA[The new Metropolitan Police Anti Terrorism Campaign is just wrong in so many ways. We do not want to live in a police state a la&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>The new <a href="http://www.met.police.uk/campaigns/campaign_ct_2008.htm">Metropolitan Police Anti Terrorism Campaign</a> is just wrong in so many ways.</p>
+<p>We do not want to live in a police state a la Soviet Russia or Nazi Germany so please stop trying to make everyone afraid all of the time, get some sort of perspective on things for God&#8217;s sake.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-3-5-wrong-headed-approach-to-terrorism-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Come on England</title>
+		<link>/2007-10-20-come-on-england-html/</link>
+					<comments>/2007-10-20-come-on-england-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sat, 20 Oct 2007 15:43:41 +0000</pubDate>
+				<category><![CDATA[None]]></category>
+		<guid isPermaLink="false">/2007-10-20-come-on-england-html/</guid>
+
+					<description><![CDATA[It&#8217;s the rugby world cup final this evening between England and South Africa. Update at 10pm We shall not speak of this again.]]></description>
+										<content:encoded><![CDATA[<p>It&#8217;s the rugby world cup final this evening between England and South Africa.<br />
+<a href="http://www.flickr.com/photos/11tmr/1654641839/" title="Photo Sharing"><img loading="lazy" src="/wp-content/uploads/2022/08/1654641839_10ce8b8b90.jpg" width="500" height="375" alt="Come On England" /></a></p>
+<p><b>Update at 10pm</b> We shall not speak of this again.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-10-20-come-on-england-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hardware consolidation</title>
+		<link>/2006-9-23-hardware-consolidation-html/</link>
+					<comments>/2006-9-23-hardware-consolidation-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sat, 23 Sep 2006 17:14:29 +0000</pubDate>
+				<category><![CDATA[None]]></category>
+		<guid isPermaLink="false">/2006-9-23-hardware-consolidation-html/</guid>
+
+					<description><![CDATA[Now that it looks like I will be moving fairly soon I need to think about consolidating all of the &#8220;stuff&#8221; I own, not least all&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Now that it looks like I will be moving fairly soon I need to think about consolidating all of the &#8220;stuff&#8221; I own, not least all of my geeky hardware needs to be rationalised. Until recently I had 5 different computers in the house which is just ridiculous.</p>
+<p>So today I have been gathering everything I need down onto two machines, my laptop which is really now my main machine for work etc. and the <a href="http://www.apple.com/imac/">iMac</a> which is going to perform multiple tasks at once. Firstly I installed a Windows server onto it using <a href="http://www.parallels.com/en/products/workstation/">Parallels</a>, that will be running all the time in the background and will be running the Domino server which hosts this site.</p>
+<p>I&#8217;ve also gathered all of my media, music, photos and movies onto this machine as well, the plan being that it will sit in my lounge and act as a media server as well (thanks to <a href="http://www.apple.com/imac/frontrow.html">Front Row</a>). A rather cheap way of killing several birds with one stone. Now of course this is all a hell of a lot of strain to put on one computer so over the next couple of weeks I&#8217;ll need to monitor the performance and stability of the website. So if you see any problems that will be the source and I apologise in advance.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2006-9-23-hardware-consolidation-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The last word on Lotusphere 2006</title>
+		<link>/2006-1-29-the-last-word-on-lotusphere-2006-html/</link>
+					<comments>/2006-1-29-the-last-word-on-lotusphere-2006-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sun, 29 Jan 2006 18:43:53 +0000</pubDate>
+				<category><![CDATA[None]]></category>
+		<guid isPermaLink="false">/2006-1-29-the-last-word-on-lotusphere-2006-html/</guid>
+
+					<description><![CDATA[Well mine at least. The journey home was pretty uneventful, the usual struggle to stay awake as long as possible last night seems to have knocked&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Well mine at least.</p>
+<p>The journey home was pretty uneventful, the usual struggle to stay awake as long as possible last night seems to have knocked the jet lag on the head although we&#8217;ll see tomorrow when it&#8217;s back to the crack of sparrow&#8217;s for work. Apparently there were a few issues while I was away so that&#8217;s going to be really great fun.</p>
+<p>Overall the sessions were great, normally I end up going to a dud or two but every single one I went to was informative and (generally) well presented. There are a few new stars who have shown their faces&#8230; <a href="http://www.billbuchan.com/">Bill</a> and <a href="http://www.pmooney.net/">Paul</a> had possibly the most talked about session of the week, there&#8217;s no doubt that they&#8217;ll be back again next year. I didn&#8217;t see it but apparently <a href="http://www.nsftools.com/">Julian&#8217;s</a> jumpstart session was a great success, and I&#8217;m very surprised that <a href="http://www.macguidera.com/">Mac</a> hadn&#8217;t presented at Lotusphere before as he handled it very well.</p>
+<p>I got the chance to meet a lot more people this year, it&#8217;s always good to finally put a face to the name (and blog in most cases). It&#8217;s always a great surprise how welcoming the Domino community is to people. I&#8217;m not aware of any other online group of people which has survived for so long and has such strength and depth in its members. There was some talk at the Blogging BOF about the community feeling a bit closed to outsiders. As I mentioned before, that&#8217;s not my experience, all you need to do is make your name known out there, either with your own blog or simply by commenting on the ones already there.</p>
+<p>So we&#8217;ve all drunk of the <a href="http://www.userland.com/whatIsKoolAid">Kool-Aid</a> (as well as a few beers over the last few days), there was lots of cool stuff, but back in the cold light of your normal office what can we take away?</p>
+<p>Well Workplace 2.6 has been released, so if you&#8217;re a BP it should be downloadable, from what we have been shown it is well worth a look, at least that&#8217;s what I&#8217;ll be doing over the next few weeks. Along with WS Portal which has obviously been out there for a while but is the way that all Lotus products are going, so there is no harm in getting a head start.</p>
+<p>And finally, and most importantly Notes and Domino are alive and well, if there was one message that IBM wanted us to leave with it is that. The demo&#8217;s we have seen of Hannover and Domino Next look great, but surprisingly they are not as big a leap as I had been suspecting. Domino Next is a true Domino server, it just happens to have more integration with Workplace and some Portal abilities. Hannover is a leap forward in UI design, but underneath it&#8217;s still the same old Notes client that will run every Notes app out there today.</p>
+<p>So a good Lotusphere all round, as good as last year I think which was a difficult trick to pull off. The only downside is that we have to go back to the real world now where not everyone has the same outlook.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2006-1-29-the-last-word-on-lotusphere-2006-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Merry Christmas</title>
+		<link>/2004-12-25-merry-christmas-html/</link>
+					<comments>/2004-12-25-merry-christmas-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sat, 25 Dec 2004 09:56:43 +0000</pubDate>
+				<category><![CDATA[None]]></category>
+		<guid isPermaLink="false">/2004-12-25-merry-christmas-html/</guid>
+
+					<description><![CDATA[I hope you all have a very happy and peaceful Christmas. Here&#8217;s looking forward to an interesting and exciting New Year.]]></description>
+										<content:encoded><![CDATA[<p>I hope you all have a very happy and peaceful Christmas. Here&#8217;s looking forward to an interesting and exciting New Year.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2004-12-25-merry-christmas-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Interesting if intimidating experience</title>
+		<link>/2004-12-20-interesting-if-intimidating-experience-html/</link>
+					<comments>/2004-12-20-interesting-if-intimidating-experience-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 20 Dec 2004 21:15:35 +0000</pubDate>
+				<category><![CDATA[None]]></category>
+		<guid isPermaLink="false">/2004-12-20-interesting-if-intimidating-experience-html/</guid>
+
+					<description><![CDATA[On the short drive from the station back home this evening I got stopped by the police for a random breath test. Because I was doing&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>On the short drive from the station back home this evening I got stopped by the police for a random breath test. Because I was doing 3mph over the limit apparently that was enough to stop me, although I was told immediately that they weren&#8217;t going to do anything about it. What they really wanted was to do a breath test as part of the pre-Christmas crack down on drink driving.</p>
+<p>It wasn&#8217;t a problem at all, not having had a drink since yesterday so I looked on the whole thing as an interesting experience. The little breath testing machine is very impressive, given the size of the tubes it takes only a tiny sample of air and then analyses it within ten seconds. I can imagine that if you had had a drink the experience would be extremely sobering (although maybe not quickly enough!) and enough to put you off drink driving on it&#8217;s own.</p>
+<p>All in all something which I am glad that the police do.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2004-12-20-interesting-if-intimidating-experience-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Depressing or Impressive?</title>
+		<link>/2004-12-19-depressing-or-impressive-html/</link>
+					<comments>/2004-12-19-depressing-or-impressive-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sun, 19 Dec 2004 17:00:37 +0000</pubDate>
+				<category><![CDATA[None]]></category>
+		<guid isPermaLink="false">/2004-12-19-depressing-or-impressive-html/</guid>
+
+					<description><![CDATA[Not sure whether this is depressing or impressive. What do you make of it, apparently by the time Bill Gates was my age he was already&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Not sure whether <a href="http://www.museumofconceptualart.com/accomplished/">this</a> is depressing or impressive. What do you make of it, apparently by the time Bill Gates was my age he was already a billionaire. Another failed dream!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2004-12-19-depressing-or-impressive-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>PintWare button added</title>
+		<link>/2004-12-18-pintware-button-added-html/</link>
+					<comments>/2004-12-18-pintware-button-added-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sat, 18 Dec 2004 18:28:32 +0000</pubDate>
+				<category><![CDATA[None]]></category>
+		<guid isPermaLink="false">/2004-12-18-pintware-button-added-html/</guid>
+
+					<description><![CDATA[I have decided to start putting up a few of the more useful tips and tricks which I have picked up over the years. The real&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I have decided to start putting up a few of the more useful tips and tricks which I have picked up over the years. The real reason for this is that I managed to corrupt my local database which stores them all so didn&#8217;t have a little bit of code I needed to hand recently. However, you are more than welcome to use them if they are of any use to you. You&#8217;ll see a couple have already been posted and there will be a lot more over the next month or so.</p>
+<p>I realise that there are a lot of sites out there which give away tips and tricks, it&#8217;s very cool, however I have also seen a few sites which ask for a little recompense, it&#8217;s really an extension of the Shareware philosophy into what a few people are calling <a href="http://www.isassoc.fsbusiness.co.uk/PintWare/Index.htm">PintWare</a>. You&#8217;ll notice there&#8217;s a new button at the top left of this page, when you click it you get taken through to PayPal. No obligations but if you find that something has been useful, please consider donating a little to me, it will help keep the site going and make you feel all warm and fuzzy!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2004-12-18-pintware-button-added-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Lotusphere Buildup begins in earnest</title>
+		<link>/2004-12-18-lotusphere-buildup-begins-in-earnest-html/</link>
+					<comments>/2004-12-18-lotusphere-buildup-begins-in-earnest-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sat, 18 Dec 2004 14:58:37 +0000</pubDate>
+				<category><![CDATA[None]]></category>
+		<guid isPermaLink="false">/2004-12-18-lotusphere-buildup-begins-in-earnest-html/</guid>
+
+					<description><![CDATA[With Christmas each year comes the last few weeks before Lotusphere. Earlier than usual this time we have heard that the Wednesday night party will be&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>With Christmas each year comes the last few weeks before <a href="http://www.lotus.com/lotusphere">Lotusphere</a>. Earlier than usual this time we have heard that the Wednesday night party will be at <a href="http://themeparks.universalstudios.com/orlando/website/ioa_landing.html">Islands of Adventure</a> which I know will make the rest of my family jealous. It also looks as though the number of spherians will be up on this year as a lot of the hotels have even closed their waitlists.</p>
+<p>It&#8217;s such a well timed event as it gives us something to look forward to during the otherwise bleak month of January. Just got to hope that the weather is better than 2004, I mean what&#8217;s the point in flying thousands of miles only to have to wear a coat in the evening?</p>
+<p>As ever the best place for information is the <a href="http://www.gonzolotusphere.com/">Totally Unofficial Gonzo Lotusphere</a> site.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2004-12-18-lotusphere-buildup-begins-in-earnest-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

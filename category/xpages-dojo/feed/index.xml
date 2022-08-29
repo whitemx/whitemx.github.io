@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>XPages Dojo &#8211; mattwhite.me</title>
+	<atom:link href="/category/xpages-dojo/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:42 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Digging into Dojo and Selecting Dom Nodes</title>
+		<link>/2009-4-29-digging-into-dojo-and-selecting-dom-nodes-html/</link>
+					<comments>/2009-4-29-digging-into-dojo-and-selecting-dom-nodes-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 29 Apr 2009 14:02:09 +0000</pubDate>
+				<category><![CDATA[XPages Dojo]]></category>
+		<guid isPermaLink="false">/2009-4-29-digging-into-dojo-and-selecting-dom-nodes-html/</guid>
+
+					<description><![CDATA[I&#8217;ve played around with Dojo in the past but my primary Javascript framework has always been either Prototype or MooTools. In both cases they have some&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;ve played around with Dojo in the past but my primary Javascript framework has always been either Prototype or MooTools. In both cases they have some really useful functions built into them. One of the best in MooTools is the $ function which has been extended to allow you to select pretty much anything in your HTML without having to do lots of nested loops. So for example if I have some HTML like this (because, of course, we shouldn&#8217;t use non-unique ids on HTML elements, should we):</p>
+<pre style="font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; color: #000000; background-color: #eee;font-size: 12px;border: 1px dashed #999999;line-height: 14px;padding: 5px; overflow: auto; width: 100%"><code>&lt;ul id=&quot;movies&quot;&gt;
+    &lt;li class=&quot;sortme&quot;&gt;
+        &lt;div class=&quot;movie&quot;&gt;
+            Gross Point Blank
+        &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;sortme&quot;&gt;
+        &lt;div class=&quot;movie&quot;&gt;
+            Casino Royale
+        &lt;/div&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+<p>
+Then I could use the following line to select all of the divs that have the CSS class &#8220;movie&#8221; applied to them:</p>
+<pre style="font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; color: #000000; background-color: #eee;font-size: 12px;border: 1px dashed #999999;line-height: 14px;padding: 5px; overflow: auto; width: 100%"><code>var list = $('movies').getElements('div.movie');
+</code></pre>
+<p>
+But how do you do the same in Dojo? Well of course it&#8217;s simple, just need some different syntax. So for the same HTML as before, we would use dojo.query tool like this:</p>
+<pre style="font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; color: #000000; background-color: #eee;font-size: 12px;border: 1px dashed #999999;line-height: 14px;padding: 5px; overflow: auto; width: 100%"><code>dojo.query(&quot;div.movie&quot;);
+</code></pre>
+<p>
+For more detail, check out the <a href="http://www.dojotoolkit.org/book/dojo-book-0-9/part-3-programmatic-dijit-and-dojo/selecting-dom-nodes-dojo-query">Book of Dojo chapter on selecting dom nodes with dojo.query</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-4-29-digging-into-dojo-and-selecting-dom-nodes-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

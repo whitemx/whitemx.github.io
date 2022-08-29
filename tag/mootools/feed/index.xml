@@ -11,9 +11,9 @@
 	<title>mootools &#8211; mattwhite.me</title>
 	<atom:link href="/tag/mootools/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -31,7 +31,7 @@
 		<category><![CDATA[mootools]]></category>
 		<guid isPermaLink="false">/2010-2-26-upgrading-to-mootools-12-html/</guid>
 
-					<description><![CDATA[With the release of IdeaJam 1.7 (in beta at the moment, but going &#8220;Gold&#8221; soon enough), we decided to upgrade the Javascript framework that we use, MooTools to the latest and greatest version. Normally this isn&#8217;t even worth commenting on, but this change was a big&#8217;un as a lot of the underlying API changed from [&#8230;]]]></description>
+					<description><![CDATA[With the release of IdeaJam 1.7 (in beta at the moment, but going &#8220;Gold&#8221; soon enough), we decided to upgrade the Javascript framework that we use,&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>With the release of <a href="http://ideajam.net/">IdeaJam 1.7</a> (in beta at the moment, but going &#8220;Gold&#8221; soon enough), we decided to upgrade the Javascript framework that we use, <a href="http//mootools.net">MooTools</a> to the latest and greatest version. Normally this isn&#8217;t even worth commenting on, but this change was a big&#8217;un as a lot of the underlying API changed from version 1.1 to 1.2. Similar changes have happened with <a href="http://www.dojotoolkit.org/">Dojo</a> in the past in the shift from 0.4 to 0.9 and a very positive move it was too. The problem is that it&#8217;s a painful process of rekeying quite a lot of code.</p>
 <p> So I thought I&#8217;d go through the resources I used and the main changes which we faced with the upgrade to help anyone else going through the same process, although to be fair we are quite late to the party with <a href="http://ajaxian.com/archives/mootools-12-released">MooTools 1.2 as it was released in the middle of 2008</a>.</p>
 <p> There are a couple of really useful websites which document in quite a lot of detail how old style 1.1 syntax should be modified for 1.2. My favourite was this page on the Github Wiki: <a href="http://wiki.github.com/mootools/mootools-core/conversion-from-1-11-to-1-2">Conversion from 1.11 to 1.2</a>.</p>

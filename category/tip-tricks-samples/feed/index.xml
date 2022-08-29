@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Tip Tricks Samples &#8211; mattwhite.me</title>
+	<atom:link href="/category/tip-tricks-samples/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:28:23 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>floats and doubles</title>
+		<link>/2007-12-20-floats-and-doubles-html/</link>
+					<comments>/2007-12-20-floats-and-doubles-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 20 Dec 2007 08:56:54 +0000</pubDate>
+				<category><![CDATA[Tip Tricks Samples]]></category>
+		<guid isPermaLink="false">/2007-12-20-floats-and-doubles-html/</guid>
+
+					<description><![CDATA[When you&#8217;re doing *really* precise maths with large numbers (for that you can read currency conversions), Java floats do not necessarily do what you might expect.&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>When you&#8217;re doing *really* precise maths with large numbers (for that you can read currency conversions), Java floats do not necessarily do what you might expect. I&#8217;ve just wasted half a day tracking down a rounding error for a calculation that was 3 cents out for numbers over 7 million. It&#8217;s a small triumph but one I&#8217;ll take gladly at the moment. In the end I just switched to use doubles instead and they work as I&#8217;d expect (which I guess may not actually be correct but they do at least match Excel and my calculator!).<br />
+<br />
+<a href="http://www.pheedo.com/click.phdo?x=e6e9cb2509fb4366b2d21ebeb495b336&#038;u=MWHE-7A3CHM"><img src="http://www.pheedo.com/img.phdo?x=e6e9cb2509fb4366b2d21ebeb495b336&#038;u=MWHE-7A3CHM" border="0"/></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-12-20-floats-and-doubles-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

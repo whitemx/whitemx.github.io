@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Site Information &#8211; mattwhite.me</title>
+	<atom:link href="/category/site-information/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:29:46 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>CoComment Disabled</title>
+		<link>/2008-9-8-cocomment-disabled-html/</link>
+					<comments>/2008-9-8-cocomment-disabled-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 08 Sep 2008 17:07:54 +0000</pubDate>
+				<category><![CDATA[Site Information]]></category>
+		<guid isPermaLink="false">/2008-9-8-cocomment-disabled-html/</guid>
+
+					<description><![CDATA[I heard from Bruce that comments were broken so I&#8217;ve disabled CoComment and all seems to be working. Sorry if you posted and lost your comment.]]></description>
+										<content:encoded><![CDATA[<p>I heard from Bruce that comments were broken so I&#8217;ve disabled CoComment and all seems to be working. Sorry if you posted and lost your comment.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-9-8-cocomment-disabled-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>New Domain Name for &#034;me&#034;</title>
+		<link>/2008-7-18-new-domain-name-for-quotmequot-html/</link>
+					<comments>/2008-7-18-new-domain-name-for-quotmequot-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Fri, 18 Jul 2008 13:10:21 +0000</pubDate>
+				<category><![CDATA[Site Information]]></category>
+		<guid isPermaLink="false">/2008-7-18-new-domain-name-for-quotmequot-html/</guid>
+
+					<description><![CDATA[My name is incredibly common, there are even websites and Facebook groups set up for all of the Matt White&#8217;s of the world. And the poor&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>My name is incredibly common, there are even <a href="http://www.mattwhite.net/">websites</a> and <a href="http://www.facebook.com/group.php?gid=19569623992">Facebook groups</a> set up for all of the Matt White&#8217;s of the world. And the poor old <a href="http://www.mattwhiteband.com/">Matt White Band</a> has to compete with all of us to get internet traffic! Anyway as my name is so common I thought it would be sensible to get a hold of <a href="http://mattwhite.me/">mattwhite.me</a> before anyone else does. So until I can think of anything better to do with it, my new domain points back here for the moment. Have you got yours yet?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-7-18-new-domain-name-for-quotmequot-html/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>11TMR is 6 already!</title>
+		<link>/2008-4-1-11tmr-is-6-already-html/</link>
+					<comments>/2008-4-1-11tmr-is-6-already-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 01 Apr 2008 10:17:53 +0000</pubDate>
+				<category><![CDATA[Site Information]]></category>
+		<guid isPermaLink="false">/2008-4-1-11tmr-is-6-already-html/</guid>
+
+					<description><![CDATA[Well I managed to miss yet another birthday. Over the weekend my little corner of the internet reached it&#8217;s sixth anniversary. It&#8217;s incredible to me how&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Well I managed to miss yet another birthday. Over the weekend my little corner of the internet reached it&#8217;s sixth anniversary.</p>
+<p>It&#8217;s incredible to me how good maintaining a blog has been for me. It has helped me professionally in finding work and got in contact with some very interesting people, but most importantly I have made a lot of really good friends through it. So here&#8217;s to another six years, I wonder what we&#8217;ll all be doing in 2014?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-4-1-11tmr-is-6-already-html/feed/</wfw:commentRss>
+			<slash:comments>6</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Site Hacked</title>
+		<link>/2007-10-10-site-hacked-html/</link>
+					<comments>/2007-10-10-site-hacked-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 10 Oct 2007 15:49:41 +0000</pubDate>
+				<category><![CDATA[Site Information]]></category>
+		<guid isPermaLink="false">/2007-10-10-site-hacked-html/</guid>
+
+					<description><![CDATA[Well you go away for an hour at lunchtime and come back to find your blog hacked. Thanks to all of the people who pinged me&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Well you go away for an hour at lunchtime and come back to find your blog hacked. Thanks to all of the people who pinged me to let me know of the problem. Of course I should have upgraded the blog template weeks ago after Declan released the fix for the cross site scripting hack. But time is short at the moment so I hadn&#8217;t got round to it.</p>
+<p>Luckily the process is pretty painless, just upgrade the template and off we go. So to the tosspot who hacked my site&#8230; you really need to find something better to do with your time than hacking tiny little blogs, of course, your IP address has been permanently blacklisted (68.212.223.20 for anyone who wants to do the same).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-10-10-site-hacked-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>More comment spam</title>
+		<link>/2007-6-10-more-comment-spam-html/</link>
+					<comments>/2007-6-10-more-comment-spam-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sun, 10 Jun 2007 19:49:35 +0000</pubDate>
+				<category><![CDATA[Site Information]]></category>
+		<guid isPermaLink="false">/2007-6-10-more-comment-spam-html/</guid>
+
+					<description><![CDATA[Over recent weeks there has been a spate of comment spam on the site which has obviously been manually typed in by some idiots trying to&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Over recent weeks there has been a spate of comment spam on the site which has obviously been manually typed in by some idiots trying to increase the pagerank of their sites. Well I now plan to be far more agressive about comment spammers, unless you leave a real name and email address you will be blocked. If you leave a link to a website which is obviously not your own (in my view, this is not a democracy), it will be blocked. If I make a mistake then I apologise in advance, a simple email to me will rectify the problem.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-6-10-more-comment-spam-html/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Blogsphere Upgrade</title>
+		<link>/2007-5-12-blogsphere-upgrade-html/</link>
+					<comments>/2007-5-12-blogsphere-upgrade-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sat, 12 May 2007 20:41:57 +0000</pubDate>
+				<category><![CDATA[Site Information]]></category>
+		<guid isPermaLink="false">/2007-5-12-blogsphere-upgrade-html/</guid>
+
+					<description><![CDATA[I&#8217;ve only just got around to upgrading the site up to Blogsphere V3 Beta 6 it&#8217;s been as painless as ever and getting better with each&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;ve only just got around to upgrading the site up to <a href="http://www.openntf.org/Projects/pmt.nsf/ProjectLookup/BlogSphere%20V3">Blogsphere V3 Beta 6</a> it&#8217;s been as painless as ever and getting better with each release. Kudos to <a href="http://www.qtzar.com/">Declan</a> as always.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-5-12-blogsphere-upgrade-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Downtime Prediction</title>
+		<link>/2007-5-8-downtime-prediction-html/</link>
+					<comments>/2007-5-8-downtime-prediction-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 08 May 2007 19:50:47 +0000</pubDate>
+				<category><![CDATA[Site Information]]></category>
+		<guid isPermaLink="false">/2007-5-8-downtime-prediction-html/</guid>
+
+					<description><![CDATA[In theory the migration of this domain to GoDaddy will be happening tomorrow so apologies in advance for any downtime. Update Well it came a day&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>In theory the migration of this domain to GoDaddy will be happening tomorrow so apologies in advance for any downtime.</p>
+<p><b>Update</b> Well it came a day late but we are safely over to GoDaddy with only a few hours downtime. Normal service resumes!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-5-8-downtime-prediction-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Downtime Apologies</title>
+		<link>/2007-5-2-downtime-apologies-html/</link>
+					<comments>/2007-5-2-downtime-apologies-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 02 May 2007 15:41:23 +0000</pubDate>
+				<category><![CDATA[Site Information]]></category>
+		<guid isPermaLink="false">/2007-5-2-downtime-apologies-html/</guid>
+
+					<description><![CDATA[Apologies for the downtime today. My DNS provider had a catastrophic hardware failure in one of their name servers. Now, being a domain name provider you&#8217;d&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Apologies for the downtime today. My <a href="http://www.acelogic.co.uk/">DNS provider</a> had a catastrophic hardware failure in one of their name servers. Now, being a domain name provider you&#8217;d think there was some sort of DR strategy in place for what is a serious problem. Instead we were sent an email to say that the server would be back within 24 hours!</p>
+<p>They claimed to have fixed the problem earlier on, but instead of coming here I was getting redirected to a holding page. I hope that overnight they have sorted things out properly. This has pushed me to migrate this domain over to <a href="http://www.godaddy.com/">GoDaddy</a> so hopefully that will go smoothly over the next few days with no more downtime for you.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-5-2-downtime-apologies-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Google Apps First Impressions</title>
+		<link>/2007-3-18-google-apps-first-impressions-html/</link>
+					<comments>/2007-3-18-google-apps-first-impressions-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sun, 18 Mar 2007 16:05:15 +0000</pubDate>
+				<category><![CDATA[Site Information]]></category>
+		<guid isPermaLink="false">/2007-3-18-google-apps-first-impressions-html/</guid>
+
+					<description><![CDATA[As you may have read, I migrated my mail over to the new Google Apps for your domain during the week. A totally painless procedure all&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>As you may have read, I <a href="http://www.11tmr.com/11tmr.nsf/d6plinks/MWHE-6Z9RVL">migrated my mail</a> over to the new Google Apps for your domain during the week. A totally painless procedure all in all but I thought I&#8217;d just mention a little more about what you get for your $50 subscription per user.</p>
+<p>The main benefits of the mail upgrade are two-fold. Firstly it means mail is sent and delivered directly from and to my &#8220;proper&#8221; email address without having to set up any forwarding or masking of email addresses. And secondly my mailbox has now increased in size to 10gb. I haven&#8217;t got anywhere near that volume of mail but it&#8217;s nice to know that the capacity is there if needed.</p>
+<p>In addition to the mail, you get the other Google Apps which can be accessed by anyone with a Gmail account&#8230; the word processor and spreadsheet tools. I&#8217;ve tried to use these in the past and they&#8217;re not really much use to me, but I guess some companies may benefit from the document sharing capabilities provided by the tools. The app which is useful is the Calendar, this is now my main calendar interface and when used in conjunction with <a href="http://spanningsync.com/">Spanning Sync</a> to share the Google Calendar with iCal and my mobile phone it provides an excellent service.</p>
+<p>Google Apps also provides a simple website editing tool, so now if you go to my <a href="http://www.fclonline.com/">company site</a>, you&#8217;l find it has migrated across as well. For the internal company users (well me in this case) you also have the ability to set up the &#8220;start&#8221; page, which can be thought of as an intranet style portal which integrates mail, calendar and other content decided by the domain administrator(s).</p>
+<p>And all of this can be easily accessed just by setting up some subdomains with your domain hosting company. So, for example you can set up mail.mydomain.com or calendar.mydomain.com. All very well thought out.</p>
+<p>The only downside which I&#8217;ve encountered so far is that the old mobile Gmail client which runs on pretty much any J2ME enabled phone doesn&#8217;t work with the Gmail for your domain account. This seems round the wrong way to me, the people paying a premium should get the premium service but I&#8217;m assured that this is being worked on as I type. I hope so, as the client on my mobile phone was really useful.</p>
+<p>Overall though, if you run a small business, or even a medium sized business with standard communication needs then you&#8217;d be crazy not to have a look at the <a href="http://www.google.com/a">Google Apps site</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-3-18-google-apps-first-impressions-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Email Moving</title>
+		<link>/2007-3-13-email-moving-html/</link>
+					<comments>/2007-3-13-email-moving-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 13 Mar 2007 20:21:40 +0000</pubDate>
+				<category><![CDATA[Site Information]]></category>
+		<guid isPermaLink="false">/2007-3-13-email-moving-html/</guid>
+
+					<description><![CDATA[I&#8217;ve decided to move my email hosting to Google Apps, my address won&#8217;t be changing but over the next couple of days DNS changes will be&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;ve decided to move my email hosting to <a href="http://www.google.com/a/">Google Apps</a>, my address won&#8217;t be changing but over the next couple of days DNS changes will be rolling out over the internet so if your mail is important, please make sure you cc my personal Gmail account: whitemx@gmail.com.</p>
+<p><b>Update:</b> Well the whole move seems to be going very smoothly. DNS changes are now filtering out, the US seems to have updated already. Either way my mail configuration is such that you can go back to using my <a href="mailto:matthew.white@fclonline.com">proper address</a> with no worries of delivery failures now.</p>
+<p>I have to say that the Google Apps product is very impressive, what they are offering for $50 per annum would be difficult to match on any other hosting arrangement. Definitely worth a look.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-3-13-email-moving-html/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

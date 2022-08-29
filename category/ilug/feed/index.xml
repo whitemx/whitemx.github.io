@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ILUG &#8211; mattwhite.me</title>
+	<atom:link href="/category/ilug/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:30:41 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>All booked for ILUG</title>
+		<link>/2007-2-20-all-booked-for-ilug-html/</link>
+					<comments>/2007-2-20-all-booked-for-ilug-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 20 Feb 2007 10:42:52 +0000</pubDate>
+				<category><![CDATA[ILUG]]></category>
+		<guid isPermaLink="false">/2007-2-20-all-booked-for-ilug-html/</guid>
+
+					<description><![CDATA[As pretty much everyone else in the Domino blogosphere has already mentioned, registration for ILUG has opened. Paul et al have managed to pull together an&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>As pretty much everyone else in the Domino blogosphere has already mentioned, registration for <a href="http://ilug2007.org/">ILUG</a> has opened. <a href="http://pmooney.net/">Paul</a> et al have managed to pull together an incredible <a href="http://ilug2007.org/ilug2007.nsf/SpeakerByName">speaker list</a> and all for the enourmous fee of <i>nothing</i>!</p>
+<p>Well I&#8217;ve managed to get into the <a href="http://www.ocallaghanhotels.com/alexander/">hotel</a> and got a flight for less than £50 return so for a tiny investment it&#8217;s going to be a great few days. Apparently there&#8217;s going to be a geek dinner on a large scale on the Friday night but I&#8217;m guessing there will be plenty of social gatherings during the week as well.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-2-20-all-booked-for-ilug-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ILUG</title>
+		<link>/2007-2-4-ilug-html/</link>
+					<comments>/2007-2-4-ilug-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Sun, 04 Feb 2007 19:09:08 +0000</pubDate>
+				<category><![CDATA[ILUG]]></category>
+		<guid isPermaLink="false">/2007-2-4-ilug-html/</guid>
+
+					<description><![CDATA[Paul has started to organise the Irish Lotus User Group (ILUG) for 2007. It&#8217;s becoming a mini-Lotusphere with pretty much anyone who&#8217;s anyone in the Lotus&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://www.pmooney.net/">Paul</a> has started to organise the Irish Lotus User Group (ILUG) for 2007. It&#8217;s becoming a mini-Lotusphere with pretty much anyone who&#8217;s anyone in the Lotus community showing their face. Have a look at the people confirmed so far <a href="http://www.pmooney.net/blogsphe.nsf/d6plinks/PMOY-6Y4MVG">here</a>. If you at all interested in the Lotus community and based in Europe then I think it would be a trip well worth making.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2007-2-4-ilug-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

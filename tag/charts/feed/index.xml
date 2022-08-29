@@ -11,9 +11,9 @@
 	<title>charts &#8211; mattwhite.me</title>
 	<atom:link href="/tag/charts/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:20:03 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -32,7 +32,7 @@
 		<category><![CDATA[xpages]]></category>
 		<guid isPermaLink="false">/2011-8-30-dojo-charts-and-ie-html/</guid>
 
-					<description><![CDATA[I&#8217;ve just spent the better part of three days working on a suite of Dojo Charts for an application. They are usually pretty easy to get going and look as good, if not better than a lot of the flash charting tools out there. But, and there&#8217;s always a but isn&#8217;t there, getting the charts [&#8230;]]]></description>
+					<description><![CDATA[I&#8217;ve just spent the better part of three days working on a suite of Dojo Charts for an application. They are usually pretty easy to get&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>I&#8217;ve just spent the better part of three days working on a suite of Dojo Charts for an application. They are usually pretty easy to get going and look as good, if not better than a lot of the flash charting tools out there. But, and there&#8217;s always a but isn&#8217;t there, getting the charts working in IE can be a real challenge with very little in the way of guidance.</p>
 <p>So here are three tips which I shall pass on learned through bitter experience over the last few days&#8230;</p>
 <p>It may well look as though you can initialise your charts using in line JavaScript and, indeed, it will work absolutely fine in Firefox, Safari, Chrome and other &#8220;modern&#8221; web browser. Not so much with IE. So break your initialisation code into a function and call it from the either the onClientLoad client side event in the XPage or using XSP.addOnLoad(init) depending on your preference.</p>

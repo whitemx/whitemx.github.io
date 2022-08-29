@@ -11,9 +11,9 @@
 	<title>ls2010 &#8211; mattwhite.me</title>
 	<atom:link href="/tag/ls2010/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:24:27 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -30,7 +30,7 @@
 		<category><![CDATA[ls2010]]></category>
 		<guid isPermaLink="false">/2009-11-18-ill-be-presenting-with-tim-clark-at-lotusphere-html/</guid>
 
-					<description><![CDATA[The annual frenzy of speaker announcements happened yesterday. This basically consists of people who have submitted an abstract to speak at Lotusphere hearing that someone else had been told they got their slot and then waiting over your inbox until you hear either way about your sessions. I&#8217;m lucky enough to be presenting with Tim [&#8230;]]]></description>
+					<description><![CDATA[The annual frenzy of speaker announcements happened yesterday. This basically consists of people who have submitted an abstract to speak at Lotusphere hearing that someone else&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>The annual frenzy of speaker announcements happened yesterday. This basically consists of people who have submitted an abstract to speak at Lotusphere hearing that someone else had been told they got their slot and then waiting over your inbox until you hear either way about your sessions.</p>
 <p>I&#8217;m lucky enough to be presenting with <a href="http://www.tc-soft.com/wordpress/">Tim Clark</a>, my partner in crime for the XPages workshops earlier in the year. Our session title is &#8220;How to build an XPages application from start to finish&#8221;. So we&#8217;ve set ourselves a nice, achievable target in two hours!</p>
 <p>It should be a lot of fun, and now we have a few weeks of prep work ahead of us as we create the app and the slide deck.</p>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Rails &#8211; mattwhite.me</title>
+	<atom:link href="/category/rails/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:25:19 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Learning Rails Podcast and Screencast</title>
+		<link>/2008-12-1-learning-rails-podcast-and-screencast-html/</link>
+					<comments>/2008-12-1-learning-rails-podcast-and-screencast-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 01 Dec 2008 12:29:28 +0000</pubDate>
+				<category><![CDATA[Rails]]></category>
+		<guid isPermaLink="false">/2008-12-1-learning-rails-podcast-and-screencast-html/</guid>
+
+					<description><![CDATA[Not content with project work, IdeaJam 1.4, TaskJam and preparing for two Lotusphere sessions, I&#8217;ve been spending a bit of &#8220;spare&#8221; time starting to play with&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Not content with project work, IdeaJam 1.4, TaskJam and preparing for two Lotusphere sessions, I&#8217;ve been spending a bit of &#8220;spare&#8221; time starting to play with Ruby on Rails.</p>
+<p>I&#8217;m a bit behind the times on this but it&#8217;s a great web development environment and strangely similar to Domino web development in a lot of ways. Even so it takes a while to <a href="http://en.wikipedia.org/wiki/Grok#In_hacker_culture">grok</a> the different coding styles required. I found a great podcast and screencast <a href="http://www.buildingwebapps.com/podcasts">here</a>. They walk you through creating some basic apps and are incredibly helpful. They are also free! Ain&#8217;t the internets great?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008-12-1-learning-rails-podcast-and-screencast-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

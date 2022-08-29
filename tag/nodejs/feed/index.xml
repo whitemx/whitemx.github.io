@@ -11,9 +11,9 @@
 	<title>node.js &#8211; mattwhite.me</title>
 	<atom:link href="/tag/nodejs/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
+	<description></description>
 	<lastBuildDate>Fri, 26 Aug 2022 15:18:59 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -30,7 +30,7 @@
 		<category><![CDATA[node.js]]></category>
 		<guid isPermaLink="false">/2014-5-27-oh-yes-well-need-a-database/</guid>
 
-					<description><![CDATA[I suppose this is the biggie. Since 1996 my database of choice has been the venerable NSF&#160;http://en.wikipedia.org/wiki/Notes_Storage_Facility#Database&#160;which is a Document Oriented Database. Coincidentally the rest of the world has now caught up and there are some more modern options available to achieve the same things now. The real flavour of the moment is MongoDB&#160;http://www.mongodb.org,/ like [&#8230;]]]></description>
+					<description><![CDATA[I suppose this is the biggie. Since 1996 my database of choice has been the venerable NSF&#160;http://en.wikipedia.org/wiki/Notes_Storage_Facility#Database&#160;which is a Document Oriented Database. Coincidentally the rest of&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p id="yui_3_10_1_1_1401202982333_15809"><!--{cke_protected}{C}%3C!%2D%2D%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%2D%2D%3E--><span style="font-size:medium">I suppose this is the biggie. Since 1996 my database of choice has been the venerable NSF&nbsp;</span><a data-cke-saved-href="http://en.wikipedia.org/wiki/Notes_Storage_Facility#Database" href="http://en.wikipedia.org/wiki/Notes_Storage_Facility#Database">http://en.wikipedia.org/wiki/Notes_Storage_Facility#Database</a><span style="font-size:medium">&nbsp;which is a Document Oriented Database. Coincidentally the rest of the world has now caught up and there are some more modern options available to achieve the same things now. The real flavour of the moment is MongoDB&nbsp;</span><a data-cke-saved-href="http://www.mongodb.org/" href="http://www.mongodb.org/">http://www.mongodb.org/</a><span style="font-size:medium">, like the NSF it’s document based and can be replicated between multiple locations. Unlike the NSF it is much more scalable and the old limitations that we were constrained by have largely been mitigated. Of course there is no such thing as a silver bullet, but really there is no comparison between the NSF and modern document oriented databases. You have no idea how sad that makes me, but it is true.</span></p>
 <p id="yui_3_10_1_1_1401202982333_16347">Anyway, back to the real world. Every application needs a database, and my choice in this case is <a href="http://mongodb.org/" data-cke-saved-href="http://mongodb.org/" target="_blank" rel="noopener">MongoDB</a>. As ever, this is not a tutorial, the MongoDB website provides quite reasonable documentation to get you going:&nbsp;<a data-cke-saved-href="http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/" href="http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/">http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/</a></p>
 <p id="yui_3_10_1_1_1401202982333_17129">Now, you could just go with Mongo directly, but in various tutorials I had read about <a href="http://mongoosejs.com/" data-cke-saved-href="http://mongoosejs.com/" target="_blank" rel="noopener">MongooseJS</a>&nbsp;as well. MongoDB is just a database, it doesn’t force you to implement schemas, validation, or really any structure to your data. It may well be the case that you don’t want any of that, in which case go for your life. The syntax for talking to MongoDB is very simple REST calls. But with the addition of MongooseJS we get another layer of abstraction and assistance.</p>
@@ -178,7 +178,7 @@
 		<category><![CDATA[node.js]]></category>
 		<guid isPermaLink="false">/2014-5-27-jade-html-template-engine/</guid>
 
-					<description><![CDATA[In the last post I mentioned that when you start using Express, you are nudged towards Jade to create your HTML. At its simplest, Jade provides a way to make your HTML more terse. To produce HTML like this: We would only need to enter Jade like this: We can break up the contents of [&#8230;]]]></description>
+					<description><![CDATA[In the last post I mentioned that when you start using Express, you are nudged towards Jade to create your HTML. At its simplest, Jade provides&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>In the last post I mentioned that when you start using Express, you are nudged towards Jade to create your HTML.</p>
 <p>At its simplest, Jade provides a way to make your HTML more terse. To produce HTML like this:</p>
 <p><script src="https://gist.github.com/whitemx/326270cb2779dcb69a07.js"></script></p>
@@ -209,7 +209,7 @@
 		<category><![CDATA[node.js]]></category>
 		<guid isPermaLink="false">/2014-5-27-express-web-application-framework/</guid>
 
-					<description><![CDATA[Having created a simple application and installed our first NPM package, now things start to get serious. We want to start building out our real application, there will be more than one page, we’ll need client side JavaScript and CSS files. Organising all of this is important, you will have hundreds of files before you [&#8230;]]]></description>
+					<description><![CDATA[Having created a simple application and installed our first NPM package, now things start to get serious. We want to start building out our real application,&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p><!--?xml version="1.0" encoding="UTF-8" standalone="no"?--><span style="font-size:medium">Having created a simple application and installed our first NPM package, now things start to get serious. We want to start building out our real application, there will be more than one page, we’ll need client side JavaScript and CSS files. Organising all of this is important, you will have hundreds of files before you know it. This is where <a target="_blank" href="http://expressjs.com/" rel="noopener">Express</a> comes in.</span></p>
 <p>If we install the basic Express npm package then we can get one of the biggest advantages for us, that is routing. I can define URLs and URL patterns that make up my application and then map functionality onto each one as I see fit. As you get more advanced you can start defining middleware steps that test security before allowing the user to get to a page. It makes your application configuration orders of magnitude simpler to look after. From my point of view at the moment, if you wanted to create a node.js web application that didn’t use Express then I’d want a very good reason why.</p>
 <p>The basic installation is very simple, simply edit your package.json file and add express as a dependency:</p>
@@ -335,7 +335,7 @@
 		<category><![CDATA[node.js]]></category>
 		<guid isPermaLink="false">/2014-5-23-npm-or-node-module-packages/</guid>
 
-					<description><![CDATA[After getting your development environment set up and your fancy schmancy Hello World application running&#160;what next? Let’s say we want to display a nicely formatted version of the current date and time. The current best of breed for date and time handling in JavaScript is called Moment&#160;and we can choose to use it either server [&#8230;]]]></description>
+					<description><![CDATA[After getting your development environment set up and your fancy schmancy Hello World application running&#160;what next? Let’s say we want to display a nicely formatted version&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p><!--?xml version="1.0" encoding="UTF-8" standalone="no"?--><span style="font-size:medium">After getting your <a href="http://mattwhite.me/blog/2014/5/23/but-first-the-development-environment">development environment</a> set up and your fancy schmancy <a target="_blank" href="http://howtonode.org/hello-node" rel="noopener">Hello World application</a> running</span><span style="font-size:medium">&nbsp;what next?</span></p>
 <p><script src="https://gist.github.com/whitemx/216f9af708d9d2aef07c.js"></script></p>
 <p>Let’s say we want to display a nicely formatted version of the current date and time. The current best of breed for date and time handling in JavaScript is called <a target="_blank" href="http://momentjs.com/" rel="noopener">Moment</a>&nbsp;and we can choose to use it either server side or client side. For our purposes here, we’ll use it server side, which means we need to install it into our application.</p>
@@ -380,7 +380,7 @@
 		<category><![CDATA[node.js]]></category>
 		<guid isPermaLink="false">/2014-5-23-but-first-the-development-environment/</guid>
 
-					<description><![CDATA[I started a series of blog posts about my work with node.js last week. And of course the thing I forgot to mention is the actual process of development.&#160; A lot of people seem to really like using Webstorm from Jetbrains.&#160;and it’s certainly a full featured tool. I tried it for ten days and just [&#8230;]]]></description>
+					<description><![CDATA[I started a series of blog posts about my work with node.js last week. And of course the thing I forgot to mention is the actual&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p id="yui_3_10_1_1_1400851929881_27540"><!--{cke_protected}{C}%3C!%2D%2D%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%2D%2D%3E--><span style="font-size:medium">I started a series of blog posts about my work with node.js last week. And of course the thing I forgot to mention is the actual process of development.&nbsp;</span></p>
 <p id="yui_3_10_1_1_1400851929881_27541">A lot of people seem to really like using <a href="http://www.jetbrains.com/webstorm/" data-cke-saved-href="http://www.jetbrains.com/webstorm/" target="_blank" rel="noopener">Webstorm from Jetbrains</a>.&nbsp;and it’s certainly a full featured tool. I tried it for ten days and just couldn’t get used to it. So I now spend my days living inside three different windows: Sublime Text for editing, Chrome for browser testing and the Terminal for running node.js.</p>
 <p id="yui_3_10_1_1_1400851929881_27542">If you’ve not yet used <a href="http://www.sublimetext.com/" data-cke-saved-href="http://www.sublimetext.com/" target="_blank" rel="noopener">Sublime Text</a> then it’s worth having a look, it’s a text editor but on steroids, so it will has awareness of different text file formats: JS, HTML, CSS etc etc and will offer basic code completion. But will also allow you to edit multiple lines of text at once, it has all sorts of plugins and so on.</p>
@@ -468,7 +468,7 @@
 		<category><![CDATA[node.js]]></category>
 		<guid isPermaLink="false">/2014-5-23-getting-started-with-nodejs/</guid>
 
-					<description><![CDATA[As you may know I&#8217;ve been writing Domino web applications in one form or another for 18 years now (good God that&#8217;s a long time). But over the last few months I&#8217;ve been working on a node.js application. I&#8217;ve learned a huge amount, but am still really a newb when it comes to node, so [&#8230;]]]></description>
+					<description><![CDATA[As you may know I&#8217;ve been writing Domino web applications in one form or another for 18 years now (good God that&#8217;s a long time). But&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[<p>As you may know I&#8217;ve been writing Domino web applications in one form or another for 18 years now (good God that&#8217;s a long time). But over the last few months I&#8217;ve been working on a <a target="_blank" href="http://nodejs.org/" rel="noopener">node.js</a> application. I&#8217;ve learned a huge amount, but am still really a newb when it comes to node, so bear that in mind when you read my blog posts over the next few weeks and months.</p>
 <p>The first question, I suppose, is &#8220;What is node.js?&#8221;. Well, the simple answer is that it&#8217;s a JavaScript engine that will do whatever you tell it. It will run on whatever platform you care to mention, I am using my Mac, but it will also run on Windows or Linux. The most popular use seems to be to write web applications, but you can equally write utilities for data migration or anything else that you can think of really. Everything you write is in JavaScript, and much like with XPages, you get to write JavaScript that runs on the server side and the client side.</p>
 <p>The node.js community is huge and there are vast amounts of resources out there to get you going, so your first thought whenever you want to achieve something is &#8220;has someone already done this&#8221;. In most cases they will have. Enter <a target="_blank" href="https://www.npmjs.org/" rel="noopener">NPM </a>or Node Packaged Modules. You can simply install packages into your application and make use of them, much as you would with JAR files in Java.</p>

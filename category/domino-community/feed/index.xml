@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Domino Community &#8211; mattwhite.me</title>
+	<atom:link href="/category/domino-community/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Aug 2022 15:24:38 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>My IamLUG Session</title>
+		<link>/2010-6-8-my-iamlug-session-html/</link>
+					<comments>/2010-6-8-my-iamlug-session-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 08 Jun 2010 07:07:46 +0000</pubDate>
+				<category><![CDATA[Domino Community]]></category>
+		<category><![CDATA[iamlug]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2010-6-8-my-iamlug-session-html/</guid>
+
+					<description><![CDATA[Yesterday Chris Miller announced the first batch of speakers and sessions for this year&#8217;s IamLUG conference in St Louis. I&#8217;m fortunate enough to have had my&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Yesterday <a href="http://iamlug.org/IamLUG/blog.nsf/dx/the-first-round-of-sessions-for-iamlug-2010-announced.htm">Chris Miller announced</a> the first batch of speakers and sessions for this year&#8217;s IamLUG conference in St Louis. I&#8217;m fortunate enough to have had my abstract accepted. And so I&#8217;ll be presenting an updated version of my &#8220;<a href="http://iamlug.org/iamlug/IamLug2010.nsf/session.xsp?action=openDocument&amp;documentId=78F96453D7A4615A8625770300322D5B">Ten XPages Design Patterns</a>&#8221; session.</p>
+<p>There is already a great <a href="http://iamlug.org/iamlug/IamLug2010.nsf/sessions.xsp">list of speakers and sessions announced</a>, so if you&#8217;ve not registered yet then get over to the IamLUG site quickly to get signed up, it&#8217;s a free conference remember!</p>
+<p>And then, of course, there&#8217;s the <a href="http://tackiton.com/IamLUG">Tack It On</a> extra day of deep dive content provided by Rob Novak and the SNAPPS team, Chris Miller and myself. All in all, three days of great sessions, interesting people, and I&#8217;m sure more than a little fun as well.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-6-8-my-iamlug-session-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Lotus UK Power of Business Applications</title>
+		<link>/2010-5-18-lotus-uk-power-of-business-applications-html/</link>
+					<comments>/2010-5-18-lotus-uk-power-of-business-applications-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 18 May 2010 15:43:44 +0000</pubDate>
+				<category><![CDATA[Domino Community]]></category>
+		<category><![CDATA[applications]]></category>
+		<category><![CDATA[speaking]]></category>
+		<category><![CDATA[xpages]]></category>
+		<guid isPermaLink="false">/2010-5-18-lotus-uk-power-of-business-applications-html/</guid>
+
+					<description><![CDATA[Darren Adams has already mentioned this day on 16th June, but I thought I&#8217;d just make sure that people know about it as well. Basically what&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Darren Adams has already mentioned this day on 16th June, but I thought I&#8217;d just make sure that people know about it as well.</p>
+<p>Basically what Darren has organised is a day all about Lotus application development in the real world. So I&#8217;m going to speak a little about the history of IdeaJam, where we are and hot we got here. Then in the afternoon I&#8217;m back on my favourite hobby horse; XPages development. This time the title for the session is &#8220;Rejuvenating&nbsp;Domino Web Applications with XPages&#8221;.</p>
+<p>There looks like there&#8217;s some really great content during the day, so if you have anything to do with Domino applications (that&#8217;s development, implementation, management, or anything else really, this isn&#8217;t an overly techie day) then it will probably be worth you coming along.</p>
+<p>And best of all, it&#8217;s free. You just need to <a href="https://www-950.ibm.com/events/wwe/grp/grp006.nsf/v16_agenda?openform&amp;seminar=4EAFUNES&amp;locale=en_GB">register here</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-5-18-lotus-uk-power-of-business-applications-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>XPages101 comes to America</title>
+		<link>/2010-5-4-xpages101-comes-to-america-html/</link>
+					<comments>/2010-5-4-xpages101-comes-to-america-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 04 May 2010 14:29:52 +0000</pubDate>
+				<category><![CDATA[Domino Community]]></category>
+		<category><![CDATA[training]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2010-5-4-xpages101-comes-to-america-html/</guid>
+
+					<description><![CDATA[I&#8217;ve been working with Chris Miller and Rob Novak over the last few weeks to put together a great extra day after IamLUG this August in&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;ve been working with <a href="http://idonotes.com/">Chris Miller</a> and <a href="http://lotusrockstar.com/">Rob Novak</a> over the last few weeks to put together a great extra day after <a href="http://iamlug.org/">IamLUG</a> this August in St Louis.&nbsp;</p>
+<p>Basically the plan is that I&#8217;ll run my <a href="http://xpages101.net/classroom">XPages101 classroom course</a>, Chris will be running a new &#8220;Domino Optimization Tour&#8221; and Rob and the SNAPPS team will be running their iPhone Development class. Each of the courses will be running concurrently in the same rooms that IamLUG will have been in for the previous couple of days. And because we&#8217;re able to get some economies of scale by operating together, the prices for the extra training day, or &#8220;<a href="http://tackiton.com/iamlug">Tack It On</a>&#8221; day can be kept as low as possible.</p>
+<p>So if you&#8217;re interested in learning XPages, iPhone development or taking a deep dive into Domino server optimisation then <a href="http://tackiton.com/iamlug">visit the information site for more details</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-5-4-xpages101-comes-to-america-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Dannotes and a long journey home</title>
+		<link>/2010-4-15-dannotes-and-a-long-journey-home-html/</link>
+					<comments>/2010-4-15-dannotes-and-a-long-journey-home-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Thu, 15 Apr 2010 11:37:50 +0000</pubDate>
+				<category><![CDATA[Domino Community]]></category>
+		<category><![CDATA[dannotes]]></category>
+		<category><![CDATA[travel]]></category>
+		<guid isPermaLink="false">/2010-4-15-dannotes-and-a-long-journey-home-html/</guid>
+
+					<description><![CDATA[I&#8217;ve been in Denmark for a couple of days now at the wonderful Dannotes event. It&#8217;s a slightly different setup compared to other user groups that&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;ve been in Denmark for a couple of days now at the wonderful Dannotes event. It&#8217;s a slightly different setup compared to other user groups that I&#8217;ve been to, but as with all user groups, the organisation behind the scenes is amazing, the people are interesting and good company, and there are interesting conversations happening everywhere you look.</p>
+<p>I ended up presenting the full version of Tim Clark and my Lotusphere session. If you saw it in Florida then you&#8217;ll know that we had too much content to get through. Well luckily here I had three hours to speak so was able to finish the entire presentation for the first time. It seemed to go pretty well with some interesting questions and only one mistake from me. My lesson from the afternoon is that talking and coding for three hours is really hard work, though I suppose I should have been able to guess that beforehand.</p>
+<p>We&#8217;ve been looked after by the organisers here really well. The hotel is ideal for a user group meeting, the restaurant was very nice and the beer and wine flowed freely (possibly a little too freely judging by some people this morning).</p>
+<p>And then we get onto the volcanic eruption. The upshot of several hours on the phone and internet is that we&#8217;re stuck here until Saturday. So given that I am travelling with Warren &#8220;Mr Lego&#8221; Elsmore, I&#8217;m sure you won&#8217;t be too surprised to find we&#8217;re heading to Legoland after Dannotes wraps up for an&nbsp;impromptu&nbsp;visit. Then tomorrow it&#8217;s into Copenhagen before, hopefully, heading home on Saturday. At the moment that is all entirely theoretical as the airlines don&#8217;t know when they&#8217;ll be able to operate again. I suppose you just have to make the most of an unexpected opportunity.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-4-15-dannotes-and-a-long-journey-home-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Just eight days to go&#8230;</title>
+		<link>/2010-2-1-just-eight-days-to-go-html/</link>
+					<comments>/2010-2-1-just-eight-days-to-go-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 01 Feb 2010 08:10:30 +0000</pubDate>
+				<category><![CDATA[Domino Community]]></category>
+		<category><![CDATA[lotusbeer]]></category>
+		<category><![CDATA[xpages101]]></category>
+		<guid isPermaLink="false">/2010-2-1-just-eight-days-to-go-html/</guid>
+
+					<description><![CDATA[Next week I am running (with the able assistance of my LDC colleagues) the first iteration of my new XPages101 course. Interest has been gratifyingly high,&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Next week I am running (with the able assistance of my <a href="http://londondevelopercoop.com/">LDC colleagues</a>) the first iteration of my new <a href="http://xpages101.net/">XPages101 course</a>. Interest has been gratifyingly high, but we do still have a very few places left. If you wanted to come along and either the news got lost in amongst all of the #LS10 craziness, or you&#8217;re worried about training costs generally, then I&#8217;d encourage you to check out the <a href="http://xpages101.net/">course page</a>.&nbsp;</p>
+<p>I designed the course to cover as much as possible in a day and the price to be low enough that independent consultants and contractors (my background) can afford to send themselves on it.</p>
+<p>So I hope to see you in London next week. If you can&#8217;t make it during the day for some reason then we are also having a LotusBeer gathering in the evening of the 9th February at the <a href="http://www.foundersarms.co.uk/">Founders Arms</a> from around 6pm. You&#8217;re more than welcome to come along if you&#8217;re in the area.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010-2-1-just-eight-days-to-go-html/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Giant&#8217;s Causeway walking weekend</title>
+		<link>/2009-9-7-giants-causeway-walking-weekend-html/</link>
+					<comments>/2009-9-7-giants-causeway-walking-weekend-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 07 Sep 2009 07:06:48 +0000</pubDate>
+				<category><![CDATA[Domino Community]]></category>
+		<category><![CDATA[walking]]></category>
+		<guid isPermaLink="false">/2009-9-7-giants-causeway-walking-weekend-html/</guid>
+
+					<description><![CDATA[A group of fellow Loti types spent the weekend leeching off the hospitality of Steve McDonagh and walking the clifftops around the Giant&#8217;s Causeway in Northern&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>A group of fellow Loti types spent the weekend leeching off the hospitality of <a href="http://dominoyesmaybe.blogspot.com/">Steve McDonagh</a> and walking the clifftops around the <a href="http://en.wikipedia.org/wiki/Giant's_Causeway">Giant&#8217;s Causeway</a> in Northern Ireland.</p>
+<p>A cracking time all round (and my legs have just about recovered). Full trip report <a href="http://planetlotus.org/56dd80">here</a>&nbsp;and my photos (not nearly as good as Eileen&#8217;s for which I shall blame the phone based camera) are <a href="http://www.flickr.com/photos/11tmr/sets/72157622144825903/">here</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-9-7-giants-causeway-walking-weekend-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>LotusKnows IdeaJam is OPEN!</title>
+		<link>/2009-8-19-lotusknows-ideajam-is-open-html/</link>
+					<comments>/2009-8-19-lotusknows-ideajam-is-open-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 19 Aug 2009 09:36:37 +0000</pubDate>
+				<category><![CDATA[Domino Community]]></category>
+		<category><![CDATA[ideajam]]></category>
+		<category><![CDATA[lotusknows]]></category>
+		<guid isPermaLink="false">/2009-8-19-lotusknows-ideajam-is-open-html/</guid>
+
+					<description><![CDATA[Ever since IamLUG a couple of weeks ago, we&#8217;ve been looking forward to the LotusKnows IdeaJam. For as long as I can remember the Lotus community&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Ever since IamLUG a couple of weeks ago, we&#8217;ve been looking forward to the <a href="http://lotusknows.ideajam.net/">LotusKnows IdeaJam</a>. For as long as I can remember the Lotus community has been asking for more marketing from Lotus generally, well this seems to be the chance we&#8217;ve been waiting for. If you have a great idea or simply want to go and comment and vote on other people&#8217;s thoughts then head on over to the site.</p>
+<p>If you already have an IdeaJam username and password then you don&#8217;t need to register again, but it&#8217;s only a three day event <a href="http://lotusknows.ideajam.net/">so get in there</a> quick and make the most of the opportunity.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-8-19-lotusknows-ideajam-is-open-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>IamLUG Day 2</title>
+		<link>/2009-8-5-iamlug-day-2-html/</link>
+					<comments>/2009-8-5-iamlug-day-2-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Wed, 05 Aug 2009 13:21:17 +0000</pubDate>
+				<category><![CDATA[Domino Community]]></category>
+		<category><![CDATA[gsx day]]></category>
+		<category><![CDATA[iamlug]]></category>
+		<guid isPermaLink="false">/2009-8-5-iamlug-day-2-html/</guid>
+
+					<description><![CDATA[The second and final day of IamLUG was jam packed with sessions including Mary Beth Raven, Jack Ratcliff talking about EXT.ND (which is looking great by&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>The second and final day of IamLUG was jam packed with sessions including Mary Beth Raven, Jack Ratcliff talking about <a href="http://openntf.org/Projects/pmt.nsf/ProjectLookup/Ext.nd">EXT.ND</a> (which is looking great by the way) and, of course, Rob Novak&#8217;s Free American Beer session.</p>
+<p>The point being here that there was great content from some industry leading speakers. The best thing about all of the User Groups that I&#8217;ve been to, though, is the community aspect. Lots of the usual suspects are there and it&#8217;s great to catch up with them, but then you always meet interesting new people as well, it&#8217;s all about the networking.</p>
+<p>The IamLUG crew did an amazing job, they really deserve what sleep they managed to get last night!</p>
+<p>Today it&#8217;s onwards to the GSX day which promises to be interesting. I know it&#8217;s admin stuff, but the server performance monitoring side of things looks really useful when you want to make a very performant Domino web application. More on that tomorrow I hope.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-8-5-iamlug-day-2-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>IamLUG Day 1</title>
+		<link>/2009-8-4-iamlug-day-1-html/</link>
+					<comments>/2009-8-4-iamlug-day-1-html/#respond</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Tue, 04 Aug 2009 12:10:54 +0000</pubDate>
+				<category><![CDATA[Domino Community]]></category>
+		<category><![CDATA[iamlug]]></category>
+		<guid isPermaLink="false">/2009-8-4-iamlug-day-1-html/</guid>
+
+					<description><![CDATA[Into the user group conference proper yesterday. I have to say that the organisation of the hotel, the speakers, registration, food and so on have been&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p>Into the user group conference proper yesterday. I have to say that the organisation of the hotel, the speakers, registration, food and so on have been amazing, having seen behind the scenes of ILUG and UKLUG I know how much hard work is going on, but as an attendee here it all just works very smoothly. So a big well done to the <a href="http://idonotes.com/">Chris</a>, <a href="http://blog.visitusinanguilla.com/">Francie</a> and the rest of the team.</p>
+<p>The keynote by Kevin Kavanaugh was perfectly pitched, no techie content but a very good summary of what&#8217;s going on in the Lotus world at the moment. And then, of course, we got the early announcement of the &#8220;Lotus Knows&#8230;&#8221; marketing campaign that is going to be kicking off in a couple of weeks time. I&#8217;ve been among the most cynical over IBM&#8217;s commitment to getting the Lotus brand into the public consciousness over the last few years, but I have to say that this does feel like the right approach to me. Over the next 18 months hopefully we&#8217;ll begin to see some improvement in the public perception of Lotus Software.</p>
+<p>The sessions that have been laid on are so far very good, I especially enjoyed <a href="http://nsftools.com/">Julian Robichaux&#8217;s</a> getting data out of Domino presentation, and <a href="http://edbrill.com/">Ed Brill&#8217;s</a> strategy session was also good.</p>
+<p>Today it&#8217;s a day full of sessions so it&#8217;s about time to go and get some breakfast before we get going.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-8-4-iamlug-day-1-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>IamLUG Day 0</title>
+		<link>/2009-8-3-iamlug-day-0-html/</link>
+					<comments>/2009-8-3-iamlug-day-0-html/#comments</comments>
+		
+		<dc:creator><![CDATA[mattwhite]]></dc:creator>
+		<pubDate>Mon, 03 Aug 2009 12:07:01 +0000</pubDate>
+				<category><![CDATA[Domino Community]]></category>
+		<category><![CDATA[baseball]]></category>
+		<category><![CDATA[iamlug]]></category>
+		<category><![CDATA[st louis]]></category>
+		<guid isPermaLink="false">/2009-8-3-iamlug-day-0-html/</guid>
+
+					<description><![CDATA[The early arrival on Saturday was so that a group of us could head to see St Louis play at Busch Stadium. With beautiful weather, a&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[<p><span class="full-image-float-right ssNonEditable"><span><a title="IMG_0030 by 11tmr, on Flickr" href="http://www.flickr.com/photos/11tmr/3784162101/"><img loading="lazy" src="/wp-content/uploads/2022/08/3784162101_4995725ce1.jpg" alt="IMG_0030" width="500" height="375" /></a></span></span></p>
+<p>The early arrival on Saturday was so that a group of us could head to see St Louis play at Busch Stadium. With beautiful weather, a nice shaded seat, a couple of beers and some good company, I&#8217;m very glad we came along, a great afternoon. Followed by a very good steak and an early night (the jetlag really kicked in at about 10pm), it was a great setup for the conference proper which starts in a couple of hours.</p>
+<p>According to Chris there will be live coverage of the Opening session <a href="http://bit.ly/9iyao">here</a>, so if you&#8217;re interested to see what&#8217;s going on then it may be worth tuning in.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009-8-3-iamlug-day-0-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
